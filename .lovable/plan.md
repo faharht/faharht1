@@ -1,35 +1,50 @@
-## 1. Remove the search bar and A1/A2/B1/B2 chips
+## Daily goal, streak, and rank system
 
-In `src/routes/index.tsx`, strip the whole filter section: search input, level chips, clear button, "X lists match" hint, and all related state (`SearchState`, `validateSearch`, `useSearch`, `update`, `toggleLevel`, `clearAll`, `matchesFilters`, `listHaystack`, `haystacks`, `filteredBands`, `filterActive`). The home page renders the full BANDS list directly again. `LevelAccordion` loses its `forceOpen` prop and goes back to default-open A1.
+All local-only in the existing zustand store (persisted to this device). No backend changes.
 
-Remove unused imports (`Search`, `X`, `useMemo`, `useNavigate`, `useSearch`-related helpers).
+### Data model — extend `src/lib/trainer/store.ts`
 
-## 2. Bottom navbar + Profile page
+Add to `TrainerState`:
+- `dailyGoal: number` — default **20** reps/day. User-editable.
+- `dailyHistory: Record<string, number>` — keyed by `YYYY-MM-DD` (local time), value = reps that day. Trimmed to last 120 days on each update.
+- `currentStreak: number`, `longestStreak: number`, `lastActiveDate: string | null`.
+- New actions: `setDailyGoal(n)`, internal `recordRep(date, by)` called from `bumpReps`.
 
-Add a fixed bottom nav with two tabs: **Home** (`/`) and **Profile** (`/profile`). It uses TanStack `<Link>` with `activeProps`, sits above the existing `pb-24` spacing, and is rendered once from `src/routes/__root.tsx` so every page has it.
+Streak rule: when today's reps cross `dailyGoal` for the first time today, mark today active. On next rep-bump after a day change, if `lastActiveDate === yesterday` → `currentStreak += 1`; if older → reset to 1. `longestStreak = max(longest, current)`.
 
-New route `src/routes/profile.tsx`:
-- **Guest mode (default)**: shows local stats pulled from the existing zustand `useTrainerStore` — total reps, sentences practiced, mastered count (5★), favorites count, and a small per-level breakdown. A banner explains "You're in guest mode — progress is saved on this device only" with **Sign in** / **Create account** buttons.
-- **Signed in**: same stats card plus email, "Signed in as …", and **Sign out**. (Stats stay local for now; cloud sync is out of scope for this turn — we can add a follow-up to mirror `progress` into a Supabase table.)
-- A "Continue as guest" link/button dismisses the auth prompt if the user opens the auth view.
+Lifetime reps = sum of `dailyHistory` values (and also equals `Σ progress[id].reps`, so we can derive from existing data without migration loss).
 
-### Auth
+### Ranks — new `src/lib/trainer/ranks.ts`
 
-Login/register requires **Lovable Cloud** (currently not enabled in this project). Enabling it provisions the backend so we can use email/password sign-in. Default providers: email/password + Google. Confirm before we enable.
+```ts
+RANKS = [
+  { id: "novice",      label: "Novice",       min: 0,       max: 999     },
+  { id: "apprentice",  label: "Apprentice",   min: 1000,    max: 4999    },
+  { id: "adept",       label: "Adept",        min: 5000,    max: 9999    },
+  { id: "expert",      label: "Expert",       min: 10000,   max: 24999   },
+  { id: "master",      label: "Master",       min: 25000,   max: 99999   },
+  { id: "grandmaster", label: "Grandmaster",  min: 100000,  max: Infinity},
+]
+```
+Each rank gets a color + icon. Helpers: `getRank(reps)`, `getProgressToNext(reps)` → `{ current, next, pct }`.
 
-Profile data: I'll ask whether we need a `profiles` table (username/avatar) or just use `auth.users` for now.
+### UI on `/profile`
 
-## Technical details
+Replace the current "Your stats" header area with three new cards above it:
 
-- `__root.tsx`: add `<BottomNav />` component inside `RootComponent`, after `<Outlet />`. Hide on `/auth` route if we add one.
-- `src/components/BottomNav.tsx`: new, fixed bottom, two `<Link>`s with `Home` and `User` icons from lucide.
-- `src/routes/profile.tsx`: public route. Reads `useTrainerStore((s) => s.progress)` + `favorites`. Computes totals across all lists via `BANDS` from `@/lib/trainer/levels`. Renders either guest banner or signed-in header based on `supabase.auth` session (once Cloud is on).
-- `src/routes/index.tsx`: revert to pre-filter version structurally; keep the hero, BANDS rendering, and `LevelAccordion`.
-- No changes to sentence/grammar data or training logic.
+1. **Today** card — large ring showing `todayReps / dailyGoal`, "X reps today · Y to go", small **Edit goal** button → inline number input (5–500).
+2. **Streak** card — flame icon, big number `currentStreak`, sub-line "Longest: N", and a 14-day mini-grid of dots (filled = goal met, half = some reps, empty = none).
+3. **Rank** card — rank badge (color + label), bar showing progress to next rank, "X / Y reps to {nextLabel}" (or "Top rank reached" for Grandmaster).
 
-## Questions before I implement
+Existing Stat tiles (Reps / Practiced / Mastered / Favorites) stay below.
 
-1. OK to enable Lovable Cloud for auth? (Needed for sign in / register.)
-2. Sign-in methods: email/password only, or also Google?
-3. Do you want a `profiles` table now (username, avatar) or just plain `auth.users`?
-4. Should progress sync to the cloud when signed in, or stay local-only for this turn?
+### List training screen (`src/routes/list.$listId.tsx`)
+
+Tiny addition: when a rep bumps and crosses today's goal for the first time, show a one-shot toast "Daily goal reached — streak +1 🔥". (Uses existing toast infra if present; otherwise a simple inline banner — I'll check on implementation.)
+
+### Out of scope (call out if you want them next)
+
+- Cloud sync of streak/history across devices
+- Per-list daily goal
+- Push/notification reminders
+- Rank-up animations / unlockables
