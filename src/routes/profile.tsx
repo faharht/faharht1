@@ -180,8 +180,29 @@ function ProfilePage() {
           )}
         </section>
 
+        {/* Today goal */}
+        <TodayCard
+          todayReps={todayReps}
+          dailyGoal={dailyGoal}
+          goalPct={goalPct}
+          onSave={setDailyGoal}
+        />
+
+        {/* Streak */}
+        <StreakCard
+          currentStreak={effectiveStreak}
+          longestStreak={longestStreak}
+          last14={last14}
+          dailyGoal={dailyGoal}
+          today={today}
+        />
+
+        {/* Rank */}
+        <RankCard reps={stats.reps} progress={rankProgress} />
+
         {/* Stats card */}
         <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+
           <h2 className="text-sm font-semibold text-foreground">Your stats</h2>
           <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
             <StatTile icon={Repeat} label="Reps" value={stats.reps} tint="violet" />
