@@ -19,6 +19,13 @@ export interface SpeakOptions {
   onBoundary?: (charIndex: number, charLength: number) => void;
 }
 
+// Approximate Russian TTS speed in characters per second at rate=1.
+// Tuned lower (was 14) so word-highlight scheduling matches actual audio
+// pacing more closely on engines that do not emit native boundary events.
+const CHARS_PER_SEC = 12;
+// Small inter-word gap (ms) at rate=1 to account for natural pauses.
+const WORD_GAP_MS = 70;
+
 export function speak(text: string, opts: SpeakOptions = {}): void {
   if (!hasSpeech()) return;
   // Strip combining stress marks — TTS engines mispronounce them.
@@ -27,14 +34,29 @@ export function speak(text: string, opts: SpeakOptions = {}): void {
   u.lang = "ru-RU";
   const voice = getRussianVoice();
   if (voice) u.voice = voice;
-  u.rate = opts.rate ?? 1;
+  const rate = opts.rate ?? 1;
+  u.rate = rate;
   u.pitch = 1;
 
   // Word-boundary support varies. We attach onboundary, and also start a
   // fallback timer that drives word advancement if no boundary fires within
-  // ~400ms (notably iOS Safari).
+  // ~250ms (notably iOS Safari, some Chromium voices).
   let boundaryFired = false;
   let fallbackTimers: ReturnType<typeof setTimeout>[] = [];
+  let startedAt = 0; // ms timestamp when audio actually began
+
+  // Precompute word ranges & cumulative offsets in the cleaned text.
+  const words: Array<{ start: number; length: number; offsetMs: number }> = [];
+  if (opts.onBoundary) {
+    const re = /\p{L}+/gu;
+    let m: RegExpExecArray | null;
+    let cursor = 0;
+    while ((m = re.exec(clean))) {
+      words.push({ start: m.index, length: m[0].length, offsetMs: cursor });
+      const durMs = (m[0].length / CHARS_PER_SEC) * 1000 / rate + WORD_GAP_MS / rate;
+      cursor += durMs;
+    }
+  }
 
   if (opts.onBoundary) {
     u.onboundary = (ev) => {
@@ -43,40 +65,35 @@ export function speak(text: string, opts: SpeakOptions = {}): void {
       opts.onBoundary!(ev.charIndex, (ev as unknown as { charLength?: number }).charLength ?? 0);
     };
 
-    // Precompute word ranges in the cleaned text for the fallback estimator.
-    const words: Array<{ start: number; length: number }> = [];
-    const re = /\p{L}+/gu;
-    let m: RegExpExecArray | null;
-    while ((m = re.exec(clean))) {
-      words.push({ start: m.index, length: m[0].length });
-    }
-    const totalChars = words.reduce((a, w) => a + w.length, 0) || 1;
-    // Rough estimate: 14 chars/sec at rate=1, scaled by rate.
-    const totalMs = (totalChars / 14) * 1000 / (opts.rate ?? 1);
-    let elapsed = 0;
-    const start = Date.now();
-    const startFallback = () => {
-      for (const w of words) {
-        const t = elapsed;
+    const scheduleFallback = () => {
+      if (boundaryFired || words.length === 0) return;
+      const now = Date.now();
+      const elapsed = startedAt > 0 ? now - startedAt : 0;
+      // Find the word currently being spoken; fire it immediately so the
+      // highlight catches up instantly the moment fallback engages.
+      let currentIdx = 0;
+      for (let i = 0; i < words.length; i++) {
+        if (words[i].offsetMs <= elapsed) currentIdx = i;
+        else break;
+      }
+      opts.onBoundary!(words[currentIdx].start, words[currentIdx].length);
+      // Schedule the rest relative to the original audio start anchor.
+      for (let i = currentIdx + 1; i < words.length; i++) {
+        const delay = Math.max(0, words[i].offsetMs - (Date.now() - startedAt));
         fallbackTimers.push(
           setTimeout(() => {
-            if (boundaryFired) return; // native took over
-            opts.onBoundary!(w.start, w.length);
-          }, t),
+            if (boundaryFired) return;
+            opts.onBoundary!(words[i].start, words[i].length);
+          }, delay),
         );
-        elapsed += (w.length / totalChars) * totalMs;
       }
     };
-    // Wait 400ms; if native boundary fired, skip fallback entirely.
+
+    // Probe after 250ms; if native boundary already fired, skip fallback.
     fallbackTimers.push(
       setTimeout(() => {
-        if (!boundaryFired) {
-          // Adjust for already-elapsed time.
-          const drift = Date.now() - start;
-          elapsed = drift;
-          startFallback();
-        }
-      }, 400),
+        if (!boundaryFired) scheduleFallback();
+      }, 250),
     );
   }
 
@@ -85,6 +102,9 @@ export function speak(text: string, opts: SpeakOptions = {}): void {
     fallbackTimers = [];
   };
 
+  u.onstart = () => {
+    startedAt = Date.now();
+  };
   u.onend = () => {
     clearFallback();
     opts.onEnd?.();
@@ -94,6 +114,8 @@ export function speak(text: string, opts: SpeakOptions = {}): void {
     opts.onError?.();
   };
   window.speechSynthesis.cancel();
+  // Anchor immediately as a safety net in case onstart doesn't fire promptly.
+  startedAt = Date.now();
   window.speechSynthesis.speak(u);
 }
 
