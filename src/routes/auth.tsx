@@ -52,13 +52,17 @@ function AuthPage() {
     setInfo(null);
     try {
       if (mode === "signup") {
-        const { error } = await supabase.auth.signUp({
+        const { data, error } = await supabase.auth.signUp({
           email,
           password,
-          options: { emailRedirectTo: window.location.origin + "/profile" },
+          options: { emailRedirectTo: window.location.origin + "/onboarding" },
         });
         if (error) throw error;
-        setInfo("Check your email to confirm your account, then sign in.");
+        if (data.session) {
+          navigate({ to: "/onboarding" });
+        } else {
+          setInfo("Check your email to confirm your account, then sign in.");
+        }
       } else {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
@@ -70,6 +74,7 @@ function AuthPage() {
       setBusy(false);
     }
   }
+
 
   async function handleGoogle() {
     setBusy(true);
