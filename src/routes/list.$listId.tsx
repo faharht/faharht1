@@ -79,6 +79,16 @@ function ListPage() {
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [focusId, setFocusId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!focusId) return;
+    const el = document.getElementById(`s-${focusId}`);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+    const t = setTimeout(() => setFocusId(null), 1400);
+    return () => clearTimeout(t);
+  }, [focusId]);
+
 
   const visibleSentences = useMemo(() => {
     let list = sentences;
