@@ -1,10 +1,12 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { LogOut, Sparkles, Trophy, Repeat, Star, Heart } from "lucide-react";
+import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Pencil, Check, X } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
-import { useTrainerStore } from "@/lib/trainer/store";
+import { useTrainerStore, todayKey } from "@/lib/trainer/store";
 import { BANDS, type LevelId } from "@/lib/trainer/levels";
+import { getProgressToNext } from "@/lib/trainer/ranks";
 import { cn } from "@/lib/utils";
+
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
@@ -28,6 +30,13 @@ function ProfilePage() {
 
   const progress = useTrainerStore((s) => s.progress);
   const favorites = useTrainerStore((s) => s.favorites);
+  const dailyGoal = useTrainerStore((s) => s.dailyGoal);
+  const dailyHistory = useTrainerStore((s) => s.dailyHistory);
+  const currentStreak = useTrainerStore((s) => s.currentStreak);
+  const longestStreak = useTrainerStore((s) => s.longestStreak);
+  const lastActiveDate = useTrainerStore((s) => s.lastActiveDate);
+  const setDailyGoal = useTrainerStore((s) => s.setDailyGoal);
+
 
   useEffect(() => {
     let mounted = true;
