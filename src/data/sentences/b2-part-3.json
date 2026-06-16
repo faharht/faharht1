@@ -1,0 +1,702 @@
+[
+  {
+    "id": "b2-part-3-1",
+    "ru": "Не вешай нос, всё будет хорошо!",
+    "ruStressed": "Не ве́шай нос, всё бу́дет хорошо́!",
+    "translit": "Ne veshay nos, vsyo budet khorosho!",
+    "en": "Don't be sad, everything will be fine!"
+  },
+  {
+    "id": "b2-part-3-2",
+    "ru": "Он бьёт баклуши целыми днями.",
+    "ruStressed": "Он бьёт баклу́ши це́лыми дня́ми.",
+    "translit": "On byot baklushi tselymi dnyami.",
+    "en": "He twiddles his thumbs all day long."
+  },
+  {
+    "id": "b2-part-3-3",
+    "ru": "Это работа спустя рукава.",
+    "ruStressed": "Э́то рабо́та спустя́ рукава́.",
+    "translit": "Eto rabota spustya rukava.",
+    "en": "This is slipshod work."
+  },
+  {
+    "id": "b2-part-3-4",
+    "ru": "Не за что переживать — это пустяки.",
+    "ruStressed": "Не за что пережива́ть — э́то пустяки́.",
+    "translit": "Ne za chto perezhivat — eto pustyaki.",
+    "en": "There's nothing to worry about — it's trifles."
+  },
+  {
+    "id": "b2-part-3-5",
+    "ru": "Он наобещал с три короба.",
+    "ruStressed": "Он наобеща́л с три ко́роба.",
+    "translit": "On naobeshchal s tri koroba.",
+    "en": "He promised a heap of things (more than he can deliver)."
+  },
+  {
+    "id": "b2-part-3-6",
+    "ru": "У него денег куры не клюют.",
+    "ruStressed": "У него́ де́нег ку́ры не клюю́т.",
+    "translit": "U nego deneg kury ne klyuyut.",
+    "en": "He is rolling in money."
+  },
+  {
+    "id": "b2-part-3-7",
+    "ru": "Это как дважды два — четыре.",
+    "ruStressed": "Э́то как два́жды два — четы́ре.",
+    "translit": "Eto kak dvazhdy dva — chetyre.",
+    "en": "It's as simple as two times two equals four."
+  },
+  {
+    "id": "b2-part-3-8",
+    "ru": "Не лезь на рожон!",
+    "ruStressed": "Не лезь на рожо́н!",
+    "translit": "Ne lez na rozhon!",
+    "en": "Don't ask for trouble!"
+  },
+  {
+    "id": "b2-part-3-9",
+    "ru": "Он держит язык за зубами.",
+    "ruStressed": "Он де́ржит язы́к за зуба́ми.",
+    "translit": "On derzhit yazyk za zubami.",
+    "en": "He keeps his mouth shut."
+  },
+  {
+    "id": "b2-part-3-10",
+    "ru": "Ну, ты даёшь!",
+    "ruStressed": "Ну, ты даёшь!",
+    "translit": "Nu, ty dayosh!",
+    "en": "Wow, you're something!"
+  },
+  {
+    "id": "b2-part-3-11",
+    "ru": "Это в одно ухо влетело, в другое вылетело.",
+    "ruStressed": "Э́то в одно́ у́хо влете́ло, в друго́е вы́летело.",
+    "translit": "Eto v odno ukho vletelo, v drugoe vyletelo.",
+    "en": "It went in one ear and out the other."
+  },
+  {
+    "id": "b2-part-3-12",
+    "ru": "Делать из мухи слона — его любимое занятие.",
+    "ruStressed": "Де́лать из му́хи слона́ — его́ люби́мое заня́тие.",
+    "translit": "Delat iz mukhi slona — ego lyubimoe zanyatie.",
+    "en": "Making a mountain out of a molehill is his favourite pastime."
+  },
+  {
+    "id": "b2-part-3-13",
+    "ru": "Мы работаем не покладая рук.",
+    "ruStressed": "Мы рабо́таем не покла́дая рук.",
+    "translit": "My rabotaem ne pokladaya ruk.",
+    "en": "We work tirelessly."
+  },
+  {
+    "id": "b2-part-3-14",
+    "ru": "Бабушка надвое сказала.",
+    "ruStressed": "Ба́бушка на́двое сказа́ла.",
+    "translit": "Babushka nadvoe skazala.",
+    "en": "It's still up in the air (lit. grandma said it two ways)."
+  },
+  {
+    "id": "b2-part-3-15",
+    "ru": "Ну, погнали!",
+    "ruStressed": "Ну, погна́ли!",
+    "translit": "Nu, pognali!",
+    "en": "Well, let's get going!"
+  },
+  {
+    "id": "b2-part-3-16",
+    "ru": "Он же мне всю плешь проел.",
+    "ruStressed": "Он же мне всю плешь прое́л.",
+    "translit": "On zhe mne vsyu plesh proel.",
+    "en": "He's been nagging me to death."
+  },
+  {
+    "id": "b2-part-3-17",
+    "ru": "Зуб даю, что это правда.",
+    "ruStressed": "Зуб даю́, что э́то пра́вда.",
+    "translit": "Zub dayu, chto eto pravda.",
+    "en": "I swear it's true."
+  },
+  {
+    "id": "b2-part-3-18",
+    "ru": "Что-то я туплю сегодня.",
+    "ruStressed": "Что́-то я туплю́ сего́дня.",
+    "translit": "Chto-to ya tuplyu segodnya.",
+    "en": "I'm a bit slow today."
+  },
+  {
+    "id": "b2-part-3-19",
+    "ru": "Это полная ерунда!",
+    "ruStressed": "Э́то по́лная ерунда́!",
+    "translit": "Eto polnaya erunda!",
+    "en": "It's complete nonsense!"
+  },
+  {
+    "id": "b2-part-3-20",
+    "ru": "Он влип по уши.",
+    "ruStressed": "Он влип по у́ши.",
+    "translit": "On vlip po ushi.",
+    "en": "He got into deep trouble."
+  },
+  {
+    "id": "b2-part-3-21",
+    "ru": "Хватит валять дурака!",
+    "ruStressed": "Хва́тит валя́ть дурака́!",
+    "translit": "Khvatit valyat duraka!",
+    "en": "Stop fooling around!"
+  },
+  {
+    "id": "b2-part-3-22",
+    "ru": "Я тебе позвоню, не парься.",
+    "ruStressed": "Я тебе́ позвоню́, не па́рься.",
+    "translit": "Ya tebe pozvonyu, ne parsya.",
+    "en": "I'll call you, don't sweat it."
+  },
+  {
+    "id": "b2-part-3-23",
+    "ru": "Это вообще не моё дело.",
+    "ruStressed": "Э́то вообще́ не моё де́ло.",
+    "translit": "Eto voobshche ne moyo delo.",
+    "en": "It's none of my business."
+  },
+  {
+    "id": "b2-part-3-24",
+    "ru": "Он отличный мужик.",
+    "ruStressed": "Он отли́чный мужи́к.",
+    "translit": "On otlichnyy muzhik.",
+    "en": "He's a great guy."
+  },
+  {
+    "id": "b2-part-3-25",
+    "ru": "Я просто в шоке от этой новости.",
+    "ruStressed": "Я про́сто в шо́ке от э́той но́вости.",
+    "translit": "Ya prosto v shoke ot etoy novosti.",
+    "en": "I'm just shocked by this news."
+  },
+  {
+    "id": "b2-part-3-26",
+    "ru": "Не парься, всё уладится.",
+    "ruStressed": "Не па́рься, всё ула́дится.",
+    "translit": "Ne parsya, vsyo uladitsya.",
+    "en": "Don't stress, everything will work out."
+  },
+  {
+    "id": "b2-part-3-27",
+    "ru": "Дело в шляпе!",
+    "ruStressed": "Де́ло в шля́пе!",
+    "translit": "Delo v shlyape!",
+    "en": "It's in the bag!"
+  },
+  {
+    "id": "b2-part-3-28",
+    "ru": "Он попал в самое яблочко.",
+    "ruStressed": "Он попа́л в са́мое я́блочко.",
+    "translit": "On popal v samoe yablochko.",
+    "en": "He hit the bullseye."
+  },
+  {
+    "id": "b2-part-3-29",
+    "ru": "Как с гуся вода.",
+    "ruStressed": "Как с гу́ся вода́.",
+    "translit": "Kak s gusya voda.",
+    "en": "Like water off a duck's back."
+  },
+  {
+    "id": "b2-part-3-30",
+    "ru": "Куда тебя несёт?",
+    "ruStressed": "Куда́ тебя́ несёт?",
+    "translit": "Kuda tebya nesyot?",
+    "en": "Where on earth are you going?"
+  },
+  {
+    "id": "b2-part-3-31",
+    "ru": "Он совсем рехнулся.",
+    "ruStressed": "Он совсе́м рехну́лся.",
+    "translit": "On sovsem rekhnulsya.",
+    "en": "He's gone completely crazy."
+  },
+  {
+    "id": "b2-part-3-32",
+    "ru": "Это копейки!",
+    "ruStressed": "Э́то копе́йки!",
+    "translit": "Eto kopeyki!",
+    "en": "It's peanuts!"
+  },
+  {
+    "id": "b2-part-3-33",
+    "ru": "Ну ты загнул!",
+    "ruStressed": "Ну ты загну́л!",
+    "translit": "Nu ty zagnul!",
+    "en": "Now you're exaggerating!"
+  },
+  {
+    "id": "b2-part-3-34",
+    "ru": "Я тебя умоляю!",
+    "ruStressed": "Я тебя́ умоля́ю!",
+    "translit": "Ya tebya umolyayu!",
+    "en": "Oh, please!"
+  },
+  {
+    "id": "b2-part-3-35",
+    "ru": "Давай по-быстрому.",
+    "ruStressed": "Дава́й по-бы́строму.",
+    "translit": "Davay po-bystromu.",
+    "en": "Let's do it quickly."
+  },
+  {
+    "id": "b2-part-3-36",
+    "ru": "Он любит лапшу на уши вешать.",
+    "ruStressed": "Он лю́бит лапшу́ на у́ши ве́шать.",
+    "translit": "On lyubit lapshu na ushi veshat.",
+    "en": "He likes to pull the wool over people's eyes."
+  },
+  {
+    "id": "b2-part-3-37",
+    "ru": "Я не в курсе, что там происходит.",
+    "ruStressed": "Я не в ку́рсе, что там происхо́дит.",
+    "translit": "Ya ne v kurse, chto tam proiskhodit.",
+    "en": "I'm not aware of what's going on there."
+  },
+  {
+    "id": "b2-part-3-38",
+    "ru": "Тише едешь — дальше будешь.",
+    "ruStressed": "Ти́ше е́дешь — да́льше бу́дешь.",
+    "translit": "Tishe edesh — dalshe budesh.",
+    "en": "Slow and steady wins the race."
+  },
+  {
+    "id": "b2-part-3-39",
+    "ru": "Без труда не выловишь и рыбку из пруда.",
+    "ruStressed": "Без труда́ не вы́ловишь и ры́бку из пруда́.",
+    "translit": "Bez truda ne vylovish i rybku iz pruda.",
+    "en": "No pain, no gain."
+  },
+  {
+    "id": "b2-part-3-40",
+    "ru": "В тихом омуте черти водятся.",
+    "ruStressed": "В ти́хом о́муте че́рти во́дятся.",
+    "translit": "V tikhom omute cherti vodyatsya.",
+    "en": "Still waters run deep."
+  },
+  {
+    "id": "b2-part-3-41",
+    "ru": "Не имей сто рублей, а имей сто друзей.",
+    "ruStressed": "Не име́й сто рубле́й, а име́й сто друзе́й.",
+    "translit": "Ne imey sto rubley, a imey sto druzey.",
+    "en": "Better a hundred friends than a hundred roubles."
+  },
+  {
+    "id": "b2-part-3-42",
+    "ru": "Цыплят по осени считают.",
+    "ruStressed": "Цыпля́т по о́сени счита́ют.",
+    "translit": "Tsyplyat po oseni schitayut.",
+    "en": "Don't count your chickens before they hatch."
+  },
+  {
+    "id": "b2-part-3-43",
+    "ru": "Слово — серебро, молчание — золото.",
+    "ruStressed": "Сло́во — серебро́, молча́ние — зо́лото.",
+    "translit": "Slovo — serebro, molchanie — zoloto.",
+    "en": "Speech is silver, silence is golden."
+  },
+  {
+    "id": "b2-part-3-44",
+    "ru": "Любишь кататься — люби и саночки возить.",
+    "ruStressed": "Лю́бишь ката́ться — люби́ и са́ночки вози́ть.",
+    "translit": "Lyubish katatsya — lyubi i sanochki vozit.",
+    "en": "If you like riding, you must like to pull the sled."
+  },
+  {
+    "id": "b2-part-3-45",
+    "ru": "Семь раз отмерь, один раз отрежь.",
+    "ruStressed": "Семь раз отме́рь, оди́н раз отре́жь.",
+    "translit": "Sem raz otmer, odin raz otrezh.",
+    "en": "Measure seven times, cut once."
+  },
+  {
+    "id": "b2-part-3-46",
+    "ru": "Не всё то золото, что блестит.",
+    "ruStressed": "Не всё то зо́лото, что блести́т.",
+    "translit": "Ne vsyo to zoloto, chto blestit.",
+    "en": "All that glitters is not gold."
+  },
+  {
+    "id": "b2-part-3-47",
+    "ru": "На безрыбье и рак — рыба.",
+    "ruStressed": "На безры́бье и рак — ры́ба.",
+    "translit": "Na bezrybe i rak — ryba.",
+    "en": "In the absence of fish, a crab is also fish."
+  },
+  {
+    "id": "b2-part-3-48",
+    "ru": "Голод не тётка.",
+    "ruStressed": "Го́лод не тётка.",
+    "translit": "Golod ne tyotka.",
+    "en": "Hunger is no joke."
+  },
+  {
+    "id": "b2-part-3-49",
+    "ru": "Утро вечера мудренее.",
+    "ruStressed": "У́тро ве́чера мудрене́е.",
+    "translit": "Utro vechera mudrenee.",
+    "en": "The morning is wiser than the evening."
+  },
+  {
+    "id": "b2-part-3-50",
+    "ru": "Старый друг лучше новых двух.",
+    "ruStressed": "Ста́рый друг лу́чше но́вых двух.",
+    "translit": "Staryy drug luchshe novykh dvukh.",
+    "en": "An old friend is better than two new ones."
+  },
+  {
+    "id": "b2-part-3-51",
+    "ru": "Друг познаётся в беде.",
+    "ruStressed": "Друг познаётся в беде́.",
+    "translit": "Drug poznayotsya v bede.",
+    "en": "A friend in need is a friend indeed."
+  },
+  {
+    "id": "b2-part-3-52",
+    "ru": "Лучше поздно, чем никогда.",
+    "ruStressed": "Лу́чше по́здно, чем никогда́.",
+    "translit": "Luchshe pozdno, chem nikogda.",
+    "en": "Better late than never."
+  },
+  {
+    "id": "b2-part-3-53",
+    "ru": "Терпение и труд всё перетрут.",
+    "ruStressed": "Терпе́ние и труд всё перетру́т.",
+    "translit": "Terpenie i trud vsyo peretrut.",
+    "en": "Patience and work wear everything down."
+  },
+  {
+    "id": "b2-part-3-54",
+    "ru": "Век живи — век учись.",
+    "ruStressed": "Век живи́ — век учи́сь.",
+    "translit": "Vek zhivi — vek uchis.",
+    "en": "Live and learn."
+  },
+  {
+    "id": "b2-part-3-55",
+    "ru": "Яблоко от яблони недалеко падает.",
+    "ruStressed": "Я́блоко от я́блони недалеко́ па́дает.",
+    "translit": "Yabloko ot yabloni nedaleko padaet.",
+    "en": "The apple doesn't fall far from the tree."
+  },
+  {
+    "id": "b2-part-3-56",
+    "ru": "Глаза боятся, а руки делают.",
+    "ruStressed": "Глаза́ боя́тся, а ру́ки де́лают.",
+    "translit": "Glaza boyatsya, a ruki delayut.",
+    "en": "Eyes fear, but hands do."
+  },
+  {
+    "id": "b2-part-3-57",
+    "ru": "Лес рубят — щепки летят.",
+    "ruStressed": "Лес ру́бят — ще́пки летя́т.",
+    "translit": "Les rubyat — shchepki letyat.",
+    "en": "When chopping wood, chips fly (you can't make an omelette without breaking eggs)."
+  },
+  {
+    "id": "b2-part-3-58",
+    "ru": "Один в поле не воин.",
+    "ruStressed": "Оди́н в по́ле не во́ин.",
+    "translit": "Odin v pole ne voin.",
+    "en": "One man is no warrior in the field."
+  },
+  {
+    "id": "b2-part-3-59",
+    "ru": "Слово не воробей: вылетит — не поймаешь.",
+    "ruStressed": "Сло́во не воробе́й: вы́летит — не пойма́ешь.",
+    "translit": "Slovo ne vorobey: vyletit — ne poymaesh.",
+    "en": "A word is not a sparrow; once it flies out, you can't catch it."
+  },
+  {
+    "id": "b2-part-3-60",
+    "ru": "Семь пятниц на неделе.",
+    "ruStressed": "Семь пя́тниц на неде́ле.",
+    "translit": "Sem pyatnits na nedele.",
+    "en": "He changes his mind constantly."
+  },
+  {
+    "id": "b2-part-3-61",
+    "ru": "Как корова языком слизала.",
+    "ruStressed": "Как коро́ва языко́м слиза́ла.",
+    "translit": "Kak korova yazykom slizala.",
+    "en": "Vanished without a trace."
+  },
+  {
+    "id": "b2-part-3-62",
+    "ru": "Душа в пятки ушла.",
+    "ruStressed": "Душа́ в пя́тки ушла́.",
+    "translit": "Dusha v pyatki ushla.",
+    "en": "My heart sank into my boots."
+  },
+  {
+    "id": "b2-part-3-63",
+    "ru": "У него руки растут не из того места.",
+    "ruStressed": "У него́ ру́ки расту́т не из того́ ме́ста.",
+    "translit": "U nego ruki rastut ne iz togo mesta.",
+    "en": "He has two left hands."
+  },
+  {
+    "id": "b2-part-3-64",
+    "ru": "Он плывёт по течению.",
+    "ruStressed": "Он плывёт по тече́нию.",
+    "translit": "On plyvyot po techeniyu.",
+    "en": "He goes with the flow."
+  },
+  {
+    "id": "b2-part-3-65",
+    "ru": "Это седьмая вода на киселе.",
+    "ruStressed": "Э́то седьма́я вода́ на киселе́.",
+    "translit": "Eto sedmaya voda na kisele.",
+    "en": "He's a distant relative."
+  },
+  {
+    "id": "b2-part-3-66",
+    "ru": "Бить тревогу пора уже давно.",
+    "ruStressed": "Бить трево́гу пора́ уже́ давно́.",
+    "translit": "Bit trevogu pora uzhe davno.",
+    "en": "It's high time to sound the alarm."
+  },
+  {
+    "id": "b2-part-3-67",
+    "ru": "Я уже на нервах.",
+    "ruStressed": "Я уже́ на не́рвах.",
+    "translit": "Ya uzhe na nervakh.",
+    "en": "I'm already on edge."
+  },
+  {
+    "id": "b2-part-3-68",
+    "ru": "Хоть стой, хоть падай!",
+    "ruStressed": "Хоть стой, хоть па́дай!",
+    "translit": "Khot stoy, khot paday!",
+    "en": "Unbelievable! (lit. either stand or fall)"
+  },
+  {
+    "id": "b2-part-3-69",
+    "ru": "Это ни в какие ворота не лезет.",
+    "ruStressed": "Э́то ни в каки́е воро́та не ле́зет.",
+    "translit": "Eto ni v kakie vorota ne lezet.",
+    "en": "It's beyond all bounds."
+  },
+  {
+    "id": "b2-part-3-70",
+    "ru": "Ходить вокруг да около.",
+    "ruStressed": "Ходи́ть вокру́г да о́коло.",
+    "translit": "Khodit vokrug da okolo.",
+    "en": "To beat around the bush."
+  },
+  {
+    "id": "b2-part-3-71",
+    "ru": "Сидеть сложа руки.",
+    "ruStressed": "Сиде́ть сложа́ ру́ки.",
+    "translit": "Sidet slozha ruki.",
+    "en": "To sit with folded hands (do nothing)."
+  },
+  {
+    "id": "b2-part-3-72",
+    "ru": "Он встал не с той ноги.",
+    "ruStressed": "Он встал не с той ноги́.",
+    "translit": "On vstal ne s toy nogi.",
+    "en": "He got out of bed on the wrong side."
+  },
+  {
+    "id": "b2-part-3-73",
+    "ru": "У страха глаза велики.",
+    "ruStressed": "У стра́ха глаза́ велики́.",
+    "translit": "U strakha glaza veliki.",
+    "en": "Fear has big eyes."
+  },
+  {
+    "id": "b2-part-3-74",
+    "ru": "Голова идёт кругом.",
+    "ruStressed": "Голова́ идёт кру́гом.",
+    "translit": "Golova idyot krugom.",
+    "en": "My head is spinning."
+  },
+  {
+    "id": "b2-part-3-75",
+    "ru": "Уши вянут от такого разговора.",
+    "ruStressed": "У́ши вя́нут от тако́го разгово́ра.",
+    "translit": "Ushi vyanut ot takogo razgovora.",
+    "en": "My ears wilt from such a conversation."
+  },
+  {
+    "id": "b2-part-3-76",
+    "ru": "Это последняя капля!",
+    "ruStressed": "Э́то после́дняя ка́пля!",
+    "translit": "Eto poslednyaya kaplya!",
+    "en": "That's the last straw!"
+  },
+  {
+    "id": "b2-part-3-77",
+    "ru": "Между ними кошка пробежала.",
+    "ruStressed": "Ме́жду ни́ми ко́шка пробежа́ла.",
+    "translit": "Mezhdu nimi koshka probezhala.",
+    "en": "Something has come between them."
+  },
+  {
+    "id": "b2-part-3-78",
+    "ru": "Ну и дела!",
+    "ruStressed": "Ну и дела́!",
+    "translit": "Nu i dela!",
+    "en": "Well, what a thing!"
+  },
+  {
+    "id": "b2-part-3-79",
+    "ru": "Это просто отпад!",
+    "ruStressed": "Э́то про́сто отпа́д!",
+    "translit": "Eto prosto otpad!",
+    "en": "It's just awesome!"
+  },
+  {
+    "id": "b2-part-3-80",
+    "ru": "Класс! Я в восторге.",
+    "ruStressed": "Класс! Я в восто́рге.",
+    "translit": "Klass! Ya v vostorge.",
+    "en": "Cool! I'm thrilled."
+  },
+  {
+    "id": "b2-part-3-81",
+    "ru": "Не бери в голову.",
+    "ruStressed": "Не бери́ в го́лову.",
+    "translit": "Ne beri v golovu.",
+    "en": "Don't take it to heart."
+  },
+  {
+    "id": "b2-part-3-82",
+    "ru": "Ноги моей здесь больше не будет.",
+    "ruStressed": "Ноги́ мое́й здесь бо́льше не бу́дет.",
+    "translit": "Nogi moey zdes bolshe ne budet.",
+    "en": "I'll never set foot here again."
+  },
+  {
+    "id": "b2-part-3-83",
+    "ru": "Он спустил всё на тормозах.",
+    "ruStressed": "Он спусти́л всё на тормоза́х.",
+    "translit": "On spustil vsyo na tormozakh.",
+    "en": "He let the matter drop quietly."
+  },
+  {
+    "id": "b2-part-3-84",
+    "ru": "Глаз да глаз нужен за ним.",
+    "ruStressed": "Глаз да глаз ну́жен за ним.",
+    "translit": "Glaz da glaz nuzhen za nim.",
+    "en": "He needs constant watching."
+  },
+  {
+    "id": "b2-part-3-85",
+    "ru": "Вешать всех собак на кого-то.",
+    "ruStressed": "Ве́шать всех соба́к на кого́-то.",
+    "translit": "Veshat vsekh sobak na kogo-to.",
+    "en": "To blame everything on someone."
+  },
+  {
+    "id": "b2-part-3-86",
+    "ru": "У него язык без костей.",
+    "ruStressed": "У него́ язы́к без косте́й.",
+    "translit": "U nego yazyk bez kostey.",
+    "en": "He talks too much."
+  },
+  {
+    "id": "b2-part-3-87",
+    "ru": "Не сыпь мне соль на рану.",
+    "ruStressed": "Не сыпь мне соль на ра́ну.",
+    "translit": "Ne syp mne sol na ranu.",
+    "en": "Don't rub salt in my wound."
+  },
+  {
+    "id": "b2-part-3-88",
+    "ru": "Палец в рот не клади.",
+    "ruStressed": "Па́лец в рот не клади́.",
+    "translit": "Palets v rot ne kladi.",
+    "en": "Don't put your finger in his mouth (he can stand up for himself)."
+  },
+  {
+    "id": "b2-part-3-89",
+    "ru": "Ни рыба ни мясо.",
+    "ruStressed": "Ни ры́ба ни мя́со.",
+    "translit": "Ni ryba ni myaso.",
+    "en": "Neither fish nor fowl."
+  },
+  {
+    "id": "b2-part-3-90",
+    "ru": "Он крутится как белка в колесе.",
+    "ruStressed": "Он кру́тится как бе́лка в колесе́.",
+    "translit": "On krutitsya kak belka v kolese.",
+    "en": "He's spinning like a squirrel in a wheel."
+  },
+  {
+    "id": "b2-part-3-91",
+    "ru": "Голодный как волк.",
+    "ruStressed": "Голо́дный как волк.",
+    "translit": "Golodnyy kak volk.",
+    "en": "Hungry as a wolf."
+  },
+  {
+    "id": "b2-part-3-92",
+    "ru": "Делать что-то на скорую руку.",
+    "ruStressed": "Де́лать что́-то на ско́рую ру́ку.",
+    "translit": "Delat chto-to na skoruyu ruku.",
+    "en": "To do something hastily."
+  },
+  {
+    "id": "b2-part-3-93",
+    "ru": "Висит на волоске.",
+    "ruStressed": "Виси́т на волоске́.",
+    "translit": "Visit na voloske.",
+    "en": "It hangs by a thread."
+  },
+  {
+    "id": "b2-part-3-94",
+    "ru": "Кататься как сыр в масле.",
+    "ruStressed": "Ката́ться как сыр в ма́сле.",
+    "translit": "Katatsya kak syr v masle.",
+    "en": "To live in clover (lit. roll like cheese in butter)."
+  },
+  {
+    "id": "b2-part-3-95",
+    "ru": "В чужой монастырь со своим уставом не ходят.",
+    "ruStressed": "В чужо́й монасты́рь со свои́м уста́вом не хо́дят.",
+    "translit": "V chuzhoy monastyr so svoim ustavom ne khodyat.",
+    "en": "When in Rome, do as the Romans do."
+  },
+  {
+    "id": "b2-part-3-96",
+    "ru": "Что посеешь, то и пожнёшь.",
+    "ruStressed": "Что посе́ешь, то и пожнёшь.",
+    "translit": "Chto poseesh, to i pozhnyosh.",
+    "en": "As you sow, so shall you reap."
+  },
+  {
+    "id": "b2-part-3-97",
+    "ru": "Своя рубаха ближе к телу.",
+    "ruStressed": "Своя́ руба́ха бли́же к те́лу.",
+    "translit": "Svoya rubakha blizhe k telu.",
+    "en": "Charity begins at home."
+  },
+  {
+    "id": "b2-part-3-98",
+    "ru": "За двумя зайцами погонишься — ни одного не поймаешь.",
+    "ruStressed": "За двумя́ за́йцами пого́нишься — ни одного́ не пойма́ешь.",
+    "translit": "Za dvumya zaytsami pogonishsya — ni odnogo ne poymaesh.",
+    "en": "If you chase two hares, you'll catch none."
+  },
+  {
+    "id": "b2-part-3-99",
+    "ru": "Не плюй в колодец — пригодится воды напиться.",
+    "ruStressed": "Не плюй в коло́дец — пригоди́тся воды́ напи́ться.",
+    "translit": "Ne plyuy v kolodets — prigoditsya vody napitsya.",
+    "en": "Don't spit in the well — you may need to drink from it."
+  },
+  {
+    "id": "b2-part-3-100",
+    "ru": "Куй железо, пока горячо.",
+    "ruStressed": "Куй желе́зо, пока́ горячо́.",
+    "translit": "Kuy zhelezo, poka goryacho.",
+    "en": "Strike while the iron is hot."
+  }
+]

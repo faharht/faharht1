@@ -1,0 +1,352 @@
+[
+  {
+    "id": "b2-part-1-1",
+    "ru": "Люди, живущие в больших городах, часто страдают от нехватки искреннего общения.",
+    "ruStressed": "Лю́ди, живу́щие в больши́х города́х, ча́сто страда́ют от нехва́тки и́скреннего обще́ния.",
+    "translit": "Lyudi, zhivushchie v bolshikh gorodakh, chasto stradayut ot nekhvatki iskrennego obshcheniya.",
+    "en": "People living in large cities often suffer from a lack of genuine communication."
+  },
+  {
+    "id": "b2-part-1-2",
+    "ru": "Закончив проект вовремя, команда приступила к обсуждению новых социальных инициатив.",
+    "ruStressed": "Зако́нчив прое́кт во́время, кома́нда приступи́ла к обсужде́нию но́вых социа́льных инициати́в.",
+    "translit": "Zakonchiv proekt vovremya, komanda pristupila k obsuzhdeniyu novykh sotsialnykh initsiativ.",
+    "en": "Having finished the project on time, the team began discussing new social initiatives."
+  },
+  {
+    "id": "b2-part-1-3",
+    "ru": "Реформы, проводимые правительством, вызывают неоднозначную реакцию в обществе.",
+    "ruStressed": "Рефо́рмы, проводи́мые прави́тельством, вызыва́ют неоднозна́чную реа́кцию в о́бществе.",
+    "translit": "Reformy, provodimye pravitelstvom, vyzyvayut neodnoznachnuyu reaktsiyu v obshchestve.",
+    "en": "The reforms being implemented by the government are causing mixed reactions in society."
+  },
+  {
+    "id": "b2-part-1-4",
+    "ru": "Размышляя о будущем, я осознал важность качественного образования для каждого человека.",
+    "ruStressed": "Размышля́я о бу́дущем, я осозна́л ва́жность ка́чественного образова́ния для ка́ждого челове́ка.",
+    "translit": "Razmyshlyaya o budushchem, ya osoznal vazhnost kachestvennogo obrazovaniya dlya kazhdogo cheloveka.",
+    "en": "While reflecting on the future, I realized the importance of quality education for everyone."
+  },
+  {
+    "id": "b2-part-1-5",
+    "ru": "Закон, принятый в прошлом году, существенно изменил правила работы для малого бизнеса.",
+    "ruStressed": "Зако́н, при́нятый в про́шлом году́, суще́ственно измени́л пра́вила рабо́ты для ма́лого би́знеса.",
+    "translit": "Zakon, prinyatyy v proshlom godu, sushchestvenno izmenil pravila raboty dlya malogo biznesa.",
+    "en": "The law adopted last year significantly changed the rules for small businesses."
+  },
+  {
+    "id": "b2-part-1-6",
+    "ru": "Отвечая на вопросы журналистов, политик старался избегать прямых и резких высказываний.",
+    "ruStressed": "Отвеча́я на вопро́сы журнали́стов, поли́тик стара́лся избега́ть прямы́х и ре́зких выска́зываний.",
+    "translit": "Otvechaya na voprosy zhurnalistov, politik staralsya izbegat pryamykh i rezkikh vyskazyvaniy.",
+    "en": "Answering the journalist's questions, the politician tried to avoid direct statements."
+  },
+  {
+    "id": "b2-part-1-7",
+    "ru": "Ценности, разделяемые молодым поколением, отличаются от взглядов их родителей.",
+    "ruStressed": "Це́нности, разделя́емые молоды́м поколе́нием, отлича́ются от взгля́дов и́х роди́телей.",
+    "translit": "Tsennosti, razdelyayemye molodym pokoleniyem, otlichayutsya ot vzglyadov ikh roditeley.",
+    "en": "The values shared by the younger generation differ from those of their parents."
+  },
+  {
+    "id": "b2-part-1-8",
+    "ru": "Осознав свою ошибку, директор решил изменить внутреннюю политику компании.",
+    "ruStressed": "Осозна́в свою́ оши́бку, дире́ктор реши́л измени́ть вну́треннюю поли́тику компа́нии.",
+    "translit": "Osoznav svoyu oshibku, direktor reshil izmenit vnutrennyuyu politiku kompanii.",
+    "en": "Having realized his mistake, the director decided to change the company's internal policy."
+  },
+  {
+    "id": "b2-part-1-9",
+    "ru": "Вопросы, касающиеся экологии, становятся всё более актуальными с каждым днём.",
+    "ruStressed": "Вопро́сы, каса́ющиеся эколо́гии, стано́вятся всё бо́лее актуа́льными с ка́ждым днём.",
+    "translit": "Voprosy, kasayushchiesya ekologii, stanovyatsya vsyo bolee aktualnymi s kazhdym dnyom.",
+    "en": "Questions concerning the environment are becoming more relevant every day."
+  },
+  {
+    "id": "b2-part-1-10",
+    "ru": "Художник, вдохновлённый красотой природы, создал серию удивительных и ярких картин.",
+    "ruStressed": "Худо́жник, вдохновлённый красото́й приро́ды, со́здал се́рию удиви́тельных и я́рких карти́н.",
+    "translit": "Khudozhnik, vdokhnovlyonnyy krasotoy prirody, sozdal seriyu udivitelnykh i yarkikh kartin.",
+    "en": "The artist, inspired by the beauty of nature, created a series of amazing paintings."
+  },
+  {
+    "id": "b2-part-1-11",
+    "ru": "Анализируя экономическую ситуацию, эксперты отмечают постепенное восстановление рынка.",
+    "ruStressed": "Анализи́руя экономи́ческую ситуа́цию, экспе́рты отмеча́ют постепе́нное восстановле́ние ры́нка.",
+    "translit": "Analiziruya ekonomicheskuyu situatsiyu, eksperty otmechayut postepennoe vosstanovlenie rynka.",
+    "en": "Analyzing the economic situation, experts point to a gradual recovery of the market."
+  },
+  {
+    "id": "b2-part-1-12",
+    "ru": "Технологии, используемые в современной медицине, позволяют лечить ранее неизлечимые болезни.",
+    "ruStressed": "Техноло́гии, испо́льзуемые в совреме́нной медици́не, позволя́ют лечи́ть ра́нее неизлечи́мые боле́зни.",
+    "translit": "Tekhnologii, ispolzuemye v sovremennoy meditsine, pozvolyayut lechit ranee neizlechimye bolezni.",
+    "en": "The technologies used in medicine today allow for the treatment of previously incurable diseases."
+  },
+  {
+    "id": "b2-part-1-13",
+    "ru": "Изучив все предоставленные документы, юрист подготовил подробный отчёт по делу.",
+    "ruStressed": "Изучи́в все предоста́вленные докуме́нты, юри́ст подгото́вил подро́бный отчёт по де́лу.",
+    "translit": "Izuchiv vse predostavlennye dokumenty, yurist podgotovil podrobnyy otchyot po delu.",
+    "en": "Having studied all the documents, the lawyer provided a detailed report on the case."
+  },
+  {
+    "id": "b2-part-1-14",
+    "ru": "Идеи, высказанные философом во время лекции, вызвали множество споров и дискуссий.",
+    "ruStressed": "Иде́и, вы́сказанные фило́софом во вре́мя ле́кции, вы́звали мно́жество спо́ров и диску́ссий.",
+    "translit": "Idei, vyskazannye filosofom vo vremya lektsii, vyzyvali mnozhestvo sporov i diskussiy.",
+    "en": "The ideas expressed by the philosopher during the lecture caused a lot of controversy."
+  },
+  {
+    "id": "b2-part-1-15",
+    "ru": "Стремясь к личностному росту, она регулярно посещает психологические семинары и тренинги.",
+    "ruStressed": "Стремя́сь к ли́чностному ро́сту, она́ регуля́рно посеща́ет психологи́ческие семина́ры и тре́нинги.",
+    "translit": "Stremyas k lichnostnomu rostu, ona regulyarno poseshchaet psikhologicheskie seminary i treningi.",
+    "en": "Striving for personal growth, she regularly attends psychological psychological seminars and trainings."
+  },
+  {
+    "id": "b2-part-1-16",
+    "ru": "События, происходящие сегодня в мире, требуют тщательного анализа и глубокого понимания.",
+    "ruStressed": "Собы́тия, происходя́щие сего́дня в ми́ре, тре́буют тща́тельного ана́лиза и глубо́кого понима́ния.",
+    "translit": "Sobytiya, proiskhodyashchie segodnya v mire, trebuyut tshchatelnogo analiza i glubokogo ponimaniya.",
+    "en": "The events taking place in the world today require careful analysis and understanding."
+  },
+  {
+    "id": "b2-part-1-17",
+    "ru": "Получив официальное приглашение, они сразу подтвердили своё участие в международном форуме.",
+    "ruStressed": "Получи́в официа́льное приглаше́ние, они́ сра́зу подтверди́ли своё уча́стие в междунаро́дном фо́руме.",
+    "translit": "Poluchiv ofitsialnoe priglashenie, oni srazu podtverdili svoyo uchastie v mezhdunarodnom forume.",
+    "en": "Having received the invitation, they immediately confirmed their participation in the international forum."
+  },
+  {
+    "id": "b2-part-1-18",
+    "ru": "Дом, построенный в конце улицы, отличается от соседних зданий своей необычной архитектурой.",
+    "ruStressed": "Дом, постро́енный в конце́ у́лицы, отлича́ется от сосе́дних зда́ний свое́й необы́чной архитекту́рой.",
+    "translit": "Dom, postroennyy v kontse ulitsy, otlichaetsya ot sosednikh zdaniy svoey neobychnoy arkhitekturoy.",
+    "en": "The house built at the end of the street differs from the neighboring ones in its architecture."
+  },
+  {
+    "id": "b2-part-1-19",
+    "ru": "Судя по последним новостям, ситуация на рынке труда становится более стабильной.",
+    "ruStressed": "Су́дя по после́дним новостя́м, ситуа́ция на ры́нке труда́ стано́вится бо́лее стаби́льной.",
+    "translit": "Sudya po poslednim novostyam, situatsiya na rynke truda stanovitsya bolee stabilnoy.",
+    "en": "Judging by the latest news, the situation in the labor market is becoming stable."
+  },
+  {
+    "id": "b2-part-1-20",
+    "ru": "Книга, написанная неизвестным автором, стала бестселлером всего за несколько недель.",
+    "ruStressed": "Кни́га, napísannaya неизве́стным а́втором, ста́ла бестсе́ллером всего́ за не́сколько неде́ль.",
+    "translit": "Kniga, napisannaya neizvestnym avtorom, stala bestsellerom vsego za neskolko nedel.",
+    "en": "The book written by an unknown author became a bestseller in just a few weeks."
+  },
+  {
+    "id": "b2-part-1-21",
+    "ru": "Желая помочь экологии, многие люди переходят на осознанный и экологичный образ жизни.",
+    "ruStressed": "Жела́я помо́чь эколо́гии, мно́гие лю́ди перехо́дят на осо́знанный и экологи́чный о́браз жи́зни.",
+    "translit": "Zhelaya pomoch ekologii, mnogie lyudi perekhodyat na osoznannyy i ekologichnyy obraz zhizni.",
+    "en": "Wanting to help the environment, many people are switching to a conscious lifestyle."
+  },
+  {
+    "id": "b2-part-1-22",
+    "ru": "Решения, принятые сегодня, будут иметь долгосрочное влияние на развитие нашего общества.",
+    "ruStressed": "Реше́ния, при́нятые сего́дня, бу́дут име́ть долгосро́чное влия́ние на разви́тие на́шего о́бщества.",
+    "translit": "Resheniya, prinyatye segodnya, budut imet dolgosrochnoe vliyanie na razvitie nashego obshchestva.",
+    "en": "The decisions made today will have a long-term impact on our society's development."
+  },
+  {
+    "id": "b2-part-1-23",
+    "ru": "Открывая для себя новые культуры, человек расширяет свой кругозор и становится толерантнее.",
+    "ruStressed": "Открыва́я для себя́ но́вые культу́ры, челове́к расширя́ет сво́й кругозо́р и стано́вится толера́нтнее.",
+    "translit": "Otkryvaya dlya sebya novye kultury, chelovek rasshiryaet svoy krugozor i stanovitsya tolerantnee.",
+    "en": "Discovering new cultures, a person broadens their horizons and becomes more tolerant."
+  },
+  {
+    "id": "b2-part-1-24",
+    "ru": "Шум, доносящийся с улицы, мешал студентам сосредоточиться на просмотре научной лекции.",
+    "ruStressed": "Шум, донося́щийся с у́лицы, меша́л студе́нтам сосредото́читься на просмо́тре нау́чной ле́кции.",
+    "translit": "Shum, donosyashchiysya s ulitsy, meshal studentam sosredotochitsya na prosmotre nauchnoy lektsii.",
+    "en": "The noise coming from the street prevented the students from concentrating on the lecture."
+  },
+  {
+    "id": "b2-part-1-25",
+    "ru": "Выполнив сложное задание, инженер почувствовал огромное удовлетворение от проделанной работы.",
+    "ruStressed": "Вы́полнив сло́жное зада́ние, инжене́р почу́вствовал огро́мное удовлетворе́ние от проде́ланной рабо́ты.",
+    "translit": "Vypolniv slozhnoe zadanie, inzhener pochuvstvoval ogromnoe udovletvorenie ot prodelannoy raboty.",
+    "en": "Having completed the complex task, the engineer felt a great sense of satisfaction."
+  },
+  {
+    "id": "b2-part-1-26",
+    "ru": "Проблема, возникающая из-за недостатка общения, приводит к конфликтам в рабочем коллективе.",
+    "ruStressed": "Пробле́ма, возника́ющая из-за недоста́тка обще́ния, приво́дит к конфли́ктам в рабо́чем коллекти́ве.",
+    "translit": "Problema, voznikayushchaya iz-za nedostatka obshcheniya, privodit k konfliktam v rabochem kollektive.",
+    "en": "The problem arising from a lack of communication leads to conflicts in the workplace."
+  },
+  {
+    "id": "b2-part-1-27",
+    "ru": "Взвесив все плюсы и минусы, комиссия утвердила новый план развития городской инфраструктуры.",
+    "ruStressed": "Взве́сив все плю́сы и ми́нусы, коми́ссия утверди́ла но́вый план разви́тия городско́й инфраструктру́ры.",
+    "translit": "Vzvesiv vse plyusy i minusy, komissiya utverdila novyy plan razvitiya gorodskoy infrastruktury.",
+    "en": "Having considered all the pros and cons, the committee approved the new urban development plan."
+  },
+  {
+    "id": "b2-part-1-28",
+    "ru": "Речь, произнесённая оратором на конференции, вдохновила молодых учёных на проведение исследований.",
+    "ruStressed": "Речь, произнесённая ора́тором на конфере́нции, вдохнови́ла молоды́х учёных на проведе́ние иссле́дований.",
+    "translit": "Rech', proiznesyonnaya oratorom na konferentsii, vdokhnovila molodykh uchyonykh na provedenie issledovaniy.",
+    "en": "The speech delivered by the speaker at the conference inspired young scientists to conduct research."
+  },
+  {
+    "id": "b2-part-1-29",
+    "ru": "Чувствуя усталость после напряжённого дня, она решила отложить обсуждение семейных дел.",
+    "ruStressed": "Чу́вствуя уста́лость по́сле напряжённого дня, она́ реши́ла отложи́ть обсужде́ние семе́йных дел.",
+    "translit": "Chuvstvuya ustalost' posle napryazhyonnogo dnya, ona reshila otlozhit' obsuzhdenie semeynykh del.",
+    "en": "Feeling tired after a busy day, she decided to postpone the discussion of family matters."
+  },
+  {
+    "id": "b2-part-1-30",
+    "ru": "Доверие, утраченное в результате скандала, очень сложно восстановить за короткий промежуток времени.",
+    "ruStressed": "Дове́рие, утра́ченное в результа́те сканда́ла, о́чень сло́жно восстанови́ть за коро́ткий промежу́ток вре́мени.",
+    "translit": "Doverie, utrachennoe v rezul'tate skandala, ochen' slozhno vosstanovit' za korotkiy promezhutok vremeni.",
+    "en": "The trust lost as a result of the scandal is very difficult to restore in a short time."
+  },
+  {
+    "id": "b2-part-1-31",
+    "ru": "Выступая за равные права, это движение привлекло внимание многих известных общественных деятелей.",
+    "ruStressed": "Выступа́я за ра́вные права́, э́то движе́ние привлекло́ внима́ние мно́гих изве́стных обще́ственных де́ятелей.",
+    "translit": "Vystupaya za ravnye prava, eto dvizhenie privleklo vnimanie mnogikh izvestnykh obshchestvennykh deyateley.",
+    "en": "Advocating for equal rights, the movement attracted the attention of many famous public figures."
+  },
+  {
+    "id": "b2-part-1-32",
+    "ru": "Проект, реализуемый нашей фирмой, направлен на улучшение экологической обстановки в данном регионе.",
+    "ruStressed": "Прое́кт, реализу́емый на́шей фи́рмой, напра́влен на улучше́ние экологи́ческой обстано́вки в да́нном регио́не.",
+    "translit": "Proekt, realizuemyy nashey firmoy, napravlen na uluchshenie ekologicheskoy obstanovki v dannom regione.",
+    "en": "The project being implemented by our firm aims to improve the ecological situation in the region."
+  },
+  {
+    "id": "b2-part-1-33",
+    "ru": "Не найдя поддержки среди коллег, сотрудник решил представить свою идею напрямую руководству.",
+    "ruStressed": "Не найдя́ подде́ржки среди́ колле́г, сотру́дник реши́л предста́вить свою́ иде́ю напряму́ю руково́дству.",
+    "translit": "Ne naydya podderzhki sredi kolleg, sotrudnik reshila predstavit' svoyu ideyu napryamuyu rukovodstvu.",
+    "en": "Not finding support among colleagues, the employee decided to present his idea directly to the management."
+  },
+  {
+    "id": "b2-part-1-34",
+    "ru": "Человек, стремящийся к успеху, должен уметь адаптироваться к быстро меняющимся условиям жизни.",
+    "ruStressed": "Челове́к, стремя́щийся к успе́ху, до́лжен уме́ть адапти́роваться к бы́стро меня́ющимся усло́виям жи́зни.",
+    "translit": "Chelovek, stremyashchiysya k uspekhu, dolzhen umet' adaptirovat'sya k bystro menyayushchimsya usloviyam zhizni.",
+    "en": "A person striving for success must be able to adapt to rapidly changing conditions."
+  },
+  {
+    "id": "b2-part-1-35",
+    "ru": "Товары, производимые на этой фабрике, соответствуют всем международным стандартам качества и безопасности.",
+    "ruStressed": "Това́ры, производи́мые на э́той фа́брике, соотве́тствуют всем междунаро́дным станда́ртам ка́чества и безопа́сности.",
+    "translit": "Tovary, proizvodimye na etoy fabrike, sootvetstvuyut vsem mezhdunarodnym standartam kachestva i bezopasnosti.",
+    "en": "The goods produced at this factory meet all international quality and safety standards."
+  },
+  {
+    "id": "b2-part-1-36",
+    "ru": "Используя современные методы анализа данных, учёные смогли предсказать рост численности населения.",
+    "ruStressed": "Испо́льзуя совреме́нные ме́тоды ана́лиза да́нных, учёные смогли́ предсказа́ть рост чи́сленности населе́ния.",
+    "translit": "Ispol'zuya sovremennye metody analiza dannykh, uchyonye smogli predskazat' rost chislennosti naseleniya.",
+    "en": "Using modern methods of data analysis, scientists were able to predict the growth of the population."
+  },
+  {
+    "id": "b2-part-1-37",
+    "ru": "Барьер, препятствующий развитию сотрудничества, был преодолён в ходе недавних дипломатических переговоров.",
+    "ruStressed": "Барье́р, препя́тствующий разви́тию сотру́дничества, был преодолён в хо́де неда́вних дипломати́ческих перегово́ров.",
+    "translit": "Bar'er, prepyatstvuyushchiy razvitiyu sotrudnichestva, byl preodolyon v khode nedavnikh diplomaticheskikh peregovorov.",
+    "en": "The barrier preventing the development of cooperation was overcome during the recent negotiations."
+  },
+  {
+    "id": "b2-part-1-38",
+    "ru": "Столкнувшись с финансовыми трудностями, компания была вынуждена значительно сократить расходы на рекламу.",
+    "ruStressed": "Столкну́вшись с фина́нсовыми тру́дностями, компа́ния была́ вы́нуждена значи́тельно сократи́ть расхо́ды на рекла́му.",
+    "translit": "Stolknuvshis' s finansovymi trudnostyami, kompaniya byla vynuzhdena znachitel'no sokratit' raskhody na reklamu.",
+    "en": "Faced with financial difficulties, the company was forced to reduce its advertising budget significantly."
+  },
+  {
+    "id": "b2-part-1-39",
+    "ru": "Студенты, посещающие дополнительные курсы, показывают лучшие результаты при поиске работы на рынке.",
+    "ruStressed": "Студе́нты, посеща́ющие дополни́тельные ку́рсы, пока́зывают лу́чшие результа́ты при по́иске рабо́ты на ры́нке.",
+    "translit": "Studenty, poseshchayushchie dopolnitel'nye kursy, pokazyvayut luchshie rezul'taty pri poiske raboty na rynke.",
+    "en": "Students attending additional courses show better search results in the labor market."
+  },
+  {
+    "id": "b2-part-1-40",
+    "ru": "Данные, полученные в ходе эксперимента, помогли исследователям уточнить их первоначальную гипотезу.",
+    "ruStressed": "Да́нные, полу́ченные в хо́де экспериме́нта, помогли́ иссле́дователям уточни́ть их первонача́льную гипо́тезу.",
+    "translit": "Dannye, poluchennye v khode eksperimenta, pomogli issledovatelyam utochnit' ikh pervonachal'nuyu gipotezu.",
+    "en": "The data obtained during the experiment helped the researchers clarify their initial hypothesis."
+  },
+  {
+    "id": "b2-part-1-41",
+    "ru": "Опираясь на свой многолетний опыт, мастер быстро нашёл причину поломки сложного оборудования.",
+    "ruStressed": "Опира́ясь на свой многоле́тний о́пыт, ма́стер бы́стро нашёл причи́ну поло́мки сло́жного обору́дования.",
+    "translit": "Opirayas' na svoy mnogoletniy opyt, master bystro nashyl prichinu polomki slozhnogo oborudovaniya.",
+    "en": "Relying on his many years of experience, the master quickly found the cause of the breakdown."
+  },
+  {
+    "id": "b2-part-1-42",
+    "ru": "Культура, сохраняемая на протяжении веков, помогает нации поддерживать свою идентичность в глобальном мире.",
+    "ruStressed": "Культу́ра, сохраня́емая на протяже́нии веко́в, помога́ет на́ции подде́рживать свою́ иденти́чность в глоба́льном ми́ре.",
+    "translit": "Kul'tura, sokhranyaemaya na protyazhenii vekov, pomogaet natsii podderzhivat' svoyu identichnost' v global'nom mire.",
+    "en": "The culture preserved through centuries helps the nation maintain its identity in a global world."
+  },
+  {
+    "id": "b2-part-1-43",
+    "ru": "Осознав масштабы катастрофы, местные власти немедленно объявили о введении чрезвычайного положения.",
+    "ruStressed": "Осозна́в масшта́бы катастро́фы, ме́стные вла́сти неме́дленно объяви́ли о введе́нии чрезвыча́йного положе́ния.",
+    "translit": "Osoznav masshtaby katastrofy, mestnye vlasti nemedlenno ob'yavili o vvedenii chrezvychaynogo polozheniya.",
+    "en": "Having realized the scale of the disaster, the local authorities immediately declared a state of emergency."
+  },
+  {
+    "id": "b2-part-1-44",
+    "ru": "Художник, живущий в провинции, старается запечатлеть в своих работах повседневную жизнь простых людей.",
+    "ruStressed": "Худо́жник, живу́щий в пови́нции, стара́ется запечатле́ть в свои́х рабо́тах повседне́вную жизнь просты́х люде́й.",
+    "translit": "Khudozhnik, zhivushchiy v provintsii, staraetsya zapechatlet' v svoikh rabotakh povsednevnuyu zhizn' prostykh lyudey.",
+    "en": "The artist living in the province tries to capture the daily life of ordinary people."
+  },
+  {
+    "id": "b2-part-1-45",
+    "ru": "Защищая свою точку зрения, учёный привёл несколько убедительных аргументов из последних публикаций.",
+    "ruStressed": "Защища́я свою́ то́чку зре́ния, учёный привёл не́сколько убеди́тельных аргуме́нтов из после́дних публика́ций.",
+    "translit": "Zashchishchaya svoyu tochku zreniya, uchyonyy privyol neskol'ko ubeditel'nykh argumentov iz poslednikh publikatsiy.",
+    "en": "Defending his point of view, the scientist provided several convincing arguments from recent publications."
+  },
+  {
+    "id": "b2-part-1-46",
+    "ru": "Проблема, обсуждавшаяся на вчерашнем заседании, требует немедленного вмешательства со стороны городской администрации.",
+    "ruStressed": "Пробле́ма, обсужда́вшаяся на вчера́шнем заседа́нии, тре́бует неме́дленного вмеша́тельства со стороны́ городско́й администра́ции.",
+    "translit": "Problema, obsuzhdavshayasya na vcherashnem zasedanii, trebuet nemedlennogo vmeshatel'stva so storony gorodskoy administratsii.",
+    "en": "The problem discussed at yesterday's meeting requires immediate intervention by the city administration."
+  },
+  {
+    "id": "b2-part-1-47",
+    "ru": "Игнорируя предупреждения врачей, спортсмен продолжал тренироваться, несмотря на сильную боль в колене.",
+    "ruStressed": "Игнори́руя предупрежде́ния враче́й, спортсме́н продолжа́л тренирова́ться, несмотра́ на си́льную боль в коле́не.",
+    "translit": "Ignoriruya preduprezhdeniya vrachey, sportsmen prodolzhal trenirovat'sya, nesmotrya na sil'nuyu bol' v kolene.",
+    "en": "Ignoring the warnings of doctors, the athlete continued to train despite the severe pain."
+  },
+  {
+    "id": "b2-part-1-48",
+    "ru": "Традиции, передаваемые из поколения в поколение, составляют основу нашего национального самосознания.",
+    "ruStressed": "Тради́ции, передава́емые из поколе́ния в поколе́ние, составля́ют осно́ву на́шего национа́льного самосозна́ния.",
+    "translit": "Traditsii, peredavaemye iz pokoleniya v pokolenie, sostavlyayut osnovu nashego natsional'nogo samosoznaniya.",
+    "en": "Traditions passed down from generation to generation form the basis of our national self-awareness."
+  },
+  {
+    "id": "b2-part-1-49",
+    "ru": "Узнав об отмене рейса, пассажиры начали искать альтернативные способы добраться до места назначения.",
+    "ruStressed": "Узна́в об отме́не ре́йса, пассажи́ры на́чали иска́ть альтернати́вные спосо́бы добра́ться до ме́ста назначе́ния.",
+    "translit": "Uznav ob otmene reysa, passazhiry nachali iskat' al'ternativnye sposoby dobrat'sya do mesta naznacheniya.",
+    "en": "Having learned about the cancellation of the flight, the passengers began to seek alternative ways."
+  },
+  {
+    "id": "b2-part-1-50",
+    "ru": "Человек, интересующийся историей, может найти множество уникальных фактов в сокровищнице этого архива.",
+    "ruStressed": "Челове́к, интересу́ющийся исто́рией, мо́жет найти́ мно́жество уника́льных фа́ктов в сокро́вищнице э́того архи́ва.",
+    "translit": "Chelovek, interesuyushchiysya istoriey, mozhet nayti mnozhestvo unikal'nykh faktov v sokrovishchnitse etogo arkhiva.",
+    "en": "The person interested in history can find many unique facts in this old archive."
+  }
+]

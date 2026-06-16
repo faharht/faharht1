@@ -1,0 +1,709 @@
+[
+  {
+    "id": "b2-part-2-1",
+    "ru": "Согласно последним данным, уровень безработицы снизился.",
+    "ruStressed": "Согла́сно после́дним да́нным, у́ровень безрабо́тицы сни́зился.",
+    "translit": "Soglasno poslednim dannym, uroven bezrabotitsy snizilsya.",
+    "en": "According to the latest data, the unemployment rate has decreased."
+  },
+  {
+    "id": "b2-part-2-2",
+    "ru": "Правительство объявило о новых экономических реформах.",
+    "ruStressed": "Прави́тельство объяви́ло о но́вых экономи́ческих рефо́рмах.",
+    "translit": "Pravitelstvo obyavilo o novykh ekonomicheskikh reformakh.",
+    "en": "The government announced new economic reforms."
+  },
+  {
+    "id": "b2-part-2-3",
+    "ru": "Учёные предупреждают о последствиях глобального потепления.",
+    "ruStressed": "Учёные предупрежда́ют о после́дствиях глоба́льного потепле́ния.",
+    "translit": "Uchyonye preduprezhdayut o posledstviyakh globalnogo potepleniya.",
+    "en": "Scientists warn about the consequences of global warming."
+  },
+  {
+    "id": "b2-part-2-4",
+    "ru": "В стране введён режим чрезвычайной ситуации.",
+    "ruStressed": "В стране́ введён режи́м чрезвыча́йной ситуа́ции.",
+    "translit": "V strane vvedyon rezhim chrezvychaynoy situatsii.",
+    "en": "A state of emergency has been declared in the country."
+  },
+  {
+    "id": "b2-part-2-5",
+    "ru": "Президент выступил с обращением к нации.",
+    "ruStressed": "Президе́нт вы́ступил с обраще́нием к на́ции.",
+    "translit": "Prezident vystupil s obrashcheniem k natsii.",
+    "en": "The president addressed the nation."
+  },
+  {
+    "id": "b2-part-2-6",
+    "ru": "Загрязнение воздуха достигло критического уровня.",
+    "ruStressed": "Загрязне́ние во́здуха дости́гло крити́ческого у́ровня.",
+    "translit": "Zagryaznenie vozdukha dostiglo kriticheskogo urovnya.",
+    "en": "Air pollution has reached a critical level."
+  },
+  {
+    "id": "b2-part-2-7",
+    "ru": "Эксперты прогнозируют рост цен на энергоносители.",
+    "ruStressed": "Экспе́рты прогнози́руют рост цен на энергоноси́тели.",
+    "translit": "Eksperty prognoziruyut rost tsen na energonositeli.",
+    "en": "Experts forecast a rise in energy prices."
+  },
+  {
+    "id": "b2-part-2-8",
+    "ru": "Парламент принял закон в первом чтении.",
+    "ruStressed": "Парла́мент при́нял зако́н в пе́рвом чте́нии.",
+    "translit": "Parlament prinyal zakon v pervom chtenii.",
+    "en": "Parliament passed the law in the first reading."
+  },
+  {
+    "id": "b2-part-2-9",
+    "ru": "Делегации обсудили вопросы двустороннего сотрудничества.",
+    "ruStressed": "Делега́ции обсуди́ли вопро́сы двусторо́ннего сотру́дничества.",
+    "translit": "Delegatsii obsudili voprosy dvustoronnego sotrudnichestva.",
+    "en": "The delegations discussed issues of bilateral cooperation."
+  },
+  {
+    "id": "b2-part-2-10",
+    "ru": "Министр выразил озабоченность сложившейся ситуацией.",
+    "ruStressed": "Мини́стр вы́разил озабо́ченность сложи́вшейся ситуа́цией.",
+    "translit": "Ministr vyrazil ozabochennost slozhivsheysya situatsiey.",
+    "en": "The minister expressed concern over the current situation."
+  },
+  {
+    "id": "b2-part-2-11",
+    "ru": "Введены санкции против ряда компаний.",
+    "ruStressed": "Введены́ са́нкции про́тив ря́да компа́ний.",
+    "translit": "Vvedeny sanktsii protiv ryada kompaniy.",
+    "en": "Sanctions have been imposed on a number of companies."
+  },
+  {
+    "id": "b2-part-2-12",
+    "ru": "Площадь лесных пожаров продолжает расти.",
+    "ruStressed": "Пло́щадь лесны́х пожа́ров продолжа́ет расти́.",
+    "translit": "Ploshchad lesnykh pozharov prodolzhaet rasti.",
+    "en": "The area of forest fires continues to grow."
+  },
+  {
+    "id": "b2-part-2-13",
+    "ru": "В результате наводнения пострадали тысячи людей.",
+    "ruStressed": "В результа́те наводне́ния пострада́ли ты́сячи люде́й.",
+    "translit": "V rezultate navodneniya postradali tysyachi lyudey.",
+    "en": "Thousands of people were affected by the flood."
+  },
+  {
+    "id": "b2-part-2-14",
+    "ru": "Гуманитарная помощь была доставлена в зону бедствия.",
+    "ruStressed": "Гуманита́рная по́мощь была́ доста́влена в зо́ну бе́дствия.",
+    "translit": "Gumanitarnaya pomoshch byla dostavlena v zonu bedstviya.",
+    "en": "Humanitarian aid was delivered to the disaster zone."
+  },
+  {
+    "id": "b2-part-2-15",
+    "ru": "Стороны достигли соглашения о прекращении огня.",
+    "ruStressed": "Сто́роны дости́гли соглаше́ния о прекраще́нии огня́.",
+    "translit": "Storony dostigli soglasheniya o prekrashchenii ognya.",
+    "en": "The parties reached a ceasefire agreement."
+  },
+  {
+    "id": "b2-part-2-16",
+    "ru": "Курс национальной валюты значительно упал.",
+    "ruStressed": "Курс национа́льной валю́ты значи́тельно упа́л.",
+    "translit": "Kurs natsionalnoy valyuty znachitelno upal.",
+    "en": "The national currency's rate has fallen significantly."
+  },
+  {
+    "id": "b2-part-2-17",
+    "ru": "В крупных городах ужесточили карантинные меры.",
+    "ruStressed": "В кру́пных города́х ужесточи́ли каранти́нные ме́ры.",
+    "translit": "V krupnykh gorodakh uzhestochili karantinnye mery.",
+    "en": "Quarantine measures have been tightened in major cities."
+  },
+  {
+    "id": "b2-part-2-18",
+    "ru": "Учёные обнаружили новый вид бактерий.",
+    "ruStressed": "Учёные обнару́жили но́вый вид бакте́рий.",
+    "translit": "Uchyonye obnaruzhili novyy vid bakteriy.",
+    "en": "Scientists have discovered a new species of bacteria."
+  },
+  {
+    "id": "b2-part-2-19",
+    "ru": "Запуск спутника был отложен из-за погодных условий.",
+    "ruStressed": "За́пуск спу́тника был отло́жен и́з-за пого́дных усло́вий.",
+    "translit": "Zapusk sputnika byl otlozhen iz-za pogodnykh usloviy.",
+    "en": "The satellite launch was postponed due to weather conditions."
+  },
+  {
+    "id": "b2-part-2-20",
+    "ru": "Объём промышленного производства увеличился на пять процентов.",
+    "ruStressed": "Объём промы́шленного произво́дства увели́чился на пять проце́нтов.",
+    "translit": "Obyom promyshlennogo proizvodstva uvelichilsya na pyat protsentov.",
+    "en": "Industrial output increased by five percent."
+  },
+  {
+    "id": "b2-part-2-21",
+    "ru": "Государственный долг превысил отметку в триллион.",
+    "ruStressed": "Госуда́рственный долг превы́сил отме́тку в триллио́н.",
+    "translit": "Gosudarstvennyy dolg prevysil otmetku v trillion.",
+    "en": "The national debt exceeded one trillion."
+  },
+  {
+    "id": "b2-part-2-22",
+    "ru": "Возобновляемая энергетика становится всё более доступной.",
+    "ruStressed": "Возобновля́емая энерге́тика стано́вится всё бо́лее досту́пной.",
+    "translit": "Vozobnovlyaemaya energetika stanovitsya vsyo bolee dostupnoy.",
+    "en": "Renewable energy is becoming more accessible."
+  },
+  {
+    "id": "b2-part-2-23",
+    "ru": "Власти ввели запрет на использование пластиковых пакетов.",
+    "ruStressed": "Вла́сти ввели́ запре́т на испо́льзование пластико́вых паке́тов.",
+    "translit": "Vlasti vveli zapret na ispolzovanie plastikovykh paketov.",
+    "en": "Authorities introduced a ban on plastic bags."
+  },
+  {
+    "id": "b2-part-2-24",
+    "ru": "Сокращение выбросов углерода — приоритет международной политики.",
+    "ruStressed": "Сокраще́ние вы́бросов углеро́да — приорите́т междунаро́дной поли́тики.",
+    "translit": "Sokrashchenie vybrosov ugleroda — prioritet mezhdunarodnoy politiki.",
+    "en": "Reducing carbon emissions is a priority of international policy."
+  },
+  {
+    "id": "b2-part-2-25",
+    "ru": "Многие виды животных находятся под угрозой исчезновения.",
+    "ruStressed": "Мно́гие ви́ды живо́тных нахо́дятся под угро́зой исчезнове́ния.",
+    "translit": "Mnogie vidy zhivotnykh nakhodyatsya pod ugrozoy ischeznoveniya.",
+    "en": "Many animal species are under threat of extinction."
+  },
+  {
+    "id": "b2-part-2-26",
+    "ru": "Учёные разработали новый метод очистки воды.",
+    "ruStressed": "Учёные разрабо́тали но́вый ме́тод очи́стки воды́.",
+    "translit": "Uchyonye razrabotali novyy metod ochistki vody.",
+    "en": "Scientists have developed a new method of water purification."
+  },
+  {
+    "id": "b2-part-2-27",
+    "ru": "Переход на электромобили снизит зависимость от нефти.",
+    "ruStressed": "Перехо́д на электромоби́ли сни́зит зави́симость от не́фти.",
+    "translit": "Perekhod na elektromobili snizit zavisimost ot nefti.",
+    "en": "The shift to electric cars will reduce oil dependence."
+  },
+  {
+    "id": "b2-part-2-28",
+    "ru": "Тающие ледники угрожают прибрежным городам.",
+    "ruStressed": "Та́ющие ледники́ угрожа́ют прибре́жным города́м.",
+    "translit": "Tayushchie ledniki ugrozhayut pribrezhnym gorodam.",
+    "en": "Melting glaciers threaten coastal cities."
+  },
+  {
+    "id": "b2-part-2-29",
+    "ru": "Необходимо принимать меры по защите окружающей среды.",
+    "ruStressed": "Необходи́мо принима́ть ме́ры по защи́те окружа́ющей среды́.",
+    "translit": "Neobkhodimo prinimat mery po zashchite okruzhayushchey sredy.",
+    "en": "It is necessary to take measures to protect the environment."
+  },
+  {
+    "id": "b2-part-2-30",
+    "ru": "Уровень моря поднимается с каждым годом.",
+    "ruStressed": "У́ровень мо́ря поднима́ется с ка́ждым го́дом.",
+    "translit": "Uroven morya podnimaetsya s kazhdym godom.",
+    "en": "Sea level rises every year."
+  },
+  {
+    "id": "b2-part-2-31",
+    "ru": "Вырубка лесов наносит непоправимый вред природе.",
+    "ruStressed": "Вы́рубка лесо́в наво́сит непоправи́мый вред приро́де.",
+    "translit": "Vyrubka lesov nanosit nepopravimyy vred prirode.",
+    "en": "Deforestation does irreparable damage to nature."
+  },
+  {
+    "id": "b2-part-2-32",
+    "ru": "Программа переработки отходов даёт первые результаты.",
+    "ruStressed": "Програ́мма перерабо́тки отхо́дов даёт пе́рвые результа́ты.",
+    "translit": "Programma pererabotki otkhodov dayot pervye rezultaty.",
+    "en": "The recycling programme is yielding first results."
+  },
+  {
+    "id": "b2-part-2-33",
+    "ru": "Загрязнение океана пластиком стало глобальной проблемой.",
+    "ruStressed": "Загрязне́ние океа́на пла́стиком ста́ло глоба́льной пробле́мой.",
+    "translit": "Zagryaznenie okeana plastikom stalo globalnoy problemoy.",
+    "en": "Ocean plastic pollution has become a global problem."
+  },
+  {
+    "id": "b2-part-2-34",
+    "ru": "Биоразнообразие планеты сокращается тревожными темпами.",
+    "ruStressed": "Биоразнообра́зие плане́ты сокраща́ется трево́жными те́мпами.",
+    "translit": "Bioraznoobrazie planety sokrashchaetsya trevozhnymi tempami.",
+    "en": "The planet's biodiversity is shrinking at alarming rates."
+  },
+  {
+    "id": "b2-part-2-35",
+    "ru": "Конференция по климату пройдёт в следующем месяце.",
+    "ruStressed": "Конфере́нция по кли́мату пройдёт в сле́дующем ме́сяце.",
+    "translit": "Konferentsiya po klimatu proydyot v sleduyushchem mesyatse.",
+    "en": "The climate conference will take place next month."
+  },
+  {
+    "id": "b2-part-2-36",
+    "ru": "В пресс-релизе компания подтвердила свою позицию.",
+    "ruStressed": "В пресс-рели́зе компа́ния подтверди́ла свою́ пози́цию.",
+    "translit": "V press-relize kompaniya podtverdila svoyu pozitsiyu.",
+    "en": "In the press release, the company confirmed its position."
+  },
+  {
+    "id": "b2-part-2-37",
+    "ru": "Доклад был представлен на пленарном заседании.",
+    "ruStressed": "Докла́д был предста́влен на плена́рном заседа́нии.",
+    "translit": "Doklad byl predstavlen na plenarnom zasedanii.",
+    "en": "The report was presented at the plenary session."
+  },
+  {
+    "id": "b2-part-2-38",
+    "ru": "Уважаемые коллеги, позвольте начать заседание.",
+    "ruStressed": "Уважа́емые колле́ги, позво́льте нача́ть заседа́ние.",
+    "translit": "Uvazhaemye kollegi, pozvolte nachat zasedanie.",
+    "en": "Dear colleagues, allow me to open the session."
+  },
+  {
+    "id": "b2-part-2-39",
+    "ru": "Прошу вас обратить внимание на следующий пункт.",
+    "ruStressed": "Прошу́ вас обрати́ть внима́ние на сле́дующий пункт.",
+    "translit": "Proshu vas obratit vnimanie na sleduyushchiy punkt.",
+    "en": "I ask you to pay attention to the next point."
+  },
+  {
+    "id": "b2-part-2-40",
+    "ru": "Хотелось бы подчеркнуть важность этого вопроса.",
+    "ruStressed": "Хоте́лось бы подчеркну́ть ва́жность э́того вопро́са.",
+    "translit": "Khotelos by podcherknut vazhnost etogo voprosa.",
+    "en": "I would like to underline the importance of this issue."
+  },
+  {
+    "id": "b2-part-2-41",
+    "ru": "Подводя итоги, можно сделать следующие выводы.",
+    "ruStressed": "Подводя́ ито́ги, мо́жно сде́лать сле́дующие вы́воды.",
+    "translit": "Podvodya itogi, mozhno sdelat sleduyushchie vyvody.",
+    "en": "To sum up, the following conclusions can be drawn."
+  },
+  {
+    "id": "b2-part-2-42",
+    "ru": "Согласно официальной статистике, ситуация улучшается.",
+    "ruStressed": "Согла́сно официа́льной стати́стике, ситуа́ция улучша́ется.",
+    "translit": "Soglasno ofitsialnoy statistike, situatsiya uluchshaetsya.",
+    "en": "According to official statistics, the situation is improving."
+  },
+  {
+    "id": "b2-part-2-43",
+    "ru": "Данное решение требует тщательного обсуждения.",
+    "ruStressed": "Да́нное реше́ние тре́бует тща́тельного обсужде́ния.",
+    "translit": "Dannoe reshenie trebuet tshchatelnogo obsuzhdeniya.",
+    "en": "This decision requires thorough discussion."
+  },
+  {
+    "id": "b2-part-2-44",
+    "ru": "Позвольте выразить благодарность всем участникам.",
+    "ruStressed": "Позво́льте вы́разить благода́рность всем уча́стникам.",
+    "translit": "Pozvolte vyrazit blagodarnost vsem uchastnikam.",
+    "en": "Allow me to express gratitude to all participants."
+  },
+  {
+    "id": "b2-part-2-45",
+    "ru": "В заключение хочу отметить заслуги команды.",
+    "ruStressed": "В заключе́ние хочу́ отме́тить заслу́ги кома́нды.",
+    "translit": "V zaklyuchenie khochu otmetit zaslugi komandy.",
+    "en": "In conclusion, I want to note the team's merits."
+  },
+  {
+    "id": "b2-part-2-46",
+    "ru": "Вопрос остаётся открытым и требует дальнейшего изучения.",
+    "ruStressed": "Вопро́с остаётся откры́тым и тре́бует дальне́йшего изуче́ния.",
+    "translit": "Vopros ostayotsya otkrytym i trebuet dalneyshego izucheniya.",
+    "en": "The question remains open and requires further study."
+  },
+  {
+    "id": "b2-part-2-47",
+    "ru": "Стороны выразили готовность к продолжению диалога.",
+    "ruStressed": "Сто́роны вы́разили гото́вность к продолже́нию диало́га.",
+    "translit": "Storony vyrazili gotovnost k prodolzheniyu dialoga.",
+    "en": "The parties expressed readiness to continue dialogue."
+  },
+  {
+    "id": "b2-part-2-48",
+    "ru": "В средствах массовой информации появились противоречивые сообщения.",
+    "ruStressed": "В сре́дствах ма́ссовой информа́ции появи́лись противоречи́вые сообще́ния.",
+    "translit": "V sredstvakh massovoy informatsii poyavilis protivorechivye soobshcheniya.",
+    "en": "Conflicting reports appeared in the mass media."
+  },
+  {
+    "id": "b2-part-2-49",
+    "ru": "По данным независимых источников, информация подтверждается.",
+    "ruStressed": "По да́нным незави́симых исто́чников, информа́ция подтвержда́ется.",
+    "translit": "Po dannym nezavisimykh istochnikov, informatsiya podtverzhdaetsya.",
+    "en": "According to independent sources, the information is confirmed."
+  },
+  {
+    "id": "b2-part-2-50",
+    "ru": "Эта инициатива получила широкую общественную поддержку.",
+    "ruStressed": "Э́та инициати́ва получи́ла широ́кую обще́ственную подде́ржку.",
+    "translit": "Eta initsiativa poluchila shirokuyu obshchestvennuyu podderzhku.",
+    "en": "This initiative has received wide public support."
+  },
+  {
+    "id": "b2-part-2-51",
+    "ru": "Реформа здравоохранения вступит в силу с января.",
+    "ruStressed": "Рефо́рма здравоохране́ния всту́пит в си́лу с января́.",
+    "translit": "Reforma zdravookhraneniya vstupit v silu s yanvarya.",
+    "en": "The healthcare reform will take effect in January."
+  },
+  {
+    "id": "b2-part-2-52",
+    "ru": "Расследование инцидента продолжается под контролем прокуратуры.",
+    "ruStressed": "Рассле́дование инциде́нта продолжа́ется под контро́лем прокурату́ры.",
+    "translit": "Rassledovanie intsidenta prodolzhaetsya pod kontrolem prokuratury.",
+    "en": "The investigation of the incident continues under the prosecutor's supervision."
+  },
+  {
+    "id": "b2-part-2-53",
+    "ru": "Эксперты призывают к консолидации усилий.",
+    "ruStressed": "Экспе́рты призыва́ют к консолида́ции уси́лий.",
+    "translit": "Eksperty prizyvayut k konsolidatsii usiliy.",
+    "en": "Experts call for the consolidation of efforts."
+  },
+  {
+    "id": "b2-part-2-54",
+    "ru": "Очередное заседание комитета состоится в пятницу.",
+    "ruStressed": "Очередно́е заседа́ние комите́та состои́тся в пя́тницу.",
+    "translit": "Ocherednoe zasedanie komiteta sostoitsya v pyatnitsu.",
+    "en": "The next committee meeting will take place on Friday."
+  },
+  {
+    "id": "b2-part-2-55",
+    "ru": "Проект бюджета направлен на рассмотрение в парламент.",
+    "ruStressed": "Прое́кт бюдже́та напра́влен на рассмотре́ние в парла́мент.",
+    "translit": "Proekt byudzheta napravlen na rassmotrenie v parlament.",
+    "en": "The draft budget has been sent to parliament for consideration."
+  },
+  {
+    "id": "b2-part-2-56",
+    "ru": "Введение нового налога вызвало широкий резонанс.",
+    "ruStressed": "Введе́ние но́вого нало́га вы́звало широ́кий резона́нс.",
+    "translit": "Vvedenie novogo naloga vyzvalo shirokiy rezonans.",
+    "en": "The introduction of the new tax caused wide public response."
+  },
+  {
+    "id": "b2-part-2-57",
+    "ru": "Темпы инфляции остаются на стабильном уровне.",
+    "ruStressed": "Те́мпы инфля́ции остаю́тся на стаби́льном у́ровне.",
+    "translit": "Tempy inflyatsii ostayutsya na stabilnom urovne.",
+    "en": "Inflation rates remain at a stable level."
+  },
+  {
+    "id": "b2-part-2-58",
+    "ru": "Программа поддержки малого бизнеса будет продлена.",
+    "ruStressed": "Програ́мма подде́ржки ма́лого би́знеса бу́дет продлена́.",
+    "translit": "Programma podderzhki malogo biznesa budet prodlena.",
+    "en": "The small business support programme will be extended."
+  },
+  {
+    "id": "b2-part-2-59",
+    "ru": "Министерство опубликовало официальный отчёт.",
+    "ruStressed": "Министе́рство опубликова́ло официа́льный отчёт.",
+    "translit": "Ministerstvo opublikovalo ofitsialnyy otchyot.",
+    "en": "The ministry has published an official report."
+  },
+  {
+    "id": "b2-part-2-60",
+    "ru": "Согласно прогнозу, экономика вырастет на три процента.",
+    "ruStressed": "Согла́сно прогно́зу, эконо́мика вы́растет на три проце́нта.",
+    "translit": "Soglasno prognozu, ekonomika vyrastet na tri protsenta.",
+    "en": "According to the forecast, the economy will grow by three percent."
+  },
+  {
+    "id": "b2-part-2-61",
+    "ru": "Объёмы экспорта достигли рекордных показателей.",
+    "ruStressed": "Объёмы экспо́рта дости́гли реко́рдных показа́телей.",
+    "translit": "Obyomy eksporta dostigli rekordnykh pokazateley.",
+    "en": "Export volumes have reached record figures."
+  },
+  {
+    "id": "b2-part-2-62",
+    "ru": "Принятие новых стандартов положительно скажется на отрасли.",
+    "ruStressed": "Приня́тие но́вых станда́ртов положи́тельно ска́жется на о́трасли.",
+    "translit": "Prinyatie novykh standartov polozhitelno skazhetsya na otrasli.",
+    "en": "Adoption of new standards will positively affect the industry."
+  },
+  {
+    "id": "b2-part-2-63",
+    "ru": "Сегодня в столице открылась международная выставка.",
+    "ruStressed": "Сего́дня в столи́це откры́лась междунаро́дная вы́ставка.",
+    "translit": "Segodnya v stolitse otkrylas mezhdunarodnaya vystavka.",
+    "en": "An international exhibition opened in the capital today."
+  },
+  {
+    "id": "b2-part-2-64",
+    "ru": "Глава государства поздравил граждан с национальным праздником.",
+    "ruStressed": "Глава́ госуда́рства поздра́вил гра́ждан с национа́льным пра́здником.",
+    "translit": "Glava gosudarstva pozdravil grazhdan s natsionalnym prazdnikom.",
+    "en": "The head of state congratulated citizens on the national holiday."
+  },
+  {
+    "id": "b2-part-2-65",
+    "ru": "В ходе пресс-конференции были озвучены важные заявления.",
+    "ruStressed": "В хо́де пресс-конфере́нции бы́ли озву́чены ва́жные заявле́ния.",
+    "translit": "V khode press-konferentsii byli ozvucheny vazhnye zayavleniya.",
+    "en": "Important statements were made during the press conference."
+  },
+  {
+    "id": "b2-part-2-66",
+    "ru": "Спортсмены завоевали несколько медалей на чемпионате.",
+    "ruStressed": "Спортсме́ны завоева́ли не́сколько меда́лей на чемпиона́те.",
+    "translit": "Sportsmeny zavoevali neskolko medaley na chempionate.",
+    "en": "The athletes won several medals at the championship."
+  },
+  {
+    "id": "b2-part-2-67",
+    "ru": "Меры безопасности были усилены по всему городу.",
+    "ruStressed": "Ме́ры безопа́сности бы́ли уси́лены по всему́ го́роду.",
+    "translit": "Mery bezopasnosti byli usileny po vsemu gorodu.",
+    "en": "Security measures have been strengthened throughout the city."
+  },
+  {
+    "id": "b2-part-2-68",
+    "ru": "Решение суда вступило в законную силу.",
+    "ruStressed": "Реше́ние суда́ вступи́ло в зако́нную си́лу.",
+    "translit": "Reshenie suda vstupilo v zakonnuyu silu.",
+    "en": "The court's decision has entered into legal force."
+  },
+  {
+    "id": "b2-part-2-69",
+    "ru": "Транспортная инфраструктура нуждается в модернизации.",
+    "ruStressed": "Тра́нспортная инфраструкту́ра нужда́ется в модерниза́ции.",
+    "translit": "Transportnaya infrastruktura nuzhdaetsya v modernizatsii.",
+    "en": "The transport infrastructure needs modernization."
+  },
+  {
+    "id": "b2-part-2-70",
+    "ru": "Цифровизация экономики открывает новые возможности.",
+    "ruStressed": "Цифровиза́ция эконо́мики открыва́ет но́вые возмо́жности.",
+    "translit": "Tsifrovizatsiya ekonomiki otkryvaet novye vozmozhnosti.",
+    "en": "Digitalisation of the economy opens new opportunities."
+  },
+  {
+    "id": "b2-part-2-71",
+    "ru": "Развитие технологий искусственного интеллекта ускоряется.",
+    "ruStressed": "Разви́тие техноло́гий иску́сственного интелле́кта ускоря́ется.",
+    "translit": "Razvitie tekhnologiy iskusstvennogo intellekta uskoryaetsya.",
+    "en": "The development of AI technologies is accelerating."
+  },
+  {
+    "id": "b2-part-2-72",
+    "ru": "Государство выделило средства на поддержку науки.",
+    "ruStressed": "Госуда́рство вы́делило сре́дства на подде́ржку нау́ки.",
+    "translit": "Gosudarstvo vydelilo sredstva na podderzhku nauki.",
+    "en": "The state allocated funds to support science."
+  },
+  {
+    "id": "b2-part-2-73",
+    "ru": "Закон направлен на защиту прав потребителей.",
+    "ruStressed": "Зако́н напра́влен на защи́ту прав потреби́телей.",
+    "translit": "Zakon napravlen na zashchitu prav potrebiteley.",
+    "en": "The law is aimed at protecting consumer rights."
+  },
+  {
+    "id": "b2-part-2-74",
+    "ru": "Образовательная система требует комплексных изменений.",
+    "ruStressed": "Образова́тельная систе́ма тре́бует ко́мплексных измене́ний.",
+    "translit": "Obrazovatelnaya sistema trebuet kompleksnykh izmeneniy.",
+    "en": "The educational system requires comprehensive changes."
+  },
+  {
+    "id": "b2-part-2-75",
+    "ru": "Президент поручил кабинету министров разработать план.",
+    "ruStressed": "Президе́нт поручи́л кабине́ту мини́стров разрабо́тать план.",
+    "translit": "Prezident poruchil kabinetu ministrov razrabotat plan.",
+    "en": "The president instructed the cabinet to develop a plan."
+  },
+  {
+    "id": "b2-part-2-76",
+    "ru": "Соглашение было подписано в торжественной обстановке.",
+    "ruStressed": "Соглаше́ние бы́ло подпи́сано в торже́ственной обстано́вке.",
+    "translit": "Soglashenie bylo podpisano v torzhestvennoy obstanovke.",
+    "en": "The agreement was signed in a solemn atmosphere."
+  },
+  {
+    "id": "b2-part-2-77",
+    "ru": "Учёные призывают сократить потребление мяса.",
+    "ruStressed": "Учёные призыва́ют сократи́ть потребле́ние мя́са.",
+    "translit": "Uchyonye prizyvayut sokratit potreblenie myasa.",
+    "en": "Scientists urge reducing meat consumption."
+  },
+  {
+    "id": "b2-part-2-78",
+    "ru": "Глобализация принесла как плюсы, так и минусы.",
+    "ruStressed": "Глобализа́ция принесла́ как плю́сы, так и ми́нусы.",
+    "translit": "Globalizatsiya prinesla kak plyusy, tak i minusy.",
+    "en": "Globalisation brought both pluses and minuses."
+  },
+  {
+    "id": "b2-part-2-79",
+    "ru": "Уровень цифрового неравенства снижается.",
+    "ruStressed": "У́ровень цифрово́го нера́венства снижа́ется.",
+    "translit": "Uroven tsifrovogo neravenstva snizhaetsya.",
+    "en": "The level of digital inequality is decreasing."
+  },
+  {
+    "id": "b2-part-2-80",
+    "ru": "Доступ к качественному образованию — основа развития.",
+    "ruStressed": "До́ступ к ка́чественному образова́нию — осно́ва разви́тия.",
+    "translit": "Dostup k kachestvennomu obrazovaniyu — osnova razvitiya.",
+    "en": "Access to quality education is the foundation of development."
+  },
+  {
+    "id": "b2-part-2-81",
+    "ru": "В долгосрочной перспективе изменения принесут пользу.",
+    "ruStressed": "В долгосро́чной перспекти́ве измене́ния принесу́т по́льзу.",
+    "translit": "V dolgosrochnoy perspektive izmeneniya prinesut polzu.",
+    "en": "In the long term, the changes will bring benefit."
+  },
+  {
+    "id": "b2-part-2-82",
+    "ru": "Стратегия развития рассчитана на десять лет.",
+    "ruStressed": "Страте́гия разви́тия рассчи́тана на де́сять лет.",
+    "translit": "Strategiya razvitiya rasschitana na desyat let.",
+    "en": "The development strategy is designed for ten years."
+  },
+  {
+    "id": "b2-part-2-83",
+    "ru": "Эффективность мер будет оценена по итогам года.",
+    "ruStressed": "Эффекти́вность мер бу́дет оценена́ по ито́гам го́да.",
+    "translit": "Effektivnost mer budet otsenena po itogam goda.",
+    "en": "The effectiveness of measures will be assessed at the end of the year."
+  },
+  {
+    "id": "b2-part-2-84",
+    "ru": "Решающее значение имеет международное сотрудничество.",
+    "ruStressed": "Реша́ющее значе́ние име́ет междунаро́дное сотру́дничество.",
+    "translit": "Reshayushchee znachenie imeet mezhdunarodnoe sotrudnichestvo.",
+    "en": "International cooperation is of decisive importance."
+  },
+  {
+    "id": "b2-part-2-85",
+    "ru": "Ключевые показатели свидетельствуют о росте.",
+    "ruStressed": "Ключевы́е показа́тели свиде́тельствуют о ро́сте.",
+    "translit": "Klyuchevye pokazateli svidetelstvuyut o roste.",
+    "en": "Key indicators testify to growth."
+  },
+  {
+    "id": "b2-part-2-86",
+    "ru": "Эпидемиологическая обстановка стабилизировалась.",
+    "ruStressed": "Эпидемиологи́ческая обстано́вка стабилизи́ровалась.",
+    "translit": "Epidemiologicheskaya obstanovka stabilizirovalas.",
+    "en": "The epidemiological situation has stabilised."
+  },
+  {
+    "id": "b2-part-2-87",
+    "ru": "В рамках проекта будут построены новые школы.",
+    "ruStressed": "В ра́мках прое́кта бу́дут постро́ены но́вые шко́лы.",
+    "translit": "V ramkakh proekta budut postroeny novye shkoly.",
+    "en": "Within the project, new schools will be built."
+  },
+  {
+    "id": "b2-part-2-88",
+    "ru": "Принятые меры доказали свою эффективность.",
+    "ruStressed": "При́нятые ме́ры доказа́ли свою́ эффекти́вность.",
+    "translit": "Prinyatye mery dokazali svoyu effektivnost.",
+    "en": "The measures taken have proved their effectiveness."
+  },
+  {
+    "id": "b2-part-2-89",
+    "ru": "Современные технологии меняют рынок труда.",
+    "ruStressed": "Совреме́нные техноло́гии меня́ют ры́нок труда́.",
+    "translit": "Sovremennye tekhnologii menyayut rynok truda.",
+    "en": "Modern technologies are changing the labour market."
+  },
+  {
+    "id": "b2-part-2-90",
+    "ru": "Сектор услуг демонстрирует устойчивый рост.",
+    "ruStressed": "Се́ктор услу́г демонстри́рует усто́йчивый рост.",
+    "translit": "Sektor uslug demonstriruet ustoychivyy rost.",
+    "en": "The service sector demonstrates steady growth."
+  },
+  {
+    "id": "b2-part-2-91",
+    "ru": "Налоговая нагрузка на бизнес будет пересмотрена.",
+    "ruStressed": "Нало́говая нагру́зка на би́знес бу́дет пересмо́трена.",
+    "translit": "Nalogovaya nagruzka na biznes budet peresmotrena.",
+    "en": "The tax burden on business will be reviewed."
+  },
+  {
+    "id": "b2-part-2-92",
+    "ru": "Объявлено о запуске пилотного проекта.",
+    "ruStressed": "Объя́влено о за́пуске пило́тного прое́кта.",
+    "translit": "Obyavleno o zapuske pilotnogo proekta.",
+    "en": "A pilot project launch has been announced."
+  },
+  {
+    "id": "b2-part-2-93",
+    "ru": "Подписан меморандум о взаимопонимании.",
+    "ruStressed": "Подпи́сан мемора́ндум о взаимопонима́нии.",
+    "translit": "Podpisan memorandum o vzaimoponimanii.",
+    "en": "A memorandum of understanding has been signed."
+  },
+  {
+    "id": "b2-part-2-94",
+    "ru": "Глава делегации провёл переговоры с коллегами.",
+    "ruStressed": "Глава́ делега́ции провёл перегово́ры с колле́гами.",
+    "translit": "Glava delegatsii provyol peregovory s kollegami.",
+    "en": "The head of the delegation held talks with colleagues."
+  },
+  {
+    "id": "b2-part-2-95",
+    "ru": "Объём инвестиций в регион увеличился вдвое.",
+    "ruStressed": "Объём инвести́ций в регио́н увели́чился вдво́е.",
+    "translit": "Obyom investitsiy v region uvelichilsya vdvoe.",
+    "en": "The volume of investments in the region has doubled."
+  },
+  {
+    "id": "b2-part-2-96",
+    "ru": "Ситуация на финансовых рынках остаётся напряжённой.",
+    "ruStressed": "Ситуа́ция на фина́нсовых ры́нках остаётся напряжённой.",
+    "translit": "Situatsiya na finansovykh rynkakh ostayotsya napryazhyonnoy.",
+    "en": "The situation on financial markets remains tense."
+  },
+  {
+    "id": "b2-part-2-97",
+    "ru": "По итогам встречи было опубликовано совместное заявление.",
+    "ruStressed": "По ито́гам встре́чи бы́ло опубликова́но совме́стное заявле́ние.",
+    "translit": "Po itogam vstrechi bylo opublikovano sovmestnoe zayavlenie.",
+    "en": "Following the meeting, a joint statement was published."
+  },
+  {
+    "id": "b2-part-2-98",
+    "ru": "Реализация программы потребует значительных ресурсов.",
+    "ruStressed": "Реализа́ция програ́ммы потре́бует значи́тельных ресу́рсов.",
+    "translit": "Realizatsiya programmy potrebuet znachitelnykh resursov.",
+    "en": "Implementation of the programme will require significant resources."
+  },
+  {
+    "id": "b2-part-2-99",
+    "ru": "Эксперты подчёркивают необходимость системного подхода.",
+    "ruStressed": "Экспе́рты подчёркивают необходи́мость систе́много подхо́да.",
+    "translit": "Eksperty podchyorkivayut neobkhodimost sistemnogo podkhoda.",
+    "en": "Experts emphasise the need for a systemic approach."
+  },
+  {
+    "id": "b2-part-2-100",
+    "ru": "Ожидается, что новые правила вступят в силу в следующем квартале.",
+    "ruStressed": "Ожида́ется, что но́вые пра́вила всту́пят в си́лу в сле́дующем кварта́ле.",
+    "translit": "Ozhidaetsya, chto novye pravila vstupyat v silu v sleduyushchem kvartale.",
+    "en": "The new rules are expected to take effect next quarter."
+  },
+  {
+    "id": "b2-part-2-101",
+    "ru": "Доклад вызвал оживлённую дискуссию среди экспертов.",
+    "ruStressed": "Докла́д вы́звал оживлённую диску́ссию среди́ экспе́ртов.",
+    "translit": "Doklad vyzval ozhivlyonnuyu diskussiyu sredi ekspertov.",
+    "en": "The report sparked lively discussion among experts."
+  }
+]

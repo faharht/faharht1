@@ -1,0 +1,758 @@
+[
+  {
+    "id": "a1-part-2-1",
+    "ru": "У меня есть брат.",
+    "ruStressed": "У меня́ есть брат.",
+    "translit": "U menya est brat.",
+    "en": "I have a brother."
+  },
+  {
+    "id": "a1-part-2-2",
+    "ru": "У меня есть сестра.",
+    "ruStressed": "У меня́ есть сестра́.",
+    "translit": "U menya est sestra.",
+    "en": "I have a sister."
+  },
+  {
+    "id": "a1-part-2-3",
+    "ru": "У меня нет брата.",
+    "ruStressed": "У меня́ нет бра́та.",
+    "translit": "U menya net brata.",
+    "en": "I don't have a brother."
+  },
+  {
+    "id": "a1-part-2-4",
+    "ru": "У меня нет сестры.",
+    "ruStressed": "У меня́ нет сестры́.",
+    "translit": "U menya net sestry.",
+    "en": "I don't have a sister."
+  },
+  {
+    "id": "a1-part-2-5",
+    "ru": "Это мои родители.",
+    "ruStressed": "Э́то мои́ роди́тели.",
+    "translit": "Eto moi roditeli.",
+    "en": "These are my parents."
+  },
+  {
+    "id": "a1-part-2-6",
+    "ru": "Моего отца зовут Иван.",
+    "ruStressed": "Моего́ отца́ зову́т Ива́н.",
+    "translit": "Moego ottsa zovut Ivan.",
+    "en": "My father's name is Ivan."
+  },
+  {
+    "id": "a1-part-2-7",
+    "ru": "Мою мать зовут Мария.",
+    "ruStressed": "Мою́ мать зову́т Ма́рия.",
+    "translit": "Moyu mat zovut Mariya.",
+    "en": "My mother's name is Maria."
+  },
+  {
+    "id": "a1-part-2-8",
+    "ru": "У меня большая семья.",
+    "ruStressed": "У меня́ больша́я семья́.",
+    "translit": "U menya bolshaya semya.",
+    "en": "I have a big family."
+  },
+  {
+    "id": "a1-part-2-9",
+    "ru": "У меня маленькая семья.",
+    "ruStressed": "У меня́ ма́ленькая семья́.",
+    "translit": "U menya malenkaya semya.",
+    "en": "I have a small family."
+  },
+  {
+    "id": "a1-part-2-10",
+    "ru": "Сколько у тебя братьев?",
+    "ruStressed": "Ско́лько у тебя́ бра́тьев?",
+    "translit": "Skolko u tebya bratev?",
+    "en": "How many brothers do you have?"
+  },
+  {
+    "id": "a1-part-2-11",
+    "ru": "У меня один брат.",
+    "ruStressed": "У меня́ оди́н брат.",
+    "translit": "U menya odin brat.",
+    "en": "I have one brother."
+  },
+  {
+    "id": "a1-part-2-12",
+    "ru": "У меня две сестры.",
+    "ruStressed": "У меня́ две сестры́.",
+    "translit": "U menya dve sestry.",
+    "en": "I have two sisters."
+  },
+  {
+    "id": "a1-part-2-13",
+    "ru": "У меня нет детей.",
+    "ruStressed": "У меня́ нет дете́й.",
+    "translit": "U menya net detey.",
+    "en": "I don't have children."
+  },
+  {
+    "id": "a1-part-2-14",
+    "ru": "У меня один сын.",
+    "ruStressed": "У меня́ оди́н сын.",
+    "translit": "U menya odin syn.",
+    "en": "I have one son."
+  },
+  {
+    "id": "a1-part-2-15",
+    "ru": "У меня одна дочь.",
+    "ruStressed": "У меня́ одна́ дочь.",
+    "translit": "U menya odna doch.",
+    "en": "I have one daughter."
+  },
+  {
+    "id": "a1-part-2-16",
+    "ru": "Мой дедушка живёт в деревне.",
+    "ruStressed": "Мой де́душка живёт в дере́вне.",
+    "translit": "Moy dedushka zhivyot v derevne.",
+    "en": "My grandfather lives in the village."
+  },
+  {
+    "id": "a1-part-2-17",
+    "ru": "Моя бабушка очень добрая.",
+    "ruStressed": "Моя́ ба́бушка о́чень до́брая.",
+    "translit": "Moya babushka ochen dobraya.",
+    "en": "My grandmother is very kind."
+  },
+  {
+    "id": "a1-part-2-18",
+    "ru": "Мой дядя — врач.",
+    "ruStressed": "Мой дя́дя — врач.",
+    "translit": "Moy dyadya — vrach.",
+    "en": "My uncle is a doctor."
+  },
+  {
+    "id": "a1-part-2-19",
+    "ru": "Моя тётя живёт в Москве.",
+    "ruStressed": "Моя́ тётя живёт в Москве́.",
+    "translit": "Moya tyotya zhivyot v Moskve.",
+    "en": "My aunt lives in Moscow."
+  },
+  {
+    "id": "a1-part-2-20",
+    "ru": "Это мой муж.",
+    "ruStressed": "Э́то мой муж.",
+    "translit": "Eto moy muzh.",
+    "en": "This is my husband."
+  },
+  {
+    "id": "a1-part-2-21",
+    "ru": "Это моя жена.",
+    "ruStressed": "Э́то моя́ жена́.",
+    "translit": "Eto moya zhena.",
+    "en": "This is my wife."
+  },
+  {
+    "id": "a1-part-2-22",
+    "ru": "Я не женат.",
+    "ruStressed": "Я не жена́т.",
+    "translit": "Ya ne zhenat.",
+    "en": "I'm not married. (m.)"
+  },
+  {
+    "id": "a1-part-2-23",
+    "ru": "Я не замужем.",
+    "ruStressed": "Я не за́мужем.",
+    "translit": "Ya ne zamuzhem.",
+    "en": "I'm not married. (f.)"
+  },
+  {
+    "id": "a1-part-2-24",
+    "ru": "Один, два, три.",
+    "ruStressed": "Оди́н, два, три.",
+    "translit": "Odin, dva, tri.",
+    "en": "One, two, three."
+  },
+  {
+    "id": "a1-part-2-25",
+    "ru": "Четыре, пять, шесть.",
+    "ruStressed": "Четы́ре, пять, шесть.",
+    "translit": "Chetyre, pyat, shest.",
+    "en": "Four, five, six."
+  },
+  {
+    "id": "a1-part-2-26",
+    "ru": "Семь, восемь, девять, десять.",
+    "ruStressed": "Семь, во́семь, де́вять, де́сять.",
+    "translit": "Sem, vosem, devyat, desyat.",
+    "en": "Seven, eight, nine, ten."
+  },
+  {
+    "id": "a1-part-2-27",
+    "ru": "Одиннадцать, двенадцать.",
+    "ruStressed": "Оди́ннадцать, двена́дцать.",
+    "translit": "Odinnadtsat, dvenadtsat.",
+    "en": "Eleven, twelve."
+  },
+  {
+    "id": "a1-part-2-28",
+    "ru": "Двадцать, тридцать, сорок.",
+    "ruStressed": "Два́дцать, три́дцать, со́рок.",
+    "translit": "Dvadtsat, tridtsat, sorok.",
+    "en": "Twenty, thirty, forty."
+  },
+  {
+    "id": "a1-part-2-29",
+    "ru": "Пятьдесят, шестьдесят.",
+    "ruStressed": "Пятьдеся́т, шестьдеся́т.",
+    "translit": "Pyatdesyat, shestdesyat.",
+    "en": "Fifty, sixty."
+  },
+  {
+    "id": "a1-part-2-30",
+    "ru": "Сто, двести, тысяча.",
+    "ruStressed": "Сто, две́сти, ты́сяча.",
+    "translit": "Sto, dvesti, tysyacha.",
+    "en": "One hundred, two hundred, one thousand."
+  },
+  {
+    "id": "a1-part-2-31",
+    "ru": "Мне двадцать лет.",
+    "ruStressed": "Мне два́дцать лет.",
+    "translit": "Mne dvadtsat let.",
+    "en": "I am twenty years old."
+  },
+  {
+    "id": "a1-part-2-32",
+    "ru": "Мне тридцать лет.",
+    "ruStressed": "Мне три́дцать лет.",
+    "translit": "Mne tridtsat let.",
+    "en": "I am thirty years old."
+  },
+  {
+    "id": "a1-part-2-33",
+    "ru": "Ему пять лет.",
+    "ruStressed": "Ему́ пять лет.",
+    "translit": "Emu pyat let.",
+    "en": "He is five years old."
+  },
+  {
+    "id": "a1-part-2-34",
+    "ru": "Ей десять лет.",
+    "ruStressed": "Ей де́сять лет.",
+    "translit": "Ey desyat let.",
+    "en": "She is ten years old."
+  },
+  {
+    "id": "a1-part-2-35",
+    "ru": "Сколько тебе лет?",
+    "ruStressed": "Ско́лько тебе́ лет?",
+    "translit": "Skolko tebe let?",
+    "en": "How old are you?"
+  },
+  {
+    "id": "a1-part-2-36",
+    "ru": "Сколько вам лет?",
+    "ruStressed": "Ско́лько вам лет?",
+    "translit": "Skolko vam let?",
+    "en": "How old are you? (formal)"
+  },
+  {
+    "id": "a1-part-2-37",
+    "ru": "Сегодня понедельник.",
+    "ruStressed": "Сего́дня понеде́льник.",
+    "translit": "Segodnya ponedelnik.",
+    "en": "Today is Monday."
+  },
+  {
+    "id": "a1-part-2-38",
+    "ru": "Завтра вторник.",
+    "ruStressed": "За́втра вто́рник.",
+    "translit": "Zavtra vtornik.",
+    "en": "Tomorrow is Tuesday."
+  },
+  {
+    "id": "a1-part-2-39",
+    "ru": "Среда — мой любимый день.",
+    "ruStressed": "Среда́ — мой люби́мый день.",
+    "translit": "Sreda — moy lyubimyy den.",
+    "en": "Wednesday is my favourite day."
+  },
+  {
+    "id": "a1-part-2-40",
+    "ru": "В четверг я работаю.",
+    "ruStressed": "В четве́рг я рабо́таю.",
+    "translit": "V chetverg ya rabotayu.",
+    "en": "I work on Thursday."
+  },
+  {
+    "id": "a1-part-2-41",
+    "ru": "В пятницу я отдыхаю.",
+    "ruStressed": "В пя́тницу я отдыха́ю.",
+    "translit": "V pyatnitsu ya otdykhayu.",
+    "en": "I rest on Friday."
+  },
+  {
+    "id": "a1-part-2-42",
+    "ru": "В субботу я гуляю.",
+    "ruStressed": "В суббо́ту я гуля́ю.",
+    "translit": "V subbotu ya gulyayu.",
+    "en": "I go for a walk on Saturday."
+  },
+  {
+    "id": "a1-part-2-43",
+    "ru": "В воскресенье я дома.",
+    "ruStressed": "В воскресе́нье я до́ма.",
+    "translit": "V voskresene ya doma.",
+    "en": "On Sunday I am at home."
+  },
+  {
+    "id": "a1-part-2-44",
+    "ru": "Какой сегодня день?",
+    "ruStressed": "Како́й сего́дня день?",
+    "translit": "Kakoy segodnya den?",
+    "en": "What day is it today?"
+  },
+  {
+    "id": "a1-part-2-45",
+    "ru": "Который час?",
+    "ruStressed": "Кото́рый час?",
+    "translit": "Kotoryy chas?",
+    "en": "What time is it?"
+  },
+  {
+    "id": "a1-part-2-46",
+    "ru": "Сейчас десять часов.",
+    "ruStressed": "Сейча́с де́сять часо́в.",
+    "translit": "Seychas desyat chasov.",
+    "en": "It is ten o'clock now."
+  },
+  {
+    "id": "a1-part-2-47",
+    "ru": "Сейчас час дня.",
+    "ruStressed": "Сейча́с час дня.",
+    "translit": "Seychas chas dnya.",
+    "en": "It is one in the afternoon."
+  },
+  {
+    "id": "a1-part-2-48",
+    "ru": "Сейчас полночь.",
+    "ruStressed": "Сейча́с по́лночь.",
+    "translit": "Seychas polnoch.",
+    "en": "It is midnight."
+  },
+  {
+    "id": "a1-part-2-49",
+    "ru": "Сейчас полдень.",
+    "ruStressed": "Сейча́с по́лдень.",
+    "translit": "Seychas polden.",
+    "en": "It is noon."
+  },
+  {
+    "id": "a1-part-2-50",
+    "ru": "Утром я пью кофе.",
+    "ruStressed": "У́тром я пью ко́фе.",
+    "translit": "Utrom ya pyu kofe.",
+    "en": "In the morning I drink coffee."
+  },
+  {
+    "id": "a1-part-2-51",
+    "ru": "Днём я работаю.",
+    "ruStressed": "Днём я рабо́таю.",
+    "translit": "Dnyom ya rabotayu.",
+    "en": "In the daytime I work."
+  },
+  {
+    "id": "a1-part-2-52",
+    "ru": "Вечером я читаю.",
+    "ruStressed": "Ве́чером я чита́ю.",
+    "translit": "Vecherom ya chitayu.",
+    "en": "In the evening I read."
+  },
+  {
+    "id": "a1-part-2-53",
+    "ru": "Ночью я сплю.",
+    "ruStressed": "Но́чью я сплю.",
+    "translit": "Nochyu ya splyu.",
+    "en": "At night I sleep."
+  },
+  {
+    "id": "a1-part-2-54",
+    "ru": "Январь — первый месяц.",
+    "ruStressed": "Янва́рь — пе́рвый ме́сяц.",
+    "translit": "Yanvar — pervyy mesyats.",
+    "en": "January is the first month."
+  },
+  {
+    "id": "a1-part-2-55",
+    "ru": "Сейчас март.",
+    "ruStressed": "Сейча́с март.",
+    "translit": "Seychas mart.",
+    "en": "It is March now."
+  },
+  {
+    "id": "a1-part-2-56",
+    "ru": "Летом жарко.",
+    "ruStressed": "Ле́том жа́рко.",
+    "translit": "Letom zharko.",
+    "en": "It is hot in summer."
+  },
+  {
+    "id": "a1-part-2-57",
+    "ru": "Зимой холодно.",
+    "ruStressed": "Зимо́й хо́лодно.",
+    "translit": "Zimoy kholodno.",
+    "en": "It is cold in winter."
+  },
+  {
+    "id": "a1-part-2-58",
+    "ru": "Весной тепло.",
+    "ruStressed": "Весно́й тепло́.",
+    "translit": "Vesnoy teplo.",
+    "en": "It is warm in spring."
+  },
+  {
+    "id": "a1-part-2-59",
+    "ru": "Осенью идёт дождь.",
+    "ruStressed": "О́сенью идёт дождь.",
+    "translit": "Osenyu idyot dozhd.",
+    "en": "It rains in autumn."
+  },
+  {
+    "id": "a1-part-2-60",
+    "ru": "Мой день рождения в мае.",
+    "ruStressed": "Мой день рожде́ния в ма́е.",
+    "translit": "Moy den rozhdeniya v mae.",
+    "en": "My birthday is in May."
+  },
+  {
+    "id": "a1-part-2-61",
+    "ru": "Что ты делаешь?",
+    "ruStressed": "Что ты де́лаешь?",
+    "translit": "Chto ty delaesh?",
+    "en": "What are you doing?"
+  },
+  {
+    "id": "a1-part-2-62",
+    "ru": "Я читаю книгу.",
+    "ruStressed": "Я чита́ю кни́гу.",
+    "translit": "Ya chitayu knigu.",
+    "en": "I am reading a book."
+  },
+  {
+    "id": "a1-part-2-63",
+    "ru": "Я смотрю телевизор.",
+    "ruStressed": "Я смотрю́ телеви́зор.",
+    "translit": "Ya smotryu televizor.",
+    "en": "I am watching TV."
+  },
+  {
+    "id": "a1-part-2-64",
+    "ru": "Я слушаю музыку.",
+    "ruStressed": "Я слу́шаю му́зыку.",
+    "translit": "Ya slushayu muzyku.",
+    "en": "I am listening to music."
+  },
+  {
+    "id": "a1-part-2-65",
+    "ru": "Я пишу письмо.",
+    "ruStressed": "Я пишу́ письмо́.",
+    "translit": "Ya pishu pismo.",
+    "en": "I am writing a letter."
+  },
+  {
+    "id": "a1-part-2-66",
+    "ru": "Я играю в футбол.",
+    "ruStressed": "Я игра́ю в футбо́л.",
+    "translit": "Ya igrayu v futbol.",
+    "en": "I am playing football."
+  },
+  {
+    "id": "a1-part-2-67",
+    "ru": "Куда ты идёшь?",
+    "ruStressed": "Куда́ ты идёшь?",
+    "translit": "Kuda ty idyosh?",
+    "en": "Where are you going?"
+  },
+  {
+    "id": "a1-part-2-68",
+    "ru": "Я иду домой.",
+    "ruStressed": "Я иду́ домо́й.",
+    "translit": "Ya idu domoy.",
+    "en": "I am going home."
+  },
+  {
+    "id": "a1-part-2-69",
+    "ru": "Я иду в магазин.",
+    "ruStressed": "Я иду́ в магази́н.",
+    "translit": "Ya idu v magazin.",
+    "en": "I am going to the store."
+  },
+  {
+    "id": "a1-part-2-70",
+    "ru": "Я еду на работу.",
+    "ruStressed": "Я е́ду на рабо́ту.",
+    "translit": "Ya edu na rabotu.",
+    "en": "I am going to work."
+  },
+  {
+    "id": "a1-part-2-71",
+    "ru": "Откуда ты идёшь?",
+    "ruStressed": "Отку́да ты идёшь?",
+    "translit": "Otkuda ty idyosh?",
+    "en": "Where are you coming from?"
+  },
+  {
+    "id": "a1-part-2-72",
+    "ru": "Я иду из школы.",
+    "ruStressed": "Я иду́ из шко́лы.",
+    "translit": "Ya idu iz shkoly.",
+    "en": "I am coming from school."
+  },
+  {
+    "id": "a1-part-2-73",
+    "ru": "Когда ты придёшь?",
+    "ruStressed": "Когда́ ты придёшь?",
+    "translit": "Kogda ty pridyosh?",
+    "en": "When will you come?"
+  },
+  {
+    "id": "a1-part-2-74",
+    "ru": "Я приду вечером.",
+    "ruStressed": "Я приду́ ве́чером.",
+    "translit": "Ya pridu vecherom.",
+    "en": "I will come in the evening."
+  },
+  {
+    "id": "a1-part-2-75",
+    "ru": "Почему ты грустный?",
+    "ruStressed": "Почему́ ты гру́стный?",
+    "translit": "Pochemu ty grustnyy?",
+    "en": "Why are you sad?"
+  },
+  {
+    "id": "a1-part-2-76",
+    "ru": "Почему ты радостный?",
+    "ruStressed": "Почему́ ты ра́достный?",
+    "translit": "Pochemu ty radostnyy?",
+    "en": "Why are you happy?"
+  },
+  {
+    "id": "a1-part-2-77",
+    "ru": "Потому что я устал.",
+    "ruStressed": "Потому́ что я уста́л.",
+    "translit": "Potomu chto ya ustal.",
+    "en": "Because I'm tired."
+  },
+  {
+    "id": "a1-part-2-78",
+    "ru": "Потому что я отдохнул.",
+    "ruStressed": "Потому́ что я отдохну́л.",
+    "translit": "Potomu chto ya otdokhnul.",
+    "en": "Because I rested."
+  },
+  {
+    "id": "a1-part-2-79",
+    "ru": "Это мой телефон.",
+    "ruStressed": "Э́то мой телефо́н.",
+    "translit": "Eto moy telefon.",
+    "en": "This is my phone."
+  },
+  {
+    "id": "a1-part-2-80",
+    "ru": "Это твоя сумка.",
+    "ruStressed": "Э́то твоя́ су́мка.",
+    "translit": "Eto tvoya sumka.",
+    "en": "This is your bag."
+  },
+  {
+    "id": "a1-part-2-81",
+    "ru": "Это его машина.",
+    "ruStressed": "Э́то его́ маши́на.",
+    "translit": "Eto ego mashina.",
+    "en": "This is his car."
+  },
+  {
+    "id": "a1-part-2-82",
+    "ru": "Это её книга.",
+    "ruStressed": "Э́то её кни́га.",
+    "translit": "Eto eyo kniga.",
+    "en": "This is her book."
+  },
+  {
+    "id": "a1-part-2-83",
+    "ru": "Это наши друзья.",
+    "ruStressed": "Э́то на́ши друзья́.",
+    "translit": "Eto nashi druzya.",
+    "en": "These are our friends."
+  },
+  {
+    "id": "a1-part-2-84",
+    "ru": "Это ваши вещи.",
+    "ruStressed": "Э́то ва́ши ве́щи.",
+    "translit": "Eto vashi veshchi.",
+    "en": "These are your things."
+  },
+  {
+    "id": "a1-part-2-85",
+    "ru": "Это их дом.",
+    "ruStressed": "Э́то их дом.",
+    "translit": "Eto ikh dom.",
+    "en": "This is their house."
+  },
+  {
+    "id": "a1-part-2-86",
+    "ru": "Чей это зонт?",
+    "ruStressed": "Чей э́то зонт?",
+    "translit": "Chey eto zont?",
+    "en": "Whose umbrella is this?"
+  },
+  {
+    "id": "a1-part-2-87",
+    "ru": "Чья это ручка?",
+    "ruStressed": "Чья э́то ру́чка?",
+    "translit": "Chya eto ruchka?",
+    "en": "Whose pen is this?"
+  },
+  {
+    "id": "a1-part-2-88",
+    "ru": "Чьи это очки?",
+    "ruStressed": "Чьи э́то очки́?",
+    "translit": "Chi eto ochki?",
+    "en": "Whose glasses are these?"
+  },
+  {
+    "id": "a1-part-2-89",
+    "ru": "Он высокий.",
+    "ruStressed": "Он высо́кий.",
+    "translit": "On vysokiy.",
+    "en": "He is tall."
+  },
+  {
+    "id": "a1-part-2-90",
+    "ru": "Она низкого роста.",
+    "ruStressed": "Она́ ни́зкого ро́ста.",
+    "translit": "Ona nizkogo rosta.",
+    "en": "She is short."
+  },
+  {
+    "id": "a1-part-2-91",
+    "ru": "Он молодой.",
+    "ruStressed": "Он молодо́й.",
+    "translit": "On molodoy.",
+    "en": "He is young."
+  },
+  {
+    "id": "a1-part-2-92",
+    "ru": "Она старая.",
+    "ruStressed": "Она́ ста́рая.",
+    "translit": "Ona staraya.",
+    "en": "She is old."
+  },
+  {
+    "id": "a1-part-2-93",
+    "ru": "Он умный.",
+    "ruStressed": "Он у́мный.",
+    "translit": "On umnyy.",
+    "en": "He is smart."
+  },
+  {
+    "id": "a1-part-2-94",
+    "ru": "Она красивая.",
+    "ruStressed": "Она́ краси́вая.",
+    "translit": "Ona krasivaya.",
+    "en": "She is beautiful."
+  },
+  {
+    "id": "a1-part-2-95",
+    "ru": "Он добрый.",
+    "ruStressed": "Он до́брый.",
+    "translit": "On dobryy.",
+    "en": "He is kind."
+  },
+  {
+    "id": "a1-part-2-96",
+    "ru": "Она весёлая.",
+    "ruStressed": "Она́ весёлая.",
+    "translit": "Ona vesyolaya.",
+    "en": "She is cheerful."
+  },
+  {
+    "id": "a1-part-2-97",
+    "ru": "Я устал.",
+    "ruStressed": "Я уста́л.",
+    "translit": "Ya ustal.",
+    "en": "I am tired. (m.)"
+  },
+  {
+    "id": "a1-part-2-98",
+    "ru": "Я устала.",
+    "ruStressed": "Я уста́ла.",
+    "translit": "Ya ustala.",
+    "en": "I am tired. (f.)"
+  },
+  {
+    "id": "a1-part-2-99",
+    "ru": "Я голоден.",
+    "ruStressed": "Я го́лоден.",
+    "translit": "Ya goloden.",
+    "en": "I am hungry. (m.)"
+  },
+  {
+    "id": "a1-part-2-100",
+    "ru": "Я голодна.",
+    "ruStressed": "Я голодна́.",
+    "translit": "Ya golodna.",
+    "en": "I am hungry. (f.)"
+  },
+  {
+    "id": "a1-part-2-101",
+    "ru": "Я живу один.",
+    "ruStressed": "Я живу́ оди́н.",
+    "translit": "Ya zhivu odin.",
+    "en": "I live alone. (m.)"
+  },
+  {
+    "id": "a1-part-2-102",
+    "ru": "Я живу одна.",
+    "ruStressed": "Я живу́ одна́.",
+    "translit": "Ya zhivu odna.",
+    "en": "I live alone. (f.)"
+  },
+  {
+    "id": "a1-part-2-103",
+    "ru": "Я работаю каждый день.",
+    "ruStressed": "Я рабо́таю ка́ждый день.",
+    "translit": "Ya rabotayu kazhdyy den.",
+    "en": "I work every day."
+  },
+  {
+    "id": "a1-part-2-104",
+    "ru": "Я учусь в университете.",
+    "ruStressed": "Я учу́сь в университе́те.",
+    "translit": "Ya uchus v universitete.",
+    "en": "I study at the university."
+  },
+  {
+    "id": "a1-part-2-105",
+    "ru": "Я люблю свою семью.",
+    "ruStressed": "Я люблю́ свою́ семью́.",
+    "translit": "Ya lyublyu svoyu semyu.",
+    "en": "I love my family."
+  },
+  {
+    "id": "a1-part-2-106",
+    "ru": "Я часто пишу маме.",
+    "ruStressed": "Я ча́сто пишу́ ма́ме.",
+    "translit": "Ya chasto pishu mame.",
+    "en": "I often write to my mom."
+  },
+  {
+    "id": "a1-part-2-107",
+    "ru": "Мы говорим по-русски.",
+    "ruStressed": "Мы говори́м по-ру́сски.",
+    "translit": "My govorim po-russki.",
+    "en": "We speak Russian."
+  },
+  {
+    "id": "a1-part-2-108",
+    "ru": "Они живут в Москве.",
+    "ruStressed": "Они́ живу́т в Москве́.",
+    "translit": "Oni zhivut v Moskve.",
+    "en": "They live in Moscow."
+  }
+]

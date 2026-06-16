@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "top-300-verbs-1",
+    "ru": "Я часто работаю.",
+    "ruStressed": "Я ча́сто рабо́таю.",
+    "translit": "Ya chasto rabotayu.",
+    "en": "I often work."
+  },
+  {
+    "id": "top-300-verbs-2",
+    "ru": "Я часто делаю.",
+    "ruStressed": "Я ча́сто де́лаю.",
+    "translit": "Ya chasto delayu.",
+    "en": "I often do."
+  },
+  {
+    "id": "top-300-verbs-3",
+    "ru": "Я часто иду.",
+    "ruStressed": "Я ча́сто иду́.",
+    "translit": "Ya chasto idu.",
+    "en": "I often walk."
+  },
+  {
+    "id": "top-300-verbs-4",
+    "ru": "Я часто хожу.",
+    "ruStressed": "Я ча́сто хожу́.",
+    "translit": "Ya chasto khozhu.",
+    "en": "I often go (on foot)."
+  },
+  {
+    "id": "top-300-verbs-5",
+    "ru": "Я часто еду.",
+    "ruStressed": "Я ча́сто е́ду.",
+    "translit": "Ya chasto edu.",
+    "en": "I often ride."
+  },
+  {
+    "id": "top-300-verbs-6",
+    "ru": "Я часто езжу.",
+    "ruStressed": "Я ча́сто е́зжу.",
+    "translit": "Ya chasto ezzhu.",
+    "en": "I often travel."
+  },
+  {
+    "id": "top-300-verbs-7",
+    "ru": "Я часто читаю.",
+    "ruStressed": "Я ча́сто чита́ю.",
+    "translit": "Ya chasto chitayu.",
+    "en": "I often read."
+  },
+  {
+    "id": "top-300-verbs-8",
+    "ru": "Я часто пишу.",
+    "ruStressed": "Я ча́сто пишу́.",
+    "translit": "Ya chasto pishu.",
+    "en": "I often write."
+  },
+  {
+    "id": "top-300-verbs-9",
+    "ru": "Я часто говорю.",
+    "ruStressed": "Я ча́сто говорю́.",
+    "translit": "Ya chasto govoryu.",
+    "en": "I often speak."
+  },
+  {
+    "id": "top-300-verbs-10",
+    "ru": "Я часто слушаю.",
+    "ruStressed": "Я ча́сто слу́шаю.",
+    "translit": "Ya chasto slushayu.",
+    "en": "I often listen."
+  },
+  {
+    "id": "top-300-verbs-11",
+    "ru": "Я часто смотрю.",
+    "ruStressed": "Я ча́сто смотрю́.",
+    "translit": "Ya chasto smotryu.",
+    "en": "I often watch."
+  },
+  {
+    "id": "top-300-verbs-12",
+    "ru": "Я часто вижу.",
+    "ruStressed": "Я ча́сто ви́жу.",
+    "translit": "Ya chasto vizhu.",
+    "en": "I often see."
+  },
+  {
+    "id": "top-300-verbs-13",
+    "ru": "Я часто знаю.",
+    "ruStressed": "Я ча́сто зна́ю.",
+    "translit": "Ya chasto znayu.",
+    "en": "I often know."
+  },
+  {
+    "id": "top-300-verbs-14",
+    "ru": "Я часто понимаю.",
+    "ruStressed": "Я ча́сто понима́ю.",
+    "translit": "Ya chasto ponimayu.",
+    "en": "I often understand."
+  },
+  {
+    "id": "top-300-verbs-15",
+    "ru": "Я часто думаю.",
+    "ruStressed": "Я ча́сто ду́маю.",
+    "translit": "Ya chasto dumayu.",
+    "en": "I often think."
+  },
+  {
+    "id": "top-300-verbs-16",
+    "ru": "Я часто люблю.",
+    "ruStressed": "Я ча́сто люблю́.",
+    "translit": "Ya chasto lyublyu.",
+    "en": "I often love."
+  },
+  {
+    "id": "top-300-verbs-17",
+    "ru": "Я часто хочу.",
+    "ruStressed": "Я ча́сто хочу́.",
+    "translit": "Ya chasto khochu.",
+    "en": "I often want."
+  },
+  {
+    "id": "top-300-verbs-18",
+    "ru": "Я часто могу.",
+    "ruStressed": "Я ча́сто могу́.",
+    "translit": "Ya chasto mogu.",
+    "en": "I often be able."
+  },
+  {
+    "id": "top-300-verbs-19",
+    "ru": "Я часто ем.",
+    "ruStressed": "Я ча́сто ем.",
+    "translit": "Ya chasto em.",
+    "en": "I often eat."
+  },
+  {
+    "id": "top-300-verbs-20",
+    "ru": "Я часто пью.",
+    "ruStressed": "Я ча́сто пью.",
+    "translit": "Ya chasto pyu.",
+    "en": "I often drink."
+  },
+  {
+    "id": "top-300-verbs-21",
+    "ru": "Я часто сплю.",
+    "ruStressed": "Я ча́сто сплю.",
+    "translit": "Ya chasto splyu.",
+    "en": "I often sleep."
+  },
+  {
+    "id": "top-300-verbs-22",
+    "ru": "Я часто живу.",
+    "ruStressed": "Я ча́сто живу́.",
+    "translit": "Ya chasto zhivu.",
+    "en": "I often live."
+  },
+  {
+    "id": "top-300-verbs-23",
+    "ru": "Я часто учу.",
+    "ruStressed": "Я ча́сто учу́.",
+    "translit": "Ya chasto uchu.",
+    "en": "I often study."
+  },
+  {
+    "id": "top-300-verbs-24",
+    "ru": "Я часто учусь.",
+    "ruStressed": "Я ча́сто учу́сь.",
+    "translit": "Ya chasto uchus.",
+    "en": "I often learn."
+  },
+  {
+    "id": "top-300-verbs-25",
+    "ru": "Я часто играю.",
+    "ruStressed": "Я ча́сто игра́ю.",
+    "translit": "Ya chasto igrayu.",
+    "en": "I often play."
+  },
+  {
+    "id": "top-300-verbs-26",
+    "ru": "Я часто покупаю.",
+    "ruStressed": "Я ча́сто покупа́ю.",
+    "translit": "Ya chasto pokupayu.",
+    "en": "I often buy."
+  },
+  {
+    "id": "top-300-verbs-27",
+    "ru": "Я часто продаю.",
+    "ruStressed": "Я ча́сто продаю́.",
+    "translit": "Ya chasto prodayu.",
+    "en": "I often sell."
+  },
+  {
+    "id": "top-300-verbs-28",
+    "ru": "Я часто даю.",
+    "ruStressed": "Я ча́сто даю́.",
+    "translit": "Ya chasto dayu.",
+    "en": "I often give."
+  },
+  {
+    "id": "top-300-verbs-29",
+    "ru": "Я часто беру.",
+    "ruStressed": "Я ча́сто беру́.",
+    "translit": "Ya chasto beru.",
+    "en": "I often take."
+  },
+  {
+    "id": "top-300-verbs-30",
+    "ru": "Я часто приношу.",
+    "ruStressed": "Я ча́сто приношу́.",
+    "translit": "Ya chasto prinoshu.",
+    "en": "I often bring."
+  },
+  {
+    "id": "top-300-verbs-31",
+    "ru": "Я часто получаю.",
+    "ruStressed": "Я ча́сто получа́ю.",
+    "translit": "Ya chasto poluchayu.",
+    "en": "I often receive."
+  },
+  {
+    "id": "top-300-verbs-32",
+    "ru": "Я часто отдаю.",
+    "ruStressed": "Я ча́сто отдаю́.",
+    "translit": "Ya chasto otdayu.",
+    "en": "I often give back."
+  },
+  {
+    "id": "top-300-verbs-33",
+    "ru": "Я часто прихожу.",
+    "ruStressed": "Я ча́сто прихожу́.",
+    "translit": "Ya chasto prikhozhu.",
+    "en": "I often arrive (on foot)."
+  },
+  {
+    "id": "top-300-verbs-34",
+    "ru": "Я часто приезжаю.",
+    "ruStressed": "Я ча́сто приезжа́ю.",
+    "translit": "Ya chasto priezzhayu.",
+    "en": "I often arrive (by vehicle)."
+  },
+  {
+    "id": "top-300-verbs-35",
+    "ru": "Я часто ухожу.",
+    "ruStressed": "Я ча́сто ухожу́.",
+    "translit": "Ya chasto ukhozhu.",
+    "en": "I often leave (on foot)."
+  },
+  {
+    "id": "top-300-verbs-36",
+    "ru": "Я часто уезжаю.",
+    "ruStressed": "Я ча́сто уезжа́ю.",
+    "translit": "Ya chasto uezzhayu.",
+    "en": "I often leave (by vehicle)."
+  },
+  {
+    "id": "top-300-verbs-37",
+    "ru": "Я часто звоню.",
+    "ruStressed": "Я ча́сто звоню́.",
+    "translit": "Ya chasto zvonyu.",
+    "en": "I often call."
+  },
+  {
+    "id": "top-300-verbs-38",
+    "ru": "Я часто отвечаю.",
+    "ruStressed": "Я ча́сто отвеча́ю.",
+    "translit": "Ya chasto otvechayu.",
+    "en": "I often answer."
+  },
+  {
+    "id": "top-300-verbs-39",
+    "ru": "Я часто спрашиваю.",
+    "ruStressed": "Я ча́сто спра́шиваю.",
+    "translit": "Ya chasto sprashivayu.",
+    "en": "I often ask."
+  },
+  {
+    "id": "top-300-verbs-40",
+    "ru": "Я часто прошу.",
+    "ruStressed": "Я ча́сто прошу́.",
+    "translit": "Ya chasto proshu.",
+    "en": "I often request."
+  },
+  {
+    "id": "top-300-verbs-41",
+    "ru": "Я часто помогаю.",
+    "ruStressed": "Я ча́сто помога́ю.",
+    "translit": "Ya chasto pomogayu.",
+    "en": "I often help."
+  },
+  {
+    "id": "top-300-verbs-42",
+    "ru": "Я часто открываю.",
+    "ruStressed": "Я ча́сто открыва́ю.",
+    "translit": "Ya chasto otkryvayu.",
+    "en": "I often open."
+  },
+  {
+    "id": "top-300-verbs-43",
+    "ru": "Я часто закрываю.",
+    "ruStressed": "Я ча́сто закрыва́ю.",
+    "translit": "Ya chasto zakryvayu.",
+    "en": "I often close."
+  },
+  {
+    "id": "top-300-verbs-44",
+    "ru": "Я часто начинаю.",
+    "ruStressed": "Я ча́сто начина́ю.",
+    "translit": "Ya chasto nachinayu.",
+    "en": "I often begin."
+  },
+  {
+    "id": "top-300-verbs-45",
+    "ru": "Я часто заканчиваю.",
+    "ruStressed": "Я ча́сто зака́нчиваю.",
+    "translit": "Ya chasto zakanchivayu.",
+    "en": "I often finish."
+  },
+  {
+    "id": "top-300-verbs-46",
+    "ru": "Я часто продолжаю.",
+    "ruStressed": "Я ча́сто продолжа́ю.",
+    "translit": "Ya chasto prodolzhayu.",
+    "en": "I often continue."
+  },
+  {
+    "id": "top-300-verbs-47",
+    "ru": "Я часто ищу.",
+    "ruStressed": "Я ча́сто ищу́.",
+    "translit": "Ya chasto ishchu.",
+    "en": "I often search for."
+  },
+  {
+    "id": "top-300-verbs-48",
+    "ru": "Я часто нахожу.",
+    "ruStressed": "Я ча́сто нахожу́.",
+    "translit": "Ya chasto nakhozhu.",
+    "en": "I often find."
+  },
+  {
+    "id": "top-300-verbs-49",
+    "ru": "Я часто теряю.",
+    "ruStressed": "Я ча́сто теря́ю.",
+    "translit": "Ya chasto teryayu.",
+    "en": "I often lose."
+  },
+  {
+    "id": "top-300-verbs-50",
+    "ru": "Я часто забываю.",
+    "ruStressed": "Я ча́сто забыва́ю.",
+    "translit": "Ya chasto zabyvayu.",
+    "en": "I often forget."
+  },
+  {
+    "id": "top-300-verbs-51",
+    "ru": "Я часто вспоминаю.",
+    "ruStressed": "Я ча́сто вспомина́ю.",
+    "translit": "Ya chasto vspominayu.",
+    "en": "I often recall."
+  },
+  {
+    "id": "top-300-verbs-52",
+    "ru": "Я часто помню.",
+    "ruStressed": "Я ча́сто по́мню.",
+    "translit": "Ya chasto pomnyu.",
+    "en": "I often remember."
+  },
+  {
+    "id": "top-300-verbs-53",
+    "ru": "Я часто повторяю.",
+    "ruStressed": "Я ча́сто повторя́ю.",
+    "translit": "Ya chasto povtoryayu.",
+    "en": "I often repeat."
+  },
+  {
+    "id": "top-300-verbs-54",
+    "ru": "Я часто слышу.",
+    "ruStressed": "Я ча́сто слы́шу.",
+    "translit": "Ya chasto slyshu.",
+    "en": "I often hear."
+  },
+  {
+    "id": "top-300-verbs-55",
+    "ru": "Я часто чувствую.",
+    "ruStressed": "Я ча́сто чу́вствую.",
+    "translit": "Ya chasto chuvstvuyu.",
+    "en": "I often feel."
+  },
+  {
+    "id": "top-300-verbs-56",
+    "ru": "Я часто любуюсь.",
+    "ruStressed": "Я ча́сто любу́юсь.",
+    "translit": "Ya chasto lyubuyus.",
+    "en": "I often admire."
+  },
+  {
+    "id": "top-300-verbs-57",
+    "ru": "Я часто надеюсь.",
+    "ruStressed": "Я ча́сто наде́юсь.",
+    "translit": "Ya chasto nadeyus.",
+    "en": "I often hope."
+  },
+  {
+    "id": "top-300-verbs-58",
+    "ru": "Я часто верю.",
+    "ruStressed": "Я ча́сто ве́рю.",
+    "translit": "Ya chasto veryu.",
+    "en": "I often believe."
+  },
+  {
+    "id": "top-300-verbs-59",
+    "ru": "Я часто улыбаюсь.",
+    "ruStressed": "Я ча́сто улыба́юсь.",
+    "translit": "Ya chasto ulybayus.",
+    "en": "I often smile."
+  },
+  {
+    "id": "top-300-verbs-60",
+    "ru": "Я часто смеюсь.",
+    "ruStressed": "Я ча́сто смею́сь.",
+    "translit": "Ya chasto smeyus.",
+    "en": "I often laugh."
+  },
+  {
+    "id": "top-300-verbs-61",
+    "ru": "Я часто плачу.",
+    "ruStressed": "Я ча́сто пла́чу.",
+    "translit": "Ya chasto plachu.",
+    "en": "I often cry."
+  },
+  {
+    "id": "top-300-verbs-62",
+    "ru": "Я часто боюсь.",
+    "ruStressed": "Я ча́сто бою́сь.",
+    "translit": "Ya chasto boyus.",
+    "en": "I often fear."
+  },
+  {
+    "id": "top-300-verbs-63",
+    "ru": "Я часто волнуюсь.",
+    "ruStressed": "Я ча́сто волну́юсь.",
+    "translit": "Ya chasto volnuyus.",
+    "en": "I often worry."
+  },
+  {
+    "id": "top-300-verbs-64",
+    "ru": "Я часто отдыхаю.",
+    "ruStressed": "Я ча́сто отдыха́ю.",
+    "translit": "Ya chasto otdykhayu.",
+    "en": "I often rest."
+  },
+  {
+    "id": "top-300-verbs-65",
+    "ru": "Я часто гуляю.",
+    "ruStressed": "Я ча́сто гуля́ю.",
+    "translit": "Ya chasto gulyayu.",
+    "en": "I often go for a walk."
+  },
+  {
+    "id": "top-300-verbs-66",
+    "ru": "Я часто путешествую.",
+    "ruStressed": "Я ча́сто путеше́ствую.",
+    "translit": "Ya chasto puteshestvuyu.",
+    "en": "I often travel."
+  },
+  {
+    "id": "top-300-verbs-67",
+    "ru": "Я часто готовлю.",
+    "ruStressed": "Я ча́сто гото́влю.",
+    "translit": "Ya chasto gotovlyu.",
+    "en": "I often cook."
+  },
+  {
+    "id": "top-300-verbs-68",
+    "ru": "Я часто убираю.",
+    "ruStressed": "Я ча́сто убира́ю.",
+    "translit": "Ya chasto ubirayu.",
+    "en": "I often tidy up."
+  },
+  {
+    "id": "top-300-verbs-69",
+    "ru": "Я часто стираю.",
+    "ruStressed": "Я ча́сто стира́ю.",
+    "translit": "Ya chasto stirayu.",
+    "en": "I often do laundry."
+  },
+  {
+    "id": "top-300-verbs-70",
+    "ru": "Я часто мою.",
+    "ruStressed": "Я ча́сто мо́ю.",
+    "translit": "Ya chasto moyu.",
+    "en": "I often wash."
+  },
+  {
+    "id": "top-300-verbs-71",
+    "ru": "Я часто рисую.",
+    "ruStressed": "Я ча́сто рису́ю.",
+    "translit": "Ya chasto risuyu.",
+    "en": "I often draw."
+  },
+  {
+    "id": "top-300-verbs-72",
+    "ru": "Я часто пою.",
+    "ruStressed": "Я ча́сто пою́.",
+    "translit": "Ya chasto poyu.",
+    "en": "I often sing."
+  },
+  {
+    "id": "top-300-verbs-73",
+    "ru": "Я часто танцую.",
+    "ruStressed": "Я ча́сто танцу́ю.",
+    "translit": "Ya chasto tantsuyu.",
+    "en": "I often dance."
+  },
+  {
+    "id": "top-300-verbs-74",
+    "ru": "Я часто бегаю.",
+    "ruStressed": "Я ча́сто бе́гаю.",
+    "translit": "Ya chasto begayu.",
+    "en": "I often run."
+  },
+  {
+    "id": "top-300-verbs-75",
+    "ru": "Я часто плаваю.",
+    "ruStressed": "Я ча́сто пла́ваю.",
+    "translit": "Ya chasto plavayu.",
+    "en": "I often swim."
+  },
+  {
+    "id": "top-300-verbs-76",
+    "ru": "Я часто прыгаю.",
+    "ruStressed": "Я ча́сто пры́гаю.",
+    "translit": "Ya chasto prygayu.",
+    "en": "I often jump."
+  },
+  {
+    "id": "top-300-verbs-77",
+    "ru": "Я часто сижу.",
+    "ruStressed": "Я ча́сто сижу́.",
+    "translit": "Ya chasto sizhu.",
+    "en": "I often sit."
+  },
+  {
+    "id": "top-300-verbs-78",
+    "ru": "Я часто стою.",
+    "ruStressed": "Я ча́сто стою́.",
+    "translit": "Ya chasto stoyu.",
+    "en": "I often stand."
+  },
+  {
+    "id": "top-300-verbs-79",
+    "ru": "Я часто лежу.",
+    "ruStressed": "Я ча́сто лежу́.",
+    "translit": "Ya chasto lezhu.",
+    "en": "I often lie."
+  },
+  {
+    "id": "top-300-verbs-80",
+    "ru": "Я часто встречаю.",
+    "ruStressed": "Я ча́сто встреча́ю.",
+    "translit": "Ya chasto vstrechayu.",
+    "en": "I often meet."
+  },
+  {
+    "id": "top-300-verbs-81",
+    "ru": "Я часто приглашаю.",
+    "ruStressed": "Я ча́сто приглаша́ю.",
+    "translit": "Ya chasto priglashayu.",
+    "en": "I often invite."
+  },
+  {
+    "id": "top-300-verbs-82",
+    "ru": "Я часто дарю.",
+    "ruStressed": "Я ча́сто дарю́.",
+    "translit": "Ya chasto daryu.",
+    "en": "I often give as gift."
+  },
+  {
+    "id": "top-300-verbs-83",
+    "ru": "Я часто обещаю.",
+    "ruStressed": "Я ча́сто обеща́ю.",
+    "translit": "Ya chasto obeshchayu.",
+    "en": "I often promise."
+  },
+  {
+    "id": "top-300-verbs-84",
+    "ru": "Я часто советую.",
+    "ruStressed": "Я ча́сто сове́тую.",
+    "translit": "Ya chasto sovetuyu.",
+    "en": "I often advise."
+  },
+  {
+    "id": "top-300-verbs-85",
+    "ru": "Я часто объясняю.",
+    "ruStressed": "Я ча́сто объясня́ю.",
+    "translit": "Ya chasto obyasnyayu.",
+    "en": "I often explain."
+  },
+  {
+    "id": "top-300-verbs-86",
+    "ru": "Я часто рассказываю.",
+    "ruStressed": "Я ча́сто расска́зываю.",
+    "translit": "Ya chasto rasskazyvayu.",
+    "en": "I often tell."
+  },
+  {
+    "id": "top-300-verbs-87",
+    "ru": "Я часто перевожу.",
+    "ruStressed": "Я ча́сто перевожу́.",
+    "translit": "Ya chasto perevozhu.",
+    "en": "I often translate."
+  },
+  {
+    "id": "top-300-verbs-88",
+    "ru": "Я часто использую.",
+    "ruStressed": "Я ча́сто испо́льзую.",
+    "translit": "Ya chasto ispolzuyu.",
+    "en": "I often use."
+  },
+  {
+    "id": "top-300-verbs-89",
+    "ru": "Я часто создаю.",
+    "ruStressed": "Я ча́сто создаю́.",
+    "translit": "Ya chasto sozdayu.",
+    "en": "I often create."
+  },
+  {
+    "id": "top-300-verbs-90",
+    "ru": "Я часто строю.",
+    "ruStressed": "Я ча́сто стро́ю.",
+    "translit": "Ya chasto stroyu.",
+    "en": "I often build."
+  },
+  {
+    "id": "top-300-verbs-91",
+    "ru": "Я часто ломаю.",
+    "ruStressed": "Я ча́сто лома́ю.",
+    "translit": "Ya chasto lomayu.",
+    "en": "I often break."
+  },
+  {
+    "id": "top-300-verbs-92",
+    "ru": "Я часто чиню.",
+    "ruStressed": "Я ча́сто чиню́.",
+    "translit": "Ya chasto chinyu.",
+    "en": "I often repair."
+  },
+  {
+    "id": "top-300-verbs-93",
+    "ru": "Я часто зарабатываю.",
+    "ruStressed": "Я ча́сто зараба́тываю.",
+    "translit": "Ya chasto zarabatyvayu.",
+    "en": "I often earn."
+  },
+  {
+    "id": "top-300-verbs-94",
+    "ru": "Я часто трачу.",
+    "ruStressed": "Я ча́сто тра́чу.",
+    "translit": "Ya chasto trachu.",
+    "en": "I often spend."
+  },
+  {
+    "id": "top-300-verbs-95",
+    "ru": "Я часто экономлю.",
+    "ruStressed": "Я ча́сто эконо́млю.",
+    "translit": "Ya chasto ekonomlyu.",
+    "en": "I often save."
+  },
+  {
+    "id": "top-300-verbs-96",
+    "ru": "Я часто выбираю.",
+    "ruStressed": "Я ча́сто выбира́ю.",
+    "translit": "Ya chasto vybirayu.",
+    "en": "I often choose."
+  },
+  {
+    "id": "top-300-verbs-97",
+    "ru": "Я часто решаю.",
+    "ruStressed": "Я ча́сто реша́ю.",
+    "translit": "Ya chasto reshayu.",
+    "en": "I often decide."
+  },
+  {
+    "id": "top-300-verbs-98",
+    "ru": "Я часто планирую.",
+    "ruStressed": "Я ча́сто плани́рую.",
+    "translit": "Ya chasto planiruyu.",
+    "en": "I often plan."
+  },
+  {
+    "id": "top-300-verbs-99",
+    "ru": "Я часто проверяю.",
+    "ruStressed": "Я ча́сто проверя́ю.",
+    "translit": "Ya chasto proveryayu.",
+    "en": "I often check."
+  },
+  {
+    "id": "top-300-verbs-100",
+    "ru": "Я часто обсуждаю.",
+    "ruStressed": "Я ча́сто обсужда́ю.",
+    "translit": "Ya chasto obsuzhdayu.",
+    "en": "I often discuss."
+  },
+  {
+    "id": "top-300-verbs-101",
+    "ru": "Я часто соглашаюсь.",
+    "ruStressed": "Я ча́сто соглаша́юсь.",
+    "translit": "Ya chasto soglashayus.",
+    "en": "I often agree."
+  },
+  {
+    "id": "top-300-verbs-102",
+    "ru": "Я часто спорю.",
+    "ruStressed": "Я ча́сто спо́рю.",
+    "translit": "Ya chasto sporyu.",
+    "en": "I often argue."
+  },
+  {
+    "id": "top-300-verbs-103",
+    "ru": "Я часто извиняюсь.",
+    "ruStressed": "Я ча́сто извиня́юсь.",
+    "translit": "Ya chasto izvinyayus.",
+    "en": "I often apologize."
+  },
+  {
+    "id": "top-300-verbs-104",
+    "ru": "Я часто благодарю.",
+    "ruStressed": "Я ча́сто благодарю́.",
+    "translit": "Ya chasto blagodaryu.",
+    "en": "I often thank."
+  },
+  {
+    "id": "top-300-verbs-105",
+    "ru": "Я часто поздравляю.",
+    "ruStressed": "Я ча́сто поздравля́ю.",
+    "translit": "Ya chasto pozdravlyayu.",
+    "en": "I often congratulate."
+  },
+  {
+    "id": "top-300-verbs-106",
+    "ru": "Я часто прощаю.",
+    "ruStressed": "Я ча́сто проща́ю.",
+    "translit": "Ya chasto proshchayu.",
+    "en": "I often forgive."
+  },
+  {
+    "id": "top-300-verbs-107",
+    "ru": "Вчера я работал.",
+    "ruStressed": "Вчера́ я рабо́тал.",
+    "translit": "Vchera ya rabotal.",
+    "en": "Yesterday I worked."
+  },
+  {
+    "id": "top-300-verbs-108",
+    "ru": "Вчера я делал.",
+    "ruStressed": "Вчера́ я де́лал.",
+    "translit": "Vchera ya delal.",
+    "en": "Yesterday I did."
+  },
+  {
+    "id": "top-300-verbs-109",
+    "ru": "Вчера я идл.",
+    "ruStressed": "Вчера́ я идти́л.",
+    "translit": "Vchera ya idl.",
+    "en": "Yesterday I walked."
+  },
+  {
+    "id": "top-300-verbs-110",
+    "ru": "Вчера я ходил.",
+    "ruStressed": "Вчера́ я ходи́л.",
+    "translit": "Vchera ya khodil.",
+    "en": "Yesterday I went (on foot)."
+  },
+  {
+    "id": "top-300-verbs-111",
+    "ru": "Вчера я ехал.",
+    "ruStressed": "Вчера́ я е́хал.",
+    "translit": "Vchera ya ekhal.",
+    "en": "Yesterday I rode."
+  },
+  {
+    "id": "top-300-verbs-112",
+    "ru": "Вчера я ездил.",
+    "ruStressed": "Вчера́ я е́здил.",
+    "translit": "Vchera ya ezdil.",
+    "en": "Yesterday I traveled."
+  },
+  {
+    "id": "top-300-verbs-113",
+    "ru": "Вчера я читал.",
+    "ruStressed": "Вчера́ я чита́л.",
+    "translit": "Vchera ya chital.",
+    "en": "Yesterday I read."
+  },
+  {
+    "id": "top-300-verbs-114",
+    "ru": "Вчера я писал.",
+    "ruStressed": "Вчера́ я писа́л.",
+    "translit": "Vchera ya pisal.",
+    "en": "Yesterday I wrote."
+  },
+  {
+    "id": "top-300-verbs-115",
+    "ru": "Вчера я говорил.",
+    "ruStressed": "Вчера́ я говори́л.",
+    "translit": "Vchera ya govoril.",
+    "en": "Yesterday I spoke."
+  },
+  {
+    "id": "top-300-verbs-116",
+    "ru": "Вчера я слушал.",
+    "ruStressed": "Вчера́ я слу́шал.",
+    "translit": "Vchera ya slushal.",
+    "en": "Yesterday I listened."
+  },
+  {
+    "id": "top-300-verbs-117",
+    "ru": "Вчера я смотрел.",
+    "ruStressed": "Вчера́ я смотре́л.",
+    "translit": "Vchera ya smotrel.",
+    "en": "Yesterday I watched."
+  },
+  {
+    "id": "top-300-verbs-118",
+    "ru": "Вчера я видел.",
+    "ruStressed": "Вчера́ я ви́дел.",
+    "translit": "Vchera ya videl.",
+    "en": "Yesterday I saw."
+  },
+  {
+    "id": "top-300-verbs-119",
+    "ru": "Вчера я знал.",
+    "ruStressed": "Вчера́ я знал.",
+    "translit": "Vchera ya znal.",
+    "en": "Yesterday I knew."
+  },
+  {
+    "id": "top-300-verbs-120",
+    "ru": "Вчера я понимал.",
+    "ruStressed": "Вчера́ я понима́л.",
+    "translit": "Vchera ya ponimal.",
+    "en": "Yesterday I understood."
+  },
+  {
+    "id": "top-300-verbs-121",
+    "ru": "Вчера я думал.",
+    "ruStressed": "Вчера́ я ду́мал.",
+    "translit": "Vchera ya dumal.",
+    "en": "Yesterday I thought."
+  },
+  {
+    "id": "top-300-verbs-122",
+    "ru": "Вчера я любил.",
+    "ruStressed": "Вчера́ я люби́л.",
+    "translit": "Vchera ya lyubil.",
+    "en": "Yesterday I loved."
+  },
+  {
+    "id": "top-300-verbs-123",
+    "ru": "Вчера я хотел.",
+    "ruStressed": "Вчера́ я хоте́л.",
+    "translit": "Vchera ya khotel.",
+    "en": "Yesterday I wanted."
+  },
+  {
+    "id": "top-300-verbs-124",
+    "ru": "Вчера я мог.",
+    "ruStressed": "Вчера́ я мог.",
+    "translit": "Vchera ya mog.",
+    "en": "Yesterday I was able."
+  },
+  {
+    "id": "top-300-verbs-125",
+    "ru": "Вчера я есл.",
+    "ruStressed": "Вчера́ я есл.",
+    "translit": "Vchera ya esl.",
+    "en": "Yesterday I ate."
+  },
+  {
+    "id": "top-300-verbs-126",
+    "ru": "Вчера я пил.",
+    "ruStressed": "Вчера́ я пил.",
+    "translit": "Vchera ya pil.",
+    "en": "Yesterday I drank."
+  },
+  {
+    "id": "top-300-verbs-127",
+    "ru": "Вчера я спал.",
+    "ruStressed": "Вчера́ я спал.",
+    "translit": "Vchera ya spal.",
+    "en": "Yesterday I slept."
+  },
+  {
+    "id": "top-300-verbs-128",
+    "ru": "Вчера я жил.",
+    "ruStressed": "Вчера́ я жил.",
+    "translit": "Vchera ya zhil.",
+    "en": "Yesterday I lived."
+  },
+  {
+    "id": "top-300-verbs-129",
+    "ru": "Вчера я учил.",
+    "ruStressed": "Вчера́ я учи́л.",
+    "translit": "Vchera ya uchil.",
+    "en": "Yesterday I studied."
+  },
+  {
+    "id": "top-300-verbs-130",
+    "ru": "Вчера я учился.",
+    "ruStressed": "Вчера́ я учи́лся.",
+    "translit": "Vchera ya uchilsya.",
+    "en": "Yesterday I learned."
+  },
+  {
+    "id": "top-300-verbs-131",
+    "ru": "Вчера я играл.",
+    "ruStressed": "Вчера́ я игра́л.",
+    "translit": "Vchera ya igral.",
+    "en": "Yesterday I played."
+  },
+  {
+    "id": "top-300-verbs-132",
+    "ru": "Вчера я покупал.",
+    "ruStressed": "Вчера́ я покупа́л.",
+    "translit": "Vchera ya pokupal.",
+    "en": "Yesterday I bought."
+  },
+  {
+    "id": "top-300-verbs-133",
+    "ru": "Вчера я продавал.",
+    "ruStressed": "Вчера́ я продава́л.",
+    "translit": "Vchera ya prodaval.",
+    "en": "Yesterday I sold."
+  },
+  {
+    "id": "top-300-verbs-134",
+    "ru": "Вчера я давал.",
+    "ruStressed": "Вчера́ я дава́л.",
+    "translit": "Vchera ya daval.",
+    "en": "Yesterday I gave."
+  },
+  {
+    "id": "top-300-verbs-135",
+    "ru": "Вчера я брал.",
+    "ruStressed": "Вчера́ я брал.",
+    "translit": "Vchera ya bral.",
+    "en": "Yesterday I took."
+  },
+  {
+    "id": "top-300-verbs-136",
+    "ru": "Вчера я приносил.",
+    "ruStressed": "Вчера́ я приноси́л.",
+    "translit": "Vchera ya prinosil.",
+    "en": "Yesterday I brought."
+  },
+  {
+    "id": "top-300-verbs-137",
+    "ru": "Вчера я получал.",
+    "ruStressed": "Вчера́ я получа́л.",
+    "translit": "Vchera ya poluchal.",
+    "en": "Yesterday I received."
+  },
+  {
+    "id": "top-300-verbs-138",
+    "ru": "Вчера я отдавал.",
+    "ruStressed": "Вчера́ я отдава́л.",
+    "translit": "Vchera ya otdaval.",
+    "en": "Yesterday I gave back."
+  },
+  {
+    "id": "top-300-verbs-139",
+    "ru": "Вчера я приходил.",
+    "ruStressed": "Вчера́ я приходи́л.",
+    "translit": "Vchera ya prikhodil.",
+    "en": "Yesterday I arrived (on foot)."
+  },
+  {
+    "id": "top-300-verbs-140",
+    "ru": "Вчера я приезжал.",
+    "ruStressed": "Вчера́ я приезжа́л.",
+    "translit": "Vchera ya priezzhal.",
+    "en": "Yesterday I arrived (by vehicle)."
+  },
+  {
+    "id": "top-300-verbs-141",
+    "ru": "Вчера я уходил.",
+    "ruStressed": "Вчера́ я уходи́л.",
+    "translit": "Vchera ya ukhodil.",
+    "en": "Yesterday I left (on foot)."
+  },
+  {
+    "id": "top-300-verbs-142",
+    "ru": "Вчера я уезжал.",
+    "ruStressed": "Вчера́ я уезжа́л.",
+    "translit": "Vchera ya uezzhal.",
+    "en": "Yesterday I left (by vehicle)."
+  },
+  {
+    "id": "top-300-verbs-143",
+    "ru": "Вчера я звонил.",
+    "ruStressed": "Вчера́ я звони́л.",
+    "translit": "Vchera ya zvonil.",
+    "en": "Yesterday I called."
+  },
+  {
+    "id": "top-300-verbs-144",
+    "ru": "Вчера я отвечал.",
+    "ruStressed": "Вчера́ я отвеча́л.",
+    "translit": "Vchera ya otvechal.",
+    "en": "Yesterday I answered."
+  },
+  {
+    "id": "top-300-verbs-145",
+    "ru": "Вчера я спрашивал.",
+    "ruStressed": "Вчера́ я спра́шивал.",
+    "translit": "Vchera ya sprashival.",
+    "en": "Yesterday I asked."
+  },
+  {
+    "id": "top-300-verbs-146",
+    "ru": "Вчера я просил.",
+    "ruStressed": "Вчера́ я проси́л.",
+    "translit": "Vchera ya prosil.",
+    "en": "Yesterday I requested."
+  },
+  {
+    "id": "top-300-verbs-147",
+    "ru": "Вчера я помогал.",
+    "ruStressed": "Вчера́ я помога́л.",
+    "translit": "Vchera ya pomogal.",
+    "en": "Yesterday I helped."
+  },
+  {
+    "id": "top-300-verbs-148",
+    "ru": "Вчера я открывал.",
+    "ruStressed": "Вчера́ я открыва́л.",
+    "translit": "Vchera ya otkryval.",
+    "en": "Yesterday I opened."
+  },
+  {
+    "id": "top-300-verbs-149",
+    "ru": "Вчера я закрывал.",
+    "ruStressed": "Вчера́ я закрыва́л.",
+    "translit": "Vchera ya zakryval.",
+    "en": "Yesterday I closed."
+  },
+  {
+    "id": "top-300-verbs-150",
+    "ru": "Вчера я начинал.",
+    "ruStressed": "Вчера́ я начина́л.",
+    "translit": "Vchera ya nachinal.",
+    "en": "Yesterday I began."
+  },
+  {
+    "id": "top-300-verbs-151",
+    "ru": "Вчера я заканчивал.",
+    "ruStressed": "Вчера́ я зака́нчивал.",
+    "translit": "Vchera ya zakanchival.",
+    "en": "Yesterday I finished."
+  },
+  {
+    "id": "top-300-verbs-152",
+    "ru": "Вчера я продолжал.",
+    "ruStressed": "Вчера́ я продолжа́л.",
+    "translit": "Vchera ya prodolzhal.",
+    "en": "Yesterday I continued."
+  },
+  {
+    "id": "top-300-verbs-153",
+    "ru": "Вчера я искал.",
+    "ruStressed": "Вчера́ я иска́л.",
+    "translit": "Vchera ya iskal.",
+    "en": "Yesterday I searched for."
+  },
+  {
+    "id": "top-300-verbs-154",
+    "ru": "Вчера я находил.",
+    "ruStressed": "Вчера́ я находи́л.",
+    "translit": "Vchera ya nakhodil.",
+    "en": "Yesterday I found."
+  },
+  {
+    "id": "top-300-verbs-155",
+    "ru": "Вчера я терял.",
+    "ruStressed": "Вчера́ я теря́л.",
+    "translit": "Vchera ya teryal.",
+    "en": "Yesterday I lost."
+  },
+  {
+    "id": "top-300-verbs-156",
+    "ru": "Вчера я забывал.",
+    "ruStressed": "Вчера́ я забыва́л.",
+    "translit": "Vchera ya zabyval.",
+    "en": "Yesterday I forgot."
+  },
+  {
+    "id": "top-300-verbs-157",
+    "ru": "Вчера я вспоминал.",
+    "ruStressed": "Вчера́ я вспомина́л.",
+    "translit": "Vchera ya vspominal.",
+    "en": "Yesterday I recalled."
+  },
+  {
+    "id": "top-300-verbs-158",
+    "ru": "Вчера я помнил.",
+    "ruStressed": "Вчера́ я по́мнил.",
+    "translit": "Vchera ya pomnil.",
+    "en": "Yesterday I remembered."
+  },
+  {
+    "id": "top-300-verbs-159",
+    "ru": "Вчера я повторял.",
+    "ruStressed": "Вчера́ я повторя́л.",
+    "translit": "Vchera ya povtoryal.",
+    "en": "Yesterday I repeated."
+  },
+  {
+    "id": "top-300-verbs-160",
+    "ru": "Вчера я слышал.",
+    "ruStressed": "Вчера́ я слы́шал.",
+    "translit": "Vchera ya slyshal.",
+    "en": "Yesterday I heard."
+  },
+  {
+    "id": "top-300-verbs-161",
+    "ru": "Вчера я чувствовал.",
+    "ruStressed": "Вчера́ я чу́вствовал.",
+    "translit": "Vchera ya chuvstvoval.",
+    "en": "Yesterday I felt."
+  },
+  {
+    "id": "top-300-verbs-162",
+    "ru": "Вчера я любовался.",
+    "ruStressed": "Вчера́ я любова́лся.",
+    "translit": "Vchera ya lyubovalsya.",
+    "en": "Yesterday I admired."
+  },
+  {
+    "id": "top-300-verbs-163",
+    "ru": "Вчера я надеялся.",
+    "ruStressed": "Вчера́ я наде́ялся.",
+    "translit": "Vchera ya nadeyalsya.",
+    "en": "Yesterday I hoped."
+  },
+  {
+    "id": "top-300-verbs-164",
+    "ru": "Вчера я верил.",
+    "ruStressed": "Вчера́ я ве́рил.",
+    "translit": "Vchera ya veril.",
+    "en": "Yesterday I believed."
+  },
+  {
+    "id": "top-300-verbs-165",
+    "ru": "Вчера я улыбался.",
+    "ruStressed": "Вчера́ я улыба́лся.",
+    "translit": "Vchera ya ulybalsya.",
+    "en": "Yesterday I smiled."
+  },
+  {
+    "id": "top-300-verbs-166",
+    "ru": "Вчера я смеялся.",
+    "ruStressed": "Вчера́ я смея́лся.",
+    "translit": "Vchera ya smeyalsya.",
+    "en": "Yesterday I laughed."
+  },
+  {
+    "id": "top-300-verbs-167",
+    "ru": "Вчера я плакал.",
+    "ruStressed": "Вчера́ я пла́кал.",
+    "translit": "Vchera ya plakal.",
+    "en": "Yesterday I cried."
+  },
+  {
+    "id": "top-300-verbs-168",
+    "ru": "Вчера я боялся.",
+    "ruStressed": "Вчера́ я боя́лся.",
+    "translit": "Vchera ya boyalsya.",
+    "en": "Yesterday I feared."
+  },
+  {
+    "id": "top-300-verbs-169",
+    "ru": "Вчера я волновался.",
+    "ruStressed": "Вчера́ я волнова́лся.",
+    "translit": "Vchera ya volnovalsya.",
+    "en": "Yesterday I worried."
+  },
+  {
+    "id": "top-300-verbs-170",
+    "ru": "Вчера я отдыхал.",
+    "ruStressed": "Вчера́ я отдыха́л.",
+    "translit": "Vchera ya otdykhal.",
+    "en": "Yesterday I rested."
+  },
+  {
+    "id": "top-300-verbs-171",
+    "ru": "Вчера я гулял.",
+    "ruStressed": "Вчера́ я гуля́л.",
+    "translit": "Vchera ya gulyal.",
+    "en": "Yesterday I went for a walk."
+  },
+  {
+    "id": "top-300-verbs-172",
+    "ru": "Вчера я путешествовал.",
+    "ruStressed": "Вчера́ я путеше́ствовал.",
+    "translit": "Vchera ya puteshestvoval.",
+    "en": "Yesterday I traveled."
+  },
+  {
+    "id": "top-300-verbs-173",
+    "ru": "Вчера я готовил.",
+    "ruStressed": "Вчера́ я гото́вил.",
+    "translit": "Vchera ya gotovil.",
+    "en": "Yesterday I cooked."
+  },
+  {
+    "id": "top-300-verbs-174",
+    "ru": "Вчера я убирал.",
+    "ruStressed": "Вчера́ я убира́л.",
+    "translit": "Vchera ya ubiral.",
+    "en": "Yesterday I tidied up."
+  },
+  {
+    "id": "top-300-verbs-175",
+    "ru": "Вчера я стирал.",
+    "ruStressed": "Вчера́ я стира́л.",
+    "translit": "Vchera ya stiral.",
+    "en": "Yesterday I did laundry."
+  },
+  {
+    "id": "top-300-verbs-176",
+    "ru": "Вчера я мыл.",
+    "ruStressed": "Вчера́ я мыл.",
+    "translit": "Vchera ya myl.",
+    "en": "Yesterday I washed."
+  },
+  {
+    "id": "top-300-verbs-177",
+    "ru": "Вчера я рисовал.",
+    "ruStressed": "Вчера́ я рисова́л.",
+    "translit": "Vchera ya risoval.",
+    "en": "Yesterday I drew."
+  },
+  {
+    "id": "top-300-verbs-178",
+    "ru": "Вчера я пел.",
+    "ruStressed": "Вчера́ я пел.",
+    "translit": "Vchera ya pel.",
+    "en": "Yesterday I sang."
+  },
+  {
+    "id": "top-300-verbs-179",
+    "ru": "Вчера я танцевал.",
+    "ruStressed": "Вчера́ я танцева́л.",
+    "translit": "Vchera ya tantseval.",
+    "en": "Yesterday I danced."
+  },
+  {
+    "id": "top-300-verbs-180",
+    "ru": "Вчера я бегал.",
+    "ruStressed": "Вчера́ я бе́гал.",
+    "translit": "Vchera ya begal.",
+    "en": "Yesterday I ran."
+  },
+  {
+    "id": "top-300-verbs-181",
+    "ru": "Вчера я плавал.",
+    "ruStressed": "Вчера́ я пла́вал.",
+    "translit": "Vchera ya plaval.",
+    "en": "Yesterday I swam."
+  },
+  {
+    "id": "top-300-verbs-182",
+    "ru": "Вчера я прыгал.",
+    "ruStressed": "Вчера́ я пры́гал.",
+    "translit": "Vchera ya prygal.",
+    "en": "Yesterday I jumped."
+  },
+  {
+    "id": "top-300-verbs-183",
+    "ru": "Вчера я сидел.",
+    "ruStressed": "Вчера́ я сиде́л.",
+    "translit": "Vchera ya sidel.",
+    "en": "Yesterday I sat."
+  },
+  {
+    "id": "top-300-verbs-184",
+    "ru": "Вчера я стоял.",
+    "ruStressed": "Вчера́ я стоя́л.",
+    "translit": "Vchera ya stoyal.",
+    "en": "Yesterday I stood."
+  },
+  {
+    "id": "top-300-verbs-185",
+    "ru": "Вчера я лежал.",
+    "ruStressed": "Вчера́ я лежа́л.",
+    "translit": "Vchera ya lezhal.",
+    "en": "Yesterday I lay."
+  },
+  {
+    "id": "top-300-verbs-186",
+    "ru": "Вчера я встречал.",
+    "ruStressed": "Вчера́ я встреча́л.",
+    "translit": "Vchera ya vstrechal.",
+    "en": "Yesterday I met."
+  },
+  {
+    "id": "top-300-verbs-187",
+    "ru": "Вчера я приглашал.",
+    "ruStressed": "Вчера́ я приглаша́л.",
+    "translit": "Vchera ya priglashal.",
+    "en": "Yesterday I invited."
+  },
+  {
+    "id": "top-300-verbs-188",
+    "ru": "Вчера я дарил.",
+    "ruStressed": "Вчера́ я дари́л.",
+    "translit": "Vchera ya daril.",
+    "en": "Yesterday I gave as gift."
+  },
+  {
+    "id": "top-300-verbs-189",
+    "ru": "Вчера я обещал.",
+    "ruStressed": "Вчера́ я обеща́л.",
+    "translit": "Vchera ya obeshchal.",
+    "en": "Yesterday I promised."
+  },
+  {
+    "id": "top-300-verbs-190",
+    "ru": "Вчера я советовал.",
+    "ruStressed": "Вчера́ я сове́товал.",
+    "translit": "Vchera ya sovetoval.",
+    "en": "Yesterday I advised."
+  },
+  {
+    "id": "top-300-verbs-191",
+    "ru": "Вчера я объяснял.",
+    "ruStressed": "Вчера́ я объясня́л.",
+    "translit": "Vchera ya obyasnyal.",
+    "en": "Yesterday I explained."
+  },
+  {
+    "id": "top-300-verbs-192",
+    "ru": "Вчера я рассказывал.",
+    "ruStressed": "Вчера́ я расска́зывал.",
+    "translit": "Vchera ya rasskazyval.",
+    "en": "Yesterday I told."
+  },
+  {
+    "id": "top-300-verbs-193",
+    "ru": "Вчера я переводил.",
+    "ruStressed": "Вчера́ я переводи́л.",
+    "translit": "Vchera ya perevodil.",
+    "en": "Yesterday I translated."
+  },
+  {
+    "id": "top-300-verbs-194",
+    "ru": "Вчера я использовал.",
+    "ruStressed": "Вчера́ я испо́льзовал.",
+    "translit": "Vchera ya ispolzoval.",
+    "en": "Yesterday I used."
+  },
+  {
+    "id": "top-300-verbs-195",
+    "ru": "Вчера я создавал.",
+    "ruStressed": "Вчера́ я создава́л.",
+    "translit": "Vchera ya sozdaval.",
+    "en": "Yesterday I created."
+  },
+  {
+    "id": "top-300-verbs-196",
+    "ru": "Вчера я строил.",
+    "ruStressed": "Вчера́ я стро́ил.",
+    "translit": "Vchera ya stroil.",
+    "en": "Yesterday I built."
+  },
+  {
+    "id": "top-300-verbs-197",
+    "ru": "Вчера я ломал.",
+    "ruStressed": "Вчера́ я лома́л.",
+    "translit": "Vchera ya lomal.",
+    "en": "Yesterday I broke."
+  },
+  {
+    "id": "top-300-verbs-198",
+    "ru": "Вчера я чинил.",
+    "ruStressed": "Вчера́ я чини́л.",
+    "translit": "Vchera ya chinil.",
+    "en": "Yesterday I repaired."
+  },
+  {
+    "id": "top-300-verbs-199",
+    "ru": "Вчера я платил.",
+    "ruStressed": "Вчера́ я плати́л.",
+    "translit": "Vchera ya platil.",
+    "en": "Yesterday I paid."
+  },
+  {
+    "id": "top-300-verbs-200",
+    "ru": "Вчера я стоил.",
+    "ruStressed": "Вчера́ я сто́ил.",
+    "translit": "Vchera ya stoil.",
+    "en": "Yesterday I cost."
+  },
+  {
+    "id": "top-300-verbs-201",
+    "ru": "Вчера я зарабатывал.",
+    "ruStressed": "Вчера́ я зараба́тывал.",
+    "translit": "Vchera ya zarabatyval.",
+    "en": "Yesterday I earned."
+  },
+  {
+    "id": "top-300-verbs-202",
+    "ru": "Вчера я тратил.",
+    "ruStressed": "Вчера́ я тра́тил.",
+    "translit": "Vchera ya tratil.",
+    "en": "Yesterday I spent."
+  },
+  {
+    "id": "top-300-verbs-203",
+    "ru": "Вчера я экономил.",
+    "ruStressed": "Вчера́ я эконо́мил.",
+    "translit": "Vchera ya ekonomil.",
+    "en": "Yesterday I saved."
+  },
+  {
+    "id": "top-300-verbs-204",
+    "ru": "Вчера я выбирал.",
+    "ruStressed": "Вчера́ я выбира́л.",
+    "translit": "Vchera ya vybiral.",
+    "en": "Yesterday I chose."
+  },
+  {
+    "id": "top-300-verbs-205",
+    "ru": "Вчера я решал.",
+    "ruStressed": "Вчера́ я реша́л.",
+    "translit": "Vchera ya reshal.",
+    "en": "Yesterday I decided."
+  },
+  {
+    "id": "top-300-verbs-206",
+    "ru": "Вчера я планировал.",
+    "ruStressed": "Вчера́ я плани́ровал.",
+    "translit": "Vchera ya planiroval.",
+    "en": "Yesterday I planned."
+  },
+  {
+    "id": "top-300-verbs-207",
+    "ru": "Вчера я проверял.",
+    "ruStressed": "Вчера́ я проверя́л.",
+    "translit": "Vchera ya proveryal.",
+    "en": "Yesterday I checked."
+  },
+  {
+    "id": "top-300-verbs-208",
+    "ru": "Вчера я обсуждал.",
+    "ruStressed": "Вчера́ я обсужда́л.",
+    "translit": "Vchera ya obsuzhdal.",
+    "en": "Yesterday I discussed."
+  },
+  {
+    "id": "top-300-verbs-209",
+    "ru": "Вчера я соглашался.",
+    "ruStressed": "Вчера́ я соглаша́лся.",
+    "translit": "Vchera ya soglashalsya.",
+    "en": "Yesterday I agreed."
+  },
+  {
+    "id": "top-300-verbs-210",
+    "ru": "Вчера я спорил.",
+    "ruStressed": "Вчера́ я спо́рил.",
+    "translit": "Vchera ya sporil.",
+    "en": "Yesterday I argued."
+  },
+  {
+    "id": "top-300-verbs-211",
+    "ru": "Вчера я извинялся.",
+    "ruStressed": "Вчера́ я извиня́лся.",
+    "translit": "Vchera ya izvinyalsya.",
+    "en": "Yesterday I apologized."
+  },
+  {
+    "id": "top-300-verbs-212",
+    "ru": "Вчера я благодарил.",
+    "ruStressed": "Вчера́ я благодари́л.",
+    "translit": "Vchera ya blagodaril.",
+    "en": "Yesterday I thanked."
+  },
+  {
+    "id": "top-300-verbs-213",
+    "ru": "Вчера я поздравлял.",
+    "ruStressed": "Вчера́ я поздравля́л.",
+    "translit": "Vchera ya pozdravlyal.",
+    "en": "Yesterday I congratulated."
+  },
+  {
+    "id": "top-300-verbs-214",
+    "ru": "Вчера я прощал.",
+    "ruStressed": "Вчера́ я проща́л.",
+    "translit": "Vchera ya proshchal.",
+    "en": "Yesterday I forgave."
+  },
+  {
+    "id": "top-300-verbs-215",
+    "ru": "Завтра я буду работать.",
+    "ruStressed": "За́втра я бу́ду рабо́тать.",
+    "translit": "Zavtra ya budu rabotat.",
+    "en": "Tomorrow I will work."
+  },
+  {
+    "id": "top-300-verbs-216",
+    "ru": "Завтра я буду делать.",
+    "ruStressed": "За́втра я бу́ду де́лать.",
+    "translit": "Zavtra ya budu delat.",
+    "en": "Tomorrow I will do."
+  },
+  {
+    "id": "top-300-verbs-217",
+    "ru": "Завтра я буду идти.",
+    "ruStressed": "За́втра я бу́ду идти́.",
+    "translit": "Zavtra ya budu idti.",
+    "en": "Tomorrow I will walk."
+  },
+  {
+    "id": "top-300-verbs-218",
+    "ru": "Завтра я буду ходить.",
+    "ruStressed": "За́втра я бу́ду ходи́ть.",
+    "translit": "Zavtra ya budu khodit.",
+    "en": "Tomorrow I will go (on foot)."
+  },
+  {
+    "id": "top-300-verbs-219",
+    "ru": "Завтра я буду ехать.",
+    "ruStressed": "За́втра я бу́ду е́хать.",
+    "translit": "Zavtra ya budu ekhat.",
+    "en": "Tomorrow I will ride."
+  },
+  {
+    "id": "top-300-verbs-220",
+    "ru": "Завтра я буду ездить.",
+    "ruStressed": "За́втра я бу́ду е́здить.",
+    "translit": "Zavtra ya budu ezdit.",
+    "en": "Tomorrow I will travel."
+  },
+  {
+    "id": "top-300-verbs-221",
+    "ru": "Завтра я буду читать.",
+    "ruStressed": "За́втра я бу́ду чита́ть.",
+    "translit": "Zavtra ya budu chitat.",
+    "en": "Tomorrow I will read."
+  },
+  {
+    "id": "top-300-verbs-222",
+    "ru": "Завтра я буду писать.",
+    "ruStressed": "За́втра я бу́ду писа́ть.",
+    "translit": "Zavtra ya budu pisat.",
+    "en": "Tomorrow I will write."
+  },
+  {
+    "id": "top-300-verbs-223",
+    "ru": "Завтра я буду говорить.",
+    "ruStressed": "За́втра я бу́ду говори́ть.",
+    "translit": "Zavtra ya budu govorit.",
+    "en": "Tomorrow I will speak."
+  },
+  {
+    "id": "top-300-verbs-224",
+    "ru": "Завтра я буду слушать.",
+    "ruStressed": "За́втра я бу́ду слу́шать.",
+    "translit": "Zavtra ya budu slushat.",
+    "en": "Tomorrow I will listen."
+  },
+  {
+    "id": "top-300-verbs-225",
+    "ru": "Завтра я буду смотреть.",
+    "ruStressed": "За́втра я бу́ду смотре́ть.",
+    "translit": "Zavtra ya budu smotret.",
+    "en": "Tomorrow I will watch."
+  },
+  {
+    "id": "top-300-verbs-226",
+    "ru": "Завтра я буду видеть.",
+    "ruStressed": "За́втра я бу́ду ви́деть.",
+    "translit": "Zavtra ya budu videt.",
+    "en": "Tomorrow I will see."
+  },
+  {
+    "id": "top-300-verbs-227",
+    "ru": "Завтра я буду знать.",
+    "ruStressed": "За́втра я бу́ду знать.",
+    "translit": "Zavtra ya budu znat.",
+    "en": "Tomorrow I will know."
+  },
+  {
+    "id": "top-300-verbs-228",
+    "ru": "Завтра я буду понимать.",
+    "ruStressed": "За́втра я бу́ду понима́ть.",
+    "translit": "Zavtra ya budu ponimat.",
+    "en": "Tomorrow I will understand."
+  },
+  {
+    "id": "top-300-verbs-229",
+    "ru": "Завтра я буду думать.",
+    "ruStressed": "За́втра я бу́ду ду́мать.",
+    "translit": "Zavtra ya budu dumat.",
+    "en": "Tomorrow I will think."
+  },
+  {
+    "id": "top-300-verbs-230",
+    "ru": "Завтра я буду любить.",
+    "ruStressed": "За́втра я бу́ду люби́ть.",
+    "translit": "Zavtra ya budu lyubit.",
+    "en": "Tomorrow I will love."
+  },
+  {
+    "id": "top-300-verbs-231",
+    "ru": "Завтра я буду хотеть.",
+    "ruStressed": "За́втра я бу́ду хоте́ть.",
+    "translit": "Zavtra ya budu khotet.",
+    "en": "Tomorrow I will want."
+  },
+  {
+    "id": "top-300-verbs-232",
+    "ru": "Завтра я буду мочь.",
+    "ruStressed": "За́втра я бу́ду мочь.",
+    "translit": "Zavtra ya budu moch.",
+    "en": "Tomorrow I will be able."
+  },
+  {
+    "id": "top-300-verbs-233",
+    "ru": "Завтра я буду есть.",
+    "ruStressed": "За́втра я бу́ду есть.",
+    "translit": "Zavtra ya budu est.",
+    "en": "Tomorrow I will eat."
+  },
+  {
+    "id": "top-300-verbs-234",
+    "ru": "Завтра я буду пить.",
+    "ruStressed": "За́втра я бу́ду пить.",
+    "translit": "Zavtra ya budu pit.",
+    "en": "Tomorrow I will drink."
+  },
+  {
+    "id": "top-300-verbs-235",
+    "ru": "Завтра я буду спать.",
+    "ruStressed": "За́втра я бу́ду спать.",
+    "translit": "Zavtra ya budu spat.",
+    "en": "Tomorrow I will sleep."
+  },
+  {
+    "id": "top-300-verbs-236",
+    "ru": "Завтра я буду жить.",
+    "ruStressed": "За́втра я бу́ду жить.",
+    "translit": "Zavtra ya budu zhit.",
+    "en": "Tomorrow I will live."
+  },
+  {
+    "id": "top-300-verbs-237",
+    "ru": "Завтра я буду учить.",
+    "ruStressed": "За́втра я бу́ду учи́ть.",
+    "translit": "Zavtra ya budu uchit.",
+    "en": "Tomorrow I will study."
+  },
+  {
+    "id": "top-300-verbs-238",
+    "ru": "Завтра я буду учиться.",
+    "ruStressed": "За́втра я бу́ду учи́ться.",
+    "translit": "Zavtra ya budu uchitsya.",
+    "en": "Tomorrow I will learn."
+  },
+  {
+    "id": "top-300-verbs-239",
+    "ru": "Завтра я буду играть.",
+    "ruStressed": "За́втра я бу́ду игра́ть.",
+    "translit": "Zavtra ya budu igrat.",
+    "en": "Tomorrow I will play."
+  },
+  {
+    "id": "top-300-verbs-240",
+    "ru": "Завтра я буду покупать.",
+    "ruStressed": "За́втра я бу́ду покупа́ть.",
+    "translit": "Zavtra ya budu pokupat.",
+    "en": "Tomorrow I will buy."
+  },
+  {
+    "id": "top-300-verbs-241",
+    "ru": "Завтра я буду продавать.",
+    "ruStressed": "За́втра я бу́ду продава́ть.",
+    "translit": "Zavtra ya budu prodavat.",
+    "en": "Tomorrow I will sell."
+  },
+  {
+    "id": "top-300-verbs-242",
+    "ru": "Завтра я буду давать.",
+    "ruStressed": "За́втра я бу́ду дава́ть.",
+    "translit": "Zavtra ya budu davat.",
+    "en": "Tomorrow I will give."
+  },
+  {
+    "id": "top-300-verbs-243",
+    "ru": "Завтра я буду брать.",
+    "ruStressed": "За́втра я бу́ду брать.",
+    "translit": "Zavtra ya budu brat.",
+    "en": "Tomorrow I will take."
+  },
+  {
+    "id": "top-300-verbs-244",
+    "ru": "Завтра я буду приносить.",
+    "ruStressed": "За́втра я бу́ду приноси́ть.",
+    "translit": "Zavtra ya budu prinosit.",
+    "en": "Tomorrow I will bring."
+  },
+  {
+    "id": "top-300-verbs-245",
+    "ru": "Завтра я буду получать.",
+    "ruStressed": "За́втра я бу́ду получа́ть.",
+    "translit": "Zavtra ya budu poluchat.",
+    "en": "Tomorrow I will receive."
+  },
+  {
+    "id": "top-300-verbs-246",
+    "ru": "Завтра я буду отдавать.",
+    "ruStressed": "За́втра я бу́ду отдава́ть.",
+    "translit": "Zavtra ya budu otdavat.",
+    "en": "Tomorrow I will give back."
+  },
+  {
+    "id": "top-300-verbs-247",
+    "ru": "Завтра я буду приходить.",
+    "ruStressed": "За́втра я бу́ду приходи́ть.",
+    "translit": "Zavtra ya budu prikhodit.",
+    "en": "Tomorrow I will arrive (on foot)."
+  },
+  {
+    "id": "top-300-verbs-248",
+    "ru": "Завтра я буду приезжать.",
+    "ruStressed": "За́втра я бу́ду приезжа́ть.",
+    "translit": "Zavtra ya budu priezzhat.",
+    "en": "Tomorrow I will arrive (by vehicle)."
+  },
+  {
+    "id": "top-300-verbs-249",
+    "ru": "Завтра я буду уходить.",
+    "ruStressed": "За́втра я бу́ду уходи́ть.",
+    "translit": "Zavtra ya budu ukhodit.",
+    "en": "Tomorrow I will leave (on foot)."
+  },
+  {
+    "id": "top-300-verbs-250",
+    "ru": "Завтра я буду уезжать.",
+    "ruStressed": "За́втра я бу́ду уезжа́ть.",
+    "translit": "Zavtra ya budu uezzhat.",
+    "en": "Tomorrow I will leave (by vehicle)."
+  },
+  {
+    "id": "top-300-verbs-251",
+    "ru": "Завтра я буду звонить.",
+    "ruStressed": "За́втра я бу́ду звони́ть.",
+    "translit": "Zavtra ya budu zvonit.",
+    "en": "Tomorrow I will call."
+  },
+  {
+    "id": "top-300-verbs-252",
+    "ru": "Завтра я буду отвечать.",
+    "ruStressed": "За́втра я бу́ду отвеча́ть.",
+    "translit": "Zavtra ya budu otvechat.",
+    "en": "Tomorrow I will answer."
+  },
+  {
+    "id": "top-300-verbs-253",
+    "ru": "Завтра я буду спрашивать.",
+    "ruStressed": "За́втра я бу́ду спра́шивать.",
+    "translit": "Zavtra ya budu sprashivat.",
+    "en": "Tomorrow I will ask."
+  },
+  {
+    "id": "top-300-verbs-254",
+    "ru": "Завтра я буду просить.",
+    "ruStressed": "За́втра я бу́ду проси́ть.",
+    "translit": "Zavtra ya budu prosit.",
+    "en": "Tomorrow I will request."
+  },
+  {
+    "id": "top-300-verbs-255",
+    "ru": "Завтра я буду помогать.",
+    "ruStressed": "За́втра я бу́ду помога́ть.",
+    "translit": "Zavtra ya budu pomogat.",
+    "en": "Tomorrow I will help."
+  },
+  {
+    "id": "top-300-verbs-256",
+    "ru": "Завтра я буду открывать.",
+    "ruStressed": "За́втра я бу́ду открыва́ть.",
+    "translit": "Zavtra ya budu otkryvat.",
+    "en": "Tomorrow I will open."
+  },
+  {
+    "id": "top-300-verbs-257",
+    "ru": "Завтра я буду закрывать.",
+    "ruStressed": "За́втра я бу́ду закрыва́ть.",
+    "translit": "Zavtra ya budu zakryvat.",
+    "en": "Tomorrow I will close."
+  },
+  {
+    "id": "top-300-verbs-258",
+    "ru": "Завтра я буду начинать.",
+    "ruStressed": "За́втра я бу́ду начина́ть.",
+    "translit": "Zavtra ya budu nachinat.",
+    "en": "Tomorrow I will begin."
+  },
+  {
+    "id": "top-300-verbs-259",
+    "ru": "Завтра я буду заканчивать.",
+    "ruStressed": "За́втра я бу́ду зака́нчивать.",
+    "translit": "Zavtra ya budu zakanchivat.",
+    "en": "Tomorrow I will finish."
+  },
+  {
+    "id": "top-300-verbs-260",
+    "ru": "Завтра я буду продолжать.",
+    "ruStressed": "За́втра я бу́ду продолжа́ть.",
+    "translit": "Zavtra ya budu prodolzhat.",
+    "en": "Tomorrow I will continue."
+  },
+  {
+    "id": "top-300-verbs-261",
+    "ru": "Завтра я буду искать.",
+    "ruStressed": "За́втра я бу́ду иска́ть.",
+    "translit": "Zavtra ya budu iskat.",
+    "en": "Tomorrow I will search for."
+  },
+  {
+    "id": "top-300-verbs-262",
+    "ru": "Завтра я буду находить.",
+    "ruStressed": "За́втра я бу́ду находи́ть.",
+    "translit": "Zavtra ya budu nakhodit.",
+    "en": "Tomorrow I will find."
+  },
+  {
+    "id": "top-300-verbs-263",
+    "ru": "Завтра я буду терять.",
+    "ruStressed": "За́втра я бу́ду теря́ть.",
+    "translit": "Zavtra ya budu teryat.",
+    "en": "Tomorrow I will lose."
+  },
+  {
+    "id": "top-300-verbs-264",
+    "ru": "Завтра я буду забывать.",
+    "ruStressed": "За́втра я бу́ду забыва́ть.",
+    "translit": "Zavtra ya budu zabyvat.",
+    "en": "Tomorrow I will forget."
+  },
+  {
+    "id": "top-300-verbs-265",
+    "ru": "Завтра я буду вспоминать.",
+    "ruStressed": "За́втра я бу́ду вспомина́ть.",
+    "translit": "Zavtra ya budu vspominat.",
+    "en": "Tomorrow I will recall."
+  },
+  {
+    "id": "top-300-verbs-266",
+    "ru": "Завтра я буду помнить.",
+    "ruStressed": "За́втра я бу́ду по́мнить.",
+    "translit": "Zavtra ya budu pomnit.",
+    "en": "Tomorrow I will remember."
+  },
+  {
+    "id": "top-300-verbs-267",
+    "ru": "Завтра я буду повторять.",
+    "ruStressed": "За́втра я бу́ду повторя́ть.",
+    "translit": "Zavtra ya budu povtoryat.",
+    "en": "Tomorrow I will repeat."
+  },
+  {
+    "id": "top-300-verbs-268",
+    "ru": "Завтра я буду слышать.",
+    "ruStressed": "За́втра я бу́ду слы́шать.",
+    "translit": "Zavtra ya budu slyshat.",
+    "en": "Tomorrow I will hear."
+  },
+  {
+    "id": "top-300-verbs-269",
+    "ru": "Завтра я буду чувствовать.",
+    "ruStressed": "За́втра я бу́ду чу́вствовать.",
+    "translit": "Zavtra ya budu chuvstvovat.",
+    "en": "Tomorrow I will feel."
+  },
+  {
+    "id": "top-300-verbs-270",
+    "ru": "Завтра я буду любоваться.",
+    "ruStressed": "За́втра я бу́ду любова́ться.",
+    "translit": "Zavtra ya budu lyubovatsya.",
+    "en": "Tomorrow I will admire."
+  },
+  {
+    "id": "top-300-verbs-271",
+    "ru": "Завтра я буду надеяться.",
+    "ruStressed": "За́втра я бу́ду наде́яться.",
+    "translit": "Zavtra ya budu nadeyatsya.",
+    "en": "Tomorrow I will hope."
+  },
+  {
+    "id": "top-300-verbs-272",
+    "ru": "Завтра я буду верить.",
+    "ruStressed": "За́втра я бу́ду ве́рить.",
+    "translit": "Zavtra ya budu verit.",
+    "en": "Tomorrow I will believe."
+  },
+  {
+    "id": "top-300-verbs-273",
+    "ru": "Завтра я буду улыбаться.",
+    "ruStressed": "За́втра я бу́ду улыба́ться.",
+    "translit": "Zavtra ya budu ulybatsya.",
+    "en": "Tomorrow I will smile."
+  },
+  {
+    "id": "top-300-verbs-274",
+    "ru": "Завтра я буду смеяться.",
+    "ruStressed": "За́втра я бу́ду смея́ться.",
+    "translit": "Zavtra ya budu smeyatsya.",
+    "en": "Tomorrow I will laugh."
+  },
+  {
+    "id": "top-300-verbs-275",
+    "ru": "Завтра я буду плакать.",
+    "ruStressed": "За́втра я бу́ду пла́кать.",
+    "translit": "Zavtra ya budu plakat.",
+    "en": "Tomorrow I will cry."
+  },
+  {
+    "id": "top-300-verbs-276",
+    "ru": "Завтра я буду бояться.",
+    "ruStressed": "За́втра я бу́ду боя́ться.",
+    "translit": "Zavtra ya budu boyatsya.",
+    "en": "Tomorrow I will fear."
+  },
+  {
+    "id": "top-300-verbs-277",
+    "ru": "Завтра я буду волноваться.",
+    "ruStressed": "За́втра я бу́ду волнова́ться.",
+    "translit": "Zavtra ya budu volnovatsya.",
+    "en": "Tomorrow I will worry."
+  },
+  {
+    "id": "top-300-verbs-278",
+    "ru": "Завтра я буду отдыхать.",
+    "ruStressed": "За́втра я бу́ду отдыха́ть.",
+    "translit": "Zavtra ya budu otdykhat.",
+    "en": "Tomorrow I will rest."
+  },
+  {
+    "id": "top-300-verbs-279",
+    "ru": "Завтра я буду гулять.",
+    "ruStressed": "За́втра я бу́ду гуля́ть.",
+    "translit": "Zavtra ya budu gulyat.",
+    "en": "Tomorrow I will go for a walk."
+  },
+  {
+    "id": "top-300-verbs-280",
+    "ru": "Завтра я буду путешествовать.",
+    "ruStressed": "За́втра я бу́ду путеше́ствовать.",
+    "translit": "Zavtra ya budu puteshestvovat.",
+    "en": "Tomorrow I will travel."
+  },
+  {
+    "id": "top-300-verbs-281",
+    "ru": "Завтра я буду готовить.",
+    "ruStressed": "За́втра я бу́ду гото́вить.",
+    "translit": "Zavtra ya budu gotovit.",
+    "en": "Tomorrow I will cook."
+  },
+  {
+    "id": "top-300-verbs-282",
+    "ru": "Завтра я буду убирать.",
+    "ruStressed": "За́втра я бу́ду убира́ть.",
+    "translit": "Zavtra ya budu ubirat.",
+    "en": "Tomorrow I will tidy up."
+  },
+  {
+    "id": "top-300-verbs-283",
+    "ru": "Завтра я буду стирать.",
+    "ruStressed": "За́втра я бу́ду стира́ть.",
+    "translit": "Zavtra ya budu stirat.",
+    "en": "Tomorrow I will do laundry."
+  },
+  {
+    "id": "top-300-verbs-284",
+    "ru": "Завтра я буду мыть.",
+    "ruStressed": "За́втра я бу́ду мыть.",
+    "translit": "Zavtra ya budu myt.",
+    "en": "Tomorrow I will wash."
+  },
+  {
+    "id": "top-300-verbs-285",
+    "ru": "Завтра я буду рисовать.",
+    "ruStressed": "За́втра я бу́ду рисова́ть.",
+    "translit": "Zavtra ya budu risovat.",
+    "en": "Tomorrow I will draw."
+  },
+  {
+    "id": "top-300-verbs-286",
+    "ru": "Завтра я буду петь.",
+    "ruStressed": "За́втра я бу́ду петь.",
+    "translit": "Zavtra ya budu pet.",
+    "en": "Tomorrow I will sing."
+  },
+  {
+    "id": "top-300-verbs-287",
+    "ru": "Завтра я буду танцевать.",
+    "ruStressed": "За́втра я бу́ду танцева́ть.",
+    "translit": "Zavtra ya budu tantsevat.",
+    "en": "Tomorrow I will dance."
+  },
+  {
+    "id": "top-300-verbs-288",
+    "ru": "Завтра я буду бегать.",
+    "ruStressed": "За́втра я бу́ду бе́гать.",
+    "translit": "Zavtra ya budu begat.",
+    "en": "Tomorrow I will run."
+  },
+  {
+    "id": "top-300-verbs-289",
+    "ru": "Завтра я буду плавать.",
+    "ruStressed": "За́втра я бу́ду пла́вать.",
+    "translit": "Zavtra ya budu plavat.",
+    "en": "Tomorrow I will swim."
+  },
+  {
+    "id": "top-300-verbs-290",
+    "ru": "Завтра я буду прыгать.",
+    "ruStressed": "За́втра я бу́ду пры́гать.",
+    "translit": "Zavtra ya budu prygat.",
+    "en": "Tomorrow I will jump."
+  },
+  {
+    "id": "top-300-verbs-291",
+    "ru": "Завтра я буду сидеть.",
+    "ruStressed": "За́втра я бу́ду сиде́ть.",
+    "translit": "Zavtra ya budu sidet.",
+    "en": "Tomorrow I will sit."
+  },
+  {
+    "id": "top-300-verbs-292",
+    "ru": "Завтра я буду стоять.",
+    "ruStressed": "За́втра я бу́ду стоя́ть.",
+    "translit": "Zavtra ya budu stoyat.",
+    "en": "Tomorrow I will stand."
+  },
+  {
+    "id": "top-300-verbs-293",
+    "ru": "Завтра я буду лежать.",
+    "ruStressed": "За́втра я бу́ду лежа́ть.",
+    "translit": "Zavtra ya budu lezhat.",
+    "en": "Tomorrow I will lie."
+  },
+  {
+    "id": "top-300-verbs-294",
+    "ru": "Завтра я буду встречать.",
+    "ruStressed": "За́втра я бу́ду встреча́ть.",
+    "translit": "Zavtra ya budu vstrechat.",
+    "en": "Tomorrow I will meet."
+  },
+  {
+    "id": "top-300-verbs-295",
+    "ru": "Завтра я буду приглашать.",
+    "ruStressed": "За́втра я бу́ду приглаша́ть.",
+    "translit": "Zavtra ya budu priglashat.",
+    "en": "Tomorrow I will invite."
+  },
+  {
+    "id": "top-300-verbs-296",
+    "ru": "Завтра я буду дарить.",
+    "ruStressed": "За́втра я бу́ду дари́ть.",
+    "translit": "Zavtra ya budu darit.",
+    "en": "Tomorrow I will give as gift."
+  },
+  {
+    "id": "top-300-verbs-297",
+    "ru": "Завтра я буду обещать.",
+    "ruStressed": "За́втра я бу́ду обеща́ть.",
+    "translit": "Zavtra ya budu obeshchat.",
+    "en": "Tomorrow I will promise."
+  },
+  {
+    "id": "top-300-verbs-298",
+    "ru": "Завтра я буду советовать.",
+    "ruStressed": "За́втра я бу́ду сове́товать.",
+    "translit": "Zavtra ya budu sovetovat.",
+    "en": "Tomorrow I will advise."
+  },
+  {
+    "id": "top-300-verbs-299",
+    "ru": "Завтра я буду объяснять.",
+    "ruStressed": "За́втра я бу́ду объясня́ть.",
+    "translit": "Zavtra ya budu obyasnyat.",
+    "en": "Tomorrow I will explain."
+  },
+  {
+    "id": "top-300-verbs-300",
+    "ru": "Завтра я буду рассказывать.",
+    "ruStressed": "За́втра я бу́ду расска́зывать.",
+    "translit": "Zavtra ya budu rasskazyvat.",
+    "en": "Tomorrow I will tell."
+  }
+]

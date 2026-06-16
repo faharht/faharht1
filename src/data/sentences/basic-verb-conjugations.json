@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "basic-verb-conjugations-1",
+    "ru": "Вчера я был дома.",
+    "ruStressed": "Вчера́ я был до́ма.",
+    "translit": "Vchera ya byl doma.",
+    "en": "Yesterday I was at home."
+  },
+  {
+    "id": "basic-verb-conjugations-2",
+    "ru": "Она была учительницей.",
+    "ruStressed": "Она́ была́ учи́тельницей.",
+    "translit": "Ona byla uchitelnitsey.",
+    "en": "She was a teacher."
+  },
+  {
+    "id": "basic-verb-conjugations-3",
+    "ru": "Мы были в парке.",
+    "ruStressed": "Мы бы́ли в па́рке.",
+    "translit": "My byli v parke.",
+    "en": "We were in the park."
+  },
+  {
+    "id": "basic-verb-conjugations-4",
+    "ru": "Завтра я буду на работе.",
+    "ruStressed": "За́втра я бу́ду на рабо́те.",
+    "translit": "Zavtra ya budu na rabote.",
+    "en": "Tomorrow I'll be at work."
+  },
+  {
+    "id": "basic-verb-conjugations-5",
+    "ru": "Ты будешь дома вечером?",
+    "ruStressed": "Ты бу́дешь до́ма ве́чером?",
+    "translit": "Ty budesh doma vecherom?",
+    "en": "Will you be home in the evening?"
+  },
+  {
+    "id": "basic-verb-conjugations-6",
+    "ru": "Они будут рады нас видеть.",
+    "ruStressed": "Они́ бу́дут ра́ды нас ви́деть.",
+    "translit": "Oni budut rady nas videt.",
+    "en": "They will be glad to see us."
+  },
+  {
+    "id": "basic-verb-conjugations-7",
+    "ru": "Я иду в магазин.",
+    "ruStressed": "Я иду́ в магази́н.",
+    "translit": "Ya idu v magazin.",
+    "en": "I am going to the store."
+  },
+  {
+    "id": "basic-verb-conjugations-8",
+    "ru": "Ты идёшь домой?",
+    "ruStressed": "Ты идёшь домо́й?",
+    "translit": "Ty idyosh domoy?",
+    "en": "Are you going home?"
+  },
+  {
+    "id": "basic-verb-conjugations-9",
+    "ru": "Он идёт по улице.",
+    "ruStressed": "Он идёт по у́лице.",
+    "translit": "On idyot po ulitse.",
+    "en": "He is walking along the street."
+  },
+  {
+    "id": "basic-verb-conjugations-10",
+    "ru": "Мы идём в кино.",
+    "ruStressed": "Мы идём в кино́.",
+    "translit": "My idyom v kino.",
+    "en": "We are going to the cinema."
+  },
+  {
+    "id": "basic-verb-conjugations-11",
+    "ru": "Вчера я шёл пешком.",
+    "ruStressed": "Вчера́ я шёл пешко́м.",
+    "translit": "Vchera ya shyol peshkom.",
+    "en": "Yesterday I walked."
+  },
+  {
+    "id": "basic-verb-conjugations-12",
+    "ru": "Она шла очень медленно.",
+    "ruStressed": "Она́ шла о́чень ме́дленно.",
+    "translit": "Ona shla ochen medlenno.",
+    "en": "She walked very slowly."
+  },
+  {
+    "id": "basic-verb-conjugations-13",
+    "ru": "Я хожу в школу пешком.",
+    "ruStressed": "Я хожу́ в шко́лу пешко́м.",
+    "translit": "Ya khozhu v shkolu peshkom.",
+    "en": "I walk to school."
+  },
+  {
+    "id": "basic-verb-conjugations-14",
+    "ru": "Ты ходишь в спортзал?",
+    "ruStressed": "Ты хо́дишь в спортза́л?",
+    "translit": "Ty khodish v sportzal?",
+    "en": "Do you go to the gym?"
+  },
+  {
+    "id": "basic-verb-conjugations-15",
+    "ru": "Он часто ходит в театр.",
+    "ruStressed": "Он ча́сто хо́дит в теа́тр.",
+    "translit": "On chasto khodit v teatr.",
+    "en": "He often goes to the theater."
+  },
+  {
+    "id": "basic-verb-conjugations-16",
+    "ru": "Я еду на работу.",
+    "ruStressed": "Я е́ду на рабо́ту.",
+    "translit": "Ya edu na rabotu.",
+    "en": "I am going to work."
+  },
+  {
+    "id": "basic-verb-conjugations-17",
+    "ru": "Ты едешь в отпуск?",
+    "ruStressed": "Ты е́дешь в о́тпуск?",
+    "translit": "Ty edesh v otpusk?",
+    "en": "Are you going on vacation?"
+  },
+  {
+    "id": "basic-verb-conjugations-18",
+    "ru": "Он едет на машине.",
+    "ruStressed": "Он е́дет на маши́не.",
+    "translit": "On edet na mashine.",
+    "en": "He is driving."
+  },
+  {
+    "id": "basic-verb-conjugations-19",
+    "ru": "Вчера мы ехали два часа.",
+    "ruStressed": "Вчера́ мы е́хали два часа́.",
+    "translit": "Vchera my ekhali dva chasa.",
+    "en": "Yesterday we rode for two hours."
+  },
+  {
+    "id": "basic-verb-conjugations-20",
+    "ru": "Завтра я поеду в Москву.",
+    "ruStressed": "За́втра я пое́ду в Москву́.",
+    "translit": "Zavtra ya poedu v Moskvu.",
+    "en": "Tomorrow I'll go to Moscow."
+  },
+  {
+    "id": "basic-verb-conjugations-21",
+    "ru": "Я говорю по-английски.",
+    "ruStressed": "Я говорю́ по-англи́йски.",
+    "translit": "Ya govoryu po-angliyski.",
+    "en": "I speak English."
+  },
+  {
+    "id": "basic-verb-conjugations-22",
+    "ru": "Ты говоришь по-русски?",
+    "ruStressed": "Ты говори́шь по-ру́сски?",
+    "translit": "Ty govorish po-russki?",
+    "en": "Do you speak Russian?"
+  },
+  {
+    "id": "basic-verb-conjugations-23",
+    "ru": "Он говорит тихо.",
+    "ruStressed": "Он говори́т ти́хо.",
+    "translit": "On govorit tikho.",
+    "en": "He speaks quietly."
+  },
+  {
+    "id": "basic-verb-conjugations-24",
+    "ru": "Мы говорим о работе.",
+    "ruStressed": "Мы говори́м о рабо́те.",
+    "translit": "My govorim o rabote.",
+    "en": "We are talking about work."
+  },
+  {
+    "id": "basic-verb-conjugations-25",
+    "ru": "Вы говорите слишком быстро.",
+    "ruStressed": "Вы говори́те сли́шком бы́стро.",
+    "translit": "Vy govorite slishkom bystro.",
+    "en": "You speak too fast."
+  },
+  {
+    "id": "basic-verb-conjugations-26",
+    "ru": "Они говорят на трёх языках.",
+    "ruStressed": "Они́ говоря́т на трёх языка́х.",
+    "translit": "Oni govoryat na tryokh yazykakh.",
+    "en": "They speak three languages."
+  },
+  {
+    "id": "basic-verb-conjugations-27",
+    "ru": "Вчера мы долго говорили.",
+    "ruStressed": "Вчера́ мы до́лго говори́ли.",
+    "translit": "Vchera my dolgo govorili.",
+    "en": "Yesterday we talked for a long time."
+  },
+  {
+    "id": "basic-verb-conjugations-28",
+    "ru": "Завтра я буду говорить с боссом.",
+    "ruStressed": "За́втра я бу́ду говори́ть с бо́ссом.",
+    "translit": "Zavtra ya budu govorit s bossom.",
+    "en": "Tomorrow I'll speak with the boss."
+  },
+  {
+    "id": "basic-verb-conjugations-29",
+    "ru": "Что ты делаешь?",
+    "ruStressed": "Что ты де́лаешь?",
+    "translit": "Chto ty delaesh?",
+    "en": "What are you doing?"
+  },
+  {
+    "id": "basic-verb-conjugations-30",
+    "ru": "Я делаю уроки.",
+    "ruStressed": "Я де́лаю уро́ки.",
+    "translit": "Ya delayu uroki.",
+    "en": "I'm doing homework."
+  },
+  {
+    "id": "basic-verb-conjugations-31",
+    "ru": "Он ничего не делает.",
+    "ruStressed": "Он ничего́ не де́лает.",
+    "translit": "On nichego ne delaet.",
+    "en": "He doesn't do anything."
+  },
+  {
+    "id": "basic-verb-conjugations-32",
+    "ru": "Мы делаем проект вместе.",
+    "ruStressed": "Мы де́лаем прое́кт вме́сте.",
+    "translit": "My delaem proekt vmeste.",
+    "en": "We're doing the project together."
+  },
+  {
+    "id": "basic-verb-conjugations-33",
+    "ru": "Вчера я делал презентацию.",
+    "ruStressed": "Вчера́ я де́лал презента́цию.",
+    "translit": "Vchera ya delal prezentatsiyu.",
+    "en": "Yesterday I was making a presentation."
+  },
+  {
+    "id": "basic-verb-conjugations-34",
+    "ru": "Что вы будете делать завтра?",
+    "ruStressed": "Что вы бу́дете де́лать за́втра?",
+    "translit": "Chto vy budete delat zavtra?",
+    "en": "What will you do tomorrow?"
+  },
+  {
+    "id": "basic-verb-conjugations-35",
+    "ru": "Я сделаю это завтра.",
+    "ruStressed": "Я сде́лаю э́то за́втра.",
+    "translit": "Ya sdelayu eto zavtra.",
+    "en": "I'll do it tomorrow."
+  },
+  {
+    "id": "basic-verb-conjugations-36",
+    "ru": "Я читаю книгу.",
+    "ruStressed": "Я чита́ю кни́гу.",
+    "translit": "Ya chitayu knigu.",
+    "en": "I'm reading a book."
+  },
+  {
+    "id": "basic-verb-conjugations-37",
+    "ru": "Ты часто читаешь?",
+    "ruStressed": "Ты ча́сто чита́ешь?",
+    "translit": "Ty chasto chitaesh?",
+    "en": "Do you read often?"
+  },
+  {
+    "id": "basic-verb-conjugations-38",
+    "ru": "Она читает газету.",
+    "ruStressed": "Она́ чита́ет газе́ту.",
+    "translit": "Ona chitaet gazetu.",
+    "en": "She is reading a newspaper."
+  },
+  {
+    "id": "basic-verb-conjugations-39",
+    "ru": "Вчера я читал весь вечер.",
+    "ruStressed": "Вчера́ я чита́л весь ве́чер.",
+    "translit": "Vchera ya chital ves vecher.",
+    "en": "Yesterday I read all evening."
+  },
+  {
+    "id": "basic-verb-conjugations-40",
+    "ru": "Завтра я прочитаю эту статью.",
+    "ruStressed": "За́втра я прочита́ю э́ту статью́.",
+    "translit": "Zavtra ya prochitayu etu statyu.",
+    "en": "Tomorrow I'll read this article."
+  },
+  {
+    "id": "basic-verb-conjugations-41",
+    "ru": "Я пишу письмо.",
+    "ruStressed": "Я пишу́ письмо́.",
+    "translit": "Ya pishu pismo.",
+    "en": "I'm writing a letter."
+  },
+  {
+    "id": "basic-verb-conjugations-42",
+    "ru": "Ты пишешь стихи?",
+    "ruStressed": "Ты пи́шешь стихи́?",
+    "translit": "Ty pishesh stikhi?",
+    "en": "Do you write poems?"
+  },
+  {
+    "id": "basic-verb-conjugations-43",
+    "ru": "Он пишет роман.",
+    "ruStressed": "Он пи́шет рома́н.",
+    "translit": "On pishet roman.",
+    "en": "He is writing a novel."
+  },
+  {
+    "id": "basic-verb-conjugations-44",
+    "ru": "Вчера она писала отчёт.",
+    "ruStressed": "Вчера́ она́ писа́ла отчёт.",
+    "translit": "Vchera ona pisala otchyot.",
+    "en": "Yesterday she was writing a report."
+  },
+  {
+    "id": "basic-verb-conjugations-45",
+    "ru": "Завтра я напишу тебе.",
+    "ruStressed": "За́втра я напишу́ тебе́.",
+    "translit": "Zavtra ya napishu tebe.",
+    "en": "Tomorrow I'll write to you."
+  },
+  {
+    "id": "basic-verb-conjugations-46",
+    "ru": "Я ем завтрак.",
+    "ruStressed": "Я ем за́втрак.",
+    "translit": "Ya em zavtrak.",
+    "en": "I'm eating breakfast."
+  },
+  {
+    "id": "basic-verb-conjugations-47",
+    "ru": "Ты ешь мясо?",
+    "ruStressed": "Ты ешь мя́со?",
+    "translit": "Ty esh myaso?",
+    "en": "Do you eat meat?"
+  },
+  {
+    "id": "basic-verb-conjugations-48",
+    "ru": "Он ест очень быстро.",
+    "ruStressed": "Он ест о́чень бы́стро.",
+    "translit": "On est ochen bystro.",
+    "en": "He eats very fast."
+  },
+  {
+    "id": "basic-verb-conjugations-49",
+    "ru": "Мы едим вместе каждый вечер.",
+    "ruStressed": "Мы еди́м вме́сте ка́ждый ве́чер.",
+    "translit": "My edim vmeste kazhdyy vecher.",
+    "en": "We eat together every evening."
+  },
+  {
+    "id": "basic-verb-conjugations-50",
+    "ru": "Вчера я ел в новом ресторане.",
+    "ruStressed": "Вчера́ я ел в но́вом рестора́не.",
+    "translit": "Vchera ya el v novom restorane.",
+    "en": "Yesterday I ate at a new restaurant."
+  },
+  {
+    "id": "basic-verb-conjugations-51",
+    "ru": "Что мы будем есть на ужин?",
+    "ruStressed": "Что мы бу́дем есть на у́жин?",
+    "translit": "Chto my budem est na uzhin?",
+    "en": "What will we eat for dinner?"
+  },
+  {
+    "id": "basic-verb-conjugations-52",
+    "ru": "Я пью кофе утром.",
+    "ruStressed": "Я пью ко́фе у́тром.",
+    "translit": "Ya pyu kofe utrom.",
+    "en": "I drink coffee in the morning."
+  },
+  {
+    "id": "basic-verb-conjugations-53",
+    "ru": "Ты пьёшь чай?",
+    "ruStressed": "Ты пьёшь чай?",
+    "translit": "Ty pyosh chay?",
+    "en": "Do you drink tea?"
+  },
+  {
+    "id": "basic-verb-conjugations-54",
+    "ru": "Она пьёт сок.",
+    "ruStressed": "Она́ пьёт сок.",
+    "translit": "Ona pyot sok.",
+    "en": "She is drinking juice."
+  },
+  {
+    "id": "basic-verb-conjugations-55",
+    "ru": "Вчера мы пили вино.",
+    "ruStressed": "Вчера́ мы пи́ли вино́.",
+    "translit": "Vchera my pili vino.",
+    "en": "Yesterday we drank wine."
+  },
+  {
+    "id": "basic-verb-conjugations-56",
+    "ru": "Я выпью стакан воды.",
+    "ruStressed": "Я вы́пью стака́н воды́.",
+    "translit": "Ya vypyu stakan vody.",
+    "en": "I'll drink a glass of water."
+  },
+  {
+    "id": "basic-verb-conjugations-57",
+    "ru": "Я вижу птицу.",
+    "ruStressed": "Я ви́жу пти́цу.",
+    "translit": "Ya vizhu ptitsu.",
+    "en": "I see a bird."
+  },
+  {
+    "id": "basic-verb-conjugations-58",
+    "ru": "Ты видишь это?",
+    "ruStressed": "Ты ви́дишь э́то?",
+    "translit": "Ty vidish eto?",
+    "en": "Do you see this?"
+  },
+  {
+    "id": "basic-verb-conjugations-59",
+    "ru": "Он видит её каждый день.",
+    "ruStressed": "Он ви́дит её ка́ждый день.",
+    "translit": "On vidit eyo kazhdyy den.",
+    "en": "He sees her every day."
+  },
+  {
+    "id": "basic-verb-conjugations-60",
+    "ru": "Вчера я видел старого друга.",
+    "ruStressed": "Вчера́ я ви́дел ста́рого дру́га.",
+    "translit": "Vchera ya videl starogo druga.",
+    "en": "Yesterday I saw an old friend."
+  },
+  {
+    "id": "basic-verb-conjugations-61",
+    "ru": "Завтра я увижу маму.",
+    "ruStressed": "За́втра я уви́жу ма́му.",
+    "translit": "Zavtra ya uvizhu mamu.",
+    "en": "Tomorrow I'll see mom."
+  },
+  {
+    "id": "basic-verb-conjugations-62",
+    "ru": "Я знаю ответ.",
+    "ruStressed": "Я зна́ю отве́т.",
+    "translit": "Ya znayu otvet.",
+    "en": "I know the answer."
+  },
+  {
+    "id": "basic-verb-conjugations-63",
+    "ru": "Ты знаешь его?",
+    "ruStressed": "Ты зна́ешь его́?",
+    "translit": "Ty znaesh ego?",
+    "en": "Do you know him?"
+  },
+  {
+    "id": "basic-verb-conjugations-64",
+    "ru": "Он знает всё.",
+    "ruStressed": "Он зна́ет всё.",
+    "translit": "On znaet vsyo.",
+    "en": "He knows everything."
+  },
+  {
+    "id": "basic-verb-conjugations-65",
+    "ru": "Мы знали об этом.",
+    "ruStressed": "Мы зна́ли об э́том.",
+    "translit": "My znali ob etom.",
+    "en": "We knew about this."
+  },
+  {
+    "id": "basic-verb-conjugations-66",
+    "ru": "Я узнаю завтра.",
+    "ruStressed": "Я узна́ю за́втра.",
+    "translit": "Ya uznayu zavtra.",
+    "en": "I'll find out tomorrow."
+  },
+  {
+    "id": "basic-verb-conjugations-67",
+    "ru": "Я хочу пить.",
+    "ruStressed": "Я хочу́ пить.",
+    "translit": "Ya khochu pit.",
+    "en": "I want to drink."
+  },
+  {
+    "id": "basic-verb-conjugations-68",
+    "ru": "Ты хочешь чаю?",
+    "ruStressed": "Ты хо́чешь ча́ю?",
+    "translit": "Ty khochesh chayu?",
+    "en": "Do you want tea?"
+  },
+  {
+    "id": "basic-verb-conjugations-69",
+    "ru": "Он хочет спать.",
+    "ruStressed": "Он хо́чет спать.",
+    "translit": "On khochet spat.",
+    "en": "He wants to sleep."
+  },
+  {
+    "id": "basic-verb-conjugations-70",
+    "ru": "Мы хотим путешествовать.",
+    "ruStressed": "Мы хоти́м путеше́ствовать.",
+    "translit": "My khotim puteshestvovat.",
+    "en": "We want to travel."
+  },
+  {
+    "id": "basic-verb-conjugations-71",
+    "ru": "Вы хотите кофе?",
+    "ruStressed": "Вы хоти́те ко́фе?",
+    "translit": "Vy khotite kofe?",
+    "en": "Would you like coffee?"
+  },
+  {
+    "id": "basic-verb-conjugations-72",
+    "ru": "Они хотят купить машину.",
+    "ruStressed": "Они́ хотя́т купи́ть маши́ну.",
+    "translit": "Oni khotyat kupit mashinu.",
+    "en": "They want to buy a car."
+  },
+  {
+    "id": "basic-verb-conjugations-73",
+    "ru": "Вчера я хотел остаться.",
+    "ruStressed": "Вчера́ я хоте́л оста́ться.",
+    "translit": "Vchera ya khotel ostatsya.",
+    "en": "Yesterday I wanted to stay."
+  },
+  {
+    "id": "basic-verb-conjugations-74",
+    "ru": "Я могу помочь.",
+    "ruStressed": "Я могу́ помо́чь.",
+    "translit": "Ya mogu pomoch.",
+    "en": "I can help."
+  },
+  {
+    "id": "basic-verb-conjugations-75",
+    "ru": "Ты можешь подождать?",
+    "ruStressed": "Ты мо́жешь подожда́ть?",
+    "translit": "Ty mozhesh podozhdat?",
+    "en": "Can you wait?"
+  },
+  {
+    "id": "basic-verb-conjugations-76",
+    "ru": "Он может говорить по-французски.",
+    "ruStressed": "Он мо́жет говори́ть по-францу́зски.",
+    "translit": "On mozhet govorit po-frantsuzski.",
+    "en": "He can speak French."
+  },
+  {
+    "id": "basic-verb-conjugations-77",
+    "ru": "Мы не могли прийти.",
+    "ruStressed": "Мы не могли́ прийти́.",
+    "translit": "My ne mogli priyti.",
+    "en": "We couldn't come."
+  },
+  {
+    "id": "basic-verb-conjugations-78",
+    "ru": "Я смогу это сделать.",
+    "ruStressed": "Я смогу́ э́то сде́лать.",
+    "translit": "Ya smogu eto sdelat.",
+    "en": "I'll be able to do it."
+  },
+  {
+    "id": "basic-verb-conjugations-79",
+    "ru": "Я люблю свою семью.",
+    "ruStressed": "Я люблю́ свою́ семью́.",
+    "translit": "Ya lyublyu svoyu semyu.",
+    "en": "I love my family."
+  },
+  {
+    "id": "basic-verb-conjugations-80",
+    "ru": "Ты любишь музыку?",
+    "ruStressed": "Ты лю́бишь му́зыку?",
+    "translit": "Ty lyubish muzyku?",
+    "en": "Do you love music?"
+  },
+  {
+    "id": "basic-verb-conjugations-81",
+    "ru": "Он любит играть в шахматы.",
+    "ruStressed": "Он лю́бит игра́ть в ша́хматы.",
+    "translit": "On lyubit igrat v shakhmaty.",
+    "en": "He loves to play chess."
+  },
+  {
+    "id": "basic-verb-conjugations-82",
+    "ru": "Мы любим море.",
+    "ruStressed": "Мы лю́бим мо́ре.",
+    "translit": "My lyubim more.",
+    "en": "We love the sea."
+  },
+  {
+    "id": "basic-verb-conjugations-83",
+    "ru": "В детстве я любил рисовать.",
+    "ruStressed": "В де́тстве я люби́л рисова́ть.",
+    "translit": "V detstve ya lyubil risovat.",
+    "en": "As a child I loved to draw."
+  },
+  {
+    "id": "basic-verb-conjugations-84",
+    "ru": "Я живу в Берлине.",
+    "ruStressed": "Я живу́ в Берли́не.",
+    "translit": "Ya zhivu v Berline.",
+    "en": "I live in Berlin."
+  },
+  {
+    "id": "basic-verb-conjugations-85",
+    "ru": "Ты живёшь один?",
+    "ruStressed": "Ты живёшь оди́н?",
+    "translit": "Ty zhivyosh odin?",
+    "en": "Do you live alone?"
+  },
+  {
+    "id": "basic-verb-conjugations-86",
+    "ru": "Она живёт с родителями.",
+    "ruStressed": "Она́ живёт с роди́телями.",
+    "translit": "Ona zhivyot s roditelyami.",
+    "en": "She lives with her parents."
+  },
+  {
+    "id": "basic-verb-conjugations-87",
+    "ru": "Раньше мы жили в деревне.",
+    "ruStressed": "Ра́ньше мы жи́ли в дере́вне.",
+    "translit": "Ranshe my zhili v derevne.",
+    "en": "We used to live in a village."
+  },
+  {
+    "id": "basic-verb-conjugations-88",
+    "ru": "Я буду жить за границей.",
+    "ruStressed": "Я бу́ду жить за грани́цей.",
+    "translit": "Ya budu zhit za granitsey.",
+    "en": "I will live abroad."
+  },
+  {
+    "id": "basic-verb-conjugations-89",
+    "ru": "Я работаю в офисе.",
+    "ruStressed": "Я рабо́таю в о́фисе.",
+    "translit": "Ya rabotayu v ofise.",
+    "en": "I work in an office."
+  },
+  {
+    "id": "basic-verb-conjugations-90",
+    "ru": "Ты работаешь сегодня?",
+    "ruStressed": "Ты рабо́таешь сего́дня?",
+    "translit": "Ty rabotaesh segodnya?",
+    "en": "Are you working today?"
+  },
+  {
+    "id": "basic-verb-conjugations-91",
+    "ru": "Он работает программистом.",
+    "ruStressed": "Он рабо́тает программи́стом.",
+    "translit": "On rabotaet programmistom.",
+    "en": "He works as a programmer."
+  },
+  {
+    "id": "basic-verb-conjugations-92",
+    "ru": "Мы работаем над проектом.",
+    "ruStressed": "Мы рабо́таем над прое́ктом.",
+    "translit": "My rabotaem nad proektom.",
+    "en": "We're working on a project."
+  },
+  {
+    "id": "basic-verb-conjugations-93",
+    "ru": "Вчера я работал допоздна.",
+    "ruStressed": "Вчера́ я рабо́тал допоздна́.",
+    "translit": "Vchera ya rabotal dopozdna.",
+    "en": "Yesterday I worked late."
+  },
+  {
+    "id": "basic-verb-conjugations-94",
+    "ru": "Завтра я не буду работать.",
+    "ruStressed": "За́втра я не бу́ду рабо́тать.",
+    "translit": "Zavtra ya ne budu rabotat.",
+    "en": "Tomorrow I won't work."
+  },
+  {
+    "id": "basic-verb-conjugations-95",
+    "ru": "Я учусь в университете.",
+    "ruStressed": "Я учу́сь в университе́те.",
+    "translit": "Ya uchus v universitete.",
+    "en": "I study at the university."
+  },
+  {
+    "id": "basic-verb-conjugations-96",
+    "ru": "Ты учишься на врача?",
+    "ruStressed": "Ты у́чишься на врача́?",
+    "translit": "Ty uchishsya na vracha?",
+    "en": "Are you studying to be a doctor?"
+  },
+  {
+    "id": "basic-verb-conjugations-97",
+    "ru": "Он учится в школе.",
+    "ruStressed": "Он у́чится в шко́ле.",
+    "translit": "On uchitsya v shkole.",
+    "en": "He studies at school."
+  },
+  {
+    "id": "basic-verb-conjugations-98",
+    "ru": "Мы учились вместе.",
+    "ruStressed": "Мы учи́лись вме́сте.",
+    "translit": "My uchilis vmeste.",
+    "en": "We studied together."
+  },
+  {
+    "id": "basic-verb-conjugations-99",
+    "ru": "Я сплю восемь часов.",
+    "ruStressed": "Я сплю во́семь часо́в.",
+    "translit": "Ya splyu vosem chasov.",
+    "en": "I sleep eight hours."
+  },
+  {
+    "id": "basic-verb-conjugations-100",
+    "ru": "Ты спишь?",
+    "ruStressed": "Ты спишь?",
+    "translit": "Ty spish?",
+    "en": "Are you sleeping?"
+  },
+  {
+    "id": "basic-verb-conjugations-101",
+    "ru": "Ребёнок спит.",
+    "ruStressed": "Ребёнок спит.",
+    "translit": "Rebyonok spit.",
+    "en": "The child is sleeping."
+  },
+  {
+    "id": "basic-verb-conjugations-102",
+    "ru": "Вчера я плохо спал.",
+    "ruStressed": "Вчера́ я пло́хо спал.",
+    "translit": "Vchera ya plokho spal.",
+    "en": "Yesterday I slept badly."
+  },
+  {
+    "id": "basic-verb-conjugations-103",
+    "ru": "Я буду спать до десяти.",
+    "ruStressed": "Я бу́ду спать до десяти́.",
+    "translit": "Ya budu spat do desyati.",
+    "en": "I'll sleep until ten."
+  },
+  {
+    "id": "basic-verb-conjugations-104",
+    "ru": "Я думаю о тебе.",
+    "ruStressed": "Я ду́маю о тебе́.",
+    "translit": "Ya dumayu o tebe.",
+    "en": "I'm thinking about you."
+  },
+  {
+    "id": "basic-verb-conjugations-105",
+    "ru": "О чём ты думаешь?",
+    "ruStressed": "О чём ты ду́маешь?",
+    "translit": "O chyom ty dumaesh?",
+    "en": "What are you thinking about?"
+  },
+  {
+    "id": "basic-verb-conjugations-106",
+    "ru": "Он думает, что прав.",
+    "ruStressed": "Он ду́мает, что прав.",
+    "translit": "On dumaet, chto prav.",
+    "en": "He thinks he's right."
+  },
+  {
+    "id": "basic-verb-conjugations-107",
+    "ru": "Мы долго думали.",
+    "ruStressed": "Мы до́лго ду́мали.",
+    "translit": "My dolgo dumali.",
+    "en": "We thought for a long time."
+  },
+  {
+    "id": "basic-verb-conjugations-108",
+    "ru": "Я подумаю об этом.",
+    "ruStressed": "Я поду́маю об э́том.",
+    "translit": "Ya podumayu ob etom.",
+    "en": "I'll think about it."
+  },
+  {
+    "id": "basic-verb-conjugations-109",
+    "ru": "Я понимаю по-русски.",
+    "ruStressed": "Я понима́ю по-ру́сски.",
+    "translit": "Ya ponimayu po-russki.",
+    "en": "I understand Russian."
+  },
+  {
+    "id": "basic-verb-conjugations-110",
+    "ru": "Ты понимаешь меня?",
+    "ruStressed": "Ты понима́ешь меня́?",
+    "translit": "Ty ponimaesh menya?",
+    "en": "Do you understand me?"
+  },
+  {
+    "id": "basic-verb-conjugations-111",
+    "ru": "Он не понимает шуток.",
+    "ruStressed": "Он не понима́ет шу́ток.",
+    "translit": "On ne ponimaet shutok.",
+    "en": "He doesn't understand jokes."
+  },
+  {
+    "id": "basic-verb-conjugations-112",
+    "ru": "Вчера я не понял ничего.",
+    "ruStressed": "Вчера́ я не по́нял ничего́.",
+    "translit": "Vchera ya ne ponyal nichego.",
+    "en": "Yesterday I didn't understand anything."
+  },
+  {
+    "id": "basic-verb-conjugations-113",
+    "ru": "Я скоро всё пойму.",
+    "ruStressed": "Я ско́ро всё пойму́.",
+    "translit": "Ya skoro vsyo poymu.",
+    "en": "Soon I'll understand everything."
+  },
+  {
+    "id": "basic-verb-conjugations-114",
+    "ru": "Я даю тебе совет.",
+    "ruStressed": "Я даю́ тебе́ сове́т.",
+    "translit": "Ya dayu tebe sovet.",
+    "en": "I'm giving you advice."
+  },
+  {
+    "id": "basic-verb-conjugations-115",
+    "ru": "Ты даёшь мне шанс?",
+    "ruStressed": "Ты даёшь мне шанс?",
+    "translit": "Ty dayosh mne shans?",
+    "en": "Are you giving me a chance?"
+  },
+  {
+    "id": "basic-verb-conjugations-116",
+    "ru": "Он даёт уроки.",
+    "ruStressed": "Он даёт уро́ки.",
+    "translit": "On dayot uroki.",
+    "en": "He gives lessons."
+  },
+  {
+    "id": "basic-verb-conjugations-117",
+    "ru": "Мама дала мне денег.",
+    "ruStressed": "Ма́ма дала́ мне де́нег.",
+    "translit": "Mama dala mne deneg.",
+    "en": "Mom gave me money."
+  },
+  {
+    "id": "basic-verb-conjugations-118",
+    "ru": "Я дам ответ завтра.",
+    "ruStressed": "Я дам отве́т за́втра.",
+    "translit": "Ya dam otvet zavtra.",
+    "en": "I'll give an answer tomorrow."
+  },
+  {
+    "id": "basic-verb-conjugations-119",
+    "ru": "Я беру книгу.",
+    "ruStressed": "Я беру́ кни́гу.",
+    "translit": "Ya beru knigu.",
+    "en": "I'm taking the book."
+  },
+  {
+    "id": "basic-verb-conjugations-120",
+    "ru": "Ты берёшь зонт?",
+    "ruStressed": "Ты берёшь зонт?",
+    "translit": "Ty beryosh zont?",
+    "en": "Are you taking the umbrella?"
+  },
+  {
+    "id": "basic-verb-conjugations-121",
+    "ru": "Он берёт такси.",
+    "ruStressed": "Он берёт такси́.",
+    "translit": "On beryot taksi.",
+    "en": "He's taking a taxi."
+  },
+  {
+    "id": "basic-verb-conjugations-122",
+    "ru": "Вчера я взял отпуск.",
+    "ruStressed": "Вчера́ я взял о́тпуск.",
+    "translit": "Vchera ya vzyal otpusk.",
+    "en": "Yesterday I took a vacation."
+  },
+  {
+    "id": "basic-verb-conjugations-123",
+    "ru": "Я возьму это с собой.",
+    "ruStressed": "Я возьму́ э́то с собо́й.",
+    "translit": "Ya vozmu eto s soboy.",
+    "en": "I'll take this with me."
+  },
+  {
+    "id": "basic-verb-conjugations-124",
+    "ru": "Я жду автобус.",
+    "ruStressed": "Я жду авто́бус.",
+    "translit": "Ya zhdu avtobus.",
+    "en": "I'm waiting for the bus."
+  },
+  {
+    "id": "basic-verb-conjugations-125",
+    "ru": "Ты ждёшь меня?",
+    "ruStressed": "Ты ждёшь меня́?",
+    "translit": "Ty zhdyosh menya?",
+    "en": "Are you waiting for me?"
+  },
+  {
+    "id": "basic-verb-conjugations-126",
+    "ru": "Она ждёт ребёнка.",
+    "ruStressed": "Она́ ждёт ребёнка.",
+    "translit": "Ona zhdyot rebyonka.",
+    "en": "She is expecting a baby."
+  },
+  {
+    "id": "basic-verb-conjugations-127",
+    "ru": "Мы ждали час.",
+    "ruStressed": "Мы жда́ли час.",
+    "translit": "My zhdali chas.",
+    "en": "We waited an hour."
+  },
+  {
+    "id": "basic-verb-conjugations-128",
+    "ru": "Я подожду здесь.",
+    "ruStressed": "Я подожду́ здесь.",
+    "translit": "Ya podozhdu zdes.",
+    "en": "I'll wait here."
+  },
+  {
+    "id": "basic-verb-conjugations-129",
+    "ru": "Я смотрю фильм.",
+    "ruStressed": "Я смотрю́ фильм.",
+    "translit": "Ya smotryu film.",
+    "en": "I'm watching a film."
+  },
+  {
+    "id": "basic-verb-conjugations-130",
+    "ru": "Ты смотришь телевизор?",
+    "ruStressed": "Ты смо́тришь телеви́зор?",
+    "translit": "Ty smotrish televizor?",
+    "en": "Are you watching TV?"
+  },
+  {
+    "id": "basic-verb-conjugations-131",
+    "ru": "Он смотрит в окно.",
+    "ruStressed": "Он смо́трит в окно́.",
+    "translit": "On smotrit v okno.",
+    "en": "He's looking out the window."
+  },
+  {
+    "id": "basic-verb-conjugations-132",
+    "ru": "Вчера мы смотрели матч.",
+    "ruStressed": "Вчера́ мы смотре́ли матч.",
+    "translit": "Vchera my smotreli match.",
+    "en": "Yesterday we watched the match."
+  },
+  {
+    "id": "basic-verb-conjugations-133",
+    "ru": "Завтра я посмотрю новый эпизод.",
+    "ruStressed": "За́втра я посмотрю́ но́вый эпизо́д.",
+    "translit": "Zavtra ya posmotryu novyy epizod.",
+    "en": "Tomorrow I'll watch the new episode."
+  },
+  {
+    "id": "basic-verb-conjugations-134",
+    "ru": "Я слушаю музыку.",
+    "ruStressed": "Я слу́шаю му́зыку.",
+    "translit": "Ya slushayu muzyku.",
+    "en": "I'm listening to music."
+  },
+  {
+    "id": "basic-verb-conjugations-135",
+    "ru": "Ты слушаешь меня?",
+    "ruStressed": "Ты слу́шаешь меня́?",
+    "translit": "Ty slushaesh menya?",
+    "en": "Are you listening to me?"
+  },
+  {
+    "id": "basic-verb-conjugations-136",
+    "ru": "Он слушает подкаст.",
+    "ruStressed": "Он слу́шает по́дкаст.",
+    "translit": "On slushaet podkast.",
+    "en": "He's listening to a podcast."
+  },
+  {
+    "id": "basic-verb-conjugations-137",
+    "ru": "Вчера я слушал лекцию.",
+    "ruStressed": "Вчера́ я слу́шал ле́кцию.",
+    "translit": "Vchera ya slushal lektsiyu.",
+    "en": "Yesterday I listened to a lecture."
+  },
+  {
+    "id": "basic-verb-conjugations-138",
+    "ru": "Я покупаю хлеб.",
+    "ruStressed": "Я покупа́ю хлеб.",
+    "translit": "Ya pokupayu khleb.",
+    "en": "I'm buying bread."
+  },
+  {
+    "id": "basic-verb-conjugations-139",
+    "ru": "Ты часто покупаешь одежду?",
+    "ruStressed": "Ты ча́сто покупа́ешь оде́жду?",
+    "translit": "Ty chasto pokupaesh odezhdu?",
+    "en": "Do you often buy clothes?"
+  },
+  {
+    "id": "basic-verb-conjugations-140",
+    "ru": "Вчера я купил подарок.",
+    "ruStressed": "Вчера́ я купи́л пода́рок.",
+    "translit": "Vchera ya kupil podarok.",
+    "en": "Yesterday I bought a present."
+  },
+  {
+    "id": "basic-verb-conjugations-141",
+    "ru": "Завтра я куплю билеты.",
+    "ruStressed": "За́втра я куплю́ биле́ты.",
+    "translit": "Zavtra ya kuplyu bilety.",
+    "en": "Tomorrow I'll buy the tickets."
+  },
+  {
+    "id": "basic-verb-conjugations-142",
+    "ru": "Завтра я приеду к тебе.",
+    "ruStressed": "За́втра я прие́ду к тебе́.",
+    "translit": "Zavtra ya priedu k tebe.",
+    "en": "Tomorrow I'll come to you."
+  },
+  {
+    "id": "basic-verb-conjugations-143",
+    "ru": "Он приехал поздно.",
+    "ruStressed": "Он прие́хал по́здно.",
+    "translit": "On priekhal pozdno.",
+    "en": "He arrived late."
+  },
+  {
+    "id": "basic-verb-conjugations-144",
+    "ru": "Я прихожу домой в семь.",
+    "ruStressed": "Я прихожу́ домо́й в семь.",
+    "translit": "Ya prikhozhu domoy v sem.",
+    "en": "I come home at seven."
+  },
+  {
+    "id": "basic-verb-conjugations-145",
+    "ru": "Ты пришёл вчера?",
+    "ruStressed": "Ты пришёл вчера́?",
+    "translit": "Ty prishyol vchera?",
+    "en": "Did you come yesterday?"
+  },
+  {
+    "id": "basic-verb-conjugations-146",
+    "ru": "Завтра я приду пораньше.",
+    "ruStressed": "За́втра я приду́ пора́ньше.",
+    "translit": "Zavtra ya pridu poranshe.",
+    "en": "Tomorrow I'll come earlier."
+  },
+  {
+    "id": "basic-verb-conjugations-147",
+    "ru": "Я звоню маме каждый день.",
+    "ruStressed": "Я звоню́ ма́ме ка́ждый день.",
+    "translit": "Ya zvonyu mame kazhdyy den.",
+    "en": "I call mom every day."
+  },
+  {
+    "id": "basic-verb-conjugations-148",
+    "ru": "Ты позвонишь мне?",
+    "ruStressed": "Ты позвони́шь мне?",
+    "translit": "Ty pozvonish mne?",
+    "en": "Will you call me?"
+  },
+  {
+    "id": "basic-verb-conjugations-149",
+    "ru": "Вчера он звонил два раза.",
+    "ruStressed": "Вчера́ он звони́л два ра́за.",
+    "translit": "Vchera on zvonil dva raza.",
+    "en": "Yesterday he called twice."
+  },
+  {
+    "id": "basic-verb-conjugations-150",
+    "ru": "Я помогаю другу.",
+    "ruStressed": "Я помога́ю дру́гу.",
+    "translit": "Ya pomogayu drugu.",
+    "en": "I help my friend."
+  },
+  {
+    "id": "basic-verb-conjugations-151",
+    "ru": "Ты поможешь мне?",
+    "ruStressed": "Ты помо́жешь мне?",
+    "translit": "Ty pomozhesh mne?",
+    "en": "Will you help me?"
+  },
+  {
+    "id": "basic-verb-conjugations-152",
+    "ru": "Вчера он помог мне с задачей.",
+    "ruStressed": "Вчера́ он помо́г мне с зада́чей.",
+    "translit": "Vchera on pomog mne s zadachey.",
+    "en": "Yesterday he helped me with the task."
+  },
+  {
+    "id": "basic-verb-conjugations-153",
+    "ru": "Я учу новые слова.",
+    "ruStressed": "Я учу́ но́вые слова́.",
+    "translit": "Ya uchu novye slova.",
+    "en": "I'm learning new words."
+  },
+  {
+    "id": "basic-verb-conjugations-154",
+    "ru": "Ты учишь грамматику?",
+    "ruStressed": "Ты у́чишь грамма́тику?",
+    "translit": "Ty uchish grammatiku?",
+    "en": "Are you learning grammar?"
+  },
+  {
+    "id": "basic-verb-conjugations-155",
+    "ru": "Завтра я выучу стих.",
+    "ruStressed": "За́втра я вы́учу стих.",
+    "translit": "Zavtra ya vyuchu stikh.",
+    "en": "Tomorrow I'll memorize the poem."
+  },
+  {
+    "id": "basic-verb-conjugations-156",
+    "ru": "Я играю на гитаре.",
+    "ruStressed": "Я игра́ю на гита́ре.",
+    "translit": "Ya igrayu na gitare.",
+    "en": "I play the guitar."
+  },
+  {
+    "id": "basic-verb-conjugations-157",
+    "ru": "Ты играешь в шахматы?",
+    "ruStressed": "Ты игра́ешь в ша́хматы?",
+    "translit": "Ty igraesh v shakhmaty?",
+    "en": "Do you play chess?"
+  },
+  {
+    "id": "basic-verb-conjugations-158",
+    "ru": "Дети играют во дворе.",
+    "ruStressed": "Де́ти игра́ют во дворе́.",
+    "translit": "Deti igrayut vo dvore.",
+    "en": "The children are playing in the yard."
+  },
+  {
+    "id": "basic-verb-conjugations-159",
+    "ru": "Вчера мы играли в футбол.",
+    "ruStressed": "Вчера́ мы игра́ли в футбо́л.",
+    "translit": "Vchera my igrali v futbol.",
+    "en": "Yesterday we played football."
+  },
+  {
+    "id": "basic-verb-conjugations-160",
+    "ru": "Я открываю окно.",
+    "ruStressed": "Я открыва́ю окно́.",
+    "translit": "Ya otkryvayu okno.",
+    "en": "I'm opening the window."
+  },
+  {
+    "id": "basic-verb-conjugations-161",
+    "ru": "Магазин открывается в девять.",
+    "ruStressed": "Магази́н открыва́ется в де́вять.",
+    "translit": "Magazin otkryvaetsya v devyat.",
+    "en": "The store opens at nine."
+  },
+  {
+    "id": "basic-verb-conjugations-162",
+    "ru": "Завтра я открою новый счёт.",
+    "ruStressed": "За́втра я откро́ю но́вый счёт.",
+    "translit": "Zavtra ya otkroyu novyy schyot.",
+    "en": "Tomorrow I'll open a new account."
+  },
+  {
+    "id": "basic-verb-conjugations-163",
+    "ru": "Я закрываю дверь.",
+    "ruStressed": "Я закрыва́ю дверь.",
+    "translit": "Ya zakryvayu dver.",
+    "en": "I'm closing the door."
+  },
+  {
+    "id": "basic-verb-conjugations-164",
+    "ru": "Кафе закрылось в полночь.",
+    "ruStressed": "Кафе́ закры́лось в по́лночь.",
+    "translit": "Kafe zakrylos v polnoch.",
+    "en": "The café closed at midnight."
+  },
+  {
+    "id": "basic-verb-conjugations-165",
+    "ru": "Я начинаю работу в восемь.",
+    "ruStressed": "Я начина́ю рабо́ту в во́семь.",
+    "translit": "Ya nachinayu rabotu v vosem.",
+    "en": "I start work at eight."
+  },
+  {
+    "id": "basic-verb-conjugations-166",
+    "ru": "Вчера он начал новую книгу.",
+    "ruStressed": "Вчера́ он на́чал но́вую кни́гу.",
+    "translit": "Vchera on nachal novuyu knigu.",
+    "en": "Yesterday he started a new book."
+  },
+  {
+    "id": "basic-verb-conjugations-167",
+    "ru": "Завтра мы начнём проект.",
+    "ruStressed": "За́втра мы начнём прое́кт.",
+    "translit": "Zavtra my nachnyom proekt.",
+    "en": "Tomorrow we'll start the project."
+  },
+  {
+    "id": "basic-verb-conjugations-168",
+    "ru": "Я заканчиваю работу в шесть.",
+    "ruStressed": "Я зака́нчиваю рабо́ту в шесть.",
+    "translit": "Ya zakanchivayu rabotu v shest.",
+    "en": "I finish work at six."
+  },
+  {
+    "id": "basic-verb-conjugations-169",
+    "ru": "Вчера я закончил отчёт.",
+    "ruStressed": "Вчера́ я зако́нчил отчёт.",
+    "translit": "Vchera ya zakonchil otchyot.",
+    "en": "Yesterday I finished the report."
+  },
+  {
+    "id": "basic-verb-conjugations-170",
+    "ru": "Ты будешь любить эту книгу.",
+    "ruStressed": "Ты бу́дешь люби́ть э́ту кни́гу.",
+    "translit": "Ty budesh lyubit etu knigu.",
+    "en": "You will love this book."
+  },
+  {
+    "id": "basic-verb-conjugations-171",
+    "ru": "Я расскажу тебе историю.",
+    "ruStressed": "Я расскажу́ тебе́ исто́рию.",
+    "translit": "Ya rasskazhu tebe istoriyu.",
+    "en": "I'll tell you a story."
+  },
+  {
+    "id": "basic-verb-conjugations-172",
+    "ru": "Бабушка рассказывала сказки.",
+    "ruStressed": "Ба́бушка расска́зывала ска́зки.",
+    "translit": "Babushka rasskazyvala skazki.",
+    "en": "Grandmother used to tell fairy tales."
+  },
+  {
+    "id": "basic-verb-conjugations-173",
+    "ru": "Я встречаю гостей.",
+    "ruStressed": "Я встреча́ю госте́й.",
+    "translit": "Ya vstrechayu gostey.",
+    "en": "I'm meeting the guests."
+  },
+  {
+    "id": "basic-verb-conjugations-174",
+    "ru": "Завтра я встречу её в аэропорту.",
+    "ruStressed": "За́втра я встре́чу её в аэропорту́.",
+    "translit": "Zavtra ya vstrechu eyo v aeroportu.",
+    "en": "Tomorrow I'll meet her at the airport."
+  },
+  {
+    "id": "basic-verb-conjugations-175",
+    "ru": "Вчера мы встретились в кафе.",
+    "ruStressed": "Вчера́ мы встре́тились в кафе́.",
+    "translit": "Vchera my vstretilis v kafe.",
+    "en": "Yesterday we met at the café."
+  },
+  {
+    "id": "basic-verb-conjugations-176",
+    "ru": "Я готовлю ужин.",
+    "ruStressed": "Я гото́влю у́жин.",
+    "translit": "Ya gotovlyu uzhin.",
+    "en": "I'm cooking dinner."
+  },
+  {
+    "id": "basic-verb-conjugations-177",
+    "ru": "Ты готовишь сам?",
+    "ruStressed": "Ты гото́вишь сам?",
+    "translit": "Ty gotovish sam?",
+    "en": "Do you cook yourself?"
+  },
+  {
+    "id": "basic-verb-conjugations-178",
+    "ru": "Вчера мама готовила борщ.",
+    "ruStressed": "Вчера́ ма́ма гото́вила борщ.",
+    "translit": "Vchera mama gotovila borshch.",
+    "en": "Yesterday mom cooked borscht."
+  },
+  {
+    "id": "basic-verb-conjugations-179",
+    "ru": "Я путешествую каждое лето.",
+    "ruStressed": "Я путеше́ствую ка́ждое ле́то.",
+    "translit": "Ya puteshestvuyu kazhdoe leto.",
+    "en": "I travel every summer."
+  },
+  {
+    "id": "basic-verb-conjugations-180",
+    "ru": "Они путешествовали по Европе.",
+    "ruStressed": "Они́ путеше́ствовали по Евро́пе.",
+    "translit": "Oni puteshestvovali po Evrope.",
+    "en": "They traveled around Europe."
+  }
+]

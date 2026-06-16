@@ -1,0 +1,723 @@
+[
+  {
+    "id": "a1-part-3-1",
+    "ru": "Я хочу есть.",
+    "ruStressed": "Я хочу́ есть.",
+    "translit": "Ya khochu est.",
+    "en": "I want to eat."
+  },
+  {
+    "id": "a1-part-3-2",
+    "ru": "Я хочу пить.",
+    "ruStressed": "Я хочу́ пить.",
+    "translit": "Ya khochu pit.",
+    "en": "I want to drink."
+  },
+  {
+    "id": "a1-part-3-3",
+    "ru": "Я голоден.",
+    "ruStressed": "Я го́лоден.",
+    "translit": "Ya goloden.",
+    "en": "I am hungry."
+  },
+  {
+    "id": "a1-part-3-4",
+    "ru": "Я хочу воду.",
+    "ruStressed": "Я хочу́ во́ду.",
+    "translit": "Ya khochu vodu.",
+    "en": "I want water."
+  },
+  {
+    "id": "a1-part-3-5",
+    "ru": "Я хочу кофе.",
+    "ruStressed": "Я хочу́ ко́фе.",
+    "translit": "Ya khochu kofe.",
+    "en": "I want coffee."
+  },
+  {
+    "id": "a1-part-3-6",
+    "ru": "Я хочу чай.",
+    "ruStressed": "Я хочу́ чай.",
+    "translit": "Ya khochu chay.",
+    "en": "I want tea."
+  },
+  {
+    "id": "a1-part-3-7",
+    "ru": "Я хочу молоко.",
+    "ruStressed": "Я хочу́ молоко́.",
+    "translit": "Ya khochu moloko.",
+    "en": "I want milk."
+  },
+  {
+    "id": "a1-part-3-8",
+    "ru": "Я пью сок каждое утро.",
+    "ruStressed": "Я пью сок ка́ждое у́тро.",
+    "translit": "Ya pyu sok kazhdoe utro.",
+    "en": "I drink juice every morning."
+  },
+  {
+    "id": "a1-part-3-9",
+    "ru": "Я не пью алкоголь.",
+    "ruStressed": "Я не пью алкого́ль.",
+    "translit": "Ya ne pyu alkogol.",
+    "en": "I don't drink alcohol."
+  },
+  {
+    "id": "a1-part-3-10",
+    "ru": "Я ем хлеб с маслом.",
+    "ruStressed": "Я ем хлеб с ма́слом.",
+    "translit": "Ya em khleb s maslom.",
+    "en": "I eat bread with butter."
+  },
+  {
+    "id": "a1-part-3-11",
+    "ru": "Я ем суп ложкой.",
+    "ruStressed": "Я ем суп ло́жкой.",
+    "translit": "Ya em sup lozhkoy.",
+    "en": "I eat soup with a spoon."
+  },
+  {
+    "id": "a1-part-3-12",
+    "ru": "Я ем салат вилкой.",
+    "ruStressed": "Я ем сала́т ви́лкой.",
+    "translit": "Ya em salat vilkoy.",
+    "en": "I eat salad with a fork."
+  },
+  {
+    "id": "a1-part-3-13",
+    "ru": "Я режу хлеб ножом.",
+    "ruStressed": "Я ре́жу хлеб ножо́м.",
+    "translit": "Ya rezhu khleb nozhom.",
+    "en": "I cut bread with a knife."
+  },
+  {
+    "id": "a1-part-3-14",
+    "ru": "На завтрак я ем кашу.",
+    "ruStressed": "На за́втрак я ем ка́шу.",
+    "translit": "Na zavtrak ya em kashu.",
+    "en": "For breakfast I eat porridge."
+  },
+  {
+    "id": "a1-part-3-15",
+    "ru": "На обед я ем суп.",
+    "ruStressed": "На обе́д я ем суп.",
+    "translit": "Na obed ya em sup.",
+    "en": "For lunch I eat soup."
+  },
+  {
+    "id": "a1-part-3-16",
+    "ru": "На ужин я ем рыбу.",
+    "ruStressed": "На у́жин я ем ры́бу.",
+    "translit": "Na uzhin ya em rybu.",
+    "en": "For dinner I eat fish."
+  },
+  {
+    "id": "a1-part-3-17",
+    "ru": "Я люблю рыбу.",
+    "ruStressed": "Я люблю́ ры́бу.",
+    "translit": "Ya lyublyu rybu.",
+    "en": "I love fish."
+  },
+  {
+    "id": "a1-part-3-18",
+    "ru": "Я люблю мясо.",
+    "ruStressed": "Я люблю́ мя́со.",
+    "translit": "Ya lyublyu myaso.",
+    "en": "I love meat."
+  },
+  {
+    "id": "a1-part-3-19",
+    "ru": "Я не ем мясо.",
+    "ruStressed": "Я не ем мя́со.",
+    "translit": "Ya ne em myaso.",
+    "en": "I don't eat meat."
+  },
+  {
+    "id": "a1-part-3-20",
+    "ru": "Я вегетарианец.",
+    "ruStressed": "Я вегетариа́нец.",
+    "translit": "Ya vegetarianets.",
+    "en": "I am a vegetarian. (m.)"
+  },
+  {
+    "id": "a1-part-3-21",
+    "ru": "Я вегетарианка.",
+    "ruStressed": "Я вегетариа́нка.",
+    "translit": "Ya vegetarianka.",
+    "en": "I am a vegetarian. (f.)"
+  },
+  {
+    "id": "a1-part-3-22",
+    "ru": "Я люблю овощи.",
+    "ruStressed": "Я люблю́ о́вощи.",
+    "translit": "Ya lyublyu ovoshchi.",
+    "en": "I love vegetables."
+  },
+  {
+    "id": "a1-part-3-23",
+    "ru": "Я люблю фрукты.",
+    "ruStressed": "Я люблю́ фру́кты.",
+    "translit": "Ya lyublyu frukty.",
+    "en": "I love fruits."
+  },
+  {
+    "id": "a1-part-3-24",
+    "ru": "Я ем яблоко каждый день.",
+    "ruStressed": "Я ем я́блоко ка́ждый день.",
+    "translit": "Ya em yabloko kazhdyy den.",
+    "en": "I eat an apple every day."
+  },
+  {
+    "id": "a1-part-3-25",
+    "ru": "Я люблю бананы.",
+    "ruStressed": "Я люблю́ бана́ны.",
+    "translit": "Ya lyublyu banany.",
+    "en": "I love bananas."
+  },
+  {
+    "id": "a1-part-3-26",
+    "ru": "Я не люблю лук.",
+    "ruStressed": "Я не люблю́ лук.",
+    "translit": "Ya ne lyublyu luk.",
+    "en": "I don't like onions."
+  },
+  {
+    "id": "a1-part-3-27",
+    "ru": "Это очень вкусно.",
+    "ruStressed": "Э́то о́чень вку́сно.",
+    "translit": "Eto ochen vkusno.",
+    "en": "This is very tasty."
+  },
+  {
+    "id": "a1-part-3-28",
+    "ru": "Это невкусно.",
+    "ruStressed": "Э́то невку́сно.",
+    "translit": "Eto nevkusno.",
+    "en": "This is not tasty."
+  },
+  {
+    "id": "a1-part-3-29",
+    "ru": "Это сладкое.",
+    "ruStressed": "Э́то сла́дкое.",
+    "translit": "Eto sladkoe.",
+    "en": "This is sweet."
+  },
+  {
+    "id": "a1-part-3-30",
+    "ru": "Это солёное.",
+    "ruStressed": "Э́то солёное.",
+    "translit": "Eto solyonoe.",
+    "en": "This is salty."
+  },
+  {
+    "id": "a1-part-3-31",
+    "ru": "Это горячее.",
+    "ruStressed": "Э́то горя́чее.",
+    "translit": "Eto goryachee.",
+    "en": "This is hot."
+  },
+  {
+    "id": "a1-part-3-32",
+    "ru": "Это холодное.",
+    "ruStressed": "Э́то холо́дное.",
+    "translit": "Eto kholodnoe.",
+    "en": "This is cold."
+  },
+  {
+    "id": "a1-part-3-33",
+    "ru": "Я хочу заказать пиццу.",
+    "ruStressed": "Я хочу́ заказа́ть пи́ццу.",
+    "translit": "Ya khochu zakazat pitstsu.",
+    "en": "I want to order a pizza."
+  },
+  {
+    "id": "a1-part-3-34",
+    "ru": "Дайте меню, пожалуйста.",
+    "ruStressed": "Дай́те меню́, пожа́луйста.",
+    "translit": "Dayte menyu, pozhaluysta.",
+    "en": "Please give me the menu."
+  },
+  {
+    "id": "a1-part-3-35",
+    "ru": "Я буду кофе и торт.",
+    "ruStressed": "Я бу́ду ко́фе и торт.",
+    "translit": "Ya budu kofe i tort.",
+    "en": "I'll have coffee and cake."
+  },
+  {
+    "id": "a1-part-3-36",
+    "ru": "Я буду чашку чая.",
+    "ruStressed": "Я бу́ду ча́шку ча́я.",
+    "translit": "Ya budu chashku chaya.",
+    "en": "I'll have a cup of tea."
+  },
+  {
+    "id": "a1-part-3-37",
+    "ru": "С сахаром или без?",
+    "ruStressed": "С са́харом и́ли без?",
+    "translit": "S sakharom ili bez?",
+    "en": "With sugar or without?"
+  },
+  {
+    "id": "a1-part-3-38",
+    "ru": "Без сахара, пожалуйста.",
+    "ruStressed": "Без са́хара, пожа́луйста.",
+    "translit": "Bez sakhara, pozhaluysta.",
+    "en": "Without sugar, please."
+  },
+  {
+    "id": "a1-part-3-39",
+    "ru": "С молоком, пожалуйста.",
+    "ruStressed": "С молоко́м, пожа́луйста.",
+    "translit": "S molokom, pozhaluysta.",
+    "en": "With milk, please."
+  },
+  {
+    "id": "a1-part-3-40",
+    "ru": "Приятного аппетита!",
+    "ruStressed": "Прия́тного аппети́та!",
+    "translit": "Priyatnogo appetita!",
+    "en": "Enjoy your meal!"
+  },
+  {
+    "id": "a1-part-3-41",
+    "ru": "Спасибо, всё было вкусно.",
+    "ruStressed": "Спаси́бо, всё бы́ло вку́сно.",
+    "translit": "Spasibo, vsyo bylo vkusno.",
+    "en": "Thank you, everything was tasty."
+  },
+  {
+    "id": "a1-part-3-42",
+    "ru": "Счёт, пожалуйста.",
+    "ruStressed": "Счёт, пожа́луйста.",
+    "translit": "Schyot, pozhaluysta.",
+    "en": "The bill, please."
+  },
+  {
+    "id": "a1-part-3-43",
+    "ru": "Сколько с меня?",
+    "ruStressed": "Ско́лько с меня́?",
+    "translit": "Skolko s menya?",
+    "en": "How much do I owe?"
+  },
+  {
+    "id": "a1-part-3-44",
+    "ru": "Я заплачу картой.",
+    "ruStressed": "Я заплачу́ ка́ртой.",
+    "translit": "Ya zaplachu kartoy.",
+    "en": "I will pay by card."
+  },
+  {
+    "id": "a1-part-3-45",
+    "ru": "Я заплачу наличными.",
+    "ruStressed": "Я заплачу́ нали́чными.",
+    "translit": "Ya zaplachu nalichnymi.",
+    "en": "I will pay in cash."
+  },
+  {
+    "id": "a1-part-3-46",
+    "ru": "У меня есть время.",
+    "ruStressed": "У меня́ есть вре́мя.",
+    "translit": "U menya est vremya.",
+    "en": "I have time."
+  },
+  {
+    "id": "a1-part-3-47",
+    "ru": "У меня нет времени.",
+    "ruStressed": "У меня́ нет вре́мени.",
+    "translit": "U menya net vremeni.",
+    "en": "I don't have time."
+  },
+  {
+    "id": "a1-part-3-48",
+    "ru": "У меня есть деньги.",
+    "ruStressed": "У меня́ есть де́ньги.",
+    "translit": "U menya est dengi.",
+    "en": "I have money."
+  },
+  {
+    "id": "a1-part-3-49",
+    "ru": "У меня нет денег.",
+    "ruStressed": "У меня́ нет де́нег.",
+    "translit": "U menya net deneg.",
+    "en": "I don't have money."
+  },
+  {
+    "id": "a1-part-3-50",
+    "ru": "У меня есть вопрос.",
+    "ruStressed": "У меня́ есть вопро́с.",
+    "translit": "U menya est vopros.",
+    "en": "I have a question."
+  },
+  {
+    "id": "a1-part-3-51",
+    "ru": "У меня есть идея.",
+    "ruStressed": "У меня́ есть иде́я.",
+    "translit": "U menya est ideya.",
+    "en": "I have an idea."
+  },
+  {
+    "id": "a1-part-3-52",
+    "ru": "У меня болит голова.",
+    "ruStressed": "У меня́ боли́т голова́.",
+    "translit": "U menya bolit golova.",
+    "en": "I have a headache."
+  },
+  {
+    "id": "a1-part-3-53",
+    "ru": "У меня болит живот.",
+    "ruStressed": "У меня́ боли́т живо́т.",
+    "translit": "U menya bolit zhivot.",
+    "en": "My stomach hurts."
+  },
+  {
+    "id": "a1-part-3-54",
+    "ru": "У меня болит горло.",
+    "ruStressed": "У меня́ боли́т го́рло.",
+    "translit": "U menya bolit gorlo.",
+    "en": "My throat hurts."
+  },
+  {
+    "id": "a1-part-3-55",
+    "ru": "Я хочу спать.",
+    "ruStressed": "Я хочу́ спать.",
+    "translit": "Ya khochu spat.",
+    "en": "I want to sleep."
+  },
+  {
+    "id": "a1-part-3-56",
+    "ru": "Я хочу домой.",
+    "ruStressed": "Я хочу́ домо́й.",
+    "translit": "Ya khochu domoy.",
+    "en": "I want to go home."
+  },
+  {
+    "id": "a1-part-3-57",
+    "ru": "Я хочу отдохнуть.",
+    "ruStressed": "Я хочу́ отдохну́ть.",
+    "translit": "Ya khochu otdokhnut.",
+    "en": "I want to rest."
+  },
+  {
+    "id": "a1-part-3-58",
+    "ru": "Я хочу гулять.",
+    "ruStressed": "Я хочу́ гуля́ть.",
+    "translit": "Ya khochu gulyat.",
+    "en": "I want to take a walk."
+  },
+  {
+    "id": "a1-part-3-59",
+    "ru": "Я хочу купить книгу.",
+    "ruStressed": "Я хочу́ купи́ть кни́гу.",
+    "translit": "Ya khochu kupit knigu.",
+    "en": "I want to buy a book."
+  },
+  {
+    "id": "a1-part-3-60",
+    "ru": "Я хочу учить русский.",
+    "ruStressed": "Я хочу́ учи́ть ру́сский.",
+    "translit": "Ya khochu uchit russkiy.",
+    "en": "I want to learn Russian."
+  },
+  {
+    "id": "a1-part-3-61",
+    "ru": "Я люблю музыку.",
+    "ruStressed": "Я люблю́ му́зыку.",
+    "translit": "Ya lyublyu muzyku.",
+    "en": "I love music."
+  },
+  {
+    "id": "a1-part-3-62",
+    "ru": "Я люблю книги.",
+    "ruStressed": "Я люблю́ кни́ги.",
+    "translit": "Ya lyublyu knigi.",
+    "en": "I love books."
+  },
+  {
+    "id": "a1-part-3-63",
+    "ru": "Я люблю путешествовать.",
+    "ruStressed": "Я люблю́ путеше́ствовать.",
+    "translit": "Ya lyublyu puteshestvovat.",
+    "en": "I love to travel."
+  },
+  {
+    "id": "a1-part-3-64",
+    "ru": "Я люблю готовить.",
+    "ruStressed": "Я люблю́ гото́вить.",
+    "translit": "Ya lyublyu gotovit.",
+    "en": "I love to cook."
+  },
+  {
+    "id": "a1-part-3-65",
+    "ru": "Мне нравится эта песня.",
+    "ruStressed": "Мне нра́вится э́та пе́сня.",
+    "translit": "Mne nravitsya eta pesnya.",
+    "en": "I like this song."
+  },
+  {
+    "id": "a1-part-3-66",
+    "ru": "Мне нравится этот фильм.",
+    "ruStressed": "Мне нра́вится э́тот фильм.",
+    "translit": "Mne nravitsya etot film.",
+    "en": "I like this movie."
+  },
+  {
+    "id": "a1-part-3-67",
+    "ru": "Мне не нравится зима.",
+    "ruStressed": "Мне не нра́вится зима́.",
+    "translit": "Mne ne nravitsya zima.",
+    "en": "I don't like winter."
+  },
+  {
+    "id": "a1-part-3-68",
+    "ru": "Мне нравится твой стиль.",
+    "ruStressed": "Мне нра́вится твой стиль.",
+    "translit": "Mne nravitsya tvoy stil.",
+    "en": "I like your style."
+  },
+  {
+    "id": "a1-part-3-69",
+    "ru": "Тебе нравится кофе?",
+    "ruStressed": "Тебе́ нра́вится ко́фе?",
+    "translit": "Tebe nravitsya kofe?",
+    "en": "Do you like coffee?"
+  },
+  {
+    "id": "a1-part-3-70",
+    "ru": "Да, мне очень нравится.",
+    "ruStressed": "Да, мне о́чень нра́вится.",
+    "translit": "Da, mne ochen nravitsya.",
+    "en": "Yes, I like it very much."
+  },
+  {
+    "id": "a1-part-3-71",
+    "ru": "Сколько это стоит?",
+    "ruStressed": "Ско́лько э́то сто́ит?",
+    "translit": "Skolko eto stoit?",
+    "en": "How much does this cost?"
+  },
+  {
+    "id": "a1-part-3-72",
+    "ru": "Это стоит сто рублей.",
+    "ruStressed": "Э́то сто́ит сто рубле́й.",
+    "translit": "Eto stoit sto rubley.",
+    "en": "This costs one hundred rubles."
+  },
+  {
+    "id": "a1-part-3-73",
+    "ru": "Это дорого.",
+    "ruStressed": "Э́то до́рого.",
+    "translit": "Eto dorogo.",
+    "en": "This is expensive."
+  },
+  {
+    "id": "a1-part-3-74",
+    "ru": "Это дёшево.",
+    "ruStressed": "Э́то дёшево.",
+    "translit": "Eto dyoshevo.",
+    "en": "This is cheap."
+  },
+  {
+    "id": "a1-part-3-75",
+    "ru": "У вас есть хлеб?",
+    "ruStressed": "У вас есть хлеб?",
+    "translit": "U vas est khleb?",
+    "en": "Do you have bread?"
+  },
+  {
+    "id": "a1-part-3-76",
+    "ru": "Дайте мне два яблока.",
+    "ruStressed": "Да́йте мне два я́блока.",
+    "translit": "Dayte mne dva yabloka.",
+    "en": "Give me two apples."
+  },
+  {
+    "id": "a1-part-3-77",
+    "ru": "Дайте мне литр молока.",
+    "ruStressed": "Да́йте мне литр молока́.",
+    "translit": "Dayte mne litr moloka.",
+    "en": "Give me a litre of milk."
+  },
+  {
+    "id": "a1-part-3-78",
+    "ru": "Я хочу это.",
+    "ruStressed": "Я хочу́ э́то.",
+    "translit": "Ya khochu eto.",
+    "en": "I want this one."
+  },
+  {
+    "id": "a1-part-3-79",
+    "ru": "Я возьму это.",
+    "ruStressed": "Я возьму́ э́то.",
+    "translit": "Ya vozmu eto.",
+    "en": "I'll take this."
+  },
+  {
+    "id": "a1-part-3-80",
+    "ru": "Где касса?",
+    "ruStressed": "Где ка́сса?",
+    "translit": "Gde kassa?",
+    "en": "Where is the cashier?"
+  },
+  {
+    "id": "a1-part-3-81",
+    "ru": "Где выход?",
+    "ruStressed": "Где вы́ход?",
+    "translit": "Gde vykhod?",
+    "en": "Where is the exit?"
+  },
+  {
+    "id": "a1-part-3-82",
+    "ru": "Где вход?",
+    "ruStressed": "Где вход?",
+    "translit": "Gde vkhod?",
+    "en": "Where is the entrance?"
+  },
+  {
+    "id": "a1-part-3-83",
+    "ru": "Я готовлю ужин.",
+    "ruStressed": "Я гото́влю у́жин.",
+    "translit": "Ya gotovlyu uzhin.",
+    "en": "I am making dinner."
+  },
+  {
+    "id": "a1-part-3-84",
+    "ru": "Мой брат готовит борщ.",
+    "ruStressed": "Мой брат гото́вит борщ.",
+    "translit": "Moy brat gotovit borshch.",
+    "en": "My brother is cooking borscht."
+  },
+  {
+    "id": "a1-part-3-85",
+    "ru": "Мама готовит блины.",
+    "ruStressed": "Ма́ма гото́вит блины́.",
+    "translit": "Mama gotovit bliny.",
+    "en": "Mom is making pancakes."
+  },
+  {
+    "id": "a1-part-3-86",
+    "ru": "Я мою посуду.",
+    "ruStressed": "Я мо́ю посу́ду.",
+    "translit": "Ya moyu posudu.",
+    "en": "I am washing the dishes."
+  },
+  {
+    "id": "a1-part-3-87",
+    "ru": "Я режу овощи.",
+    "ruStressed": "Я ре́жу о́вощи.",
+    "translit": "Ya rezhu ovoshchi.",
+    "en": "I am cutting vegetables."
+  },
+  {
+    "id": "a1-part-3-88",
+    "ru": "Я варю картошку.",
+    "ruStressed": "Я ва́рю карто́шку.",
+    "translit": "Ya varyu kartoshku.",
+    "en": "I am boiling potatoes."
+  },
+  {
+    "id": "a1-part-3-89",
+    "ru": "На столе хлеб и сыр.",
+    "ruStressed": "На столе́ хлеб и сыр.",
+    "translit": "Na stole khleb i syr.",
+    "en": "There's bread and cheese on the table."
+  },
+  {
+    "id": "a1-part-3-90",
+    "ru": "В холодильнике есть молоко.",
+    "ruStressed": "В холоди́льнике есть молоко́.",
+    "translit": "V kholodilnike est moloko.",
+    "en": "There is milk in the fridge."
+  },
+  {
+    "id": "a1-part-3-91",
+    "ru": "В холодильнике нет масла.",
+    "ruStressed": "В холоди́льнике нет ма́сла.",
+    "translit": "V kholodilnike net masla.",
+    "en": "There is no butter in the fridge."
+  },
+  {
+    "id": "a1-part-3-92",
+    "ru": "Очень вкусный суп!",
+    "ruStressed": "О́чень вку́сный суп!",
+    "translit": "Ochen vkusnyy sup!",
+    "en": "Very tasty soup!"
+  },
+  {
+    "id": "a1-part-3-93",
+    "ru": "Этот торт слишком сладкий.",
+    "ruStressed": "Э́тот торт сли́шком сла́дкий.",
+    "translit": "Etot tort slishkom sladkiy.",
+    "en": "This cake is too sweet."
+  },
+  {
+    "id": "a1-part-3-94",
+    "ru": "Этот чай слишком крепкий.",
+    "ruStressed": "Э́тот чай сли́шком кре́пкий.",
+    "translit": "Etot chay slishkom krepkiy.",
+    "en": "This tea is too strong."
+  },
+  {
+    "id": "a1-part-3-95",
+    "ru": "Этот кофе слишком горячий.",
+    "ruStressed": "Э́тот ко́фе сли́шком горя́чий.",
+    "translit": "Etot kofe slishkom goryachiy.",
+    "en": "This coffee is too hot."
+  },
+  {
+    "id": "a1-part-3-96",
+    "ru": "Мне нужен ещё хлеб.",
+    "ruStressed": "Мне ну́жен ещё хлеб.",
+    "translit": "Mne nuzhen eshchyo khleb.",
+    "en": "I need more bread."
+  },
+  {
+    "id": "a1-part-3-97",
+    "ru": "Мне нужен ножик.",
+    "ruStressed": "Мне ну́жен но́жик.",
+    "translit": "Mne nuzhen nozhik.",
+    "en": "I need a knife."
+  },
+  {
+    "id": "a1-part-3-98",
+    "ru": "Мне нужна ложка.",
+    "ruStressed": "Мне нужна́ ло́жка.",
+    "translit": "Mne nuzhna lozhka.",
+    "en": "I need a spoon."
+  },
+  {
+    "id": "a1-part-3-99",
+    "ru": "Мне нужны салфетки.",
+    "ruStressed": "Мне нужны́ салфе́тки.",
+    "translit": "Mne nuzhny salfetki.",
+    "en": "I need napkins."
+  },
+  {
+    "id": "a1-part-3-100",
+    "ru": "Принесите, пожалуйста, воду.",
+    "ruStressed": "Принеси́те, пожа́луйста, во́ду.",
+    "translit": "Prinesite, pozhaluysta, vodu.",
+    "en": "Please bring water."
+  },
+  {
+    "id": "a1-part-3-101",
+    "ru": "Я наелся.",
+    "ruStressed": "Я нае́лся.",
+    "translit": "Ya naelsya.",
+    "en": "I'm full. (m.)"
+  },
+  {
+    "id": "a1-part-3-102",
+    "ru": "Я наелась.",
+    "ruStressed": "Я нае́лась.",
+    "translit": "Ya naelas.",
+    "en": "I'm full. (f.)"
+  },
+  {
+    "id": "a1-part-3-103",
+    "ru": "Я больше не хочу.",
+    "ruStressed": "Я бо́льше не хочу́.",
+    "translit": "Ya bolshe ne khochu.",
+    "en": "I don't want any more."
+  }
+]

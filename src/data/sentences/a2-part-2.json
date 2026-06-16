@@ -1,0 +1,898 @@
+[
+  {
+    "id": "a2-part-2-1",
+    "ru": "Я хочу есть.",
+    "ruStressed": "Я хочу́ есть.",
+    "translit": "Ya khochu yest'.",
+    "en": "I want to eat."
+  },
+  {
+    "id": "a2-part-2-2",
+    "ru": "Я очень голоден.",
+    "ruStressed": "Я о́чень го́лоден.",
+    "translit": "Ya ochen' goloden.",
+    "en": "I'm very hungry."
+  },
+  {
+    "id": "a2-part-2-3",
+    "ru": "Что вы хотите заказать?",
+    "ruStressed": "Что вы хоти́те заказа́ть?",
+    "translit": "Chto vy khotite zakazat'?",
+    "en": "What would you like to order?"
+  },
+  {
+    "id": "a2-part-2-4",
+    "ru": "Можно меню, пожалуйста?",
+    "ruStressed": "Мо́жно меню́, пожа́луйста?",
+    "translit": "Mozhno menyu, pozhaluysta?",
+    "en": "May I have the menu, please?"
+  },
+  {
+    "id": "a2-part-2-5",
+    "ru": "Что вы порекомендуете?",
+    "ruStressed": "Что вы порекоменду́ете?",
+    "translit": "Chto vy porekomenduete?",
+    "en": "What do you recommend?"
+  },
+  {
+    "id": "a2-part-2-6",
+    "ru": "Я возьму суп и салат.",
+    "ruStressed": "Я возьму́ суп и сала́т.",
+    "translit": "Ya voz'mu sup i salat.",
+    "en": "I'll have soup and salad."
+  },
+  {
+    "id": "a2-part-2-7",
+    "ru": "Что есть на завтрак?",
+    "ruStressed": "Что есть на за́втрак?",
+    "translit": "Chto yest' na zavtrak?",
+    "en": "What's for breakfast?"
+  },
+  {
+    "id": "a2-part-2-8",
+    "ru": "На завтрак есть омлет и каша.",
+    "ruStressed": "На за́втрак есть омле́т и ка́ша.",
+    "translit": "Na zavtrak yest' omlet i kasha.",
+    "en": "There's omelette and porridge for breakfast."
+  },
+  {
+    "id": "a2-part-2-9",
+    "ru": "Мне, пожалуйста, чёрный кофе.",
+    "ruStressed": "Мне, пожа́луйста, чёрный ко́фе.",
+    "translit": "Mne, pozhaluysta, chyornyy kofe.",
+    "en": "Black coffee for me, please."
+  },
+  {
+    "id": "a2-part-2-10",
+    "ru": "С сахаром или без?",
+    "ruStressed": "С са́харом и́ли без?",
+    "translit": "S sakharom ili bez?",
+    "en": "With sugar or without?"
+  },
+  {
+    "id": "a2-part-2-11",
+    "ru": "Без сахара, спасибо.",
+    "ruStressed": "Без са́хара, спаси́бо.",
+    "translit": "Bez sakhara, spasibo.",
+    "en": "Without sugar, thanks."
+  },
+  {
+    "id": "a2-part-2-12",
+    "ru": "Я люблю чай с лимоном.",
+    "ruStressed": "Я люблю́ чай с лимо́ном.",
+    "translit": "Ya lyublyu chay s limonom.",
+    "en": "I like tea with lemon."
+  },
+  {
+    "id": "a2-part-2-13",
+    "ru": "Можно ещё воды?",
+    "ruStressed": "Мо́жно ещё воды́?",
+    "translit": "Mozhno yeshchyo vody?",
+    "en": "May I have more water?"
+  },
+  {
+    "id": "a2-part-2-14",
+    "ru": "Воду с газом или без?",
+    "ruStressed": "Во́ду с га́зом и́ли без?",
+    "translit": "Vodu s gazom ili bez?",
+    "en": "Sparkling or still water?"
+  },
+  {
+    "id": "a2-part-2-15",
+    "ru": "Без газа, пожалуйста.",
+    "ruStressed": "Без га́за, пожа́луйста.",
+    "translit": "Bez gaza, pozhaluysta.",
+    "en": "Still, please."
+  },
+  {
+    "id": "a2-part-2-16",
+    "ru": "Я не ем мясо.",
+    "ruStressed": "Я не ем мя́со.",
+    "translit": "Ya ne yem myaso.",
+    "en": "I don't eat meat."
+  },
+  {
+    "id": "a2-part-2-17",
+    "ru": "Я вегетарианец.",
+    "ruStressed": "Я вегетариа́нец.",
+    "translit": "Ya vegetarianets.",
+    "en": "I'm a vegetarian."
+  },
+  {
+    "id": "a2-part-2-18",
+    "ru": "У вас есть вегетарианские блюда?",
+    "ruStressed": "У вас есть вегетариа́нские блю́да?",
+    "translit": "U vas yest' vegetarianskie blyuda?",
+    "en": "Do you have vegetarian dishes?"
+  },
+  {
+    "id": "a2-part-2-19",
+    "ru": "Я не ем рыбу.",
+    "ruStressed": "Я не ем ры́бу.",
+    "translit": "Ya ne yem rybu.",
+    "en": "I don't eat fish."
+  },
+  {
+    "id": "a2-part-2-20",
+    "ru": "У меня аллергия на орехи.",
+    "ruStressed": "У меня́ аллерги́я на оре́хи.",
+    "translit": "U menya allergiya na orekhi.",
+    "en": "I'm allergic to nuts."
+  },
+  {
+    "id": "a2-part-2-21",
+    "ru": "Это блюдо острое?",
+    "ruStressed": "Э́то блю́до о́строе?",
+    "translit": "Eto blyudo ostroe?",
+    "en": "Is this dish spicy?"
+  },
+  {
+    "id": "a2-part-2-22",
+    "ru": "Я не люблю острое.",
+    "ruStressed": "Я не люблю́ о́строе.",
+    "translit": "Ya ne lyublyu ostroe.",
+    "en": "I don't like spicy food."
+  },
+  {
+    "id": "a2-part-2-23",
+    "ru": "Это очень вкусно!",
+    "ruStressed": "Э́то о́чень вку́сно!",
+    "translit": "Eto ochen' vkusno!",
+    "en": "This is very tasty!"
+  },
+  {
+    "id": "a2-part-2-24",
+    "ru": "Мне нравится эта еда.",
+    "ruStressed": "Мне нра́вится э́та еда́.",
+    "translit": "Mne nravitsya eta yeda.",
+    "en": "I like this food."
+  },
+  {
+    "id": "a2-part-2-25",
+    "ru": "Можно счёт, пожалуйста?",
+    "ruStressed": "Мо́жно счёт, пожа́луйста?",
+    "translit": "Mozhno schyot, pozhaluysta?",
+    "en": "Could I have the bill, please?"
+  },
+  {
+    "id": "a2-part-2-26",
+    "ru": "Я могу заплатить картой?",
+    "ruStressed": "Я могу́ заплати́ть ка́ртой?",
+    "translit": "Ya mogu zaplatit' kartoy?",
+    "en": "Can I pay by card?"
+  },
+  {
+    "id": "a2-part-2-27",
+    "ru": "Конечно, можно картой.",
+    "ruStressed": "Коне́чно, мо́жно ка́ртой.",
+    "translit": "Konechno, mozhno kartoy.",
+    "en": "Of course, you can pay by card."
+  },
+  {
+    "id": "a2-part-2-28",
+    "ru": "Сколько с меня?",
+    "ruStressed": "Ско́лько с меня́?",
+    "translit": "Skol'ko s menya?",
+    "en": "How much do I owe?"
+  },
+  {
+    "id": "a2-part-2-29",
+    "ru": "С вас пятьсот рублей.",
+    "ruStressed": "С вас пятьсо́т рубле́й.",
+    "translit": "S vas pyatsot rubley.",
+    "en": "That'll be five hundred rubles."
+  },
+  {
+    "id": "a2-part-2-30",
+    "ru": "Сдачу оставьте себе.",
+    "ruStressed": "Сда́чу оста́вьте себе́.",
+    "translit": "Sdachu ostav'te sebe.",
+    "en": "Keep the change."
+  },
+  {
+    "id": "a2-part-2-31",
+    "ru": "Спасибо, всё было отлично.",
+    "ruStressed": "Спаси́бо, всё бы́ло отли́чно.",
+    "translit": "Spasibo, vsyo bylo otlichno.",
+    "en": "Thanks, everything was great."
+  },
+  {
+    "id": "a2-part-2-32",
+    "ru": "Можно мне ещё хлеба?",
+    "ruStressed": "Мо́жно мне ещё хле́ба?",
+    "translit": "Mozhno mne yeshchyo khleba?",
+    "en": "Can I have more bread?"
+  },
+  {
+    "id": "a2-part-2-33",
+    "ru": "Передайте мне соль, пожалуйста.",
+    "ruStressed": "Переда́йте мне соль, пожа́луйста.",
+    "translit": "Peredayte mne sol', pozhaluysta.",
+    "en": "Pass me the salt, please."
+  },
+  {
+    "id": "a2-part-2-34",
+    "ru": "Это слишком солёное.",
+    "ruStressed": "Э́то сли́шком солёное.",
+    "translit": "Eto slishkom solyonoe.",
+    "en": "This is too salty."
+  },
+  {
+    "id": "a2-part-2-35",
+    "ru": "Можно сделать менее сладко?",
+    "ruStressed": "Мо́жно сде́лать ме́нее сла́дко?",
+    "translit": "Mozhno sdelat' menee sladko?",
+    "en": "Could you make it less sweet?"
+  },
+  {
+    "id": "a2-part-2-36",
+    "ru": "Я хочу что-нибудь горячее.",
+    "ruStressed": "Я хочу́ что-нибу́дь горя́чее.",
+    "translit": "Ya khochu chto-nibud' goryachee.",
+    "en": "I want something hot."
+  },
+  {
+    "id": "a2-part-2-37",
+    "ru": "А на десерт что есть?",
+    "ruStressed": "А на десе́рт что есть?",
+    "translit": "A na desert chto yest'?",
+    "en": "And for dessert, what is there?"
+  },
+  {
+    "id": "a2-part-2-38",
+    "ru": "У нас есть торт и мороженое.",
+    "ruStressed": "У нас есть торт и моро́женое.",
+    "translit": "U nas yest' tort i morozhenoe.",
+    "en": "We have cake and ice cream."
+  },
+  {
+    "id": "a2-part-2-39",
+    "ru": "Мне мороженое, пожалуйста.",
+    "ruStressed": "Мне моро́женое, пожа́луйста.",
+    "translit": "Mne morozhenoe, pozhaluysta.",
+    "en": "Ice cream for me, please."
+  },
+  {
+    "id": "a2-part-2-40",
+    "ru": "Какие фрукты у вас есть?",
+    "ruStressed": "Каки́е фру́кты у вас есть?",
+    "translit": "Kakie frukty u vas yest'?",
+    "en": "What fruits do you have?"
+  },
+  {
+    "id": "a2-part-2-41",
+    "ru": "У нас есть яблоки и груши.",
+    "ruStressed": "У нас есть я́блоки и гру́ши.",
+    "translit": "U nas yest' yabloki i grushi.",
+    "en": "We have apples and pears."
+  },
+  {
+    "id": "a2-part-2-42",
+    "ru": "Дайте мне килограмм яблок.",
+    "ruStressed": "Да́йте мне килогра́мм я́блок.",
+    "translit": "Dayte mne kilogramm yablok.",
+    "en": "Give me a kilogram of apples."
+  },
+  {
+    "id": "a2-part-2-43",
+    "ru": "Сколько стоит этот сыр?",
+    "ruStressed": "Ско́лько сто́ит э́тот сыр?",
+    "translit": "Skol'ko stoit etot syr?",
+    "en": "How much is this cheese?"
+  },
+  {
+    "id": "a2-part-2-44",
+    "ru": "Двести рублей за сто грамм.",
+    "ruStressed": "Две́сти рубле́й за сто грамм.",
+    "translit": "Dvesti rubley za sto gramm.",
+    "en": "Two hundred rubles per hundred grams."
+  },
+  {
+    "id": "a2-part-2-45",
+    "ru": "Это дорого.",
+    "ruStressed": "Э́то до́рого.",
+    "translit": "Eto dorogo.",
+    "en": "That's expensive."
+  },
+  {
+    "id": "a2-part-2-46",
+    "ru": "А есть что-нибудь подешевле?",
+    "ruStressed": "А есть что-нибу́дь подеше́вле?",
+    "translit": "A yest' chto-nibud' podeshevle?",
+    "en": "Is there something cheaper?"
+  },
+  {
+    "id": "a2-part-2-47",
+    "ru": "Я хочу купить хлеб.",
+    "ruStressed": "Я хочу́ купи́ть хлеб.",
+    "translit": "Ya khochu kupit' khleb.",
+    "en": "I want to buy bread."
+  },
+  {
+    "id": "a2-part-2-48",
+    "ru": "Где можно купить молоко?",
+    "ruStressed": "Где мо́жно купи́ть молоко́?",
+    "translit": "Gde mozhno kupit' moloko?",
+    "en": "Where can I buy milk?"
+  },
+  {
+    "id": "a2-part-2-49",
+    "ru": "Молоко вон там, в холодильнике.",
+    "ruStressed": "Молоко́ вон там, в холоди́льнике.",
+    "translit": "Moloko von tam, v kholodil'nike.",
+    "en": "Milk is over there, in the fridge."
+  },
+  {
+    "id": "a2-part-2-50",
+    "ru": "Я не умею готовить.",
+    "ruStressed": "Я не уме́ю гото́вить.",
+    "translit": "Ya ne umeyu gotovit'.",
+    "en": "I can't cook."
+  },
+  {
+    "id": "a2-part-2-51",
+    "ru": "Моя мама умеет готовить отлично.",
+    "ruStressed": "Моя́ ма́ма уме́ет гото́вить отли́чно.",
+    "translit": "Moya mama umeet gotovit' otlichno.",
+    "en": "My mom cooks great."
+  },
+  {
+    "id": "a2-part-2-52",
+    "ru": "Я могу приготовить пасту.",
+    "ruStressed": "Я могу́ пригото́вить па́сту.",
+    "translit": "Ya mogu prigotovit' pastu.",
+    "en": "I can make pasta."
+  },
+  {
+    "id": "a2-part-2-53",
+    "ru": "Ты должен попробовать борщ.",
+    "ruStressed": "Ты до́лжен попро́бовать борщ.",
+    "translit": "Ty dolzhen poprobovat' borshch.",
+    "en": "You must try borscht."
+  },
+  {
+    "id": "a2-part-2-54",
+    "ru": "Я никогда не пробовал суши.",
+    "ruStressed": "Я никогда́ не про́бовал су́ши.",
+    "translit": "Ya nikogda ne proboval sushi.",
+    "en": "I've never tried sushi."
+  },
+  {
+    "id": "a2-part-2-55",
+    "ru": "Хочешь попробовать?",
+    "ruStressed": "Хо́чешь попро́бовать?",
+    "translit": "Khochesh' poprobovat'?",
+    "en": "Want to try it?"
+  },
+  {
+    "id": "a2-part-2-56",
+    "ru": "Да, с удовольствием.",
+    "ruStressed": "Да, с удово́льствием.",
+    "translit": "Da, s udovol'stviem.",
+    "en": "Yes, with pleasure."
+  },
+  {
+    "id": "a2-part-2-57",
+    "ru": "Нет, спасибо, я сыт.",
+    "ruStressed": "Нет, спаси́бо, я сыт.",
+    "translit": "Net, spasibo, ya syt.",
+    "en": "No thanks, I'm full."
+  },
+  {
+    "id": "a2-part-2-58",
+    "ru": "Приятного аппетита!",
+    "ruStressed": "Прия́тного аппети́та!",
+    "translit": "Priyatnogo appetita!",
+    "en": "Enjoy your meal!"
+  },
+  {
+    "id": "a2-part-2-59",
+    "ru": "Это мой любимый ресторан.",
+    "ruStressed": "Э́то мой люби́мый рестора́н.",
+    "translit": "Eto moy lyubimyy restoran.",
+    "en": "This is my favorite restaurant."
+  },
+  {
+    "id": "a2-part-2-60",
+    "ru": "Здесь всегда вкусно.",
+    "ruStressed": "Здесь всегда́ вку́сно.",
+    "translit": "Zdes' vsegda vkusno.",
+    "en": "It's always tasty here."
+  },
+  {
+    "id": "a2-part-2-61",
+    "ru": "Закажем пиццу?",
+    "ruStressed": "Зака́жем пи́ццу?",
+    "translit": "Zakazhem pittsu?",
+    "en": "Shall we order pizza?"
+  },
+  {
+    "id": "a2-part-2-62",
+    "ru": "Какую пиццу ты хочешь?",
+    "ruStressed": "Каку́ю пи́ццу ты хо́чешь?",
+    "translit": "Kakuyu pittsu ty khochesh'?",
+    "en": "What pizza do you want?"
+  },
+  {
+    "id": "a2-part-2-63",
+    "ru": "Я хочу с грибами и сыром.",
+    "ruStressed": "Я хочу́ с гриба́ми и сы́ром.",
+    "translit": "Ya khochu s gribami i syrom.",
+    "en": "I want one with mushrooms and cheese."
+  },
+  {
+    "id": "a2-part-2-64",
+    "ru": "Можно мне без лука?",
+    "ruStressed": "Мо́жно мне без лу́ка?",
+    "translit": "Mozhno mne bez luka?",
+    "en": "Could I have it without onion?"
+  },
+  {
+    "id": "a2-part-2-65",
+    "ru": "Я не люблю лук.",
+    "ruStressed": "Я не люблю́ лук.",
+    "translit": "Ya ne lyublyu luk.",
+    "en": "I don't like onion."
+  },
+  {
+    "id": "a2-part-2-66",
+    "ru": "Принесите воду без льда.",
+    "ruStressed": "Принеси́те во́ду без льда.",
+    "translit": "Prinesite vodu bez l'da.",
+    "en": "Bring water without ice."
+  },
+  {
+    "id": "a2-part-2-67",
+    "ru": "Можно столик у окна?",
+    "ruStressed": "Мо́жно сто́лик у окна́?",
+    "translit": "Mozhno stolik u okna?",
+    "en": "Could we have a table by the window?"
+  },
+  {
+    "id": "a2-part-2-68",
+    "ru": "У вас есть столик на двоих?",
+    "ruStressed": "У вас есть сто́лик на двои́х?",
+    "translit": "U vas yest' stolik na dvoikh?",
+    "en": "Do you have a table for two?"
+  },
+  {
+    "id": "a2-part-2-69",
+    "ru": "Я заказал столик на восемь.",
+    "ruStressed": "Я заказа́л сто́лик на во́семь.",
+    "translit": "Ya zakazal stolik na vosem'.",
+    "en": "I reserved a table for eight."
+  },
+  {
+    "id": "a2-part-2-70",
+    "ru": "На какое имя?",
+    "ruStressed": "На како́е и́мя?",
+    "translit": "Na kakoe imya?",
+    "en": "Under what name?"
+  },
+  {
+    "id": "a2-part-2-71",
+    "ru": "На имя Иванов.",
+    "ruStressed": "На и́мя Ивано́в.",
+    "translit": "Na imya Ivanov.",
+    "en": "Under Ivanov."
+  },
+  {
+    "id": "a2-part-2-72",
+    "ru": "Принесите мне ещё одну вилку.",
+    "ruStressed": "Принеси́те мне ещё одну́ ви́лку.",
+    "translit": "Prinesite mne yeshchyo odnu vilku.",
+    "en": "Bring me another fork."
+  },
+  {
+    "id": "a2-part-2-73",
+    "ru": "У меня нет ножа.",
+    "ruStressed": "У меня́ нет ножа́.",
+    "translit": "U menya net nozha.",
+    "en": "I don't have a knife."
+  },
+  {
+    "id": "a2-part-2-74",
+    "ru": "Это не моё блюдо.",
+    "ruStressed": "Э́то не моё блю́до.",
+    "translit": "Eto ne moyo blyudo.",
+    "en": "This isn't my dish."
+  },
+  {
+    "id": "a2-part-2-75",
+    "ru": "Я заказывал курицу, а не рыбу.",
+    "ruStressed": "Я зака́зывал ку́рицу, а не ры́бу.",
+    "translit": "Ya zakazyval kuritsu, a ne rybu.",
+    "en": "I ordered chicken, not fish."
+  },
+  {
+    "id": "a2-part-2-76",
+    "ru": "Извините за ошибку.",
+    "ruStressed": "Извини́те за оши́бку.",
+    "translit": "Izvinite za oshibku.",
+    "en": "Sorry for the mistake."
+  },
+  {
+    "id": "a2-part-2-77",
+    "ru": "Сейчас принесу правильное.",
+    "ruStressed": "Сейча́с принесу́ пра́вильное.",
+    "translit": "Seychas prinesu pravil'noe.",
+    "en": "I'll bring the correct one now."
+  },
+  {
+    "id": "a2-part-2-78",
+    "ru": "Это блюдо холодное.",
+    "ruStressed": "Э́то блю́до холо́дное.",
+    "translit": "Eto blyudo kholodnoe.",
+    "en": "This dish is cold."
+  },
+  {
+    "id": "a2-part-2-79",
+    "ru": "Можно подогреть?",
+    "ruStressed": "Мо́жно подогре́ть?",
+    "translit": "Mozhno podogret'?",
+    "en": "Could you reheat it?"
+  },
+  {
+    "id": "a2-part-2-80",
+    "ru": "Я могу взять остатки с собой?",
+    "ruStressed": "Я могу́ взять оста́тки с собо́й?",
+    "translit": "Ya mogu vzyat' ostatki s soboy?",
+    "en": "Can I take the leftovers with me?"
+  },
+  {
+    "id": "a2-part-2-81",
+    "ru": "Конечно, я упакую.",
+    "ruStressed": "Коне́чно, я упаку́ю.",
+    "translit": "Konechno, ya upakuyu.",
+    "en": "Of course, I'll pack it up."
+  },
+  {
+    "id": "a2-part-2-82",
+    "ru": "Кафе закрывается в десять.",
+    "ruStressed": "Кафе́ закрыва́ется в де́сять.",
+    "translit": "Kafe zakryvaetsya v desyat'.",
+    "en": "The cafe closes at ten."
+  },
+  {
+    "id": "a2-part-2-83",
+    "ru": "Когда вы открываетесь?",
+    "ruStressed": "Когда́ вы открыва́етесь?",
+    "translit": "Kogda vy otkryvaetes'?",
+    "en": "When do you open?"
+  },
+  {
+    "id": "a2-part-2-84",
+    "ru": "Мы открываемся в восемь утра.",
+    "ruStressed": "Мы открыва́емся в во́семь утра́.",
+    "translit": "My otkryvaemsya v vosem' utra.",
+    "en": "We open at eight in the morning."
+  },
+  {
+    "id": "a2-part-2-85",
+    "ru": "Можно бронировать онлайн.",
+    "ruStressed": "Мо́жно брони́ровать онла́йн.",
+    "translit": "Mozhno bronirovat' onlayn.",
+    "en": "You can book online."
+  },
+  {
+    "id": "a2-part-2-86",
+    "ru": "Я редко ем в ресторанах.",
+    "ruStressed": "Я ре́дко ем в рестора́нах.",
+    "translit": "Ya redko yem v restoranakh.",
+    "en": "I rarely eat in restaurants."
+  },
+  {
+    "id": "a2-part-2-87",
+    "ru": "Дома еда вкуснее.",
+    "ruStressed": "До́ма еда́ вкусне́е.",
+    "translit": "Doma yeda vkusnee.",
+    "en": "Food is tastier at home."
+  },
+  {
+    "id": "a2-part-2-88",
+    "ru": "Мне нужно купить продукты.",
+    "ruStressed": "Мне ну́жно купи́ть проду́кты.",
+    "translit": "Mne nuzhno kupit' produkty.",
+    "en": "I need to buy groceries."
+  },
+  {
+    "id": "a2-part-2-89",
+    "ru": "Что нужно купить?",
+    "ruStressed": "Что ну́жно купи́ть?",
+    "translit": "Chto nuzhno kupit'?",
+    "en": "What do we need to buy?"
+  },
+  {
+    "id": "a2-part-2-90",
+    "ru": "Нам нужны яйца и масло.",
+    "ruStressed": "Нам нужны́ я́йца и ма́сло.",
+    "translit": "Nam nuzhny yaytsa i maslo.",
+    "en": "We need eggs and butter."
+  },
+  {
+    "id": "a2-part-2-91",
+    "ru": "Я могу пойти в магазин.",
+    "ruStressed": "Я могу́ пойти́ в магази́н.",
+    "translit": "Ya mogu poyti v magazin.",
+    "en": "I can go to the store."
+  },
+  {
+    "id": "a2-part-2-92",
+    "ru": "Ты можешь принести хлеба?",
+    "ruStressed": "Ты мо́жешь принести́ хле́ба?",
+    "translit": "Ty mozhesh' prinesti khleba?",
+    "en": "Can you bring some bread?"
+  },
+  {
+    "id": "a2-part-2-93",
+    "ru": "Нельзя есть так много сладкого.",
+    "ruStressed": "Нельзя́ есть так мно́го сла́дкого.",
+    "translit": "Nel'zya yest' tak mnogo sladkogo.",
+    "en": "You shouldn't eat so much sweets."
+  },
+  {
+    "id": "a2-part-2-94",
+    "ru": "Тебе нужно пить больше воды.",
+    "ruStressed": "Тебе́ ну́жно пить бо́льше воды́.",
+    "translit": "Tebe nuzhno pit' bol'she vody.",
+    "en": "You need to drink more water."
+  },
+  {
+    "id": "a2-part-2-95",
+    "ru": "Я должен похудеть.",
+    "ruStressed": "Я до́лжен похуде́ть.",
+    "translit": "Ya dolzhen pokhudet'.",
+    "en": "I must lose weight."
+  },
+  {
+    "id": "a2-part-2-96",
+    "ru": "Я начал диету.",
+    "ruStressed": "Я на́чал дие́ту.",
+    "translit": "Ya nachal dietu.",
+    "en": "I started a diet."
+  },
+  {
+    "id": "a2-part-2-97",
+    "ru": "Без хлеба я не могу.",
+    "ruStressed": "Без хле́ба я не могу́.",
+    "translit": "Bez khleba ya ne mogu.",
+    "en": "I can't go without bread."
+  },
+  {
+    "id": "a2-part-2-98",
+    "ru": "Сегодня я готовлю ужин.",
+    "ruStressed": "Сего́дня я гото́влю у́жин.",
+    "translit": "Segodnya ya gotovlyu uzhin.",
+    "en": "Today I'm cooking dinner."
+  },
+  {
+    "id": "a2-part-2-99",
+    "ru": "Что будем готовить?",
+    "ruStressed": "Что бу́дем гото́вить?",
+    "translit": "Chto budem gotovit'?",
+    "en": "What shall we cook?"
+  },
+  {
+    "id": "a2-part-2-100",
+    "ru": "Давай сделаем салат.",
+    "ruStressed": "Дава́й сде́лаем сала́т.",
+    "translit": "Davay sdelaem salat.",
+    "en": "Let's make a salad."
+  },
+  {
+    "id": "a2-part-2-101",
+    "ru": "Помоги мне порезать овощи.",
+    "ruStressed": "Помоги́ мне поре́зать о́вощи.",
+    "translit": "Pomogi mne porezat' ovoshchi.",
+    "en": "Help me chop the vegetables."
+  },
+  {
+    "id": "a2-part-2-102",
+    "ru": "Поставь воду на плиту.",
+    "ruStressed": "Поста́вь во́ду на плиту́.",
+    "translit": "Postav' vodu na plitu.",
+    "en": "Put the water on the stove."
+  },
+  {
+    "id": "a2-part-2-103",
+    "ru": "Добавь немного соли.",
+    "ruStressed": "Доба́вь немно́го со́ли.",
+    "translit": "Dobav' nemnogo soli.",
+    "en": "Add a little salt."
+  },
+  {
+    "id": "a2-part-2-104",
+    "ru": "Не пересоли!",
+    "ruStressed": "Не пересоли́!",
+    "translit": "Ne peresoli!",
+    "en": "Don't oversalt!"
+  },
+  {
+    "id": "a2-part-2-105",
+    "ru": "Это слишком пресно.",
+    "ruStressed": "Э́то сли́шком пре́сно.",
+    "translit": "Eto slishkom presno.",
+    "en": "This is too bland."
+  },
+  {
+    "id": "a2-part-2-106",
+    "ru": "Нужно больше специй.",
+    "ruStressed": "Ну́жно бо́льше спе́ций.",
+    "translit": "Nuzhno bol'she spetsiy.",
+    "en": "We need more spices."
+  },
+  {
+    "id": "a2-part-2-107",
+    "ru": "Ужин готов!",
+    "ruStressed": "У́жин гото́в!",
+    "translit": "Uzhin gotov!",
+    "en": "Dinner is ready!"
+  },
+  {
+    "id": "a2-part-2-108",
+    "ru": "Садись за стол.",
+    "ruStressed": "Сади́сь за стол.",
+    "translit": "Sadis' za stol.",
+    "en": "Sit down at the table."
+  },
+  {
+    "id": "a2-part-2-109",
+    "ru": "Я налью тебе вина?",
+    "ruStressed": "Я налью́ тебе́ вина́?",
+    "translit": "Ya nal'yu tebe vina?",
+    "en": "Shall I pour you wine?"
+  },
+  {
+    "id": "a2-part-2-110",
+    "ru": "Спасибо, мне воды.",
+    "ruStressed": "Спаси́бо, мне воды́.",
+    "translit": "Spasibo, mne vody.",
+    "en": "Thanks, water for me."
+  },
+  {
+    "id": "a2-part-2-111",
+    "ru": "Я не пью алкоголь.",
+    "ruStressed": "Я не пью алкого́ль.",
+    "translit": "Ya ne p'yu alkogol'.",
+    "en": "I don't drink alcohol."
+  },
+  {
+    "id": "a2-part-2-112",
+    "ru": "Можно мне сок?",
+    "ruStressed": "Мо́жно мне сок?",
+    "translit": "Mozhno mne sok?",
+    "en": "May I have juice?"
+  },
+  {
+    "id": "a2-part-2-113",
+    "ru": "Какой сок есть?",
+    "ruStressed": "Како́й сок есть?",
+    "translit": "Kakoy sok yest'?",
+    "en": "What juice is there?"
+  },
+  {
+    "id": "a2-part-2-114",
+    "ru": "Апельсиновый и яблочный.",
+    "ruStressed": "Апельси́новый и я́блочный.",
+    "translit": "Apel'sinovyy i yablochnyy.",
+    "en": "Orange and apple."
+  },
+  {
+    "id": "a2-part-2-115",
+    "ru": "Я возьму апельсиновый.",
+    "ruStressed": "Я возьму́ апельси́новый.",
+    "translit": "Ya voz'mu apel'sinovyy.",
+    "en": "I'll have orange."
+  },
+  {
+    "id": "a2-part-2-116",
+    "ru": "Что хочешь на ужин?",
+    "ruStressed": "Что хо́чешь на у́жин?",
+    "translit": "Chto khochesh' na uzhin?",
+    "en": "What do you want for dinner?"
+  },
+  {
+    "id": "a2-part-2-117",
+    "ru": "Мне всё равно.",
+    "ruStressed": "Мне всё равно́.",
+    "translit": "Mne vsyo ravno.",
+    "en": "I don't care."
+  },
+  {
+    "id": "a2-part-2-118",
+    "ru": "Тогда закажем суши.",
+    "ruStressed": "Тогда́ зака́жем су́ши.",
+    "translit": "Togda zakazhem sushi.",
+    "en": "Then let's order sushi."
+  },
+  {
+    "id": "a2-part-2-119",
+    "ru": "Хорошая идея!",
+    "ruStressed": "Хоро́шая иде́я!",
+    "translit": "Khoroshaya ideya!",
+    "en": "Good idea!"
+  },
+  {
+    "id": "a2-part-2-120",
+    "ru": "Курица была пересушена.",
+    "ruStressed": "Ку́рица была́ пересу́шена.",
+    "translit": "Kuritsa byla peresushena.",
+    "en": "The chicken was overcooked."
+  },
+  {
+    "id": "a2-part-2-121",
+    "ru": "Этот суп идеальный.",
+    "ruStressed": "Э́тот суп идеа́льный.",
+    "translit": "Etot sup ideal'nyy.",
+    "en": "This soup is perfect."
+  },
+  {
+    "id": "a2-part-2-122",
+    "ru": "Можно мне ещё порцию?",
+    "ruStressed": "Мо́жно мне ещё по́рцию?",
+    "translit": "Mozhno mne yeshchyo portsiyu?",
+    "en": "May I have another portion?"
+  },
+  {
+    "id": "a2-part-2-123",
+    "ru": "Я не могу больше есть.",
+    "ruStressed": "Я не могу́ бо́льше есть.",
+    "translit": "Ya ne mogu bol'she yest'.",
+    "en": "I can't eat any more."
+  },
+  {
+    "id": "a2-part-2-124",
+    "ru": "Я объелся.",
+    "ruStressed": "Я объе́лся.",
+    "translit": "Ya ob'yelsya.",
+    "en": "I'm stuffed."
+  },
+  {
+    "id": "a2-part-2-125",
+    "ru": "Мы должны заплатить отдельно.",
+    "ruStressed": "Мы должны́ заплати́ть отде́льно.",
+    "translit": "My dolzhny zaplatit' otdel'no.",
+    "en": "We need to pay separately."
+  },
+  {
+    "id": "a2-part-2-126",
+    "ru": "Я плачу за всех.",
+    "ruStressed": "Я плачу́ за всех.",
+    "translit": "Ya plachu za vsekh.",
+    "en": "I'm paying for everyone."
+  },
+  {
+    "id": "a2-part-2-127",
+    "ru": "Спасибо, ты очень щедрый.",
+    "ruStressed": "Спаси́бо, ты о́чень ще́дрый.",
+    "translit": "Spasibo, ty ochen' shchedryy.",
+    "en": "Thanks, you're very generous."
+  },
+  {
+    "id": "a2-part-2-128",
+    "ru": "В следующий раз я угощаю.",
+    "ruStressed": "В сле́дующий раз я угоща́ю.",
+    "translit": "V sleduyushchiy raz ya ugoshchayu.",
+    "en": "Next time it's on me."
+  }
+]

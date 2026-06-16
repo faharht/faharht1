@@ -1,0 +1,835 @@
+[
+  {
+    "id": "a1-part-1-1",
+    "ru": "Привет!",
+    "ruStressed": "Приве́т!",
+    "translit": "Privet!",
+    "en": "Hi!"
+  },
+  {
+    "id": "a1-part-1-2",
+    "ru": "Здравствуйте!",
+    "ruStressed": "Здра́вствуйте!",
+    "translit": "Zdravstvuyte!",
+    "en": "Hello! (formal)"
+  },
+  {
+    "id": "a1-part-1-3",
+    "ru": "Здравствуй!",
+    "ruStressed": "Здра́вствуй!",
+    "translit": "Zdravstvuy!",
+    "en": "Hello! (informal)"
+  },
+  {
+    "id": "a1-part-1-4",
+    "ru": "Доброе утро.",
+    "ruStressed": "До́брое у́тро.",
+    "translit": "Dobroe utro.",
+    "en": "Good morning."
+  },
+  {
+    "id": "a1-part-1-5",
+    "ru": "Добрый день.",
+    "ruStressed": "До́брый день.",
+    "translit": "Dobryy den.",
+    "en": "Good afternoon."
+  },
+  {
+    "id": "a1-part-1-6",
+    "ru": "Добрый вечер.",
+    "ruStressed": "До́брый ве́чер.",
+    "translit": "Dobryy vecher.",
+    "en": "Good evening."
+  },
+  {
+    "id": "a1-part-1-7",
+    "ru": "Спокойной ночи.",
+    "ruStressed": "Споко́йной но́чи.",
+    "translit": "Spokoynoy nochi.",
+    "en": "Good night."
+  },
+  {
+    "id": "a1-part-1-8",
+    "ru": "До свидания.",
+    "ruStressed": "До свида́ния.",
+    "translit": "Do svidaniya.",
+    "en": "Goodbye."
+  },
+  {
+    "id": "a1-part-1-9",
+    "ru": "Пока!",
+    "ruStressed": "Пока́!",
+    "translit": "Poka!",
+    "en": "Bye!"
+  },
+  {
+    "id": "a1-part-1-10",
+    "ru": "До завтра.",
+    "ruStressed": "До за́втра.",
+    "translit": "Do zavtra.",
+    "en": "See you tomorrow."
+  },
+  {
+    "id": "a1-part-1-11",
+    "ru": "Спасибо.",
+    "ruStressed": "Спаси́бо.",
+    "translit": "Spasibo.",
+    "en": "Thank you."
+  },
+  {
+    "id": "a1-part-1-12",
+    "ru": "Большое спасибо.",
+    "ruStressed": "Большо́е спаси́бо.",
+    "translit": "Bolshoe spasibo.",
+    "en": "Thank you very much."
+  },
+  {
+    "id": "a1-part-1-13",
+    "ru": "Пожалуйста.",
+    "ruStressed": "Пожа́луйста.",
+    "translit": "Pozhaluysta.",
+    "en": "Please. / You're welcome."
+  },
+  {
+    "id": "a1-part-1-14",
+    "ru": "Извините.",
+    "ruStressed": "Извини́те.",
+    "translit": "Izvinite.",
+    "en": "Excuse me. / Sorry. (formal)"
+  },
+  {
+    "id": "a1-part-1-15",
+    "ru": "Извини.",
+    "ruStressed": "Извини́.",
+    "translit": "Izvini.",
+    "en": "Sorry. (informal)"
+  },
+  {
+    "id": "a1-part-1-16",
+    "ru": "Да.",
+    "ruStressed": "Да.",
+    "translit": "Da.",
+    "en": "Yes."
+  },
+  {
+    "id": "a1-part-1-17",
+    "ru": "Нет.",
+    "ruStressed": "Нет.",
+    "translit": "Net.",
+    "en": "No."
+  },
+  {
+    "id": "a1-part-1-18",
+    "ru": "Может быть.",
+    "ruStressed": "Мо́жет быть.",
+    "translit": "Mozhet byt.",
+    "en": "Maybe."
+  },
+  {
+    "id": "a1-part-1-19",
+    "ru": "Конечно.",
+    "ruStressed": "Коне́чно.",
+    "translit": "Konechno.",
+    "en": "Of course."
+  },
+  {
+    "id": "a1-part-1-20",
+    "ru": "Хорошо.",
+    "ruStressed": "Хорошо́.",
+    "translit": "Khorosho.",
+    "en": "Okay. / Good."
+  },
+  {
+    "id": "a1-part-1-21",
+    "ru": "Плохо.",
+    "ruStressed": "Пло́хо.",
+    "translit": "Plokho.",
+    "en": "Bad."
+  },
+  {
+    "id": "a1-part-1-22",
+    "ru": "Нормально.",
+    "ruStressed": "Норма́льно.",
+    "translit": "Normalno.",
+    "en": "Fine. / Normal."
+  },
+  {
+    "id": "a1-part-1-23",
+    "ru": "Как дела?",
+    "ruStressed": "Как дела́?",
+    "translit": "Kak dela?",
+    "en": "How are you?"
+  },
+  {
+    "id": "a1-part-1-24",
+    "ru": "У меня всё хорошо.",
+    "ruStressed": "У меня́ всё хорошо́.",
+    "translit": "U menya vsyo khorosho.",
+    "en": "I'm doing well."
+  },
+  {
+    "id": "a1-part-1-25",
+    "ru": "А у тебя?",
+    "ruStressed": "А у тебя́?",
+    "translit": "A u tebya?",
+    "en": "And you?"
+  },
+  {
+    "id": "a1-part-1-26",
+    "ru": "А у вас?",
+    "ruStressed": "А у вас?",
+    "translit": "A u vas?",
+    "en": "And you? (formal)"
+  },
+  {
+    "id": "a1-part-1-27",
+    "ru": "Рад тебя видеть.",
+    "ruStressed": "Рад тебя́ ви́деть.",
+    "translit": "Rad tebya videt.",
+    "en": "Glad to see you."
+  },
+  {
+    "id": "a1-part-1-28",
+    "ru": "Рад вас видеть.",
+    "ruStressed": "Рад вас ви́деть.",
+    "translit": "Rad vas videt.",
+    "en": "Glad to see you. (formal)"
+  },
+  {
+    "id": "a1-part-1-29",
+    "ru": "Я рада.",
+    "ruStressed": "Я ра́да.",
+    "translit": "Ya rada.",
+    "en": "I'm glad. (f.)"
+  },
+  {
+    "id": "a1-part-1-30",
+    "ru": "Я рад.",
+    "ruStressed": "Я рад.",
+    "translit": "Ya rad.",
+    "en": "I'm glad. (m.)"
+  },
+  {
+    "id": "a1-part-1-31",
+    "ru": "Меня зовут Анна.",
+    "ruStressed": "Меня́ зову́т А́нна.",
+    "translit": "Menya zovut Anna.",
+    "en": "My name is Anna."
+  },
+  {
+    "id": "a1-part-1-32",
+    "ru": "Меня зовут Иван.",
+    "ruStressed": "Меня́ зову́т Ива́н.",
+    "translit": "Menya zovut Ivan.",
+    "en": "My name is Ivan."
+  },
+  {
+    "id": "a1-part-1-33",
+    "ru": "Как тебя зовут?",
+    "ruStressed": "Как тебя́ зову́т?",
+    "translit": "Kak tebya zovut?",
+    "en": "What's your name? (informal)"
+  },
+  {
+    "id": "a1-part-1-34",
+    "ru": "Как вас зовут?",
+    "ruStressed": "Как вас зову́т?",
+    "translit": "Kak vas zovut?",
+    "en": "What's your name? (formal)"
+  },
+  {
+    "id": "a1-part-1-35",
+    "ru": "Очень приятно.",
+    "ruStressed": "О́чень прия́тно.",
+    "translit": "Ochen priyatno.",
+    "en": "Nice to meet you."
+  },
+  {
+    "id": "a1-part-1-36",
+    "ru": "Мне тоже приятно.",
+    "ruStressed": "Мне то́же прия́тно.",
+    "translit": "Mne tozhe priyatno.",
+    "en": "Nice to meet you too."
+  },
+  {
+    "id": "a1-part-1-37",
+    "ru": "Я студент.",
+    "ruStressed": "Я студе́нт.",
+    "translit": "Ya student.",
+    "en": "I am a student. (m.)"
+  },
+  {
+    "id": "a1-part-1-38",
+    "ru": "Я студентка.",
+    "ruStressed": "Я студе́нтка.",
+    "translit": "Ya studentka.",
+    "en": "I am a student. (f.)"
+  },
+  {
+    "id": "a1-part-1-39",
+    "ru": "Я учитель.",
+    "ruStressed": "Я учи́тель.",
+    "translit": "Ya uchitel.",
+    "en": "I am a teacher."
+  },
+  {
+    "id": "a1-part-1-40",
+    "ru": "Я доктор.",
+    "ruStressed": "Я до́ктор.",
+    "translit": "Ya doktor.",
+    "en": "I am a doctor."
+  },
+  {
+    "id": "a1-part-1-41",
+    "ru": "Я инженер.",
+    "ruStressed": "Я инжене́р.",
+    "translit": "Ya inzhener.",
+    "en": "I am an engineer."
+  },
+  {
+    "id": "a1-part-1-42",
+    "ru": "Ты студент?",
+    "ruStressed": "Ты студе́нт?",
+    "translit": "Ty student?",
+    "en": "Are you a student?"
+  },
+  {
+    "id": "a1-part-1-43",
+    "ru": "Он мой друг.",
+    "ruStressed": "Он мой друг.",
+    "translit": "On moy drug.",
+    "en": "He is my friend."
+  },
+  {
+    "id": "a1-part-1-44",
+    "ru": "Она моя подруга.",
+    "ruStressed": "Она́ моя́ подру́га.",
+    "translit": "Ona moya podruga.",
+    "en": "She is my friend. (f.)"
+  },
+  {
+    "id": "a1-part-1-45",
+    "ru": "Это мой брат.",
+    "ruStressed": "Э́то мой брат.",
+    "translit": "Eto moy brat.",
+    "en": "This is my brother."
+  },
+  {
+    "id": "a1-part-1-46",
+    "ru": "Это моя сестра.",
+    "ruStressed": "Э́то моя́ сестра́.",
+    "translit": "Eto moya sestra.",
+    "en": "This is my sister."
+  },
+  {
+    "id": "a1-part-1-47",
+    "ru": "Это мой папа.",
+    "ruStressed": "Э́то мой па́па.",
+    "translit": "Eto moy papa.",
+    "en": "This is my dad."
+  },
+  {
+    "id": "a1-part-1-48",
+    "ru": "Это моя мама.",
+    "ruStressed": "Э́то моя́ ма́ма.",
+    "translit": "Eto moya mama.",
+    "en": "This is my mom."
+  },
+  {
+    "id": "a1-part-1-49",
+    "ru": "Я русский.",
+    "ruStressed": "Я ру́сский.",
+    "translit": "Ya russkiy.",
+    "en": "I am Russian. (m.)"
+  },
+  {
+    "id": "a1-part-1-50",
+    "ru": "Я русская.",
+    "ruStressed": "Я ру́сская.",
+    "translit": "Ya russkaya.",
+    "en": "I am Russian. (f.)"
+  },
+  {
+    "id": "a1-part-1-51",
+    "ru": "Я американец.",
+    "ruStressed": "Я америка́нец.",
+    "translit": "Ya amerikanets.",
+    "en": "I am American. (m.)"
+  },
+  {
+    "id": "a1-part-1-52",
+    "ru": "Я американка.",
+    "ruStressed": "Я америка́нка.",
+    "translit": "Ya amerikanka.",
+    "en": "I am American. (f.)"
+  },
+  {
+    "id": "a1-part-1-53",
+    "ru": "Я из Америки.",
+    "ruStressed": "Я из Аме́рики.",
+    "translit": "Ya iz Ameriki.",
+    "en": "I am from America."
+  },
+  {
+    "id": "a1-part-1-54",
+    "ru": "Я из России.",
+    "ruStressed": "Я из Росси́и.",
+    "translit": "Ya iz Rossii.",
+    "en": "I am from Russia."
+  },
+  {
+    "id": "a1-part-1-55",
+    "ru": "Откуда ты?",
+    "ruStressed": "Отку́да ты?",
+    "translit": "Otkuda ty?",
+    "en": "Where are you from?"
+  },
+  {
+    "id": "a1-part-1-56",
+    "ru": "Откуда вы?",
+    "ruStressed": "Отку́да вы?",
+    "translit": "Otkuda vy?",
+    "en": "Where are you from? (formal)"
+  },
+  {
+    "id": "a1-part-1-57",
+    "ru": "Я живу в Москве.",
+    "ruStressed": "Я живу́ в Москве́.",
+    "translit": "Ya zhivu v Moskve.",
+    "en": "I live in Moscow."
+  },
+  {
+    "id": "a1-part-1-58",
+    "ru": "Я живу в Нью-Йорке.",
+    "ruStressed": "Я живу́ в Нью-Йо́рке.",
+    "translit": "Ya zhivu v Nyu-Yorke.",
+    "en": "I live in New York."
+  },
+  {
+    "id": "a1-part-1-59",
+    "ru": "Где ты живёшь?",
+    "ruStressed": "Где ты живёшь?",
+    "translit": "Gde ty zhivyosh?",
+    "en": "Where do you live?"
+  },
+  {
+    "id": "a1-part-1-60",
+    "ru": "Где вы живёте?",
+    "ruStressed": "Где вы живёте?",
+    "translit": "Gde vy zhivyote?",
+    "en": "Where do you live? (formal)"
+  },
+  {
+    "id": "a1-part-1-61",
+    "ru": "Я говорю по-русски.",
+    "ruStressed": "Я говорю́ по-ру́сски.",
+    "translit": "Ya govoryu po-russki.",
+    "en": "I speak Russian."
+  },
+  {
+    "id": "a1-part-1-62",
+    "ru": "Я говорю по-английски.",
+    "ruStressed": "Я говорю́ по-англи́йски.",
+    "translit": "Ya govoryu po-angliyski.",
+    "en": "I speak English."
+  },
+  {
+    "id": "a1-part-1-63",
+    "ru": "Ты говоришь по-русски?",
+    "ruStressed": "Ты говори́шь по-ру́сски?",
+    "translit": "Ty govorish po-russki?",
+    "en": "Do you speak Russian?"
+  },
+  {
+    "id": "a1-part-1-64",
+    "ru": "Вы говорите по-английски?",
+    "ruStressed": "Вы говори́те по-англи́йски?",
+    "translit": "Vy govorite po-angliyski?",
+    "en": "Do you speak English?"
+  },
+  {
+    "id": "a1-part-1-65",
+    "ru": "Я не понимаю.",
+    "ruStressed": "Я не понима́ю.",
+    "translit": "Ya ne ponimayu.",
+    "en": "I don't understand."
+  },
+  {
+    "id": "a1-part-1-66",
+    "ru": "Я немного понимаю.",
+    "ruStressed": "Я немно́го понима́ю.",
+    "translit": "Ya nemnogo ponimayu.",
+    "en": "I understand a little."
+  },
+  {
+    "id": "a1-part-1-67",
+    "ru": "Повторите, пожалуйста.",
+    "ruStressed": "Повтори́те, пожа́луйста.",
+    "translit": "Povtorite, pozhaluysta.",
+    "en": "Please repeat."
+  },
+  {
+    "id": "a1-part-1-68",
+    "ru": "Говорите медленнее.",
+    "ruStressed": "Говори́те ме́дленнее.",
+    "translit": "Govorite medlennee.",
+    "en": "Speak more slowly."
+  },
+  {
+    "id": "a1-part-1-69",
+    "ru": "Что это?",
+    "ruStressed": "Что э́то?",
+    "translit": "Chto eto?",
+    "en": "What is this?"
+  },
+  {
+    "id": "a1-part-1-70",
+    "ru": "Это книга.",
+    "ruStressed": "Э́то кни́га.",
+    "translit": "Eto kniga.",
+    "en": "This is a book."
+  },
+  {
+    "id": "a1-part-1-71",
+    "ru": "Это стол.",
+    "ruStressed": "Э́то стол.",
+    "translit": "Eto stol.",
+    "en": "This is a table."
+  },
+  {
+    "id": "a1-part-1-72",
+    "ru": "Это стул.",
+    "ruStressed": "Э́то стул.",
+    "translit": "Eto stul.",
+    "en": "This is a chair."
+  },
+  {
+    "id": "a1-part-1-73",
+    "ru": "Это дом.",
+    "ruStressed": "Э́то дом.",
+    "translit": "Eto dom.",
+    "en": "This is a house."
+  },
+  {
+    "id": "a1-part-1-74",
+    "ru": "Это машина.",
+    "ruStressed": "Э́то маши́на.",
+    "translit": "Eto mashina.",
+    "en": "This is a car."
+  },
+  {
+    "id": "a1-part-1-75",
+    "ru": "Это окно.",
+    "ruStressed": "Э́то окно́.",
+    "translit": "Eto okno.",
+    "en": "This is a window."
+  },
+  {
+    "id": "a1-part-1-76",
+    "ru": "Это дверь.",
+    "ruStressed": "Э́то дверь.",
+    "translit": "Eto dver.",
+    "en": "This is a door."
+  },
+  {
+    "id": "a1-part-1-77",
+    "ru": "Это телефон.",
+    "ruStressed": "Э́то телефо́н.",
+    "translit": "Eto telefon.",
+    "en": "This is a phone."
+  },
+  {
+    "id": "a1-part-1-78",
+    "ru": "Это кошка.",
+    "ruStressed": "Э́то ко́шка.",
+    "translit": "Eto koshka.",
+    "en": "This is a cat."
+  },
+  {
+    "id": "a1-part-1-79",
+    "ru": "Это собака.",
+    "ruStressed": "Э́то соба́ка.",
+    "translit": "Eto sobaka.",
+    "en": "This is a dog."
+  },
+  {
+    "id": "a1-part-1-80",
+    "ru": "Книга новая.",
+    "ruStressed": "Кни́га но́вая.",
+    "translit": "Kniga novaya.",
+    "en": "The book is new."
+  },
+  {
+    "id": "a1-part-1-81",
+    "ru": "Дом большой.",
+    "ruStressed": "Дом большо́й.",
+    "translit": "Dom bolshoy.",
+    "en": "The house is big."
+  },
+  {
+    "id": "a1-part-1-82",
+    "ru": "Машина маленькая.",
+    "ruStressed": "Маши́на ма́ленькая.",
+    "translit": "Mashina malenkaya.",
+    "en": "The car is small."
+  },
+  {
+    "id": "a1-part-1-83",
+    "ru": "Комната чистая.",
+    "ruStressed": "Ко́мната чи́стая.",
+    "translit": "Komnata chistaya.",
+    "en": "The room is clean."
+  },
+  {
+    "id": "a1-part-1-84",
+    "ru": "Чай горячий.",
+    "ruStressed": "Чай горя́чий.",
+    "translit": "Chay goryachiy.",
+    "en": "The tea is hot."
+  },
+  {
+    "id": "a1-part-1-85",
+    "ru": "Вода холодная.",
+    "ruStressed": "Вода́ холо́дная.",
+    "translit": "Voda kholodnaya.",
+    "en": "The water is cold."
+  },
+  {
+    "id": "a1-part-1-86",
+    "ru": "Сегодня хорошо.",
+    "ruStressed": "Сего́дня хорошо́.",
+    "translit": "Segodnya khorosho.",
+    "en": "Today is good."
+  },
+  {
+    "id": "a1-part-1-87",
+    "ru": "Сегодня тепло.",
+    "ruStressed": "Сего́дня тепло́.",
+    "translit": "Segodnya teplo.",
+    "en": "It's warm today."
+  },
+  {
+    "id": "a1-part-1-88",
+    "ru": "Сегодня холодно.",
+    "ruStressed": "Сего́дня хо́лодно.",
+    "translit": "Segodnya kholodno.",
+    "en": "It's cold today."
+  },
+  {
+    "id": "a1-part-1-89",
+    "ru": "Сегодня жарко.",
+    "ruStressed": "Сего́дня жа́рко.",
+    "translit": "Segodnya zharko.",
+    "en": "It's hot today."
+  },
+  {
+    "id": "a1-part-1-90",
+    "ru": "Кто это?",
+    "ruStressed": "Кто э́то?",
+    "translit": "Kto eto?",
+    "en": "Who is this?"
+  },
+  {
+    "id": "a1-part-1-91",
+    "ru": "Это мой друг.",
+    "ruStressed": "Э́то мой друг.",
+    "translit": "Eto moy drug.",
+    "en": "This is my friend."
+  },
+  {
+    "id": "a1-part-1-92",
+    "ru": "Это моя семья.",
+    "ruStressed": "Э́то моя́ семья́.",
+    "translit": "Eto moya semya.",
+    "en": "This is my family."
+  },
+  {
+    "id": "a1-part-1-93",
+    "ru": "Где ты?",
+    "ruStressed": "Где ты?",
+    "translit": "Gde ty?",
+    "en": "Where are you?"
+  },
+  {
+    "id": "a1-part-1-94",
+    "ru": "Я дома.",
+    "ruStressed": "Я до́ма.",
+    "translit": "Ya doma.",
+    "en": "I'm at home."
+  },
+  {
+    "id": "a1-part-1-95",
+    "ru": "Я на работе.",
+    "ruStressed": "Я на рабо́те.",
+    "translit": "Ya na rabote.",
+    "en": "I'm at work."
+  },
+  {
+    "id": "a1-part-1-96",
+    "ru": "Я в школе.",
+    "ruStressed": "Я в шко́ле.",
+    "translit": "Ya v shkole.",
+    "en": "I'm at school."
+  },
+  {
+    "id": "a1-part-1-97",
+    "ru": "Я в университете.",
+    "ruStressed": "Я в университе́те.",
+    "translit": "Ya v universitete.",
+    "en": "I'm at the university."
+  },
+  {
+    "id": "a1-part-1-98",
+    "ru": "Я в магазине.",
+    "ruStressed": "Я в магази́не.",
+    "translit": "Ya v magazine.",
+    "en": "I'm at the store."
+  },
+  {
+    "id": "a1-part-1-99",
+    "ru": "Я в парке.",
+    "ruStressed": "Я в па́рке.",
+    "translit": "Ya v parke.",
+    "en": "I'm in the park."
+  },
+  {
+    "id": "a1-part-1-100",
+    "ru": "Не за что.",
+    "ruStressed": "Не́ за что.",
+    "translit": "Ne za chto.",
+    "en": "You're welcome. / Don't mention it."
+  },
+  {
+    "id": "a1-part-1-101",
+    "ru": "Всё в порядке.",
+    "ruStressed": "Всё в поря́дке.",
+    "translit": "Vsyo v poryadke.",
+    "en": "Everything is fine."
+  },
+  {
+    "id": "a1-part-1-102",
+    "ru": "Простите.",
+    "ruStressed": "Прости́те.",
+    "translit": "Prostite.",
+    "en": "I'm sorry."
+  },
+  {
+    "id": "a1-part-1-103",
+    "ru": "Ничего страшного.",
+    "ruStressed": "Ничего́ стра́шного.",
+    "translit": "Nichego strashnogo.",
+    "en": "It's nothing. / No problem."
+  },
+  {
+    "id": "a1-part-1-104",
+    "ru": "Помогите, пожалуйста.",
+    "ruStressed": "Помоги́те, пожа́луйста.",
+    "translit": "Pomogite, pozhaluysta.",
+    "en": "Please help."
+  },
+  {
+    "id": "a1-part-1-105",
+    "ru": "Я не знаю.",
+    "ruStressed": "Я не зна́ю.",
+    "translit": "Ya ne znayu.",
+    "en": "I don't know."
+  },
+  {
+    "id": "a1-part-1-106",
+    "ru": "Я знаю.",
+    "ruStressed": "Я зна́ю.",
+    "translit": "Ya znayu.",
+    "en": "I know."
+  },
+  {
+    "id": "a1-part-1-107",
+    "ru": "Я думаю, да.",
+    "ruStressed": "Я ду́маю, да.",
+    "translit": "Ya dumayu, da.",
+    "en": "I think so."
+  },
+  {
+    "id": "a1-part-1-108",
+    "ru": "Я думаю, нет.",
+    "ruStressed": "Я ду́маю, нет.",
+    "translit": "Ya dumayu, net.",
+    "en": "I don't think so."
+  },
+  {
+    "id": "a1-part-1-109",
+    "ru": "Согласен.",
+    "ruStressed": "Согла́сен.",
+    "translit": "Soglasen.",
+    "en": "I agree. (m.)"
+  },
+  {
+    "id": "a1-part-1-110",
+    "ru": "Согласна.",
+    "ruStressed": "Согла́сна.",
+    "translit": "Soglasna.",
+    "en": "I agree. (f.)"
+  },
+  {
+    "id": "a1-part-1-111",
+    "ru": "Я не согласен.",
+    "ruStressed": "Я не согла́сен.",
+    "translit": "Ya ne soglasen.",
+    "en": "I disagree. (m.)"
+  },
+  {
+    "id": "a1-part-1-112",
+    "ru": "Понятно.",
+    "ruStressed": "Поня́тно.",
+    "translit": "Ponyatno.",
+    "en": "I see. / Got it."
+  },
+  {
+    "id": "a1-part-1-113",
+    "ru": "Хорошо, спасибо.",
+    "ruStressed": "Хорошо́, спаси́бо.",
+    "translit": "Khorosho, spasibo.",
+    "en": "Good, thanks."
+  },
+  {
+    "id": "a1-part-1-114",
+    "ru": "До встречи.",
+    "ruStressed": "До встре́чи.",
+    "translit": "Do vstrechi.",
+    "en": "See you."
+  },
+  {
+    "id": "a1-part-1-115",
+    "ru": "Увидимся.",
+    "ruStressed": "Уви́димся.",
+    "translit": "Uvidimsya.",
+    "en": "See you later."
+  },
+  {
+    "id": "a1-part-1-116",
+    "ru": "Счастливо!",
+    "ruStressed": "Счастли́во!",
+    "translit": "Schastlivo!",
+    "en": "Take care!"
+  },
+  {
+    "id": "a1-part-1-117",
+    "ru": "Удачи!",
+    "ruStressed": "Уда́чи!",
+    "translit": "Udachi!",
+    "en": "Good luck!"
+  },
+  {
+    "id": "a1-part-1-118",
+    "ru": "Будьте здоровы.",
+    "ruStressed": "Бу́дьте здоро́вы.",
+    "translit": "Budte zdorovy.",
+    "en": "Bless you. / Be healthy."
+  },
+  {
+    "id": "a1-part-1-119",
+    "ru": "С днём рождения!",
+    "ruStressed": "С днём рожде́ния!",
+    "translit": "S dnyom rozhdeniya!",
+    "en": "Happy birthday!"
+  }
+]

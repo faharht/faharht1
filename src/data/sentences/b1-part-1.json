@@ -1,0 +1,716 @@
+[
+  {
+    "id": "b1-part-1-1",
+    "ru": "Я думаю, что эта книга очень интересная.",
+    "ruStressed": "Я ду́маю, что э́та кни́га о́чень интере́сная.",
+    "translit": "Ya dumayu, chto eta kniga ochen interesnaya.",
+    "en": "I think this book is very interesting."
+  },
+  {
+    "id": "b1-part-1-2",
+    "ru": "По моему мнению, спорт необходим для здоровья.",
+    "ruStressed": "По моему́ мне́нию, спорт необходи́м для здоро́вья.",
+    "translit": "Po moemu mneniyu, sport neobkhodim dlya zdorovya.",
+    "en": "In my opinion, sport is essential for health."
+  },
+  {
+    "id": "b1-part-1-3",
+    "ru": "Мне кажется, что он прав.",
+    "ruStressed": "Мне ка́жется, что он прав.",
+    "translit": "Mne kazhetsya, chto on prav.",
+    "en": "It seems to me that he is right."
+  },
+  {
+    "id": "b1-part-1-4",
+    "ru": "Я считаю, что нужно больше читать.",
+    "ruStressed": "Я счита́ю, что ну́жно бо́льше чита́ть.",
+    "translit": "Ya schitayu, chto nuzhno bolshe chitat.",
+    "en": "I believe we need to read more."
+  },
+  {
+    "id": "b1-part-1-5",
+    "ru": "Честно говоря, мне не нравится эта идея.",
+    "ruStressed": "Че́стно говоря́, мне не нра́вится э́та иде́я.",
+    "translit": "Chestno govorya, mne ne nravitsya eta ideya.",
+    "en": "Honestly, I don't like this idea."
+  },
+  {
+    "id": "b1-part-1-6",
+    "ru": "С одной стороны, это удобно, с другой — дорого.",
+    "ruStressed": "С одно́й стороны́, э́то удо́бно, с друго́й — до́рого.",
+    "translit": "S odnoy storony, eto udobno, s drugoy — dorogo.",
+    "en": "On one hand it's convenient, on the other — expensive."
+  },
+  {
+    "id": "b1-part-1-7",
+    "ru": "Я полностью согласен с тобой.",
+    "ruStressed": "Я по́лностью согла́сен с тобо́й.",
+    "translit": "Ya polnostyu soglasen s toboy.",
+    "en": "I completely agree with you."
+  },
+  {
+    "id": "b1-part-1-8",
+    "ru": "Я не совсем согласна с этой точкой зрения.",
+    "ruStressed": "Я не совсе́м согла́сна с э́той то́чкой зре́ния.",
+    "translit": "Ya ne sovsem soglasna s etoy tochkoy zreniya.",
+    "en": "I don't quite agree with this point of view."
+  },
+  {
+    "id": "b1-part-1-9",
+    "ru": "По-моему, это лучший фильм года.",
+    "ruStressed": "По-мо́ему, э́то лу́чший фильм го́да.",
+    "translit": "Po-moemu, eto luchshiy film goda.",
+    "en": "I think it's the best film of the year."
+  },
+  {
+    "id": "b1-part-1-10",
+    "ru": "Мне жаль, что мы не увиделись.",
+    "ruStressed": "Мне жаль, что мы не уви́делись.",
+    "translit": "Mne zhal, chto my ne uvidelis.",
+    "en": "I'm sorry we didn't meet."
+  },
+  {
+    "id": "b1-part-1-11",
+    "ru": "Я рад, что ты пришёл.",
+    "ruStressed": "Я рад, что ты пришёл.",
+    "translit": "Ya rad, chto ty prishyol.",
+    "en": "I'm glad that you came."
+  },
+  {
+    "id": "b1-part-1-12",
+    "ru": "Я расстроен из-за плохих новостей.",
+    "ruStressed": "Я расстро́ен и́з-за плохи́х новосте́й.",
+    "translit": "Ya rasstroen iz-za plokhikh novostey.",
+    "en": "I'm upset because of bad news."
+  },
+  {
+    "id": "b1-part-1-13",
+    "ru": "Меня это очень удивило.",
+    "ruStressed": "Меня́ э́то о́чень удиви́ло.",
+    "translit": "Menya eto ochen udivilo.",
+    "en": "That surprised me very much."
+  },
+  {
+    "id": "b1-part-1-14",
+    "ru": "Я боюсь, что мы опоздаем.",
+    "ruStressed": "Я бою́сь, что мы опозда́ем.",
+    "translit": "Ya boyus, chto my opozdaem.",
+    "en": "I'm afraid we'll be late."
+  },
+  {
+    "id": "b1-part-1-15",
+    "ru": "Я надеюсь, что всё будет хорошо.",
+    "ruStressed": "Я наде́юсь, что всё бу́дет хорошо́.",
+    "translit": "Ya nadeyus, chto vsyo budet khorosho.",
+    "en": "I hope everything will be fine."
+  },
+  {
+    "id": "b1-part-1-16",
+    "ru": "Я уверен, что мы найдём решение.",
+    "ruStressed": "Я уве́рен, что мы найдём реше́ние.",
+    "translit": "Ya uveren, chto my naydyom reshenie.",
+    "en": "I'm sure we'll find a solution."
+  },
+  {
+    "id": "b1-part-1-17",
+    "ru": "Я сомневаюсь, что он придёт вовремя.",
+    "ruStressed": "Я сомнева́юсь, что он придёт во́время.",
+    "translit": "Ya somnevayus, chto on pridyot vovremya.",
+    "en": "I doubt he'll come on time."
+  },
+  {
+    "id": "b1-part-1-18",
+    "ru": "Мне трудно принять это решение.",
+    "ruStressed": "Мне тру́дно приня́ть э́то реше́ние.",
+    "translit": "Mne trudno prinyat eto reshenie.",
+    "en": "It's hard for me to make this decision."
+  },
+  {
+    "id": "b1-part-1-19",
+    "ru": "Я не могу понять, почему он так поступил.",
+    "ruStressed": "Я не могу́ поня́ть, почему́ он так поступи́л.",
+    "translit": "Ya ne mogu ponyat, pochemu on tak postupil.",
+    "en": "I can't understand why he acted that way."
+  },
+  {
+    "id": "b1-part-1-20",
+    "ru": "Это меня очень злит.",
+    "ruStressed": "Э́то меня́ о́чень злит.",
+    "translit": "Eto menya ochen zlit.",
+    "en": "This makes me very angry."
+  },
+  {
+    "id": "b1-part-1-21",
+    "ru": "Я скучаю по родителям.",
+    "ruStressed": "Я скуча́ю по роди́телям.",
+    "translit": "Ya skuchayu po roditelyam.",
+    "en": "I miss my parents."
+  },
+  {
+    "id": "b1-part-1-22",
+    "ru": "Я горжусь своими успехами.",
+    "ruStressed": "Я горжу́сь свои́ми успе́хами.",
+    "translit": "Ya gorzhus svoimi uspekhami.",
+    "en": "I'm proud of my achievements."
+  },
+  {
+    "id": "b1-part-1-23",
+    "ru": "Мне стыдно за свои слова.",
+    "ruStressed": "Мне сты́дно за свои́ слова́.",
+    "translit": "Mne stydno za svoi slova.",
+    "en": "I'm ashamed of my words."
+  },
+  {
+    "id": "b1-part-1-24",
+    "ru": "Я завидую её таланту.",
+    "ruStressed": "Я зави́дую её тала́нту.",
+    "translit": "Ya zaviduyu eyo talantu.",
+    "en": "I envy her talent."
+  },
+  {
+    "id": "b1-part-1-25",
+    "ru": "Я благодарен тебе за помощь.",
+    "ruStressed": "Я благода́рен тебе́ за по́мощь.",
+    "translit": "Ya blagodaren tebe za pomoshch.",
+    "en": "I'm grateful to you for help."
+  },
+  {
+    "id": "b1-part-1-26",
+    "ru": "Мне всё равно, что они скажут.",
+    "ruStressed": "Мне всё равно́, что они́ ска́жут.",
+    "translit": "Mne vsyo ravno, chto oni skazhut.",
+    "en": "I don't care what they'll say."
+  },
+  {
+    "id": "b1-part-1-27",
+    "ru": "Я волнуюсь перед экзаменом.",
+    "ruStressed": "Я волну́юсь пе́ред экза́меном.",
+    "translit": "Ya volnuyus pered ekzamenom.",
+    "en": "I'm worried before the exam."
+  },
+  {
+    "id": "b1-part-1-28",
+    "ru": "Я не ожидал такого ответа.",
+    "ruStressed": "Я не ожида́л тако́го отве́та.",
+    "translit": "Ya ne ozhidal takogo otveta.",
+    "en": "I didn't expect such an answer."
+  },
+  {
+    "id": "b1-part-1-29",
+    "ru": "Это зависит от обстоятельств.",
+    "ruStressed": "Э́то зави́сит от обстоя́тельств.",
+    "translit": "Eto zavisit ot obstoyatelstv.",
+    "en": "It depends on the circumstances."
+  },
+  {
+    "id": "b1-part-1-30",
+    "ru": "Возможно, ты прав.",
+    "ruStressed": "Возмо́жно, ты прав.",
+    "translit": "Vozmozhno, ty prav.",
+    "en": "Possibly you are right."
+  },
+  {
+    "id": "b1-part-1-31",
+    "ru": "Скорее всего, завтра будет дождь.",
+    "ruStressed": "Скоре́е всего́, за́втра бу́дет дождь.",
+    "translit": "Skoree vsego, zavtra budet dozhd.",
+    "en": "Most likely, it will rain tomorrow."
+  },
+  {
+    "id": "b1-part-1-32",
+    "ru": "Вряд ли мы успеем закончить.",
+    "ruStressed": "Вряд ли мы успе́ем зако́нчить.",
+    "translit": "Vryad li my uspeem zakonchit.",
+    "en": "We are unlikely to finish in time."
+  },
+  {
+    "id": "b1-part-1-33",
+    "ru": "Я хотел бы поделиться своим мнением.",
+    "ruStressed": "Я хоте́л бы подели́ться свои́м мне́нием.",
+    "translit": "Ya khotel by podelitsya svoim mneniem.",
+    "en": "I would like to share my opinion."
+  },
+  {
+    "id": "b1-part-1-34",
+    "ru": "Каждый имеет право на свою точку зрения.",
+    "ruStressed": "Ка́ждый име́ет пра́во на свою́ то́чку зре́ния.",
+    "translit": "Kazhdyy imeet pravo na svoyu tochku zreniya.",
+    "en": "Everyone has the right to their own point of view."
+  },
+  {
+    "id": "b1-part-1-35",
+    "ru": "Я согласна, но с одной оговоркой.",
+    "ruStressed": "Я согла́сна, но с одно́й огово́ркой.",
+    "translit": "Ya soglasna, no s odnoy ogovorkoy.",
+    "en": "I agree, but with one reservation."
+  },
+  {
+    "id": "b1-part-1-36",
+    "ru": "Это очень спорный вопрос.",
+    "ruStressed": "Э́то о́чень спо́рный вопро́с.",
+    "translit": "Eto ochen spornyy vopros.",
+    "en": "This is a very controversial question."
+  },
+  {
+    "id": "b1-part-1-37",
+    "ru": "Мне нравится твой подход к проблеме.",
+    "ruStressed": "Мне нра́вится твой подхо́д к пробле́ме.",
+    "translit": "Mne nravitsya tvoy podkhod k probleme.",
+    "en": "I like your approach to the problem."
+  },
+  {
+    "id": "b1-part-1-38",
+    "ru": "Я не вижу в этом ничего плохого.",
+    "ruStressed": "Я не ви́жу в э́том ничего́ плохо́го.",
+    "translit": "Ya ne vizhu v etom nichego plokhogo.",
+    "en": "I don't see anything wrong with that."
+  },
+  {
+    "id": "b1-part-1-39",
+    "ru": "Это вызывает у меня смешанные чувства.",
+    "ruStressed": "Э́то вызыва́ет у меня́ сме́шанные чу́вства.",
+    "translit": "Eto vyzyvaet u menya smeshannye chuvstva.",
+    "en": "It evokes mixed feelings in me."
+  },
+  {
+    "id": "b1-part-1-40",
+    "ru": "Я долго думал над этим вопросом.",
+    "ruStressed": "Я до́лго ду́мал над э́тим вопро́сом.",
+    "translit": "Ya dolgo dumal nad etim voprosom.",
+    "en": "I thought about this question for a long time."
+  },
+  {
+    "id": "b1-part-1-41",
+    "ru": "Меня вдохновляет его пример.",
+    "ruStressed": "Меня́ вдохновля́ет его́ приме́р.",
+    "translit": "Menya vdokhnovlyaet ego primer.",
+    "en": "His example inspires me."
+  },
+  {
+    "id": "b1-part-1-42",
+    "ru": "Я чувствую себя усталым после работы.",
+    "ruStressed": "Я чу́вствую себя́ уста́лым по́сле рабо́ты.",
+    "translit": "Ya chuvstvuyu sebya ustalym posle raboty.",
+    "en": "I feel tired after work."
+  },
+  {
+    "id": "b1-part-1-43",
+    "ru": "Это меня глубоко тронуло.",
+    "ruStressed": "Э́то меня́ глубоко́ тро́нуло.",
+    "translit": "Eto menya gluboko tronulo.",
+    "en": "This deeply touched me."
+  },
+  {
+    "id": "b1-part-1-44",
+    "ru": "Я разочарован результатами.",
+    "ruStressed": "Я разочаро́ван результа́тами.",
+    "translit": "Ya razocharovan rezultatami.",
+    "en": "I'm disappointed with the results."
+  },
+  {
+    "id": "b1-part-1-45",
+    "ru": "Мне приятно слышать твой голос.",
+    "ruStressed": "Мне прия́тно слы́шать твой го́лос.",
+    "translit": "Mne priyatno slyshat tvoy golos.",
+    "en": "It's nice to hear your voice."
+  },
+  {
+    "id": "b1-part-1-46",
+    "ru": "Я в восторге от спектакля.",
+    "ruStressed": "Я в восто́рге от спекта́кля.",
+    "translit": "Ya v vostorge ot spektaklya.",
+    "en": "I'm delighted with the play."
+  },
+  {
+    "id": "b1-part-1-47",
+    "ru": "Я ненавижу опаздывать.",
+    "ruStressed": "Я ненави́жу опа́здывать.",
+    "translit": "Ya nenavizhu opazdyvat.",
+    "en": "I hate being late."
+  },
+  {
+    "id": "b1-part-1-48",
+    "ru": "Мне нравится, как ты это объяснил.",
+    "ruStressed": "Мне нра́вится, как ты э́то объясни́л.",
+    "translit": "Mne nravitsya, kak ty eto obyasnil.",
+    "en": "I like how you explained it."
+  },
+  {
+    "id": "b1-part-1-49",
+    "ru": "Я постараюсь быть более терпеливым.",
+    "ruStressed": "Я постара́юсь быть бо́лее терпели́вым.",
+    "translit": "Ya postarayus byt bolee terpelivym.",
+    "en": "I'll try to be more patient."
+  },
+  {
+    "id": "b1-part-1-50",
+    "ru": "Я понимаю твои чувства.",
+    "ruStressed": "Я понима́ю твои́ чу́вства.",
+    "translit": "Ya ponimayu tvoi chuvstva.",
+    "en": "I understand your feelings."
+  },
+  {
+    "id": "b1-part-1-51",
+    "ru": "Мне сложно выразить это словами.",
+    "ruStressed": "Мне сло́жно вы́разить э́то слова́ми.",
+    "translit": "Mne slozhno vyrazit eto slovami.",
+    "en": "It's hard for me to express this in words."
+  },
+  {
+    "id": "b1-part-1-52",
+    "ru": "По правде сказать, я не знаю ответа.",
+    "ruStressed": "По пра́вде сказа́ть, я не зна́ю отве́та.",
+    "translit": "Po pravde skazat, ya ne znayu otveta.",
+    "en": "To tell the truth, I don't know the answer."
+  },
+  {
+    "id": "b1-part-1-53",
+    "ru": "На мой взгляд, это самое важное.",
+    "ruStressed": "На мой взгляд, э́то са́мое ва́жное.",
+    "translit": "Na moy vzglyad, eto samoe vazhnoe.",
+    "en": "In my view, this is the most important thing."
+  },
+  {
+    "id": "b1-part-1-54",
+    "ru": "Дело в том, что у нас мало времени.",
+    "ruStressed": "Де́ло в том, что у нас ма́ло вре́мени.",
+    "translit": "Delo v tom, chto u nas malo vremeni.",
+    "en": "The thing is, we have little time."
+  },
+  {
+    "id": "b1-part-1-55",
+    "ru": "К сожалению, я не могу прийти.",
+    "ruStressed": "К сожале́нию, я не могу́ прийти́.",
+    "translit": "K sozhaleniyu, ya ne mogu priyti.",
+    "en": "Unfortunately, I can't come."
+  },
+  {
+    "id": "b1-part-1-56",
+    "ru": "К счастью, всё закончилось хорошо.",
+    "ruStressed": "К сча́стью, всё зако́нчилось хорошо́.",
+    "translit": "K schastyu, vsyo zakonchilos khorosho.",
+    "en": "Fortunately, everything ended well."
+  },
+  {
+    "id": "b1-part-1-57",
+    "ru": "Я бы хотел добавить ещё одну мысль.",
+    "ruStressed": "Я бы хоте́л доба́вить ещё одну́ мысль.",
+    "translit": "Ya by khotel dobavit eshchyo odnu mysl.",
+    "en": "I would like to add one more thought."
+  },
+  {
+    "id": "b1-part-1-58",
+    "ru": "Это серьёзный повод для размышлений.",
+    "ruStressed": "Э́то серьёзный по́вод для размышле́ний.",
+    "translit": "Eto seryoznyy povod dlya razmyshleniy.",
+    "en": "This is a serious reason to reflect."
+  },
+  {
+    "id": "b1-part-1-59",
+    "ru": "Я никак не могу решиться.",
+    "ruStressed": "Я ника́к не могу́ реши́ться.",
+    "translit": "Ya nikak ne mogu reshitsya.",
+    "en": "I just can't make up my mind."
+  },
+  {
+    "id": "b1-part-1-60",
+    "ru": "Мне нужно подумать ещё немного.",
+    "ruStressed": "Мне ну́жно поду́мать ещё немно́го.",
+    "translit": "Mne nuzhno podumat eshchyo nemnogo.",
+    "en": "I need to think a little more."
+  },
+  {
+    "id": "b1-part-1-61",
+    "ru": "Я ценю твою честность.",
+    "ruStressed": "Я ценю́ твою́ че́стность.",
+    "translit": "Ya tsenyu tvoyu chestnost.",
+    "en": "I appreciate your honesty."
+  },
+  {
+    "id": "b1-part-1-62",
+    "ru": "Я доверяю своей интуиции.",
+    "ruStressed": "Я доверя́ю свое́й интуи́ции.",
+    "translit": "Ya doveryayu svoey intuitsii.",
+    "en": "I trust my intuition."
+  },
+  {
+    "id": "b1-part-1-63",
+    "ru": "Это противоречит моим принципам.",
+    "ruStressed": "Э́то противоре́чит мои́м при́нципам.",
+    "translit": "Eto protivorechit moim printsipam.",
+    "en": "This contradicts my principles."
+  },
+  {
+    "id": "b1-part-1-64",
+    "ru": "Я воспринимаю критику спокойно.",
+    "ruStressed": "Я воспринима́ю кри́тику споко́йно.",
+    "translit": "Ya vosprinimayu kritiku spokoyno.",
+    "en": "I take criticism calmly."
+  },
+  {
+    "id": "b1-part-1-65",
+    "ru": "Мне нужна твоя поддержка.",
+    "ruStressed": "Мне нужна́ твоя́ подде́ржка.",
+    "translit": "Mne nuzhna tvoya podderzhka.",
+    "en": "I need your support."
+  },
+  {
+    "id": "b1-part-1-66",
+    "ru": "Я готов выслушать любые предложения.",
+    "ruStressed": "Я гото́в вы́слушать любы́е предложе́ния.",
+    "translit": "Ya gotov vyslushat lyubye predlozheniya.",
+    "en": "I'm ready to hear any suggestions."
+  },
+  {
+    "id": "b1-part-1-67",
+    "ru": "Это меня совершенно не волнует.",
+    "ruStressed": "Э́то меня́ соверше́нно не волну́ет.",
+    "translit": "Eto menya sovershenno ne volnuet.",
+    "en": "This doesn't worry me at all."
+  },
+  {
+    "id": "b1-part-1-68",
+    "ru": "Я предпочитаю молчать в таких ситуациях.",
+    "ruStressed": "Я предпочита́ю молча́ть в таки́х ситуа́циях.",
+    "translit": "Ya predpochitayu molchat v takikh situatsiyakh.",
+    "en": "I prefer to stay silent in such situations."
+  },
+  {
+    "id": "b1-part-1-69",
+    "ru": "Мне трудно объяснить, что я чувствую.",
+    "ruStressed": "Мне тру́дно объясни́ть, что я чу́вствую.",
+    "translit": "Mne trudno obyasnit, chto ya chuvstvuyu.",
+    "en": "It's hard for me to explain what I feel."
+  },
+  {
+    "id": "b1-part-1-70",
+    "ru": "Я часто думаю о своём будущем.",
+    "ruStressed": "Я ча́сто ду́маю о своём бу́дущем.",
+    "translit": "Ya chasto dumayu o svoyom budushchem.",
+    "en": "I often think about my future."
+  },
+  {
+    "id": "b1-part-1-71",
+    "ru": "Я мечтаю путешествовать по миру.",
+    "ruStressed": "Я мечта́ю путеше́ствовать по ми́ру.",
+    "translit": "Ya mechtayu puteshestvovat po miru.",
+    "en": "I dream of travelling around the world."
+  },
+  {
+    "id": "b1-part-1-72",
+    "ru": "Меня раздражает шум за окном.",
+    "ruStressed": "Меня́ раздража́ет шум за окно́м.",
+    "translit": "Menya razdrazhaet shum za oknom.",
+    "en": "The noise outside the window irritates me."
+  },
+  {
+    "id": "b1-part-1-73",
+    "ru": "Я расстраиваюсь, когда меня не слышат.",
+    "ruStressed": "Я расстра́иваюсь, когда́ меня́ не слы́шат.",
+    "translit": "Ya rasstraivayus, kogda menya ne slyshat.",
+    "en": "I get upset when I'm not heard."
+  },
+  {
+    "id": "b1-part-1-74",
+    "ru": "Я благодарна судьбе за эту встречу.",
+    "ruStressed": "Я благода́рна судьбе́ за э́ту встре́чу.",
+    "translit": "Ya blagodarna sudbe za etu vstrechu.",
+    "en": "I'm grateful to fate for this meeting."
+  },
+  {
+    "id": "b1-part-1-75",
+    "ru": "Меня всегда привлекали иностранные языки.",
+    "ruStressed": "Меня́ всегда́ привлека́ли иностра́нные языки́.",
+    "translit": "Menya vsegda privlekali inostrannye yazyki.",
+    "en": "I have always been drawn to foreign languages."
+  },
+  {
+    "id": "b1-part-1-76",
+    "ru": "Я уважаю людей, которые держат слово.",
+    "ruStressed": "Я уважа́ю люде́й, кото́рые де́ржат сло́во.",
+    "translit": "Ya uvazhayu lyudey, kotorye derzhat slovo.",
+    "en": "I respect people who keep their word."
+  },
+  {
+    "id": "b1-part-1-77",
+    "ru": "Я считаю, что честность важнее всего.",
+    "ruStressed": "Я счита́ю, что че́стность важне́е всего́.",
+    "translit": "Ya schitayu, chto chestnost vazhnee vsego.",
+    "en": "I think honesty is more important than anything."
+  },
+  {
+    "id": "b1-part-1-78",
+    "ru": "Иногда мне хочется побыть одному.",
+    "ruStressed": "Иногда́ мне хо́чется побы́ть одному́.",
+    "translit": "Inogda mne khochetsya pobyt odnomu.",
+    "en": "Sometimes I want to be alone."
+  },
+  {
+    "id": "b1-part-1-79",
+    "ru": "Я устал от постоянных споров.",
+    "ruStressed": "Я уста́л от постоя́нных спо́ров.",
+    "translit": "Ya ustal ot postoyannykh sporov.",
+    "en": "I'm tired of constant arguments."
+  },
+  {
+    "id": "b1-part-1-80",
+    "ru": "Мне нравится наблюдать за людьми.",
+    "ruStressed": "Мне нра́вится наблюда́ть за людьми́.",
+    "translit": "Mne nravitsya nablyudat za lyudmi.",
+    "en": "I like observing people."
+  },
+  {
+    "id": "b1-part-1-81",
+    "ru": "Я редко жалуюсь на жизнь.",
+    "ruStressed": "Я ре́дко жа́луюсь на жизнь.",
+    "translit": "Ya redko zhaluyus na zhizn.",
+    "en": "I rarely complain about life."
+  },
+  {
+    "id": "b1-part-1-82",
+    "ru": "Я стараюсь видеть в людях хорошее.",
+    "ruStressed": "Я стара́юсь ви́деть в лю́дях хоро́шее.",
+    "translit": "Ya starayus videt v lyudyakh khoroshee.",
+    "en": "I try to see the good in people."
+  },
+  {
+    "id": "b1-part-1-83",
+    "ru": "Меня поражает её доброта.",
+    "ruStressed": "Меня́ поража́ет её доброта́.",
+    "translit": "Menya porazhaet eyo dobrota.",
+    "en": "Her kindness amazes me."
+  },
+  {
+    "id": "b1-part-1-84",
+    "ru": "Я обижен на его слова.",
+    "ruStressed": "Я оби́жен на его́ слова́.",
+    "translit": "Ya obizhen na ego slova.",
+    "en": "I'm hurt by his words."
+  },
+  {
+    "id": "b1-part-1-85",
+    "ru": "Мне жалко, что так получилось.",
+    "ruStressed": "Мне жа́лко, что так получи́лось.",
+    "translit": "Mne zhalko, chto tak poluchilos.",
+    "en": "I'm sorry it turned out this way."
+  },
+  {
+    "id": "b1-part-1-86",
+    "ru": "Я переживаю за свою семью.",
+    "ruStressed": "Я пережива́ю за свою́ семью́.",
+    "translit": "Ya perezhivayu za svoyu semyu.",
+    "en": "I worry about my family."
+  },
+  {
+    "id": "b1-part-1-87",
+    "ru": "Я искренне рад твоему успеху.",
+    "ruStressed": "Я и́скренне рад твоему́ успе́ху.",
+    "translit": "Ya iskrenne rad tvoemu uspekhu.",
+    "en": "I'm sincerely glad of your success."
+  },
+  {
+    "id": "b1-part-1-88",
+    "ru": "Это не имеет для меня значения.",
+    "ruStressed": "Э́то не име́ет для меня́ значе́ния.",
+    "translit": "Eto ne imeet dlya menya znacheniya.",
+    "en": "This has no significance for me."
+  },
+  {
+    "id": "b1-part-1-89",
+    "ru": "Мне приходится с этим мириться.",
+    "ruStressed": "Мне прихо́дится с э́тим мири́ться.",
+    "translit": "Mne prikhoditsya s etim miritsya.",
+    "en": "I have to put up with this."
+  },
+  {
+    "id": "b1-part-1-90",
+    "ru": "Я постоянно сомневаюсь в себе.",
+    "ruStressed": "Я постоя́нно сомнева́юсь в себе́.",
+    "translit": "Ya postoyanno somnevayus v sebe.",
+    "en": "I constantly doubt myself."
+  },
+  {
+    "id": "b1-part-1-91",
+    "ru": "Я чувствую себя свободным здесь.",
+    "ruStressed": "Я чу́вствую себя́ свобо́дным здесь.",
+    "translit": "Ya chuvstvuyu sebya svobodnym zdes.",
+    "en": "I feel free here."
+  },
+  {
+    "id": "b1-part-1-92",
+    "ru": "Меня вдохновляют истории успеха.",
+    "ruStressed": "Меня́ вдохновля́ют исто́рии успе́ха.",
+    "translit": "Menya vdokhnovlyayut istorii uspekha.",
+    "en": "Success stories inspire me."
+  },
+  {
+    "id": "b1-part-1-93",
+    "ru": "Я воспринимаю это как вызов.",
+    "ruStressed": "Я воспринима́ю э́то как вы́зов.",
+    "translit": "Ya vosprinimayu eto kak vyzov.",
+    "en": "I see this as a challenge."
+  },
+  {
+    "id": "b1-part-1-94",
+    "ru": "Я не люблю говорить о политике.",
+    "ruStressed": "Я не люблю́ говори́ть о поли́тике.",
+    "translit": "Ya ne lyublyu govorit o politike.",
+    "en": "I don't like talking about politics."
+  },
+  {
+    "id": "b1-part-1-95",
+    "ru": "Мне сложно отказать друзьям.",
+    "ruStressed": "Мне сло́жно отказа́ть друзья́м.",
+    "translit": "Mne slozhno otkazat druzyam.",
+    "en": "It's hard for me to refuse friends."
+  },
+  {
+    "id": "b1-part-1-96",
+    "ru": "Я считаю, что мы должны помогать другим.",
+    "ruStressed": "Я счита́ю, что мы должны́ помога́ть други́м.",
+    "translit": "Ya schitayu, chto my dolzhny pomogat drugim.",
+    "en": "I think we should help others."
+  },
+  {
+    "id": "b1-part-1-97",
+    "ru": "Я часто меняю своё мнение.",
+    "ruStressed": "Я ча́сто меня́ю своё мне́ние.",
+    "translit": "Ya chasto menyayu svoyo mnenie.",
+    "en": "I often change my opinion."
+  },
+  {
+    "id": "b1-part-1-98",
+    "ru": "Мне важно мнение близких людей.",
+    "ruStressed": "Мне ва́жно мне́ние бли́зких люде́й.",
+    "translit": "Mne vazhno mnenie blizkikh lyudey.",
+    "en": "The opinion of close people matters to me."
+  },
+  {
+    "id": "b1-part-1-99",
+    "ru": "Я переоценил свои силы.",
+    "ruStressed": "Я переоцени́л свои́ си́лы.",
+    "translit": "Ya pereotsenil svoi sily.",
+    "en": "I overestimated my strength."
+  },
+  {
+    "id": "b1-part-1-100",
+    "ru": "Я стараюсь не принимать поспешных решений.",
+    "ruStressed": "Я стара́юсь не принима́ть поспе́шных реше́ний.",
+    "translit": "Ya starayus ne prinimat pospeshnykh resheniy.",
+    "en": "I try not to make hasty decisions."
+  },
+  {
+    "id": "b1-part-1-101",
+    "ru": "Иногда лучше промолчать.",
+    "ruStressed": "Иногда́ лу́чше промолча́ть.",
+    "translit": "Inogda luchshe promolchat.",
+    "en": "Sometimes it's better to keep silent."
+  },
+  {
+    "id": "b1-part-1-102",
+    "ru": "Я понял, что был неправ.",
+    "ruStressed": "Я по́нял, что был непра́в.",
+    "translit": "Ya ponyal, chto byl neprav.",
+    "en": "I realized I was wrong."
+  }
+]
