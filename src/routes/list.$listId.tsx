@@ -64,6 +64,8 @@ export const Route = createFileRoute("/list/$listId")({
 });
 
 function ListPage() {
+  useDayTick();
+
   const { meta } = Route.useLoaderData();
   const sentences = useMemo(() => getSentences(meta.id), [meta.id]);
   const settings = useTrainerStore((s) => s.settings);
