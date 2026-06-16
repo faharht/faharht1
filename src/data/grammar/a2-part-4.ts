@@ -9,7 +9,7 @@ export const a2Part4: GrammarPack = {
       "body": "To describe physical or emotional states like being cold, hot, or bored, the person is put in the **Dative case**. The state itself is an adverb ending in **-о**, and there is no active subject doing the action. It is as if the feeling is _happening to_ the person.",
       "examples": [
         {
-          "ru": "Мне холодно.配合},{en:",
+          "ru": "Мне холодно.",
           "en": "I am cold."
         }
       ]
