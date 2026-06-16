@@ -372,6 +372,7 @@ function ListPage() {
             const stars = progress[s.id]?.stars ?? 0;
             const fav = !!favorites[s.id];
             const active = currentIdx === idx;
+            const focused = focusId === s.id;
             return (
               <ListenCard
                 key={s.id}
@@ -380,6 +381,7 @@ function ListPage() {
                 stars={stars}
                 fav={fav}
                 active={active}
+                focused={focused}
                 activeWord={active ? activeWord : null}
                 listenMode={listenMode}
                 showTranslit={showTranslit}
@@ -393,6 +395,7 @@ function ListPage() {
               />
             );
           })}
+
         </ul>
       </main>
 
