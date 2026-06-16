@@ -8,13 +8,9 @@ import {
   type LevelId,
   type ListMeta,
 } from "@/lib/trainer/levels";
-import {
-  GRAMMAR_TAGS,
-  type GrammarTag,
-  listTagsFor,
-  getGrammar,
-} from "@/lib/trainer/grammar";
+import { getGrammar } from "@/lib/trainer/grammar";
 import { cn } from "@/lib/utils";
+
 
 const LEVEL_IDS: LevelId[] = ["A1", "A2", "B1", "B2"];
 
