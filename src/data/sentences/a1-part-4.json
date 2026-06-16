@@ -1034,5 +1034,19 @@
     "ruStressed": "Где нахо́дится больни́ца?",
     "translit": "Gde nakhoditsya bolnitsa?",
     "en": "Where is the hospital?"
+  },
+  {
+    "id": "a1-part-4-149",
+    "ru": "Аптека находится слева.",
+    "ruStressed": "Апте́ка нахо́дится сле́ва.",
+    "translit": "Apteka nakhoditsya sleva.",
+    "en": "The pharmacy is on the left."
+  },
+  {
+    "id": "a1-part-4-150",
+    "ru": "Рынок там.",
+    "ruStressed": "Ры́нок там.",
+    "translit": "Rynok tam.",
+    "en": "The market is over there."
   }
 ]
