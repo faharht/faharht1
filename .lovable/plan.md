@@ -1,80 +1,120 @@
-## 1. Daily reps breakdown chart (Profile)
+# Fix: Grammar notes matching unrelated sentences
 
-Add a new `RepsChartCard` section on `/profile` below the Streak card.
+## The bug
 
-- Toggle: **14 days** / **30 days** (segmented control, default 14).
-- Vertical SVG bar chart, one bar per day.
-  - Bar height scales to the max-rep day in the selected range.
-  - Bars meeting `dailyGoal` → primary color; partial → muted primary; zero → faint track.
-  - Dashed horizontal line marks `dailyGoal`.
-  - Hover/tap tooltip: "Mon 12 Jun · 47 reps".
-  - X-axis: short weekday + day-of-month every ~5 bars.
-- Reads from existing `dailyHistory` (already trimmed to 120 days — enough for 30).
+On `/list/a1-part-1` the **Personal pronouns** note lists "Конечно. / Of course." It shouldn't — that sentence has no pronoun in it.
 
-## 2. Automatic daily reset at local midnight
+Root cause is in `resolveMatches()` in `src/routes/list.$listId.tsx` (line ~982):
 
-Goal/streak/rank counters already key off `todayKey()` (local date), so the values are *already* correct after midnight — but the Profile page only recomputes on rep events. Fix the visual stale-ness:
-
-- Add a `useDayTick()` hook in `src/lib/trainer/store.ts` that:
-  - Computes ms until next local midnight.
-  - Sets a `setTimeout` to force a re-render (via a zustand `dayCounter` bump) at midnight, then re-arms.
-  - Also re-checks on `visibilitychange` (tab returns after sleep / next day).
-- `bumpReps` already handles streak break on gaps — keep that logic. Add a parallel `tickDay()` action that, when called and `lastActiveDate` is older than yesterday, resets `currentStreak` to 0 in state so the UI reflects it without needing a rep.
-- Profile and List screens call `useDayTick()` once at mount.
-
-Result: at local midnight the Today ring resets to 0/goal, streak grid shifts, broken streaks visibly drop to 0.
-
-## 3. Goal-challenge system with badge
-
-### Goal options (fixed)
-Replace the free-form goal editor with 4 presets: **100 / 500 / 1000 / 2500 reps/day**.
-
-### Pick goal at signup
-- After successful `signUp` in `src/routes/auth.tsx`, route to a new `/onboarding` screen (only shown if `challenge` is unset).
-- `/onboarding`: 4 cards for the goal options + "Start challenge" button. Sets `challenge` state and redirects to `/profile`.
-- Guests skip this — they keep the existing default (20) until they visit Profile and pick one. Profile shows a one-time "Pick your daily challenge" banner if `challenge` is unset.
-
-### State additions (`src/lib/trainer/store.ts`)
 ```ts
-challenge: {
-  goal: 100 | 500 | 1000 | 2500;
-  startedOn: string;       // YYYY-MM-DD
-  daysCompleted: number;   // count of days in [startedOn, today] that hit goal
-  finishedOn: string|null; // set when daysCompleted reaches 14
-} | null;
-badges: { challenge100?: string; challenge500?: string; challenge1000?: string; challenge2500?: string }; // value = ISO date earned
-startChallenge(goal): void;
-resetChallengeWithNewGoal(goal): void; // wipes streak + restarts challenge
+const hay = (s.ru + " " + s.en).toLowerCase();
+if (needles.some((n) => hay.includes(n.toLowerCase()))) { ... }
 ```
 
-- `bumpReps` also updates `challenge.daysCompleted` when today's reps first cross `challenge.goal`. When `daysCompleted` reaches 14, set `finishedOn`, write the matching badge into `badges`, and fire a toast.
-- `dailyGoal` getter mirrors `challenge.goal` when challenge is active.
+Combined with the overlay in `src/lib/trainer/grammar.ts` for `a1-part-1`:
 
-### Changing the goal mid-challenge
-Profile shows the current challenge with progress `X / 14 days`. The "Change goal" button opens a confirm modal:
-> "Changing your goal will reset your current streak and restart the 14-day challenge from day 1. Continue?"
-Confirm → `resetChallengeWithNewGoal(newGoal)`: sets `currentStreak = 0`, `challenge = { goal, startedOn: today, daysCompleted: 0, finishedOn: null }`. Earned badges stay.
+```ts
+{ contains: ["я", "ты", "он", "она", "мы", "вы", "они"] }
+```
 
-### Badge display
-- `RankCard` row gets a new "Badges" strip showing earned challenge badges (e.g. "100/day · 14 days" with a small medal icon, colored per tier). Locked badges shown faded with target text.
+`includes()` does raw substring matching, so single Cyrillic letters/short pronouns match inside any longer word:
 
-## Technical Details
+- "Кон**он**ечно" — `Конечно` contains `он` → matched as a pronoun
+- "До свидани**я**" → matches `я`
+- "**Of** course" → also matches `вы`? no — but `я` matches Russian word endings everywhere
 
-**Files created**
-- `src/routes/onboarding.tsx` — post-signup goal picker.
-- `src/components/profile/RepsChart.tsx` — SVG bar chart with 14/30 toggle.
-- `src/components/profile/ChangeGoalDialog.tsx` — confirm-reset modal.
-- `src/lib/trainer/useDayTick.ts` — midnight ticker hook.
+The same class of bug exists in other packs that depend on substring matching (e.g. b1-part-2 already works around it by using `" бы "` with spaces, b2-part-1 keys on suffixes like "ющий" which is fine, b2-part-4 uses `" что "` / `" ли "` with spaces — fragile).
 
-**Files edited**
-- `src/lib/trainer/store.ts` — add `challenge`, `badges`, `startChallenge`, `resetChallengeWithNewGoal`, `tickDay`; extend `bumpReps`; deprecate free `setDailyGoal` (kept internal, no longer exported to UI).
-- `src/routes/auth.tsx` — on signup success, navigate to `/onboarding`.
-- `src/routes/profile.tsx` — wire `useDayTick`, replace `TodayCard` editor with "Change goal" button, add `RepsChartCard`, add challenge progress + badges strip, banner for guests without a challenge.
-- `src/routes/list.$listId.tsx` — call `useDayTick`; on challenge finish toast "Challenge complete! Badge unlocked 🏅".
+## Fix
 
-**Storage**: all client-side in existing zustand `ru-trainer:v1` persist key (no DB schema changes).
+Switch `resolveMatches()` from `String.includes` to **whole-word matching** using a Unicode-aware regex.
 
-## Out of scope
-- Cloud sync of challenge/badges across devices.
-- Push notifications / midnight reminders.
-- Sharing badges externally.
+### Changes
+
+**`src/routes/list.$listId.tsx` — `resolveMatches()`**
+
+Replace the substring check with a per-needle regex:
+
+```ts
+function makeNeedleRegex(needle: string): RegExp {
+  const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").trim();
+  // If the needle already contains a space, treat it as a phrase (no \b around spaces).
+  // Use Unicode letter class so Cyrillic counts as a "word" character.
+  return new RegExp(`(?<![\\p{L}])${escaped}(?![\\p{L}])`, "iu");
+}
+
+// inside the loop:
+const hay = s.ru + " " + s.en;
+if (needles.some((n) => makeNeedleRegex(n).test(hay))) { ... }
+```
+
+This treats every needle as a whole token bounded by non-letter characters (punctuation, spaces, string edges). Cyrillic letters are recognized via `\p{L}` with the `u` flag, so `он` will no longer match inside `Конечно`, and `я` will no longer match inside `свидания` / `меня`.
+
+Suffix-style needles in `b2-part-1` (`"ющий"`, `"вший"`, `"нный"`…) still work because the lookbehind only rejects a letter **before** the needle; the needle itself contains the preceding letters of the participle ending, and what comes before in the word is fine — wait, that breaks suffixes. We need an exception.
+
+### Suffix handling
+
+For `b2-part-1` we explicitly want suffix matches. Two options:
+
+1. Treat needles that **start with a Cyrillic letter that is a common suffix linker** as suffixes — too fuzzy.
+2. **Cleanest**: extend the overlay schema to allow `{ endsWith: [...] }` and keep `contains` strictly whole-word.
+
+Plan: add a new optional field to `match`:
+
+```ts
+match?: { contains?: string[]; endsWith?: string[] };
+```
+
+- `contains` → whole-word match (new behavior).
+- `endsWith` → matches if any token in the sentence ends with the needle (used for participle/gerund suffixes).
+
+Then update `b2-part-1` and `b2-part-2` overlays in `grammar.ts` to use `endsWith` for suffixes:
+
+```ts
+"b2-part-1": {
+  tags: ["participles"],
+  matches: [
+    { endsWith: ["ющий", "ущий", "ящий", "ащий", "ющая", "ющее", "ющие"] },
+    { endsWith: ["вший", "вшая", "вшее", "вшие"] },
+    { endsWith: ["нный", "нная", "нное", "нные", "тый", "тая", "тое", "тые"] },
+  ],
+},
+"b2-part-2": {
+  tags: ["gerunds"],
+  matches: [
+    { endsWith: ["ая", "яя"], contains: ["читая", "говоря", "идя", "глядя", "слушая"] },
+    { endsWith: ["ав", "ив", "ыв"], contains: ["прочитав", "сказав", "сделав", "закончив"] },
+  ],
+},
+```
+
+(Conservative: keep the existing `contains` entries for b2-part-2 since broad suffix matches like "ая"/"яя" would also catch adjectives. We can keep just `contains` there if safer — final call during implementation.)
+
+`endsWith` is implemented as:
+
+```ts
+const tokenEndsWith = (text: string, suffix: string) =>
+  new RegExp(`[\\p{L}]*${suffix}(?![\\p{L}])`, "iu").test(text);
+```
+
+### Verification
+
+After the change, for `a1-part-1` Personal pronouns the matched sentences should include only:
+
+- "А у тебя?" — `тебя` is a pronoun form, but `ты` is no longer a substring match. We need it to still appear. **Solution**: add the inflected forms to the needles for that note, e.g. `["я", "ты", "он", "она", "оно", "мы", "вы", "они", "меня", "тебя", "его", "её", "нас", "вас", "их", "мне", "тебе", "ему", "ей", "нам", "вам", "им"]`. All are real standalone pronoun tokens, so whole-word matching is correct and "Конечно" stops being matched.
+
+Update the `a1-part-1` Personal pronouns overlay needle list accordingly.
+
+### Files touched
+
+- `src/routes/list.$listId.tsx` — replace substring check with regex helpers; add `endsWith` handling.
+- `src/lib/trainer/grammar.ts` —
+  - extend `GrammarNote.match` type with `endsWith?: string[]`.
+  - expand `a1-part-1` pronouns needle list to include inflected pronoun forms.
+  - migrate `b2-part-1` (and selectively `b2-part-2`) overlay entries to use `endsWith` for suffix-based rules.
+
+### Out of scope
+
+- No data files under `src/data/grammar/*` change.
+- No UI / styling changes; the "FROM THIS LIST" section keeps the same shape and 5-row cap.
+- Other packs already use phrase-style needles (`"У меня"`, `"если"`, `"больше"`) — those are whole words and behave identically or better under the new matcher; no edits needed.

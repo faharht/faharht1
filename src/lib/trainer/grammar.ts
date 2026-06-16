@@ -11,9 +11,10 @@ export interface GrammarNote {
   examples?: GrammarExample[];
   /** Explicit sentence IDs from the same list to surface under the note. */
   matchIds?: string[];
-  /** Fallback: any sentence whose ru contains one of these substrings. */
-  match?: { contains?: string[] };
+  /** Fallback: whole-word match on substrings, or suffix match on word endings. */
+  match?: { contains?: string[]; endsWith?: string[] };
 }
+
 
 export interface GrammarPack {
   listId: string;
@@ -96,14 +97,15 @@ const RAW_PACKS: Record<string, GrammarPack> = {
  */
 const OVERLAY: Record<
   string,
-  { tags?: GrammarTag[]; matches?: Array<{ contains?: string[] }> }
+  { tags?: GrammarTag[]; matches?: Array<{ contains?: string[]; endsWith?: string[] }> }
+
 > = {
   "a1-part-1": {
     tags: ["pronouns", "present tense"],
     matches: [
       { contains: ["Как тебя", "Как вас", "Здравствуйте", "Привет"] },
       { contains: ["Я ", "Это ", "Меня зовут", "— "] },
-      { contains: ["я", "ты", "он", "она", "мы", "вы", "они"] },
+      { contains: ["я", "ты", "он", "она", "оно", "мы", "вы", "они", "меня", "тебя", "его", "её", "нас", "вас", "их", "мне", "тебе", "ему", "ей", "нам", "вам", "им"] },
     ],
   },
   "a1-part-2": {
@@ -195,9 +197,9 @@ const OVERLAY: Record<
   "b2-part-1": {
     tags: ["participles"],
     matches: [
-      { contains: ["ющий", "ущий", "ящий", "ащий"] },
-      { contains: ["вший", "вшая", "вшие"] },
-      { contains: ["нный", "нная", "нные", "тый"] },
+      { endsWith: ["ющий", "ущий", "ящий", "ащий", "ющая", "ющее", "ющие", "ущая", "ущие"] },
+      { endsWith: ["вший", "вшая", "вшее", "вшие"] },
+      { endsWith: ["нный", "нная", "нное", "нные", "тый", "тая", "тое", "тые"] },
     ],
   },
   "b2-part-2": {
@@ -207,6 +209,7 @@ const OVERLAY: Record<
       { contains: ["прочитав", "сказав", "сделав", "закончив"] },
     ],
   },
+
   "b2-part-3": {
     tags: ["idioms"],
     matches: [

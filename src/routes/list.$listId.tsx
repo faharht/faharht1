@@ -964,6 +964,18 @@ function GrammarSheet({
   );
 }
 
+function escapeRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function makeWholeWordRegex(needle: string): RegExp {
+  return new RegExp(`(?<![\\p{L}])${escapeRegex(needle.trim())}(?![\\p{L}])`, "iu");
+}
+
+function makeEndsWithRegex(suffix: string): RegExp {
+  return new RegExp(`[\\p{L}]*${escapeRegex(suffix.trim())}(?![\\p{L}])`, "iu");
+}
+
 function resolveMatches(
   note: GrammarPack["notes"][number],
   sentences: Array<{ id: string; ru: string; en: string }>,
@@ -979,13 +991,19 @@ function resolveMatches(
       }
     }
   }
-  const needles = note.match?.contains ?? [];
-  if (needles.length > 0 && out.length < 5) {
+  const contains = note.match?.contains ?? [];
+  const endsWith = note.match?.endsWith ?? [];
+  const containsRx = contains.map(makeWholeWordRegex);
+  const endsWithRx = endsWith.map(makeEndsWithRegex);
+  if ((containsRx.length > 0 || endsWithRx.length > 0) && out.length < 5) {
     for (const s of sentences) {
       if (out.length >= 5) break;
       if (seen.has(s.id)) continue;
-      const hay = (s.ru + " " + s.en).toLowerCase();
-      if (needles.some((n) => hay.includes(n.toLowerCase()))) {
+      const hay = s.ru + " " + s.en;
+      const hit =
+        containsRx.some((rx) => rx.test(hay)) ||
+        endsWithRx.some((rx) => rx.test(hay));
+      if (hit) {
         out.push(s);
         seen.add(s.id);
       }
@@ -993,5 +1011,6 @@ function resolveMatches(
   }
   return out.slice(0, 5);
 }
+
 
 
