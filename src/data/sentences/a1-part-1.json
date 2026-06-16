@@ -831,5 +831,222 @@
     "ruStressed": "С днём рожде́ния!",
     "translit": "S dnyom rozhdeniya!",
     "en": "Happy birthday!"
+  },
+  {
+    "id": "a1-part-1-120",
+    "ru": "Как ваши дела?",
+    "ruStressed": "Как ва́ши дела́?",
+    "translit": "Kak vashi dela?",
+    "en": "How are your (plural/formal) things?"
+  },
+  {
+    "id": "a1-part-1-121",
+    "ru": "Они врачи.",
+    "ruStressed": "Они́ врачи́.",
+    "translit": "Oni vrachi.",
+    "en": "They are doctors."
+  },
+  {
+    "id": "a1-part-1-122",
+    "ru": "Мы дома.",
+    "ruStressed": "Мы до́ма.",
+    "translit": "My doma.",
+    "en": "We are at home."
+  },
+  {
+    "id": "a1-part-1-123",
+    "ru": "Она менеджер.",
+    "ruStressed": "Она́ ме́неджер.",
+    "translit": "Ona menedzher.",
+    "en": "She is a manager."
+  },
+  {
+    "id": "a1-part-1-124",
+    "ru": "Я турист.",
+    "ruStressed": "Я тури́ст.",
+    "translit": "Ya turist.",
+    "en": "I am a tourist."
+  },
+  {
+    "id": "a1-part-1-125",
+    "ru": "Это нормально.",
+    "ruStressed": "Э́то норма́льно.",
+    "translit": "Eto normalno.",
+    "en": "It is ok (normal)."
+  },
+  {
+    "id": "a1-part-1-126",
+    "ru": "Всё хорошо.",
+    "ruStressed": "Всё хорошо́.",
+    "translit": "Vsyo khorosho.",
+    "en": "Everything is fine."
+  },
+  {
+    "id": "a1-part-1-127",
+    "ru": "Это книга?",
+    "ruStressed": "Э́то кни́га?",
+    "translit": "Eto kniga?",
+    "en": "Is it a book?"
+  },
+  {
+    "id": "a1-part-1-128",
+    "ru": "Где окно?",
+    "ruStressed": "Где окно́?",
+    "translit": "Gde okno?",
+    "en": "Where is the window?"
+  },
+  {
+    "id": "a1-part-1-129",
+    "ru": "Кот красивый.",
+    "ruStressed": "Кот краси́вый.",
+    "translit": "Kot krasivyy.",
+    "en": "The cat is beautiful."
+  },
+  {
+    "id": "a1-part-1-130",
+    "ru": "Это кофе.",
+    "ruStressed": "Э́то ко́фе.",
+    "translit": "Eto kofe.",
+    "en": "It is coffee."
+  },
+  {
+    "id": "a1-part-1-131",
+    "ru": "Вы на работе?",
+    "ruStressed": "Вы на рабо́те?",
+    "translit": "Vy na rabote?",
+    "en": "Are you at work? (plural/formal/you guys)"
+  },
+  {
+    "id": "a1-part-1-132",
+    "ru": "Это я.",
+    "ruStressed": "Э́то я.",
+    "translit": "Eto ya.",
+    "en": "It's me."
+  },
+  {
+    "id": "a1-part-1-133",
+    "ru": "Где они?",
+    "ruStressed": "Где они́?",
+    "translit": "Gde oni?",
+    "en": "Where are they?"
+  },
+  {
+    "id": "a1-part-1-134",
+    "ru": "Он в школе.",
+    "ruStressed": "Он в шко́ле.",
+    "translit": "On v shkole.",
+    "en": "He is at school."
+  },
+  {
+    "id": "a1-part-1-135",
+    "ru": "Она в музее.",
+    "ruStressed": "Она́ в музе́е.",
+    "translit": "Ona v muzee.",
+    "en": "She is at the museum."
+  },
+  {
+    "id": "a1-part-1-136",
+    "ru": "Вы дизайнер.",
+    "ruStressed": "Вы диза́йнер.",
+    "translit": "Vy dizayner.",
+    "en": "You are a designer. (formal)"
+  },
+  {
+    "id": "a1-part-1-137",
+    "ru": "Ты занят?",
+    "ruStressed": "Ты за́нят?",
+    "translit": "Ty zanyat?",
+    "en": "Are you busy? (informal)"
+  },
+  {
+    "id": "a1-part-1-138",
+    "ru": "Это наше такси.",
+    "ruStressed": "Э́то на́ше такси́.",
+    "translit": "Eto nashe taksi.",
+    "en": "This is our taxi."
+  },
+  {
+    "id": "a1-part-1-139",
+    "ru": "Он в офисе?",
+    "ruStressed": "Он в о́фисе?",
+    "translit": "On v ofise?",
+    "en": "Is he at the office?"
+  },
+  {
+    "id": "a1-part-1-140",
+    "ru": "Она в банке.",
+    "ruStressed": "Она́ в ба́нке.",
+    "translit": "Ona v banke.",
+    "en": "She is at the bank."
+  },
+  {
+    "id": "a1-part-1-141",
+    "ru": "Вы дома?",
+    "ruStressed": "Вы до́ма?",
+    "translit": "Vy doma?",
+    "en": "Are you at home? (formal)"
+  },
+  {
+    "id": "a1-part-1-142",
+    "ru": "Я менеджер.",
+    "ruStressed": "Я ме́неджер.",
+    "translit": "Ya menedzher.",
+    "en": "I am a manager."
+  },
+  {
+    "id": "a1-part-1-143",
+    "ru": "Ты пилот.",
+    "ruStressed": "Ты пило́т.",
+    "translit": "Ty pilot.",
+    "en": "You are a pilot. (informal)"
+  },
+  {
+    "id": "a1-part-1-144",
+    "ru": "До скорого.",
+    "ruStressed": "До ско́рого.",
+    "translit": "Do skorogo.",
+    "en": "See you soon."
+  },
+  {
+    "id": "a1-part-1-145",
+    "ru": "Мы студенты.",
+    "ruStressed": "Мы студе́нты.",
+    "translit": "My studenty.",
+    "en": "We are students."
+  },
+  {
+    "id": "a1-part-1-146",
+    "ru": "Она учительница.",
+    "ruStressed": "Она́ учи́тельница.",
+    "translit": "Ona uchitelnitsa.",
+    "en": "She is a teacher."
+  },
+  {
+    "id": "a1-part-1-147",
+    "ru": "Где музей?",
+    "ruStressed": "Где музе́й?",
+    "translit": "Gde muzey?",
+    "en": "Where is the museum?"
+  },
+  {
+    "id": "a1-part-1-148",
+    "ru": "Она менеджер?",
+    "ruStressed": "Она́ ме́неджер?",
+    "translit": "Ona menedzher?",
+    "en": "Is she a manager?"
+  },
+  {
+    "id": "a1-part-1-149",
+    "ru": "Мы в Москве.",
+    "ruStressed": "Мы в Москве́.",
+    "translit": "My v Moskve.",
+    "en": "We are in Moscow."
+  },
+  {
+    "id": "a1-part-1-150",
+    "ru": "Кто они?",
+    "ruStressed": "Кто они́?",
+    "translit": "Kto oni?",
+    "en": "Who are they?"
   }
 ]
