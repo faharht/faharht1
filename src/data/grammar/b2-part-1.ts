@@ -9,7 +9,7 @@ export const b2Part1: GrammarPack = {
       "body": "Active participles describe someone doing an action. To form the **present** (doing), take the _3rd person plural_ form and replace **-т** with **-щий**. To form the **past** (did), take the _past tense_ stem and add **-вший**. Use these when the noun is the subject of the action.",
       "examples": [
         {
-          "ru": "Женщина, сидящая у окна, — моя сестра.连},{en:",
+          "ru": "Женщина, сидящая у окна, — моя сестра.",
           "en": "The woman sitting by the window is my sister."
         }
       ]
