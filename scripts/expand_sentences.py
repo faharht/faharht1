@@ -148,9 +148,12 @@ def expand_list(list_id):
                 system=system,
             )
         except Exception as e:
-            print(f"  attempt {attempts} error: {e}")
-            time.sleep(2)
+            msg = str(e)
+            wait = 30 if "Rate limited" in msg or "429" in msg else 3
+            print(f"  attempt {attempts} error: {e} (sleeping {wait}s)")
+            time.sleep(wait)
             continue
+
 
         new_items = []
         for raw in data.get("sentences", []):
