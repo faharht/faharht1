@@ -9,11 +9,16 @@ export interface GrammarNote {
   // Markdown-lite: **bold** and _italic_ supported by renderInline().
   body: string;
   examples?: GrammarExample[];
+  /** Explicit sentence IDs from the same list to surface under the note. */
+  matchIds?: string[];
+  /** Fallback: any sentence whose ru contains one of these substrings. */
+  match?: { contains?: string[] };
 }
 
 export interface GrammarPack {
   listId: string;
   intro?: string;
+  tags?: GrammarTag[];
   notes: GrammarNote[];
 }
 
@@ -35,7 +40,36 @@ import { b2Part3 } from "@/data/grammar/b2-part-3";
 import { b2Part4 } from "@/data/grammar/b2-part-4";
 import { top300Verbs } from "@/data/grammar/top-300-verbs";
 
-const PACKS: Record<string, GrammarPack> = {
+/** Canonical, curated vocabulary for the home-page tag filter. */
+export const GRAMMAR_TAGS = [
+  "present tense",
+  "past tense",
+  "future tense",
+  "aspect",
+  "pronouns",
+  "nouns",
+  "adjectives",
+  "adverbs",
+  "prepositions",
+  "cases",
+  "nominative",
+  "genitive",
+  "dative",
+  "accusative",
+  "instrumental",
+  "prepositional",
+  "modals",
+  "reflexive",
+  "conditionals",
+  "participles",
+  "gerunds",
+  "comparatives",
+  "indirect speech",
+  "idioms",
+] as const;
+export type GrammarTag = (typeof GRAMMAR_TAGS)[number];
+
+const RAW_PACKS: Record<string, GrammarPack> = {
   "a1-part-1": a1Part1,
   "a1-part-2": a1Part2,
   "a1-part-3": a1Part3,
@@ -55,7 +89,178 @@ const PACKS: Record<string, GrammarPack> = {
   "top-300-verbs": top300Verbs,
 };
 
+/**
+ * Overlay of tags + per-note auto-match keywords. Stored separately from the
+ * generated pack files so we don't have to touch each file to evolve the
+ * filtering and "from this list" linking.
+ */
+const OVERLAY: Record<
+  string,
+  { tags?: GrammarTag[]; matches?: Array<{ contains?: string[] }> }
+> = {
+  "a1-part-1": {
+    tags: ["pronouns", "present tense"],
+    matches: [
+      { contains: ["Как тебя", "Как вас", "Здравствуйте", "Привет"] },
+      { contains: ["Я ", "Это ", "Меня зовут", "— "] },
+      { contains: ["я", "ты", "он", "она", "мы", "вы", "они"] },
+    ],
+  },
+  "a1-part-2": {
+    tags: ["nouns", "adjectives"],
+    matches: [
+      { contains: ["мой", "моя", "моё", "мои"] },
+      { contains: ["У меня", "У тебя", "У него", "У неё"] },
+      { contains: ["один", "два", "три", "четыре", "пять"] },
+    ],
+  },
+  "a1-part-3": {
+    tags: ["present tense", "reflexive"],
+    matches: [
+      { contains: ["читаю", "читаешь", "читает", "читаем", "читают"] },
+      { contains: ["говорю", "говоришь", "говорит", "говорим", "говорят"] },
+      { contains: ["люблю", "вижу", "хожу"] },
+    ],
+  },
+  "a1-part-4": {
+    tags: ["prepositions", "prepositional"],
+    matches: [
+      { contains: ["в школе", "на работе", "в Москве", "в парке"] },
+      { contains: ["иду", "идёт", "еду", "едет"] },
+      { contains: ["Где", "Куда", "Откуда"] },
+    ],
+  },
+  "a2-part-1": {
+    tags: ["past tense", "aspect"],
+    matches: [
+      { contains: ["читал", "читала", "читали", "читало"] },
+      { contains: ["прочитал", "написал", "сделал", "сказал"] },
+      { contains: ["вчера", "раньше", "всегда", "иногда", "никогда"] },
+    ],
+  },
+  "a2-part-2": {
+    tags: ["accusative", "modals"],
+    matches: [
+      { contains: ["хочу", "хочешь", "хочет", "хотим", "хотят"] },
+      { contains: ["могу", "можешь", "может", "можем", "могут"] },
+      { contains: ["должен", "должна", "должны", "нужно", "надо"] },
+    ],
+  },
+  "a2-part-3": {
+    tags: ["future tense", "aspect"],
+    matches: [
+      { contains: ["буду", "будешь", "будет", "будем", "будете", "будут"] },
+      { contains: ["прочитаю", "напишу", "сделаю", "куплю"] },
+      { contains: ["завтра", "послезавтра", "поедем", "поеду"] },
+    ],
+  },
+  "a2-part-4": {
+    tags: ["dative", "adverbs"],
+    matches: [
+      { contains: ["Мне холодно", "Мне жарко", "Мне скучно", "Мне грустно"] },
+      { contains: ["нравится", "нравятся"] },
+      { contains: ["нужно", "надо"] },
+    ],
+  },
+  "b1-part-1": {
+    tags: ["pronouns", "reflexive"],
+    matches: [
+      { contains: ["думаю, что", "мне кажется", "по-моему", "считаю"] },
+      { contains: ["учусь", "занимаюсь", "нравится", "бо"] },
+    ],
+  },
+  "b1-part-2": {
+    tags: ["conditionals"],
+    matches: [
+      { contains: ["если", "Если"] },
+      { contains: ["бы "] },
+    ],
+  },
+  "b1-part-3": {
+    tags: ["instrumental"],
+    matches: [
+      { contains: ["с другом", "с подругой", "с семьёй"] },
+      { contains: ["работаю", "работает", "занимаюсь"] },
+      { contains: ["ручкой", "карандашом", "ложкой"] },
+    ],
+  },
+  "b1-part-4": {
+    tags: ["comparatives", "adjectives"],
+    matches: [
+      { contains: ["больше", "меньше", "лучше", "хуже"] },
+      { contains: ["самый", "самая", "самое", "самые"] },
+      { contains: ["чем "] },
+    ],
+  },
+  "b2-part-1": {
+    tags: ["participles"],
+    matches: [
+      { contains: ["ющий", "ущий", "ящий", "ащий"] },
+      { contains: ["вший", "вшая", "вшие"] },
+      { contains: ["нный", "нная", "нные", "тый"] },
+    ],
+  },
+  "b2-part-2": {
+    tags: ["gerunds"],
+    matches: [
+      { contains: ["читая", "говоря", "идя", "глядя", "слушая"] },
+      { contains: ["прочитав", "сказав", "сделав", "закончив"] },
+    ],
+  },
+  "b2-part-3": {
+    tags: ["idioms"],
+    matches: [
+      { contains: ["спустя рукава", "вешать лапшу", "как говорится"] },
+      { contains: ["дело в том", "на самом деле", "тем не менее"] },
+    ],
+  },
+  "b2-part-4": {
+    tags: ["indirect speech"],
+    matches: [
+      { contains: [" что ", " ли "] },
+      { contains: ["сказал, что", "спросил", "ответил"] },
+    ],
+  },
+  "top-300-verbs": {
+    tags: ["aspect"],
+  },
+};
+
+function applyOverlay(pack: GrammarPack): GrammarPack {
+  const overlay = OVERLAY[pack.listId];
+  if (!overlay) return pack;
+  const matches = overlay.matches ?? [];
+  return {
+    ...pack,
+    tags: overlay.tags ?? pack.tags,
+    notes: pack.notes.map((note, i) => ({
+      ...note,
+      match: note.match ?? matches[i],
+    })),
+  };
+}
+
+const PACKS: Record<string, GrammarPack> = Object.fromEntries(
+  Object.entries(RAW_PACKS).map(([k, v]) => [k, applyOverlay(v)]),
+);
 
 export function getGrammar(listId: string): GrammarPack | undefined {
   return PACKS[listId];
+}
+
+/** Tag -> list of listIds that mention that tag. Used for home-page filtering. */
+export function buildTagIndex(): Record<GrammarTag, string[]> {
+  const out = {} as Record<GrammarTag, string[]>;
+  for (const tag of GRAMMAR_TAGS) out[tag] = [];
+  for (const [listId, pack] of Object.entries(PACKS)) {
+    for (const t of pack.tags ?? []) {
+      if (!out[t]) out[t] = [];
+      out[t].push(listId);
+    }
+  }
+  return out;
+}
+
+export function listTagsFor(listId: string): GrammarTag[] {
+  return PACKS[listId]?.tags ?? [];
 }
