@@ -978,6 +978,4 @@ function resolveMatches(
   return out.slice(0, 5);
 }
 
-    </Sheet>
-  );
-}
+
