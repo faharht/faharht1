@@ -243,29 +243,6 @@ function HomePage() {
             )}
           </div>
 
-          {/* Grammar tag chip strip */}
-          <div className="mt-2 -mx-4 overflow-x-auto px-4">
-            <div className="flex w-max gap-1.5 pb-1">
-              {activeTags.map((t) => {
-                const on = search.tags.includes(t);
-                return (
-                  <button
-                    key={t}
-                    onClick={() => toggleTag(t)}
-                    aria-pressed={on}
-                    className={cn(
-                      "h-7 shrink-0 rounded-full border px-2.5 text-[11px] font-medium capitalize transition",
-                      on
-                        ? "border-primary bg-primary/10 text-primary"
-                        : "border-border/50 bg-card text-muted-foreground hover:border-primary/30 hover:text-foreground",
-                    )}
-                  >
-                    {t}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
 
           {filterActive && (
             <p className="mt-1 text-xs text-muted-foreground">
