@@ -712,5 +712,341 @@
     "ruStressed": "Я по́нял, что был непра́в.",
     "translit": "Ya ponyal, chto byl neprav.",
     "en": "I realized I was wrong."
+  },
+  {
+    "id": "b1-part-1-103",
+    "ru": "Я чувствую, что нам стоит поговорить об этом позже.",
+    "ruStressed": "Я чу́вствую, что нам сто́ит поговори́ть об э́том по́зже.",
+    "translit": "Ya chuvstvuyu, chto nam stoit pogovorit ob etom pozzhe.",
+    "en": "I feel that we should talk about this later."
+  },
+  {
+    "id": "b1-part-1-104",
+    "ru": "Мне кажется, что ты переживаешь без серьёзной причины.",
+    "ruStressed": "Мне ка́жется, что ты пережива́ешь без серьёзной причи́ны.",
+    "translit": "Mne kazhetsya, chto ty perezhivaesh bez seryoznoy prichiny.",
+    "en": "It seems to me that you are worrying for no reason."
+  },
+  {
+    "id": "b1-part-1-105",
+    "ru": "Если он вернётся, скажи ему, пожалуйста, что я звонил.",
+    "ruStressed": "Е́сли он вернётся, скажи́ ему́, пожа́луйста, что я звони́л.",
+    "translit": "Esli on vernyotsya, skazhi emu, pozhaluysta, chto ya zvonil.",
+    "en": "If he returns, please tell him that I called."
+  },
+  {
+    "id": "b1-part-1-106",
+    "ru": "Я уверен в том, что этот проект будет успешным.",
+    "ruStressed": "Я уве́рен в том, что э́тот прое́кт бу́дет успе́шным.",
+    "translit": "Ya uveren v tom, chto etot proekt budet uspeshnym.",
+    "en": "I am sure that this project will be successful."
+  },
+  {
+    "id": "b1-part-1-107",
+    "ru": "Мы решили пойти домой, потому что погода испортилась.",
+    "ruStressed": "Мы реши́ли пойти́ домо́й, потому́ что пого́да испо́ртилась.",
+    "translit": "My reshili poyti domoy, potomu chto pogoda isportilas.",
+    "en": "We decided to go home because the weather got worse."
+  },
+  {
+    "id": "b1-part-1-108",
+    "ru": "Тебе не кажется, что это задание слишком сложное?",
+    "ruStressed": "Тебе́ не ка́жется, что э́то зада́ние сли́шком сло́жное?",
+    "translit": "Tebe ne kazhetsya, chto eto zadanie slishkom slozhnoe?",
+    "en": "Does it seem to you that this task is too difficult?"
+  },
+  {
+    "id": "b1-part-1-109",
+    "ru": "Мне интересно, как люди умудрялись жить без интернета.",
+    "ruStressed": "Мне интере́сно, как лю́ди умудря́лись жить без интерне́та.",
+    "translit": "Mne interesno, kak lyudi umudryalis zhit bez interneta.",
+    "en": "I am interested in how people managed to live without internet."
+  },
+  {
+    "id": "b1-part-1-110",
+    "ru": "Она извинилась за то, что опоздала на встречу.",
+    "ruStressed": "Она́ извини́лась за то, что опозда́ла на встре́чу.",
+    "translit": "Ona izvinyalas za to, chto opozdala na vstrechu.",
+    "en": "She apologized for being late for the meeting."
+  },
+  {
+    "id": "b1-part-1-111",
+    "ru": "Я очень расстроился, когда узнал о результатах экзамена.",
+    "ruStressed": "Я о́чень расстро́ился, когда́ узна́л о результа́тах экза́мена.",
+    "translit": "Ya ochen rasstroilsya, kogda uznal o rezultatakh ekzamena.",
+    "en": "I was very upset when I found out the results."
+  },
+  {
+    "id": "b1-part-1-112",
+    "ru": "Попробуй посмотреть на эту ситуацию с другой стороны.",
+    "ruStressed": "Попро́буй посмотре́ть на э́ту ситуа́цию с друго́й стороны́.",
+    "translit": "Poprobuy posmotret na etu situatsiyu s drugoy storony.",
+    "en": "Try to look at this situation from a different angle."
+  },
+  {
+    "id": "b1-part-1-113",
+    "ru": "Я предполагаю, что собрание продлится около двух часов.",
+    "ruStressed": "Я предполага́ю, что собра́ние продли́тся о́коло двух часо́в.",
+    "translit": "Ya predpolagayu, chto sobranie prodlitsya okolo dvukh chasov.",
+    "en": "I assume that the meeting will take about two hours."
+  },
+  {
+    "id": "b1-part-1-114",
+    "ru": "По-моему, каждый человек должен заботиться о природе.",
+    "ruStressed": "По-мое́му, ка́ждый челове́к до́лжен забо́титься о приро́де.",
+    "translit": "Po-moemu, kazhdyy chelovek dolzhen zabotitsya o prirode.",
+    "en": "In my opinion, everyone should take care of nature."
+  },
+  {
+    "id": "b1-part-1-115",
+    "ru": "Он боится того, что не найдёт хорошую работу.",
+    "ruStressed": "Он бои́тся того́, что не найдёт хоро́шую рабо́ту.",
+    "translit": "On boitsya togo, chto ne naydyot khoroshuyu rabotu.",
+    "en": "He is afraid that he won't find a good job."
+  },
+  {
+    "id": "b1-part-1-116",
+    "ru": "Я согласен с тобой, потому что твои аргументы убедительны.",
+    "ruStressed": "Я согла́сен с тобо́й, потому́ что твои́ аргуме́нты убеди́тельны.",
+    "translit": "Ya soglasen s toboy, potomu chto tvoi argumenty ubeditelny.",
+    "en": "I agree with you because your arguments are convincing."
+  },
+  {
+    "id": "b1-part-1-117",
+    "ru": "Я удивился тому, что мне никто не открыл дверь.",
+    "ruStressed": "Я удиви́лся тому́, что мне никто́ не откры́л дверь.",
+    "translit": "Ya udivilsya tomu, chto mne nikto ne otkryl dver.",
+    "en": "I was surprised that no one answered the door."
+  },
+  {
+    "id": "b1-part-1-118",
+    "ru": "Меня радует, что ты начал заниматься спортом.",
+    "ruStressed": "Меня́ ра́дует, что ты на́чал занима́ться спо́ртом.",
+    "translit": "Menya raduet, chto ty nachal zanimatsya sportom.",
+    "en": "It makes me happy that you started doing sports."
+  },
+  {
+    "id": "b1-part-1-119",
+    "ru": "Расскажи мне, что ты думаешь о нашем новом офисе.",
+    "ruStressed": "Расскажи́ мне, что ты ду́маешь о на́шем но́вом о́фисе.",
+    "translit": "Rasskazhi mne, chto ty dumaesh o nashem novom ofise.",
+    "en": "Tell me what you think about our new office."
+  },
+  {
+    "id": "b1-part-1-120",
+    "ru": "Я доволен тем, что мы выбрали именно этот отель.",
+    "ruStressed": "Я дово́лен тем, что мы вы́брали и́менно э́тот оте́ль.",
+    "translit": "Ya dovolen tem, chto my vybrali imenno etot otel.",
+    "en": "I am glad that we chose exactly this hotel."
+  },
+  {
+    "id": "b1-part-1-121",
+    "ru": "Он утверждает, что никогда не был в Москве.",
+    "ruStressed": "Он утвержда́ет, что никогда́ не был в Москве́.",
+    "translit": "On utverzhdaet, chto nikogda ne byl v Moskve.",
+    "en": "He claims that he has never been to Moscow."
+  },
+  {
+    "id": "b1-part-1-122",
+    "ru": "Я надеюсь, что ты передумаешь и согласишься с нами.",
+    "ruStressed": "Я наде́юсь, что ты переду́маешь и согласи́шься с на́ми.",
+    "translit": "Ya nadeyus, chto ty peredumaesh i soglasishsya s nami.",
+    "en": "I hope that you will change your mind later."
+  },
+  {
+    "id": "b1-part-1-123",
+    "ru": "Я сильно сомневаюсь в том, что эта новость правдива.",
+    "ruStressed": "Я си́льно сомнева́юсь в том, что э́та но́вость правди́ва.",
+    "translit": "Ya silno somnevayus v tom, chto eta novost pravdiva.",
+    "en": "I strongly doubt that this news is true."
+  },
+  {
+    "id": "b1-part-1-124",
+    "ru": "Мне кажется, что вы уже очень давно не отдыхали.",
+    "ruStressed": "Мне ка́жется, что вы уже́ о́чень давно́ не отдыха́ли.",
+    "translit": "Mne kazhetsya, chto vy uzhe ochen davno ne otdykhali.",
+    "en": "It seems to me that you haven't rested for a long time."
+  },
+  {
+    "id": "b1-part-1-125",
+    "ru": "Честно говоря, я очень расстроилась из-за вашего отказа.",
+    "ruStressed": "Че́стно говоря́, я о́чень расстро́илась из-за ва́шего отка́за.",
+    "translit": "Chestno govorya, ya ochen rasstroilas iz-za vashego otkaza.",
+    "en": "Honestly, I was very upset because of your refusal."
+  },
+  {
+    "id": "b1-part-1-126",
+    "ru": "Скажи мне, о чём ты обычно волнуешься перед экзаменами?",
+    "ruStressed": "Скажи́ мне, о чём ты обы́чно волну́ешься пе́ред экза́менами?",
+    "translit": "Skazhi mne, o chyom ty obychno volnueshsya pered ekzamenami?",
+    "en": "Tell me, what do you usually worry about before exams?"
+  },
+  {
+    "id": "b1-part-1-127",
+    "ru": "Я подозреваю, что он снова забыл про нашу встречу.",
+    "ruStressed": "Я подозрева́ю, что он сно́ва забы́л про на́шу встре́чу.",
+    "translit": "Ya podozrevayu, chto on snova zabyl pro nashu vstrechu.",
+    "en": "I suspect that he forgot about our meeting again."
+  },
+  {
+    "id": "b1-part-1-128",
+    "ru": "По мнению экспертов, этот язык довольно легко выучить.",
+    "ruStressed": "По мне́нию экспе́ртов, э́тот язы́к дово́льно легко́ вы́учить.",
+    "translit": "Po mneniyu ekspertov, etot yazyk dovolno legko vyuchit.",
+    "en": "According to experts, this language is quite easy to learn."
+  },
+  {
+    "id": "b1-part-1-129",
+    "ru": "Я рад, что нам наконец удалось договориться между собой.",
+    "ruStressed": "Я рад, что нам наконе́ц удало́сь договори́ться ме́жду собо́й.",
+    "translit": "Ya rad, chto nam nakonets udalos dogovoritsya mezhdu soboy.",
+    "en": "I am glad that we finally managed to reach an agreement."
+  },
+  {
+    "id": "b1-part-1-130",
+    "ru": "Если ты интересуешься этой темой, я могу посоветовать книгу.",
+    "ruStressed": "Е́сли ты интересу́ешься э́той те́мой, я могу́ посове́товать кни́гу.",
+    "translit": "Esli ty interesueshsya etoy temoy, ya mogu posovetovat knigu.",
+    "en": "If you are interested in this topic, I can advise you a book."
+  },
+  {
+    "id": "b1-part-1-131",
+    "ru": "Что вы думаете по поводу новых изменений в законе?",
+    "ruStressed": "Что вы ду́маете по по́воду но́вых измене́ний в зако́не?",
+    "translit": "Chto vy dumaete po povodu novykh izmeneniy v zakone.",
+    "en": "What do you think about the new changes in the law?"
+  },
+  {
+    "id": "b1-part-1-132",
+    "ru": "Студент решил извиниться, потому что осознал свою ошибку.",
+    "ruStressed": "Студе́нт реши́л извини́ться, потому́ что осозна́л свою́ оши́бку.",
+    "translit": "Student reshil izvunitsya, potomu chto osoznal svoyu oshibku.",
+    "en": "The student decided to apologize because he realized his mistake."
+  },
+  {
+    "id": "b1-part-1-133",
+    "ru": "Я абсолютно убеждён, что упорный труд ведёт к успеху.",
+    "ruStressed": "Я абсолю́тно убеждён, что упо́рный труд ведёт к успе́ху.",
+    "translit": "Ya absolyutno ubezhdyon, chto uporny trud vedyot k uspekhu.",
+    "en": "I am absolutely convinced that hard work leads to success."
+  },
+  {
+    "id": "b1-part-1-134",
+    "ru": "Постарайся не волноваться, если сегодня что-то пойдёт не так.",
+    "ruStressed": "Постара́йся не волнова́ться, е́сли сего́дня что-то пойдёт не так.",
+    "translit": "Postaraisya ne volnovatsya, esli segodnya chto-to poydyot ne tak.",
+    "en": "Try not to worry if something goes wrong today."
+  },
+  {
+    "id": "b1-part-1-135",
+    "ru": "Я с нетерпением жду нашей совместной поездки в горы.",
+    "ruStressed": "Я с нетерпе́нием жду на́шей совме́стной пое́здки в го́ры.",
+    "translit": "Ya s neterpeniem zhdu nashey sovmestnoy poezdki v gory.",
+    "en": "I am looking forward to our trip together to the mountains."
+  },
+  {
+    "id": "b1-part-1-136",
+    "ru": "Если честно, его поведение часто меня очень удивляет.",
+    "ruStressed": "Е́сли че́стно, его́ поведе́ние ча́сто меня́ о́чень удивля́ет.",
+    "translit": "Esli chestno, ego povedenie chasto menya ochen udivlyaet.",
+    "en": "To be honest, his behavior often surprises me."
+  },
+  {
+    "id": "b1-part-1-137",
+    "ru": "Я настоятельно рекомендую проверить все документы перед подписанием.",
+    "ruStressed": "Я настоя́тельно рекоменду́ю прове́рить все докуме́нты пе́ред подписа́нием.",
+    "translit": "Ya nastoyatelno rekomenduyu proverit vse dokumenty pered podpisaniem.",
+    "en": "I strongly recommend checking all the documents before signing."
+  },
+  {
+    "id": "b1-part-1-138",
+    "ru": "Он часто жалуется на то, что ему не хватает времени.",
+    "ruStressed": "Он ча́сто жа́луется на то, что ему́ не хвата́ет вре́мени.",
+    "translit": "On chasto zhaluetsya na to, chto emu ne khvataet vremeni.",
+    "en": "He often complains that he doesn't have enough free time."
+  },
+  {
+    "id": "b1-part-1-139",
+    "ru": "Я был очень тронут, когда получил твоё электронное письмо.",
+    "ruStressed": "Я был о́чень тро́нут, когда́ получи́л твоё электро́нное письмо́.",
+    "translit": "Ya byl ochen tronut, kogda poluchil tvoyo elektronnoe pismo.",
+    "en": "I was very moved when I received your letter."
+  },
+  {
+    "id": "b1-part-1-140",
+    "ru": "Стоит обдумать все варианты, прежде чем делать выбор.",
+    "ruStressed": "Сто́ит обду́мать все вариа́нты, пре́жде чем де́лать вы́бор.",
+    "translit": "Stoit obdumat vse varianty, prezhde chem delat vybor.",
+    "en": "It pays to consider all options before making a choice."
+  },
+  {
+    "id": "b1-part-1-141",
+    "ru": "Ты уверен в том, что узнаешь его на вокзале?",
+    "ruStressed": "Ты уве́рен в том, что узна́ешь его́ на вокза́ле?",
+    "translit": "Ty uveren v tom, chto uznaesh ego na vokzale?",
+    "en": "Are you sure that you will recognize him at the station?"
+  },
+  {
+    "id": "b1-part-1-142",
+    "ru": "Большинство людей считает, что образование — это ключ к будущему.",
+    "ruStressed": "Большинство́ люде́й счита́ет, что образова́ние — э́то ключ к бу́дущему.",
+    "translit": "Bolshinstvo lyudey schitaet, chto obrazovanie - eto klyuch k budushchemu.",
+    "en": "Most people believe that education is the key to the future."
+  },
+  {
+    "id": "b1-part-1-143",
+    "ru": "Я подозреваю, что они скрывают от нас что-то важное.",
+    "ruStressed": "Я подозрева́ю, что они́ скрыва́ют от нас что́-то ва́жное.",
+    "translit": "Ya podozrevayu, chto oni skryvayut ot nas chto-to vazhnoe.",
+    "en": "I suspect that they are hiding something important from us."
+  },
+  {
+    "id": "b1-part-1-144",
+    "ru": "Мне кажется, что общественный транспорт должен быть бесплатным.",
+    "ruStressed": "Мне ка́жется, что обще́ственный тра́нспорт до́лжен быть беспла́тным.",
+    "translit": "Mne kazhetsya, chto obshchestvennyy transport dolzhen byt besplatnym.",
+    "en": "It seems to me that public transport should be free."
+  },
+  {
+    "id": "b1-part-1-145",
+    "ru": "Не расстраивайся, если у тебя не получится закончить работу сегодня.",
+    "ruStressed": "Не расстра́ивайся, е́сли у тебя́ не полу́чится зако́нчить рабо́ту сего́дня.",
+    "translit": "Ne rasstraivaysya, esli u tebya ne poluchitsya zakonchit rabotu segodnya.",
+    "en": "Don't be upset if you can't finish the work today."
+  },
+  {
+    "id": "b1-part-1-146",
+    "ru": "Директор настаивает, чтобы все сотрудники участвовали в собрании.",
+    "ruStressed": "Дире́ктор наста́ивает, что́бы все сотру́дники уча́ствовали в собра́нии.",
+    "translit": "Direktor nastaivaet, chtoby vse sotrudniki uchastvovali v sobranii.",
+    "en": "The director insists that all employees participate in the meeting."
+  },
+  {
+    "id": "b1-part-1-147",
+    "ru": "Я не возражаю, если мы проведём этот вечер дома.",
+    "ruStressed": "Я не возража́ю, е́сли мы проведём э́тот ве́чер до́ма.",
+    "translit": "Ya ne vozrazhayu, esli my provedem etot vecher doma.",
+    "en": "I don't mind if we spend the evening at home."
+  },
+  {
+    "id": "b1-part-1-148",
+    "ru": "Её интересует, как современные технологии влияют на нашу жизнь.",
+    "ruStressed": "Её интересу́ет, как совреме́нные техноло́гии влия́ют на на́шу жизнь.",
+    "translit": "Ee interesuet, kak sovremennye tekhnologii vliyayut na nashu zhizn.",
+    "en": "She is interested in how modern technology affects our lives."
+  },
+  {
+    "id": "b1-part-1-149",
+    "ru": "Скажи мне, ты согласен с мнением большинства?",
+    "ruStressed": "Скажи́ мне, ты согла́сен с мне́нием большинства́?",
+    "translit": "Skazhi mne, ty soglasen s mneniem bolshinstva?",
+    "en": "Tell me, do you agree with the opinion of the majority?"
+  },
+  {
+    "id": "b1-part-1-150",
+    "ru": "Я жалею, что не послушал твоего совета раньше.",
+    "ruStressed": "Я жале́ю, что не послу́шал твоего́ сове́та ра́ньше.",
+    "translit": "Ya zhaleyu, chto ne poslushal tvoego soveta ranshe.",
+    "en": "I regret that I didn't listen to your advice earlier."
   }
 ]

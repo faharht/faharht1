@@ -1034,5 +1034,19 @@
     "ruStressed": "На како́й платфо́рме бу́дет по́езд?",
     "translit": "Na kakoy platforme budet poyezd?",
     "en": "Which platform will the train be at?"
+  },
+  {
+    "id": "a2-part-3-149",
+    "ru": "Посмотри цену билета в приложении.",
+    "ruStressed": "Посмотри́ це́ну биле́та в приложе́нии.",
+    "translit": "Posmotri tsenu bileta v prilozhenii.",
+    "en": "Check the ticket price in the app."
+  },
+  {
+    "id": "a2-part-3-150",
+    "ru": "Мы будем гулять по городу весь день.",
+    "ruStressed": "Мы бу́дем гуля́ть по го́роду весь день.",
+    "translit": "My budem gulyat' po gorodu ves' den'.",
+    "en": "We will walk around the city all day."
   }
 ]

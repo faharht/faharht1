@@ -698,5 +698,355 @@
     "ruStressed": "Я рад, что вы́брал э́тот университе́т, хотя́ учи́ться о́чень тру́дно.",
     "translit": "Ya rad, chto vybral etot universitet, khotya uchitsya ochen trudno.",
     "en": "I'm glad that I chose this university, although the studies are very difficult."
+  },
+  {
+    "id": "b1-part-2-101",
+    "ru": "Я думаю, что этот проект будет очень успешным благодаря нашей команде.",
+    "ruStressed": "Я ду́маю, что э́тот прое́кт бу́дет о́чень успе́шным благодаря́ на́шей кома́нде.",
+    "translit": "Ya dumayu, chto etot proekt budet ochen uspeshnym blagodarya nashey komande.",
+    "en": "I think that this project will be very successful because of our team."
+  },
+  {
+    "id": "b1-part-2-102",
+    "ru": "Если бы он знал о собрании, он бы подготовил презентацию.",
+    "ruStressed": "Е́сли бы он знал о собра́нии, он бы подгото́вил презента́цию.",
+    "translit": "Esli by on znal o sobranii, on by podgotovil prezentatsiyu.",
+    "en": "If he had known about the meeting, he would have prepared a presentation."
+  },
+  {
+    "id": "b1-part-2-103",
+    "ru": "Почему ты не сказал, что тебе нужна помощь с этим трудным заданием?",
+    "ruStressed": "Почему́ ты не сказа́л, что тебе́ нужна́ по́мощь с э́тим тру́дным зада́нием?",
+    "translit": "Pochemu ty ne skazal, chto tebe nuzhna pomoshch s etim trudnym zadaniem?",
+    "en": "Why didn't you say that you need help with this difficult task?"
+  },
+  {
+    "id": "b1-part-2-104",
+    "ru": "Если мы выберем эту стратегию, мы удвоим прибыль через год.",
+    "ruStressed": "Е́сли мы вы́берем э́ту страте́гию, мы удво́им при́быль че́рез год.",
+    "translit": "Esli my vyberem etu strategiyu, my udvoim pribyl cherez god.",
+    "en": "If we choose this strategy, we will double our profit in a year."
+  },
+  {
+    "id": "b1-part-2-105",
+    "ru": "Когда я окончу университет, я перееду в другую страну ради работы.",
+    "ruStressed": "Когда́ я око́нчу университе́т, я перее́ду в другу́ю страну́ ра́ди рабо́ты.",
+    "translit": "Kogda ya okonchu universitet, ya pereedu v druguyu stranu radi raboty.",
+    "en": "When I finish the university, I will move to another country for work."
+  },
+  {
+    "id": "b1-part-2-106",
+    "ru": "Я бы купил новый ноутбук, если бы он не был таким дорогим.",
+    "ruStressed": "Я бы купи́л но́вый ноутбу́к, е́сли бы он не был таки́м дороги́м.",
+    "translit": "Ya by kupil novyy noutbuk, esli by on ne byl takim dorogim.",
+    "en": "I would buy a new laptop if it were not so expensive."
+  },
+  {
+    "id": "b1-part-2-107",
+    "ru": "Они весь день проверяли документы и наконец подтвердили заказ.",
+    "ruStressed": "Они́ весь день проверя́ли докуме́нты и наконе́ц подтверди́ли зака́з.",
+    "translit": "Oni ves den proveryali dokumenty i nakonets podtverdili zakaz.",
+    "en": "They were checking documents all day and finally confirmed the order."
+  },
+  {
+    "id": "b1-part-2-108",
+    "ru": "Если ты хочешь получить пятёрку, тебе стоит учиться чаще.",
+    "ruStressed": "Е́сли ты хо́чешь получи́ть пятёрку, тебе́ сто́ит учи́ться ча́ще.",
+    "translit": "Esli ty khochesh poluchit pyatyorku, tebe stoit uchitsya chashche.",
+    "en": "If you want to get an A, you should study more often."
+  },
+  {
+    "id": "b1-part-2-109",
+    "ru": "Я не ответил на звонок, потому что был занят на лекции.",
+    "ruStressed": "Я не отве́тил на звоно́к, потому́ что был за́нят на ле́кции.",
+    "translit": "Ya ne otvetil na zvonok, potomu chto byl zanyat na lektsii.",
+    "en": "I didn't answer the call because I was busy at the lecture."
+  },
+  {
+    "id": "b1-part-2-110",
+    "ru": "На твоём месте я бы подал заявку на ту вакансию в понедельник.",
+    "ruStressed": "На твоём ме́сте я бы по́дал зая́вку на ту вака́нсию в понеде́льник.",
+    "translit": "Na tvoyom meste ya by podal zayavku na tu vakansiyu v ponedelnik.",
+    "en": "In your place, I would apply for that vacancy on Monday."
+  },
+  {
+    "id": "b1-part-2-111",
+    "ru": "Если бы я учился усерднее, я бы сдал экзамен лучше.",
+    "ruStressed": "Е́сли бы я учи́лся усе́рднее, я бы сдал экза́мен лу́чше.",
+    "translit": "Esli by ya uchilsya userdnee, ya by sdal ekzamen luchshe.",
+    "en": "If I had studied harder, I would have passed the exam better."
+  },
+  {
+    "id": "b1-part-2-112",
+    "ru": "Что бы вы сделали, если бы вам предложили работу за границей?",
+    "ruStressed": "Что бы вы сде́лали, е́сли бы вам предложи́ли рабо́ту за грани́цей?",
+    "translit": "Chto by vy sdelali, esli by vam predlozhili rabotu za granitsey?",
+    "en": "What would you do if you were offered work abroad?"
+  },
+  {
+    "id": "b1-part-2-113",
+    "ru": "Пока коллеги спорили, он написал код и всё исправил.",
+    "ruStressed": "Пока́ колле́ги спо́рили, он написа́л код и всё испра́вил.",
+    "translit": "Poka kollegi sporili, on napisal kod i vsyo ispravil.",
+    "en": "While the colleagues were arguing, he wrote the code and fixed everything."
+  },
+  {
+    "id": "b1-part-2-114",
+    "ru": "Если я не найду решение сегодня вечером, завтра попрошу совета.",
+    "ruStressed": "Е́сли я не найду́ реше́ние сего́дня ве́чером, за́втра попрошу́ сове́та.",
+    "translit": "Esli ya ne naydu reshenie segodnya vecherom, zavtra poproshu soveta.",
+    "en": "If I don't find a solution tonight, I'll ask for advice tomorrow."
+  },
+  {
+    "id": "b1-part-2-115",
+    "ru": "Я искал работу месяц и наконец нашёл её.",
+    "ruStressed": "Я иска́л рабо́ту ме́сяц и наконе́ц нашёл её.",
+    "translit": "Ya iskal rabotu mesyats i nakonets nashol eyo.",
+    "en": "I had been looking for a job for a month and finally found it."
+  },
+  {
+    "id": "b1-part-2-116",
+    "ru": "Если мы переедем в новый офис, у всех будет больше места.",
+    "ruStressed": "Е́сли мы перее́дем в но́вый о́фис, у всех бу́дет бо́льше ме́ста.",
+    "translit": "Esli mi pereedem v novyy ofis, u vsekh budet bolshe mesta.",
+    "en": "If we move into a new office, everyone will have more space."
+  },
+  {
+    "id": "b1-part-2-117",
+    "ru": "Я убеждён, что языковая практика необходима для успешной учёбы.",
+    "ruStressed": "Я убеждён, что языкова́я пра́ктика необходи́ма для успе́шной учёбы.",
+    "translit": "Ya ubezhdyon, chto yazykovaya praktika neobkhodima dlya uspeshnoy uchyoby.",
+    "en": "I am convinced that language practice is necessary for successful study."
+  },
+  {
+    "id": "b1-part-2-118",
+    "ru": "Если ты потеряешь свой студенческий билет, тебе придётся писать заявление.",
+    "ruStressed": "Е́сли ты потеря́ешь свой студе́нческий биле́т, тебе́ придётся писа́ть заявле́ние.",
+    "translit": "Esli ty poteryaesh svoy studencheskiy bilet, tebe pridyotsya pisat zayavlenie.",
+    "en": "If you lose your student ID, you will have to write a statement."
+  },
+  {
+    "id": "b1-part-2-119",
+    "ru": "Она долго пыталась вспомнить пароль и вспомнила его.",
+    "ruStressed": "Она́ до́лго пыта́лась вспо́мнить паро́ль и вспо́мнила его́.",
+    "translit": "Ona dolgo pytalas vspomnit parol i vspomnila ego.",
+    "en": "She was trying to remember the password for a long time and remembered it."
+  },
+  {
+    "id": "b1-part-2-120",
+    "ru": "Скажи директору, что клиент согласился на наши условия.",
+    "ruStressed": "Скажи́ дире́ктору, что клие́нт согласи́лся на на́ши усло́вия.",
+    "translit": "Skazhi direktoru, chto klient soglasilsya na nashi usloviya.",
+    "en": "Tell the director that the client agreed to our conditions."
+  },
+  {
+    "id": "b1-part-2-121",
+    "ru": "Он долго думал и в конце концов согласился на наше предложение.",
+    "ruStressed": "Он до́лго ду́мал и в конце́ концо́в согласи́лся на на́ше предложе́ние.",
+    "translit": "On dolgo dumal i v kontse kontsov soglasilsya na nashe predlozhenie.",
+    "en": "He thought for a long time and finally agreed to our offer."
+  },
+  {
+    "id": "b1-part-2-122",
+    "ru": "Если ты поможешь мне с презентацией, мы закончим работу до вечера.",
+    "ruStressed": "Е́сли ты помо́жешь мне с презента́цией, мы зако́нчим рабо́ту до ве́чера.",
+    "translit": "Esli ty pomozhesh mne s prezentatsiey, my zakonchim rabotu do vechera.",
+    "en": "If you help me with the presentation, we'll finish before evening."
+  },
+  {
+    "id": "b1-part-2-123",
+    "ru": "Я бы ответил на ваше письмо, если бы увидел его раньше.",
+    "ruStressed": "Я бы отве́тил на ва́ше письмо́, е́сли бы уви́дел его́ ра́ньше.",
+    "translit": "Ya by otvetil na vashe pismo, esli by uvidel ego ranshe.",
+    "en": "I would have answered your email if I had seen it earlier."
+  },
+  {
+    "id": "b1-part-2-124",
+    "ru": "Она планирует взять год отдыха или будет сразу поступать в вуз?",
+    "ruStressed": "Она́ плани́рует взять год о́тдыха и́ли бу́дет сра́зу поступа́ть в вуз?",
+    "translit": "Ona planiruet vzyat god otdykha ili budet srazu postupat v vuz?",
+    "en": "Does she plan to take a gap year or will she enter a university immediately?"
+  },
+  {
+    "id": "b1-part-2-125",
+    "ru": "На твоём месте я бы посоветовался с юристом насчёт этого контракта.",
+    "ruStressed": "На твоём ме́сте я бы посове́товался с юри́стом насчёт э́того контра́кта.",
+    "translit": "Na tvoyom meste ya by posovetovalsya s yuristom naschyot etogo kontrakta.",
+    "en": "If I were you, I would consult with a lawyer about this contract."
+  },
+  {
+    "id": "b1-part-2-126",
+    "ru": "Преподаватель объяснял материал, пока студенты делали записи в тетрадях.",
+    "ruStressed": "Преподава́тель объясня́л материа́л, пока́ студе́нты де́лали за́писи в тетра́дях.",
+    "translit": "Prepodavatel obyasnyal material, poka studenty delali zapisi v tetradyakh.",
+    "en": "The teacher was explaining the material while the students were taking notes in their notebooks."
+  },
+  {
+    "id": "b1-part-2-127",
+    "ru": "Если они предложат мне высокую зарплату, я обязательно приму предложение.",
+    "ruStressed": "Е́сли они́ предло́жат мне высо́кую зарпла́ту, я обяза́тельно приму́ предложе́ние.",
+    "translit": "Esli oni predlozhat mne vysokuyu zarplatu, ya obyazatelno primu predlozhenie.",
+    "en": "If they offer me a high salary, I'll definitely accept the job."
+  },
+  {
+    "id": "b1-part-2-128",
+    "ru": "Вы бы поехали в командировку, если бы компания оплатила отель?",
+    "ruStressed": "Вы бы пое́хали в командиро́вку, е́сли бы компа́ния оплати́ла оте́ль?",
+    "translit": "Vy by poekhali v komandirovku, esli by kompaniya oplatila otel?",
+    "en": "Would you go on a business trip if the company paid for the hotel?"
+  },
+  {
+    "id": "b1-part-2-129",
+    "ru": "Я весь день готовился к экзамену и наконец чувствую себя готовым.",
+    "ruStressed": "Я весь день гото́вился к экза́мену и наконе́ц чу́вствую себя́ гото́вым.",
+    "translit": "Ya ves den gotovilsya k ekzamenu i nakonets chuvstvuu sebya gotovym.",
+    "en": "I spent the whole day preparing for the exam and finally feel ready."
+  },
+  {
+    "id": "b1-part-2-130",
+    "ru": "Если я узнаю время собрания, я сразу напишу тебе сообщение.",
+    "ruStressed": "Е́сли я узна́ю вре́мя собра́ния, я сра́зу напишу́ тебе́ сообще́ние.",
+    "translit": "Esli ya uznayu vremya sobraniya, ya srazu napishu tebe soobshchenie.",
+    "en": "If I find out the meeting time, I will text you immediately."
+  },
+  {
+    "id": "b1-part-2-131",
+    "ru": "Он решил уволиться, потому что ему не нравилась атмосфера в офисе.",
+    "ruStressed": "Он реши́л уво́литься, потому́ что ему́ не нра́вилась атмосфе́ра в о́фисе.",
+    "translit": "On reshil uvolitsya, potomu chto emu ne nravilas atmosfera v ofise.",
+    "en": "He decided to quit because he didn't like the atmosphere in the office."
+  },
+  {
+    "id": "b1-part-2-132",
+    "ru": "Что бы вы сделали, если бы поняли, что забыли ноутбук дома?",
+    "ruStressed": "Что бы вы сде́лали, е́сли бы по́няли, что забы́ли ноутбу́к до́ма?",
+    "translit": "Chto by vy sdelali, esli by ponyali, chto zabyli noutbuk doma?",
+    "en": "What would you do if you realized you forgot your laptop at home?"
+  },
+  {
+    "id": "b1-part-2-133",
+    "ru": "Мне нужно проверить эти цифры, прежде чем я отправлю отчёт дальше.",
+    "ruStressed": "Мне ну́жно прове́рить э́ти ци́фры, пре́жде чем я отпра́влю отчёт да́льше.",
+    "translit": "Mne nuzhno proverit eti tsifry, prezhde chem ya otpravlyu otchyot dalshe.",
+    "en": "I need to check these figures before I send the report further."
+  },
+  {
+    "id": "b1-part-2-134",
+    "ru": "Если наш отдел будет работать лучше, мы можем получить премию к Новому году.",
+    "ruStressed": "Е́сли наш отде́л бу́дет рабо́тать лу́чше, мы мо́жем получи́ть пре́мию к Но́вому го́ду.",
+    "translit": "Esli nash otdel budet rabotat luchshe, my mozhem poluchit premiyu k Novomu godu.",
+    "en": "If our department works better, we might get a bonus at New Year."
+  },
+  {
+    "id": "b1-part-2-135",
+    "ru": "Он двадцать минут пытался открыть офис и наконец нашёл нужный ключ.",
+    "ruStressed": "Он два́дцать мину́т пыта́лся откры́ть о́фис и наконе́ц нашёл ну́жный ключ.",
+    "translit": "On dvadtsat minut pytalsya otkryt ofis i nakonets nashyol nuzhnyy klyuch.",
+    "en": "He tried to open the office for twenty minutes and finally found the right key."
+  },
+  {
+    "id": "b1-part-2-136",
+    "ru": "Если бы мы наняли ассистента, мы бы успели сделать гораздо больше.",
+    "ruStressed": "Е́сли бы мы на́няли ассисте́нта, мы бы успе́ли сде́лать гора́здо бо́льше.",
+    "translit": "Esli by my nanyali assistenta, my by uspeli sdelat gorazdo bolshe.",
+    "en": "If we had hired an assistant, we would have managed to do more."
+  },
+  {
+    "id": "b1-part-2-137",
+    "ru": "Передайте директору, что я перезвоню ему, когда закончу переговоры.",
+    "ruStressed": "Переда́йте дире́ктору, что я перезвоню́ ему́, когда́ зако́нчу перегово́ры.",
+    "translit": "Peredayte direktoru, chto ya perezvonyu emu, kogda zakonchu peregovory.",
+    "en": "Tell the director I will call him back when I finish the negotiations."
+  },
+  {
+    "id": "b1-part-2-138",
+    "ru": "Они два дня обсуждали цену и наконец пришли к компромиссу.",
+    "ruStressed": "Они́ два дня обсужда́ли це́ну и наконе́ц пришли́ к компроми́ссу.",
+    "translit": "Oni dva dnya obsuzhdali tsenu i nakonets prishli k kompromissu.",
+    "en": "They were discussing the price for two days and finally reached a compromise."
+  },
+  {
+    "id": "b1-part-2-139",
+    "ru": "Я считаю, что тебе стоит начать готовиться к сессии уже сейчас.",
+    "ruStressed": "Я счита́ю, что тебе́ сто́ит нача́ть гото́виться к се́ссии уже́ сейча́с.",
+    "translit": "Ya schitayu, chto tebe stoit nachat gotovitsya k sessii uzhe seychas.",
+    "en": "I think that you should start preparing for the session already now."
+  },
+  {
+    "id": "b1-part-2-140",
+    "ru": "Если интернет пропадёт, как мы будем проводить нашу онлайн-встречу?",
+    "ruStressed": "Е́сли интерне́т пропадёт, как мы бу́дем проводи́ть на́шу онла́йн-встре́чу?",
+    "translit": "Esli internet propadyot, kak my budem provodit nashu onlayn-vstrechu?",
+    "en": "If the internet is down, how will we hold our online meeting?"
+  },
+  {
+    "id": "b1-part-2-141",
+    "ru": "Если ты не возьмёшь этот отпуск, ты очень скоро выгоришь.",
+    "ruStressed": "Е́сли ты не возьмёшь э́тот о́тпуск, ты о́чень ско́ро вы́горишь.",
+    "translit": "Esli ty ne vozmyosh etot otpusk, ty ochen skoro vygorish.",
+    "en": "If you don't take this vacation, you will burn out very soon."
+  },
+  {
+    "id": "b1-part-2-142",
+    "ru": "Я готовил презентацию три часа и, наконец, закончил её.",
+    "ruStressed": "Я гото́вил презента́цию три часа́ и, наконе́ц, зако́нчил её.",
+    "translit": "Ya gotovil prezentatsiyu tri chasa i, nakonets, zakonchil eyo.",
+    "en": "I spent three hours preparing the presentation and finally finished it."
+  },
+  {
+    "id": "b1-part-2-143",
+    "ru": "Если бы у меня была зарплата побольше, я бы купил новый ноутбук.",
+    "ruStressed": "Е́сли бы у меня́ была́ зарпла́та побо́льше, я бы купи́л но́вый ноутбу́к.",
+    "translit": "Esli by u menya byla zarplata pobolshe, ya by kupil novyy noutbuk.",
+    "en": "If I had a better salary, I would buy a new laptop."
+  },
+  {
+    "id": "b1-part-2-144",
+    "ru": "Ты бы уволился с работы, если бы выиграл миллион долларов?",
+    "ruStressed": "Ты бы уво́лился с рабо́ты, е́сли бы вы́играл миллио́н до́лларов?",
+    "translit": "Ty by uvolilsya s raboty, esli by vyigral million dollarov?",
+    "en": "Would you quit your job if you won a million dollars?"
+  },
+  {
+    "id": "b1-part-2-145",
+    "ru": "Я прохожу курс, чтобы развить лидерские качества для будущей карьеры.",
+    "ruStressed": "Я прохожу́ курс, что́бы разви́ть ли́дерские ка́чества для бу́дущей карье́ры.",
+    "translit": "Ya prokhozhu kurs, chtoby razvit liderskie kachestva dlya budushchey karery.",
+    "en": "I am taking a course to develop leadership skills for my future career."
+  },
+  {
+    "id": "b1-part-2-146",
+    "ru": "Если я пройду собеседование, я угощу всех пиццей.",
+    "ruStressed": "Е́сли я пройду́ собесе́дование, я угощу́ всех пи́ццей.",
+    "translit": "Esli ya proydu sobesedovanie, ya ugoshchu vsekh pitsey.",
+    "en": "If I pass the interview, I will treat everyone to pizza."
+  },
+  {
+    "id": "b1-part-2-147",
+    "ru": "Он долго писал статью и, наконец, опубликовал её.",
+    "ruStressed": "Он до́лго писа́л статью́ и, наконе́ц, опубликова́л её.",
+    "translit": "On dolgo pisal statyu i, nakonets, opublikoval eyo.",
+    "en": "He was writing the article for a long time and finally published it."
+  },
+  {
+    "id": "b1-part-2-148",
+    "ru": "Если ты опоздаешь на лекцию, профессор будет недоволен.",
+    "ruStressed": "Е́сли ты опозда́ешь на ле́кцию, профе́ссор бу́дет недово́лен.",
+    "translit": "Esli ty opozdaesh na lektsiyu, professor budet nedovolen.",
+    "en": "If you are late for the lecture, the professor will be unhappy."
+  },
+  {
+    "id": "b1-part-2-149",
+    "ru": "Я считаю, что нам нужно обсудить бюджет, потому что мы тратим слишком много.",
+    "ruStressed": "Я счита́ю, что нам ну́жно обсуди́ть бюдже́т, потому́ что мы тра́тим сли́шком мно́го.",
+    "translit": "Ya schitayu, chto nam nuzhno obsudit byudzhet, potomu chto my tratim slishkom mnogo.",
+    "en": "I think we should discuss the budget because we are spending too much."
+  },
+  {
+    "id": "b1-part-2-150",
+    "ru": "Если бы я знал немецкий язык, я бы мог работать в Берлине.",
+    "ruStressed": "Е́сли бы я знал неме́цкий язы́к, я бы мог рабо́тать в Берли́не.",
+    "translit": "Esli by ya znal nemetskiy yazyk, ya by mog rabotat v Berline.",
+    "en": "If I knew German, I would be able to work in Berlin."
   }
 ]
