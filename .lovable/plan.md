@@ -1,50 +1,80 @@
-## Daily goal, streak, and rank system
+## 1. Daily reps breakdown chart (Profile)
 
-All local-only in the existing zustand store (persisted to this device). No backend changes.
+Add a new `RepsChartCard` section on `/profile` below the Streak card.
 
-### Data model — extend `src/lib/trainer/store.ts`
+- Toggle: **14 days** / **30 days** (segmented control, default 14).
+- Vertical SVG bar chart, one bar per day.
+  - Bar height scales to the max-rep day in the selected range.
+  - Bars meeting `dailyGoal` → primary color; partial → muted primary; zero → faint track.
+  - Dashed horizontal line marks `dailyGoal`.
+  - Hover/tap tooltip: "Mon 12 Jun · 47 reps".
+  - X-axis: short weekday + day-of-month every ~5 bars.
+- Reads from existing `dailyHistory` (already trimmed to 120 days — enough for 30).
 
-Add to `TrainerState`:
-- `dailyGoal: number` — default **20** reps/day. User-editable.
-- `dailyHistory: Record<string, number>` — keyed by `YYYY-MM-DD` (local time), value = reps that day. Trimmed to last 120 days on each update.
-- `currentStreak: number`, `longestStreak: number`, `lastActiveDate: string | null`.
-- New actions: `setDailyGoal(n)`, internal `recordRep(date, by)` called from `bumpReps`.
+## 2. Automatic daily reset at local midnight
 
-Streak rule: when today's reps cross `dailyGoal` for the first time today, mark today active. On next rep-bump after a day change, if `lastActiveDate === yesterday` → `currentStreak += 1`; if older → reset to 1. `longestStreak = max(longest, current)`.
+Goal/streak/rank counters already key off `todayKey()` (local date), so the values are *already* correct after midnight — but the Profile page only recomputes on rep events. Fix the visual stale-ness:
 
-Lifetime reps = sum of `dailyHistory` values (and also equals `Σ progress[id].reps`, so we can derive from existing data without migration loss).
+- Add a `useDayTick()` hook in `src/lib/trainer/store.ts` that:
+  - Computes ms until next local midnight.
+  - Sets a `setTimeout` to force a re-render (via a zustand `dayCounter` bump) at midnight, then re-arms.
+  - Also re-checks on `visibilitychange` (tab returns after sleep / next day).
+- `bumpReps` already handles streak break on gaps — keep that logic. Add a parallel `tickDay()` action that, when called and `lastActiveDate` is older than yesterday, resets `currentStreak` to 0 in state so the UI reflects it without needing a rep.
+- Profile and List screens call `useDayTick()` once at mount.
 
-### Ranks — new `src/lib/trainer/ranks.ts`
+Result: at local midnight the Today ring resets to 0/goal, streak grid shifts, broken streaks visibly drop to 0.
 
+## 3. Goal-challenge system with badge
+
+### Goal options (fixed)
+Replace the free-form goal editor with 4 presets: **100 / 500 / 1000 / 2500 reps/day**.
+
+### Pick goal at signup
+- After successful `signUp` in `src/routes/auth.tsx`, route to a new `/onboarding` screen (only shown if `challenge` is unset).
+- `/onboarding`: 4 cards for the goal options + "Start challenge" button. Sets `challenge` state and redirects to `/profile`.
+- Guests skip this — they keep the existing default (20) until they visit Profile and pick one. Profile shows a one-time "Pick your daily challenge" banner if `challenge` is unset.
+
+### State additions (`src/lib/trainer/store.ts`)
 ```ts
-RANKS = [
-  { id: "novice",      label: "Novice",       min: 0,       max: 999     },
-  { id: "apprentice",  label: "Apprentice",   min: 1000,    max: 4999    },
-  { id: "adept",       label: "Adept",        min: 5000,    max: 9999    },
-  { id: "expert",      label: "Expert",       min: 10000,   max: 24999   },
-  { id: "master",      label: "Master",       min: 25000,   max: 99999   },
-  { id: "grandmaster", label: "Grandmaster",  min: 100000,  max: Infinity},
-]
+challenge: {
+  goal: 100 | 500 | 1000 | 2500;
+  startedOn: string;       // YYYY-MM-DD
+  daysCompleted: number;   // count of days in [startedOn, today] that hit goal
+  finishedOn: string|null; // set when daysCompleted reaches 14
+} | null;
+badges: { challenge100?: string; challenge500?: string; challenge1000?: string; challenge2500?: string }; // value = ISO date earned
+startChallenge(goal): void;
+resetChallengeWithNewGoal(goal): void; // wipes streak + restarts challenge
 ```
-Each rank gets a color + icon. Helpers: `getRank(reps)`, `getProgressToNext(reps)` → `{ current, next, pct }`.
 
-### UI on `/profile`
+- `bumpReps` also updates `challenge.daysCompleted` when today's reps first cross `challenge.goal`. When `daysCompleted` reaches 14, set `finishedOn`, write the matching badge into `badges`, and fire a toast.
+- `dailyGoal` getter mirrors `challenge.goal` when challenge is active.
 
-Replace the current "Your stats" header area with three new cards above it:
+### Changing the goal mid-challenge
+Profile shows the current challenge with progress `X / 14 days`. The "Change goal" button opens a confirm modal:
+> "Changing your goal will reset your current streak and restart the 14-day challenge from day 1. Continue?"
+Confirm → `resetChallengeWithNewGoal(newGoal)`: sets `currentStreak = 0`, `challenge = { goal, startedOn: today, daysCompleted: 0, finishedOn: null }`. Earned badges stay.
 
-1. **Today** card — large ring showing `todayReps / dailyGoal`, "X reps today · Y to go", small **Edit goal** button → inline number input (5–500).
-2. **Streak** card — flame icon, big number `currentStreak`, sub-line "Longest: N", and a 14-day mini-grid of dots (filled = goal met, half = some reps, empty = none).
-3. **Rank** card — rank badge (color + label), bar showing progress to next rank, "X / Y reps to {nextLabel}" (or "Top rank reached" for Grandmaster).
+### Badge display
+- `RankCard` row gets a new "Badges" strip showing earned challenge badges (e.g. "100/day · 14 days" with a small medal icon, colored per tier). Locked badges shown faded with target text.
 
-Existing Stat tiles (Reps / Practiced / Mastered / Favorites) stay below.
+## Technical Details
 
-### List training screen (`src/routes/list.$listId.tsx`)
+**Files created**
+- `src/routes/onboarding.tsx` — post-signup goal picker.
+- `src/components/profile/RepsChart.tsx` — SVG bar chart with 14/30 toggle.
+- `src/components/profile/ChangeGoalDialog.tsx` — confirm-reset modal.
+- `src/lib/trainer/useDayTick.ts` — midnight ticker hook.
 
-Tiny addition: when a rep bumps and crosses today's goal for the first time, show a one-shot toast "Daily goal reached — streak +1 🔥". (Uses existing toast infra if present; otherwise a simple inline banner — I'll check on implementation.)
+**Files edited**
+- `src/lib/trainer/store.ts` — add `challenge`, `badges`, `startChallenge`, `resetChallengeWithNewGoal`, `tickDay`; extend `bumpReps`; deprecate free `setDailyGoal` (kept internal, no longer exported to UI).
+- `src/routes/auth.tsx` — on signup success, navigate to `/onboarding`.
+- `src/routes/profile.tsx` — wire `useDayTick`, replace `TodayCard` editor with "Change goal" button, add `RepsChartCard`, add challenge progress + badges strip, banner for guests without a challenge.
+- `src/routes/list.$listId.tsx` — call `useDayTick`; on challenge finish toast "Challenge complete! Badge unlocked 🏅".
 
-### Out of scope (call out if you want them next)
+**Storage**: all client-side in existing zustand `ru-trainer:v1` persist key (no DB schema changes).
 
-- Cloud sync of streak/history across devices
-- Per-list daily goal
-- Push/notification reminders
-- Rank-up animations / unlockables
+## Out of scope
+- Cloud sync of challenge/badges across devices.
+- Push notifications / midnight reminders.
+- Sharing badges externally.

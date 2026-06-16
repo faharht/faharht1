@@ -24,12 +24,17 @@ import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/s
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
 import { toast } from "sonner";
+import { useDayTick } from "@/lib/trainer/useDayTick";
 
-function notifyGoal(result: { goalReachedNow: boolean }) {
+function notifyGoal(result: { goalReachedNow: boolean; challengeCompletedNow?: boolean }) {
   if (result.goalReachedNow) {
     toast.success("Daily goal reached — streak +1 🔥", { duration: 3500 });
   }
+  if (result.challengeCompletedNow) {
+    toast.success("Challenge complete! Badge unlocked 🏅", { duration: 5000 });
+  }
 }
+
 
 import { splitStressedWord, tokenizeStressed } from "@/lib/trainer/stress";
 import type { TextSize } from "@/lib/trainer/types";
@@ -59,6 +64,8 @@ export const Route = createFileRoute("/list/$listId")({
 });
 
 function ListPage() {
+  useDayTick();
+
   const { meta } = Route.useLoaderData();
   const sentences = useMemo(() => getSentences(meta.id), [meta.id]);
   const settings = useTrainerStore((s) => s.settings);

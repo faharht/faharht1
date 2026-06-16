@@ -1,12 +1,21 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Pencil, Check, X } from "lucide-react";
+import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Award, CalendarCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
-import { useTrainerStore, todayKey } from "@/lib/trainer/store";
+import {
+  useTrainerStore,
+  todayKey,
+  CHALLENGE_LENGTH_DAYS,
+  BADGE_META,
+  type ChallengeGoal,
+  type BadgeId,
+} from "@/lib/trainer/store";
+import { useDayTick } from "@/lib/trainer/useDayTick";
 import { BANDS, type LevelId } from "@/lib/trainer/levels";
 import { getProgressToNext } from "@/lib/trainer/ranks";
+import { RepsChart } from "@/components/profile/RepsChart";
+import { ChangeGoalDialog } from "@/components/profile/ChangeGoalDialog";
 import { cn } from "@/lib/utils";
-
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
@@ -24,9 +33,11 @@ export const Route = createFileRoute("/profile")({
 type SessionUser = { id: string; email: string | null } | null;
 
 function ProfilePage() {
+  useDayTick();
   const navigate = useNavigate();
   const [user, setUser] = useState<SessionUser>(null);
   const [loading, setLoading] = useState(true);
+  const [goalDialog, setGoalDialog] = useState(false);
 
   const progress = useTrainerStore((s) => s.progress);
   const favorites = useTrainerStore((s) => s.favorites);
@@ -35,8 +46,14 @@ function ProfilePage() {
   const currentStreak = useTrainerStore((s) => s.currentStreak);
   const longestStreak = useTrainerStore((s) => s.longestStreak);
   const lastActiveDate = useTrainerStore((s) => s.lastActiveDate);
-  const setDailyGoal = useTrainerStore((s) => s.setDailyGoal);
+  const challenge = useTrainerStore((s) => s.challenge);
+  const badges = useTrainerStore((s) => s.badges);
+  const startChallenge = useTrainerStore((s) => s.startChallenge);
+  const resetChallengeWithNewGoal = useTrainerStore((s) => s.resetChallengeWithNewGoal);
+  // dayCounter subscription keeps this component refreshed across midnight
+  useTrainerStore((s) => s.dayCounter);
 
+  const effectiveGoal = challenge?.goal ?? dailyGoal;
 
   useEffect(() => {
     let mounted = true;
@@ -81,12 +98,11 @@ function ProfilePage() {
 
   const today = todayKey();
   const todayReps = dailyHistory[today] ?? 0;
-  const goalPct = Math.min(100, Math.round((todayReps / Math.max(1, dailyGoal)) * 100));
-  // Derive a streak that decays visually if today isn't yesterday/today
+  const goalPct = Math.min(100, Math.round((todayReps / Math.max(1, effectiveGoal)) * 100));
+
   const effectiveStreak = useMemo(() => {
     if (!lastActiveDate) return 0;
     if (lastActiveDate === today) return currentStreak;
-    // yesterday?
     const [y, m, d] = today.split("-").map(Number);
     const dt = new Date(y, m - 1, d);
     dt.setDate(dt.getDate() - 1);
@@ -111,11 +127,15 @@ function ProfilePage() {
 
   const rankProgress = getProgressToNext(stats.reps);
 
-
-
   async function handleSignOut() {
     await supabase.auth.signOut();
     setUser(null);
+  }
+
+  function handleGoalConfirm(goal: ChallengeGoal) {
+    if (challenge) resetChallengeWithNewGoal(goal);
+    else startChallenge(goal);
+    setGoalDialog(false);
   }
 
   return (
@@ -180,29 +200,64 @@ function ProfilePage() {
           )}
         </section>
 
+        {/* Pick challenge banner */}
+        {!challenge && (
+          <section className="mt-5 rounded-2xl border border-primary/40 bg-primary/5 p-4 shadow-sm">
+            <div className="flex items-start gap-3">
+              <div className="grid h-9 w-9 place-items-center rounded-lg bg-primary/15 text-primary">
+                <Trophy className="h-5 w-5" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="text-sm font-semibold text-foreground">
+                  Start your 14-day challenge
+                </div>
+                <p className="mt-0.5 text-xs text-muted-foreground">
+                  Pick a daily reps goal — earn a badge after 14 days hitting it.
+                </p>
+              </div>
+              <button
+                onClick={() => setGoalDialog(true)}
+                className="inline-flex h-9 items-center rounded-md bg-primary px-3 text-xs font-semibold text-primary-foreground hover:bg-primary/90"
+              >
+                Pick goal
+              </button>
+            </div>
+          </section>
+        )}
+
         {/* Today goal */}
         <TodayCard
           todayReps={todayReps}
-          dailyGoal={dailyGoal}
+          dailyGoal={effectiveGoal}
           goalPct={goalPct}
-          onSave={setDailyGoal}
+          onChange={() => setGoalDialog(true)}
         />
+
+        {/* Challenge progress */}
+        {challenge && (
+          <ChallengeCard challenge={challenge} />
+        )}
 
         {/* Streak */}
         <StreakCard
           currentStreak={effectiveStreak}
           longestStreak={longestStreak}
           last14={last14}
-          dailyGoal={dailyGoal}
+          dailyGoal={effectiveGoal}
           today={today}
         />
+
+        {/* Daily reps chart */}
+        <RepsChart dailyHistory={dailyHistory} dailyGoal={effectiveGoal} />
 
         {/* Rank */}
         <RankCard reps={stats.reps} progress={rankProgress} />
 
+        {/* Badges */}
+        <BadgesCard badges={badges} />
+
         {/* Stats card */}
         <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
-
           <h2 className="text-sm font-semibold text-foreground">Your stats</h2>
           <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
             <StatTile icon={Repeat} label="Reps" value={stats.reps} tint="violet" />
@@ -241,9 +296,16 @@ function ProfilePage() {
           </p>
         </section>
 
-        {/* Suppress unused-import warning when BANDS isn't referenced */}
         <span className="hidden">{BANDS.length}</span>
       </main>
+
+      {goalDialog && (
+        <ChangeGoalDialog
+          currentGoal={challenge?.goal ?? null}
+          onConfirm={handleGoalConfirm}
+          onClose={() => setGoalDialog(false)}
+        />
+      )}
     </div>
   );
 }
@@ -280,18 +342,13 @@ function TodayCard({
   todayReps,
   dailyGoal,
   goalPct,
-  onSave,
+  onChange,
 }: {
   todayReps: number;
   dailyGoal: number;
   goalPct: number;
-  onSave: (n: number) => void;
+  onChange: () => void;
 }) {
-  const [editing, setEditing] = useState(false);
-  const [draft, setDraft] = useState(dailyGoal);
-  useEffect(() => setDraft(dailyGoal), [dailyGoal]);
-
-  // Ring math
   const size = 88;
   const stroke = 9;
   const r = (size - stroke) / 2;
@@ -333,46 +390,104 @@ function TodayCard({
               ? "Goal reached — nice."
               : `${dailyGoal - todayReps} reps to go`}
           </div>
-          {!editing ? (
-            <button
-              onClick={() => setEditing(true)}
-              className="mt-2 inline-flex h-7 items-center gap-1 rounded-md border border-border/60 bg-background px-2 text-[11px] font-medium text-foreground hover:bg-muted"
-            >
-              <Pencil className="h-3 w-3" /> Edit goal
-            </button>
-          ) : (
-            <div className="mt-2 flex items-center gap-1.5">
-              <input
-                type="number"
-                min={1}
-                max={500}
-                value={draft}
-                onChange={(e) => setDraft(Number(e.target.value))}
-                className="h-7 w-20 rounded-md border border-border/60 bg-background px-2 text-xs outline-none ring-primary/30 focus:ring-2"
-              />
-              <button
-                onClick={() => {
-                  onSave(draft);
-                  setEditing(false);
-                }}
-                className="grid h-7 w-7 place-items-center rounded-md bg-primary text-primary-foreground"
-                aria-label="Save"
-              >
-                <Check className="h-3.5 w-3.5" />
-              </button>
-              <button
-                onClick={() => {
-                  setDraft(dailyGoal);
-                  setEditing(false);
-                }}
-                className="grid h-7 w-7 place-items-center rounded-md border border-border/60 bg-background"
-                aria-label="Cancel"
-              >
-                <X className="h-3.5 w-3.5" />
-              </button>
-            </div>
-          )}
+          <button
+            onClick={onChange}
+            className="mt-2 inline-flex h-7 items-center gap-1 rounded-md border border-border/60 bg-background px-2 text-[11px] font-medium text-foreground hover:bg-muted"
+          >
+            Change goal
+          </button>
         </div>
+      </div>
+    </section>
+  );
+}
+
+function ChallengeCard({
+  challenge,
+}: {
+  challenge: NonNullable<ReturnType<typeof useTrainerStore.getState>["challenge"]>;
+}) {
+  const done = challenge.daysCompleted;
+  const total = CHALLENGE_LENGTH_DAYS;
+  const pct = Math.min(100, (done / total) * 100);
+  const complete = !!challenge.finishedOn;
+  return (
+    <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="grid h-9 w-9 place-items-center rounded-lg bg-primary/15 text-primary">
+            <CalendarCheck className="h-5 w-5" />
+          </div>
+          <div>
+            <div className="text-sm font-semibold text-foreground">
+              {challenge.goal} reps/day challenge
+            </div>
+            <div className="text-[11px] text-muted-foreground">
+              {complete ? "Completed 🏅" : `${done} / ${total} days`}
+            </div>
+          </div>
+        </div>
+        {complete && (
+          <span className="rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-semibold text-amber-700">
+            Badge earned
+          </span>
+        )}
+      </div>
+      <div className="mt-3 flex gap-1">
+        {Array.from({ length: total }).map((_, i) => (
+          <div
+            key={i}
+            className={cn(
+              "h-2 flex-1 rounded-full",
+              i < done ? "bg-primary" : "bg-muted",
+            )}
+          />
+        ))}
+      </div>
+      <div className="mt-1.5 text-[11px] text-muted-foreground">
+        Started {challenge.startedOn} · {Math.round(pct)}%
+      </div>
+    </section>
+  );
+}
+
+function BadgesCard({ badges }: { badges: Partial<Record<BadgeId, string>> }) {
+  const ids = Object.keys(BADGE_META) as BadgeId[];
+  return (
+    <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+      <div className="flex items-center gap-2">
+        <div className="grid h-9 w-9 place-items-center rounded-lg bg-amber-100 text-amber-700">
+          <Award className="h-5 w-5" />
+        </div>
+        <div>
+          <div className="text-sm font-semibold text-foreground">Badges</div>
+          <div className="text-[11px] text-muted-foreground">
+            Earn one for each 14-day challenge completed.
+          </div>
+        </div>
+      </div>
+      <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
+        {ids.map((id) => {
+          const meta = BADGE_META[id];
+          const earnedOn = badges[id];
+          return (
+            <div
+              key={id}
+              className={cn(
+                "rounded-xl border p-3 text-center",
+                earnedOn
+                  ? cn("border-transparent", meta.color, "ring-2", meta.ring)
+                  : "border-border/60 bg-background/60 opacity-50",
+              )}
+            >
+              <Award className={cn("mx-auto h-6 w-6", earnedOn ? "" : "text-muted-foreground")} />
+              <div className="mt-1 text-xs font-bold">{meta.goal}/day</div>
+              <div className="text-[10px] uppercase tracking-wide opacity-80">
+                {earnedOn ? earnedOn : "Locked"}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
@@ -478,4 +593,3 @@ function RankCard({
     </section>
   );
 }
-
