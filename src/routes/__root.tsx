@@ -11,10 +11,6 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import { BottomNav } from "@/components/BottomNav";
-import { Toaster } from "@/components/ui/sonner";
-
-
 
 function NotFoundComponent() {
   return (
@@ -91,8 +87,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Russian Master" },
       { name: "twitter:description", content: "Learn Russian with structured sentence lists, audio, and transliterations." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5dee753e-9d61-4595-9b76-0b6525d88273/id-preview-2f586e9d--e6defd71-8d87-4d62-8343-beb725cc9e80.lovable.app-1781595587180.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5dee753e-9d61-4595-9b76-0b6525d88273/id-preview-2f586e9d--e6defd71-8d87-4d62-8343-beb725cc9e80.lovable.app-1781595587180.png" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/f5bf038b-876e-4128-8a76-7935b6f172d6" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/f5bf038b-876e-4128-8a76-7935b6f172d6" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -131,10 +127,6 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
-      <BottomNav />
-      <Toaster position="top-center" />
     </QueryClientProvider>
   );
 }
-
-
