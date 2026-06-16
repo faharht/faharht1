@@ -485,6 +485,7 @@ function ListenCard({
   stars,
   fav,
   active,
+  focused,
   activeWord,
   listenMode,
   showTranslit,
@@ -501,6 +502,7 @@ function ListenCard({
   stars: number;
   fav: boolean;
   active: boolean;
+  focused: boolean;
   activeWord: number | null;
   listenMode: boolean;
   showTranslit: boolean;
@@ -526,12 +528,15 @@ function ListenCard({
 
   return (
     <li
+      id={`s-${sentence.id}`}
       className={cn(
-        "relative rounded-2xl border border-border/60 bg-card p-4 shadow-sm transition border-l-4",
+        "relative scroll-mt-24 rounded-2xl border border-border/60 bg-card p-4 shadow-sm transition border-l-4",
         toneBorder,
         active && "ring-2 ring-primary/40",
+        focused && "ring-2 ring-primary/70 shadow-lg",
       )}
     >
+
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-xs font-semibold text-primary">#{idx + 1}</span>
         <button
