@@ -8,38 +8,26 @@ import {
   type LevelId,
   type ListMeta,
 } from "@/lib/trainer/levels";
-import {
-  GRAMMAR_TAGS,
-  type GrammarTag,
-  listTagsFor,
-  getGrammar,
-} from "@/lib/trainer/grammar";
+import { getGrammar } from "@/lib/trainer/grammar";
 import { cn } from "@/lib/utils";
+
 
 const LEVEL_IDS: LevelId[] = ["A1", "A2", "B1", "B2"];
 
 type SearchState = {
   q: string;
   levels: LevelId[];
-  tags: GrammarTag[];
 };
 
 function asLevelArray(v: unknown): LevelId[] {
   const raw = Array.isArray(v) ? v : typeof v === "string" && v ? v.split(",") : [];
   return raw.filter((x): x is LevelId => LEVEL_IDS.includes(x as LevelId));
 }
-function asTagArray(v: unknown): GrammarTag[] {
-  const raw = Array.isArray(v) ? v : typeof v === "string" && v ? v.split(",") : [];
-  return raw.filter((x): x is GrammarTag =>
-    (GRAMMAR_TAGS as readonly string[]).includes(x as string),
-  );
-}
 
 export const Route = createFileRoute("/")({
   validateSearch: (s: Record<string, unknown>): SearchState => ({
     q: typeof s.q === "string" ? s.q : "",
     levels: asLevelArray(s.levels),
-    tags: asTagArray(s.tags),
   }),
   head: () => ({
     meta: [
@@ -66,10 +54,6 @@ function matchesFilters(
   haystackExtra: string,
 ): boolean {
   if (state.levels.length > 0 && !state.levels.includes(list.level)) return false;
-  if (state.tags.length > 0) {
-    const tags = listTagsFor(list.id);
-    if (!tags.some((t) => state.tags.includes(t))) return false;
-  }
   if (state.q.trim()) {
     const needle = state.q.trim().toLowerCase();
     const hay = (list.title + " " + list.description + " " + haystackExtra).toLowerCase();
@@ -83,7 +67,6 @@ function listHaystack(listId: string): string {
   if (!pack) return "";
   return [
     pack.intro ?? "",
-    ...(pack.tags ?? []),
     ...pack.notes.flatMap((n) => [n.title, n.body]),
   ].join(" ");
 }
@@ -92,19 +75,7 @@ function HomePage() {
   const search = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
 
-  const filterActive =
-    search.q.trim().length > 0 || search.levels.length > 0 || search.tags.length > 0;
-
-  // Tags that actually appear in at least one pack (keeps chip strip honest).
-  const activeTags = useMemo<GrammarTag[]>(() => {
-    const set = new Set<GrammarTag>();
-    for (const band of BANDS) {
-      for (const lvl of band.levels)
-        for (const l of lvl.lists) listTagsFor(l.id).forEach((t) => set.add(t));
-      for (const ex of band.extras ?? []) listTagsFor(ex.id).forEach((t) => set.add(t));
-    }
-    return GRAMMAR_TAGS.filter((t) => set.has(t));
-  }, []);
+  const filterActive = search.q.trim().length > 0 || search.levels.length > 0;
 
   // Precompute haystacks once.
   const haystacks = useMemo(() => {
@@ -153,14 +124,11 @@ function HomePage() {
     const exists = search.levels.includes(id);
     update({ levels: exists ? search.levels.filter((x: LevelId) => x !== id) : [...search.levels, id] });
   }
-  function toggleTag(t: GrammarTag) {
-    const exists = search.tags.includes(t);
-    update({ tags: exists ? search.tags.filter((x: GrammarTag) => x !== t) : [...search.tags, t] });
-  }
 
   function clearAll() {
-    navigate({ search: { q: "", levels: [], tags: [] }, replace: true });
+    navigate({ search: { q: "", levels: [] }, replace: true });
   }
+
 
   return (
     <div className="min-h-screen bg-[oklch(0.985_0.008_180)] pb-24">
@@ -243,29 +211,6 @@ function HomePage() {
             )}
           </div>
 
-          {/* Grammar tag chip strip */}
-          <div className="mt-2 -mx-4 overflow-x-auto px-4">
-            <div className="flex w-max gap-1.5 pb-1">
-              {activeTags.map((t) => {
-                const on = search.tags.includes(t);
-                return (
-                  <button
-                    key={t}
-                    onClick={() => toggleTag(t)}
-                    aria-pressed={on}
-                    className={cn(
-                      "h-7 shrink-0 rounded-full border px-2.5 text-[11px] font-medium capitalize transition",
-                      on
-                        ? "border-primary bg-primary/10 text-primary"
-                        : "border-border/50 bg-card text-muted-foreground hover:border-primary/30 hover:text-foreground",
-                    )}
-                  >
-                    {t}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
 
           {filterActive && (
             <p className="mt-1 text-xs text-muted-foreground">
@@ -326,7 +271,7 @@ function HomePage() {
                     <span className="text-base font-semibold text-foreground">{extra.title}</span>
                   </div>
                   <p className="mt-2 text-xs text-muted-foreground">{extra.description}</p>
-                  <TagRow tags={listTagsFor(extra.id)} />
+                  
                 </Link>
               ))}
             </div>
@@ -337,21 +282,6 @@ function HomePage() {
   );
 }
 
-function TagRow({ tags }: { tags: GrammarTag[] }) {
-  if (!tags.length) return null;
-  return (
-    <div className="mt-2 flex flex-wrap gap-1">
-      {tags.map((t) => (
-        <span
-          key={t}
-          className="rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium capitalize text-muted-foreground"
-        >
-          {t}
-        </span>
-      ))}
-    </div>
-  );
-}
 
 function LevelAccordion({
   level,
@@ -409,7 +339,7 @@ function LevelAccordion({
               <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
                 {l.description}
               </p>
-              <TagRow tags={listTagsFor(l.id)} />
+              
             </Link>
           ))}
         </div>
