@@ -719,5 +719,334 @@
     "ruStressed": "Я бо́льше не хочу́.",
     "translit": "Ya bolshe ne khochu.",
     "en": "I don't want any more."
+  },
+  {
+    "id": "a1-part-3-104",
+    "ru": "Я читаю книгу.",
+    "ruStressed": "Я чита́ю кни́гу.",
+    "translit": "Ya chitayu knigu.",
+    "en": "I read a book."
+  },
+  {
+    "id": "a1-part-3-105",
+    "ru": "Она пишет письмо.",
+    "ruStressed": "Она́ пи́шет письмо́.",
+    "translit": "Ona pishet pismo.",
+    "en": "She writes a letter."
+  },
+  {
+    "id": "a1-part-3-106",
+    "ru": "Мы говорим по-русски.",
+    "ruStressed": "Мы говори́м по-ру́сски.",
+    "translit": "My govorim po-russki.",
+    "en": "We speak Russian."
+  },
+  {
+    "id": "a1-part-3-107",
+    "ru": "Мой папа работает здесь.",
+    "ruStressed": "Мой па́па рабо́тает здесь.",
+    "translit": "Moy papa rabotaet zdes.",
+    "en": "My dad works here."
+  },
+  {
+    "id": "a1-part-3-108",
+    "ru": "Студент учится.",
+    "ruStressed": "Студе́нт учи́тся.",
+    "translit": "Student uchitsya.",
+    "en": "The student is studying."
+  },
+  {
+    "id": "a1-part-3-109",
+    "ru": "Я люблю мою семью.",
+    "ruStressed": "Я люблю́ мою́ семью́.",
+    "translit": "Ya lyublyu moyu semyu.",
+    "en": "I love my family."
+  },
+  {
+    "id": "a1-part-3-110",
+    "ru": "Вы знаете, где парк?",
+    "ruStressed": "Вы зна́ете, где парк?",
+    "translit": "Vy znaete, gde park?",
+    "en": "Do you know where the park is?"
+  },
+  {
+    "id": "a1-part-3-111",
+    "ru": "Я не понимаю.",
+    "ruStressed": "Я не понима́ю.",
+    "translit": "Ya ne ponimayu.",
+    "en": "I don't understand."
+  },
+  {
+    "id": "a1-part-3-112",
+    "ru": "Что ты делаешь?",
+    "ruStressed": "Что ты де́лаешь?",
+    "translit": "Chto ty delaesh?",
+    "en": "What are you doing?"
+  },
+  {
+    "id": "a1-part-3-113",
+    "ru": "Он читает газету.",
+    "ruStressed": "Он чита́ет газе́ту.",
+    "translit": "On chitaet gazetu.",
+    "en": "He reads the newspaper."
+  },
+  {
+    "id": "a1-part-3-114",
+    "ru": "Они быстро говорят по-английски.",
+    "ruStressed": "Они́ бы́стро говоря́т по-англи́йски.",
+    "translit": "Oni bystro govoryat po-angliyski.",
+    "en": "They speak English fast."
+  },
+  {
+    "id": "a1-part-3-115",
+    "ru": "Твой брат работает?",
+    "ruStressed": "Твой брат рабо́тает?",
+    "translit": "Tvoy brat rabotaet?",
+    "en": "Does your brother work?"
+  },
+  {
+    "id": "a1-part-3-116",
+    "ru": "Я учусь в школе.",
+    "ruStressed": "Я учу́сь в шко́ле.",
+    "translit": "Ya uchus v shkole.",
+    "en": "I study at school."
+  },
+  {
+    "id": "a1-part-3-117",
+    "ru": "Ты любишь большие города?",
+    "ruStressed": "Ты лю́бишь больши́е города́?",
+    "translit": "Ty lyubish bolshie goroda?",
+    "en": "Do you love big cities?"
+  },
+  {
+    "id": "a1-part-3-118",
+    "ru": "Кто знает ответ?",
+    "ruStressed": "Кто зна́ет отве́т?",
+    "translit": "Kto znaet otvet?",
+    "en": "Who knows the answer?"
+  },
+  {
+    "id": "a1-part-3-119",
+    "ru": "Анна понимает по-испански.",
+    "ruStressed": "А́нна понима́ет по-испа́нски.",
+    "translit": "Anna ponimaet po-ispanski.",
+    "en": "Anna understands Spanish."
+  },
+  {
+    "id": "a1-part-3-120",
+    "ru": "Мы делаем домашнее задание.",
+    "ruStressed": "Мы де́лаем дома́шнее зада́ние.",
+    "translit": "My delaem domashnee zadanie.",
+    "en": "We are doing homework."
+  },
+  {
+    "id": "a1-part-3-121",
+    "ru": "Он пишет письмо.",
+    "ruStressed": "Он пи́шет письмо́.",
+    "translit": "On pishet pismo.",
+    "en": "He writes a letter."
+  },
+  {
+    "id": "a1-part-3-122",
+    "ru": "Мы живём в Москве.",
+    "ruStressed": "Мы живём в Москве́.",
+    "translit": "My zhivyom v Moskve.",
+    "en": "We live in Moscow."
+  },
+  {
+    "id": "a1-part-3-123",
+    "ru": "Что ты читаешь?",
+    "ruStressed": "Что ты чита́ешь?",
+    "translit": "Chto ty chitayesh?",
+    "en": "What are you reading?"
+  },
+  {
+    "id": "a1-part-3-124",
+    "ru": "Она работает в банке.",
+    "ruStressed": "Она́ рабо́тает в ба́нке.",
+    "translit": "Ona rabotaet v banke.",
+    "en": "She works in a bank."
+  },
+  {
+    "id": "a1-part-3-125",
+    "ru": "Они работают здесь.",
+    "ruStressed": "Они́ рабо́тают здесь.",
+    "translit": "Oni rabotayut zdes.",
+    "en": "They work here."
+  },
+  {
+    "id": "a1-part-3-126",
+    "ru": "Анна говорит быстро.",
+    "ruStressed": "А́нна говори́т бы́стро.",
+    "translit": "Anna govorit bistro.",
+    "en": "Anna speaks quickly."
+  },
+  {
+    "id": "a1-part-3-127",
+    "ru": "Ты знаешь это?",
+    "ruStressed": "Ты зна́ешь э́то?",
+    "translit": "Ty znayesh eto.",
+    "en": "Do you know this?"
+  },
+  {
+    "id": "a1-part-3-128",
+    "ru": "Иван всё знает.",
+    "ruStressed": "Ива́н всё зна́ет.",
+    "translit": "Ivan vsyo znayet.",
+    "en": "Ivan knows everything."
+  },
+  {
+    "id": "a1-part-3-129",
+    "ru": "Мы понимаем учителя.",
+    "ruStressed": "Мы понима́ем учи́теля.",
+    "translit": "My ponimayem uchitelya.",
+    "en": "We understand the teacher."
+  },
+  {
+    "id": "a1-part-3-130",
+    "ru": "Ты любишь теннис?",
+    "ruStressed": "Ты лю́бишь те́ннис?",
+    "translit": "Ty lyubish tennis.",
+    "en": "Do you love tennis?"
+  },
+  {
+    "id": "a1-part-3-131",
+    "ru": "Я делаю уроки.",
+    "ruStressed": "Я де́лаю уро́ки.",
+    "translit": "Ya delayu uroki.",
+    "en": "I am doing homework."
+  },
+  {
+    "id": "a1-part-3-132",
+    "ru": "Максим говорит на встрече.",
+    "ruStressed": "Макси́м говори́т на встре́че.",
+    "translit": "Maksim govorit na vstreche.",
+    "en": "Maxim speaks at the meeting."
+  },
+  {
+    "id": "a1-part-3-133",
+    "ru": "Они живут в отеле.",
+    "ruStressed": "Они́ живу́т в оте́ле.",
+    "translit": "Oni zhivut v otele.",
+    "en": "They live in a hotel."
+  },
+  {
+    "id": "a1-part-3-134",
+    "ru": "Я здесь не пишу.",
+    "ruStressed": "Я здесь не пишу́.",
+    "translit": "Ya zdes ne pishu.",
+    "en": "I don't write here."
+  },
+  {
+    "id": "a1-part-3-135",
+    "ru": "Читай громко, пожалуйста.",
+    "ruStressed": "Чита́й гро́мко, пожа́луйста.",
+    "translit": "Chitay gromko, pozhaluysta.",
+    "en": "Read out loud, please."
+  },
+  {
+    "id": "a1-part-3-136",
+    "ru": "Где он учится?",
+    "ruStressed": "Где он у́чится?",
+    "translit": "Gde on uchitsya?",
+    "en": "Where does he study?"
+  },
+  {
+    "id": "a1-part-3-137",
+    "ru": "Что делает папа?",
+    "ruStressed": "Что де́лает па́па?",
+    "translit": "Chto delayet papa.",
+    "en": "What does the father do?"
+  },
+  {
+    "id": "a1-part-3-138",
+    "ru": "Я читаю книги.",
+    "ruStressed": "Я чита́ю кни́ги.",
+    "translit": "Ya chitayu knigi.",
+    "en": "I read books."
+  },
+  {
+    "id": "a1-part-3-139",
+    "ru": "Она работает в Москве.",
+    "ruStressed": "Она́ рабо́тает в Москве́.",
+    "translit": "Ona rabotaet v Moskve.",
+    "en": "She works in Moscow."
+  },
+  {
+    "id": "a1-part-3-140",
+    "ru": "Мы учимся в школе.",
+    "ruStressed": "Мы у́чимся в шко́ле.",
+    "translit": "My uchimsya v shkole.",
+    "en": "We study at school."
+  },
+  {
+    "id": "a1-part-3-141",
+    "ru": "Они говорят по-русски.",
+    "ruStressed": "Они́ говоря́т по-ру́сски.",
+    "translit": "Oni govoryat po-russki.",
+    "en": "They speak Russian."
+  },
+  {
+    "id": "a1-part-3-142",
+    "ru": "Вы меня понимаете?",
+    "ruStressed": "Вы меня́ понима́ете?",
+    "translit": "Vy menya ponimaete?",
+    "en": "Do you understand me?"
+  },
+  {
+    "id": "a1-part-3-143",
+    "ru": "Книга лежит на столе.",
+    "ruStressed": "Кни́га лежи́т на столе́.",
+    "translit": "Kniga lezhit na stole.",
+    "en": "The book is on the table."
+  },
+  {
+    "id": "a1-part-3-144",
+    "ru": "Я знаю ваше имя.",
+    "ruStressed": "Я зна́ю ва́ше и́мя.",
+    "translit": "Ya znayu vashe imya.",
+    "en": "I know your name."
+  },
+  {
+    "id": "a1-part-3-145",
+    "ru": "Пишите здесь, пожалуйста.",
+    "ruStressed": "Пиши́те здесь, пожа́луйста.",
+    "translit": "Pishite zdes, pozhaluysta.",
+    "en": "Write here, please."
+  },
+  {
+    "id": "a1-part-3-146",
+    "ru": "Мы любим музыку.",
+    "ruStressed": "Мы лю́бим му́зыку.",
+    "translit": "My lyubim muzyku.",
+    "en": "We love music."
+  },
+  {
+    "id": "a1-part-3-147",
+    "ru": "Слушайте учителя.",
+    "ruStressed": "Слу́шайте учи́теля.",
+    "translit": "Slushayte uchitelya.",
+    "en": "Listen to the teacher."
+  },
+  {
+    "id": "a1-part-3-148",
+    "ru": "Кто говорит?",
+    "ruStressed": "Кто говори́т?",
+    "translit": "Kto govorit?",
+    "en": "Who is speaking?"
+  },
+  {
+    "id": "a1-part-3-149",
+    "ru": "Я его не знаю.",
+    "ruStressed": "Я его́ не зна́ю.",
+    "translit": "Ya ego ne znayu.",
+    "en": "I don't know him."
+  },
+  {
+    "id": "a1-part-3-150",
+    "ru": "Она хорошо читает.",
+    "ruStressed": "Она́ хорошо́ чита́ет.",
+    "translit": "Ona khorosho chitaet.",
+    "en": "She reads well."
   }
 ]
