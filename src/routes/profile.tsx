@@ -275,3 +275,207 @@ function StatTile({
     </div>
   );
 }
+
+function TodayCard({
+  todayReps,
+  dailyGoal,
+  goalPct,
+  onSave,
+}: {
+  todayReps: number;
+  dailyGoal: number;
+  goalPct: number;
+  onSave: (n: number) => void;
+}) {
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(dailyGoal);
+  useEffect(() => setDraft(dailyGoal), [dailyGoal]);
+
+  // Ring math
+  const size = 88;
+  const stroke = 9;
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  const dash = (goalPct / 100) * c;
+
+  return (
+    <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+      <div className="flex items-center gap-4">
+        <div className="relative" style={{ width: size, height: size }}>
+          <svg width={size} height={size} className="-rotate-90">
+            <circle cx={size / 2} cy={size / 2} r={r} stroke="hsl(var(--muted))" strokeWidth={stroke} fill="none" />
+            <circle
+              cx={size / 2}
+              cy={size / 2}
+              r={r}
+              stroke="hsl(var(--primary))"
+              strokeWidth={stroke}
+              fill="none"
+              strokeDasharray={`${dash} ${c}`}
+              strokeLinecap="round"
+              className="transition-all duration-500"
+            />
+          </svg>
+          <div className="absolute inset-0 grid place-items-center">
+            <div className="text-center leading-tight">
+              <div className="text-lg font-bold text-foreground">{todayReps}</div>
+              <div className="text-[10px] uppercase tracking-wide text-muted-foreground">/ {dailyGoal}</div>
+            </div>
+          </div>
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+            <Target className="h-3.5 w-3.5" />
+            Today's goal
+          </div>
+          <div className="mt-1 text-sm font-semibold text-foreground">
+            {todayReps >= dailyGoal
+              ? "Goal reached — nice."
+              : `${dailyGoal - todayReps} reps to go`}
+          </div>
+          {!editing ? (
+            <button
+              onClick={() => setEditing(true)}
+              className="mt-2 inline-flex h-7 items-center gap-1 rounded-md border border-border/60 bg-background px-2 text-[11px] font-medium text-foreground hover:bg-muted"
+            >
+              <Pencil className="h-3 w-3" /> Edit goal
+            </button>
+          ) : (
+            <div className="mt-2 flex items-center gap-1.5">
+              <input
+                type="number"
+                min={1}
+                max={500}
+                value={draft}
+                onChange={(e) => setDraft(Number(e.target.value))}
+                className="h-7 w-20 rounded-md border border-border/60 bg-background px-2 text-xs outline-none ring-primary/30 focus:ring-2"
+              />
+              <button
+                onClick={() => {
+                  onSave(draft);
+                  setEditing(false);
+                }}
+                className="grid h-7 w-7 place-items-center rounded-md bg-primary text-primary-foreground"
+                aria-label="Save"
+              >
+                <Check className="h-3.5 w-3.5" />
+              </button>
+              <button
+                onClick={() => {
+                  setDraft(dailyGoal);
+                  setEditing(false);
+                }}
+                className="grid h-7 w-7 place-items-center rounded-md border border-border/60 bg-background"
+                aria-label="Cancel"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function StreakCard({
+  currentStreak,
+  longestStreak,
+  last14,
+  dailyGoal,
+  today,
+}: {
+  currentStreak: number;
+  longestStreak: number;
+  last14: { date: string; reps: number }[];
+  dailyGoal: number;
+  today: string;
+}) {
+  return (
+    <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="grid h-9 w-9 place-items-center rounded-lg bg-rose-100 text-rose-600">
+            <Flame className="h-5 w-5" />
+          </div>
+          <div>
+            <div className="text-2xl font-bold leading-none text-foreground">
+              {currentStreak} <span className="text-sm font-medium text-muted-foreground">day{currentStreak === 1 ? "" : "s"}</span>
+            </div>
+            <div className="text-[11px] uppercase tracking-wide text-muted-foreground">Current streak</div>
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-sm font-semibold text-foreground">{longestStreak}</div>
+          <div className="text-[11px] uppercase tracking-wide text-muted-foreground">Longest</div>
+        </div>
+      </div>
+      <div className="mt-4 flex items-end gap-1">
+        {last14.map((d) => {
+          const isToday = d.date === today;
+          const hit = d.reps >= dailyGoal && dailyGoal > 0;
+          const some = d.reps > 0 && !hit;
+          return (
+            <div
+              key={d.date}
+              title={`${d.date} · ${d.reps} reps`}
+              className={cn(
+                "h-6 flex-1 rounded-sm",
+                hit
+                  ? "bg-rose-500"
+                  : some
+                    ? "bg-rose-200"
+                    : "bg-muted",
+                isToday && "ring-2 ring-primary ring-offset-1 ring-offset-card",
+              )}
+            />
+          );
+        })}
+      </div>
+      <div className="mt-1 flex justify-between text-[10px] text-muted-foreground">
+        <span>14 days ago</span>
+        <span>Today</span>
+      </div>
+    </section>
+  );
+}
+
+function RankCard({
+  reps,
+  progress,
+}: {
+  reps: number;
+  progress: ReturnType<typeof getProgressToNext>;
+}) {
+  const { current, next, pct, toNext } = progress;
+  return (
+    <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="grid h-9 w-9 place-items-center rounded-lg bg-amber-100 text-amber-700">
+            <Trophy className="h-5 w-5" />
+          </div>
+          <div>
+            <div className="text-[11px] uppercase tracking-wide text-muted-foreground">Rank</div>
+            <div className="text-lg font-bold text-foreground">{current.label}</div>
+          </div>
+        </div>
+        <span className={cn("rounded-full px-2.5 py-1 text-[11px] font-semibold", current.color)}>
+          {reps.toLocaleString()} reps
+        </span>
+      </div>
+      <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-muted">
+        <div
+          className={cn("h-full transition-all", current.bar)}
+          style={{ width: `${pct}%` }}
+        />
+      </div>
+      <div className="mt-1.5 text-[11px] text-muted-foreground">
+        {next
+          ? `${toNext.toLocaleString()} reps to ${next.label}`
+          : "Top rank reached. Keep going!"}
+      </div>
+    </section>
+  );
+}
+
