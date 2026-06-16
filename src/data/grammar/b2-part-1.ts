@@ -9,7 +9,7 @@ export const b2Part1: GrammarPack = {
       "body": "Active participles describe someone doing an action. To form the **present** (doing), take the _3rd person plural_ form and replace **-т** with **-щий**. To form the **past** (did), take the _past tense_ stem and add **-вший**. Use these when the noun is the subject of the action.",
       "examples": [
         {
-          "ru": "Женщина, сидящая у окна, — моя сестра.连},{en:",
+          "ru": "Женщина, сидящая у окна, — моя сестра.",
           "en": "The woman sitting by the window is my sister."
         }
       ]
@@ -19,7 +19,7 @@ export const b2Part1: GrammarPack = {
       "body": "Passive past participles (PPP) describe an action done to an object. They are formed from _perfective verbs_ by adding suffixes like **-нн-**, **-енн-**, or **-т-**. These function like full adjectives. For a more formal, \"reportage\" style, use the **short form** (ending in **-н**, **-на**, **-но**, **-ны**), which functions like a predicate.",
       "examples": [
         {
-          "ru": "Книга, написанная им, стала бестселлером.\"},{en:",
+          "ru": "Книга, написанная им, стала бестселлером.",
           "en": "The book written by him became a bestseller."
         }
       ]
@@ -29,7 +29,7 @@ export const b2Part1: GrammarPack = {
       "body": "While **который** clauses are standard in speech, participles are essential for formal writing, journalism, and literature. Participles make the sentence more concise by removing the need for a relative pronoun and a conjugated verb. Stick to **который** in casual conversation, but use participles when you want to sound **academic** or **professional**.",
       "examples": [
         {
-          "ru": "Студенты, закончившие тест, могут идти.\"},{en:",
+          "ru": "Студенты, закончившие тест, могут идти.",
           "en": "The students who finished the test can leave."
         }
       ]

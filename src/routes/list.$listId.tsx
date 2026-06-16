@@ -79,6 +79,16 @@ function ListPage() {
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [focusId, setFocusId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!focusId) return;
+    const el = document.getElementById(`s-${focusId}`);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+    const t = setTimeout(() => setFocusId(null), 1400);
+    return () => clearTimeout(t);
+  }, [focusId]);
+
 
   const visibleSentences = useMemo(() => {
     let list = sentences;
@@ -362,6 +372,7 @@ function ListPage() {
             const stars = progress[s.id]?.stars ?? 0;
             const fav = !!favorites[s.id];
             const active = currentIdx === idx;
+            const focused = focusId === s.id;
             return (
               <ListenCard
                 key={s.id}
@@ -370,6 +381,7 @@ function ListPage() {
                 stars={stars}
                 fav={fav}
                 active={active}
+                focused={focused}
                 activeWord={active ? activeWord : null}
                 listenMode={listenMode}
                 showTranslit={showTranslit}
@@ -383,6 +395,7 @@ function ListPage() {
               />
             );
           })}
+
         </ul>
       </main>
 
@@ -409,11 +422,17 @@ function ListPage() {
       {grammar && (
         <GrammarSheet
           pack={grammar}
+          sentences={sentences}
           open={grammarOpen}
           onOpenChange={setGrammarOpen}
           onSpeak={(t) => speak(t, { rate: settings.speed })}
+          onJump={(id) => {
+            setGrammarOpen(false);
+            setFocusId(id);
+          }}
         />
       )}
+
     </div>
   );
 }
@@ -472,6 +491,7 @@ function ListenCard({
   stars,
   fav,
   active,
+  focused,
   activeWord,
   listenMode,
   showTranslit,
@@ -488,6 +508,7 @@ function ListenCard({
   stars: number;
   fav: boolean;
   active: boolean;
+  focused: boolean;
   activeWord: number | null;
   listenMode: boolean;
   showTranslit: boolean;
@@ -513,12 +534,15 @@ function ListenCard({
 
   return (
     <li
+      id={`s-${sentence.id}`}
       className={cn(
-        "relative rounded-2xl border border-border/60 bg-card p-4 shadow-sm transition border-l-4",
+        "relative scroll-mt-24 rounded-2xl border border-border/60 bg-card p-4 shadow-sm transition border-l-4",
         toneBorder,
         active && "ring-2 ring-primary/40",
+        focused && "ring-2 ring-primary/70 shadow-lg",
       )}
     >
+
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-xs font-semibold text-primary">#{idx + 1}</span>
         <button
@@ -802,14 +826,18 @@ function renderInline(text: string): React.ReactNode[] {
 
 function GrammarSheet({
   pack,
+  sentences,
   open,
   onOpenChange,
   onSpeak,
+  onJump,
 }: {
   pack: GrammarPack;
+  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; translit?: string }>;
   open: boolean;
   onOpenChange: (v: boolean) => void;
   onSpeak: (text: string) => void;
+  onJump: (id: string) => void;
 }) {
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
@@ -820,7 +848,19 @@ function GrammarSheet({
           </span>
           <div className="min-w-0 flex-1">
             <SheetTitle>Grammar notes</SheetTitle>
-            <SheetDescription>Short reference for this list. Tap any example to hear it.</SheetDescription>
+            <SheetDescription>Tap an example to hear it, or jump to the matching sentence in the list.</SheetDescription>
+            {pack.tags && pack.tags.length > 0 && (
+              <div className="mt-2 flex flex-wrap gap-1">
+                {pack.tags.map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium capitalize text-primary"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         </SheetHeader>
         {pack.intro && (
@@ -829,43 +869,113 @@ function GrammarSheet({
           </p>
         )}
         <div className="mt-3 space-y-3">
-          {pack.notes.map((note, i) => (
-            <div key={i} className="rounded-2xl border border-border/60 bg-card p-4">
-              <h3 className="text-sm font-bold text-foreground">{note.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {renderInline(note.body)}
-              </p>
-              {note.examples && note.examples.length > 0 && (
-                <ul className="mt-3 space-y-2">
-                  {note.examples.map((ex, j) => (
-                    <li
-                      key={j}
-                      className="flex items-start gap-2 rounded-lg border border-border/50 bg-background/60 p-2"
-                    >
-                      <button
-                        onClick={() => onSpeak(ex.ru)}
-                        className="grid h-9 w-9 shrink-0 place-items-center rounded-md border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10"
-                        aria-label={`Play ${ex.ru}`}
+          {pack.notes.map((note, i) => {
+            const matches = resolveMatches(note, sentences);
+            return (
+              <div key={i} className="rounded-2xl border border-border/60 bg-card p-4">
+                <h3 className="text-sm font-bold text-foreground">{note.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  {renderInline(note.body)}
+                </p>
+                {note.examples && note.examples.length > 0 && (
+                  <ul className="mt-3 space-y-2">
+                    {note.examples.map((ex, j) => (
+                      <li
+                        key={j}
+                        className="flex items-start gap-2 rounded-lg border border-border/50 bg-background/60 p-2"
                       >
-                        <Volume2 className="h-4 w-4" />
-                      </button>
-                      <div className="min-w-0 flex-1">
-                        <p lang="ru" className="text-sm font-semibold text-foreground break-words">
-                          {ex.ru}
-                        </p>
-                        <p className="text-xs text-muted-foreground break-words">{ex.en}</p>
-                        {ex.note && (
-                          <p className="mt-0.5 text-[11px] uppercase tracking-wider text-primary">{ex.note}</p>
-                        )}
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          ))}
+                        <button
+                          onClick={() => onSpeak(ex.ru)}
+                          className="grid h-9 w-9 shrink-0 place-items-center rounded-md border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10"
+                          aria-label={`Play ${ex.ru}`}
+                        >
+                          <Volume2 className="h-4 w-4" />
+                        </button>
+                        <div className="min-w-0 flex-1">
+                          <p lang="ru" className="text-sm font-semibold text-foreground break-words">
+                            {ex.ru}
+                          </p>
+                          <p className="text-xs text-muted-foreground break-words">{ex.en}</p>
+                          {ex.note && (
+                            <p className="mt-0.5 text-[11px] uppercase tracking-wider text-primary">{ex.note}</p>
+                          )}
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {matches.length > 0 && (
+                  <div className="mt-3 border-t border-border/50 pt-3">
+                    <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                      From this list
+                    </p>
+                    <ul className="space-y-2">
+                      {matches.map((s) => (
+                        <li
+                          key={s.id}
+                          className="flex items-start gap-2 rounded-lg border border-dashed border-border/60 bg-background/40 p-2"
+                        >
+                          <button
+                            onClick={() => onSpeak(s.ru)}
+                            className="grid h-9 w-9 shrink-0 place-items-center rounded-md border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10"
+                            aria-label={`Play ${s.ru}`}
+                          >
+                            <Volume2 className="h-4 w-4" />
+                          </button>
+                          <div className="min-w-0 flex-1">
+                            <p lang="ru" className="text-sm font-semibold text-foreground break-words">
+                              {s.ru}
+                            </p>
+                            <p className="text-xs text-muted-foreground break-words">{s.en}</p>
+                            <button
+                              onClick={() => onJump(s.id)}
+                              className="mt-1 text-[11px] font-semibold text-primary underline-offset-2 hover:underline"
+                            >
+                              Jump to sentence →
+                            </button>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       </SheetContent>
     </Sheet>
   );
 }
+
+function resolveMatches(
+  note: GrammarPack["notes"][number],
+  sentences: Array<{ id: string; ru: string; en: string }>,
+): Array<{ id: string; ru: string; en: string }> {
+  const out: Array<{ id: string; ru: string; en: string }> = [];
+  const seen = new Set<string>();
+  if (note.matchIds) {
+    for (const id of note.matchIds) {
+      const s = sentences.find((x) => x.id === id);
+      if (s && !seen.has(s.id)) {
+        out.push(s);
+        seen.add(s.id);
+      }
+    }
+  }
+  const needles = note.match?.contains ?? [];
+  if (needles.length > 0 && out.length < 5) {
+    for (const s of sentences) {
+      if (out.length >= 5) break;
+      if (seen.has(s.id)) continue;
+      const hay = (s.ru + " " + s.en).toLowerCase();
+      if (needles.some((n) => hay.includes(n.toLowerCase()))) {
+        out.push(s);
+        seen.add(s.id);
+      }
+    }
+  }
+  return out.slice(0, 5);
+}
+
+
