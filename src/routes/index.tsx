@@ -314,21 +314,6 @@ function HomePage() {
   );
 }
 
-function TagRow({ tags }: { tags: GrammarTag[] }) {
-  if (!tags.length) return null;
-  return (
-    <div className="mt-2 flex flex-wrap gap-1">
-      {tags.map((t) => (
-        <span
-          key={t}
-          className="rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium capitalize text-muted-foreground"
-        >
-          {t}
-        </span>
-      ))}
-    </div>
-  );
-}
 
 function LevelAccordion({
   level,
