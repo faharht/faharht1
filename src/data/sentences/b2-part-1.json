@@ -348,5 +348,705 @@
     "ruStressed": "Челове́к, интересу́ющийся исто́рией, мо́жет найти́ мно́жество уника́льных фа́ктов в сокро́вищнице э́того архи́ва.",
     "translit": "Chelovek, interesuyushchiysya istoriey, mozhet nayti mnozhestvo unikal'nykh faktov v sokrovishchnitse etogo arkhiva.",
     "en": "The person interested in history can find many unique facts in this old archive."
+  },
+  {
+    "id": "b2-part-1-51",
+    "ru": "Ресурсы, выделяемые на социальные программы, должны использоваться более эффективно для достижения видимых результатов.",
+    "ruStressed": "Ресу́рсы, выделя́емые на социа́льные програ́ммы, должны́ испо́льзоваться бо́лее эффекти́вно для достиже́ния ви́димых результа́тов.",
+    "translit": "Resursy, vydelyaemye na sotsialnye programmy, dolzhny ispolzovatsya bolee effektivno dlya dostizheniya vidimykh rezultatov.",
+    "en": "The resources allocated to social programs must be used more efficiently to achieve visible results."
+  },
+  {
+    "id": "b2-part-1-52",
+    "ru": "Веря в успех реформы, активисты продолжали свою работу, несмотря на многочисленные препятствия и критику.",
+    "ruStressed": "Ве́ря в успе́х рефо́рмы, активи́сты продолжа́ли свою́ рабо́ту, несмотря́ на многочи́сленные препя́тствия и кри́тику.",
+    "translit": "Verya v uspekh reformy, aktivisty prodolzhali svoyu rabotu, nesmotrya na mnogochislennye prepyatstviya i kritiku.",
+    "en": "Believing in the success of the reform, the activists continued their work despite numerous obstacles."
+  },
+  {
+    "id": "b2-part-1-53",
+    "ru": "Изменения, происходящие в мировом климате, требуют немедленных скоординированных действий со стороны всех стран.",
+    "ruStressed": "Измене́ния, происходя́щие в мирово́м кли́мате, тре́буют неме́дленных скоордини́рованных де́йствий со стороны́ всех стран.",
+    "translit": "Izmeneniya, proiskhodyashchie v mirovom klimate, trebuyut nemedlennykh skoordinirovannykh deystviy so storony vsekh stran.",
+    "en": "The changes taking place in the global climate require immediate coordinated action from all countries."
+  },
+  {
+    "id": "b2-part-1-54",
+    "ru": "Проанализировав обращения граждан, мэр пообещал решить проблему безопасности городской инфраструктуры.",
+    "ruStressed": "Проанализи́ровав обраще́ния гра́ждан, мэр пообеща́л реши́ть пробле́му безопа́сности городско́й инфраструкту́ры.",
+    "translit": "Proanalizirovav obrashcheniya grazhdan, mer poobeshchal reshit problemu bezopasnosti gorodskoy infrastruktury.",
+    "en": "Having analyzed the citizens' appeals, the mayor promised to solve the infrastructure security problem."
+  },
+  {
+    "id": "b2-part-1-55",
+    "ru": "Сведения, предоставленные независимыми наблюдателями, свидетельствуют о высоком интересе населения к выборам.",
+    "ruStressed": "Све́дения, предоста́вленные незави́симыми наблюда́телями, свиде́тельствуют о высо́ком интере́се населе́ния к вы́борам.",
+    "translit": "Svedeniya, predostavlennye nezavisimymi nablyudatelyami, svidetelstvuyut o vysokom interese naseleniya k vyboram.",
+    "en": "Information provided by independent observers indicates a high interest of the population in the elections."
+  },
+  {
+    "id": "b2-part-1-56",
+    "ru": "Защищая свои профессиональные интересы, рабочие организовали забастовку с требованием улучшить условия труда.",
+    "ruStressed": "Защища́я свои́ профессиона́льные интере́сы, рабо́чие организова́ли забасто́вку с тре́бованием улучшить усло́вия труда́.",
+    "translit": "Zashchishchaya svoi professionalnye interesy, rabochie organizovali zabastovku s trebovaniem uluchshit usloviya truda.",
+    "en": "Protecting their professional interests, the workers organized a strike to demand better working conditions."
+  },
+  {
+    "id": "b2-part-1-57",
+    "ru": "Проблемы, скрывавшиеся годами, наконец вышли на поверхность благодаря недавнему журналистскому расследованию.",
+    "ruStressed": "Пробле́мы, скрыва́вшиеся года́ми, наконе́ц вы́шли на пове́рхность благодаря́ неда́внему журнали́стскому рассле́дованию.",
+    "translit": "Problemy, skryvavshiesya godami, nakonets vyshli na poverkhnost blagodarya nedavnemu zhurnalistskomu rassledovaniyu.",
+    "en": "Problems hidden for years have finally surfaced due to the recent journalistic investigation."
+  },
+  {
+    "id": "b2-part-1-58",
+    "ru": "Признавая сложность ситуации, эксперт предложил рассмотреть альтернативные методы экономического регулирования.",
+    "ruStressed": "Признава́я сло́жность ситуа́ции, экспе́рт предложи́л рассмотре́ть альтернати́вные ме́тоды экономи́ческого регули́рования.",
+    "translit": "Priznavaya slozhnost situatsii, ekspert predlozhil rassmotret alternativnye metody ekonomicheskogo regulirovaniya.",
+    "en": "Admitting the complexity of the situation, the expert suggested considering alternative methods of economic regulation."
+  },
+  {
+    "id": "b2-part-1-59",
+    "ru": "Учитывайте мнения, высказанные участниками во время дискуссии, прежде чем принимать окончательное решение.",
+    "ruStressed": "Учи́тывайте мне́ния, вы́сказанные уча́стниками во вре́мя диску́ссии, пре́жде чем принима́ть оконча́тельное реше́ние.",
+    "translit": "Uchityvayte mneniya, vyskazannye uchastnikami vo vremya diskussii, prezhde chem prinimat okonchatelnoe reshenie.",
+    "en": "Consider the opinions expressed by participants during the discussion before making a final decision."
+  },
+  {
+    "id": "b2-part-1-60",
+    "ru": "Стандарты, принятые международными организациями, устанавливают строгие требования к качеству продуктов питания.",
+    "ruStressed": "Станда́рты, при́нятые междунаро́дными организа́циями, устана́вливают стро́гие тре́бования к ка́честву проду́ктов пита́ния.",
+    "translit": "Standarty, prinyatye mezhdunarodnymi organizatsiyami, ustanavlivayut strogie trebovaniya k kachestvu produktov pitaniya.",
+    "en": "The standards adopted by international organizations establish strict requirements for food quality."
+  },
+  {
+    "id": "b2-part-1-61",
+    "ru": "Разрабатывая новые транспортные маршруты, администрация надеется снизить нагрузку на дороги в центре города.",
+    "ruStressed": "Разраба́тывая но́вые тра́нспортные маршру́ты, администра́ция наде́ется сни́зить нагру́зку на доро́ги в це́нтре го́рода.",
+    "translit": "Razrabatyvaya novye transportnye marshruty, administratsiya nadeetsya snizit nagruzku na dorogi v tsentre goroda.",
+    "en": "Developing new transport routes, the administration hopes to reduce the traffic load in the center."
+  },
+  {
+    "id": "b2-part-1-62",
+    "ru": "Граждане, не платящие налоги вовремя, сталкиваются с риском наложения серьёзных административных штрафов.",
+    "ruStressed": "Гра́ждане, не платя́щие нало́ги во́время, ста́лкиваются с ри́ском наложе́ния серьёзных администрати́вных штра́фов.",
+    "translit": "Grazhdane, ne platyashchie nalogi vovremya, stalkivayutsya s riskom nalozheniya seryoznykh administrativnykh shtrafov.",
+    "en": "Citizens who do not pay taxes on time face the risk of serious administrative penalties."
+  },
+  {
+    "id": "b2-part-1-63",
+    "ru": "Потеряв поддержку большинства, партия была вынуждена изменить свою политическую программу и сменить лидера.",
+    "ruStressed": "Потеря́в подде́ржку большинства́, па́ртия была́ вы́нуждена измени́ть свою́ полити́ческую програ́мму и смени́ть ли́дера.",
+    "translit": "Poteryav podderzhku bolshinstva, partiya byla vynuzhdena izmenit svoyu politicheskuyu programmu i smenit lidera.",
+    "en": "Having lost the support of the majority, the party was forced to change its political program."
+  },
+  {
+    "id": "b2-part-1-64",
+    "ru": "Конфликты, возникающие на почве этнических различий, требуют деликатного и взвешенного подхода от дипломатов.",
+    "ruStressed": "Конфли́кты, возника́ющие на по́чве этни́ческих разли́чий, тре́буют делика́тного и взве́шенного подхо́да от диплома́тов.",
+    "translit": "Konflikty, voznikayushchie na pochve etnicheskikh razlichiy, trebuyut delikatnogo i vzveshennogo podkhoda ot diplomatov.",
+    "en": "Conflicts arising from ethnic differences require a sensitive and balanced approach from diplomats."
+  },
+  {
+    "id": "b2-part-1-65",
+    "ru": "Ища способы преодоления бедности, фонд финансирует образовательные проекты в развивающихся странах.",
+    "ruStressed": "Ища́ спо́собы преодоле́ния бе́дности, фонд фина́нсирует образова́тельные прое́кты в развива́ющихся стра́нах.",
+    "translit": "Ishcha sposoby preodoleniya bednosti, fond finansiruet obrazovatelnye proekty v razvivayushchikhsya stranakh.",
+    "en": "Searching for ways to overcome poverty, the foundation finances educational projects in developing countries."
+  },
+  {
+    "id": "b2-part-1-66",
+    "ru": "Ограничения, введённые министерством здравоохранения, помогли существенно замедлить распространение опасного вируса.",
+    "ruStressed": "Ограниче́ния, введённые министе́рством здравоохране́ния, помогли́ суще́ственно заме́длить распростране́ние опа́сного ви́руса.",
+    "translit": "Ogranicheniya, vvedennye ministerstvom zdravookhraneniya, pomogli sushchestvenno zamedlit rasprostranenie opasnogo virusa.",
+    "en": "Restrictions imposed by the health ministry helped significantly slow the spread of the virus."
+  },
+  {
+    "id": "b2-part-1-67",
+    "ru": "Стремясь создать инклюзивное общество, организация помогает людям с инвалидностью найти достойную работу.",
+    "ruStressed": "Стремя́сь созда́ть инклюзи́вное о́бщество, организа́ция помога́ет лю́дям с инвали́дностью найти́ досто́йную рабо́ту.",
+    "translit": "Stremyas sozdat inklyuzivnoe obshchestvo, organizatsiya pomagaet lyudyam s invalidnostyu nayti dostoynuyu rabotu.",
+    "en": "Striving to create an inclusive society, the organization helps people with disabilities find decent work."
+  },
+  {
+    "id": "b2-part-1-68",
+    "ru": "Может ли человек, не имеющий доступа к базовым услугам, полноценно участвовать в общественной жизни?",
+    "ruStressed": "Мо́жет ли челове́к, не име́ющий до́ступа к ба́зовым услу́гам, полноце́нно уча́ствовать в обще́ственной жи́зни?",
+    "translit": "Mozhet li chelovek, ne imeyushchiy dostupa k bazovym uslugam, polnotsenno uchastvovat v obshchestvennoy zhizni?",
+    "en": "Can a person who lacks access to basic services participate fully in public life?"
+  },
+  {
+    "id": "b2-part-1-69",
+    "ru": "Подтвердив достоверность фактов, газета опубликовала статью о коррупции в высших эшелонах власти.",
+    "ruStressed": "Подтверди́в достове́рность фа́ктов, газе́та опубликова́ла статью́ о корру́пции в вы́сших эшело́нах вла́сти.",
+    "translit": "Podtverdiv dostovernost faktov, gazeta opublikovala statyu o korruptsii v vysshikh eshelonakh vlasti.",
+    "en": "Having confirmed the accuracy of the facts, the newspaper published an article about corruption in higher echelons."
+  },
+  {
+    "id": "b2-part-1-70",
+    "ru": "Меры, принятые центральным банком, предотвратили финансовый кризис и стабилизировали национальную валюту.",
+    "ruStressed": "Ме́ры, при́нятые центра́льным ба́нком, предотврати́ли фина́нсовый кри́зис и стабилизи́ровали национа́льную валю́ту.",
+    "translit": "Mery, prinyatye tsentralnym bankom, predotvratili finansovyy krizis i stabilizirovali natsionalnuyu valyutu.",
+    "en": "Measures taken by the central bank prevented a financial crisis and stabilized the national currency."
+  },
+  {
+    "id": "b2-part-1-71",
+    "ru": "Вопросы, поднятые в ходе пресс-конференции, требуют тщательного изучения юридическим отделом.",
+    "ruStressed": "Вопро́сы, по́днятые в хо́де пресс-конфере́нции, тре́буют тща́тельного изуче́ния юриди́ческим отде́лом.",
+    "translit": "Voprosy, podnyatye v khode press-konferentsii, trebuyut tshchatelnogo izucheniya yuridicheskim otdelom.",
+    "en": "Issues raised during the press conference require careful study by the legal department."
+  },
+  {
+    "id": "b2-part-1-72",
+    "ru": "Опираясь на демократические принципы, организация продвигает прозрачность во всех государственных структурах.",
+    "ruStressed": "Опира́ясь на демократи́ческие при́нципы, организа́ция продвига́ет прозра́чность во всех госуда́рственных структу́рах.",
+    "translit": "Opirayas na demokraticheskie printsipy, organizatsiya prodvigaet prozrachnost vo vsekh gosudarstvennykh strukturakh.",
+    "en": "Relying on democratic principles, the organization promotes transparency in all government structures."
+  },
+  {
+    "id": "b2-part-1-73",
+    "ru": "Цифровые платформы, используемые активистами, стали мощным инструментом политической мобилизации.",
+    "ruStressed": "Цифровы́е платфо́рмы, испо́льзуемые активи́стами, ста́ли мо́щным инструме́нтом полити́ческой мобилиза́ции.",
+    "translit": "Tsifrovye platformy, ispolzuemye aktivistami, stali moshchnym instrumentom politicheskoy mobilizatsii.",
+    "en": "The digital platforms used by activists have become a powerful tool for political mobilization."
+  },
+  {
+    "id": "b2-part-1-74",
+    "ru": "Оценив потенциальные риски, инвесторы решили приостановить финансирование этого спорного проекта.",
+    "ruStressed": "Оцени́в потенциа́льные ри́ски, инве́сторы реши́ли приостанови́ть финанси́рование э́того спо́рного прое́кта.",
+    "translit": "Otseniv potentsialnye riski, investory reshili priostanovit finansirovanie etogo spornogo proekta.",
+    "en": "Having evaluated the potential risks, the investors decided to suspend funding for the controversial project."
+  },
+  {
+    "id": "b2-part-1-75",
+    "ru": "Журналисты, расследующие коррупцию в органах власти, часто сталкиваются с давлением со стороны чиновников.",
+    "ruStressed": "Журнали́сты, рассле́дующие корру́пцию в о́рганах вла́сти, ча́сто ста́лкиваются с давле́нием со стороны́ чино́вников.",
+    "translit": "Zhurnalisty, rassleduyushchie korruptsiyu v organakh vlasti, chasto stalkivayutsya s davleniem so storony chinovnikov.",
+    "en": "Journalists investigating government corruption often face pressure from high-ranking officials."
+  },
+  {
+    "id": "b2-part-1-76",
+    "ru": "Несмотря на трудности, зарождающееся в регионе гражданское общество играет ключевую роль в реформах.",
+    "ruStressed": "Несмотря́ на тру́дности, зарожда́ющееся в регио́не гражда́нское о́бщество игра́ет ключеву́ю роль в рефо́рмах.",
+    "translit": "Nesmotrya na trudnosti, zarozhdayushcheesya v regione grazhdanskoe obshchestvo igraet klyuchevuyu rol v reformakh.",
+    "en": "Despite the challenges, the civil society emerging in the region plays a key role in reforms."
+  },
+  {
+    "id": "b2-part-1-77",
+    "ru": "Попробуйте проанализировать тенденции, наблюдаемые на рынке труда в течение последних пяти лет.",
+    "ruStressed": "Попро́буйте проанализи́ровать тенде́нции, наблюда́емые на ры́нке труда́ в тече́ние после́дних пяти́ лет.",
+    "translit": "Poprobuyte proanalizirovat tendentsii, nablyudaemye na rynke truda v techenie poslednikh pyati let.",
+    "en": "Try to analyze the trends observed in the labor market over the past five years."
+  },
+  {
+    "id": "b2-part-1-78",
+    "ru": "Стратегия, разработанная экспертами, направлена на долгосрочную стабилизацию экономики региона.",
+    "ruStressed": "Страте́гия, разрабо́танная экспе́ртами, напра́влена на долгосро́чную стабилиза́цию эконо́мики регио́на.",
+    "translit": "Strategiya, razrabotannaya ekspertami, napravlena na dolgosrochnuyu stabilizatsiyu ekonomiki regiona.",
+    "en": "The strategy developed by the experts aims at long-term stabilization of the regional economy."
+  },
+  {
+    "id": "b2-part-1-79",
+    "ru": "Выступая за права меньшинств, юрист подчеркнул необходимость внесения законодательных изменений.",
+    "ruStressed": "Выступа́я за права́ меньши́нств, юри́ст подчеркну́л необходи́мость внесе́ния законода́тельных измене́ний.",
+    "translit": "Vystupaya za prava menshinstv, yurist podcherknul neobkhodimost vneseniya zakonodatelnykh izmeneniy.",
+    "en": "Advocating for the rights of minorities, the lawyer emphasized the need for legislative changes."
+  },
+  {
+    "id": "b2-part-1-80",
+    "ru": "Гражданин, обеспокоенный экологией города, должен активно участвовать в публичных слушаниях.",
+    "ruStressed": "Граждани́н, обеспоко́енный эколо́гией го́рода, до́лжен акти́вно уча́ствовать в публи́чных слу́шаниях.",
+    "translit": "Grazhdanin, obespokoennyy ekologiey goroda, dolzhen aktivno uchastvovat v publichnykh slushaniyakh.",
+    "en": "A citizen concerned about urban ecology should actively participate in public hearings."
+  },
+  {
+    "id": "b2-part-1-81",
+    "ru": "Достигнув консенсуса, делегаты подписали соглашение о международном сотрудничестве.",
+    "ruStressed": "Дости́гнув консе́нсуса, делега́ты подписа́ли соглаше́ние о междунаро́дном сотру́дничестве.",
+    "translit": "Dostignuv konsensusa, delegaty podpisali soglashenie o mezhdunarodnom sotrudnichestve.",
+    "en": "Having reached a consensus, the delegates signed an agreement on international cooperation."
+  },
+  {
+    "id": "b2-part-1-82",
+    "ru": "Достаточно ли цифр, предоставленных государственной службой статистики, для оценки уровня жизни?",
+    "ruStressed": "Доста́точно ли цифр, предоста́вленных госуда́рственной слу́жбой стати́стики, для оце́нки у́ровня жи́зни?",
+    "translit": "Dostatochno li tsifr, predostavlennykh gosudarstvennoy sluzhboy statistiki, dlya otsenki urovnya zhizni?",
+    "en": "Are the figures provided by the state statistics service enough to assess the standard of living?"
+  },
+  {
+    "id": "b2-part-1-83",
+    "ru": "Строго следуя протоколу, дипломаты избегали обсуждения острых геополитических вопросов.",
+    "ruStressed": "Стро́го сле́дуя протоко́лу, диплома́ты избега́ли обсужде́ния о́стрых геополити́ческих вопро́сов.",
+    "translit": "Strogo sleduya protokolu, diplomaty izbegali obsuzhdeniya ostrykh geopoliticheskikh voprosov.",
+    "en": "Strictly following the protocol, the diplomats avoided discussing sensitive geopolitical issues."
+  },
+  {
+    "id": "b2-part-1-84",
+    "ru": "Пробелы в бюджете, выявленные аудитом, требуют немедленного пересмотра расходов на социальную сферу.",
+    "ruStressed": "Пробе́лы в бюдже́те, выявленные ауди́том, тре́буют неме́дленного пересмо́тра расхо́дов на социа́льную сфе́ру.",
+    "translit": "Probely v byudzhete, vyyavlennye auditom, trebuyut nemedlennogo peresmotra raskhodov na sotsialnuyu sferu.",
+    "en": "The budget gaps revealed by the audit require an immediate revision of social spending."
+  },
+  {
+    "id": "b2-part-1-85",
+    "ru": "Формируя новый кабинет министров, президент учитывал мнение парламентского большинства.",
+    "ruStressed": "Форми́руя но́вый кабине́т мини́стров, президе́нт учи́тывал мне́ние парла́ментского большинства́.",
+    "translit": "Formiruya novyy kabinet ministrov, prezident uchityval mnenie parlamentskogo bolshinstva.",
+    "en": "While forming a new cabinet of ministers, the president took into account the opinion of the parliamentary majority."
+  },
+  {
+    "id": "b2-part-1-86",
+    "ru": "Ценности, транслируемые средствами массовой информации, существенно влияют на мировоззрение современного поколения.",
+    "ruStressed": "Це́нности, трансли́руемые сре́дствами ма́ссовой информа́ции, суще́ственно влия́ют на мировоззре́ние совреме́нного поколе́ния.",
+    "translit": "Tsennosti, transliruemye sredstvami massovoy informatsii, sushchestvenno vliyayut na mirovozzrenie sovremennogo pokoleniya.",
+    "en": "The values broadcast by the media significantly influence the worldview of the modern generation."
+  },
+  {
+    "id": "b2-part-1-87",
+    "ru": "Эксперт, выступавший на форуме, раскритиковал методы, используемые для борьбы с инфляцией.",
+    "ruStressed": "Экспе́рт, выступа́вший на фо́руме, раскритикова́л ме́тоды, испо́льзуемые для борьбы́ с инфля́цией.",
+    "translit": "Ekspert, vystupavshiy na forume, raskritikoval metody, ispolzuemye dlya borby s inflyatsiey.",
+    "en": "The expert speaking at the forum criticized the methods used to combat inflation."
+  },
+  {
+    "id": "b2-part-1-88",
+    "ru": "Потеряв поддержку электората, правящая партия потерпела неудачу на местных выборах.",
+    "ruStressed": "Потеря́в подде́ржку электора́та, пра́вящая па́ртия потерпе́ла неуда́чу на ме́стных вы́борах.",
+    "translit": "Poteryav podderzhku elektorata, pravyashchaya partiya poterpela neudachu na mestnykh vyborakh.",
+    "en": "Having lost the support of the electorate, the ruling party failed in the local elections."
+  },
+  {
+    "id": "b2-part-1-89",
+    "ru": "Механизмы, регулирующие миграционную политику, должны быть гибкими и отвечать современным вызовам.",
+    "ruStressed": "Механи́змы, регули́рующие миграцио́нную поли́тику, должны́ быть ги́бкими и отвеча́ть совреме́нным вы́зовам.",
+    "translit": "Mekhanizmy, reguliruyushchie migratsionnuyu politiku, dolzhny byt gibkimi i otvechat sovremennym vyzovam.",
+    "en": "The mechanisms regulating immigration policy must be flexible and meet modern challenges."
+  },
+  {
+    "id": "b2-part-1-90",
+    "ru": "Понимая важность международного диалога, учёные организовали саммит по вопросам изменения климата.",
+    "ruStressed": "Понима́я ва́жность междунаро́дного диа́лога, учёные организова́ли са́ммит по вопро́сам измене́ния кли́мата.",
+    "translit": "Ponimaya vazhnost mezhdunarodnogo dialoga, uchenye organizovali sammit po voprosam izmeneniya klimata.",
+    "en": "Understanding the importance of international dialogue, the scientists organized a summit on climate change."
+  },
+  {
+    "id": "b2-part-1-91",
+    "ru": "Вопросы, обсуждавшиеся в ходе саммита, отражают глобальные вызовы, стоящие перед современной цивилизацией.",
+    "ruStressed": "Вопро́сы, обсужда́вшиеся в хо́де са́ммита, отража́ют глоба́льные вы́зовы, стоя́щие пе́ред совреме́нной цивилиза́цией.",
+    "translit": "Voprosy, obsuzhdavshiesya v khode sammita, otrazhayut globalnye vyzovy, stoyashchie pered sovremennoy tsivilizatsiey.",
+    "en": "Issues discussed during the summit reflect the global challenges facing modern civilization."
+  },
+  {
+    "id": "b2-part-1-92",
+    "ru": "Изучив статистику последних лет, эксперт указал на рост социального неравенства.",
+    "ruStressed": "Изучи́в стати́стику после́дних лет, экспе́рт указа́л на рост социа́льного нера́венства.",
+    "translit": "Izuchiv statistiku poslednikh let, ekspert ukazal na rost sotsialnogo neravenstva.",
+    "en": "Having examined the statistics of recent years, the expert pointed out the growth of social inequality."
+  },
+  {
+    "id": "b2-part-1-93",
+    "ru": "Эффективны ли проекты, поддерживаемые международными грантами, для развития сельской экономики?",
+    "ruStressed": "Эффекти́вны ли прое́кты, подде́рживаемые междунаро́дными гра́нтами, для разви́тия се́льской эконо́мики?",
+    "translit": "Effektivny li proekty, podderzhivaemye mezhdunarodnymi grantami, dlya razvitiya selskoy ekonomiki?",
+    "en": "Are projects supported by international grants effective for developing the rural economy?"
+  },
+  {
+    "id": "b2-part-1-94",
+    "ru": "Обсудив условия контракта, юристы приступили к подписанию итоговых документов.",
+    "ruStressed": "Обсуди́в усло́вия контра́кта, юри́сты приступи́ли к подписа́нию ито́говых докуме́нтов.",
+    "translit": "Obsudiv usloviya kontrakta, yuristy pristupili k podpisaniyu itogovykh dokumentov.",
+    "en": "Having discussed the terms of the contract, the lawyers proceeded to sign the final documents."
+  },
+  {
+    "id": "b2-part-1-95",
+    "ru": "Система, обеспечивающая прозрачность выборов, является необходимым условием для демократического государства.",
+    "ruStressed": "Систе́ма, обеспе́чивающая прозра́чность вы́боров, явля́ется необходи́мым усло́вием для демократи́ческого госуда́рства.",
+    "translit": "Sistema, obespechivayushchaya prozrachnost vyborov, yavlyaetsya neobkhodimym usloviem dlya demokraticheskogo gosudarstva.",
+    "en": "A system providing transparency of elections is a necessary condition for a democratic state."
+  },
+  {
+    "id": "b2-part-1-96",
+    "ru": "Наладив диалог с протестующими, администрации удалось избежать серьёзного конфликта.",
+    "ruStressed": "Нала́див диало́г с протесту́ющими, администра́ции удало́сь избежа́ть серьёзного конфли́кта.",
+    "translit": "Naladiv dialog s protestuyushchimi, administratsii udalos izbezhat seryoznogo konflikta.",
+    "en": "Having established a dialogue with the protesters, the administration managed to avoid a serious conflict."
+  },
+  {
+    "id": "b2-part-1-97",
+    "ru": "Показатели, упомянутые в докладе, свидетельствуют о медленном восстановлении туристической отрасли.",
+    "ruStressed": "Показа́тели, упомя́нутые в докла́де, свиде́тельствуют о ме́дленном восстановле́нии туристи́ческой о́трасли.",
+    "translit": "Pokazateli, upomyanutye v doklade, svidetelstvuyut o medlennom vosstanovlenii turisticheskoy otrasli.",
+    "en": "The indicators mentioned in the report indicate a slow recovery of the tourism industry."
+  },
+  {
+    "id": "b2-part-1-98",
+    "ru": "Выступая в роли посредника, организация помогает разрешать трудовые споры между рабочими и руководством.",
+    "ruStressed": "Выступа́я в ро́ли посре́дника, организа́ция помога́ет разреша́ть трудовы́е спо́ры ме́жду рабо́чими и руково́дством.",
+    "translit": "Vystupaya v roli posrednika, organizatsiya pomogaet razreshat trudovye spory mezhdu rabochimi i rukovodstvom.",
+    "en": "Acting as a mediator, the organization helps to resolve labor disputes between workers and management."
+  },
+  {
+    "id": "b2-part-1-99",
+    "ru": "Определите факторы, способствующие оттоку высококвалифицированных специалистов за границу.",
+    "ruStressed": "Определи́те фа́кторы, спосо́бствующие отто́ку высококвалифици́рованных специали́стов за грани́цу.",
+    "translit": "Opredelite faktory, sposobstvuyushchie ottoku vysokokvalifitsirovannykh spetsialistov za granitsu.",
+    "en": "Identify the factors contributing to the outflow of highly qualified specialists abroad."
+  },
+  {
+    "id": "b2-part-1-100",
+    "ru": "Инициатива, выдвинутая молодежным парламентом, направлена на улучшение городской инфраструктуры.",
+    "ruStressed": "Инициати́ва, вы́двинутая молоде́жным парла́ментом, напра́влена на улучше́ние городско́й инфраструкту́ры.",
+    "translit": "Initsiativa, vydvinutaya molodezhnym parlamentom, napravlena na uluchshenie gorodskoy infrastruktury.",
+    "en": "The initiative put forward by the youth parliament aims to improve urban infrastructure."
+  },
+  {
+    "id": "b2-part-1-101",
+    "ru": "Меры, направленные на борьбу с коррупцией, должны быть комплексными и строго контролироваться государством.",
+    "ruStressed": "Ме́ры, напра́вленные на борьбу́ с корру́пцией, должны́ быть ко́мплексными и стро́го контроли́роваться госуда́рством.",
+    "translit": "Mery, napravlennye na borbu s korruptsiey, dolzhny byt kompleksnymi i strogo kontrolirovatsya gosudarstvom.",
+    "en": "Measures aimed at combating corruption must be comprehensive and strictly controlled by the state."
+  },
+  {
+    "id": "b2-part-1-102",
+    "ru": "Существуют ли риски, связанные с внедрением искусственного интеллекта в систему государственного управления?",
+    "ruStressed": "Существу́ют ли ри́ски, свя́занные с внедре́нием иску́сственного интелле́кта в систе́му госуда́рственного управле́ния?",
+    "translit": "Sushchestvuyut li riski, svyazannye s vnedreniem iskusstvennogo intellekta v sistemu gosudarstvennogo upravleniya?",
+    "en": "Are there risks associated with the introduction of artificial intelligence into the public administration system?"
+  },
+  {
+    "id": "b2-part-1-103",
+    "ru": "Завершив переговоры, стороны выразили надежду на долгосрочное и плодотворное сотрудничество.",
+    "ruStressed": "Заверши́в перегово́ры, сто́роны вы́разили наде́жду на долгосро́чное и плодотво́рное сотру́дничество.",
+    "translit": "Zavershiv peregovory, storony vyrazili nadezhdu na dolgosrochnoe i plodotvornoe sotrudnichestvo.",
+    "en": "Having finished the negotiations, the parties expressed hope for long-term and fruitful cooperation."
+  },
+  {
+    "id": "b2-part-1-104",
+    "ru": "Перемены, наблюдаемые в поведении избирателей, заставляют политиков переосмыслить свои стратегии.",
+    "ruStressed": "Переме́ны, наблюда́емые в поведе́нии избира́телей, заставля́ют поли́тиков переосмы́слить свои́ страте́гии.",
+    "translit": "Peremeny, nablyudaemye v povedenii izbirateley, zastavlyayut politikov pereosmyslit svoi strategii.",
+    "en": "Changes observed in the behavior of voters are forcing politicians to rethink their strategies."
+  },
+  {
+    "id": "b2-part-1-105",
+    "ru": "Рассмотрев все предложения, комиссия выбрала самое экологически безопасное решение.",
+    "ruStressed": "Рассмотре́в все предложе́ния, коми́ссия вы́брала са́мое экологи́чески безопа́сное реше́ние.",
+    "translit": "Rassmotrev vse predlozheniya, komissiya vybrala samoe ekologicheski bezopasnoe reshenie.",
+    "en": "Having considered all the proposals, the commission chose the most environmentally friendly solution."
+  },
+  {
+    "id": "b2-part-1-106",
+    "ru": "Информация, предоставленная независимыми наблюдателями, помогла выявить нарушения в ходе голосования.",
+    "ruStressed": "Информа́ция, предоста́вленная незави́симыми наблюда́телями, помогла́ вы́явить наруше́ния в хо́де голосова́ния.",
+    "translit": "Informatsiya, predostavlennaya nezavisimymi nablyudatelyami, pomogla vyyavit narusheniya v khode golosovaniya.",
+    "en": "Information provided by independent observers helped to identify violations during the voting process."
+  },
+  {
+    "id": "b2-part-1-107",
+    "ru": "Задумываясь о реформе судебной системы, власти должны учитывать международные правовые стандарты.",
+    "ruStressed": "Заду́мываясь о рефо́рме суде́бной систе́мы, вла́сти должны́ учи́тывать междунаро́дные правовы́е станда́рты.",
+    "translit": "Zadumyvayas o reforme sudebnoy sistemy, vlasti dolzhny uchityvat mezhdunarodnye pravovye standarty.",
+    "en": "Thinking about the reform of the judicial system, authorities must consider international legal standards."
+  },
+  {
+    "id": "b2-part-1-108",
+    "ru": "Проанализируйте результаты, полученные с помощью нового метода мониторинга социальной активности.",
+    "ruStressed": "Проанализи́руйте результа́ты, полу́ченные с по́мощью но́вого ме́тода монито́ринга социа́льной акти́вности.",
+    "translit": "Proanaliziruyte rezultaty, poluchennye s pomoshchyu novogo metoda monitoringa sotsialnoy aktivnosti.",
+    "en": "Analyze the results obtained through the new method of monitoring social activity."
+  },
+  {
+    "id": "b2-part-1-109",
+    "ru": "Граждане, участвующие в волонтерских программах, демонстрируют высокий уровень социальной ответственности.",
+    "ruStressed": "Гра́ждане, уча́ствующие в волонте́рских програ́ммах, демонстри́руют высо́кий у́ровень социа́льной отве́тственности.",
+    "translit": "Grazhdane, uchastvuyushchie v volonterskikh programmakh, demonstriruyut vysokiy uroven sotsialnoy otvetstvennosti.",
+    "en": "Citizens participating in volunteer programs demonstrate a high level of social responsibility."
+  },
+  {
+    "id": "b2-part-1-110",
+    "ru": "Вопросы, связанные с защитой персональных данных, остаются в центре внимания общественности.",
+    "ruStressed": "Вопро́сы, свя́занные с защи́той персона́льных да́нных, остаю́тся в це́нтре внима́ния обще́ственности.",
+    "translit": "Voprosy, svyazannye s zashchitoy personalnykh dannykh, ostayutsya v tsentre vnimaniya obshchestvennosti.",
+    "en": "Issues related to the protection of personal data remain the focus of public attention."
+  },
+  {
+    "id": "b2-part-1-111",
+    "ru": "Проанализировав текущую ситуацию на рынке, компания решила пересмотреть свои инвестиционные приоритеты.",
+    "ruStressed": "Проанализи́ровав теку́щую ситуа́цию на ры́нке, компа́ния реши́ла пересмотре́ть свои́ инвестицио́нные приорите́ты.",
+    "translit": "Proanalizirovav tekushchuyu situatsiyu na rynke, kompaniya reshila peresmotret svoi investitsionnye prioritety.",
+    "en": "Having analyzed the current market situation, the company decided to reconsider its investment priorities."
+  },
+  {
+    "id": "b2-part-1-112",
+    "ru": "Общественные движения, выступающие за сохранение окружающей среды, с каждым годом набирают всё больше сторонников.",
+    "ruStressed": "Обще́ственные движе́ния, выступа́ющие за сохране́ние окружа́ющей среды́, с ка́ждым го́дом набира́ют всё бо́льше сторо́нников.",
+    "translit": "Obshchestvennye dvizheniya, vystupayushchie za sokhranenie okruzhayushchey sredy, s kazhdym godom nabirayut vsyo bolshe storonnikov.",
+    "en": "Social movements advocating for environmental conservation are gaining more and more followers every year."
+  },
+  {
+    "id": "b2-part-1-113",
+    "ru": "Критикуя нынешнее состояние инфраструктуры, эксперт предложил комплексную программу её модернизации.",
+    "ruStressed": "Критику́я ны́нешнее состоя́ние инфраструкту́ры, экспе́рт предложи́л ко́мплексную програ́мму её модерниза́ции.",
+    "translit": "Kritikuya nyneshnee sostoyanie infrastruktury, ekspert predlozhil kompleksnuyu programmu yeyo modernizatsii.",
+    "en": "Criticizing the current state of infrastructure, the expert proposed a comprehensive program for its modernization."
+  },
+  {
+    "id": "b2-part-1-114",
+    "ru": "Достаточно ли мер, принимаемых властями для поддержки малообеспеченных слоёв населения?",
+    "ruStressed": "Доста́точно ли мер, принима́емых властя́ми для подде́ржки малообеспе́ченных слоёв населе́ния?",
+    "translit": "Dostatochno li mer, prinimaemykh vlastyami dlya podderzhki maloobespechennykh sloyov naseleniya?",
+    "en": "Are the measures being taken by the authorities sufficient to support the low-income population?"
+  },
+  {
+    "id": "b2-part-1-115",
+    "ru": "Получив дополнительное финансирование, лаборатория приступила к исследованию влияния радиации на биологические объекты.",
+    "ruStressed": "Получи́в дополни́тельное финанси́рование, лаборато́рия приступи́ла к иссле́дованию влия́ния радиа́ции на биологи́ческие объе́кты.",
+    "translit": "Poluchiv dopolnitelnoe finansirovanie, laboratoriya pristupila k issledovaniyu vliyaniya radiatsii na biologicheskie obekty.",
+    "en": "Having received additional funding, the laboratory began researching the effects of radiation on biological objects."
+  },
+  {
+    "id": "b2-part-1-116",
+    "ru": "Определите проблемы, препятствующие развитию малых предприятий в условиях экономической нестабильности.",
+    "ruStressed": "Определи́те пробле́мы, препя́тствующие разви́тию ма́лых предприя́тий в усло́виях экономи́ческой нестаби́льности.",
+    "translit": "Opredelite problemy, prepyatstvuyushchie razvitiyu malykh predpriyatiy v usloviyakh ekonomicheskoy nestabilnosti.",
+    "en": "Identify the problems hindering the development of small enterprises in the context of economic instability."
+  },
+  {
+    "id": "b2-part-1-117",
+    "ru": "Осознавая неизбежность перемен, руководство подготовило план структурной реорганизации.",
+    "ruStressed": "Осознава́я неизбе́жность переме́н, руково́дство подгото́вило план структу́рной реорганиза́ции.",
+    "translit": "Osoznavaya neizbezhnost peremen, rukovodstvo podgotovilo plan strukturnoy reorganizatsii.",
+    "en": "Realizing the inevitablity of change, the management prepared a plan for structural reorganization."
+  },
+  {
+    "id": "b2-part-1-118",
+    "ru": "Цифры, представленные в докладе, подтверждают успешность выбранного курса социальной политики.",
+    "ruStressed": "Ци́фры, предста́вленные в докла́де, подтвержда́ют успе́шность вы́бранного ку́рса социа́льной поли́тики.",
+    "translit": "Tsyfry, predstavlennye v doklade, podtverzhdayut uspeshnost vybrannogo kursa sotsialnoy politiki.",
+    "en": "The figures presented in the report confirm the success of the chosen social policy."
+  },
+  {
+    "id": "b2-part-1-119",
+    "ru": "Игнорируя мнение жителей, строительная компания продолжила работы на городской площади.",
+    "ruStressed": "Игнори́руя мне́ние жи́телей, строи́тельная компа́ния продо́лжила рабо́ты на городско́й пло́щади.",
+    "translit": "Ignoriruya mnenie zhiteley, stroitelnaya kompaniya prodolzhila raboty na gorodskoy ploshchadi.",
+    "en": "Ignoring the opinions of residents, the construction company continued work on the city square."
+  },
+  {
+    "id": "b2-part-1-120",
+    "ru": "Проект, реализуемый молодёжной организацией, направлен на пропаганду здорового образа жизни.",
+    "ruStressed": "Прое́кт, реализу́емый молодёжной организа́цией, напра́влен на пропага́нду здоро́вого о́браза жи́зни.",
+    "translit": "Proekt, realizuemyy molodyozhnoy organizatsiey, napravlen na propagandu zdorovogo obraza zhizni.",
+    "en": "The project implemented by the youth organization aims to promote a healthy lifestyle."
+  },
+  {
+    "id": "b2-part-1-121",
+    "ru": "Стремясь повысить качество государственных услуг, министерство внедрило новую систему обратной связи.",
+    "ruStressed": "Стремя́сь повы́сить ка́чество госуда́рственных услу́г, министе́рство внедри́ло но́вую систе́му обра́тной свя́зи.",
+    "translit": "Stremyas povysit kachestvo gosudarstvennykh uslug, ministerstvo vnedrilo novuyu sistemu obratnoy svyazi.",
+    "en": "Seeking to improve the quality of public services, the ministry introduced a new feedback system."
+  },
+  {
+    "id": "b2-part-1-122",
+    "ru": "Рассмотрите факторы, определяющие уровень жизни населения в индустриальных регионах.",
+    "ruStressed": "Рассмотри́те фа́кторы, определя́ющие у́ровень жи́зни населе́ния в индустриа́льных регио́нах.",
+    "translit": "Rassmotrite faktory, opredelyayushchie uroven zhizni naseleniya v industrialnykh regionakh.",
+    "en": "Consider the factors determining the standard of living of the population in industrial regions."
+  },
+  {
+    "id": "b2-part-1-123",
+    "ru": "Деньги, выделенные на строительство школы, были потрачены на закупку современного оборудования.",
+    "ruStressed": "Де́ньги, вы́деленные на строи́тельство шко́лы, бы́ли потра́чены на заку́пку совреме́нного обору́дования.",
+    "translit": "Dengi, vydelennye na stroitelstvo shkoly, byli potracheny na zakupku sovremennogo oborudovaniya.",
+    "en": "The money allocated for the construction of the school was spent on purchasing equipment."
+  },
+  {
+    "id": "b2-part-1-124",
+    "ru": "Рассмотрев жалобу гражданина, суд обязал организацию возместить нанесённый ущерб.",
+    "ruStressed": "Рассмотре́в жа́лобу граждани́на, суд обя́зал организа́цию возмести́ть нанесённый ущерб.",
+    "translit": "Rassmotrev zhalobu grazhdanina, sud obyazal organizatsiyu vozmestit nanesyonnyy ushcherb.",
+    "en": "Having reviewed the citizen's complaint, the court ordered the organization to compensate for the damage caused."
+  },
+  {
+    "id": "b2-part-1-125",
+    "ru": "Технологические компании, создающие новые рабочие места, получают значительные налоговые льготы.",
+    "ruStressed": "Технологи́ческие компа́нии, создаю́щие но́вые рабо́чие места́, получа́ют значи́тельные нало́говые льго́ты.",
+    "translit": "Tekhnologicheskie kompanii, sozdayushchie novye rabochie mesta, poluchayut znachitelnye nalogovye lgoty.",
+    "en": "High tech companies creating new jobs receive significant tax breaks."
+  },
+  {
+    "id": "b2-part-1-126",
+    "ru": "Докладчик, представляющий интересы профсоюза, говорил о падении покупательной способности рабочих.",
+    "ruStressed": "Докла́дчик, представля́ющий интере́сы профсою́за, говори́л о паде́нии покупа́тельной спосо́бности рабо́чих.",
+    "translit": "Dokladchik, predstavlyayushchiy interesy profsoyuza, govoril o padenii pokupatelnoy sposobnosti rabochikh.",
+    "en": "The speaker, representing the interests of the trade union, spoke about the decline in workers' purchasing power."
+  },
+  {
+    "id": "b2-part-1-127",
+    "ru": "Опасаясь за свою репутацию, представители бренда немедленно принесли извинения за инцидент.",
+    "ruStressed": "Опаса́ясь за свою́ репута́цию, представи́тели бре́нда неме́дленно принесли́ извине́ния за инциде́нт.",
+    "translit": "Opasayas za svoyu reputatsiyu, predstaviteli brenda nemedlenno prinesli izvineniya za intsident.",
+    "en": "Fearing for their reputation, the brand representatives immediately apologized for the incident."
+  },
+  {
+    "id": "b2-part-1-128",
+    "ru": "Исследования, проведённые независимыми центрами, указывают на снижение доверия к традиционным медиа.",
+    "ruStressed": "Иссле́дования, проведённые незави́симыми це́нтрами, ука́зывают на сниже́ние дове́рия к традицио́нным ме́диа.",
+    "translit": "Issledovaniya, provedyonnye nezavisimymi tsentrami, ukazyvayut na snizhenie doveriya k traditsionnym media.",
+    "en": "Studies conducted by independent centers indicate a decline in trust in traditional media."
+  },
+  {
+    "id": "b2-part-1-129",
+    "ru": "Строго придерживаясь этических норм, журналист отказался раскрывать источник конфиденциальной информации.",
+    "ruStressed": "Стро́го приде́рживаясь эти́ческих норм, журнали́ст отказа́лся раскрыва́ть исто́чник конфиденциа́льной информа́ции.",
+    "translit": "Strogo priderzhivayas eticheskikh norm, zhurnalist otkazalsya raskryvat istochnik konfidentsialnoy informatsii.",
+    "en": "Strictly adhering to ethical standards, the journalist refused to disclose the source of the confidential information."
+  },
+  {
+    "id": "b2-part-1-130",
+    "ru": "Инициативы, предложенные комитетом, направлены на повышение уровня жизни малообеспеченных граждан.",
+    "ruStressed": "Инициати́вы, предло́женные комите́том, напра́влены на повыше́ние у́ровня жи́зни малообеспе́ченных гра́ждан.",
+    "translit": "Initsiativy, predlozhennye komitetom, napravleny na povyshenie urovnya zhizni maloobespechennykh grazhdan.",
+    "en": "The initiatives proposed by the committee are aimed at improving the living standards of low-income citizens."
+  },
+  {
+    "id": "b2-part-1-131",
+    "ru": "Проанализировав статистические данные, эксперты пришли к выводам о замедлении темпов экономического роста.",
+    "ruStressed": "Проанализи́ровав статисти́ческие да́нные, экспе́рты пришли́ к вы́водам о замедле́нии те́мпов экономи́ческого ро́ста.",
+    "translit": "Proanalizirovav statisticheskie dannye, eksperty prishli k vyvodam o zamedlenii tempov ekonomicheskogo rosta.",
+    "en": "Having analyzed the statistical data, the experts came to conclusions about the slowdown in economic growth."
+  },
+  {
+    "id": "b2-part-1-132",
+    "ru": "Организации, предоставляющие юридическую помощь беженцам, играют важную роль в современном мире.",
+    "ruStressed": "Организа́ции, предоставля́ющие юриди́ческую по́мощь бе́женцам, игра́ют ва́жную роль в совреме́нном ми́ре.",
+    "translit": "Organizatsii, predostavlyayushchie yuridicheskuyu pomoshch bezhentsam, igrayut vazhnuyu rol v sovremennom mire.",
+    "en": "Organizations providing legal assistance to refugees play an important role in the modern world."
+  },
+  {
+    "id": "b2-part-1-133",
+    "ru": "Игнорируя предупреждения о рисках, руководство приняло решение, приведшее к корпоративному кризису.",
+    "ruStressed": "Игнори́руя предупрежде́ния о ри́сках, руково́дство приняло́ реше́ние, приве́дшее к корпорати́вному кри́зису.",
+    "translit": "Ignoriruya preduprezhdeniya o riskakh, rukovodstvo prinyalo reshenie, privedshee k korporativnomu krizisu.",
+    "en": "While ignoring warned risks, the management made a decision that led to a corporate crisis."
+  },
+  {
+    "id": "b2-part-1-134",
+    "ru": "Рассмотрите преимущества, предоставляемые цифровой трансформацией государственного сектора для рядовых граждан.",
+    "ruStressed": "Рассмотри́те преиму́щества, предоставля́емые цифрово́й трансформа́цией госуда́рственного се́ктора для рядовы́х гра́ждан.",
+    "translit": "Rassmotrite preimushchestva, predostavlyaemye tsifrovoy transformatsiey gosudarstvennogo sektora dlya ryadovykh grazhdan.",
+    "en": "Consider the advantages offered by the digital transformation of the public sector for regular citizens."
+  },
+  {
+    "id": "b2-part-1-135",
+    "ru": "Конференция, посвящённая вопросам кибербезопасности, соберёт ведущих специалистов со всего мира.",
+    "ruStressed": "Конфере́нция, посвящённая вопро́сам кибербезопа́сности, соберёт веду́щих специали́стов со всего́ ми́ра.",
+    "translit": "Konferentsiya, posvyashchennaya voprosam kiberbezopasnosti, soberet vedushchikh spetsialistov so vsego mira.",
+    "en": "A conference focused on cyber security issues will bring together leading specialists from all over the world."
+  },
+  {
+    "id": "b2-part-1-136",
+    "ru": "Действуя в рамках своих полномочий, суд решил удовлетворить запрос некоммерческой организации.",
+    "ruStressed": "Де́йствуя в ра́мках свои́х полномо́чий, суд реши́л удовлетвори́ть запро́с некомме́рческой организа́ции.",
+    "translit": "Deystvuya v ramkakh svoikh polnomochiy, sud reshil udovletvorit zapros nekommercheskoy organizatsii.",
+    "en": "Acting within its authority, the court decided to satisfy the request of the non-profit organization."
+  },
+  {
+    "id": "b2-part-1-137",
+    "ru": "Будут ли достаточными меры, принимаемые центральным банком для сдерживания текущей инфляции?",
+    "ruStressed": "Бу́дут ли доста́точными ме́ры, принима́емые центра́льным ба́нком для сде́рживания теку́щей инфля́ции?",
+    "translit": "Budut li dostatochnymi mery, prinimaemye tsentralnym bankom dlya sderzhivaniya tekushchey inflyatsii?",
+    "en": "Will the measures taken by the central bank be sufficient to contain current inflation?"
+  },
+  {
+    "id": "b2-part-1-138",
+    "ru": "Отметив высокий уровень коррупции, международные наблюдатели рекомендовали усилить контроль за госзакупками.",
+    "ruStressed": "Отме́тив высо́кий у́ровень корру́пции, междунаро́дные наблюда́тели рекомендова́ли уси́лить контро́ль за госзаку́пками.",
+    "translit": "Otmetiv vysokiy uroven korruptsii, mezhdunarodnye nablyudateli rekomendovali usilit kontrol za goszakupkami.",
+    "en": "Having noted the high level of corruption, the international observers recommended strengthening control over state procurement."
+  },
+  {
+    "id": "b2-part-1-139",
+    "ru": "Средства массовой информации, освещающие политические события, должны сохранять объективность и опираться на проверенные факты.",
+    "ruStressed": "Сре́дства ма́ссовой информа́ции, освеща́ющие полити́ческие собы́тия, должны́ сохраня́ть объекти́вность и опира́ться на прове́ренные фа́кты.",
+    "translit": "Sredstva massovoy informatsii, osveshchayushchie politicheskie sobytiya, dolzhny sokhranyat obektivnost i opiratsya na proverennye fakty.",
+    "en": "Media outlets covering political events must maintain objectivity and rely on verified facts."
+  },
+  {
+    "id": "b2-part-1-140",
+    "ru": "Исследование, проведённое среди молодёжи, показало сдвиг ценностей в сторону социальной ответственности.",
+    "ruStressed": "Иссле́дование, проведённое среди́ молодёжи, показа́ло сдвиг це́нностей в сто́рону социа́льной отве́тственности.",
+    "translit": "Issledovanie, provedennoe sredi molodezhi, pokazalo sdvig tsennostey v storonu sotsialnoy otvetstvennosti.",
+    "en": "A study conducted among young people showed a shift in values toward social responsibility."
+  },
+  {
+    "id": "b2-part-1-141",
+    "ru": "Стремясь к прозрачности отчётности, компания опубликовала полные сведения о своих благотворительных проектах.",
+    "ruStressed": "Стремя́сь к прозра́чности отчётности, компа́ния опубликова́ла по́лные све́дения о свои́х благотвори́тельных прое́ктах.",
+    "translit": "Stremyas k prozrachnosti otchetnosti, kompaniya opublikovala polnye svedeniya o svoikh blagotvoritelnykh proektakh.",
+    "en": "Striving for transparency in reporting, the company published full details of its charitable projects."
+  },
+  {
+    "id": "b2-part-1-142",
+    "ru": "Инфраструктура, разрушенная в ходе стихийного бедствия, требует значительных вложений для полного восстановления.",
+    "ruStressed": "Инфраструкту́ра, разру́шенная в хо́де стихи́йного бе́дствия, тре́бует значи́тельных вложе́ний для по́лного восстановле́ния.",
+    "translit": "Infrastruktura, razrushennaya v khode stikhiynogo bedstviya, trebuet znachitelnykh vlozheniy dlya polnogo vosstanovleniya.",
+    "en": "The infrastructure destroyed during the natural disaster requires significant investments for full restoration."
+  },
+  {
+    "id": "b2-part-1-143",
+    "ru": "Основываясь на социологических опросах, можно сделать вывод о росте доверия населения к государственным институтам.",
+    "ruStressed": "Осно́вываясь на социологи́ческих опро́сах, мо́жно сде́лать вы́вод о ро́сте дове́рия населе́ния к госуда́рственным институ́там.",
+    "translit": "Osnovyvayas na sotsiologicheskikh oprosakh, mozhno sdelat vyvod o roste doveriya naseleniya k gosudarstvennym institutam.",
+    "en": "Based on sociological surveys, one can conclude that public trust in state institutions is growing."
+  },
+  {
+    "id": "b2-part-1-144",
+    "ru": "Проблемы, упомянутые докладчиком на форуме, указывают на необходимость срочных законодательных изменений.",
+    "ruStressed": "Пробле́мы, упомя́нутые докла́дчиком на фо́руме, ука́зывают на необходи́мость сро́чных законода́тельных измене́ний.",
+    "translit": "Problemy, upomyanutye dokladchikom na forume, ukazyvayut na neobkhodimost srochnykh zakonodatelnykh izmeneniy.",
+    "en": "Problems mentioned by the speaker at the forum indicate the need for urgent legislative changes."
+  },
+  {
+    "id": "b2-part-1-145",
+    "ru": "Получив необходимое количество подписей, петиция будет рассмотрена на следующем заседании городского совета.",
+    "ruStressed": "Получи́в необходи́мое коли́чество по́дписей, пети́ция бу́дет рассмо́трена на сле́дующем заседа́нии городско́го сове́та.",
+    "translit": "Poluchiv neobkhodimoe kolichestvo podpisey, petitsiya budet rassmotrena na sleduyushchem zasedanii gorodskogo soveta.",
+    "en": "Having received the required number of signatures, the petition will be considered at the next city council meeting."
+  },
+  {
+    "id": "b2-part-1-146",
+    "ru": "Активисты, выступающие против ужесточения налогового законодательства, намерены провести серию мирных демонстраций.",
+    "ruStressed": "Активи́сты, выступа́ющие про́тив ужесточе́ния налого́вого законода́тельства, наме́рены провести́ се́рию ми́рных демонстра́ций.",
+    "translit": "Aktivisty, vystupayushchie protiv uzhestocheniya nalogovogo zakonodatelstva, namereny provesti seriyu mirnykh demonstratsiy.",
+    "en": "Activists opposing the tightening of tax legislation intend to hold a series of peaceful demonstrations."
+  },
+  {
+    "id": "b2-part-1-147",
+    "ru": "Создавая благоприятные условия для инвестиций, регион привлекает внимание крупнейших международных корпораций.",
+    "ruStressed": "Создава́я благоприя́тные усло́вия для инвести́ций, регио́н привлека́ет внима́ние крупне́йших междунаро́дных корпора́ций.",
+    "translit": "Sozdavaya blagopriyatnye usloviya dlya investitsiy, region privlekaet vnimanie krupneyshikh mezhdunarodnykh korporatsiy.",
+    "en": "By creating favorable conditions for investment, the region attracts the attention of large international corporations."
+  },
+  {
+    "id": "b2-part-1-148",
+    "ru": "Современная молодёжь, использующая цифровые платформы для самовыражения, активно участвует в обсуждении актуальных политических тем.",
+    "ruStressed": "Совреме́нная молодёжь, испо́льзующая цифровы́е платфо́рмы для самовыраже́ния, акти́вно уча́ствует в обсужде́нии актуа́льных полити́ческих тем.",
+    "translit": "Sovremennaya molodezh, ispolzuyushchaya tsifrovye platformy dlya samovyrazheniya, aktivno uchastvuet v obsuzhdenii aktualnykh politicheskikh tem.",
+    "en": "Modern youth, using digital platforms for self-expression, actively participates in discussing current political topics."
+  },
+  {
+    "id": "b2-part-1-149",
+    "ru": "Отчёт, подготовленный комиссией, содержит рекомендации по реформированию системы здравоохранения.",
+    "ruStressed": "Отчёт, подгото́вленный коми́ссией, соде́ржит рекоменда́ции по реформи́рованию систе́мы здравоохране́ния.",
+    "translit": "Otchet, podgotovlennyy komissiey, soderzhit rekomendatsii po reformirovaniyu sistemy zdravookhraneniya.",
+    "en": "The report prepared by the commission contains recommendations for reforming the healthcare system."
+  },
+  {
+    "id": "b2-part-1-150",
+    "ru": "Выявите проблемы, с которыми сталкиваются молодые специалисты, впервые выходящие на рынок труда.",
+    "ruStressed": "Вы́явите пробле́мы, с кото́рыми ста́лкиваются молоды́е специали́сты, впервы́е выходя́щие на ры́нок труда́.",
+    "translit": "Vyyavite problemy, s kotorymi stalkivayutsya molodye spetsialisty, vpervye vykhodyashchie na rynok truda.",
+    "en": "Identify the challenges faced by young professionals entering the labor market for the first time."
   }
 ]

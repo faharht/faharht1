@@ -698,5 +698,355 @@
     "ruStressed": "Совреме́нные скульпту́ры вы́глядят бо́лее необы́чно, чем класси́ческие ста́туи.",
     "translit": "Sovremennye skul'ptury vyglyadyat bolee neobychno, chem klassicheskie statui.",
     "en": "Modern sculptures look more unusual than classical statues."
+  },
+  {
+    "id": "b1-part-4-101",
+    "ru": "Я считаю, что жить в центре лучше, потому что всё находится рядом.",
+    "ruStressed": "Я счита́ю, что жить в це́нтре лу́чше, потому́ что всё нахо́дится ря́дом.",
+    "translit": "Ya schitayu, chto zhit' v tsentre luchshe, potomu chto vsyo nakhoditsya ryadom.",
+    "en": "I think that living in the center is better because everything is nearby."
+  },
+  {
+    "id": "b1-part-4-102",
+    "ru": "Государственные службы в нашем городе становятся более современными и быстрыми.",
+    "ruStressed": "Госуда́рственные слу́жбы в на́шем го́роде стано́вятся бо́лее совреме́нными и бы́стрыми.",
+    "translit": "Gosudarstvennye sluzhby v nashem gorode stanovyatsya bolee sovremennymi i bystrymi.",
+    "en": "Public services in our city are becoming more modern and faster."
+  },
+  {
+    "id": "b1-part-4-103",
+    "ru": "Если вы хотите увидеть самую красивую панораму, сходите на набережную.",
+    "ruStressed": "Е́сли вы хоти́те уви́деть са́мую краси́вую панора́му, сходи́те на на́бережную.",
+    "translit": "Esli vy khotite uvidet' samuyu krasivuyu panoramu, skhodite na naberezhnuyu.",
+    "en": "If you want to see the most beautiful panorama, go to the embankment."
+  },
+  {
+    "id": "b1-part-4-104",
+    "ru": "Когда откроется новая библиотека, культурная жизнь района изменится.",
+    "ruStressed": "Когда́ откро́ется но́вая библиоте́ка, культу́рная жизнь райо́на измени́тся.",
+    "translit": "Kogda otkroetsya novaya biblioteka, kul'turnaya zhizn' rayona izmenitsya.",
+    "en": "When a new library opens, the cultural life of the district will change."
+  },
+  {
+    "id": "b1-part-4-105",
+    "ru": "Оплачивать коммунальные услуги через приложение быстрее, чем в банке.",
+    "ruStressed": "Опла́чивать коммуна́льные услу́ги че́рез приложе́ние быстре́е, чем в ба́нке.",
+    "translit": "Oplachivat' kommunal'nye uslugi cherez prilozhenie bystree, chem v banke.",
+    "en": "Paying for communal services through the app is faster than at the bank."
+  },
+  {
+    "id": "b1-part-4-106",
+    "ru": "Эта площадь считается самым популярным местом для встреч студентов.",
+    "ruStressed": "Э́та пло́щадь счита́ется са́мым популя́рным ме́стом для встреч студе́нтов.",
+    "translit": "Eta ploshchad' schitaetsya samym populyarnym mestom dlya vstrech studentov.",
+    "en": "This square is considered the most popular meeting place for students."
+  },
+  {
+    "id": "b1-part-4-107",
+    "ru": "Почему новый спортивный комплекс находится дальше от метро, чем старый?",
+    "ruStressed": "Почему́ но́вый спорти́вный ко́мплекс нахо́дится да́льше от метро́, чем ста́рый?",
+    "translit": "Pochemu novyy sportivnyy kompleks nakhoditsya dal'she ot metro, chem staryy?",
+    "en": "Why is the new sports complex further from the metro than the old one?"
+  },
+  {
+    "id": "b1-part-4-108",
+    "ru": "Можно сказать, что местная администрация стала более открытой для горожан.",
+    "ruStressed": "Мо́жно сказа́ть, что ме́стная администра́ция ста́ла бо́лее откры́той для горожа́н.",
+    "translit": "Mozhno skazat', chto mestnaya administratsiya stala bolee otkrytoy dlya gorozhan.",
+    "en": "One can say that the local administration has become more open to citizens."
+  },
+  {
+    "id": "b1-part-4-109",
+    "ru": "Улицы в старом центре более узкие, чем в новых жилых районах.",
+    "ruStressed": "У́лицы в ста́ром це́нтре бо́лее у́зкие, чем в но́вых жилы́х райо́нах.",
+    "translit": "Ulitsy v starom tsentre bolee uzkie, chem v novykh zhilykh rayonakh.",
+    "en": "The streets in the old center are narrower than in the new residential areas."
+  },
+  {
+    "id": "b1-part-4-110",
+    "ru": "Я предпочитаю ходить в театр, потому что атмосфера там более торжественная.",
+    "ruStressed": "Я предпочита́ю ходи́ть в теа́тр, потому́ что атмосфе́ра там бо́лее торже́ственная.",
+    "translit": "Ya predpochitayu khodit' v teatr, potomu chto atmosfera tam bolee torzhestvennaya.",
+    "en": "I prefer going to the theater because the atmosphere there is more solemn."
+  },
+  {
+    "id": "b1-part-4-111",
+    "ru": "Нынешний мэр города пытается решить проблему пробок на дорогах.",
+    "ruStressed": "Ны́нешний мэр го́рода пыта́ется реши́ть пробле́му про́бок на доро́гах.",
+    "translit": "Nyneshniy mer goroda pytaetsya reshit' problemu probok na dorogakh.",
+    "en": "The current mayor of the city is trying to solve the problem of traffic jams."
+  },
+  {
+    "id": "b1-part-4-112",
+    "ru": "Если пользоваться картой, то стоимость проезда будет дешевле.",
+    "ruStressed": "Е́сли по́льзоваться ка́ртой, то сто́имость прое́зда бу́дет деше́вле.",
+    "translit": "Esli pol'zovat'sya kartoy, to stoimost' proezda budet deshevle.",
+    "en": "If you use the card, the fare will be cheaper."
+  },
+  {
+    "id": "b1-part-4-113",
+    "ru": "Этот собор является самым высоким зданием в нашем историческом районе.",
+    "ruStressed": "Э́тот собо́р явля́ется са́мым высо́ким зда́нием в на́шем истори́ческом райо́не.",
+    "translit": "Etot sobor yavlyaetsya samym vysokim zdaniem v nashem istoricheskom rayone.",
+    "en": "This cathedral is the highest building in our historical district."
+  },
+  {
+    "id": "b1-part-4-114",
+    "ru": "Местные жители считают, что воздух в парке намного чище.",
+    "ruStressed": "Ме́стные жи́тели счита́ют, что во́здух в па́рке намно́го чи́ще.",
+    "translit": "Mestnye zhiteli schitayut, chto vozdukh v parke namnogo chishche.",
+    "en": "Local residents think that the air in the park is much cleaner."
+  },
+  {
+    "id": "b1-part-4-115",
+    "ru": "Когда я переехал в город, моя жизнь стала гораздо разнообразнее.",
+    "ruStressed": "Когда́ я перее́хал в го́род, моя́ жизнь ста́ла гора́здо разнообра́знее.",
+    "translit": "Kogda ya pereekhal v gorod, moya zhizn' stala gorazdo raznoobraznee.",
+    "en": "When I moved to the city, my life became much more diverse."
+  },
+  {
+    "id": "b1-part-4-116",
+    "ru": "Почему цена на воду здесь выше, чем в соседнем регионе?",
+    "ruStressed": "Почему́ цена́ на во́ду здесь вы́ше, чем в сосе́днем регио́не?",
+    "translit": "Pochemu tsena na vodu zdes' vyshe, chem v sosednem regione?",
+    "en": "Why is the price of water higher here than in the neighboring region?"
+  },
+  {
+    "id": "b1-part-4-117",
+    "ru": "Найдите самую интересную выставку и купите билеты заранее.",
+    "ruStressed": "Найди́те са́мую интере́сную вы́ставку и купи́те биле́ты зара́нее.",
+    "translit": "Naydite samuyu interesnuyu vystavku i kupite bilety zaranee.",
+    "en": "Find the most interesting exhibition and buy tickets in advance."
+  },
+  {
+    "id": "b1-part-4-118",
+    "ru": "Социальные проекты помогают сделать наш город лучше для всех.",
+    "ruStressed": "Социа́льные прое́кты помога́ют сде́лать наш го́род лу́чше для всех.",
+    "translit": "Sotsial'nye proekty pomogayut sdelat' nash gorod luchshe dlya vsekh.",
+    "en": "Social projects help make our city better for everyone."
+  },
+  {
+    "id": "b1-part-4-119",
+    "ru": "Наш город предоставляет самые лучшие государственные услуги для пожилых жителей.",
+    "ruStressed": "Наш го́род предоставля́ет са́мые лу́чшие госуда́рственные услу́ги для пожилы́х жи́телей.",
+    "translit": "Nash gorod predostavlyaet samye luchshie gosudarstvennye uslugi dlya pozhilykh zhiteley.",
+    "en": "Our city provides the best public services for elderly residents."
+  },
+  {
+    "id": "b1-part-4-120",
+    "ru": "Я думаю, что новый парк будет популярнее, чем старая площадь.",
+    "ruStressed": "Я ду́маю, что но́вый парк бу́дет популя́рнее, чем ста́рая пло́щадь.",
+    "translit": "Ya dumayu, chto novyy park budet populyarnee, chem staraya ploshchad'.",
+    "en": "I think that the new park will be more popular than the old square."
+  },
+  {
+    "id": "b1-part-4-121",
+    "ru": "Когда приедете в центр, посетите самый древний собор.",
+    "ruStressed": "Когда́ прие́дете в центр, посети́те са́мый дре́вний собо́р.",
+    "translit": "Kogda priedete v tsentr, posetite samyy drevniy sobor.",
+    "en": "When you arrive in the center, visit the most ancient cathedral."
+  },
+  {
+    "id": "b1-part-4-122",
+    "ru": "Арендовать офис в стеклянном небоскрёбе намного дороже.",
+    "ruStressed": "Арендова́ть о́фис в стекля́нном небоскрёбе намно́го доро́же.",
+    "translit": "Arendovat' ofis v steklyannom neboskryobe namnogo dorozhe.",
+    "en": "Renting an office in a glass skyscraper is much more expensive."
+  },
+  {
+    "id": "b1-part-4-123",
+    "ru": "Местные власти стараются сделать улицы более безопасными для пешеходов.",
+    "ruStressed": "Ме́стные вла́сти стара́ются сде́лать у́лицы бо́лее безопа́сными для пешехо́дов.",
+    "translit": "Mestnye vlasti starayutsya sdelat' ulitsy bolee bezopasnymi dlya peshekhodov.",
+    "en": "Local authorities are trying to make the streets safer for pedestrians."
+  },
+  {
+    "id": "b1-part-4-124",
+    "ru": "Этот район считается самым тихим и зелёным во всей столице.",
+    "ruStressed": "Э́тот райо́н счита́ется са́мым ти́хим и зелёным во всей столи́це.",
+    "translit": "Etot rayon schitaetsya samym tikhim i zelyonym vo vsey stolitse.",
+    "en": "This area is considered the quietest and greenest in the entire capital."
+  },
+  {
+    "id": "b1-part-4-125",
+    "ru": "Почему качество воды здесь хуже, чем в пригороде?",
+    "ruStressed": "Почему́ ка́чество воды́ здесь ху́же, чем в при́городе?",
+    "translit": "Pochemu kachestvo vody zdes' khuzhe, chem v prigorode?",
+    "en": "Why is the quality of water here worse than in the suburbs?"
+  },
+  {
+    "id": "b1-part-4-126",
+    "ru": "Музей истории интереснее, потому что там используют новые технологии.",
+    "ruStressed": "Музе́й исто́рии интере́снее, потому́ что там испо́льзуют но́вые техноло́гии.",
+    "translit": "Muzey istorii interesnee, potomu chto tam ispol'zuyut novye tekhnologii.",
+    "en": "The museum of history is more interesting because it uses new technologies."
+  },
+  {
+    "id": "b1-part-4-127",
+    "ru": "Выставка молодых художников стала самой обсуждаемой темой недели.",
+    "ruStressed": "Вы́ставка молоды́х худо́жников ста́ла са́мой обсужда́емой те́мой неде́ли.",
+    "translit": "Vystavka molodykh khudozhnikov stala samoy obsuzhdaemoy temoy nedeli.",
+    "en": "The exhibition of young artists became the most discussed topic of the week."
+  },
+  {
+    "id": "b1-part-4-128",
+    "ru": "Переезд в большой город казался мне более трудной задачей.",
+    "ruStressed": "Перее́зд в большо́й го́род каза́лся мне бо́лее тру́дной зада́чей.",
+    "translit": "Pereezd v bol'shoy gorod kazalsya mne bolee trudnoy zadachey.",
+    "en": "Moving to a big city seemed like a more difficult task to me."
+  },
+  {
+    "id": "b1-part-4-129",
+    "ru": "Проверьте расписание, чтобы найти самый удобный маршрут до стадиона.",
+    "ruStressed": "Прове́рьте расписа́ние, что́бы найти́ са́мый удо́бный маршру́т до стадио́на.",
+    "translit": "Prover'te raspisanie, chtoby nayti samyy udobnyy marshrut do stadiona.",
+    "en": "Check the schedule to find the most convenient route to the stadium."
+  },
+  {
+    "id": "b1-part-4-130",
+    "ru": "Экологическая ситуация в промышленной зоне становится всё хуже.",
+    "ruStressed": "Экологи́ческая ситуа́ция в промы́шленной зо́не стано́вится всё ху́же.",
+    "translit": "Ekologicheskaya situatsiya v promyshlennoy zone stanovitsya vsyo khuzhe.",
+    "en": "The ecological situation in the industrial zone is getting worse."
+  },
+  {
+    "id": "b1-part-4-131",
+    "ru": "Новые социальные программы помогают молодым семьям покупать квартиры дешевле.",
+    "ruStressed": "Но́вые социа́льные програ́ммы помога́ют молоды́м се́мьям покупа́ть кварти́ры деше́вле.",
+    "translit": "Novye sotsial'nye programmy pomogayut molodym sem'yam pokupat' kvartiry deshevle.",
+    "en": "New social programs help young families buy apartments cheaper."
+  },
+  {
+    "id": "b1-part-4-132",
+    "ru": "Библиотеки превращаются в самые современные образовательные пространства.",
+    "ruStressed": "Библиоте́ки превраща́ются в са́мые совреме́нные образова́тельные простра́нства.",
+    "translit": "Biblioteki prevrashchayutsya v samye sovremennye obrazovatel'nye prostranstva.",
+    "en": "Libraries are transforming into the most modern educational spaces."
+  },
+  {
+    "id": "b1-part-4-133",
+    "ru": "Жизнь в этом городе дороже, чем мы думали раньше.",
+    "ruStressed": "Жизнь в э́том го́роде доро́же, чем мы ду́мали ра́ньше.",
+    "translit": "Zhizn' v etom gorode dorozhe, chem my dumali ran'she.",
+    "en": "Life in this city is more expensive than we previously thought."
+  },
+  {
+    "id": "b1-part-4-134",
+    "ru": "Новый аэропорт выглядит более эффектно, чем центральный вокзал.",
+    "ruStressed": "Но́вый аэропо́рт вы́глядит бо́лее эффе́ктно, чем центра́льный вокза́л.",
+    "translit": "Novyy aeroport vyglyadit bolee effektno, chem tsentral'nyy vokzal.",
+    "en": "The new airport looks more spectacular than the central station."
+  },
+  {
+    "id": "b1-part-4-135",
+    "ru": "Государственные услуги работают быстрее, если пользоваться интернет-порталом.",
+    "ruStressed": "Госуда́рственные услу́ги рабо́тают быстре́е, е́сли по́льзоваться интерне́т-порта́лом.",
+    "translit": "Gosudarstvennye uslugi rabotayut bystree, esli pol'zovat'sya internet-portalom.",
+    "en": "Public services work faster if you use the web portal."
+  },
+  {
+    "id": "b1-part-4-136",
+    "ru": "Культурная программа фестиваля была самой разнообразной в этом году.",
+    "ruStressed": "Культу́рная програ́мма фестива́ля была́ са́мой разнообра́зной в э́том году́.",
+    "translit": "Kul'turnaya programma festivalya byla samoy raznoobraznoy v etom godu.",
+    "en": "The cultural program of the festival was the most diverse this year."
+  },
+  {
+    "id": "b1-part-4-137",
+    "ru": "Отдыхать у озера намного приятнее, чем ходить по магазинам.",
+    "ruStressed": "Отдыха́ть у о́зера намно́го прия́тнее, чем ходи́ть по магази́нам.",
+    "translit": "Otdykhat' u ozera namnogo priyatnee, chem khodit' po magazinam.",
+    "en": "Resting by the lake is much more pleasant than walking through the shops."
+  },
+  {
+    "id": "b1-part-4-138",
+    "ru": "Я думаю, что жизнь в большом городе намного интереснее, чем в деревне.",
+    "ruStressed": "Я ду́маю, что жизнь в большо́м го́роде намно́го интере́снее, чем в дере́вне.",
+    "translit": "Ya dumayu, chto zhizn' v bol'shom gorode namnogo interesnee, chem v derevne.",
+    "en": "I think that life in a large city is much more interesting than in a village."
+  },
+  {
+    "id": "b1-part-4-139",
+    "ru": "Этот район считается самым безопасным, потому что здесь много камер и полиции.",
+    "ruStressed": "Э́тот райо́н счита́ется са́мым безопа́сным, потому́ что здесь мно́го ка́мер и поли́ции.",
+    "translit": "Etot rayon schitaetsya samym bezopasnym, potomu chto zdes' mnogo kamer i politsii.",
+    "en": "This district is considered the safest because there are many cameras and police here."
+  },
+  {
+    "id": "b1-part-4-140",
+    "ru": "Если вы хотите увидеть весь город, поднимитесь на самую высокую смотровую площадку.",
+    "ruStressed": "Е́сли вы хоти́те уви́деть весь го́род, подними́тесь на са́мую высо́кую смотрову́ю площа́дку.",
+    "translit": "Esli vy khotite uvidet' ves' gorod, podnimites' na samuyu vysokuyu smotrovuyu ploshchadku.",
+    "en": "If you want to see the whole city, go to the highest observation deck."
+  },
+  {
+    "id": "b1-part-4-141",
+    "ru": "Когда открывается самый новый спортивный комплекс в нашем административном округе?",
+    "ruStressed": "Когда́ открыва́ется са́мый но́вый спорти́вный ко́мплекс в на́шем администрати́вном о́круге?",
+    "translit": "Kogda otkryvaetsya samyy novyy sportivnyy kompleks v nashem administrativnom okruge?",
+    "en": "When does the newest sports complex in our administrative district open?"
+  },
+  {
+    "id": "b1-part-4-142",
+    "ru": "Государственные услуги становятся более доступными благодаря новому правительственному сайту.",
+    "ruStressed": "Госуда́рственные услу́ги стано́вятся бо́лее досту́пными благодаря́ но́вому прави́тельственному са́йту.",
+    "translit": "Gosudarstvennye uslugi stanovyatsya bolee dostupnymi blagodarya novomu pravitel'stvennomu saytu.",
+    "en": "Public services are becoming more accessible thanks to the new government website."
+  },
+  {
+    "id": "b1-part-4-143",
+    "ru": "Главная библиотека города изменилась сильнее, чем я мог себе представить.",
+    "ruStressed": "Гла́вная библиоте́ка го́рода измени́лась сильне́е, чем я мог себе́ предста́вить.",
+    "translit": "Glavnaya biblioteka goroda izmenilas' sil'nee, chem ya mog sebe predstavit'.",
+    "en": "The main library of the city changed more than I could have imagined."
+  },
+  {
+    "id": "b1-part-4-144",
+    "ru": "Этот торговый центр больше и современнее, чем тот, что находится рядом.",
+    "ruStressed": "Э́тот торго́вый центр бо́льше и совреме́ннее, чем тот, что нахо́дится ря́дом.",
+    "translit": "Etot torgovyy tsentr bol'she i sovremennee, chem tot, chto nakhoditsya ryadom.",
+    "en": "This shopping center is larger and more modern than the one nearby."
+  },
+  {
+    "id": "b1-part-4-145",
+    "ru": "Местная поликлиника оказывает лучшую медицинскую помощь, чем частный центр.",
+    "ruStressed": "Ме́стная поликли́ника ока́зывает лу́чшую медици́нскую по́мощь, чем ча́стный центр.",
+    "translit": "Mestnaya poliklinika okazyvaet luchshuyu meditsinskuyu pomoshch', chem chastnyy tsentr.",
+    "en": "The local clinic provides better medical assistance than the private center."
+  },
+  {
+    "id": "b1-part-4-146",
+    "ru": "Почему метро в центре города глубже, чем в спальных районах?",
+    "ruStressed": "Почему́ метро́ в це́нтре го́рода глу́бже, чем в спа́льных райо́нах?",
+    "translit": "Pochemu metro v tsentre goroda glubzhe, chem v spal'nykh rayonakh?",
+    "en": "Why is the metro in the city center deeper than in the suburbs?"
+  },
+  {
+    "id": "b1-part-4-147",
+    "ru": "Наша городская администрация решила, что парковка в центре должна быть дороже.",
+    "ruStressed": "На́ша городская́ администра́ция реши́ла, что парко́вка в це́нтре должна́ быть доро́же.",
+    "translit": "Nasha gorodskaya administratsiya reshila, chto parkovka v tsentre dolzhna byt' dorozhe.",
+    "en": "Our city administration decided that parking in the center should be more expensive."
+  },
+  {
+    "id": "b1-part-4-148",
+    "ru": "Проверьте, стал ли счёт за воду в этом месяце меньше, чем в прошлом.",
+    "ruStressed": "Прове́рьте, стал ли счёт за во́ду в э́том ме́сяце ме́ньше, чем в про́шлом.",
+    "translit": "Prover'te, stal li schyot za vodu v etom mesyatse men'she, chem v proshlom.",
+    "en": "Check whether the water bill is lower this month than last month."
+  },
+  {
+    "id": "b1-part-4-149",
+    "ru": "Качество дорог в северной части намного хуже, чем в южной.",
+    "ruStressed": "Ка́чество доро́г в се́верной ча́сти намно́го ху́же, чем в ю́жной.",
+    "translit": "Kachestvo dorog v severnoy chasti namnogo khuzhe, chem v yuzhnoy.",
+    "en": "The quality of the roads in the northern part is much worse than in the southern."
+  },
+  {
+    "id": "b1-part-4-150",
+    "ru": "Городской цирк считается самым популярным местом для отдыха семей с детьми.",
+    "ruStressed": "Городско́й цирк счита́ется са́мым популя́рным ме́стом для о́тдыха семе́й с детьми́.",
+    "translit": "Gorodskoy tsirk schitaetsya samym populyarnym mestom dlya otdykha semey s det'mi.",
+    "en": "The city circus is considered the most popular place for families with children."
   }
 ]

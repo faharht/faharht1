@@ -698,5 +698,355 @@
     "ruStressed": "Ваш аргуме́нт слаб, вам ну́жно измени́ть свой о́браз жи́зни.",
     "translit": "Vash argument slab, vam nuzhno izmenit' svoy obraz zhizni.",
     "en": "Your argument is weak, you need to change your lifestyle."
+  },
+  {
+    "id": "b1-part-3-101",
+    "ru": "Я решил заняться спортом, чтобы стать сильным и здоровым.",
+    "ruStressed": "Я реши́л заня́ться спо́ртом, что́бы стать си́льным и здоро́вым.",
+    "translit": "Ya reshil zanyat'sya sportom, chtoby stat' sil'nym i zdorovym.",
+    "en": "I decided to go in for sports to become strong and healthy."
+  },
+  {
+    "id": "b1-part-3-102",
+    "ru": "Врач уже осмотрел пациента, который жаловался на боль в сердце?",
+    "ruStressed": "Врач уже́ осмотре́л пацие́нта, кото́рый жа́ловался на боль в се́рдце?",
+    "translit": "Vrach uzhe osmotrel pacienta, kotoryy zhalovalsya na bol' v serdce?",
+    "en": "Has the doctor already examined the patient who complained of heart pain?"
+  },
+  {
+    "id": "b1-part-3-103",
+    "ru": "Если вы болеете гриппом, вам следует оставаться дома и отдыхать.",
+    "ruStressed": "Е́сли вы боле́ете гри́ппом, вам сле́дует остава́ться до́ма и отдыха́ть.",
+    "translit": "Esli vy boleete grippom, vam sleduet ostavat'sya doma i otdyhat'.",
+    "en": "If you have the flu, you should stay at home and rest."
+  },
+  {
+    "id": "b1-part-3-104",
+    "ru": "Мой брат занимается плаванием, потому что это помогает ему расслабиться.",
+    "ruStressed": "Мой брат занима́ется пла́ванием, потому́ что э́то помога́ет ему́ рассла́биться.",
+    "translit": "Moy brat zanimaetsya plavaniem, potomu chto eto pomogaet emu rasslabit'sya.",
+    "en": "My brother enjoys swimming because it helps him relax."
+  },
+  {
+    "id": "b1-part-3-105",
+    "ru": "Каждое утро спортсмен умывается холодной водой, чтобы укрепить иммунитет.",
+    "ruStressed": "Ка́ждое у́тро спортсме́н умыва́ется холо́дной водо́й, что́бы укрепи́ть иммуните́т.",
+    "translit": "Kazhdoe utro sportsmen umyvaetsya holodnoy vodoy, chtoby ukrepit' immunitet.",
+    "en": "Every morning the athlete washes with cold water to strengthen his immunity."
+  },
+  {
+    "id": "b1-part-3-106",
+    "ru": "Когда я устаю на работе, у меня начинают болеть глаза.",
+    "ruStressed": "Когда́ я устаю́ на рабо́те, у меня́ начина́ют боле́ть глаза́.",
+    "translit": "Kogda ya ustayu na rabote, u menya nachinayut bolet' glaza.",
+    "en": "When I get tired at work, my eyes start to hurt."
+  },
+  {
+    "id": "b1-part-3-107",
+    "ru": "Как долго вы мучаетесь этим ужасным кашлем и насморком?",
+    "ruStressed": "Как до́лго вы му́чаетесь э́тим ужа́сным ка́шлем и на́сморком?",
+    "translit": "Kak dolgo vy muchaetes' etim uzhasnym kashlem i nasmorkom?",
+    "en": "How long have you been suffering from this terrible cough and runny nose?"
+  },
+  {
+    "id": "b1-part-3-108",
+    "ru": "По моему мнению, необходимо заниматься бегом на свежем воздухе.",
+    "ruStressed": "По моему́ мне́нию, необходи́мо занима́ться бе́гом на све́жем во́здухе.",
+    "translit": "Po moemu mneniyu, neobhodimo zanyat'sya begom na svezhem vozduhe.",
+    "en": "In my opinion, it is necessary to practice running in the fresh air."
+  },
+  {
+    "id": "b1-part-3-109",
+    "ru": "Больной почувствовал себя лучше после приёма лекарства, которое выписал врач.",
+    "ruStressed": "Больно́й почу́вствовал себя́ лу́чше по́сле приёма лека́рства, кото́рое вы́писал врач.",
+    "translit": "Bol'noy pochuvstvoval sebya luchshe posle priyoma lekarstva, kotoroe vypisal vrach.",
+    "en": "The patient felt better after taking the medicine prescribed by the doctor."
+  },
+  {
+    "id": "b1-part-3-110",
+    "ru": "Я мою руки с мылом несколько раз в день, чтобы не заболеть.",
+    "ruStressed": "Я мо́ю ру́ки с мы́лом не́сколько раз в день, что́бы не заболе́ть.",
+    "translit": "Ya moyu ruki s mylom neskol'ko raz v den', chtoby ne zabolet'.",
+    "en": "I wash my hands with soap several times a day not to get sick."
+  },
+  {
+    "id": "b1-part-3-111",
+    "ru": "Медсестра объяснила, как пользоваться этим кремом для кожи?",
+    "ruStressed": "Медсестра́ объясни́ла, как по́льзоваться э́тим кре́мом для ко́жи?",
+    "translit": "Medsestra ob'yasnila, kak pol'zovat'sya etim kremom dlya kozhi?",
+    "en": "Did the nurse explain how to use this cream for the skin?"
+  },
+  {
+    "id": "b1-part-3-112",
+    "ru": "Я считаю, что психическое здоровье так же важно, как и физическое.",
+    "ruStressed": "Я счита́ю, что психи́ческое здоро́вье так же ва́жно, как и физи́ческое.",
+    "translit": "Ya schitayu, chto psihicheskoe zdorov'e tak zhe vazhno, kak i fizicheskoe.",
+    "en": "I think that mental health is as important as physical health."
+  },
+  {
+    "id": "b1-part-3-113",
+    "ru": "Берегите себя и не забывайте принимать витамины в зимний период.",
+    "ruStressed": "Береги́те себя́ и не забыва́йте принима́ть витами́ны в зи́мний пери́од.",
+    "translit": "Beregite sebya i ne zabyvayte prinimat' vitaminy v zimniy period.",
+    "en": "Take care of yourself and don't forget to take vitamins in winter."
+  },
+  {
+    "id": "b1-part-3-114",
+    "ru": "Вы интересуетесь профессиональным спортом или просто тренируетесь для себя?",
+    "ruStressed": "Вы интересу́етесь профессиона́льным спо́ртом и́ли про́сто трениру́етесь для себя́?",
+    "translit": "Vy interesuetes' professional'nym sportom ili prosto treniruetes' dlya sebya?",
+    "en": "Are you interested in professional sports or just exercising for yourself?"
+  },
+  {
+    "id": "b1-part-3-115",
+    "ru": "Мальчик почистил зубы и лёг спать в десять часов вечера.",
+    "ruStressed": "Ма́льчик почи́стил зу́бы и лёг спать в де́сять часо́в ве́чера.",
+    "translit": "Mal'chik pochistil zuby i lyog spat' v desyat' chasov vechera.",
+    "en": "The boy brushed his teeth and went to bed at ten o'clock."
+  },
+  {
+    "id": "b1-part-3-116",
+    "ru": "Это правда, что вы бросили курить по причинам здоровья?",
+    "ruStressed": "Э́то пра́вда, что вы бро́сили кури́ть по причи́нам здоро́вья?",
+    "translit": "Eto pravda, chto vy brosili kurit' po prichinam zdorov'ya.",
+    "en": "Is it true that you stopped smoking for health reasons?"
+  },
+  {
+    "id": "b1-part-3-117",
+    "ru": "Хирург моет руки перед тем, как начать сложную операцию.",
+    "ruStressed": "Хиру́рг мо́ет ру́ки пе́ред тем, как нача́ть сло́жную опера́цию.",
+    "translit": "Hirurg moet ruki pered tem, kak nachat' slozhnuyu operaciyu.",
+    "en": "The surgeon is washing his hands before starting the complicated operation."
+  },
+  {
+    "id": "b1-part-3-118",
+    "ru": "Когда температура падает, больной начинает чувствовать себя гораздо лучше.",
+    "ruStressed": "Когда́ температу́ра па́дает, больно́й начина́ет чу́вствовать себя́ гора́здо лу́чше.",
+    "translit": "Kogda temperatura padaet, bol'noy nachinaet chuvstvovat' sebya gorazdo luchshe.",
+    "en": "When the temperature drops, the patient starts to feel much better."
+  },
+  {
+    "id": "b1-part-3-119",
+    "ru": "К какому врачу мне обратиться, если у меня болит ухо?",
+    "ruStressed": "К како́му врачу́ мне обрати́ться, е́сли у меня́ боли́т у́хо?",
+    "translit": "K kakomu vrachu mne obratit'sya, esli u menya bolit uho?",
+    "en": "Which doctor should I contact if my ear hurts?"
+  },
+  {
+    "id": "b1-part-3-120",
+    "ru": "Мы гордимся нашим дедушкой, потому что он правильно питается и тренируется.",
+    "ruStressed": "Мы горди́мся на́шим де́душкой, потому́ что он пра́вильно пита́ется и трениру́ется.",
+    "translit": "My gordimsya nashim dedushkoy, potomu chto on pravil'no pitaetsya i treniruetsya.",
+    "en": "We are proud of our grandfather because he eats right and exercises."
+  },
+  {
+    "id": "b1-part-3-121",
+    "ru": "Я чувствую себя плохо, потому что заболел гриппом на прошлой неделе.",
+    "ruStressed": "Я чу́вствую себя́ пло́хо, потому́ что заболе́л гри́ппом на про́шлой неде́ле.",
+    "translit": "Ya chuvstvuyu sebya ploho, potomu chto zabolel grippom na proshloy nedele.",
+    "en": "I feel bad because I caught the flu last week."
+  },
+  {
+    "id": "b1-part-3-122",
+    "ru": "Если вы хотите быть здоровыми, вам следует регулярно заниматься спортом.",
+    "ruStressed": "Е́сли вы хоти́те быть здоро́выми, вам сле́дует регуля́рно занима́ться спо́ртом.",
+    "translit": "Esli vy hotite byt' zdorovymi, vam sleduet regulyarno zanimat'sya sportom.",
+    "en": "If you want to be healthy, you should exercise regularly."
+  },
+  {
+    "id": "b1-part-3-123",
+    "ru": "Медсестра накрыла больного тёплым одеялом, чтобы он не мёрз.",
+    "ruStressed": "Медсестра́ накры́ла больно́го тёплым одея́лом, что́бы он не мёрз.",
+    "translit": "Medsetra nakryla bol'nogo tyoplym odeyalom, chtoby on ne myorz.",
+    "en": "The nurse covered the patient with a warm blanket so he wouldn't freeze."
+  },
+  {
+    "id": "b1-part-3-124",
+    "ru": "Когда у меня болит горло, я пью горячий чай с лимоном и мёдом.",
+    "ruStressed": "Когда́ у меня́ боли́т го́рло, я пью горя́чий чай с лимо́ном и мёдом.",
+    "translit": "Kogda u menya bolit gorlo, ya p'yu goryachiy chay s limonom i myodom.",
+    "en": "When my throat hurts, I drink hot tea with lemon and honey."
+  },
+  {
+    "id": "b1-part-3-125",
+    "ru": "Моя сестра с детства увлекается медициной и хочет стать врачом.",
+    "ruStressed": "Моя́ сестра́ с де́тства увлека́ется медици́ной и хо́чет стать врачо́м.",
+    "translit": "Moya sestra s detstva uvlekaetsya meditsinoy i hochet stat' vrachom.",
+    "en": "My sister has been interested in medicine since childhood and wants to become a doctor."
+  },
+  {
+    "id": "b1-part-3-126",
+    "ru": "Врач сказал, что моё выздоровление зависит от правильного питания.",
+    "ruStressed": "Врач сказа́л, что моё выздоровле́ние зави́сит от пра́вильного пита́ния.",
+    "translit": "Vrach skazal, chto moyo vyzdorovlenie zavisit ot pravil'nogo pitaniya.",
+    "en": "The doctor said that my recovery depends on correct nutrition."
+  },
+  {
+    "id": "b1-part-3-127",
+    "ru": "Мойте руки с мылом чаще, чтобы защитить себя от вирусов.",
+    "ruStressed": "Мо́йте ру́ки с мы́лом ча́ще, что́бы защити́ть себя́ от ви́русов.",
+    "translit": "Moyte ruki s mylom chashche, chtoby zashchitit' sebya ot virusov.",
+    "en": "Wash your hands with soap more often to protect yourself from viruses."
+  },
+  {
+    "id": "b1-part-3-128",
+    "ru": "Почему ты отказался от посещения стоматолога в прошлом месяце?",
+    "ruStressed": "Почему́ ты отказа́лся от посеще́ния стомато́лога в про́шлом ме́сяце?",
+    "translit": "Pochemu ty otkazalsya ot posescheniya stomatologa v proshlom mesyace?",
+    "en": "Why did you refrain from visiting the dentist last month?"
+  },
+  {
+    "id": "b1-part-3-129",
+    "ru": "Тренер следит за моим физическим состоянием во время тренировки.",
+    "ruStressed": "Тре́нер следи́т за мои́м физи́ческим состоя́нием во вре́мя трениро́вки.",
+    "translit": "Trener sledit za moim fizicheskim sostoyaniem vo vremya trenirovki.",
+    "en": "The trainer monitors my physical condition during the workout."
+  },
+  {
+    "id": "b1-part-3-130",
+    "ru": "Бабушка часто жалуется на боли в сердце, когда меняется погода.",
+    "ruStressed": "Ба́бушка ча́сто жа́луется на бо́ли в се́рдце, когда́ меня́ется пого́да.",
+    "translit": "Babushka chasto zhaluetsya na boli v serdce, kogda menyaetsya pogoda.",
+    "en": "Grandmother often complains of heart pain when the weather changes."
+  },
+  {
+    "id": "b1-part-3-131",
+    "ru": "Я надеюсь, что эта терапия поможет тебе справиться со стрессом.",
+    "ruStressed": "Я наде́юсь, что э́та терапи́я помо́жет тебе́ спра́виться со стре́ссом.",
+    "translit": "Ya nadeyus', chto eta terapiya pomozhet tebe spravit'sya so stressom.",
+    "en": "I hope that this therapy will help you cope with stress."
+  },
+  {
+    "id": "b1-part-3-132",
+    "ru": "Как можно эффективно бороться с высокой температурой в домашних условиях?",
+    "ruStressed": "Как мо́жно эффекти́вно боро́ться с высо́кой температу́рой в дома́шних усло́виях?",
+    "translit": "Kak mozhno effektivno borot'sya s vysokoy temperaturoy v domashnih usloviyah?",
+    "en": "How can one effectively deal with a high temperature at home?"
+  },
+  {
+    "id": "b1-part-3-133",
+    "ru": "Нашему организму необходим отдых после долгой и тяжёлой болезни.",
+    "ruStressed": "На́шему органи́зму необходи́м о́тдых по́сле до́лгой и тяжёлой боле́зни.",
+    "translit": "Nashemu organizmu neobhodim otdyh posle dolgoy i tyazhyoloy bolezni.",
+    "en": "Our body needs rest after a long illness."
+  },
+  {
+    "id": "b1-part-3-134",
+    "ru": "Примите душ и оденьтесь в чистую одежду перед осмотром.",
+    "ruStressed": "Прими́те душ и оде́ньтесь в чи́стую оде́жду пе́ред осмо́тром.",
+    "translit": "Primite dush i oden'tes' v chistuyu odezhdu pered osmotrom.",
+    "en": "Take a shower and dress in clean clothes before the examination."
+  },
+  {
+    "id": "b1-part-3-135",
+    "ru": "Пациент улыбнулся, потому что результаты анализов оказались хорошими.",
+    "ruStressed": "Пацие́нт улыбну́лся, потому́ что результа́ты ана́лизов оказа́лись хоро́шими.",
+    "translit": "Pacient ulybnulsya, potomu chto rezul'taty analizov okazalis' horoshimi.",
+    "en": "The patient smiled because the test results were good."
+  },
+  {
+    "id": "b1-part-3-136",
+    "ru": "Не пользуйтесь этой мазью, если у вас чувствительная кожа.",
+    "ruStressed": "Не по́льзуйтесь э́той ма́зью, е́сли у вас чувстви́тельная ко́жа.",
+    "translit": "Ne pol'zuytes' etoy maz'yu, esli u vas chuvstvitel'naya kozha.",
+    "en": "Do not use this ointment if you have sensitive skin."
+  },
+  {
+    "id": "b1-part-3-137",
+    "ru": "По моему мнению, здоровье важнее, чем карьера или деньги.",
+    "ruStressed": "По моему́ мне́нию, здоро́вье важне́е, чем карье́ра и́ли де́ньги.",
+    "translit": "Po moemu mneniyu, zdorov'e vazhnee, chem kar'era ili den'gi.",
+    "en": "In my opinion, health is more important than career or money."
+  },
+  {
+    "id": "b1-part-3-138",
+    "ru": "Ребёнок испугался врача, но потом начал играть и смеяться.",
+    "ruStressed": "Ребёнок испуга́лся врача́, но пото́м на́чал игра́ть и смея́ться.",
+    "translit": "Rebyonok ispugalsya vracha, no potom nachal igrat' i smeyat'sya.",
+    "en": "The child got scared of the doctor, but then started playing."
+  },
+  {
+    "id": "b1-part-3-139",
+    "ru": "У меня кружится голова, когда я слишком быстро встаю.",
+    "ruStressed": "У меня́ кру́жится голова́, когда́ я сли́шком бы́стро встаю́.",
+    "translit": "U menya kruzhitsya golova, kogda ya slishkom bystro vstayu.",
+    "en": "I feel dizzy when I stand up too quickly."
+  },
+  {
+    "id": "b1-part-3-140",
+    "ru": "Аптекарь сказал, что этот сироп хорошо помогает при сухом кашле.",
+    "ruStressed": "Апте́карь сказа́л, что э́тот сиро́п хорошо́ помога́ет при сухо́м ка́шле.",
+    "translit": "Aptekar' skazal, chto etot sirop horosho pomogaet pri suhom kashle.",
+    "en": "The pharmacist said that this syrup helps with dry cough."
+  },
+  {
+    "id": "b1-part-3-141",
+    "ru": "Я считаю, что занятия бегом помогают мне справляться со стрессом и бессонницей.",
+    "ruStressed": "Я считаю́, что заня́тия бе́гом помога́ют мне справля́ться со стре́ссом и бессо́нницей.",
+    "translit": "Ya schitayu, chto zanyatiya begom pomogayut mne spravlyat'sya so stressom i bessonnitsey.",
+    "en": "I think that jogging helps me deal with stress and insomnia."
+  },
+  {
+    "id": "b1-part-3-142",
+    "ru": "Если вы хотите оставаться здоровым, следите за своей физической формой.",
+    "ruStressed": "Е́сли вы хоти́те остава́ться здоро́вым, следи́те за свое́й физи́ческой фо́рмой.",
+    "translit": "Esli vy hotite ostavat'sya zdorovym, sledite za svoey fizicheskoy formoy.",
+    "en": "If you want to stay healthy, focus on your physical form."
+  },
+  {
+    "id": "b1-part-3-143",
+    "ru": "Почему ты не помыл руки тёплой водой и мылом?",
+    "ruStressed": "Почему́ ты не помы́л ру́ки тёплой водо́й и мы́лом?",
+    "translit": "Pochemu ty ne pomyl ruki tyoploy vodoy i mylom?",
+    "en": "Why did you not wash your hands with warm water and soap?"
+  },
+  {
+    "id": "b1-part-3-144",
+    "ru": "Пациент выглядит бледным, потому что он мучается сильной болью в животе.",
+    "ruStressed": "Пацие́нт вы́глядит бле́дным, потому́ что он му́чается си́льной бо́лью в животе́.",
+    "translit": "Patsient vyglyadit blednym, potomu chto on muchaetsya sil'noy bol'yu v zhivote.",
+    "en": "The patient looks pale because he is suffering from a strong stomach ache."
+  },
+  {
+    "id": "b1-part-3-145",
+    "ru": "Моя сестра перестала есть сахар, когда она начала заниматься гимнастикой.",
+    "ruStressed": "Моя́ сестра́ переста́ла есть са́хар, когда́ она́ начала́ занима́ться гимна́стикой.",
+    "translit": "Moya sestra perestala est' sahar, kogda ona nachala zanimat'sya gimnastikoy.",
+    "en": "My sister stopped eating sugar when she started doing gymnastics."
+  },
+  {
+    "id": "b1-part-3-146",
+    "ru": "Не волнуйтесь, хирург остался доволен результатом вашего анализа.",
+    "ruStressed": "Не волну́йтесь, хиру́рг оста́лся дово́лен результа́том ва́шего ана́лиза.",
+    "translit": "Ne volnuytes', hirurg ostalsya dovolen rezul'tatom vashego analiza.",
+    "en": "Do not worry, the surgeon was pleased with the result of your analysis."
+  },
+  {
+    "id": "b1-part-3-147",
+    "ru": "Вам следует посоветоваться с терапевтом, если боль не проходит.",
+    "ruStressed": "Вам сле́дует посове́товаться с терапе́втом, е́сли боль не прохо́дит.",
+    "translit": "Vam sleduet posovetovat'sya s terapevtom, esli bol' ne prohodit.",
+    "en": "You should consult with a therapist if the pain does not go away."
+  },
+  {
+    "id": "b1-part-3-148",
+    "ru": "Я решил стать врачом после того, как выздоровел после тяжёлой болезни.",
+    "ruStressed": "Я реши́л стать врачо́м по́сле того́, как вы́здоровел по́сле тяжёлой боле́зни.",
+    "translit": "Ya reshil stat' vrachom posle togo, kak vyzdorovel posle tyazhyoloy bolezni.",
+    "en": "I decided to become a doctor after I recovered from a serious illness."
+  },
+  {
+    "id": "b1-part-3-149",
+    "ru": "Когда ты обычно просыпаешься, чтобы подготовиться к утренней тренировке?",
+    "ruStressed": "Когда́ ты обы́чно просыпа́ешься, что́бы подгото́виться к у́тренней трениро́вке?",
+    "translit": "Kogda ty obychno prosypaesh'sya, chtoby podgotovit'sya k utrenney trenirovke.",
+    "en": "When do you usually wake up to prepare for your morning workout?"
+  },
+  {
+    "id": "b1-part-3-150",
+    "ru": "Современная медицина успешно справляется с вирусами, которые были опасны раньше.",
+    "ruStressed": "Совреме́нная медици́на успе́шно справля́ется с ви́русами, кото́рые бы́ли опа́сны ра́ньше.",
+    "translit": "Sovremennaya meditsina uspeshno spravlyaetsya s virusami, kotorye byli opasny ran'she.",
+    "en": "Modern medicine successfully copes with viruses that were dangerous before."
   }
 ]

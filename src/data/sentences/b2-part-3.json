@@ -698,5 +698,355 @@
     "ruStressed": "Куй желе́зо, пока́ горячо́.",
     "translit": "Kuy zhelezo, poka goryacho.",
     "en": "Strike while the iron is hot."
+  },
+  {
+    "id": "b2-part-3-101",
+    "ru": "Принимая это рискованное предложение, директор решил пойти ва-банк.",
+    "ruStressed": "Принима́я э́то риско́ванное предложе́ние, дире́ктор реши́л пойти́ ва-ба́нк.",
+    "translit": "Prinimaya eto riskovannoe predlozhenie, direktor reshil poyti va-bank.",
+    "en": "Accepting this risky offer, the director decided to go for broke."
+  },
+  {
+    "id": "b2-part-3-102",
+    "ru": "Перестань вставлять мне палки в колёса, иначе мы не закончим вовремя.",
+    "ruStressed": "Переста́нь вставля́ть мне па́лки в колёса, ина́че мы не зако́нчим во́время.",
+    "translit": "Perestan vstavlyat mne palki v kolyosa, inache my ne zakonchim vovremya.",
+    "en": "Stop putting a spoke in my wheel, otherwise we won't finish on time."
+  },
+  {
+    "id": "b2-part-3-103",
+    "ru": "Обсудив все нюансы, они наконец-то смогли найти общий язык.",
+    "ruStressed": "Обсуди́в все нюа́нсы, они́ наконе́ц-то смогли́ найти́ о́бщий язы́к.",
+    "translit": "Obsudiv vse nyuansy, oni nakonets-to smogli nayti obshchiy yazyk.",
+    "en": "Having discussed all the nuances, they finally found common ground."
+  },
+  {
+    "id": "b2-part-3-104",
+    "ru": "Не рассказывай мне сказки, я прекрасно знаю, как обстоят дела.",
+    "ruStressed": "Не расска́зывай мне ска́зки, я прекра́сно зна́ю, как обстоя́т дела́.",
+    "translit": "Ne rasskazyvay mne skazki, ya prekrasno znayu, kak obstoyat dela.",
+    "en": "Don't tell me tales, I know exactly how things are."
+  },
+  {
+    "id": "b2-part-3-105",
+    "ru": "Молодой специалист пытается показать себя перед руководством с лучшей стороны.",
+    "ruStressed": "Молодо́й специали́ст пыта́ется показа́ть себя́ пе́ред руково́дством с лу́чшей стороны́.",
+    "translit": "Molodoy spetsialist pytaetsya pokazat sebya pered rukovodstvom s luchshey storony.",
+    "en": "The young specialist is trying to show his best side to the management."
+  },
+  {
+    "id": "b2-part-3-106",
+    "ru": "Когда ты перестанешь играть у меня на нервах своими постоянными вопросами?",
+    "ruStressed": "Когда́ ты переста́нешь игра́ть у меня́ на не́рвах свои́ми постоя́нными вопро́сами?",
+    "translit": "Kogda ty perestanesh igrat u menya na nervakh svoimi postoyannymi voprosami?",
+    "en": "When will you stop playing on my nerves with your constant questions?"
+  },
+  {
+    "id": "b2-part-3-107",
+    "ru": "Находясь между двух огней, он был вынужден пойти на компромисс.",
+    "ruStressed": "Находя́сь ме́жду двух огне́й, он был вы́нужден пойти́ на компроми́сс.",
+    "translit": "Nakhodyas mezhdu dvukh ogney, on byl vynuzhden poyti na kompromiss.",
+    "en": "Being between a rock and a hard place, he was forced to compromise."
+  },
+  {
+    "id": "b2-part-3-108",
+    "ru": "На самом деле мне глубоко наплевать, что обо мне думают соседи.",
+    "ruStressed": "На са́мом де́ле мне глубоко́ наплева́ть, что обо мне́ ду́мают сосе́ди.",
+    "translit": "Na samom dele mne gluboko naplevat, chto obo mne dumayut sosedi.",
+    "en": "Actually, I don't give a damn about what the neighbors think of me."
+  },
+  {
+    "id": "b2-part-3-109",
+    "ru": "Вы действительно хотите сжечь все мосты до того, как проект будет завершён?",
+    "ruStressed": "Вы действи́тельно хоти́те сжечь все мосты́ до того́, как прое́кт бу́дет завершён?",
+    "translit": "Vy deystvitelno khotite szhech vse mosty do togo, kak proekt budet zavershyon?",
+    "en": "Do you really want to burn your bridges before the project is finished?"
+  },
+  {
+    "id": "b2-part-3-110",
+    "ru": "Новость об увольнении прозвучала для всех как гром среди ясного неба.",
+    "ruStressed": "Но́вость об увольне́нии прозвуча́ла для всех как гром среди́ я́сного не́ба.",
+    "translit": "Novost ob uvolnenii prozvuchala dlya vsekh kak grom sredi yasnogo neba.",
+    "en": "The news about the dismissal came like a bolt from the blue."
+  },
+  {
+    "id": "b2-part-3-111",
+    "ru": "Хватит ходить вокруг да около, переходи сразу к сути дела.",
+    "ruStressed": "Хва́тит ходи́ть вокру́г да о́коло, переходи́ сра́зу к су́ти де́ла.",
+    "translit": "Khvatit khodit vokrug da okolo, perekhodi srazu k suti dela.",
+    "en": "Stop beating around the bush and get straight to the point."
+  },
+  {
+    "id": "b2-part-3-112",
+    "ru": "Зная его характер, я понял, что он пытается водить меня за нос.",
+    "ruStressed": "Зна́я его́ хара́ктер, я по́нял, что он пыта́ется води́ть меня́ за нос.",
+    "translit": "Znaya ego kharakter, ya ponyal, chto on pytaetsya vodit menya za nos.",
+    "en": "Knowing his character, I realized he was trying to lead me by the nose."
+  },
+  {
+    "id": "b2-part-3-113",
+    "ru": "Мы должны держать ухо востро, чтобы вовремя заметить изменения на рынке.",
+    "ruStressed": "Мы должны́ держа́ть у́хо востро́, что́бы во́время заме́тить измене́ния на ры́нке.",
+    "translit": "My dolzhny derzhat ukho vostro, chtoby vovremya zametit izmeneniya na rynke.",
+    "en": "We must keep our ear to the ground to catch the market changes."
+  },
+  {
+    "id": "b2-part-3-114",
+    "ru": "Он молчал всё собрание, будто воды в рот набрал.",
+    "ruStressed": "Он молча́л всё собра́ние, бу́дто воды́ в рот набра́л.",
+    "translit": "On molchal vsyo sobranie, budto vody v rot nabral.",
+    "en": "He kept silent throughout the meeting as if he had swallowed his tongue."
+  },
+  {
+    "id": "b2-part-3-115",
+    "ru": "Не стоит принимать его слова за чистую монету, он большой фантазёр.",
+    "ruStressed": "Не сто́ит принима́ть его́ слова́ за чи́стую моне́ту, он большо́й фантазёр.",
+    "translit": "Ne stoit prinimat ego slova za chistuyu monetu, on bolshoy fantazyor.",
+    "en": "You shouldn't take his words at face value, he's a big dreamer."
+  },
+  {
+    "id": "b2-part-3-116",
+    "ru": "Несмотря на трудности, ей удалось сохранить олимпийское спокойствие в этом конфликте.",
+    "ruStressed": "Несмотря́ на тру́дности, ей удало́сь сохрани́ть олимпи́йское споко́йствие в э́том конфли́кте.",
+    "translit": "Nesmotrya na trudnosti, ey udalos sokhranit olimpiyskoe spokoystvie v etom konflikte.",
+    "en": "Despite the difficulties, she managed to keep her cool in the conflict."
+  },
+  {
+    "id": "b2-part-3-117",
+    "ru": "Расследование дела о коррупции в данный момент идёт полным ходом.",
+    "ruStressed": "Рассле́дование де́ла о корру́пции в да́нный моме́нт идёт по́лным хо́дом.",
+    "translit": "Rassledovanie dela o korruptsii v danny moment idyot polnym khodom.",
+    "en": "The investigation into the corruption case is currently in full swing."
+  },
+  {
+    "id": "b2-part-3-118",
+    "ru": "В компании этих известных учёных я чувствую себя не в своей тарелке.",
+    "ruStressed": "В компа́нии э́тих изве́стных учёных я чу́вствую себя́ не в свое́й таре́лке.",
+    "translit": "V kompanii etikh izvestnykh uchyonykh ya chuvstvuyu sebya ne v svoey tarelke.",
+    "en": "I feel out of my element in the company of these famous scientists."
+  },
+  {
+    "id": "b2-part-3-119",
+    "ru": "Директор был буквально вне себя от ярости, узнав о провале важной сделки.",
+    "ruStressed": "Дире́ктор был буква́льно вне себя́ от я́рости, узна́в о прова́ле ва́жной сде́лки.",
+    "translit": "Direktor byl bukvalno vne sebya ot yarosti, uznav o provale vazhnoy sdelki.",
+    "en": "The director was literally beside himself with rage after hearing about the failed deal."
+  },
+  {
+    "id": "b2-part-3-120",
+    "ru": "Несмотря на критику, ей было абсолютно до лампочки мнение широкой общественности.",
+    "ruStressed": "Несмотря́ на кри́тику, ей бы́ло абсолю́тно до ла́мпочки мне́ние широ́кой обще́ственности.",
+    "translit": "Nesmotrya na kritiku, ey bylo absolyutno do lampochki mnenie shirokoy obshchestvennosti.",
+    "en": "Despite the criticism, she remained completely indifferent to the opinions of the public."
+  },
+  {
+    "id": "b2-part-3-121",
+    "ru": "Не стоит перемывать косточки коллегам за их спиной, если хочешь сохранить уважение.",
+    "ruStressed": "Не сто́ит перемыва́ть ко́сточки колле́гам за их спино́й, е́сли хо́чешь сохрани́ть уваже́ние.",
+    "translit": "Ne stoit peremyvat kostochki kollegam za ikh spinoy, esli khochesh sokhranit uvazhenie.",
+    "en": "Don't spread gossip behind people's backs if you want to be respected."
+  },
+  {
+    "id": "b2-part-3-122",
+    "ru": "Прекращай работать допоздна каждый день, ты же просто загоняешь себя в угол.",
+    "ruStressed": "Прекраща́й рабо́тать допоздна́ ка́ждый день, ты же про́сто загоня́ешь себя́ в у́гол.",
+    "translit": "Prekrashchay rabotat dopozdna kazhdyy den, ty zhe prosto zagonyayesh sebya v ugol.",
+    "en": "Stop working late every day; you're just driving yourself into a corner."
+  },
+  {
+    "id": "b2-part-3-123",
+    "ru": "Эта дорогостоящая покупка определённо влетит нам в копеечку в этом месяце.",
+    "ruStressed": "Э́та дорогосто́ящая поку́пка определённо влети́т нам в копе́ечку в э́том ме́сяце.",
+    "translit": "Eta dorogostoyashchaya pokupka opredelyonno vletit nam v kopeyechku v etom mesyatse.",
+    "en": "This expensive purchase will definitely cost us a pretty penny this month."
+  },
+  {
+    "id": "b2-part-3-124",
+    "ru": "Обсудив все нюансы, партнёры наконец-то сумели найти точки соприкосновения в этом вопросе.",
+    "ruStressed": "Обсуди́в все нюа́нсы, партнёры наконе́ц-то суме́ли найти́ то́чки соприкоснове́ния в э́том вопро́се.",
+    "translit": "Obsudiv vse nyuansy, partnyory nakonets-to sumeli nayti tochki soprikosnoveniya v etom voprose.",
+    "en": "Having discussed all the nuances, the partners finally managed to find common ground."
+  },
+  {
+    "id": "b2-part-3-125",
+    "ru": "У него наконец-то открылись глаза, и он понял, что его используют в чужих интересах.",
+    "ruStressed": "У него́ наконе́ц-то откры́лись глаза́, и он по́нял, что его́ испо́льзуют в чужи́х интере́сах.",
+    "translit": "U nego nakonets-to otkrylis glaza, i on ponyal, chto ego ispolzuyut v chuzhikh interesakh.",
+    "en": "He finally saw the light and realized that he was being used for someone else's interests."
+  },
+  {
+    "id": "b2-part-3-126",
+    "ru": "Вы пытаетесь пустить мне пыль в глаза, предоставляя эти поддельные документы?",
+    "ruStressed": "Вы пыта́етесь пусти́ть мне пыль в глаза́, предоставля́я э́ти подде́льные докуме́нты?",
+    "translit": "Vy pytayetes pustit mne pyl v glaza, predostavlyaya eti poddelnye dokumenty?",
+    "en": "Are you trying to pull the wool over my eyes with these forged documents?"
+  },
+  {
+    "id": "b2-part-3-127",
+    "ru": "Это известие свалилось как снег на голову для всех сотрудников нашего отдела.",
+    "ruStressed": "Э́то изве́стие свали́лось как снег на го́лову для всех сотру́дников на́шего отде́ла.",
+    "translit": "Eto izvestie svalilos kak sneg na golovu dlya vsekh sotrudnikov nashego otdela.",
+    "en": "This news came like a bolt from the blue for the entire department."
+  },
+  {
+    "id": "b2-part-3-128",
+    "ru": "Они живут душа в душу уже десять лет, деля вместе все радости и невзгоды.",
+    "ruStressed": "Они́ живу́т душа́ в ду́шу уже́ де́сять лет, деля́ вме́сте все ра́дости и невзго́ды.",
+    "translit": "Oni zhivut dusha v dushu uzhe desyat let, delya vmeste vse radosti i nevzgody.",
+    "en": "They have been living together for ten years, sharing all the joys and sorrows."
+  },
+  {
+    "id": "b2-part-3-129",
+    "ru": "Не делайте из мухи слона, ситуация далеко не так критична, как кажется на первый взгляд.",
+    "ruStressed": "Не де́лайте из му́хи слона́, ситуа́ция далеко́ не так крити́чна, как ка́жется на пе́рвый взгляд.",
+    "translit": "Ne delayte iz mukhi slona, situatsiya daleko ne tak kritichna, kak kazhetsya na pervyy vzglyad.",
+    "en": "Don't make a mountain out of a molehill; the situation isn't as critical as it seems."
+  },
+  {
+    "id": "b2-part-3-130",
+    "ru": "Пора назвать вещи своими именами и признать наши ошибки в финансовом планировании.",
+    "ruStressed": "Пора́ назва́ть ве́щи свои́ми имена́ми и призна́ть на́ши оши́бки в фина́нсовом плани́ровании.",
+    "translit": "Pora nazvat veshchi svoimi imenami i priznat nashi oshibki v finansovom planirovanii.",
+    "en": "It’s time to call a spade a spade and admit our financial mistakes."
+  },
+  {
+    "id": "b2-part-3-131",
+    "ru": "Подожди ещё немного, результаты расследования станут известны со дня на день.",
+    "ruStressed": "Подожди́ ещё немно́го, результа́ты рассле́дования ста́нут изве́стны со дня на день.",
+    "translit": "Podozhdi eshchyo nemnogo, rezultaty rassledovaniya stanut izvestny so dnya na den.",
+    "en": "Wait a little longer, the results of the investigation will be known any day now."
+  },
+  {
+    "id": "b2-part-3-132",
+    "ru": "Потеряв работу, он не пал духом и сразу начал искать новые возможности.",
+    "ruStressed": "Потеря́в рабо́ту, он не пал ду́хом и сра́зу на́чал иска́ть но́вые возмо́жности.",
+    "translit": "Poteryav rabotu, on ne pal dukhom i srazu nachal iskat novye vozmozhnosti.",
+    "en": "Having lost his job, he didn't lose heart and immediately started looking for new opportunities."
+  },
+  {
+    "id": "b2-part-3-133",
+    "ru": "После успеха своей первой книги он начал слишком много о себе воображать.",
+    "ruStressed": "По́сле успе́ха свое́й пе́рвой кни́ги он на́чал сли́шком мно́го о себе́ вообража́ть.",
+    "translit": "Posle uspekha svoey pervoy knigi on nachal slishkom mnogo o sebe voobrazhat.",
+    "en": "After the success of his first book, he began to think too highly of himself."
+  },
+  {
+    "id": "b2-part-3-134",
+    "ru": "Она решила начать жизнь с чистого листа и переехать в другой город.",
+    "ruStressed": "Она́ реши́ла нача́ть жизнь с чи́стого листа́ и перее́хать в друго́й го́род.",
+    "translit": "Ona reshila nachat zhizn s chistogo lista i pereyekhat v drugoy gorod.",
+    "en": "She decided to turn over a new leaf and move to another city to start over."
+  },
+  {
+    "id": "b2-part-3-135",
+    "ru": "Я никак не могу вникнуть в суть этой запутанной юридической инструкции.",
+    "ruStressed": "Я ника́к не могу́ вни́кнуть в суть э́той запу́танной юриди́ческой инстру́кции.",
+    "translit": "Ya nikak ne mogu vniknut v sut etoy zaputannoy yuridicheskoy instruktsii.",
+    "en": "I can't make heads or tails of this complicated legal instruction."
+  },
+  {
+    "id": "b2-part-3-136",
+    "ru": "Их поймали с поличным при попытке кражи секретных документов из офиса компании.",
+    "ruStressed": "Их пойма́ли с поли́чным при попы́тке кра́жи секре́тных докуме́нтов из о́фиса компа́нии.",
+    "translit": "Ikh poymali s polichnym pri popytke krazhi sekretnykh dokumentov iz ofisa kompanii.",
+    "en": "They were caught red-handed while trying to steal secret documents from the office."
+  },
+  {
+    "id": "b2-part-3-137",
+    "ru": "Они решили найти общий язык, несмотря на все предыдущие разногласия и старые обиды.",
+    "ruStressed": "Они́ реши́ли найти́ о́бщий язы́к, несмотря́ на все предыду́щие разногла́сия и ста́рые оби́ды.",
+    "translit": "Oni reshili nayti obshchiy yazyk, nesmotrya na vse predydushchiye raznoglasiya i staryye obidy.",
+    "en": "They decided to find a common language despite all the previous misunderstandings."
+  },
+  {
+    "id": "b2-part-3-138",
+    "ru": "Хватит ворчать, возьми себя в руки и закончи этот отчёт к завтрашнему утру!",
+    "ruStressed": "Хва́тит ворча́ть, возьми́ себя́ в ру́ки и зако́нчи э́тот отчёт к за́втрашнему у́тру!",
+    "translit": "Khvatit vorchat, vozmi sebya v ruki i zakonchi etot otchyot k zavtrashnemu utru.",
+    "en": "Stop grumbling, pull yourself together and finish this report by tomorrow morning!"
+  },
+  {
+    "id": "b2-part-3-139",
+    "ru": "Зная его привычки, я уверен, что он просто выжидает подходящий момент, чтобы нанести удар.",
+    "ruStressed": "Зна́я его́ привы́чки, я уве́рен, что он про́сто выжида́ет подходя́щий моме́нт, что́бы нанести́ уда́р.",
+    "translit": "Znaya yego privychki, ya uveren, chto on prosto vyzhidayet podkhodyashchiy moment, chtoby nanesti udar.",
+    "en": "Knowing his habits, I am sure he is just biding his time to strike."
+  },
+  {
+    "id": "b2-part-3-140",
+    "ru": "Не принимай всё так близко к сердцу, люди часто говорят вещи не подумав.",
+    "ruStressed": "Не принима́й всё так бли́зко к се́рдцу, лю́ди ча́сто говоря́т ве́щи не поду́мав.",
+    "translit": "Ne prinimay vsyo tak blizko k serdtsu, lyudi chasto govoryat veshchi ne podumav.",
+    "en": "Don't take everything so close to heart; people often say things without thinking."
+  },
+  {
+    "id": "b2-part-3-141",
+    "ru": "Эта проблема выеденного яйца не стоит, так зачем мы тратим время на её обсуждение?",
+    "ruStressed": "Э́та пробле́ма вы́еденного яйца́ не сто́ит, так заче́м мы тра́тим вре́мя на её обсужде́ние?",
+    "translit": "Eta problema vyedennogo yaytsa ne stoit, tak zachem my tratim vremya na yeyo obsuzhdeniye?",
+    "en": "This problem isn't worth a hill of beans, so why are we wasting time discussing it?"
+  },
+  {
+    "id": "b2-part-3-142",
+    "ru": "Когда она начинает рассказывать о своих путешествиях, она может заговорить зубы кому угодно.",
+    "ruStressed": "Когда́ она́ начина́ет расска́зывать о свои́х путеше́ствиях, она́ мо́жет заговори́ть зу́бы кому́ уго́дно.",
+    "translit": "Kogda ona nachinayet rasskazyvat o svoikh puteshestviyakh, ona mozhet zagovorit zuby komu ugodno.",
+    "en": "When she starts talking about her travels, she can talk your ear off."
+  },
+  {
+    "id": "b2-part-3-143",
+    "ru": "Пора перестать строить воздушные замки и взглянуть на сложившуюся ситуацию трезво.",
+    "ruStressed": "Пора́ переста́ть стро́ить возду́шные за́мки и взгляну́ть на сложи́вшуюся ситуа́цию тре́зво.",
+    "translit": "Pora perestat stroit vozdushnyye zamki i vzglyanut na slozhivshuyusya situatsiyu trezvo.",
+    "en": "It’s time to stop building castles in the air and look at things realistically."
+  },
+  {
+    "id": "b2-part-3-144",
+    "ru": "Он и палец о палец не ударит ради другого человека без личной выгоды.",
+    "ruStressed": "Он и па́лец о па́лец не уда́рит ра́ди друго́го челове́ка без ли́чной вы́годы.",
+    "translit": "On i palets o palets ne udarit radi drugogo cheloveka bez lichnoy vygody.",
+    "en": "He won't move a finger for someone else's sake without some personal gain."
+  },
+  {
+    "id": "b2-part-3-145",
+    "ru": "Просмотрев документы, адвокат понял, что всё это дело шито белыми нитками.",
+    "ruStressed": "Просмотре́в докуме́нты, адвока́т по́нял, что всё э́то де́ло ши́то бе́лыми ни́тками.",
+    "translit": "Prosmotrev dokumenty, advokat ponyal, chto vsyo eto delo shito belymi nitkami.",
+    "en": "Having looked through the documents, the lawyer realized that the case was sewn with white thread."
+  },
+  {
+    "id": "b2-part-3-146",
+    "ru": "Во время переговоров партнёры старались сгладить острые углы, чтобы избежать открытого конфликта.",
+    "ruStressed": "Во вре́мя перегово́ров партнёры стара́лись сгла́дить о́стрые углы́, что́бы избежа́ть откры́того конфли́кта.",
+    "translit": "Vo vremya peregovorov partnyory staralis sgladit ostryye ugly, chtoby izbezhat otkrytogo konflikta.",
+    "en": "During the negotiations, the partners tried to smooth over the edges to avoid a conflict."
+  },
+  {
+    "id": "b2-part-3-147",
+    "ru": "Не пытайся изобретать велосипед, просто используй уже проверенные временем и опытом методы.",
+    "ruStressed": "Не пыта́йся изобрета́ть велосипе́д, про́сто испо́льзуй уже́ прове́ренные вре́менем и о́пытом ме́тоды.",
+    "translit": "Ne pytaysya izobretat velosiped, prosto ispolzuy uzhe proverennyye vremenem i opytom metody.",
+    "en": "Don't try to reinvent the wheel; just use the methods already tested by time."
+  },
+  {
+    "id": "b2-part-3-148",
+    "ru": "Я весь день сидел как на иголках, ожидая результатов важного медицинского обследования.",
+    "ruStressed": "Я весь день сиде́л как на иго́лках, ожида́я результа́тов ва́жного медици́нского обсле́дования.",
+    "translit": "Ya ves den sidel kak na igolkakh, ozhidaya rezultatov vazhnogo meditsinskogo obsledovaniya.",
+    "en": "I was on pins and needles waiting for the test results all day."
+  },
+  {
+    "id": "b2-part-3-149",
+    "ru": "Давайте дождёмся окончательного решения, нет никакого смысла бежать впереди паровоза.",
+    "ruStressed": "Дава́йте дождёмся оконча́тельного реше́ния, нет никако́го смы́сла бежа́ть впереди́ парово́за.",
+    "translit": "Davayte dozhdyomsya okonchatelnogo resheniya, net nikakogo smysla bezhat vperedi parovoza.",
+    "en": "Let's wait for the final decision; there is no sense in getting ahead of ourselves."
+  },
+  {
+    "id": "b2-part-3-150",
+    "ru": "Он знает этот город как свои пять пальцев, ведь он здесь родился и вырос.",
+    "ruStressed": "Он зна́ет э́тот го́род как свои́ пять па́льцев, ведь он здесь роди́лся и вы́рос.",
+    "translit": "On znayet etot gorod kak svoi pyat paltsev, ved on zdes rodilsya i vyros.",
+    "en": "He knows this city like the back of his hand because he grew up here."
   }
 ]
