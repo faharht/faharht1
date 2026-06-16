@@ -29,7 +29,7 @@ export const b2Part1: GrammarPack = {
       "body": "While **который** clauses are standard in speech, participles are essential for formal writing, journalism, and literature. Participles make the sentence more concise by removing the need for a relative pronoun and a conjugated verb. Stick to **который** in casual conversation, but use participles when you want to sound **academic** or **professional**.",
       "examples": [
         {
-          "ru": "Студенты, закончившие тест, могут идти.\"},{en:",
+          "ru": "Студенты, закончившие тест, могут идти.",
           "en": "The students who finished the test can leave."
         }
       ]
