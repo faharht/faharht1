@@ -119,7 +119,7 @@ def expand_list(list_id):
     print(f"[{list_id}] {len(items)} -> {TARGET}, need {needed}")
     next_n = len(items) + 1
     attempts = 0
-    while needed > 0 and attempts < 15:
+    while needed > 0 and attempts < 40:
         attempts += 1
         ask = min(BATCH, needed + 3)
         avoid_sample = list(existing_ru)
