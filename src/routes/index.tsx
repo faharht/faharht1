@@ -386,7 +386,7 @@ function LevelAccordion({
               <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
                 {l.description}
               </p>
-              <TagRow tags={listTagsFor(l.id)} />
+              
             </Link>
           ))}
         </div>
