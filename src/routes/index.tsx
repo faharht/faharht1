@@ -140,9 +140,8 @@ function HomePage() {
 
   function update(patch: Partial<SearchState>) {
     navigate({
-      search: (prev) => {
-        const next = { ...prev, ...patch };
-        // Drop empty-string q so URL stays clean.
+      search: (prev: SearchState) => {
+        const next: SearchState = { ...prev, ...patch };
         if (!next.q) next.q = "";
         return next;
       },
@@ -152,12 +151,13 @@ function HomePage() {
 
   function toggleLevel(id: LevelId) {
     const exists = search.levels.includes(id);
-    update({ levels: exists ? search.levels.filter((x) => x !== id) : [...search.levels, id] });
+    update({ levels: exists ? search.levels.filter((x: LevelId) => x !== id) : [...search.levels, id] });
   }
   function toggleTag(t: GrammarTag) {
     const exists = search.tags.includes(t);
-    update({ tags: exists ? search.tags.filter((x) => x !== t) : [...search.tags, t] });
+    update({ tags: exists ? search.tags.filter((x: GrammarTag) => x !== t) : [...search.tags, t] });
   }
+
   function clearAll() {
     navigate({ search: { q: "", levels: [], tags: [] }, replace: true });
   }
