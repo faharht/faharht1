@@ -23,6 +23,14 @@ import { getSentences } from "@/lib/trainer/sentences";
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
+import { toast } from "sonner";
+
+function notifyGoal(result: { goalReachedNow: boolean }) {
+  if (result.goalReachedNow) {
+    toast.success("Daily goal reached — streak +1 🔥", { duration: 3500 });
+  }
+}
+
 import { splitStressedWord, tokenizeStressed } from "@/lib/trainer/stress";
 import type { TextSize } from "@/lib/trainer/types";
 import { cn } from "@/lib/utils";
