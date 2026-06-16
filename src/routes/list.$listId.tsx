@@ -140,7 +140,8 @@ function ListPage() {
     setActiveWord(null);
     const s = visibleSentences[idx];
     if (!s) return;
-    bumpReps(s.id, 1);
+    notifyGoal(bumpReps(s.id, 1));
+
     const handler = makeBoundaryHandler(s.ru);
     speak(s.ru, {
       rate: settings.speed,
@@ -173,7 +174,7 @@ function ListPage() {
       const handler = makeBoundaryHandler(s.ru);
       for (let r = 0; r < settings.reps; r++) {
         if (cancelRef.current) break;
-        bumpReps(s.id, 1);
+        notifyGoal(bumpReps(s.id, 1));
         await new Promise<void>((resolve) => {
           speak(s.ru, {
             rate: settings.speed,
