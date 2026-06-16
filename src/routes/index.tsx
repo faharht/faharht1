@@ -303,7 +303,7 @@ function HomePage() {
                     <span className="text-base font-semibold text-foreground">{extra.title}</span>
                   </div>
                   <p className="mt-2 text-xs text-muted-foreground">{extra.description}</p>
-                  <TagRow tags={listTagsFor(extra.id)} />
+                  
                 </Link>
               ))}
             </div>
