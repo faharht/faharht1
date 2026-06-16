@@ -1,10 +1,46 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, ArrowLeft } from "lucide-react";
-import { useState } from "react";
-import { BANDS, TONE_CLASSES, type LevelGroup } from "@/lib/trainer/levels";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { ChevronDown, BookOpen, ArrowLeft, Search, X } from "lucide-react";
+import { useMemo, useState } from "react";
+import {
+  BANDS,
+  TONE_CLASSES,
+  type LevelGroup,
+  type LevelId,
+  type ListMeta,
+} from "@/lib/trainer/levels";
+import {
+  GRAMMAR_TAGS,
+  type GrammarTag,
+  listTagsFor,
+  getGrammar,
+} from "@/lib/trainer/grammar";
 import { cn } from "@/lib/utils";
 
+const LEVEL_IDS: LevelId[] = ["A1", "A2", "B1", "B2"];
+
+type SearchState = {
+  q: string;
+  levels: LevelId[];
+  tags: GrammarTag[];
+};
+
+function asLevelArray(v: unknown): LevelId[] {
+  const raw = Array.isArray(v) ? v : typeof v === "string" && v ? v.split(",") : [];
+  return raw.filter((x): x is LevelId => LEVEL_IDS.includes(x as LevelId));
+}
+function asTagArray(v: unknown): GrammarTag[] {
+  const raw = Array.isArray(v) ? v : typeof v === "string" && v ? v.split(",") : [];
+  return raw.filter((x): x is GrammarTag =>
+    (GRAMMAR_TAGS as readonly string[]).includes(x as string),
+  );
+}
+
 export const Route = createFileRoute("/")({
+  validateSearch: (s: Record<string, unknown>): SearchState => ({
+    q: typeof s.q === "string" ? s.q : "",
+    levels: asLevelArray(s.levels),
+    tags: asTagArray(s.tags),
+  }),
   head: () => ({
     meta: [
       { title: "Russian Sentence Trainer" },
@@ -24,7 +60,108 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
+function matchesFilters(
+  list: ListMeta,
+  state: SearchState,
+  haystackExtra: string,
+): boolean {
+  if (state.levels.length > 0 && !state.levels.includes(list.level)) return false;
+  if (state.tags.length > 0) {
+    const tags = listTagsFor(list.id);
+    if (!tags.some((t) => state.tags.includes(t))) return false;
+  }
+  if (state.q.trim()) {
+    const needle = state.q.trim().toLowerCase();
+    const hay = (list.title + " " + list.description + " " + haystackExtra).toLowerCase();
+    if (!hay.includes(needle)) return false;
+  }
+  return true;
+}
+
+function listHaystack(listId: string): string {
+  const pack = getGrammar(listId);
+  if (!pack) return "";
+  return [
+    pack.intro ?? "",
+    ...(pack.tags ?? []),
+    ...pack.notes.flatMap((n) => [n.title, n.body]),
+  ].join(" ");
+}
+
 function HomePage() {
+  const search = Route.useSearch();
+  const navigate = useNavigate({ from: Route.fullPath });
+
+  const filterActive =
+    search.q.trim().length > 0 || search.levels.length > 0 || search.tags.length > 0;
+
+  // Tags that actually appear in at least one pack (keeps chip strip honest).
+  const activeTags = useMemo<GrammarTag[]>(() => {
+    const set = new Set<GrammarTag>();
+    for (const band of BANDS) {
+      for (const lvl of band.levels)
+        for (const l of lvl.lists) listTagsFor(l.id).forEach((t) => set.add(t));
+      for (const ex of band.extras ?? []) listTagsFor(ex.id).forEach((t) => set.add(t));
+    }
+    return GRAMMAR_TAGS.filter((t) => set.has(t));
+  }, []);
+
+  // Precompute haystacks once.
+  const haystacks = useMemo(() => {
+    const m: Record<string, string> = {};
+    for (const band of BANDS) {
+      for (const lvl of band.levels)
+        for (const l of lvl.lists) m[l.id] = listHaystack(l.id);
+      for (const ex of band.extras ?? []) m[ex.id] = listHaystack(ex.id);
+    }
+    return m;
+  }, []);
+
+  // Build filtered bands.
+  const filteredBands = useMemo(() => {
+    return BANDS.map((band) => ({
+      ...band,
+      levels: band.levels
+        .map((lvl) => ({
+          ...lvl,
+          lists: lvl.lists.filter((l) => matchesFilters(l, search, haystacks[l.id] ?? "")),
+        }))
+        .filter((lvl) => lvl.lists.length > 0),
+      extras: (band.extras ?? []).filter((ex) =>
+        matchesFilters(ex, search, haystacks[ex.id] ?? ""),
+      ),
+    })).filter((b) => b.levels.length > 0 || b.extras.length > 0);
+  }, [search, haystacks]);
+
+  const totalMatches = filteredBands.reduce(
+    (a, b) => a + b.extras.length + b.levels.reduce((x, l) => x + l.lists.length, 0),
+    0,
+  );
+
+  function update(patch: Partial<SearchState>) {
+    navigate({
+      search: (prev) => {
+        const next = { ...prev, ...patch };
+        // Drop empty-string q so URL stays clean.
+        if (!next.q) next.q = "";
+        return next;
+      },
+      replace: true,
+    });
+  }
+
+  function toggleLevel(id: LevelId) {
+    const exists = search.levels.includes(id);
+    update({ levels: exists ? search.levels.filter((x) => x !== id) : [...search.levels, id] });
+  }
+  function toggleTag(t: GrammarTag) {
+    const exists = search.tags.includes(t);
+    update({ tags: exists ? search.tags.filter((x) => x !== t) : [...search.tags, t] });
+  }
+  function clearAll() {
+    navigate({ search: { q: "", levels: [], tags: [] }, replace: true });
+  }
+
   return (
     <div className="min-h-screen bg-[oklch(0.985_0.008_180)] pb-24">
       <main className="mx-auto max-w-2xl px-4 pt-6">
@@ -53,7 +190,103 @@ function HomePage() {
           </div>
         </header>
 
-        {BANDS.map((band) => (
+        {/* Search + filters */}
+        <section className="sticky top-0 z-20 -mx-4 mt-4 bg-[oklch(0.985_0.008_180)] px-4 pb-3 pt-3">
+          <div className="relative">
+            <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <input
+              type="search"
+              inputMode="search"
+              value={search.q}
+              onChange={(e) => update({ q: e.target.value })}
+              placeholder="Search lists, topics, grammar…"
+              className="h-11 w-full rounded-xl border border-border/60 bg-card pl-9 pr-10 text-sm shadow-sm outline-none ring-primary/30 focus:ring-2"
+              aria-label="Search lists"
+            />
+            {search.q && (
+              <button
+                onClick={() => update({ q: "" })}
+                className="absolute right-2 top-1/2 grid h-7 w-7 -translate-y-1/2 place-items-center rounded-md text-muted-foreground hover:bg-muted"
+                aria-label="Clear search"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            )}
+          </div>
+
+          <div className="mt-2 flex flex-wrap items-center gap-1.5">
+            {LEVEL_IDS.map((id) => {
+              const on = search.levels.includes(id);
+              return (
+                <button
+                  key={id}
+                  onClick={() => toggleLevel(id)}
+                  aria-pressed={on}
+                  className={cn(
+                    "h-8 rounded-full border px-3 text-xs font-semibold transition",
+                    on
+                      ? "border-primary bg-primary text-primary-foreground shadow-sm"
+                      : "border-border/60 bg-card text-foreground hover:border-primary/40",
+                  )}
+                >
+                  {id}
+                </button>
+              );
+            })}
+            {filterActive && (
+              <button
+                onClick={clearAll}
+                className="ml-auto h-8 rounded-full px-3 text-xs font-medium text-muted-foreground hover:text-foreground"
+              >
+                Clear
+              </button>
+            )}
+          </div>
+
+          {/* Grammar tag chip strip */}
+          <div className="mt-2 -mx-4 overflow-x-auto px-4">
+            <div className="flex w-max gap-1.5 pb-1">
+              {activeTags.map((t) => {
+                const on = search.tags.includes(t);
+                return (
+                  <button
+                    key={t}
+                    onClick={() => toggleTag(t)}
+                    aria-pressed={on}
+                    className={cn(
+                      "h-7 shrink-0 rounded-full border px-2.5 text-[11px] font-medium capitalize transition",
+                      on
+                        ? "border-primary bg-primary/10 text-primary"
+                        : "border-border/50 bg-card text-muted-foreground hover:border-primary/30 hover:text-foreground",
+                    )}
+                  >
+                    {t}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {filterActive && (
+            <p className="mt-1 text-xs text-muted-foreground">
+              {totalMatches} {totalMatches === 1 ? "list" : "lists"} match
+            </p>
+          )}
+        </section>
+
+        {filteredBands.length === 0 && (
+          <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card/60 p-8 text-center">
+            <p className="text-sm text-muted-foreground">No lists match your filters.</p>
+            <button
+              onClick={clearAll}
+              className="mt-3 inline-flex h-9 items-center rounded-md bg-primary px-4 text-sm font-semibold text-primary-foreground"
+            >
+              Clear filters
+            </button>
+          </div>
+        )}
+
+        {filteredBands.map((band) => (
           <section key={band.band} className="mt-6">
             <div className="mb-2 flex items-center justify-between px-1">
               <div className="flex items-center gap-2">
@@ -61,14 +294,15 @@ function HomePage() {
                 <h2 className="text-sm font-semibold text-foreground">{band.band}</h2>
               </div>
               <span className="text-xs text-muted-foreground">
-                {band.levels.reduce((a, l) => a + l.lists.length, 0) + (band.extras?.length ?? 0)} categories
+                {band.levels.reduce((a, l) => a + l.lists.length, 0) + band.extras.length}{" "}
+                categories
               </span>
             </div>
             <div className="space-y-3">
               {band.levels.map((lvl) => (
-                <LevelAccordion key={lvl.id} level={lvl} />
+                <LevelAccordion key={lvl.id} level={lvl} forceOpen={filterActive} />
               ))}
-              {band.extras?.map((extra) => (
+              {band.extras.map((extra) => (
                 <Link
                   key={extra.id}
                   to="/list/$listId"
@@ -92,26 +326,49 @@ function HomePage() {
                     <span className="text-base font-semibold text-foreground">{extra.title}</span>
                   </div>
                   <p className="mt-2 text-xs text-muted-foreground">{extra.description}</p>
+                  <TagRow tags={listTagsFor(extra.id)} />
                 </Link>
               ))}
             </div>
           </section>
         ))}
-
       </main>
     </div>
   );
 }
 
-function LevelAccordion({ level }: { level: LevelGroup }) {
+function TagRow({ tags }: { tags: GrammarTag[] }) {
+  if (!tags.length) return null;
+  return (
+    <div className="mt-2 flex flex-wrap gap-1">
+      {tags.map((t) => (
+        <span
+          key={t}
+          className="rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium capitalize text-muted-foreground"
+        >
+          {t}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+function LevelAccordion({
+  level,
+  forceOpen,
+}: {
+  level: LevelGroup;
+  forceOpen: boolean;
+}) {
   const [open, setOpen] = useState(level.id === "A1");
   const tone = TONE_CLASSES[level.tone];
+  const isOpen = forceOpen || open;
   return (
     <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm">
       <button
         onClick={() => setOpen((v) => !v)}
         className="flex w-full items-center gap-3 px-4 py-3 text-left"
-        aria-expanded={open}
+        aria-expanded={isOpen}
       >
         <span
           className={cn(
@@ -130,11 +387,11 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
         <ChevronDown
           className={cn(
             "h-5 w-5 text-muted-foreground transition-transform",
-            open && "rotate-180",
+            isOpen && "rotate-180",
           )}
         />
       </button>
-      {open && (
+      {isOpen && (
         <div className="grid grid-cols-1 gap-3 px-4 pb-4 sm:grid-cols-2">
           {level.lists.map((l) => (
             <Link
@@ -152,6 +409,7 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
               <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
                 {l.description}
               </p>
+              <TagRow tags={listTagsFor(l.id)} />
             </Link>
           ))}
         </div>
