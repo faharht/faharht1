@@ -23,6 +23,14 @@ import { getSentences } from "@/lib/trainer/sentences";
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
+import { toast } from "sonner";
+
+function notifyGoal(result: { goalReachedNow: boolean }) {
+  if (result.goalReachedNow) {
+    toast.success("Daily goal reached — streak +1 🔥", { duration: 3500 });
+  }
+}
+
 import { splitStressedWord, tokenizeStressed } from "@/lib/trainer/stress";
 import type { TextSize } from "@/lib/trainer/types";
 import { cn } from "@/lib/utils";
@@ -140,7 +148,8 @@ function ListPage() {
     setActiveWord(null);
     const s = visibleSentences[idx];
     if (!s) return;
-    bumpReps(s.id, 1);
+    notifyGoal(bumpReps(s.id, 1));
+
     const handler = makeBoundaryHandler(s.ru);
     speak(s.ru, {
       rate: settings.speed,
@@ -173,7 +182,7 @@ function ListPage() {
       const handler = makeBoundaryHandler(s.ru);
       for (let r = 0; r < settings.reps; r++) {
         if (cancelRef.current) break;
-        bumpReps(s.id, 1);
+        notifyGoal(bumpReps(s.id, 1));
         await new Promise<void>((resolve) => {
           speak(s.ru, {
             rate: settings.speed,
