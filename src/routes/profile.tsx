@@ -79,6 +79,40 @@ function ProfilePage() {
     return { reps, practiced, mastered, favCount, perLevel };
   }, [progress, favorites]);
 
+  const today = todayKey();
+  const todayReps = dailyHistory[today] ?? 0;
+  const goalPct = Math.min(100, Math.round((todayReps / Math.max(1, dailyGoal)) * 100));
+  // Derive a streak that decays visually if today isn't yesterday/today
+  const effectiveStreak = useMemo(() => {
+    if (!lastActiveDate) return 0;
+    if (lastActiveDate === today) return currentStreak;
+    // yesterday?
+    const [y, m, d] = today.split("-").map(Number);
+    const dt = new Date(y, m - 1, d);
+    dt.setDate(dt.getDate() - 1);
+    const y2 = dt.getFullYear();
+    const m2 = String(dt.getMonth() + 1).padStart(2, "0");
+    const d2 = String(dt.getDate()).padStart(2, "0");
+    if (lastActiveDate === `${y2}-${m2}-${d2}`) return currentStreak;
+    return 0;
+  }, [lastActiveDate, currentStreak, today]);
+
+  const last14: { date: string; reps: number }[] = useMemo(() => {
+    const out: { date: string; reps: number }[] = [];
+    const [y, m, d] = today.split("-").map(Number);
+    for (let i = 13; i >= 0; i--) {
+      const dt = new Date(y, m - 1, d);
+      dt.setDate(dt.getDate() - i);
+      const key = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}-${String(dt.getDate()).padStart(2, "0")}`;
+      out.push({ date: key, reps: dailyHistory[key] ?? 0 });
+    }
+    return out;
+  }, [today, dailyHistory]);
+
+  const rankProgress = getProgressToNext(stats.reps);
+
+
+
   async function handleSignOut() {
     await supabase.auth.signOut();
     setUser(null);
