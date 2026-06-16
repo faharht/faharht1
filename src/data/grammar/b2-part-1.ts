@@ -19,7 +19,7 @@ export const b2Part1: GrammarPack = {
       "body": "Passive past participles (PPP) describe an action done to an object. They are formed from _perfective verbs_ by adding suffixes like **-нн-**, **-енн-**, or **-т-**. These function like full adjectives. For a more formal, \"reportage\" style, use the **short form** (ending in **-н**, **-на**, **-но**, **-ны**), which functions like a predicate.",
       "examples": [
         {
-          "ru": "Книга, написанная им, стала бестселлером.\"},{en:",
+          "ru": "Книга, написанная им, стала бестселлером.",
           "en": "The book written by him became a bestseller."
         }
       ]
