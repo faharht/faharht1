@@ -422,11 +422,17 @@ function ListPage() {
       {grammar && (
         <GrammarSheet
           pack={grammar}
+          sentences={sentences}
           open={grammarOpen}
           onOpenChange={setGrammarOpen}
           onSpeak={(t) => speak(t, { rate: settings.speed })}
+          onJump={(id) => {
+            setGrammarOpen(false);
+            setFocusId(id);
+          }}
         />
       )}
+
     </div>
   );
 }
