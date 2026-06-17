@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { todayKey } from "@/lib/trainer/store";
+import { useT } from "@/lib/i18n/useT";
 
 type Range = 14 | 30;
 
@@ -12,6 +13,7 @@ export function RepsChart({
   dailyHistory: Record<string, number>;
   dailyGoal: number;
 }) {
+  const { t, locale } = useT();
   const [range, setRange] = useState<Range>(14);
   const today = todayKey();
 
@@ -33,7 +35,8 @@ export function RepsChart({
   const hitDays = days.filter((d) => d.reps >= dailyGoal && dailyGoal > 0).length;
 
   const goalLineTop = 100 - (dailyGoal / maxReps) * 100;
-  const weekday = (d: Date) => ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][d.getDay()];
+  const weekday = (d: Date) =>
+    d.toLocaleDateString(locale === "pl" ? "pl-PL" : "en-US", { weekday: "short" });
   const tickEvery = range === 14 ? 2 : 5;
 
   return (
@@ -44,9 +47,13 @@ export function RepsChart({
             <BarChart3 className="h-5 w-5" />
           </div>
           <div>
-            <div className="text-sm font-semibold text-foreground">Daily reps</div>
+            <div className="text-sm font-semibold text-foreground">{t("chart.title")}</div>
             <div className="text-[11px] text-muted-foreground">
-              {total.toLocaleString()} total · avg {avg}/day · {hitDays} goal days
+              {t("chart.summary", {
+                total: total.toLocaleString(locale === "pl" ? "pl-PL" : "en-US"),
+                avg,
+                hit: hitDays,
+              })}
             </div>
           </div>
         </div>
@@ -67,14 +74,13 @@ export function RepsChart({
       </div>
 
       <div className="relative mt-4 h-32 w-full">
-        {/* goal line */}
         {dailyGoal > 0 && dailyGoal <= maxReps && (
           <div
             className="pointer-events-none absolute left-0 right-0 border-t border-dashed border-primary/60"
             style={{ top: `${goalLineTop}%` }}
           >
             <span className="absolute -top-3.5 right-0 rounded bg-primary/10 px-1 text-[9px] font-semibold text-primary">
-              goal {dailyGoal}
+              {t("chart.goal", { n: dailyGoal })}
             </span>
           </div>
         )}
@@ -88,22 +94,18 @@ export function RepsChart({
               <div
                 key={day.date}
                 className="group relative flex h-full flex-1 items-end"
-                title={`${weekday(day.d)} ${day.d.getDate()} · ${day.reps} reps`}
+                title={`${weekday(day.d)} ${day.d.getDate()} · ${day.reps}`}
               >
                 <div
                   className={cn(
                     "w-full rounded-t-sm transition-all",
-                    hit
-                      ? "bg-primary"
-                      : some
-                        ? "bg-primary/30"
-                        : "bg-muted",
+                    hit ? "bg-primary" : some ? "bg-primary/30" : "bg-muted",
                     isToday && "ring-1 ring-primary",
                   )}
                   style={{ height: `${Math.max(pct, day.reps > 0 ? 4 : 2)}%` }}
                 />
                 <div className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-1 hidden -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-1.5 py-1 text-[10px] font-semibold text-background group-hover:block">
-                  {day.reps} reps
+                  {day.reps}
                 </div>
               </div>
             );
