@@ -484,210 +484,240 @@
     "ru": "Сегодня я хочу отдохнуть.",
     "ruStressed": "Сего́дня я хочу́ отдохну́ть.",
     "translit": "Segodnya ya khochu otdokhnut'.",
-    "en": "Today I want to rest."
+    "en": "Today I want to rest.",
+    "pl": "Dzisiaj chcę odpocząć."
   },
   {
     "id": "a2-part-1-62",
     "ru": "Я уже позавтракал.",
     "ruStressed": "Я уже́ поза́втракал.",
     "translit": "Ya uzhe pozavtrakal.",
-    "en": "I've already had breakfast."
+    "en": "I've already had breakfast.",
+    "pl": "Już zjadłem śniadanie."
   },
   {
     "id": "a2-part-1-63",
     "ru": "Я ещё не обедал.",
     "ruStressed": "Я ещё не обе́дал.",
     "translit": "Ya yeshchyo ne obedal.",
-    "en": "I haven't had lunch yet."
+    "en": "I haven't had lunch yet.",
+    "pl": "Jeszcze nie jadłem obiadu."
   },
   {
     "id": "a2-part-1-64",
     "ru": "Утром я бегал в парке.",
     "ruStressed": "У́тром я бе́гал в па́рке.",
     "translit": "Utrom ya begal v parke.",
-    "en": "In the morning I ran in the park."
+    "en": "In the morning I ran in the park.",
+    "pl": "Rano biegałem w parku."
   },
   {
     "id": "a2-part-1-65",
     "ru": "Я часто бегаю по утрам.",
     "ruStressed": "Я ча́сто бе́гаю по утра́м.",
     "translit": "Ya chasto begayu po utram.",
-    "en": "I often run in the mornings."
+    "en": "I often run in the mornings.",
+    "pl": "Często biegam rano."
   },
   {
     "id": "a2-part-1-66",
     "ru": "Раньше я курил, но бросил.",
     "ruStressed": "Ра́ньше я кури́л, но бро́сил.",
     "translit": "Ran'she ya kuril, no brosil.",
-    "en": "I used to smoke, but I quit."
+    "en": "I used to smoke, but I quit.",
+    "pl": "Kiedyś paliłem, ale rzuciłem."
   },
   {
     "id": "a2-part-1-67",
     "ru": "Раньше я жил в Москве.",
     "ruStressed": "Ра́ньше я жил в Москве́.",
     "translit": "Ran'she ya zhil v Moskve.",
-    "en": "I used to live in Moscow."
+    "en": "I used to live in Moscow.",
+    "pl": "Kiedyś mieszkałem w Moskwie."
   },
   {
     "id": "a2-part-1-68",
     "ru": "В детстве я играл в футбол.",
     "ruStressed": "В де́тстве я игра́л в футбо́л.",
     "translit": "V detstve ya igral v futbol.",
-    "en": "As a child I played football."
+    "en": "As a child I played football.",
+    "pl": "Jako dziecko grałem w piłkę nożną."
   },
   {
     "id": "a2-part-1-69",
     "ru": "Я родился в маленьком городе.",
     "ruStressed": "Я роди́лся в ма́леньком го́роде.",
     "translit": "Ya rodilsya v malen'kom gorode.",
-    "en": "I was born in a small city."
+    "en": "I was born in a small city.",
+    "pl": "Urodziłem się w małym mieście."
   },
   {
     "id": "a2-part-1-70",
     "ru": "Я учился в школе двенадцать лет.",
     "ruStressed": "Я учи́лся в шко́ле двена́дцать лет.",
     "translit": "Ya uchilsya v shkole dvenadtsat' let.",
-    "en": "I went to school for twelve years."
+    "en": "I went to school for twelve years.",
+    "pl": "Chodziłem do szkoły przez dwanaście lat."
   },
   {
     "id": "a2-part-1-71",
     "ru": "Потом я поступил в университет.",
     "ruStressed": "Пото́м я поступи́л в университе́т.",
     "translit": "Potom ya poступи́л v universitet.",
-    "en": "Then I entered university."
+    "en": "Then I entered university.",
+    "pl": "Potem dostałem się na uniwersytet."
   },
   {
     "id": "a2-part-1-72",
     "ru": "Я окончил университет в прошлом году.",
     "ruStressed": "Я око́нчил университе́т в про́шлом году́.",
     "translit": "Ya okonchil universitet v proshlom godu.",
-    "en": "I graduated university last year."
+    "en": "I graduated university last year.",
+    "pl": "Ukończyłem uniwersytet w zeszłym roku."
   },
   {
     "id": "a2-part-1-73",
     "ru": "Сейчас я работаю инженером.",
     "ruStressed": "Сейча́с я рабо́таю инжене́ром.",
     "translit": "Seychas ya rabotayu inzhenerom.",
-    "en": "Now I work as an engineer."
+    "en": "Now I work as an engineer.",
+    "pl": "Teraz pracuję jako inżynier."
   },
   {
     "id": "a2-part-1-74",
     "ru": "Я работаю здесь два года.",
     "ruStressed": "Я рабо́таю здесь два го́да.",
     "translit": "Ya rabotayu zdes' dva goda.",
-    "en": "I've been working here for two years."
+    "en": "I've been working here for two years.",
+    "pl": "Pracuję tutaj od dwóch lat."
   },
   {
     "id": "a2-part-1-75",
     "ru": "Я живу один.",
     "ruStressed": "Я живу́ оди́н.",
     "translit": "Ya zhivu odin.",
-    "en": "I live alone."
+    "en": "I live alone.",
+    "pl": "Mieszkam sam."
   },
   {
     "id": "a2-part-1-76",
     "ru": "Раньше я жил с родителями.",
     "ruStressed": "Ра́ньше я жил с роди́телями.",
     "translit": "Ran'she ya zhil s roditelyami.",
-    "en": "I used to live with my parents."
+    "en": "I used to live with my parents.",
+    "pl": "Kiedyś mieszkałem z rodzicami."
   },
   {
     "id": "a2-part-1-77",
     "ru": "Я переехал в новую квартиру.",
     "ruStressed": "Я перее́хал в но́вую кварти́ру.",
     "translit": "Ya pereekhal v novuyu kvartiru.",
-    "en": "I moved to a new apartment."
+    "en": "I moved to a new apartment.",
+    "pl": "Przeprowadziłem się do nowego mieszkania."
   },
   {
     "id": "a2-part-1-78",
     "ru": "Квартира маленькая, но уютная.",
     "ruStressed": "Кварти́ра ма́ленькая, но ую́тная.",
     "translit": "Kvartira malen'kaya, no uyutnaya.",
-    "en": "The apartment is small but cozy."
+    "en": "The apartment is small but cozy.",
+    "pl": "Mieszkanie jest małe, ale przytulne."
   },
   {
     "id": "a2-part-1-79",
     "ru": "В моей комнате есть стол и кровать.",
     "ruStressed": "В мое́й ко́мнате есть стол и крова́ть.",
     "translit": "V moey komnate yest' stol i krovat'.",
-    "en": "In my room there's a table and a bed."
+    "en": "In my room there's a table and a bed.",
+    "pl": "W moim pokoju jest stół i łóżko."
   },
   {
     "id": "a2-part-1-80",
     "ru": "Я завтракал быстро сегодня.",
     "ruStressed": "Я за́втракал бы́стро сего́дня.",
     "translit": "Ya zavtrakal bystro segodnya.",
-    "en": "I had breakfast quickly today."
+    "en": "I had breakfast quickly today.",
+    "pl": "Zjadłem dzisiaj szybko śniadanie."
   },
   {
     "id": "a2-part-1-81",
     "ru": "Вчера весь день шёл дождь.",
     "ruStressed": "Вчера́ весь день шёл дождь.",
     "translit": "Vchera ves' den' shyol dozhd'.",
-    "en": "Yesterday it rained all day."
+    "en": "Yesterday it rained all day.",
+    "pl": "Wczoraj cały dzień padało."
   },
   {
     "id": "a2-part-1-82",
     "ru": "Я сидел дома и читал.",
     "ruStressed": "Я сиде́л до́ма и чита́л.",
     "translit": "Ya sidel doma i chital.",
-    "en": "I sat at home and read."
+    "en": "I sat at home and read.",
+    "pl": "Siedziałem w domu i czytałem."
   },
   {
     "id": "a2-part-1-83",
     "ru": "Книга была очень интересная.",
     "ruStressed": "Кни́га была́ о́чень интере́сная.",
     "translit": "Kniga byla ochen' interesnaya.",
-    "en": "The book was very interesting."
+    "en": "The book was very interesting.",
+    "pl": "Książka była bardzo interesująca."
   },
   {
     "id": "a2-part-1-84",
     "ru": "Я прочитал её за два дня.",
     "ruStressed": "Я прочита́л её за два дня.",
     "translit": "Ya prochital yeyo za dva dnya.",
-    "en": "I read it in two days."
+    "en": "I read it in two days.",
+    "pl": "Przeczytałem ją w dwa dni."
   },
   {
     "id": "a2-part-1-85",
     "ru": "Вчера я смотрел новый фильм.",
     "ruStressed": "Вчера́ я смотре́л но́вый фильм.",
     "translit": "Vchera ya smotrel novyy fil'm.",
-    "en": "Yesterday I watched a new film."
+    "en": "Yesterday I watched a new film.",
+    "pl": "Wczoraj oglądałem nowy film."
   },
   {
     "id": "a2-part-1-86",
     "ru": "Фильм мне понравился.",
     "ruStressed": "Фильм мне понра́вился.",
     "translit": "Fil'm mne ponravilsya.",
-    "en": "I liked the film."
+    "en": "I liked the film.",
+    "pl": "Film mi się podobał."
   },
   {
     "id": "a2-part-1-87",
     "ru": "Я лёг спать после полуночи.",
     "ruStressed": "Я лёг спать по́сле полу́ночи.",
     "translit": "Ya lyog spat' posle polunochi.",
-    "en": "I went to sleep after midnight."
+    "en": "I went to sleep after midnight.",
+    "pl": "Poszedłem spać po północy."
   },
   {
     "id": "a2-part-1-88",
     "ru": "Утром я проснулся уставшим.",
     "ruStressed": "У́тром я просну́лся уста́вшим.",
     "translit": "Utrom ya prosnulsya ustavshim.",
-    "en": "In the morning I woke up tired."
+    "en": "In the morning I woke up tired.",
+    "pl": "Rano obudziłem się zmęczony."
   },
   {
     "id": "a2-part-1-89",
     "ru": "Я выпил две чашки кофе.",
     "ruStressed": "Я вы́пил две ча́шки ко́фе.",
     "translit": "Ya vypil dve chashki kofe.",
-    "en": "I drank two cups of coffee."
+    "en": "I drank two cups of coffee.",
+    "pl": "Wypiłem dwie filiżanki kawy."
   },
   {
     "id": "a2-part-1-90",
     "ru": "Кофе помог мне проснуться.",
     "ruStressed": "Ко́фе помо́г мне просну́ться.",
     "translit": "Kofe pomog mne prosnut'sya.",
-    "en": "The coffee helped me wake up."
+    "en": "The coffee helped me wake up.",
+    "pl": "Kawa pomogła mi się obudzić."
   },
   {
     "id": "a2-part-1-91",

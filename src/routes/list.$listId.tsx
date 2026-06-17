@@ -26,7 +26,7 @@ import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
 import { toast } from "sonner";
 import { useDayTick } from "@/lib/trainer/useDayTick";
 import { useT } from "@/lib/i18n/useT";
-import { LOCALES, type StringKey } from "@/lib/i18n/strings";
+import { LOCALES } from "@/lib/i18n/strings";
 
 function useNotifyGoal() {
   const { t } = useT();
