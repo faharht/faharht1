@@ -707,6 +707,7 @@ function SettingsSheet({
   open: boolean;
   onOpenChange: (v: boolean) => void;
 }) {
+  const { t } = useT();
   const settings = useTrainerStore((s) => s.settings);
   const setSettings = useTrainerStore((s) => s.setSettings);
 
@@ -727,12 +728,36 @@ function SettingsSheet({
             <SettingsIcon className="h-5 w-5" />
           </span>
           <div className="flex-1">
-            <SheetTitle>Practice Settings</SheetTitle>
-            <SheetDescription>Customize repetitions, pauses, and playback.</SheetDescription>
+            <SheetTitle>{t("settings.title")}</SheetTitle>
+            <SheetDescription>{t("settings.desc")}</SheetDescription>
           </div>
         </SheetHeader>
         <div className="mt-4 space-y-3">
-          <Group title="Repetitions per Sentence">
+          <Group title={t("settings.appLanguage")}>
+            <p className="text-xs text-muted-foreground mb-3">{t("settings.appLangHint")}</p>
+            <div className="grid grid-cols-2 gap-2">
+              {LOCALES.map((opt) => {
+                const active = settings.appLanguage === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    onClick={() => setSettings({ appLanguage: opt.id })}
+                    className={cn(
+                      "flex items-center justify-center gap-2 rounded-lg border px-3 py-2 text-sm font-semibold transition",
+                      active
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-border bg-card text-muted-foreground hover:text-foreground",
+                    )}
+                  >
+                    <span aria-hidden>{opt.flag}</span>
+                    {opt.label}
+                  </button>
+                );
+              })}
+            </div>
+          </Group>
+
+          <Group title={t("settings.reps")}>
             <Chips
               values={reps as readonly number[]}
               selected={settings.reps}
@@ -741,7 +766,7 @@ function SettingsSheet({
             />
           </Group>
 
-          <Group title="Pause Duration">
+          <Group title={t("settings.pause")}>
             <Chips
               values={pauses as readonly number[]}
               selected={settings.pauseSeconds}
@@ -752,8 +777,10 @@ function SettingsSheet({
             />
           </Group>
 
-          <Group title="Playback Speed">
-            <div className="text-sm font-semibold text-primary">{settings.speed}× Normal</div>
+          <Group title={t("settings.speed")}>
+            <div className="text-sm font-semibold text-primary">
+              {t("settings.speedNormal", { n: settings.speed })}
+            </div>
             <Slider
               value={[settings.speed]}
               min={0.5}
@@ -770,7 +797,7 @@ function SettingsSheet({
             </div>
           </Group>
 
-          <Group title="Text size">
+          <Group title={t("settings.textSize")}>
             <div className="flex gap-2">
               {sizes.map((s) => (
                 <button
@@ -789,11 +816,9 @@ function SettingsSheet({
             </div>
           </Group>
 
-          <Group title="Transliteration">
+          <Group title={t("settings.translit")}>
             <div className="flex items-start justify-between gap-3">
-              <p className="text-xs text-muted-foreground">
-                Show or hide the pronunciation hint below the Russian text.
-              </p>
+              <p className="text-xs text-muted-foreground">{t("settings.translitHint")}</p>
               <Switch
                 checked={settings.showTransliteration}
                 onCheckedChange={(v) => setSettings({ showTransliteration: v })}
