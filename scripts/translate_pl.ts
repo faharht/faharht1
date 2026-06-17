@@ -12,8 +12,9 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
 const DATA_DIR = "src/data/sentences";
-const BATCH = 25;
-const CONCURRENCY = 4;
+const BATCH = 30;
+const CONCURRENCY = 1;
+const REQUEST_DELAY_MS = 1200;
 const MODEL = "google/gemini-3-flash-preview";
 const API = "https://ai.gateway.lovable.dev/v1/chat/completions";
 
@@ -71,14 +72,16 @@ async function translateBatch(items: { en: string; ru: string }[]): Promise<stri
   return arr.map((x) => String(x));
 }
 
-async function withRetry<T>(fn: () => Promise<T>, label: string, tries = 3): Promise<T> {
+async function withRetry<T>(fn: () => Promise<T>, label: string, tries = 8): Promise<T> {
   let lastErr: unknown;
   for (let i = 0; i < tries; i++) {
     try { return await fn(); }
     catch (e) {
       lastErr = e;
-      const wait = 1000 * (i + 1);
-      console.warn(`  retry ${label} (${i + 1}/${tries}) in ${wait}ms: ${(e as Error).message}`);
+      const msg = (e as Error).message;
+      const isRate = msg.includes("429");
+      const wait = isRate ? 5000 * (i + 1) : 1500 * (i + 1);
+      console.warn(`  retry ${label} (${i + 1}/${tries}) in ${wait}ms: ${msg.slice(0, 120)}`);
       await new Promise((r) => setTimeout(r, wait));
     }
   }
@@ -122,7 +125,10 @@ async function processFile(file: string) {
       sentences[idxs[j]].pl = out[j];
     }
     done += idxs.length;
-    if (done % 100 < BATCH) console.log(`  ${file}: ${done}/${missingIdx.length}`);
+    if (done % 90 < BATCH) console.log(`  ${file}: ${done}/${missingIdx.length}`);
+    // Persist incrementally so a crash mid-file keeps progress.
+    await writeFile(path, JSON.stringify(sentences, null, 2) + "\n", "utf8");
+    await new Promise((r) => setTimeout(r, REQUEST_DELAY_MS));
   });
 
   await writeFile(path, JSON.stringify(sentences, null, 2) + "\n", "utf8");
