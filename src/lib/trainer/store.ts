@@ -50,6 +50,7 @@ const defaultSettings: TrainerSettings = {
   speed: 1,
   textSize: "lg",
   showTransliteration: true,
+  appLanguage: "en",
 };
 
 export function todayKey(d: Date = new Date()): string {
