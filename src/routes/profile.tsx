@@ -16,6 +16,9 @@ import { getProgressToNext } from "@/lib/trainer/ranks";
 import { RepsChart } from "@/components/profile/RepsChart";
 import { ChangeGoalDialog } from "@/components/profile/ChangeGoalDialog";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/useT";
+import { getRank } from "@/lib/trainer/ranks";
+import type { StringKey } from "@/lib/i18n/strings";
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
@@ -34,6 +37,9 @@ type SessionUser = { id: string; email: string | null } | null;
 
 function ProfilePage() {
   useDayTick();
+function ProfilePage() {
+  useDayTick();
+  const { t } = useT();
   const navigate = useNavigate();
   const [user, setUser] = useState<SessionUser>(null);
   const [loading, setLoading] = useState(true);
@@ -142,10 +148,8 @@ function ProfilePage() {
     <div className="min-h-screen bg-[oklch(0.985_0.008_180)] pb-24">
       <main className="mx-auto max-w-2xl px-4 pt-6">
         <header className="overflow-hidden rounded-2xl bg-gradient-to-br from-violet-600 to-indigo-700 px-5 py-6 text-white shadow-md">
-          <h1 className="text-lg font-semibold">Profile</h1>
-          <p className="mt-1 text-xs text-white/80">
-            Your reps, mastered sentences, and favorites.
-          </p>
+          <h1 className="text-lg font-semibold">{t("profile.title")}</h1>
+          <p className="mt-1 text-xs text-white/80">{t("profile.subtitle")}</p>
         </header>
 
         {/* Account card */}
@@ -158,7 +162,7 @@ function ProfilePage() {
                 {(user.email ?? "?").slice(0, 1).toUpperCase()}
               </div>
               <div className="min-w-0 flex-1">
-                <div className="text-sm font-semibold text-foreground">Signed in</div>
+                <div className="text-sm font-semibold text-foreground">{t("profile.signedIn")}</div>
                 <div className="truncate text-xs text-muted-foreground">{user.email}</div>
               </div>
               <button
@@ -166,34 +170,31 @@ function ProfilePage() {
                 className="inline-flex h-9 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"
               >
                 <LogOut className="h-3.5 w-3.5" />
-                Sign out
+                {t("profile.signOut")}
               </button>
             </div>
           ) : (
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
                 <Sparkles className="h-4 w-4 text-violet-600" />
-                You're in guest mode
+                {t("profile.guestMode")}
               </div>
-              <p className="text-xs text-muted-foreground">
-                Your reps and progress are saved on this device only. Sign in to keep them
-                across devices.
-              </p>
+              <p className="text-xs text-muted-foreground">{t("profile.guestHint")}</p>
               <div className="flex flex-wrap gap-2">
                 <button
                   onClick={() => navigate({ to: "/auth", search: { mode: "signin" } })}
                   className="inline-flex h-9 items-center rounded-md bg-primary px-3 text-xs font-semibold text-primary-foreground hover:bg-primary/90"
                 >
-                  Sign in
+                  {t("profile.signIn")}
                 </button>
                 <button
                   onClick={() => navigate({ to: "/auth", search: { mode: "signup" } })}
                   className="inline-flex h-9 items-center rounded-md border border-border/60 bg-background px-3 text-xs font-semibold text-foreground hover:bg-muted"
                 >
-                  Create account
+                  {t("profile.createAccount")}
                 </button>
                 <span className="ml-auto self-center text-[11px] text-muted-foreground">
-                  Continuing as guest
+                  {t("profile.continuingGuest")}
                 </span>
               </div>
             </div>
@@ -209,17 +210,17 @@ function ProfilePage() {
               </div>
               <div className="min-w-0 flex-1">
                 <div className="text-sm font-semibold text-foreground">
-                  Start your 14-day challenge
+                  {t("profile.startChallenge")}
                 </div>
                 <p className="mt-0.5 text-xs text-muted-foreground">
-                  Pick a daily reps goal — earn a badge after 14 days hitting it.
+                  {t("profile.startChalDesc")}
                 </p>
               </div>
               <button
                 onClick={() => setGoalDialog(true)}
                 className="inline-flex h-9 items-center rounded-md bg-primary px-3 text-xs font-semibold text-primary-foreground hover:bg-primary/90"
               >
-                Pick goal
+                {t("profile.pickGoal")}
               </button>
             </div>
           </section>
@@ -258,17 +259,17 @@ function ProfilePage() {
 
         {/* Stats card */}
         <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
-          <h2 className="text-sm font-semibold text-foreground">Your stats</h2>
+          <h2 className="text-sm font-semibold text-foreground">{t("profile.stats")}</h2>
           <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <StatTile icon={Repeat} label="Reps" value={stats.reps} tint="violet" />
-            <StatTile icon={Star} label="Practiced" value={stats.practiced} tint="amber" />
-            <StatTile icon={Trophy} label="Mastered" value={stats.mastered} tint="emerald" />
-            <StatTile icon={Heart} label="Favorites" value={stats.favCount} tint="rose" />
+            <StatTile icon={Repeat} label={t("profile.reps")} value={stats.reps} tint="violet" />
+            <StatTile icon={Star} label={t("profile.practiced")} value={stats.practiced} tint="amber" />
+            <StatTile icon={Trophy} label={t("profile.mastered")} value={stats.mastered} tint="emerald" />
+            <StatTile icon={Heart} label={t("profile.favorites")} value={stats.favCount} tint="rose" />
           </div>
 
           <div className="mt-4 space-y-2">
             <h3 className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-              By level
+              {t("profile.byLevel")}
             </h3>
             {(["A1", "A2", "B1", "B2"] as LevelId[]).map((lvl) => {
               const s = stats.perLevel[lvl];
@@ -279,7 +280,7 @@ function ProfilePage() {
                 >
                   <span className="text-sm font-semibold text-foreground">{lvl}</span>
                   <span className="text-xs text-muted-foreground">
-                    {s.reps} reps · {s.practiced} practiced
+                    {t("profile.levelLine", { reps: s.reps, practiced: s.practiced })}
                   </span>
                 </div>
               );
@@ -289,9 +290,9 @@ function ProfilePage() {
 
         <section className="mt-5 rounded-2xl border border-dashed border-border/60 bg-card/60 p-4 text-center">
           <p className="text-xs text-muted-foreground">
-            Want to keep practicing?{" "}
+            {t("profile.keepPracticing")}{" "}
             <Link to="/" className="font-semibold text-primary hover:underline">
-              Browse lists →
+              {t("home.browseLists")}
             </Link>
           </p>
         </section>
