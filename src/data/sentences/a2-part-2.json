@@ -964,209 +964,239 @@
     "ru": "Этот суп идеальный.",
     "ruStressed": "Э́тот суп идеа́льный.",
     "translit": "Etot sup ideal'nyy.",
-    "en": "This soup is perfect."
+    "en": "This soup is perfect.",
+    "pl": "Ta zupa jest idealna."
   },
   {
     "id": "a2-part-2-122",
     "ru": "Можно мне ещё порцию?",
     "ruStressed": "Мо́жно мне ещё по́рцию?",
     "translit": "Mozhno mne yeshchyo portsiyu?",
-    "en": "May I have another portion?"
+    "en": "May I have another portion?",
+    "pl": "Czy mogę prosić o jeszcze jedną porcję?"
   },
   {
     "id": "a2-part-2-123",
     "ru": "Я не могу больше есть.",
     "ruStressed": "Я не могу́ бо́льше есть.",
     "translit": "Ya ne mogu bol'she yest'.",
-    "en": "I can't eat any more."
+    "en": "I can't eat any more.",
+    "pl": "Nie mogę już więcej zjeść."
   },
   {
     "id": "a2-part-2-124",
     "ru": "Я объелся.",
     "ruStressed": "Я объе́лся.",
     "translit": "Ya ob'yelsya.",
-    "en": "I'm stuffed."
+    "en": "I'm stuffed.",
+    "pl": "Jestem pełny."
   },
   {
     "id": "a2-part-2-125",
     "ru": "Мы должны заплатить отдельно.",
     "ruStressed": "Мы должны́ заплати́ть отде́льно.",
     "translit": "My dolzhny zaplatit' otdel'no.",
-    "en": "We need to pay separately."
+    "en": "We need to pay separately.",
+    "pl": "Musimy zapłacić osobno."
   },
   {
     "id": "a2-part-2-126",
     "ru": "Я плачу за всех.",
     "ruStressed": "Я плачу́ за всех.",
     "translit": "Ya plachu za vsekh.",
-    "en": "I'm paying for everyone."
+    "en": "I'm paying for everyone.",
+    "pl": "Płacę za wszystkich."
   },
   {
     "id": "a2-part-2-127",
     "ru": "Спасибо, ты очень щедрый.",
     "ruStressed": "Спаси́бо, ты о́чень ще́дрый.",
     "translit": "Spasibo, ty ochen' shchedryy.",
-    "en": "Thanks, you're very generous."
+    "en": "Thanks, you're very generous.",
+    "pl": "Dzięki, jesteś bardzo hojny."
   },
   {
     "id": "a2-part-2-128",
     "ru": "В следующий раз я угощаю.",
     "ruStressed": "В сле́дующий раз я угоща́ю.",
     "translit": "V sleduyushchiy raz ya ugoshchayu.",
-    "en": "Next time it's on me."
+    "en": "Next time it's on me.",
+    "pl": "Następnym razem ja stawiam."
   },
   {
     "id": "a2-part-2-129",
     "ru": "Я хочу пить холодную воду.",
     "ruStressed": "Я хочу́ пить холо́дную во́ду.",
     "translit": "Ya khochu pit' kholodnuyu vodu.",
-    "en": "I want to drink cold water."
+    "en": "I want to drink cold water.",
+    "pl": "Chcę pić zimną wodę."
   },
   {
     "id": "a2-part-2-130",
     "ru": "Мы хотим заказать большую пиццу.",
     "ruStressed": "Мы хоти́м заказа́ть большу́ю пи́ццу.",
     "translit": "My khotim zakazat' bol'shuyu pitstsu.",
-    "en": "We want to order a large pizza."
+    "en": "We want to order a large pizza.",
+    "pl": "Chcemy zamówić dużą pizzę."
   },
   {
     "id": "a2-part-2-131",
     "ru": "Вы должны попробовать этот десерт.",
     "ruStressed": "Вы должны́ попро́бовать э́тот десе́рт.",
     "translit": "Vy dolzhny poprobovat' etot desert.",
-    "en": "You must try this dessert."
+    "en": "You must try this dessert.",
+    "pl": "Musi pan spróbować tego deseru. (formal)"
   },
   {
     "id": "a2-part-2-132",
     "ru": "Можно посмотреть винную карту?",
     "ruStressed": "Мо́жно посмотре́ть ви́нную ка́рту?",
     "translit": "Mozhno posmotret' vinnuyu kartu.",
-    "en": "Can I look at the wine list?"
+    "en": "Can I look at the wine list?",
+    "pl": "Czy mogę zobaczyć kartę win?"
   },
   {
     "id": "a2-part-2-133",
     "ru": "Он хочет чашку чёрного кофе.",
     "ruStressed": "Он хо́чет ча́шку чёрного ко́фе.",
     "translit": "On khochet chashku chyornogo kofe.",
-    "en": "He wants a cup of black coffee."
+    "en": "He wants a cup of black coffee.",
+    "pl": "On chce filiżankę czarnej kawy."
   },
   {
     "id": "a2-part-2-134",
     "ru": "Мне нужна чистая салфетка.",
     "ruStressed": "Мне нужна́ чи́стая салфе́тка.",
     "translit": "Mne nuzhna chistaya salfetka.",
-    "en": "I need a clean napkin."
+    "en": "I need a clean napkin.",
+    "pl": "Potrzebuję czystej serwetki."
   },
   {
     "id": "a2-part-2-135",
     "ru": "Официантка, принесите стакан сока.",
     "ruStressed": "Официантка, принеси́те стака́н со́ка.",
     "translit": "Ofitsiantka, prinesite stakan soka.",
-    "en": "Waitress, bring a glass of juice."
+    "en": "Waitress, bring a glass of juice.",
+    "pl": "Pani kelnerko, proszę przynieść szklankę soku."
   },
   {
     "id": "a2-part-2-136",
     "ru": "В супе есть острый перец?",
     "ruStressed": "В су́пе есть о́стрый пе́рец?",
     "translit": "V supe yest' ostryy perets.",
-    "en": "Does the soup have hot pepper?"
+    "en": "Does the soup have hot pepper?",
+    "pl": "Czy w zupie jest ostra papryka?"
   },
   {
     "id": "a2-part-2-137",
     "ru": "Я могу порекомендовать свежий салат.",
     "ruStressed": "Я могу́ порекомендова́ть све́жий сала́т.",
     "translit": "Ya mogu porekomendovat' svezhiy salat.",
-    "en": "I can recommend the fresh salad."
+    "en": "I can recommend the fresh salad.",
+    "pl": "Mogę polecić świeżą sałatkę."
   },
   {
     "id": "a2-part-2-138",
     "ru": "Ты хочешь горячий шоколад?",
     "ruStressed": "Ты хо́чешь горя́чий шокола́д?",
     "translit": "Ty khochesh' goryachiy shokolad.",
-    "en": "Do you want hot chocolate?"
+    "en": "Do you want hot chocolate?",
+    "pl": "Chcesz gorącą czekoladę? (informal)"
   },
   {
     "id": "a2-part-2-139",
     "ru": "Мы должны заплатить за обед.",
     "ruStressed": "Мы должны́ заплати́ть за обе́д.",
     "translit": "My dolzhny zaplatit' za obed.",
-    "en": "We must pay for the lunch."
+    "en": "We must pay for the lunch.",
+    "pl": "Musimy zapłacić za obiad."
   },
   {
     "id": "a2-part-2-140",
     "ru": "Принесите основное блюдо позже.",
     "ruStressed": "Принеси́те основно́е блю́до по́зже.",
     "translit": "Prinesite osnovnoye blyudo pozzhe.",
-    "en": "Bring the main course later."
+    "en": "Bring the main course later.",
+    "pl": "Proszę przynieść danie główne później."
   },
   {
     "id": "a2-part-2-141",
     "ru": "Я возьму бокал красного вина.",
     "ruStressed": "Я возьму́ бока́л кра́сного вина́.",
     "translit": "Ya voz'mu bokal krasnogo vina.",
-    "en": "I'll have a glass of red wine."
+    "en": "I'll have a glass of red wine.",
+    "pl": "Poproszę kieliszek czerwonego wina."
   },
   {
     "id": "a2-part-2-142",
     "ru": "Ей нужно купить сладкие фрукты.",
     "ruStressed": "Ей ну́жно купи́ть сла́дкие фру́кты.",
     "translit": "Yey nuzhno kupit' sladkiye frukty.",
-    "en": "She needs to buy sweet fruit."
+    "en": "She needs to buy sweet fruit.",
+    "pl": "Ona musi kupić słodkie owoce."
   },
   {
     "id": "a2-part-2-143",
     "ru": "Можно чай без сахара?",
     "ruStressed": "Мо́жно чай без са́хара?",
     "translit": "Mozhno chay bez sakhara.",
-    "en": "Can I have tea without sugar?"
+    "en": "Can I have tea without sugar?",
+    "pl": "Czy mogę prosić herbatę bez cukru?"
   },
   {
     "id": "a2-part-2-144",
     "ru": "Какой суп у вас есть?",
     "ruStressed": "Како́й суп у вас есть?",
     "translit": "Kakoy sup u vas yest.",
-    "en": "What kind of soup do you have?"
+    "en": "What kind of soup do you have?",
+    "pl": "Jaką mają państwo zupę? (formal)"
   },
   {
     "id": "a2-part-2-145",
     "ru": "Официант, дайте мне пепельницу.",
     "ruStressed": "Официант, да́йте мне пе́пельницу.",
     "translit": "Ofitsiant, dayte mne pepel'nitsu.",
-    "en": "Waiter, give me an ash tray."
+    "en": "Waiter, give me an ash tray.",
+    "pl": "Kelnerze, proszę mi podać popielniczkę."
   },
   {
     "id": "a2-part-2-146",
     "ru": "Я хочу забронировать столик.",
     "ruStressed": "Я хочу́ заброни́ровать сто́лик.",
     "translit": "Ya khochu zabronirovat' stolik.",
-    "en": "I want to book a table."
+    "en": "I want to book a table.",
+    "pl": "Chcę zarezerwować stolik."
   },
   {
     "id": "a2-part-2-147",
     "ru": "Где я могу помыть руки?",
     "ruStressed": "Где я могу́ помы́ть ру́ки?",
     "translit": "Gde ya mogu pomyt' ruki.",
-    "en": "Where can I wash my hands?"
+    "en": "Where can I wash my hands?",
+    "pl": "Gdzie mogę umyć ręce?"
   },
   {
     "id": "a2-part-2-148",
     "ru": "Они хотят пить зелёный чай.",
     "ruStressed": "Они́ хотя́т пить зелёный чай.",
     "translit": "Oni khotyat pit' zelyonyy chay.",
-    "en": "They want to drink green tea."
+    "en": "They want to drink green tea.",
+    "pl": "Oni chcą pić zieloną herbatę."
   },
   {
     "id": "a2-part-2-149",
     "ru": "Я должен найти хорошее кафе.",
     "ruStressed": "Я до́лжен найти́ хоро́шее кафе́.",
     "translit": "Ya dolzhen nayti khoroshee kafe.",
-    "en": "I must find a good cafe."
+    "en": "I must find a good cafe.",
+    "pl": "Muszę znaleźć dobrą kawiarnię."
   },
   {
     "id": "a2-part-2-150",
     "ru": "Вы хотите стакан холодной воды?",
     "ruStressed": "Вы хоти́те стака́н холо́дной воды́?",
     "translit": "Vy khotite stakan kholodnoy vody?",
-    "en": "Would you like a glass of cold water?"
+    "en": "Would you like a glass of cold water?",
+    "pl": "Czy chciałby pan szklankę zimnej wody? (formal)"
   }
 ]

@@ -4,420 +4,480 @@
     "ru": "Я хочу поехать в Италию.",
     "ruStressed": "Я хочу́ пое́хать в Ита́лию.",
     "translit": "Ya khochu poekhat' v Italiyu.",
-    "en": "I want to go to Italy."
+    "en": "I want to go to Italy.",
+    "pl": "Chcę pojechać do Włoch."
   },
   {
     "id": "a2-part-3-2",
     "ru": "Куда ты едешь летом?",
     "ruStressed": "Куда́ ты е́дешь ле́том?",
     "translit": "Kuda ty edesh' letom?",
-    "en": "Where are you going this summer?"
+    "en": "Where are you going this summer?",
+    "pl": "Gdzie jedziesz tego lata?"
   },
   {
     "id": "a2-part-3-3",
     "ru": "Я еду в Грецию.",
     "ruStressed": "Я е́ду в Гре́цию.",
     "translit": "Ya yedu v Gretsiyu.",
-    "en": "I'm going to Greece."
+    "en": "I'm going to Greece.",
+    "pl": "Jadę do Grecji."
   },
   {
     "id": "a2-part-3-4",
     "ru": "Это будет первый раз.",
     "ruStressed": "Э́то бу́дет пе́рвый раз.",
     "translit": "Eto budet pervyy raz.",
-    "en": "It'll be the first time."
+    "en": "It'll be the first time.",
+    "pl": "To będzie pierwszy raz."
   },
   {
     "id": "a2-part-3-5",
     "ru": "Я давно мечтал об этом.",
     "ruStressed": "Я давно́ мечта́л об э́том.",
     "translit": "Ya davno mechtal ob etom.",
-    "en": "I've dreamed about it for a long time."
+    "en": "I've dreamed about it for a long time.",
+    "pl": "Długo o tym marzyłem."
   },
   {
     "id": "a2-part-3-6",
     "ru": "Когда у тебя отпуск?",
     "ruStressed": "Когда́ у тебя́ о́тпуск?",
     "translit": "Kogda u tebya otpusk?",
-    "en": "When is your vacation?"
+    "en": "When is your vacation?",
+    "pl": "Kiedy masz urlop?"
   },
   {
     "id": "a2-part-3-7",
     "ru": "Отпуск в июле.",
     "ruStressed": "О́тпуск в ию́ле.",
     "translit": "Otpusk v iyule.",
-    "en": "Vacation is in July."
+    "en": "Vacation is in July.",
+    "pl": "Urlop jest w lipcu."
   },
   {
     "id": "a2-part-3-8",
     "ru": "Я возьму две недели.",
     "ruStressed": "Я возьму́ две неде́ли.",
     "translit": "Ya voz'mu dve nedeli.",
-    "en": "I'll take two weeks."
+    "en": "I'll take two weeks.",
+    "pl": "Wezmę dwa tygodnie."
   },
   {
     "id": "a2-part-3-9",
     "ru": "Куда лучше поехать?",
     "ruStressed": "Куда́ лу́чше пое́хать?",
     "translit": "Kuda luchshe poekhat'?",
-    "en": "Where's the best place to go?"
+    "en": "Where's the best place to go?",
+    "pl": "Gdzie najlepiej pojechać?"
   },
   {
     "id": "a2-part-3-10",
     "ru": "Можно поехать на море.",
     "ruStressed": "Мо́жно пое́хать на мо́ре.",
     "translit": "Mozhno poekhat' na more.",
-    "en": "We can go to the sea."
+    "en": "We can go to the sea.",
+    "pl": "Można pojechać nad morze."
   },
   {
     "id": "a2-part-3-11",
     "ru": "Я люблю горы.",
     "ruStressed": "Я люблю́ го́ры.",
     "translit": "Ya lyublyu gory.",
-    "en": "I love the mountains."
+    "en": "I love the mountains.",
+    "pl": "Uwielbiam góry."
   },
   {
     "id": "a2-part-3-12",
     "ru": "В горах прохладно даже летом.",
     "ruStressed": "В гора́х прохла́дно да́же ле́том.",
     "translit": "V gorakh prokhladno dazhe letom.",
-    "en": "It's cool in the mountains even in summer."
+    "en": "It's cool in the mountains even in summer.",
+    "pl": "W górach jest chłodno nawet latem."
   },
   {
     "id": "a2-part-3-13",
     "ru": "Я полечу самолётом.",
     "ruStressed": "Я полечу́ самолётом.",
     "translit": "Ya polechu samolyotom.",
-    "en": "I'll fly by plane."
+    "en": "I'll fly by plane.",
+    "pl": "Polecę samolotem."
   },
   {
     "id": "a2-part-3-14",
     "ru": "Я боюсь летать.",
     "ruStressed": "Я бою́сь лета́ть.",
     "translit": "Ya boyus' letat'.",
-    "en": "I'm afraid to fly."
+    "en": "I'm afraid to fly.",
+    "pl": "Boję się latać."
   },
   {
     "id": "a2-part-3-15",
     "ru": "Поезд безопаснее самолёта?",
     "ruStressed": "По́езд безопа́снее самолёта?",
     "translit": "Poezd bezopasnee samolyota?",
-    "en": "Is the train safer than the plane?"
+    "en": "Is the train safer than the plane?",
+    "pl": "Czy pociąg jest bezpieczniejszy od samolotu?"
   },
   {
     "id": "a2-part-3-16",
     "ru": "Поездом дольше, но интереснее.",
     "ruStressed": "По́ездом до́льше, но интере́снее.",
     "translit": "Poezdom dol'she, no interesnee.",
-    "en": "By train is longer but more interesting."
+    "en": "By train is longer but more interesting.",
+    "pl": "Pociągiem jest dłużej, ale ciekawiej."
   },
   {
     "id": "a2-part-3-17",
     "ru": "Сколько стоит билет?",
     "ruStressed": "Ско́лько сто́ит биле́т?",
     "translit": "Skol'ko stoit bilet?",
-    "en": "How much does a ticket cost?"
+    "en": "How much does a ticket cost?",
+    "pl": "Ile kosztuje bilet?"
   },
   {
     "id": "a2-part-3-18",
     "ru": "Билет в одну сторону.",
     "ruStressed": "Биле́т в одну́ сто́рону.",
     "translit": "Bilet v odnu storonu.",
-    "en": "A one-way ticket."
+    "en": "A one-way ticket.",
+    "pl": "Bilet w jedną stronę."
   },
   {
     "id": "a2-part-3-19",
     "ru": "Билет туда и обратно.",
     "ruStressed": "Биле́т туда́ и обра́тно.",
     "translit": "Bilet tuda i obratno.",
-    "en": "A round-trip ticket."
+    "en": "A round-trip ticket.",
+    "pl": "Bilet w obie strony."
   },
   {
     "id": "a2-part-3-20",
     "ru": "Когда отправляется поезд?",
     "ruStressed": "Когда́ отправля́ется по́езд?",
     "translit": "Kogda otpravlyaetsya poezd?",
-    "en": "When does the train leave?"
+    "en": "When does the train leave?",
+    "pl": "Kiedy odjeżdża pociąg?"
   },
   {
     "id": "a2-part-3-21",
     "ru": "Поезд отходит в восемь утра.",
     "ruStressed": "По́езд отхо́дит в во́семь утра́.",
     "translit": "Poezd otkhodit v vosem' utra.",
-    "en": "The train leaves at eight a.m."
+    "en": "The train leaves at eight a.m.",
+    "pl": "Pociąg odjeżdża o ósmej rano."
   },
   {
     "id": "a2-part-3-22",
     "ru": "С какого вокзала?",
     "ruStressed": "С како́го вокза́ла?",
     "translit": "S kakogo vokzala?",
-    "en": "From which station?"
+    "en": "From which station?",
+    "pl": "Z którego dworca?"
   },
   {
     "id": "a2-part-3-23",
     "ru": "С Ленинградского вокзала.",
     "ruStressed": "С Ленингра́дского вокза́ла.",
     "translit": "S Leningradskogo vokzala.",
-    "en": "From Leningradsky station."
+    "en": "From Leningradsky station.",
+    "pl": "Z Dworca Leningradzkiego."
   },
   {
     "id": "a2-part-3-24",
     "ru": "Где платформа номер пять?",
     "ruStressed": "Где платфо́рма но́мер пять?",
     "translit": "Gde platforma nomer pyat'?",
-    "en": "Where is platform five?"
+    "en": "Where is platform five?",
+    "pl": "Gdzie jest peron piąty?"
   },
   {
     "id": "a2-part-3-25",
     "ru": "Мой вагон номер двенадцать.",
     "ruStressed": "Мой ваго́н но́мер двена́дцать.",
     "translit": "Moy vagon nomer dvenadtsat'.",
-    "en": "My carriage is number twelve."
+    "en": "My carriage is number twelve.",
+    "pl": "Mój wagon to numer dwanaście."
   },
   {
     "id": "a2-part-3-26",
     "ru": "Это моё место.",
     "ruStressed": "Э́то моё ме́сто.",
     "translit": "Eto moyo mesto.",
-    "en": "This is my seat."
+    "en": "This is my seat.",
+    "pl": "To jest moje miejsce."
   },
   {
     "id": "a2-part-3-27",
     "ru": "Извините, вы заняли моё место.",
     "ruStressed": "Извини́те, вы заня́ли моё ме́сто.",
     "translit": "Izvinite, vy zanyali moyo mesto.",
-    "en": "Excuse me, you took my seat."
+    "en": "Excuse me, you took my seat.",
+    "pl": "Przepraszam, zajął pan/pani moje miejsce."
   },
   {
     "id": "a2-part-3-28",
     "ru": "Простите, я ошибся.",
     "ruStressed": "Прости́те, я оши́бся.",
     "translit": "Prostite, ya oshibsya.",
-    "en": "Sorry, I made a mistake."
+    "en": "Sorry, I made a mistake.",
+    "pl": "Przepraszam, pomyliłem się."
   },
   {
     "id": "a2-part-3-29",
     "ru": "Сколько времени в пути?",
     "ruStressed": "Ско́лько вре́мени в пути́?",
     "translit": "Skol'ko vremeni v puti?",
-    "en": "How long is the journey?"
+    "en": "How long is the journey?",
+    "pl": "Jak długo trwa podróż?"
   },
   {
     "id": "a2-part-3-30",
     "ru": "Шесть часов.",
     "ruStressed": "Шесть часо́в.",
     "translit": "Shest' chasov.",
-    "en": "Six hours."
+    "en": "Six hours.",
+    "pl": "Sześć godzin."
   },
   {
     "id": "a2-part-3-31",
     "ru": "Когда мы приедем?",
     "ruStressed": "Когда́ мы прие́дем?",
     "translit": "Kogda my priedem?",
-    "en": "When will we arrive?"
+    "en": "When will we arrive?",
+    "pl": "Kiedy przyjedziemy?"
   },
   {
     "id": "a2-part-3-32",
     "ru": "Мы прибудем в восемь вечера.",
     "ruStressed": "Мы прибу́дем в во́семь ве́чера.",
     "translit": "My pribudem v vosem' vechera.",
-    "en": "We'll arrive at eight in the evening."
+    "en": "We'll arrive at eight in the evening.",
+    "pl": "Przyjedziemy o ósmej wieczorem."
   },
   {
     "id": "a2-part-3-33",
     "ru": "Поезд опаздывает.",
     "ruStressed": "По́езд опа́здывает.",
     "translit": "Poezd opazdyvaet.",
-    "en": "The train is late."
+    "en": "The train is late.",
+    "pl": "Pociąg się spóźnia."
   },
   {
     "id": "a2-part-3-34",
     "ru": "Рейс задерживается.",
     "ruStressed": "Рейс заде́рживается.",
     "translit": "Reys zaderzhivaetsya.",
-    "en": "The flight is delayed."
+    "en": "The flight is delayed.",
+    "pl": "Lot jest opóźniony."
   },
   {
     "id": "a2-part-3-35",
     "ru": "Где мой багаж?",
     "ruStressed": "Где мой бага́ж?",
     "translit": "Gde moy bagazh?",
-    "en": "Where is my luggage?"
+    "en": "Where is my luggage?",
+    "pl": "Gdzie jest mój bagaż?"
   },
   {
     "id": "a2-part-3-36",
     "ru": "Я потерял чемодан.",
     "ruStressed": "Я потеря́л чемода́н.",
     "translit": "Ya poteryal chemodan.",
-    "en": "I lost my suitcase."
+    "en": "I lost my suitcase.",
+    "pl": "Zgubiłem walizkę."
   },
   {
     "id": "a2-part-3-37",
     "ru": "Какой у вас номер рейса?",
     "ruStressed": "Како́й у вас но́мер ре́йса?",
     "translit": "Kakoy u vas nomer reysa?",
-    "en": "What's your flight number?"
+    "en": "What's your flight number?",
+    "pl": "Jaki jest numer państwa lotu? (formal)"
   },
   {
     "id": "a2-part-3-38",
     "ru": "Рейс номер двести десять.",
     "ruStressed": "Рейс но́мер две́сти де́сять.",
     "translit": "Reys nomer dvesti desyat'.",
-    "en": "Flight number two hundred ten."
+    "en": "Flight number two hundred ten.",
+    "pl": "Lot numer dwieście dziesięć."
   },
   {
     "id": "a2-part-3-39",
     "ru": "Где регистрация?",
     "ruStressed": "Где регистра́ция?",
     "translit": "Gde registratsiya?",
-    "en": "Where is check-in?"
+    "en": "Where is check-in?",
+    "pl": "Gdzie jest odprawa?"
   },
   {
     "id": "a2-part-3-40",
     "ru": "Я зарегистрировался онлайн.",
     "ruStressed": "Я зарегистри́ровался онла́йн.",
     "translit": "Ya zaregistrirovalsya onlayn.",
-    "en": "I checked in online."
+    "en": "I checked in online.",
+    "pl": "Odprawiłem się online."
   },
   {
     "id": "a2-part-3-41",
     "ru": "Покажите ваш паспорт.",
     "ruStressed": "Покажи́те ваш па́спорт.",
     "translit": "Pokazhite vash pasport.",
-    "en": "Show your passport."
+    "en": "Show your passport.",
+    "pl": "Proszę pokazać paszport. (formal)"
   },
   {
     "id": "a2-part-3-42",
     "ru": "Вот мой посадочный талон.",
     "ruStressed": "Вот мой поса́дочный тало́н.",
     "translit": "Vot moy posadochnyy talon.",
-    "en": "Here's my boarding pass."
+    "en": "Here's my boarding pass.",
+    "pl": "Oto moja karta pokładowa."
   },
   {
     "id": "a2-part-3-43",
     "ru": "Где выход на посадку?",
     "ruStressed": "Где вы́ход на поса́дку?",
     "translit": "Gde vykhod na posadku?",
-    "en": "Where is the boarding gate?"
+    "en": "Where is the boarding gate?",
+    "pl": "Gdzie jest bramka?"
   },
   {
     "id": "a2-part-3-44",
     "ru": "Выход номер семь.",
     "ruStressed": "Вы́ход но́мер семь.",
     "translit": "Vykhod nomer sem'.",
-    "en": "Gate number seven."
+    "en": "Gate number seven.",
+    "pl": "Bramka numer siedem."
   },
   {
     "id": "a2-part-3-45",
     "ru": "У окна или у прохода?",
     "ruStressed": "У окна́ и́ли у прохо́да?",
     "translit": "U okna ili u prokhoda?",
-    "en": "Window or aisle?"
+    "en": "Window or aisle?",
+    "pl": "Przy oknie czy przy przejściu?"
   },
   {
     "id": "a2-part-3-46",
     "ru": "Мне у окна, пожалуйста.",
     "ruStressed": "Мне у окна́, пожа́луйста.",
     "translit": "Mne u okna, pozhaluysta.",
-    "en": "Window for me, please."
+    "en": "Window for me, please.",
+    "pl": "Dla mnie przy oknie, poproszę."
   },
   {
     "id": "a2-part-3-47",
     "ru": "Самолёт взлетает.",
     "ruStressed": "Самолёт взлета́ет.",
     "translit": "Samolyot vzletaet.",
-    "en": "The plane is taking off."
+    "en": "The plane is taking off.",
+    "pl": "Samolot startuje."
   },
   {
     "id": "a2-part-3-48",
     "ru": "Пристегните ремни.",
     "ruStressed": "Пристегни́те ремни́.",
     "translit": "Pristegnite remni.",
-    "en": "Fasten your seatbelts."
+    "en": "Fasten your seatbelts.",
+    "pl": "Proszę zapiąć pasy. (plural)"
   },
   {
     "id": "a2-part-3-49",
     "ru": "Полёт прошёл хорошо.",
     "ruStressed": "Полёт прошёл хорошо́.",
     "translit": "Polyot proshyol khorosho.",
-    "en": "The flight went well."
+    "en": "The flight went well.",
+    "pl": "Lot przebiegł dobrze."
   },
   {
     "id": "a2-part-3-50",
     "ru": "Мы приземлились вовремя.",
     "ruStressed": "Мы приземли́лись во́время.",
     "translit": "My prizemlilis' vovremya.",
-    "en": "We landed on time."
+    "en": "We landed on time.",
+    "pl": "Wylądowaliśmy o czasie."
   },
   {
     "id": "a2-part-3-51",
     "ru": "Как добраться до центра?",
     "ruStressed": "Как добра́ться до це́нтра?",
     "translit": "Kak dobrat'sya do tsentra?",
-    "en": "How do I get to the center?"
+    "en": "How do I get to the center?",
+    "pl": "Jak dojechać do centrum?"
   },
   {
     "id": "a2-part-3-52",
     "ru": "На автобусе или такси.",
     "ruStressed": "На авто́бусе и́ли такси́.",
     "translit": "Na avtobuse ili taksi.",
-    "en": "By bus or taxi."
+    "en": "By bus or taxi.",
+    "pl": "Autobusem lub taksówką."
   },
   {
     "id": "a2-part-3-53",
     "ru": "Вызовите мне такси.",
     "ruStressed": "Вы́зовите мне такси́.",
     "translit": "Vyzovite mne taksi.",
-    "en": "Call me a taxi."
+    "en": "Call me a taxi.",
+    "pl": "Proszę wezwać mi taksówkę. (formal)"
   },
   {
     "id": "a2-part-3-54",
     "ru": "Сколько до аэропорта?",
     "ruStressed": "Ско́лько до аэропо́рта?",
     "translit": "Skol'ko do aeroporta?",
-    "en": "How much to the airport?"
+    "en": "How much to the airport?",
+    "pl": "Ile kosztuje dojazd na lotnisko?"
   },
   {
     "id": "a2-part-3-55",
     "ru": "Тысяча рублей.",
     "ruStressed": "Ты́сяча рубле́й.",
     "translit": "Tysyacha rubley.",
-    "en": "A thousand rubles."
+    "en": "A thousand rubles.",
+    "pl": "Tysiąc rubli."
   },
   {
     "id": "a2-part-3-56",
     "ru": "Поехали!",
     "ruStressed": "Пое́хали!",
     "translit": "Poekhali!",
-    "en": "Let's go!"
+    "en": "Let's go!",
+    "pl": "Jedziemy!"
   },
   {
     "id": "a2-part-3-57",
     "ru": "Остановите здесь, пожалуйста.",
     "ruStressed": "Останови́те здесь, пожа́луйста.",
     "translit": "Ostanovite zdes', pozhaluysta.",
-    "en": "Stop here, please."
+    "en": "Stop here, please.",
+    "pl": "Proszę się tutaj zatrzymać. (formal)"
   },
   {
     "id": "a2-part-3-58",
     "ru": "Я тороплюсь.",
     "ruStressed": "Я тороплю́сь.",
     "translit": "Ya toroplyus'.",
-    "en": "I'm in a hurry."
+    "en": "I'm in a hurry.",
+    "pl": "Spieszę się."
   },
   {
     "id": "a2-part-3-59",
     "ru": "Поезжайте быстрее.",
     "ruStressed": "Поезжа́йте быстре́е.",
     "translit": "Poezzhayte bystree.",
-    "en": "Drive faster."
+    "en": "Drive faster.",
+    "pl": "Proszę jechać szybciej. (formal)"
   },
   {
     "id": "a2-part-3-60",
     "ru": "Будьте осторожны на дороге.",
     "ruStressed": "Бу́дьте осторо́жны на доро́ге.",
     "translit": "Bud'te ostorozhny na doroge.",
-    "en": "Be careful on the road."
+    "en": "Be careful on the road.",
+    "pl": "Proszę uważać na drodze. (formal)"
   },
   {
     "id": "a2-part-3-61",
