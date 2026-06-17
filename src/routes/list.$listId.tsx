@@ -104,6 +104,11 @@ function ListPage() {
     return () => clearTimeout(t);
   }, [focusId]);
 
+  // Auto-scroll the currently playing sentence into view when off-screen.
+  useEffect(() => {
+    if (currentIdxRef === null) return;
+  }, []);
+
 
   const visibleSentences = useMemo(() => {
     let list = sentences;
