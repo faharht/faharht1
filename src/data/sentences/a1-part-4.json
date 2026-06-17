@@ -964,209 +964,239 @@
     "ru": "Где река?",
     "ruStressed": "Где река́?",
     "translit": "Gde reka?",
-    "en": "Where is the river?"
+    "en": "Where is the river?",
+    "pl": "Gdzie jest rzeka?"
   },
   {
     "id": "a1-part-4-122",
     "ru": "Подождите здесь.",
     "ruStressed": "Подожди́те здесь.",
     "translit": "Podozhdite zdes.",
-    "en": "Wait here."
+    "en": "Wait here.",
+    "pl": "Proszę tu poczekać."
   },
   {
     "id": "a1-part-4-123",
     "ru": "Карта на столе.",
     "ruStressed": "Ка́рта на столе́.",
     "translit": "Karta na stole.",
-    "en": "The map is on the table."
+    "en": "The map is on the table.",
+    "pl": "Mapa jest na stole."
   },
   {
     "id": "a1-part-4-124",
     "ru": "Мы идём в музей?",
     "ruStressed": "Мы идём в музе́й?",
     "translit": "My idyom v muzey?",
-    "en": "Are we going to the museum?"
+    "en": "Are we going to the museum?",
+    "pl": "Idziemy do muzeum?"
   },
   {
     "id": "a1-part-4-125",
     "ru": "Школа находится слева.",
     "ruStressed": "Шко́ла нахо́дится сле́ва.",
     "translit": "Shkola nakhoditsya sleva.",
-    "en": "The school is on the left."
+    "en": "The school is on the left.",
+    "pl": "Szkoła jest po lewej."
   },
   {
     "id": "a1-part-4-126",
     "ru": "Парк находится справа.",
     "ruStressed": "Парк нахо́дится спра́ва.",
     "translit": "Park nakhoditsya sprava.",
-    "en": "The park is on the right."
+    "en": "The park is on the right.",
+    "pl": "Park jest po prawej."
   },
   {
     "id": "a1-part-4-127",
     "ru": "Вы едете в центр?",
     "ruStressed": "Вы е́дете в центр?",
     "translit": "Vy yedete v tsentr?",
-    "en": "Are you going to the center?"
+    "en": "Are you going to the center?",
+    "pl": "Jedziecie do centrum? (plural)"
   },
   {
     "id": "a1-part-4-128",
     "ru": "Я иду в аптеку.",
     "ruStressed": "Я иду́ в апте́ку.",
     "translit": "Ya idu v apteku.",
-    "en": "I am going to the pharmacy."
+    "en": "I am going to the pharmacy.",
+    "pl": "Idę do apteki."
   },
   {
     "id": "a1-part-4-129",
     "ru": "Куда идти в кафе?",
     "ruStressed": "Куда́ идти́ в кафе́?",
     "translit": "Kuda idti v kafe?",
-    "en": "Which way to the cafe?"
+    "en": "Which way to the cafe?",
+    "pl": "Którędy do kawiarni?"
   },
   {
     "id": "a1-part-4-130",
     "ru": "Я из Парижа.",
     "ruStressed": "Я из Пари́жа.",
     "translit": "Ya iz Parizha.",
-    "en": "I am from Paris."
+    "en": "I am from Paris.",
+    "pl": "Jestem z Paryża."
   },
   {
     "id": "a1-part-4-131",
     "ru": "Сколько стоит билет?",
     "ruStressed": "Ско́лько сто́ит биле́т?",
     "translit": "Skolko stoit bilet?",
-    "en": "How much for a ticket?"
+    "en": "How much for a ticket?",
+    "pl": "Ile kosztuje bilet?"
   },
   {
     "id": "a1-part-4-132",
     "ru": "Он в больнице.",
     "ruStressed": "Он в больни́це.",
     "translit": "On v bolnitse.",
-    "en": "He is in the hospital."
+    "en": "He is in the hospital.",
+    "pl": "On jest w szpitalu."
   },
   {
     "id": "a1-part-4-133",
     "ru": "Мы в театре.",
     "ruStressed": "Мы в теа́тре.",
     "translit": "My v teatre.",
-    "en": "We are at the theater."
+    "en": "We are at the theater.",
+    "pl": "Jesteśmy w teatrze."
   },
   {
     "id": "a1-part-4-134",
     "ru": "Идите в парк.",
     "ruStressed": "Иди́те в парк.",
     "translit": "Idite v park.",
-    "en": "Go to the park."
+    "en": "Go to the park.",
+    "pl": "Proszę iść do parku."
   },
   {
     "id": "a1-part-4-135",
     "ru": "Ресторан открыт?",
     "ruStressed": "Рестора́н откры́т?",
     "translit": "Restoran otkryt?",
-    "en": "Is the restaurant open?"
+    "en": "Is the restaurant open?",
+    "pl": "Czy restauracja jest otwarta?"
   },
   {
     "id": "a1-part-4-136",
     "ru": "Я на стадионе.",
     "ruStressed": "Я на стадио́не.",
     "translit": "Ya na stadione.",
-    "en": "I am at the stadium."
+    "en": "I am at the stadium.",
+    "pl": "Jestem na stadionie."
   },
   {
     "id": "a1-part-4-137",
     "ru": "Библиотека там.",
     "ruStressed": "Библиоте́ка там.",
     "translit": "Biblioteka tam.",
-    "en": "The library is there."
+    "en": "The library is there.",
+    "pl": "Biblioteka jest tam."
   },
   {
     "id": "a1-part-4-138",
     "ru": "Ждите на остановке.",
     "ruStressed": "Жди́те на остано́вке.",
     "translit": "Zhdite na ostanovke.",
-    "en": "Wait at the stop."
+    "en": "Wait at the stop.",
+    "pl": "Proszę czekać na przystanku."
   },
   {
     "id": "a1-part-4-139",
     "ru": "Где книга?",
     "ruStressed": "Где кни́га?",
     "translit": "Gde kniga?",
-    "en": "Where is the book?"
+    "en": "Where is the book?",
+    "pl": "Gdzie jest książka?"
   },
   {
     "id": "a1-part-4-140",
     "ru": "Едьте медленно.",
     "ruStressed": "Е́дьте ме́дленно.",
     "translit": "Yedte medlenno.",
-    "en": "Drive slowly."
+    "en": "Drive slowly.",
+    "pl": "Proszę jechać powoli."
   },
   {
     "id": "a1-part-4-141",
     "ru": "Я иду в банк.",
     "ruStressed": "Я иду́ в банк.",
     "translit": "Ya idu v bank.",
-    "en": "I am going to the bank."
+    "en": "I am going to the bank.",
+    "pl": "Idę do banku."
   },
   {
     "id": "a1-part-4-142",
     "ru": "Откуда вы приехали?",
     "ruStressed": "Отку́да вы прие́хали?",
     "translit": "Otkuda vy priyekhali?",
-    "en": "Where are you from?"
+    "en": "Where are you from?",
+    "pl": "Skąd państwo są? (formal)"
   },
   {
     "id": "a1-part-4-143",
     "ru": "Парк рядом?",
     "ruStressed": "Парк ря́дом?",
     "translit": "Park ryadom?",
-    "en": "Is the park nearby?"
+    "en": "Is the park nearby?",
+    "pl": "Czy park jest blisko?"
   },
   {
     "id": "a1-part-4-144",
     "ru": "Где находится школа?",
     "ruStressed": "Где нахо́дится шко́ла?",
     "translit": "Gde nakhoditsya shkola?",
-    "en": "Where is the school?"
+    "en": "Where is the school?",
+    "pl": "Gdzie jest szkoła?"
   },
   {
     "id": "a1-part-4-145",
     "ru": "Сколько здесь остановок?",
     "ruStressed": "Ско́лько здесь остано́вок?",
     "translit": "Skolko zdes ostanovok?",
-    "en": "How many stops are there?"
+    "en": "How many stops are there?",
+    "pl": "Ile tu jest przystanków?"
   },
   {
     "id": "a1-part-4-146",
     "ru": "Вы едете в парк?",
     "ruStressed": "Вы е́дете в парк?",
     "translit": "Vy yedete v park?",
-    "en": "Are you going to the park?"
+    "en": "Are you going to the park?",
+    "pl": "Jedziecie do parku? (plural)"
   },
   {
     "id": "a1-part-4-147",
     "ru": "Музей сегодня закрыт.",
     "ruStressed": "Музе́й сего́дня закры́т.",
     "translit": "Muzey segodnya zakryt?",
-    "en": "The museum is closed today."
+    "en": "The museum is closed today.",
+    "pl": "Muzeum jest dzisiaj zamknięte."
   },
   {
     "id": "a1-part-4-148",
     "ru": "Где находится больница?",
     "ruStressed": "Где нахо́дится больни́ца?",
     "translit": "Gde nakhoditsya bolnitsa?",
-    "en": "Where is the hospital?"
+    "en": "Where is the hospital?",
+    "pl": "Gdzie jest szpital?"
   },
   {
     "id": "a1-part-4-149",
     "ru": "Аптека находится слева.",
     "ruStressed": "Апте́ка нахо́дится сле́ва.",
     "translit": "Apteka nakhoditsya sleva.",
-    "en": "The pharmacy is on the left."
+    "en": "The pharmacy is on the left.",
+    "pl": "Apteka jest po lewej."
   },
   {
     "id": "a1-part-4-150",
     "ru": "Рынок там.",
     "ruStressed": "Ры́нок там.",
     "translit": "Rynok tam.",
-    "en": "The market is over there."
+    "en": "The market is over there.",
+    "pl": "Targ jest tam."
   }
 ]
