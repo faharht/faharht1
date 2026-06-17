@@ -107,6 +107,9 @@ function ListPage() {
 
 
 
+  const trText = (s: { en: string; pl?: string }) =>
+    locale === "pl" && s.pl ? s.pl : s.en;
+
   const visibleSentences = useMemo(() => {
     let list = sentences;
     if (favoritesOnly) list = list.filter((s) => favorites[s.id]);
@@ -117,6 +120,7 @@ function ListPage() {
           s.ru.toLowerCase().includes(q) ||
           (s.ruStressed?.toLowerCase().includes(q) ?? false) ||
           s.en.toLowerCase().includes(q) ||
+          (s.pl?.toLowerCase().includes(q) ?? false) ||
           (s.translit?.toLowerCase().includes(q) ?? false),
       );
     }
@@ -246,23 +250,23 @@ function ListPage() {
           <Link
             to="/"
             className="grid h-10 w-10 shrink-0 place-items-center rounded-lg border border-border bg-card text-foreground hover:bg-accent"
-            aria-label="Back"
+            aria-label={t("common.back")}
           >
             <ArrowLeft className="h-4 w-4" />
           </Link>
           <div className="min-w-0">
-            <h1 className="truncate text-lg font-bold text-foreground">Vocabulary</h1>
-            <p className="truncate text-xs text-muted-foreground">{meta.title}</p>
+            <h1 className="truncate text-lg font-bold text-foreground">{t("list.vocabulary")}</h1>
+            <p className="truncate text-xs text-muted-foreground">{t(meta.titleKey, meta.titleVars)}</p>
           </div>
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-4 gap-2 border-t border-border/50 bg-background/60 px-4 py-3 text-center">
           <div className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
             <CalendarIcon className="h-4 w-4" />
-            <span>Today</span>
+            <span>{t("common.today")}</span>
           </div>
-          <Stat label="PRACTICED" value={String(stats.practiced)} />
-          <Stat label="REPS" value={String(stats.reps)} />
-          <Stat label="MASTERED" value={`${stats.mastered}/${total}`} />
+          <Stat label={t("list.stat.practiced")} value={String(stats.practiced)} />
+          <Stat label={t("list.stat.reps")} value={String(stats.reps)} />
+          <Stat label={t("list.stat.mastered")} value={`${stats.mastered}/${total}`} />
         </div>
       </header>
 
@@ -274,28 +278,28 @@ function ListPage() {
               onClick={playingAll ? stopAll : playAll}
               disabled={!sentences.length || !speechReady}
               className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground shadow-sm transition hover:opacity-90 disabled:opacity-40"
-              aria-label={playingAll ? "Stop" : "Play all"}
+              aria-label={playingAll ? t("list.stop") : t("list.play")}
             >
               {playingAll ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5 translate-x-0.5" />}
             </button>
-            <span className="text-sm font-semibold text-foreground">Rep {settings.reps}×</span>
+            <span className="text-sm font-semibold text-foreground">{t("list.rep", { n: settings.reps })}</span>
             <div className="ml-auto flex flex-wrap items-center gap-2">
               <IconBtn
-                label="Listen mode"
+                label={t("list.listenMode")}
                 active={listenMode}
                 onClick={() => setListenMode((v) => !v)}
               >
                 <Headphones className="h-4 w-4" />
               </IconBtn>
               <IconBtn
-                label={grammar ? "Grammar notes" : "No grammar notes for this list yet"}
+                label={grammar ? t("list.grammar") : t("list.grammar.none")}
                 onClick={() => grammar && setGrammarOpen(true)}
                 active={grammarOpen}
                 disabled={!grammar}
               >
                 <BookOpen className="h-4 w-4" />
               </IconBtn>
-              <IconBtn label="Settings" onClick={() => setSettingsOpen(true)}>
+              <IconBtn label={t("list.settings")} onClick={() => setSettingsOpen(true)}>
                 <SlidersHorizontal className="h-4 w-4" />
               </IconBtn>
             </div>
@@ -304,9 +308,9 @@ function ListPage() {
 
         {/* Toolbar */}
         <div className="mt-3 flex flex-wrap items-center gap-2">
-          <IconBtn label="Help"><HelpCircle className="h-4 w-4" /></IconBtn>
+          <IconBtn label={t("list.help")}><HelpCircle className="h-4 w-4" /></IconBtn>
           <IconBtn
-            label="Favorites only"
+            label={t("list.favoritesOnly")}
             active={favoritesOnly}
             onClick={() => setFavoritesOnly((v) => !v)}
           >
@@ -335,9 +339,9 @@ function ListPage() {
             </span>
           </button>
           <div className="ml-auto flex items-center gap-2">
-            <IconBtn label="Calendar"><CalendarIcon className="h-4 w-4" /></IconBtn>
+            <IconBtn label={t("list.calendar")}><CalendarIcon className="h-4 w-4" /></IconBtn>
             <IconBtn
-              label="Search"
+              label={t("list.search")}
               active={searchOpen || !!query}
               onClick={() => {
                 setSearchOpen((v) => {
@@ -348,7 +352,7 @@ function ListPage() {
             >
               <Search className="h-4 w-4" />
             </IconBtn>
-            <IconBtn label="Settings" onClick={() => setSettingsOpen(true)}>
+            <IconBtn label={t("list.settings")} onClick={() => setSettingsOpen(true)}>
               <SettingsIcon className="h-4 w-4" />
             </IconBtn>
           </div>
@@ -361,13 +365,13 @@ function ListPage() {
               autoFocus
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search Russian, English, or transliteration…"
+              placeholder={t("list.searchPh")}
               className="flex-1 bg-transparent text-sm outline-none placeholder:text-muted-foreground"
             />
             {query && (
               <button
                 onClick={() => setQuery("")}
-                aria-label="Clear search"
+                aria-label={t("list.clearSearch")}
                 className="grid h-8 w-8 place-items-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
               >
                 <X className="h-4 w-4" />
@@ -378,26 +382,22 @@ function ListPage() {
 
         {listenMode && (
           <div className="mt-3 rounded-xl border border-primary/30 bg-primary/5 px-3 py-2 text-xs font-medium text-primary">
-            Listen mode: Russian text is hidden. Tap a card to reveal.
+            {t("list.listenModeHint")}
           </div>
         )}
 
         {!sentences.length && (
           <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
-            <p className="text-sm font-semibold text-foreground">Sentences are still cooking…</p>
-            <p className="mt-1 text-xs text-muted-foreground">
-              This list is being generated. Check back in a moment, or pick another list.
-            </p>
+            <p className="text-sm font-semibold text-foreground">{t("list.empty.cookingTitle")}</p>
+            <p className="mt-1 text-xs text-muted-foreground">{t("list.empty.cookingDesc")}</p>
           </div>
         )}
 
         {sentences.length > 0 && visibleSentences.length === 0 && (
           <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
-            <p className="text-sm font-semibold text-foreground">No matches</p>
+            <p className="text-sm font-semibold text-foreground">{t("list.empty.noMatches")}</p>
             <p className="mt-1 text-xs text-muted-foreground">
-              {favoritesOnly
-                ? "You haven't favorited any sentences in this list yet."
-                : "Try a different search term."}
+              {favoritesOnly ? t("list.empty.noFavs") : t("list.empty.tryAnother")}
             </p>
           </div>
         )}
