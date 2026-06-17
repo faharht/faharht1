@@ -25,14 +25,15 @@ import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
 import { toast } from "sonner";
 import { useDayTick } from "@/lib/trainer/useDayTick";
+import { useT } from "@/lib/i18n/useT";
+import { LOCALES, type StringKey } from "@/lib/i18n/strings";
 
-function notifyGoal(result: { goalReachedNow: boolean; challengeCompletedNow?: boolean }) {
-  if (result.goalReachedNow) {
-    toast.success("Daily goal reached — streak +1 🔥", { duration: 3500 });
-  }
-  if (result.challengeCompletedNow) {
-    toast.success("Challenge complete! Badge unlocked 🏅", { duration: 5000 });
-  }
+function useNotifyGoal() {
+  const { t } = useT();
+  return (result: { goalReachedNow: boolean; challengeCompletedNow?: boolean }) => {
+    if (result.goalReachedNow) toast.success(t("toast.goalReached"), { duration: 3500 });
+    if (result.challengeCompletedNow) toast.success(t("toast.challengeDone"), { duration: 5000 });
+  };
 }
 
 
@@ -53,10 +54,7 @@ export const Route = createFileRoute("/list/$listId")({
     meta: loaderData
       ? [
           { title: `${loaderData.meta.title} — Russian Trainer` },
-          {
-            name: "description",
-            content: `Practice Russian: ${loaderData.meta.description}.`,
-          },
+          { name: "description", content: `Practice Russian: ${loaderData.meta.description}.` },
         ]
       : [],
   }),
@@ -65,6 +63,8 @@ export const Route = createFileRoute("/list/$listId")({
 
 function ListPage() {
   useDayTick();
+  const { t, locale } = useT();
+  const notifyGoal = useNotifyGoal();
 
   const { meta } = Route.useLoaderData();
   const sentences = useMemo(() => getSentences(meta.id), [meta.id]);
