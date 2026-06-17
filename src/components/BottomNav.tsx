@@ -1,14 +1,17 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Home, User } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/useT";
+import type { StringKey } from "@/lib/i18n/strings";
 
-const ITEMS = [
-  { to: "/", label: "Home", icon: Home },
-  { to: "/profile", label: "Profile", icon: User },
-] as const;
+const ITEMS: { to: "/" | "/profile"; key: StringKey; icon: typeof Home }[] = [
+  { to: "/", key: "nav.home", icon: Home },
+  { to: "/profile", key: "nav.profile", icon: User },
+];
 
 export function BottomNav() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const { t } = useT();
   // Hide on auth screen
   if (pathname.startsWith("/auth")) return null;
 
@@ -18,7 +21,7 @@ export function BottomNav() {
       aria-label="Primary"
     >
       <div className="mx-auto flex max-w-2xl items-stretch justify-around px-2 pb-[env(safe-area-inset-bottom)] pt-1">
-        {ITEMS.map(({ to, label, icon: Icon }) => {
+        {ITEMS.map(({ to, key, icon: Icon }) => {
           const active = to === "/" ? pathname === "/" : pathname.startsWith(to);
           return (
             <Link
@@ -32,7 +35,7 @@ export function BottomNav() {
               )}
             >
               <Icon className={cn("h-5 w-5", active && "fill-primary/10")} />
-              <span>{label}</span>
+              <span>{t(key)}</span>
             </Link>
           );
         })}

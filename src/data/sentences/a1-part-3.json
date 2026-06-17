@@ -4,1049 +4,1199 @@
     "ru": "Я хочу есть.",
     "ruStressed": "Я хочу́ есть.",
     "translit": "Ya khochu est.",
-    "en": "I want to eat."
+    "en": "I want to eat.",
+    "pl": "Chcę jeść."
   },
   {
     "id": "a1-part-3-2",
     "ru": "Я хочу пить.",
     "ruStressed": "Я хочу́ пить.",
     "translit": "Ya khochu pit.",
-    "en": "I want to drink."
+    "en": "I want to drink.",
+    "pl": "Chcę pić."
   },
   {
     "id": "a1-part-3-3",
     "ru": "Я голоден.",
     "ruStressed": "Я го́лоден.",
     "translit": "Ya goloden.",
-    "en": "I am hungry."
+    "en": "I am hungry.",
+    "pl": "Jestem głodny."
   },
   {
     "id": "a1-part-3-4",
     "ru": "Я хочу воду.",
     "ruStressed": "Я хочу́ во́ду.",
     "translit": "Ya khochu vodu.",
-    "en": "I want water."
+    "en": "I want water.",
+    "pl": "Chcę wodę."
   },
   {
     "id": "a1-part-3-5",
     "ru": "Я хочу кофе.",
     "ruStressed": "Я хочу́ ко́фе.",
     "translit": "Ya khochu kofe.",
-    "en": "I want coffee."
+    "en": "I want coffee.",
+    "pl": "Chcę kawę."
   },
   {
     "id": "a1-part-3-6",
     "ru": "Я хочу чай.",
     "ruStressed": "Я хочу́ чай.",
     "translit": "Ya khochu chay.",
-    "en": "I want tea."
+    "en": "I want tea.",
+    "pl": "Chcę herbatę."
   },
   {
     "id": "a1-part-3-7",
     "ru": "Я хочу молоко.",
     "ruStressed": "Я хочу́ молоко́.",
     "translit": "Ya khochu moloko.",
-    "en": "I want milk."
+    "en": "I want milk.",
+    "pl": "Chcę mleko."
   },
   {
     "id": "a1-part-3-8",
     "ru": "Я пью сок каждое утро.",
     "ruStressed": "Я пью сок ка́ждое у́тро.",
     "translit": "Ya pyu sok kazhdoe utro.",
-    "en": "I drink juice every morning."
+    "en": "I drink juice every morning.",
+    "pl": "Piję sok każdego ranka."
   },
   {
     "id": "a1-part-3-9",
     "ru": "Я не пью алкоголь.",
     "ruStressed": "Я не пью алкого́ль.",
     "translit": "Ya ne pyu alkogol.",
-    "en": "I don't drink alcohol."
+    "en": "I don't drink alcohol.",
+    "pl": "Nie piję alkoholu."
   },
   {
     "id": "a1-part-3-10",
     "ru": "Я ем хлеб с маслом.",
     "ruStressed": "Я ем хлеб с ма́слом.",
     "translit": "Ya em khleb s maslom.",
-    "en": "I eat bread with butter."
+    "en": "I eat bread with butter.",
+    "pl": "Jem chleb z masłem."
   },
   {
     "id": "a1-part-3-11",
     "ru": "Я ем суп ложкой.",
     "ruStressed": "Я ем суп ло́жкой.",
     "translit": "Ya em sup lozhkoy.",
-    "en": "I eat soup with a spoon."
+    "en": "I eat soup with a spoon.",
+    "pl": "Jem zupę łyżką."
   },
   {
     "id": "a1-part-3-12",
     "ru": "Я ем салат вилкой.",
     "ruStressed": "Я ем сала́т ви́лкой.",
     "translit": "Ya em salat vilkoy.",
-    "en": "I eat salad with a fork."
+    "en": "I eat salad with a fork.",
+    "pl": "Jem sałatkę widelcem."
   },
   {
     "id": "a1-part-3-13",
     "ru": "Я режу хлеб ножом.",
     "ruStressed": "Я ре́жу хлеб ножо́м.",
     "translit": "Ya rezhu khleb nozhom.",
-    "en": "I cut bread with a knife."
+    "en": "I cut bread with a knife.",
+    "pl": "Kroję chleb nożem."
   },
   {
     "id": "a1-part-3-14",
     "ru": "На завтрак я ем кашу.",
     "ruStressed": "На за́втрак я ем ка́шу.",
     "translit": "Na zavtrak ya em kashu.",
-    "en": "For breakfast I eat porridge."
+    "en": "For breakfast I eat porridge.",
+    "pl": "Na śniadanie jem kaszę."
   },
   {
     "id": "a1-part-3-15",
     "ru": "На обед я ем суп.",
     "ruStressed": "На обе́д я ем суп.",
     "translit": "Na obed ya em sup.",
-    "en": "For lunch I eat soup."
+    "en": "For lunch I eat soup.",
+    "pl": "Na obiad jem zupę."
   },
   {
     "id": "a1-part-3-16",
     "ru": "На ужин я ем рыбу.",
     "ruStressed": "На у́жин я ем ры́бу.",
     "translit": "Na uzhin ya em rybu.",
-    "en": "For dinner I eat fish."
+    "en": "For dinner I eat fish.",
+    "pl": "Na kolację jem rybę."
   },
   {
     "id": "a1-part-3-17",
     "ru": "Я люблю рыбу.",
     "ruStressed": "Я люблю́ ры́бу.",
     "translit": "Ya lyublyu rybu.",
-    "en": "I love fish."
+    "en": "I love fish.",
+    "pl": "Uwielbiam ryby."
   },
   {
     "id": "a1-part-3-18",
     "ru": "Я люблю мясо.",
     "ruStressed": "Я люблю́ мя́со.",
     "translit": "Ya lyublyu myaso.",
-    "en": "I love meat."
+    "en": "I love meat.",
+    "pl": "Uwielbiam mięso."
   },
   {
     "id": "a1-part-3-19",
     "ru": "Я не ем мясо.",
     "ruStressed": "Я не ем мя́со.",
     "translit": "Ya ne em myaso.",
-    "en": "I don't eat meat."
+    "en": "I don't eat meat.",
+    "pl": "Nie jem mięsa."
   },
   {
     "id": "a1-part-3-20",
     "ru": "Я вегетарианец.",
     "ruStressed": "Я вегетариа́нец.",
     "translit": "Ya vegetarianets.",
-    "en": "I am a vegetarian. (m.)"
+    "en": "I am a vegetarian. (m.)",
+    "pl": "Jestem wegetarianinem. (m.)"
   },
   {
     "id": "a1-part-3-21",
     "ru": "Я вегетарианка.",
     "ruStressed": "Я вегетариа́нка.",
     "translit": "Ya vegetarianka.",
-    "en": "I am a vegetarian. (f.)"
+    "en": "I am a vegetarian. (f.)",
+    "pl": "Jestem wegetarianką. (f.)"
   },
   {
     "id": "a1-part-3-22",
     "ru": "Я люблю овощи.",
     "ruStressed": "Я люблю́ о́вощи.",
     "translit": "Ya lyublyu ovoshchi.",
-    "en": "I love vegetables."
+    "en": "I love vegetables.",
+    "pl": "Uwielbiam warzywa."
   },
   {
     "id": "a1-part-3-23",
     "ru": "Я люблю фрукты.",
     "ruStressed": "Я люблю́ фру́кты.",
     "translit": "Ya lyublyu frukty.",
-    "en": "I love fruits."
+    "en": "I love fruits.",
+    "pl": "Uwielbiam owoce."
   },
   {
     "id": "a1-part-3-24",
     "ru": "Я ем яблоко каждый день.",
     "ruStressed": "Я ем я́блоко ка́ждый день.",
     "translit": "Ya em yabloko kazhdyy den.",
-    "en": "I eat an apple every day."
+    "en": "I eat an apple every day.",
+    "pl": "Jem jabłko każdego dnia."
   },
   {
     "id": "a1-part-3-25",
     "ru": "Я люблю бананы.",
     "ruStressed": "Я люблю́ бана́ны.",
     "translit": "Ya lyublyu banany.",
-    "en": "I love bananas."
+    "en": "I love bananas.",
+    "pl": "Uwielbiam banany."
   },
   {
     "id": "a1-part-3-26",
     "ru": "Я не люблю лук.",
     "ruStressed": "Я не люблю́ лук.",
     "translit": "Ya ne lyublyu luk.",
-    "en": "I don't like onions."
+    "en": "I don't like onions.",
+    "pl": "Nie lubię cebuli."
   },
   {
     "id": "a1-part-3-27",
     "ru": "Это очень вкусно.",
     "ruStressed": "Э́то о́чень вку́сно.",
     "translit": "Eto ochen vkusno.",
-    "en": "This is very tasty."
+    "en": "This is very tasty.",
+    "pl": "To jest bardzo smaczne."
   },
   {
     "id": "a1-part-3-28",
     "ru": "Это невкусно.",
     "ruStressed": "Э́то невку́сно.",
     "translit": "Eto nevkusno.",
-    "en": "This is not tasty."
+    "en": "This is not tasty.",
+    "pl": "To jest niesmaczne."
   },
   {
     "id": "a1-part-3-29",
     "ru": "Это сладкое.",
     "ruStressed": "Э́то сла́дкое.",
     "translit": "Eto sladkoe.",
-    "en": "This is sweet."
+    "en": "This is sweet.",
+    "pl": "To jest słodkie."
   },
   {
     "id": "a1-part-3-30",
     "ru": "Это солёное.",
     "ruStressed": "Э́то солёное.",
     "translit": "Eto solyonoe.",
-    "en": "This is salty."
+    "en": "This is salty.",
+    "pl": "To jest słone."
   },
   {
     "id": "a1-part-3-31",
     "ru": "Это горячее.",
     "ruStressed": "Э́то горя́чее.",
     "translit": "Eto goryachee.",
-    "en": "This is hot."
+    "en": "This is hot.",
+    "pl": "To jest gorące."
   },
   {
     "id": "a1-part-3-32",
     "ru": "Это холодное.",
     "ruStressed": "Э́то холо́дное.",
     "translit": "Eto kholodnoe.",
-    "en": "This is cold."
+    "en": "This is cold.",
+    "pl": "To jest zimne."
   },
   {
     "id": "a1-part-3-33",
     "ru": "Я хочу заказать пиццу.",
     "ruStressed": "Я хочу́ заказа́ть пи́ццу.",
     "translit": "Ya khochu zakazat pitstsu.",
-    "en": "I want to order a pizza."
+    "en": "I want to order a pizza.",
+    "pl": "Chcę zamówić pizzę."
   },
   {
     "id": "a1-part-3-34",
     "ru": "Дайте меню, пожалуйста.",
     "ruStressed": "Дай́те меню́, пожа́луйста.",
     "translit": "Dayte menyu, pozhaluysta.",
-    "en": "Please give me the menu."
+    "en": "Please give me the menu.",
+    "pl": "Proszę o menu."
   },
   {
     "id": "a1-part-3-35",
     "ru": "Я буду кофе и торт.",
     "ruStressed": "Я бу́ду ко́фе и торт.",
     "translit": "Ya budu kofe i tort.",
-    "en": "I'll have coffee and cake."
+    "en": "I'll have coffee and cake.",
+    "pl": "Poproszę kawę i ciasto."
   },
   {
     "id": "a1-part-3-36",
     "ru": "Я буду чашку чая.",
     "ruStressed": "Я бу́ду ча́шку ча́я.",
     "translit": "Ya budu chashku chaya.",
-    "en": "I'll have a cup of tea."
+    "en": "I'll have a cup of tea.",
+    "pl": "Poproszę filiżankę herbaty."
   },
   {
     "id": "a1-part-3-37",
     "ru": "С сахаром или без?",
     "ruStressed": "С са́харом и́ли без?",
     "translit": "S sakharom ili bez?",
-    "en": "With sugar or without?"
+    "en": "With sugar or without?",
+    "pl": "Z cukrem czy bez?"
   },
   {
     "id": "a1-part-3-38",
     "ru": "Без сахара, пожалуйста.",
     "ruStressed": "Без са́хара, пожа́луйста.",
     "translit": "Bez sakhara, pozhaluysta.",
-    "en": "Without sugar, please."
+    "en": "Without sugar, please.",
+    "pl": "Bez cukru, poproszę."
   },
   {
     "id": "a1-part-3-39",
     "ru": "С молоком, пожалуйста.",
     "ruStressed": "С молоко́м, пожа́луйста.",
     "translit": "S molokom, pozhaluysta.",
-    "en": "With milk, please."
+    "en": "With milk, please.",
+    "pl": "Z mlekiem, poproszę."
   },
   {
     "id": "a1-part-3-40",
     "ru": "Приятного аппетита!",
     "ruStressed": "Прия́тного аппети́та!",
     "translit": "Priyatnogo appetita!",
-    "en": "Enjoy your meal!"
+    "en": "Enjoy your meal!",
+    "pl": "Smacznego!"
   },
   {
     "id": "a1-part-3-41",
     "ru": "Спасибо, всё было вкусно.",
     "ruStressed": "Спаси́бо, всё бы́ло вку́сно.",
     "translit": "Spasibo, vsyo bylo vkusno.",
-    "en": "Thank you, everything was tasty."
+    "en": "Thank you, everything was tasty.",
+    "pl": "Dziękuję, wszystko było smaczne."
   },
   {
     "id": "a1-part-3-42",
     "ru": "Счёт, пожалуйста.",
     "ruStressed": "Счёт, пожа́луйста.",
     "translit": "Schyot, pozhaluysta.",
-    "en": "The bill, please."
+    "en": "The bill, please.",
+    "pl": "Poproszę rachunek."
   },
   {
     "id": "a1-part-3-43",
     "ru": "Сколько с меня?",
     "ruStressed": "Ско́лько с меня́?",
     "translit": "Skolko s menya?",
-    "en": "How much do I owe?"
+    "en": "How much do I owe?",
+    "pl": "Ile płacę?"
   },
   {
     "id": "a1-part-3-44",
     "ru": "Я заплачу картой.",
     "ruStressed": "Я заплачу́ ка́ртой.",
     "translit": "Ya zaplachu kartoy.",
-    "en": "I will pay by card."
+    "en": "I will pay by card.",
+    "pl": "Zapłacę kartą."
   },
   {
     "id": "a1-part-3-45",
     "ru": "Я заплачу наличными.",
     "ruStressed": "Я заплачу́ нали́чными.",
     "translit": "Ya zaplachu nalichnymi.",
-    "en": "I will pay in cash."
+    "en": "I will pay in cash.",
+    "pl": "Zapłacę gotówką."
   },
   {
     "id": "a1-part-3-46",
     "ru": "У меня есть время.",
     "ruStressed": "У меня́ есть вре́мя.",
     "translit": "U menya est vremya.",
-    "en": "I have time."
+    "en": "I have time.",
+    "pl": "Mam czas."
   },
   {
     "id": "a1-part-3-47",
     "ru": "У меня нет времени.",
     "ruStressed": "У меня́ нет вре́мени.",
     "translit": "U menya net vremeni.",
-    "en": "I don't have time."
+    "en": "I don't have time.",
+    "pl": "Nie mam czasu."
   },
   {
     "id": "a1-part-3-48",
     "ru": "У меня есть деньги.",
     "ruStressed": "У меня́ есть де́ньги.",
     "translit": "U menya est dengi.",
-    "en": "I have money."
+    "en": "I have money.",
+    "pl": "Mam pieniądze."
   },
   {
     "id": "a1-part-3-49",
     "ru": "У меня нет денег.",
     "ruStressed": "У меня́ нет де́нег.",
     "translit": "U menya net deneg.",
-    "en": "I don't have money."
+    "en": "I don't have money.",
+    "pl": "Nie mam pieniędzy."
   },
   {
     "id": "a1-part-3-50",
     "ru": "У меня есть вопрос.",
     "ruStressed": "У меня́ есть вопро́с.",
     "translit": "U menya est vopros.",
-    "en": "I have a question."
+    "en": "I have a question.",
+    "pl": "Mam pytanie."
   },
   {
     "id": "a1-part-3-51",
     "ru": "У меня есть идея.",
     "ruStressed": "У меня́ есть иде́я.",
     "translit": "U menya est ideya.",
-    "en": "I have an idea."
+    "en": "I have an idea.",
+    "pl": "Mam pomysł."
   },
   {
     "id": "a1-part-3-52",
     "ru": "У меня болит голова.",
     "ruStressed": "У меня́ боли́т голова́.",
     "translit": "U menya bolit golova.",
-    "en": "I have a headache."
+    "en": "I have a headache.",
+    "pl": "Boli mnie głowa."
   },
   {
     "id": "a1-part-3-53",
     "ru": "У меня болит живот.",
     "ruStressed": "У меня́ боли́т живо́т.",
     "translit": "U menya bolit zhivot.",
-    "en": "My stomach hurts."
+    "en": "My stomach hurts.",
+    "pl": "Boli mnie brzuch."
   },
   {
     "id": "a1-part-3-54",
     "ru": "У меня болит горло.",
     "ruStressed": "У меня́ боли́т го́рло.",
     "translit": "U menya bolit gorlo.",
-    "en": "My throat hurts."
+    "en": "My throat hurts.",
+    "pl": "Boli mnie gardło."
   },
   {
     "id": "a1-part-3-55",
     "ru": "Я хочу спать.",
     "ruStressed": "Я хочу́ спать.",
     "translit": "Ya khochu spat.",
-    "en": "I want to sleep."
+    "en": "I want to sleep.",
+    "pl": "Chce mi się spać."
   },
   {
     "id": "a1-part-3-56",
     "ru": "Я хочу домой.",
     "ruStressed": "Я хочу́ домо́й.",
     "translit": "Ya khochu domoy.",
-    "en": "I want to go home."
+    "en": "I want to go home.",
+    "pl": "Chcę iść do domu."
   },
   {
     "id": "a1-part-3-57",
     "ru": "Я хочу отдохнуть.",
     "ruStressed": "Я хочу́ отдохну́ть.",
     "translit": "Ya khochu otdokhnut.",
-    "en": "I want to rest."
+    "en": "I want to rest.",
+    "pl": "Chcę odpocząć."
   },
   {
     "id": "a1-part-3-58",
     "ru": "Я хочу гулять.",
     "ruStressed": "Я хочу́ гуля́ть.",
     "translit": "Ya khochu gulyat.",
-    "en": "I want to take a walk."
+    "en": "I want to take a walk.",
+    "pl": "Chcę iść na spacer."
   },
   {
     "id": "a1-part-3-59",
     "ru": "Я хочу купить книгу.",
     "ruStressed": "Я хочу́ купи́ть кни́гу.",
     "translit": "Ya khochu kupit knigu.",
-    "en": "I want to buy a book."
+    "en": "I want to buy a book.",
+    "pl": "Chcę kupić książkę."
   },
   {
     "id": "a1-part-3-60",
     "ru": "Я хочу учить русский.",
     "ruStressed": "Я хочу́ учи́ть ру́сский.",
     "translit": "Ya khochu uchit russkiy.",
-    "en": "I want to learn Russian."
+    "en": "I want to learn Russian.",
+    "pl": "Chcę się uczyć rosyjskiego."
   },
   {
     "id": "a1-part-3-61",
     "ru": "Я люблю музыку.",
     "ruStressed": "Я люблю́ му́зыку.",
     "translit": "Ya lyublyu muzyku.",
-    "en": "I love music."
+    "en": "I love music.",
+    "pl": "Uwielbiam muzykę."
   },
   {
     "id": "a1-part-3-62",
     "ru": "Я люблю книги.",
     "ruStressed": "Я люблю́ кни́ги.",
     "translit": "Ya lyublyu knigi.",
-    "en": "I love books."
+    "en": "I love books.",
+    "pl": "Uwielbiam książki."
   },
   {
     "id": "a1-part-3-63",
     "ru": "Я люблю путешествовать.",
     "ruStressed": "Я люблю́ путеше́ствовать.",
     "translit": "Ya lyublyu puteshestvovat.",
-    "en": "I love to travel."
+    "en": "I love to travel.",
+    "pl": "Uwielbiam podróżować."
   },
   {
     "id": "a1-part-3-64",
     "ru": "Я люблю готовить.",
     "ruStressed": "Я люблю́ гото́вить.",
     "translit": "Ya lyublyu gotovit.",
-    "en": "I love to cook."
+    "en": "I love to cook.",
+    "pl": "Uwielbiam gotować."
   },
   {
     "id": "a1-part-3-65",
     "ru": "Мне нравится эта песня.",
     "ruStressed": "Мне нра́вится э́та пе́сня.",
     "translit": "Mne nravitsya eta pesnya.",
-    "en": "I like this song."
+    "en": "I like this song.",
+    "pl": "Podoba mi się ta piosenka."
   },
   {
     "id": "a1-part-3-66",
     "ru": "Мне нравится этот фильм.",
     "ruStressed": "Мне нра́вится э́тот фильм.",
     "translit": "Mne nravitsya etot film.",
-    "en": "I like this movie."
+    "en": "I like this movie.",
+    "pl": "Podoba mi się ten film."
   },
   {
     "id": "a1-part-3-67",
     "ru": "Мне не нравится зима.",
     "ruStressed": "Мне не нра́вится зима́.",
     "translit": "Mne ne nravitsya zima.",
-    "en": "I don't like winter."
+    "en": "I don't like winter.",
+    "pl": "Nie lubię zimy."
   },
   {
     "id": "a1-part-3-68",
     "ru": "Мне нравится твой стиль.",
     "ruStressed": "Мне нра́вится твой стиль.",
     "translit": "Mne nravitsya tvoy stil.",
-    "en": "I like your style."
+    "en": "I like your style.",
+    "pl": "Podoba mi się twój styl."
   },
   {
     "id": "a1-part-3-69",
     "ru": "Тебе нравится кофе?",
     "ruStressed": "Тебе́ нра́вится ко́фе?",
     "translit": "Tebe nravitsya kofe?",
-    "en": "Do you like coffee?"
+    "en": "Do you like coffee?",
+    "pl": "Lubisz kawę?"
   },
   {
     "id": "a1-part-3-70",
     "ru": "Да, мне очень нравится.",
     "ruStressed": "Да, мне о́чень нра́вится.",
     "translit": "Da, mne ochen nravitsya.",
-    "en": "Yes, I like it very much."
+    "en": "Yes, I like it very much.",
+    "pl": "Tak, bardzo mi smakuje."
   },
   {
     "id": "a1-part-3-71",
     "ru": "Сколько это стоит?",
     "ruStressed": "Ско́лько э́то сто́ит?",
     "translit": "Skolko eto stoit?",
-    "en": "How much does this cost?"
+    "en": "How much does this cost?",
+    "pl": "Ile to kosztuje?"
   },
   {
     "id": "a1-part-3-72",
     "ru": "Это стоит сто рублей.",
     "ruStressed": "Э́то сто́ит сто рубле́й.",
     "translit": "Eto stoit sto rubley.",
-    "en": "This costs one hundred rubles."
+    "en": "This costs one hundred rubles.",
+    "pl": "To kosztuje sto rubli."
   },
   {
     "id": "a1-part-3-73",
     "ru": "Это дорого.",
     "ruStressed": "Э́то до́рого.",
     "translit": "Eto dorogo.",
-    "en": "This is expensive."
+    "en": "This is expensive.",
+    "pl": "To jest drogie."
   },
   {
     "id": "a1-part-3-74",
     "ru": "Это дёшево.",
     "ruStressed": "Э́то дёшево.",
     "translit": "Eto dyoshevo.",
-    "en": "This is cheap."
+    "en": "This is cheap.",
+    "pl": "To jest tanie."
   },
   {
     "id": "a1-part-3-75",
     "ru": "У вас есть хлеб?",
     "ruStressed": "У вас есть хлеб?",
     "translit": "U vas est khleb?",
-    "en": "Do you have bread?"
+    "en": "Do you have bread?",
+    "pl": "Czy mają państwo chleb? (formal)"
   },
   {
     "id": "a1-part-3-76",
     "ru": "Дайте мне два яблока.",
     "ruStressed": "Да́йте мне два я́блока.",
     "translit": "Dayte mne dva yabloka.",
-    "en": "Give me two apples."
+    "en": "Give me two apples.",
+    "pl": "Poproszę dwa jabłka."
   },
   {
     "id": "a1-part-3-77",
     "ru": "Дайте мне литр молока.",
     "ruStressed": "Да́йте мне литр молока́.",
     "translit": "Dayte mne litr moloka.",
-    "en": "Give me a litre of milk."
+    "en": "Give me a litre of milk.",
+    "pl": "Poproszę litr mleka."
   },
   {
     "id": "a1-part-3-78",
     "ru": "Я хочу это.",
     "ruStressed": "Я хочу́ э́то.",
     "translit": "Ya khochu eto.",
-    "en": "I want this one."
+    "en": "I want this one.",
+    "pl": "Chcę to."
   },
   {
     "id": "a1-part-3-79",
     "ru": "Я возьму это.",
     "ruStressed": "Я возьму́ э́то.",
     "translit": "Ya vozmu eto.",
-    "en": "I'll take this."
+    "en": "I'll take this.",
+    "pl": "Wezmę to."
   },
   {
     "id": "a1-part-3-80",
     "ru": "Где касса?",
     "ruStressed": "Где ка́сса?",
     "translit": "Gde kassa?",
-    "en": "Where is the cashier?"
+    "en": "Where is the cashier?",
+    "pl": "Gdzie jest kasa?"
   },
   {
     "id": "a1-part-3-81",
     "ru": "Где выход?",
     "ruStressed": "Где вы́ход?",
     "translit": "Gde vykhod?",
-    "en": "Where is the exit?"
+    "en": "Where is the exit?",
+    "pl": "Gdzie jest wyjście?"
   },
   {
     "id": "a1-part-3-82",
     "ru": "Где вход?",
     "ruStressed": "Где вход?",
     "translit": "Gde vkhod?",
-    "en": "Where is the entrance?"
+    "en": "Where is the entrance?",
+    "pl": "Gdzie jest wejście?"
   },
   {
     "id": "a1-part-3-83",
     "ru": "Я готовлю ужин.",
     "ruStressed": "Я гото́влю у́жин.",
     "translit": "Ya gotovlyu uzhin.",
-    "en": "I am making dinner."
+    "en": "I am making dinner.",
+    "pl": "Robię kolację."
   },
   {
     "id": "a1-part-3-84",
     "ru": "Мой брат готовит борщ.",
     "ruStressed": "Мой брат гото́вит борщ.",
     "translit": "Moy brat gotovit borshch.",
-    "en": "My brother is cooking borscht."
+    "en": "My brother is cooking borscht.",
+    "pl": "Mój brat gotuje barszcz."
   },
   {
     "id": "a1-part-3-85",
     "ru": "Мама готовит блины.",
     "ruStressed": "Ма́ма гото́вит блины́.",
     "translit": "Mama gotovit bliny.",
-    "en": "Mom is making pancakes."
+    "en": "Mom is making pancakes.",
+    "pl": "Mama robi naleśniki."
   },
   {
     "id": "a1-part-3-86",
     "ru": "Я мою посуду.",
     "ruStressed": "Я мо́ю посу́ду.",
     "translit": "Ya moyu posudu.",
-    "en": "I am washing the dishes."
+    "en": "I am washing the dishes.",
+    "pl": "Zmywam naczynia."
   },
   {
     "id": "a1-part-3-87",
     "ru": "Я режу овощи.",
     "ruStressed": "Я ре́жу о́вощи.",
     "translit": "Ya rezhu ovoshchi.",
-    "en": "I am cutting vegetables."
+    "en": "I am cutting vegetables.",
+    "pl": "Kroję warzywa."
   },
   {
     "id": "a1-part-3-88",
     "ru": "Я варю картошку.",
     "ruStressed": "Я ва́рю карто́шку.",
     "translit": "Ya varyu kartoshku.",
-    "en": "I am boiling potatoes."
+    "en": "I am boiling potatoes.",
+    "pl": "Gotuję ziemniaki."
   },
   {
     "id": "a1-part-3-89",
     "ru": "На столе хлеб и сыр.",
     "ruStressed": "На столе́ хлеб и сыр.",
     "translit": "Na stole khleb i syr.",
-    "en": "There's bread and cheese on the table."
+    "en": "There's bread and cheese on the table.",
+    "pl": "Na stole jest chleb i ser."
   },
   {
     "id": "a1-part-3-90",
     "ru": "В холодильнике есть молоко.",
     "ruStressed": "В холоди́льнике есть молоко́.",
     "translit": "V kholodilnike est moloko.",
-    "en": "There is milk in the fridge."
+    "en": "There is milk in the fridge.",
+    "pl": "W lodówce jest mleko."
   },
   {
     "id": "a1-part-3-91",
     "ru": "В холодильнике нет масла.",
     "ruStressed": "В холоди́льнике нет ма́сла.",
     "translit": "V kholodilnike net masla.",
-    "en": "There is no butter in the fridge."
+    "en": "There is no butter in the fridge.",
+    "pl": "W lodówce nie ma masła."
   },
   {
     "id": "a1-part-3-92",
     "ru": "Очень вкусный суп!",
     "ruStressed": "О́чень вку́сный суп!",
     "translit": "Ochen vkusnyy sup!",
-    "en": "Very tasty soup!"
+    "en": "Very tasty soup!",
+    "pl": "Bardzo smaczna zupa!"
   },
   {
     "id": "a1-part-3-93",
     "ru": "Этот торт слишком сладкий.",
     "ruStressed": "Э́тот торт сли́шком сла́дкий.",
     "translit": "Etot tort slishkom sladkiy.",
-    "en": "This cake is too sweet."
+    "en": "This cake is too sweet.",
+    "pl": "To ciasto jest zbyt słodkie."
   },
   {
     "id": "a1-part-3-94",
     "ru": "Этот чай слишком крепкий.",
     "ruStressed": "Э́тот чай сли́шком кре́пкий.",
     "translit": "Etot chay slishkom krepkiy.",
-    "en": "This tea is too strong."
+    "en": "This tea is too strong.",
+    "pl": "Ta herbata jest zbyt mocna."
   },
   {
     "id": "a1-part-3-95",
     "ru": "Этот кофе слишком горячий.",
     "ruStressed": "Э́тот ко́фе сли́шком горя́чий.",
     "translit": "Etot kofe slishkom goryachiy.",
-    "en": "This coffee is too hot."
+    "en": "This coffee is too hot.",
+    "pl": "Ta kawa jest zbyt gorąca."
   },
   {
     "id": "a1-part-3-96",
     "ru": "Мне нужен ещё хлеб.",
     "ruStressed": "Мне ну́жен ещё хлеб.",
     "translit": "Mne nuzhen eshchyo khleb.",
-    "en": "I need more bread."
+    "en": "I need more bread.",
+    "pl": "Potrzebuję więcej chleba."
   },
   {
     "id": "a1-part-3-97",
     "ru": "Мне нужен ножик.",
     "ruStressed": "Мне ну́жен но́жик.",
     "translit": "Mne nuzhen nozhik.",
-    "en": "I need a knife."
+    "en": "I need a knife.",
+    "pl": "Potrzebuję noża."
   },
   {
     "id": "a1-part-3-98",
     "ru": "Мне нужна ложка.",
     "ruStressed": "Мне нужна́ ло́жка.",
     "translit": "Mne nuzhna lozhka.",
-    "en": "I need a spoon."
+    "en": "I need a spoon.",
+    "pl": "Potrzebuję łyżki."
   },
   {
     "id": "a1-part-3-99",
     "ru": "Мне нужны салфетки.",
     "ruStressed": "Мне нужны́ салфе́тки.",
     "translit": "Mne nuzhny salfetki.",
-    "en": "I need napkins."
+    "en": "I need napkins.",
+    "pl": "Potrzebuję serwetek."
   },
   {
     "id": "a1-part-3-100",
     "ru": "Принесите, пожалуйста, воду.",
     "ruStressed": "Принеси́те, пожа́луйста, во́ду.",
     "translit": "Prinesite, pozhaluysta, vodu.",
-    "en": "Please bring water."
+    "en": "Please bring water.",
+    "pl": "Proszę przynieść wodę."
   },
   {
     "id": "a1-part-3-101",
     "ru": "Я наелся.",
     "ruStressed": "Я нае́лся.",
     "translit": "Ya naelsya.",
-    "en": "I'm full. (m.)"
+    "en": "I'm full. (m.)",
+    "pl": "Najadłem się. (m.)"
   },
   {
     "id": "a1-part-3-102",
     "ru": "Я наелась.",
     "ruStressed": "Я нае́лась.",
     "translit": "Ya naelas.",
-    "en": "I'm full. (f.)"
+    "en": "I'm full. (f.)",
+    "pl": "Najadłam się. (f.)"
   },
   {
     "id": "a1-part-3-103",
     "ru": "Я больше не хочу.",
     "ruStressed": "Я бо́льше не хочу́.",
     "translit": "Ya bolshe ne khochu.",
-    "en": "I don't want any more."
+    "en": "I don't want any more.",
+    "pl": "Nie chcę więcej."
   },
   {
     "id": "a1-part-3-104",
     "ru": "Я читаю книгу.",
     "ruStressed": "Я чита́ю кни́гу.",
     "translit": "Ya chitayu knigu.",
-    "en": "I read a book."
+    "en": "I read a book.",
+    "pl": "Czytam książkę."
   },
   {
     "id": "a1-part-3-105",
     "ru": "Она пишет письмо.",
     "ruStressed": "Она́ пи́шет письмо́.",
     "translit": "Ona pishet pismo.",
-    "en": "She writes a letter."
+    "en": "She writes a letter.",
+    "pl": "Ona pisze list."
   },
   {
     "id": "a1-part-3-106",
     "ru": "Мы говорим по-русски.",
     "ruStressed": "Мы говори́м по-ру́сски.",
     "translit": "My govorim po-russki.",
-    "en": "We speak Russian."
+    "en": "We speak Russian.",
+    "pl": "Mówimy po rosyjsku."
   },
   {
     "id": "a1-part-3-107",
     "ru": "Мой папа работает здесь.",
     "ruStressed": "Мой па́па рабо́тает здесь.",
     "translit": "Moy papa rabotaet zdes.",
-    "en": "My dad works here."
+    "en": "My dad works here.",
+    "pl": "Mój tata tu pracuje."
   },
   {
     "id": "a1-part-3-108",
     "ru": "Студент учится.",
     "ruStressed": "Студе́нт учи́тся.",
     "translit": "Student uchitsya.",
-    "en": "The student is studying."
+    "en": "The student is studying.",
+    "pl": "Student się uczy."
   },
   {
     "id": "a1-part-3-109",
     "ru": "Я люблю мою семью.",
     "ruStressed": "Я люблю́ мою́ семью́.",
     "translit": "Ya lyublyu moyu semyu.",
-    "en": "I love my family."
+    "en": "I love my family.",
+    "pl": "Kocham moją rodzinę."
   },
   {
     "id": "a1-part-3-110",
     "ru": "Вы знаете, где парк?",
     "ruStressed": "Вы зна́ете, где парк?",
     "translit": "Vy znaete, gde park?",
-    "en": "Do you know where the park is?"
+    "en": "Do you know where the park is?",
+    "pl": "Czy wiecie, gdzie jest park? (plural)"
   },
   {
     "id": "a1-part-3-111",
     "ru": "Я не понимаю.",
     "ruStressed": "Я не понима́ю.",
     "translit": "Ya ne ponimayu.",
-    "en": "I don't understand."
+    "en": "I don't understand.",
+    "pl": "Nie rozumiem."
   },
   {
     "id": "a1-part-3-112",
     "ru": "Что ты делаешь?",
     "ruStressed": "Что ты де́лаешь?",
     "translit": "Chto ty delaesh?",
-    "en": "What are you doing?"
+    "en": "What are you doing?",
+    "pl": "Co robisz?"
   },
   {
     "id": "a1-part-3-113",
     "ru": "Он читает газету.",
     "ruStressed": "Он чита́ет газе́ту.",
     "translit": "On chitaet gazetu.",
-    "en": "He reads the newspaper."
+    "en": "He reads the newspaper.",
+    "pl": "On czyta gazetę."
   },
   {
     "id": "a1-part-3-114",
     "ru": "Они быстро говорят по-английски.",
     "ruStressed": "Они́ бы́стро говоря́т по-англи́йски.",
     "translit": "Oni bystro govoryat po-angliyski.",
-    "en": "They speak English fast."
+    "en": "They speak English fast.",
+    "pl": "Oni szybko mówią po angielsku."
   },
   {
     "id": "a1-part-3-115",
     "ru": "Твой брат работает?",
     "ruStressed": "Твой брат рабо́тает?",
     "translit": "Tvoy brat rabotaet?",
-    "en": "Does your brother work?"
+    "en": "Does your brother work?",
+    "pl": "Czy twój brat pracuje?"
   },
   {
     "id": "a1-part-3-116",
     "ru": "Я учусь в школе.",
     "ruStressed": "Я учу́сь в шко́ле.",
     "translit": "Ya uchus v shkole.",
-    "en": "I study at school."
+    "en": "I study at school.",
+    "pl": "Uczę się w szkole."
   },
   {
     "id": "a1-part-3-117",
     "ru": "Ты любишь большие города?",
     "ruStressed": "Ты лю́бишь больши́е города́?",
     "translit": "Ty lyubish bolshie goroda?",
-    "en": "Do you love big cities?"
+    "en": "Do you love big cities?",
+    "pl": "Czy lubisz duże miasta?"
   },
   {
     "id": "a1-part-3-118",
     "ru": "Кто знает ответ?",
     "ruStressed": "Кто зна́ет отве́т?",
     "translit": "Kto znaet otvet?",
-    "en": "Who knows the answer?"
+    "en": "Who knows the answer?",
+    "pl": "Kto zna odpowiedź?"
   },
   {
     "id": "a1-part-3-119",
     "ru": "Анна понимает по-испански.",
     "ruStressed": "А́нна понима́ет по-испа́нски.",
     "translit": "Anna ponimaet po-ispanski.",
-    "en": "Anna understands Spanish."
+    "en": "Anna understands Spanish.",
+    "pl": "Anna rozumie po hiszpańsku."
   },
   {
     "id": "a1-part-3-120",
     "ru": "Мы делаем домашнее задание.",
     "ruStressed": "Мы де́лаем дома́шнее зада́ние.",
     "translit": "My delaem domashnee zadanie.",
-    "en": "We are doing homework."
+    "en": "We are doing homework.",
+    "pl": "Odrabiamy lekcje."
   },
   {
     "id": "a1-part-3-121",
     "ru": "Он пишет письмо.",
     "ruStressed": "Он пи́шет письмо́.",
     "translit": "On pishet pismo.",
-    "en": "He writes a letter."
+    "en": "He writes a letter.",
+    "pl": "On pisze list."
   },
   {
     "id": "a1-part-3-122",
     "ru": "Мы живём в Москве.",
     "ruStressed": "Мы живём в Москве́.",
     "translit": "My zhivyom v Moskve.",
-    "en": "We live in Moscow."
+    "en": "We live in Moscow.",
+    "pl": "Mieszkamy w Moskwie."
   },
   {
     "id": "a1-part-3-123",
     "ru": "Что ты читаешь?",
     "ruStressed": "Что ты чита́ешь?",
     "translit": "Chto ty chitayesh?",
-    "en": "What are you reading?"
+    "en": "What are you reading?",
+    "pl": "Co czytasz?"
   },
   {
     "id": "a1-part-3-124",
     "ru": "Она работает в банке.",
     "ruStressed": "Она́ рабо́тает в ба́нке.",
     "translit": "Ona rabotaet v banke.",
-    "en": "She works in a bank."
+    "en": "She works in a bank.",
+    "pl": "Ona pracuje w banku."
   },
   {
     "id": "a1-part-3-125",
     "ru": "Они работают здесь.",
     "ruStressed": "Они́ рабо́тают здесь.",
     "translit": "Oni rabotayut zdes.",
-    "en": "They work here."
+    "en": "They work here.",
+    "pl": "Oni tu pracują."
   },
   {
     "id": "a1-part-3-126",
     "ru": "Анна говорит быстро.",
     "ruStressed": "А́нна говори́т бы́стро.",
     "translit": "Anna govorit bistro.",
-    "en": "Anna speaks quickly."
+    "en": "Anna speaks quickly.",
+    "pl": "Anna mówi szybko."
   },
   {
     "id": "a1-part-3-127",
     "ru": "Ты знаешь это?",
     "ruStressed": "Ты зна́ешь э́то?",
     "translit": "Ty znayesh eto.",
-    "en": "Do you know this?"
+    "en": "Do you know this?",
+    "pl": "Wiesz to?"
   },
   {
     "id": "a1-part-3-128",
     "ru": "Иван всё знает.",
     "ruStressed": "Ива́н всё зна́ет.",
     "translit": "Ivan vsyo znayet.",
-    "en": "Ivan knows everything."
+    "en": "Ivan knows everything.",
+    "pl": "Iwan wie wszystko."
   },
   {
     "id": "a1-part-3-129",
     "ru": "Мы понимаем учителя.",
     "ruStressed": "Мы понима́ем учи́теля.",
     "translit": "My ponimayem uchitelya.",
-    "en": "We understand the teacher."
+    "en": "We understand the teacher.",
+    "pl": "Rozumiemy nauczyciela."
   },
   {
     "id": "a1-part-3-130",
     "ru": "Ты любишь теннис?",
     "ruStressed": "Ты лю́бишь те́ннис?",
     "translit": "Ty lyubish tennis.",
-    "en": "Do you love tennis?"
+    "en": "Do you love tennis?",
+    "pl": "Lubisz tenis?"
   },
   {
     "id": "a1-part-3-131",
     "ru": "Я делаю уроки.",
     "ruStressed": "Я де́лаю уро́ки.",
     "translit": "Ya delayu uroki.",
-    "en": "I am doing homework."
+    "en": "I am doing homework.",
+    "pl": "Odrabiam lekcje."
   },
   {
     "id": "a1-part-3-132",
     "ru": "Максим говорит на встрече.",
     "ruStressed": "Макси́м говори́т на встре́че.",
     "translit": "Maksim govorit na vstreche.",
-    "en": "Maxim speaks at the meeting."
+    "en": "Maxim speaks at the meeting.",
+    "pl": "Maksym mówi na spotkaniu."
   },
   {
     "id": "a1-part-3-133",
     "ru": "Они живут в отеле.",
     "ruStressed": "Они́ живу́т в оте́ле.",
     "translit": "Oni zhivut v otele.",
-    "en": "They live in a hotel."
+    "en": "They live in a hotel.",
+    "pl": "Oni mieszkają w hotelu."
   },
   {
     "id": "a1-part-3-134",
     "ru": "Я здесь не пишу.",
     "ruStressed": "Я здесь не пишу́.",
     "translit": "Ya zdes ne pishu.",
-    "en": "I don't write here."
+    "en": "I don't write here.",
+    "pl": "Nie piszę tutaj."
   },
   {
     "id": "a1-part-3-135",
     "ru": "Читай громко, пожалуйста.",
     "ruStressed": "Чита́й гро́мко, пожа́луйста.",
     "translit": "Chitay gromko, pozhaluysta.",
-    "en": "Read out loud, please."
+    "en": "Read out loud, please.",
+    "pl": "Czytaj na głos, proszę."
   },
   {
     "id": "a1-part-3-136",
     "ru": "Где он учится?",
     "ruStressed": "Где он у́чится?",
     "translit": "Gde on uchitsya?",
-    "en": "Where does he study?"
+    "en": "Where does he study?",
+    "pl": "Gdzie on się uczy?"
   },
   {
     "id": "a1-part-3-137",
     "ru": "Что делает папа?",
     "ruStressed": "Что де́лает па́па?",
     "translit": "Chto delayet papa.",
-    "en": "What does the father do?"
+    "en": "What does the father do?",
+    "pl": "Co robi tata?"
   },
   {
     "id": "a1-part-3-138",
     "ru": "Я читаю книги.",
     "ruStressed": "Я чита́ю кни́ги.",
     "translit": "Ya chitayu knigi.",
-    "en": "I read books."
+    "en": "I read books.",
+    "pl": "Czytam książki."
   },
   {
     "id": "a1-part-3-139",
     "ru": "Она работает в Москве.",
     "ruStressed": "Она́ рабо́тает в Москве́.",
     "translit": "Ona rabotaet v Moskve.",
-    "en": "She works in Moscow."
+    "en": "She works in Moscow.",
+    "pl": "Ona pracuje w Moskwie."
   },
   {
     "id": "a1-part-3-140",
     "ru": "Мы учимся в школе.",
     "ruStressed": "Мы у́чимся в шко́ле.",
     "translit": "My uchimsya v shkole.",
-    "en": "We study at school."
+    "en": "We study at school.",
+    "pl": "Uczymy się w szkole."
   },
   {
     "id": "a1-part-3-141",
     "ru": "Они говорят по-русски.",
     "ruStressed": "Они́ говоря́т по-ру́сски.",
     "translit": "Oni govoryat po-russki.",
-    "en": "They speak Russian."
+    "en": "They speak Russian.",
+    "pl": "Oni mówią po rosyjsku."
   },
   {
     "id": "a1-part-3-142",
     "ru": "Вы меня понимаете?",
     "ruStressed": "Вы меня́ понима́ете?",
     "translit": "Vy menya ponimaete?",
-    "en": "Do you understand me?"
+    "en": "Do you understand me?",
+    "pl": "Rozumiecie mnie? (plural)"
   },
   {
     "id": "a1-part-3-143",
     "ru": "Книга лежит на столе.",
     "ruStressed": "Кни́га лежи́т на столе́.",
     "translit": "Kniga lezhit na stole.",
-    "en": "The book is on the table."
+    "en": "The book is on the table.",
+    "pl": "Książka leży na stole."
   },
   {
     "id": "a1-part-3-144",
     "ru": "Я знаю ваше имя.",
     "ruStressed": "Я зна́ю ва́ше и́мя.",
     "translit": "Ya znayu vashe imya.",
-    "en": "I know your name."
+    "en": "I know your name.",
+    "pl": "Znam pańskie imię. (formal)"
   },
   {
     "id": "a1-part-3-145",
     "ru": "Пишите здесь, пожалуйста.",
     "ruStressed": "Пиши́те здесь, пожа́луйста.",
     "translit": "Pishite zdes, pozhaluysta.",
-    "en": "Write here, please."
+    "en": "Write here, please.",
+    "pl": "Proszę tutaj pisać. (plural)"
   },
   {
     "id": "a1-part-3-146",
     "ru": "Мы любим музыку.",
     "ruStressed": "Мы лю́бим му́зыку.",
     "translit": "My lyubim muzyku.",
-    "en": "We love music."
+    "en": "We love music.",
+    "pl": "Lubimy muzykę."
   },
   {
     "id": "a1-part-3-147",
     "ru": "Слушайте учителя.",
     "ruStressed": "Слу́шайте учи́теля.",
     "translit": "Slushayte uchitelya.",
-    "en": "Listen to the teacher."
+    "en": "Listen to the teacher.",
+    "pl": "Słuchajcie nauczyciela. (plural)"
   },
   {
     "id": "a1-part-3-148",
     "ru": "Кто говорит?",
     "ruStressed": "Кто говори́т?",
     "translit": "Kto govorit?",
-    "en": "Who is speaking?"
+    "en": "Who is speaking?",
+    "pl": "Kto mówi?"
   },
   {
     "id": "a1-part-3-149",
     "ru": "Я его не знаю.",
     "ruStressed": "Я его́ не зна́ю.",
     "translit": "Ya ego ne znayu.",
-    "en": "I don't know him."
+    "en": "I don't know him.",
+    "pl": "Nie znam go."
   },
   {
     "id": "a1-part-3-150",
     "ru": "Она хорошо читает.",
     "ruStressed": "Она́ хорошо́ чита́ет.",
     "translit": "Ona khorosho chitaet.",
-    "en": "She reads well."
+    "en": "She reads well.",
+    "pl": "Ona dobrze czyta."
   }
 ]

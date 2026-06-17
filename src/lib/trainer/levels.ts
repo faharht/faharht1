@@ -1,9 +1,18 @@
 export type LevelId = "A1" | "A2" | "B1" | "B2";
 
+import type { StringKey } from "@/lib/i18n/strings";
+
 export interface ListMeta {
   id: string;
   level: LevelId;
   part: number;
+  /** i18n key for the list title. */
+  titleKey: StringKey;
+  /** Variables to interpolate into titleKey. */
+  titleVars?: Record<string, string | number>;
+  /** i18n key for the list description. */
+  descriptionKey: StringKey;
+  /** Legacy fields for code paths that haven't been migrated yet. */
   title: string;
   description: string;
 }
@@ -11,6 +20,7 @@ export interface ListMeta {
 export interface LevelGroup {
   id: LevelId;
   label: string;
+  descriptionKey: StringKey;
   description: string;
   tone: "teal" | "amber" | "orange" | "violet";
   lists: ListMeta[];
@@ -23,56 +33,44 @@ export interface BandGroup {
   extras?: ListMeta[];
 }
 
-
-const descByLevel: Record<LevelId, string> = {
-  A1: "Fundamental words and phrases for navigating simple, everyday situations.",
-  A2: "Essential vocabulary for describing your environment, routine, and recent past.",
-  B1: "Functional language to express opinions, explain plans, and handle most situations.",
-  B2: "Versatile vocabulary for engaging in complex discussions and expressing views.",
+const descByLevel: Record<LevelId, { key: StringKey; en: string }> = {
+  A1: { key: "level.A1.desc", en: "Fundamental words and phrases for navigating simple, everyday situations." },
+  A2: { key: "level.A2.desc", en: "Essential vocabulary for describing your environment, routine, and recent past." },
+  B1: { key: "level.B1.desc", en: "Functional language to express opinions, explain plans, and handle most situations." },
+  B2: { key: "level.B2.desc", en: "Versatile vocabulary for engaging in complex discussions and expressing views." },
 };
 
-const partTheme: Record<LevelId, string[]> = {
-  A1: [
-    "Greetings, pronouns, simple states",
-    "Family, numbers, colors, days",
-    "Common verbs in the present",
-    "Places, directions, basic questions",
-  ],
-  A2: [
-    "Daily routine and past tense",
-    "Food, ordering, modal verbs",
-    "Travel, transport, future plans",
-    "Weather, clothing, feelings",
-  ],
-  B1: [
-    "Opinions, feelings, complex thoughts",
-    "Work, study, conditionals",
-    "Health, body, reflexives",
-    "City life, comparisons, culture",
-  ],
-  B2: [
-    "Society, participles, gerunds",
-    "News, environment, formal speech",
-    "Idioms and colloquial expressions",
-    "Literature, narrative, indirect speech",
-  ],
+const partKeys: Record<LevelId, StringKey[]> = {
+  A1: ["part.A1.1", "part.A1.2", "part.A1.3", "part.A1.4"],
+  A2: ["part.A2.1", "part.A2.2", "part.A2.3", "part.A2.4"],
+  B1: ["part.B1.1", "part.B1.2", "part.B1.3", "part.B1.4"],
+  B2: ["part.B2.1", "part.B2.2", "part.B2.3", "part.B2.4"],
+};
+const partEn: Record<LevelId, string[]> = {
+  A1: ["Greetings, pronouns, simple states", "Family, numbers, colors, days", "Common verbs in the present", "Places, directions, basic questions"],
+  A2: ["Daily routine and past tense", "Food, ordering, modal verbs", "Travel, transport, future plans", "Weather, clothing, feelings"],
+  B1: ["Opinions, feelings, complex thoughts", "Work, study, conditionals", "Health, body, reflexives", "City life, comparisons, culture"],
+  B2: ["Society, participles, gerunds", "News, environment, formal speech", "Idioms and colloquial expressions", "Literature, narrative, indirect speech"],
 };
 
 function listsFor(level: LevelId): ListMeta[] {
-  return partTheme[level].map((theme, i) => ({
+  return partKeys[level].map((key, i) => ({
     id: `${level.toLowerCase()}-part-${i + 1}`,
     level,
     part: i + 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level, part: i + 1 },
+    descriptionKey: key,
     title: `${level} Level — Part ${i + 1}`,
-    description: theme,
+    description: partEn[level][i],
   }));
 }
 
 export const LEVELS: LevelGroup[] = [
-  { id: "A1", label: "A1", description: descByLevel.A1, tone: "teal", lists: listsFor("A1") },
-  { id: "A2", label: "A2", description: descByLevel.A2, tone: "teal", lists: listsFor("A2") },
-  { id: "B1", label: "B1", description: descByLevel.B1, tone: "amber", lists: listsFor("B1") },
-  { id: "B2", label: "B2", description: descByLevel.B2, tone: "orange", lists: listsFor("B2") },
+  { id: "A1", label: "A1", descriptionKey: descByLevel.A1.key, description: descByLevel.A1.en, tone: "teal",  lists: listsFor("A1") },
+  { id: "A2", label: "A2", descriptionKey: descByLevel.A2.key, description: descByLevel.A2.en, tone: "teal",  lists: listsFor("A2") },
+  { id: "B1", label: "B1", descriptionKey: descByLevel.B1.key, description: descByLevel.B1.en, tone: "amber", lists: listsFor("B1") },
+  { id: "B2", label: "B2", descriptionKey: descByLevel.B2.key, description: descByLevel.B2.en, tone: "orange",lists: listsFor("B2") },
 ];
 
 export const BEGINNER_EXTRAS: ListMeta[] = [
@@ -80,38 +78,22 @@ export const BEGINNER_EXTRAS: ListMeta[] = [
     id: "basic-verb-conjugations",
     level: "A1",
     part: 0,
+    titleKey: "extra.basicVerb.title",
+    descriptionKey: "extra.basicVerb.desc",
     title: "Basic Verb Conjugations",
     description: "Present · Past · Future",
   },
 ];
 
 export const INTERMEDIATE_EXTRAS: ListMeta[] = [
-  {
-    id: "top-300-adjectives",
-    level: "B1",
-    part: 0,
-    title: "300 Most Common Adjectives",
-    description: "Essential descriptors to add detail and variety to your daily language.",
-  },
-  {
-    id: "top-300-adverbs",
-    level: "B1",
-    part: 0,
-    title: "300 Most Common Adverbs",
-    description: "Key modifiers to express how, when, and where actions take place.",
-  },
-  {
-    id: "top-300-verbs",
-    level: "B1",
-    part: 0,
-    title: "300 Most Common Verbs",
-    description: "Essential action words to describe activities and states of being.",
-  },
+  { id: "top-300-adjectives", level: "B1", part: 0, titleKey: "extra.adj.title",  descriptionKey: "extra.adj.desc",  title: "300 Most Common Adjectives", description: "Essential descriptors to add detail and variety to your daily language." },
+  { id: "top-300-adverbs",    level: "B1", part: 0, titleKey: "extra.adv.title",  descriptionKey: "extra.adv.desc",  title: "300 Most Common Adverbs",    description: "Key modifiers to express how, when, and where actions take place." },
+  { id: "top-300-verbs",      level: "B1", part: 0, titleKey: "extra.verb.title", descriptionKey: "extra.verb.desc", title: "300 Most Common Verbs",      description: "Essential action words to describe activities and states of being." },
 ];
 
 export const BANDS: BandGroup[] = [
-  { band: "Beginner", dotClass: "bg-emerald-500", levels: [LEVELS[0], LEVELS[1]], extras: BEGINNER_EXTRAS },
-  { band: "Intermediate", dotClass: "bg-amber-500", levels: [LEVELS[2], LEVELS[3]], extras: INTERMEDIATE_EXTRAS },
+  { band: "Beginner",     dotClass: "bg-emerald-500", levels: [LEVELS[0], LEVELS[1]], extras: BEGINNER_EXTRAS },
+  { band: "Intermediate", dotClass: "bg-amber-500",   levels: [LEVELS[2], LEVELS[3]], extras: INTERMEDIATE_EXTRAS },
 ];
 
 export function findList(listId: string): ListMeta | undefined {
@@ -125,10 +107,9 @@ export function findList(listId: string): ListMeta | undefined {
   return undefined;
 }
 
-
 export const TONE_CLASSES: Record<LevelGroup["tone"], { ring: string; bg: string; text: string; border: string }> = {
-  teal: { ring: "ring-emerald-500", bg: "bg-emerald-500", text: "text-emerald-700", border: "border-l-emerald-400" },
-  amber: { ring: "ring-amber-500", bg: "bg-amber-500", text: "text-amber-700", border: "border-l-amber-400" },
-  orange: { ring: "ring-orange-500", bg: "bg-orange-500", text: "text-orange-700", border: "border-l-orange-400" },
-  violet: { ring: "ring-violet-500", bg: "bg-violet-500", text: "text-violet-700", border: "border-l-violet-400" },
+  teal:   { ring: "ring-emerald-500", bg: "bg-emerald-500", text: "text-emerald-700", border: "border-l-emerald-400" },
+  amber:  { ring: "ring-amber-500",   bg: "bg-amber-500",   text: "text-amber-700",   border: "border-l-amber-400" },
+  orange: { ring: "ring-orange-500",  bg: "bg-orange-500",  text: "text-orange-700",  border: "border-l-orange-400" },
+  violet: { ring: "ring-violet-500",  bg: "bg-violet-500",  text: "text-violet-700",  border: "border-l-violet-400" },
 };

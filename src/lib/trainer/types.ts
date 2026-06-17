@@ -4,9 +4,13 @@ export interface Sentence {
   ruStressed: string;
   translit: string;
   en: string;
+  /** Polish translation. Optional; falls back to `en` when missing. */
+  pl?: string;
 }
 
 export type TextSize = "xs" | "sm" | "md" | "lg";
+
+export type AppLanguage = "en" | "pl";
 
 export interface TrainerSettings {
   reps: 1 | 2 | 3 | 4 | 5;
@@ -14,6 +18,7 @@ export interface TrainerSettings {
   speed: number; // 0.5 - 2
   textSize: TextSize;
   showTransliteration: boolean;
+  appLanguage: AppLanguage;
 }
 
 export interface SentenceProgress {

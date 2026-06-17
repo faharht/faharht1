@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { lovable } from "@/integrations/lovable";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/useT";
 
 type Mode = "signin" | "signup";
 
@@ -24,6 +25,7 @@ export const Route = createFileRoute("/auth")({
 });
 
 function AuthPage() {
+  const { t } = useT();
   const { mode } = Route.useSearch();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -32,7 +34,6 @@ function AuthPage() {
   const [error, setError] = useState<string | null>(null);
   const [info, setInfo] = useState<string | null>(null);
 
-  // If already signed in, bounce to profile
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
       if (data.user) navigate({ to: "/profile" });
@@ -61,7 +62,7 @@ function AuthPage() {
         if (data.session) {
           navigate({ to: "/onboarding" });
         } else {
-          setInfo("Check your email to confirm your account, then sign in.");
+          setInfo(t("auth.confirmEmail"));
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
@@ -69,12 +70,11 @@ function AuthPage() {
         navigate({ to: "/profile" });
       }
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong");
+      setError(err instanceof Error ? err.message : t("auth.genericFail"));
     } finally {
       setBusy(false);
     }
   }
-
 
   async function handleGoogle() {
     setBusy(true);
@@ -85,7 +85,7 @@ function AuthPage() {
       });
       if (result.error) {
         setError(
-          result.error instanceof Error ? result.error.message : "Google sign-in failed",
+          result.error instanceof Error ? result.error.message : t("auth.googleFail"),
         );
         return;
       }
@@ -105,27 +105,24 @@ function AuthPage() {
             className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back
+            {t("common.back")}
           </Link>
           <Link
             to="/profile"
             className="text-xs font-medium text-primary hover:underline"
           >
-            Continue as guest
+            {t("auth.continueGuest")}
           </Link>
         </div>
 
         <div className="rounded-2xl border border-border/70 bg-card p-5 shadow-sm">
           <h1 className="text-lg font-semibold text-foreground">
-            {mode === "signup" ? "Create your account" : "Welcome back"}
+            {mode === "signup" ? t("auth.signUpTitle") : t("auth.welcomeBack")}
           </h1>
           <p className="mt-1 text-xs text-muted-foreground">
-            {mode === "signup"
-              ? "Save your reps and progress across devices."
-              : "Sign in to sync your practice."}
+            {mode === "signup" ? t("auth.signUpDesc") : t("auth.signInDesc")}
           </p>
 
-          {/* Tabs */}
           <div className="mt-4 grid grid-cols-2 rounded-lg bg-muted p-1 text-xs font-semibold">
             <button
               type="button"
@@ -135,7 +132,7 @@ function AuthPage() {
                 mode === "signin" ? "bg-card text-foreground shadow-sm" : "text-muted-foreground",
               )}
             >
-              Sign in
+              {t("auth.signIn")}
             </button>
             <button
               type="button"
@@ -145,7 +142,7 @@ function AuthPage() {
                 mode === "signup" ? "bg-card text-foreground shadow-sm" : "text-muted-foreground",
               )}
             >
-              Sign up
+              {t("auth.signUp")}
             </button>
           </div>
 
@@ -156,19 +153,19 @@ function AuthPage() {
             className="mt-4 flex h-10 w-full items-center justify-center gap-2 rounded-md border border-border/60 bg-background text-sm font-semibold text-foreground hover:bg-muted disabled:opacity-60"
           >
             <GoogleIcon />
-            Continue with Google
+            {t("auth.google")}
           </button>
 
           <div className="relative my-4 text-center">
             <span className="absolute inset-x-0 top-1/2 -z-10 border-t border-border/60" />
             <span className="bg-card px-2 text-[11px] uppercase tracking-wide text-muted-foreground">
-              or with email
+              {t("auth.orEmail")}
             </span>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-3">
             <div>
-              <label className="block text-xs font-medium text-foreground">Email</label>
+              <label className="block text-xs font-medium text-foreground">{t("auth.email")}</label>
               <input
                 type="email"
                 required
@@ -179,7 +176,7 @@ function AuthPage() {
               />
             </div>
             <div>
-              <label className="block text-xs font-medium text-foreground">Password</label>
+              <label className="block text-xs font-medium text-foreground">{t("auth.password")}</label>
               <input
                 type="password"
                 required
@@ -195,9 +192,7 @@ function AuthPage() {
               <p className="rounded-md bg-rose-50 px-3 py-2 text-xs text-rose-700">{error}</p>
             )}
             {info && (
-              <p className="rounded-md bg-emerald-50 px-3 py-2 text-xs text-emerald-700">
-                {info}
-              </p>
+              <p className="rounded-md bg-emerald-50 px-3 py-2 text-xs text-emerald-700">{info}</p>
             )}
 
             <button
@@ -205,7 +200,7 @@ function AuthPage() {
               disabled={busy}
               className="h-10 w-full rounded-md bg-primary text-sm font-semibold text-primary-foreground hover:bg-primary/90 disabled:opacity-60"
             >
-              {busy ? "Please wait…" : mode === "signup" ? "Create account" : "Sign in"}
+              {busy ? t("common.pleaseWait") : mode === "signup" ? t("auth.create") : t("auth.signIn")}
             </button>
           </form>
         </div>
