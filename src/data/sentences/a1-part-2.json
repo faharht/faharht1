@@ -4,1049 +4,1199 @@
     "ru": "У меня есть брат.",
     "ruStressed": "У меня́ есть брат.",
     "translit": "U menya est brat.",
-    "en": "I have a brother."
+    "en": "I have a brother.",
+    "pl": "Mam brata."
   },
   {
     "id": "a1-part-2-2",
     "ru": "У меня есть сестра.",
     "ruStressed": "У меня́ есть сестра́.",
     "translit": "U menya est sestra.",
-    "en": "I have a sister."
+    "en": "I have a sister.",
+    "pl": "Mam siostrę."
   },
   {
     "id": "a1-part-2-3",
     "ru": "У меня нет брата.",
     "ruStressed": "У меня́ нет бра́та.",
     "translit": "U menya net brata.",
-    "en": "I don't have a brother."
+    "en": "I don't have a brother.",
+    "pl": "Nie mam brata."
   },
   {
     "id": "a1-part-2-4",
     "ru": "У меня нет сестры.",
     "ruStressed": "У меня́ нет сестры́.",
     "translit": "U menya net sestry.",
-    "en": "I don't have a sister."
+    "en": "I don't have a sister.",
+    "pl": "Nie mam siostry."
   },
   {
     "id": "a1-part-2-5",
     "ru": "Это мои родители.",
     "ruStressed": "Э́то мои́ роди́тели.",
     "translit": "Eto moi roditeli.",
-    "en": "These are my parents."
+    "en": "These are my parents.",
+    "pl": "To są moi rodzice."
   },
   {
     "id": "a1-part-2-6",
     "ru": "Моего отца зовут Иван.",
     "ruStressed": "Моего́ отца́ зову́т Ива́н.",
     "translit": "Moego ottsa zovut Ivan.",
-    "en": "My father's name is Ivan."
+    "en": "My father's name is Ivan.",
+    "pl": "Mój ojciec ma na imię Iwan."
   },
   {
     "id": "a1-part-2-7",
     "ru": "Мою мать зовут Мария.",
     "ruStressed": "Мою́ мать зову́т Ма́рия.",
     "translit": "Moyu mat zovut Mariya.",
-    "en": "My mother's name is Maria."
+    "en": "My mother's name is Maria.",
+    "pl": "Moja mama ma na imię Maria."
   },
   {
     "id": "a1-part-2-8",
     "ru": "У меня большая семья.",
     "ruStressed": "У меня́ больша́я семья́.",
     "translit": "U menya bolshaya semya.",
-    "en": "I have a big family."
+    "en": "I have a big family.",
+    "pl": "Mam dużą rodzinę."
   },
   {
     "id": "a1-part-2-9",
     "ru": "У меня маленькая семья.",
     "ruStressed": "У меня́ ма́ленькая семья́.",
     "translit": "U menya malenkaya semya.",
-    "en": "I have a small family."
+    "en": "I have a small family.",
+    "pl": "Mam małą rodzinę."
   },
   {
     "id": "a1-part-2-10",
     "ru": "Сколько у тебя братьев?",
     "ruStressed": "Ско́лько у тебя́ бра́тьев?",
     "translit": "Skolko u tebya bratev?",
-    "en": "How many brothers do you have?"
+    "en": "How many brothers do you have?",
+    "pl": "Ilu masz braci?"
   },
   {
     "id": "a1-part-2-11",
     "ru": "У меня один брат.",
     "ruStressed": "У меня́ оди́н брат.",
     "translit": "U menya odin brat.",
-    "en": "I have one brother."
+    "en": "I have one brother.",
+    "pl": "Mam jednego brata."
   },
   {
     "id": "a1-part-2-12",
     "ru": "У меня две сестры.",
     "ruStressed": "У меня́ две сестры́.",
     "translit": "U menya dve sestry.",
-    "en": "I have two sisters."
+    "en": "I have two sisters.",
+    "pl": "Mam dwie siostry."
   },
   {
     "id": "a1-part-2-13",
     "ru": "У меня нет детей.",
     "ruStressed": "У меня́ нет дете́й.",
     "translit": "U menya net detey.",
-    "en": "I don't have children."
+    "en": "I don't have children.",
+    "pl": "Nie mam dzieci."
   },
   {
     "id": "a1-part-2-14",
     "ru": "У меня один сын.",
     "ruStressed": "У меня́ оди́н сын.",
     "translit": "U menya odin syn.",
-    "en": "I have one son."
+    "en": "I have one son.",
+    "pl": "Mam jednego syna."
   },
   {
     "id": "a1-part-2-15",
     "ru": "У меня одна дочь.",
     "ruStressed": "У меня́ одна́ дочь.",
     "translit": "U menya odna doch.",
-    "en": "I have one daughter."
+    "en": "I have one daughter.",
+    "pl": "Mam jedną córkę."
   },
   {
     "id": "a1-part-2-16",
     "ru": "Мой дедушка живёт в деревне.",
     "ruStressed": "Мой де́душка живёт в дере́вне.",
     "translit": "Moy dedushka zhivyot v derevne.",
-    "en": "My grandfather lives in the village."
+    "en": "My grandfather lives in the village.",
+    "pl": "Mój dziadek mieszka na wsi."
   },
   {
     "id": "a1-part-2-17",
     "ru": "Моя бабушка очень добрая.",
     "ruStressed": "Моя́ ба́бушка о́чень до́брая.",
     "translit": "Moya babushka ochen dobraya.",
-    "en": "My grandmother is very kind."
+    "en": "My grandmother is very kind.",
+    "pl": "Moja babcia jest bardzo miła."
   },
   {
     "id": "a1-part-2-18",
     "ru": "Мой дядя — врач.",
     "ruStressed": "Мой дя́дя — врач.",
     "translit": "Moy dyadya — vrach.",
-    "en": "My uncle is a doctor."
+    "en": "My uncle is a doctor.",
+    "pl": "Mój wujek jest lekarzem."
   },
   {
     "id": "a1-part-2-19",
     "ru": "Моя тётя живёт в Москве.",
     "ruStressed": "Моя́ тётя живёт в Москве́.",
     "translit": "Moya tyotya zhivyot v Moskve.",
-    "en": "My aunt lives in Moscow."
+    "en": "My aunt lives in Moscow.",
+    "pl": "Moja ciocia mieszka w Moskwie."
   },
   {
     "id": "a1-part-2-20",
     "ru": "Это мой муж.",
     "ruStressed": "Э́то мой муж.",
     "translit": "Eto moy muzh.",
-    "en": "This is my husband."
+    "en": "This is my husband.",
+    "pl": "To jest mój mąż."
   },
   {
     "id": "a1-part-2-21",
     "ru": "Это моя жена.",
     "ruStressed": "Э́то моя́ жена́.",
     "translit": "Eto moya zhena.",
-    "en": "This is my wife."
+    "en": "This is my wife.",
+    "pl": "To jest moja żona."
   },
   {
     "id": "a1-part-2-22",
     "ru": "Я не женат.",
     "ruStressed": "Я не жена́т.",
     "translit": "Ya ne zhenat.",
-    "en": "I'm not married. (m.)"
+    "en": "I'm not married. (m.)",
+    "pl": "Nie jestem żonaty. (m.)"
   },
   {
     "id": "a1-part-2-23",
     "ru": "Я не замужем.",
     "ruStressed": "Я не за́мужем.",
     "translit": "Ya ne zamuzhem.",
-    "en": "I'm not married. (f.)"
+    "en": "I'm not married. (f.)",
+    "pl": "Nie jestem zamężna. (f.)"
   },
   {
     "id": "a1-part-2-24",
     "ru": "Один, два, три.",
     "ruStressed": "Оди́н, два, три.",
     "translit": "Odin, dva, tri.",
-    "en": "One, two, three."
+    "en": "One, two, three.",
+    "pl": "Jeden, dwa, trzy."
   },
   {
     "id": "a1-part-2-25",
     "ru": "Четыре, пять, шесть.",
     "ruStressed": "Четы́ре, пять, шесть.",
     "translit": "Chetyre, pyat, shest.",
-    "en": "Four, five, six."
+    "en": "Four, five, six.",
+    "pl": "Cztery, pięć, sześć."
   },
   {
     "id": "a1-part-2-26",
     "ru": "Семь, восемь, девять, десять.",
     "ruStressed": "Семь, во́семь, де́вять, де́сять.",
     "translit": "Sem, vosem, devyat, desyat.",
-    "en": "Seven, eight, nine, ten."
+    "en": "Seven, eight, nine, ten.",
+    "pl": "Siedem, osiem, dziewięć, dziesięć."
   },
   {
     "id": "a1-part-2-27",
     "ru": "Одиннадцать, двенадцать.",
     "ruStressed": "Оди́ннадцать, двена́дцать.",
     "translit": "Odinnadtsat, dvenadtsat.",
-    "en": "Eleven, twelve."
+    "en": "Eleven, twelve.",
+    "pl": "Jedenaście, dwanaście."
   },
   {
     "id": "a1-part-2-28",
     "ru": "Двадцать, тридцать, сорок.",
     "ruStressed": "Два́дцать, три́дцать, со́рок.",
     "translit": "Dvadtsat, tridtsat, sorok.",
-    "en": "Twenty, thirty, forty."
+    "en": "Twenty, thirty, forty.",
+    "pl": "Dwadzieścia, trzydzieści, czterdzieści."
   },
   {
     "id": "a1-part-2-29",
     "ru": "Пятьдесят, шестьдесят.",
     "ruStressed": "Пятьдеся́т, шестьдеся́т.",
     "translit": "Pyatdesyat, shestdesyat.",
-    "en": "Fifty, sixty."
+    "en": "Fifty, sixty.",
+    "pl": "Pięćdziesiąt, sześćdziesiąt."
   },
   {
     "id": "a1-part-2-30",
     "ru": "Сто, двести, тысяча.",
     "ruStressed": "Сто, две́сти, ты́сяча.",
     "translit": "Sto, dvesti, tysyacha.",
-    "en": "One hundred, two hundred, one thousand."
+    "en": "One hundred, two hundred, one thousand.",
+    "pl": "Sto, dwieście, tysiąc."
   },
   {
     "id": "a1-part-2-31",
     "ru": "Мне двадцать лет.",
     "ruStressed": "Мне два́дцать лет.",
     "translit": "Mne dvadtsat let.",
-    "en": "I am twenty years old."
+    "en": "I am twenty years old.",
+    "pl": "Mam dwadzieścia lat."
   },
   {
     "id": "a1-part-2-32",
     "ru": "Мне тридцать лет.",
     "ruStressed": "Мне три́дцать лет.",
     "translit": "Mne tridtsat let.",
-    "en": "I am thirty years old."
+    "en": "I am thirty years old.",
+    "pl": "Mam trzydzieści lat."
   },
   {
     "id": "a1-part-2-33",
     "ru": "Ему пять лет.",
     "ruStressed": "Ему́ пять лет.",
     "translit": "Emu pyat let.",
-    "en": "He is five years old."
+    "en": "He is five years old.",
+    "pl": "On ma pięć lat."
   },
   {
     "id": "a1-part-2-34",
     "ru": "Ей десять лет.",
     "ruStressed": "Ей де́сять лет.",
     "translit": "Ey desyat let.",
-    "en": "She is ten years old."
+    "en": "She is ten years old.",
+    "pl": "Ona ma dziesięć lat."
   },
   {
     "id": "a1-part-2-35",
     "ru": "Сколько тебе лет?",
     "ruStressed": "Ско́лько тебе́ лет?",
     "translit": "Skolko tebe let?",
-    "en": "How old are you?"
+    "en": "How old are you?",
+    "pl": "Ile masz lat?"
   },
   {
     "id": "a1-part-2-36",
     "ru": "Сколько вам лет?",
     "ruStressed": "Ско́лько вам лет?",
     "translit": "Skolko vam let?",
-    "en": "How old are you? (formal)"
+    "en": "How old are you? (formal)",
+    "pl": "Ile ma Pan/Pani lat? (formal)"
   },
   {
     "id": "a1-part-2-37",
     "ru": "Сегодня понедельник.",
     "ruStressed": "Сего́дня понеде́льник.",
     "translit": "Segodnya ponedelnik.",
-    "en": "Today is Monday."
+    "en": "Today is Monday.",
+    "pl": "Dzisiaj jest poniedziałek."
   },
   {
     "id": "a1-part-2-38",
     "ru": "Завтра вторник.",
     "ruStressed": "За́втра вто́рник.",
     "translit": "Zavtra vtornik.",
-    "en": "Tomorrow is Tuesday."
+    "en": "Tomorrow is Tuesday.",
+    "pl": "Jutro jest wtorek."
   },
   {
     "id": "a1-part-2-39",
     "ru": "Среда — мой любимый день.",
     "ruStressed": "Среда́ — мой люби́мый день.",
     "translit": "Sreda — moy lyubimyy den.",
-    "en": "Wednesday is my favourite day."
+    "en": "Wednesday is my favourite day.",
+    "pl": "Środa to mój ulubiony dzień."
   },
   {
     "id": "a1-part-2-40",
     "ru": "В четверг я работаю.",
     "ruStressed": "В четве́рг я рабо́таю.",
     "translit": "V chetverg ya rabotayu.",
-    "en": "I work on Thursday."
+    "en": "I work on Thursday.",
+    "pl": "W czwartek pracuję."
   },
   {
     "id": "a1-part-2-41",
     "ru": "В пятницу я отдыхаю.",
     "ruStressed": "В пя́тницу я отдыха́ю.",
     "translit": "V pyatnitsu ya otdykhayu.",
-    "en": "I rest on Friday."
+    "en": "I rest on Friday.",
+    "pl": "W piątek odpoczywam."
   },
   {
     "id": "a1-part-2-42",
     "ru": "В субботу я гуляю.",
     "ruStressed": "В суббо́ту я гуля́ю.",
     "translit": "V subbotu ya gulyayu.",
-    "en": "I go for a walk on Saturday."
+    "en": "I go for a walk on Saturday.",
+    "pl": "W sobotę idę na spacer."
   },
   {
     "id": "a1-part-2-43",
     "ru": "В воскресенье я дома.",
     "ruStressed": "В воскресе́нье я до́ма.",
     "translit": "V voskresene ya doma.",
-    "en": "On Sunday I am at home."
+    "en": "On Sunday I am at home.",
+    "pl": "W niedzielę jestem w domu."
   },
   {
     "id": "a1-part-2-44",
     "ru": "Какой сегодня день?",
     "ruStressed": "Како́й сего́дня день?",
     "translit": "Kakoy segodnya den?",
-    "en": "What day is it today?"
+    "en": "What day is it today?",
+    "pl": "Jaki jest dzisiaj dzień?"
   },
   {
     "id": "a1-part-2-45",
     "ru": "Который час?",
     "ruStressed": "Кото́рый час?",
     "translit": "Kotoryy chas?",
-    "en": "What time is it?"
+    "en": "What time is it?",
+    "pl": "Która jest godzina?"
   },
   {
     "id": "a1-part-2-46",
     "ru": "Сейчас десять часов.",
     "ruStressed": "Сейча́с де́сять часо́в.",
     "translit": "Seychas desyat chasov.",
-    "en": "It is ten o'clock now."
+    "en": "It is ten o'clock now.",
+    "pl": "Jest teraz dziesiąta."
   },
   {
     "id": "a1-part-2-47",
     "ru": "Сейчас час дня.",
     "ruStressed": "Сейча́с час дня.",
     "translit": "Seychas chas dnya.",
-    "en": "It is one in the afternoon."
+    "en": "It is one in the afternoon.",
+    "pl": "Jest pierwsza po południu."
   },
   {
     "id": "a1-part-2-48",
     "ru": "Сейчас полночь.",
     "ruStressed": "Сейча́с по́лночь.",
     "translit": "Seychas polnoch.",
-    "en": "It is midnight."
+    "en": "It is midnight.",
+    "pl": "Jest północ."
   },
   {
     "id": "a1-part-2-49",
     "ru": "Сейчас полдень.",
     "ruStressed": "Сейча́с по́лдень.",
     "translit": "Seychas polden.",
-    "en": "It is noon."
+    "en": "It is noon.",
+    "pl": "Jest południe."
   },
   {
     "id": "a1-part-2-50",
     "ru": "Утром я пью кофе.",
     "ruStressed": "У́тром я пью ко́фе.",
     "translit": "Utrom ya pyu kofe.",
-    "en": "In the morning I drink coffee."
+    "en": "In the morning I drink coffee.",
+    "pl": "Rano piję kawę."
   },
   {
     "id": "a1-part-2-51",
     "ru": "Днём я работаю.",
     "ruStressed": "Днём я рабо́таю.",
     "translit": "Dnyom ya rabotayu.",
-    "en": "In the daytime I work."
+    "en": "In the daytime I work.",
+    "pl": "W dzień pracuję."
   },
   {
     "id": "a1-part-2-52",
     "ru": "Вечером я читаю.",
     "ruStressed": "Ве́чером я чита́ю.",
     "translit": "Vecherom ya chitayu.",
-    "en": "In the evening I read."
+    "en": "In the evening I read.",
+    "pl": "Wieczorem czytam."
   },
   {
     "id": "a1-part-2-53",
     "ru": "Ночью я сплю.",
     "ruStressed": "Но́чью я сплю.",
     "translit": "Nochyu ya splyu.",
-    "en": "At night I sleep."
+    "en": "At night I sleep.",
+    "pl": "W nocy śpię."
   },
   {
     "id": "a1-part-2-54",
     "ru": "Январь — первый месяц.",
     "ruStressed": "Янва́рь — пе́рвый ме́сяц.",
     "translit": "Yanvar — pervyy mesyats.",
-    "en": "January is the first month."
+    "en": "January is the first month.",
+    "pl": "Styczeń to pierwszy miesiąc."
   },
   {
     "id": "a1-part-2-55",
     "ru": "Сейчас март.",
     "ruStressed": "Сейча́с март.",
     "translit": "Seychas mart.",
-    "en": "It is March now."
+    "en": "It is March now.",
+    "pl": "Teraz jest marzec."
   },
   {
     "id": "a1-part-2-56",
     "ru": "Летом жарко.",
     "ruStressed": "Ле́том жа́рко.",
     "translit": "Letom zharko.",
-    "en": "It is hot in summer."
+    "en": "It is hot in summer.",
+    "pl": "Latem jest gorąco."
   },
   {
     "id": "a1-part-2-57",
     "ru": "Зимой холодно.",
     "ruStressed": "Зимо́й хо́лодно.",
     "translit": "Zimoy kholodno.",
-    "en": "It is cold in winter."
+    "en": "It is cold in winter.",
+    "pl": "Zimą jest zimno."
   },
   {
     "id": "a1-part-2-58",
     "ru": "Весной тепло.",
     "ruStressed": "Весно́й тепло́.",
     "translit": "Vesnoy teplo.",
-    "en": "It is warm in spring."
+    "en": "It is warm in spring.",
+    "pl": "Wiosną jest ciepło."
   },
   {
     "id": "a1-part-2-59",
     "ru": "Осенью идёт дождь.",
     "ruStressed": "О́сенью идёт дождь.",
     "translit": "Osenyu idyot dozhd.",
-    "en": "It rains in autumn."
+    "en": "It rains in autumn.",
+    "pl": "Jesienią pada deszcz."
   },
   {
     "id": "a1-part-2-60",
     "ru": "Мой день рождения в мае.",
     "ruStressed": "Мой день рожде́ния в ма́е.",
     "translit": "Moy den rozhdeniya v mae.",
-    "en": "My birthday is in May."
+    "en": "My birthday is in May.",
+    "pl": "Moje urodziny są w maju."
   },
   {
     "id": "a1-part-2-61",
     "ru": "Что ты делаешь?",
     "ruStressed": "Что ты де́лаешь?",
     "translit": "Chto ty delaesh?",
-    "en": "What are you doing?"
+    "en": "What are you doing?",
+    "pl": "Co robisz?"
   },
   {
     "id": "a1-part-2-62",
     "ru": "Я читаю книгу.",
     "ruStressed": "Я чита́ю кни́гу.",
     "translit": "Ya chitayu knigu.",
-    "en": "I am reading a book."
+    "en": "I am reading a book.",
+    "pl": "Czytam książkę."
   },
   {
     "id": "a1-part-2-63",
     "ru": "Я смотрю телевизор.",
     "ruStressed": "Я смотрю́ телеви́зор.",
     "translit": "Ya smotryu televizor.",
-    "en": "I am watching TV."
+    "en": "I am watching TV.",
+    "pl": "Oglądam telewizję."
   },
   {
     "id": "a1-part-2-64",
     "ru": "Я слушаю музыку.",
     "ruStressed": "Я слу́шаю му́зыку.",
     "translit": "Ya slushayu muzyku.",
-    "en": "I am listening to music."
+    "en": "I am listening to music.",
+    "pl": "Słucham muzyki."
   },
   {
     "id": "a1-part-2-65",
     "ru": "Я пишу письмо.",
     "ruStressed": "Я пишу́ письмо́.",
     "translit": "Ya pishu pismo.",
-    "en": "I am writing a letter."
+    "en": "I am writing a letter.",
+    "pl": "Piszę list."
   },
   {
     "id": "a1-part-2-66",
     "ru": "Я играю в футбол.",
     "ruStressed": "Я игра́ю в футбо́л.",
     "translit": "Ya igrayu v futbol.",
-    "en": "I am playing football."
+    "en": "I am playing football.",
+    "pl": "Gram w piłkę nożną."
   },
   {
     "id": "a1-part-2-67",
     "ru": "Куда ты идёшь?",
     "ruStressed": "Куда́ ты идёшь?",
     "translit": "Kuda ty idyosh?",
-    "en": "Where are you going?"
+    "en": "Where are you going?",
+    "pl": "Dokąd idziesz?"
   },
   {
     "id": "a1-part-2-68",
     "ru": "Я иду домой.",
     "ruStressed": "Я иду́ домо́й.",
     "translit": "Ya idu domoy.",
-    "en": "I am going home."
+    "en": "I am going home.",
+    "pl": "Idę do domu."
   },
   {
     "id": "a1-part-2-69",
     "ru": "Я иду в магазин.",
     "ruStressed": "Я иду́ в магази́н.",
     "translit": "Ya idu v magazin.",
-    "en": "I am going to the store."
+    "en": "I am going to the store.",
+    "pl": "Idę do sklepu."
   },
   {
     "id": "a1-part-2-70",
     "ru": "Я еду на работу.",
     "ruStressed": "Я е́ду на рабо́ту.",
     "translit": "Ya edu na rabotu.",
-    "en": "I am going to work."
+    "en": "I am going to work.",
+    "pl": "Jadę do pracy."
   },
   {
     "id": "a1-part-2-71",
     "ru": "Откуда ты идёшь?",
     "ruStressed": "Отку́да ты идёшь?",
     "translit": "Otkuda ty idyosh?",
-    "en": "Where are you coming from?"
+    "en": "Where are you coming from?",
+    "pl": "Skąd idziesz?"
   },
   {
     "id": "a1-part-2-72",
     "ru": "Я иду из школы.",
     "ruStressed": "Я иду́ из шко́лы.",
     "translit": "Ya idu iz shkoly.",
-    "en": "I am coming from school."
+    "en": "I am coming from school.",
+    "pl": "Idę ze szkoły."
   },
   {
     "id": "a1-part-2-73",
     "ru": "Когда ты придёшь?",
     "ruStressed": "Когда́ ты придёшь?",
     "translit": "Kogda ty pridyosh?",
-    "en": "When will you come?"
+    "en": "When will you come?",
+    "pl": "Kiedy przyjdziesz?"
   },
   {
     "id": "a1-part-2-74",
     "ru": "Я приду вечером.",
     "ruStressed": "Я приду́ ве́чером.",
     "translit": "Ya pridu vecherom.",
-    "en": "I will come in the evening."
+    "en": "I will come in the evening.",
+    "pl": "Przyjdę wieczorem."
   },
   {
     "id": "a1-part-2-75",
     "ru": "Почему ты грустный?",
     "ruStressed": "Почему́ ты гру́стный?",
     "translit": "Pochemu ty grustnyy?",
-    "en": "Why are you sad?"
+    "en": "Why are you sad?",
+    "pl": "Dlaczego jesteś smutny?"
   },
   {
     "id": "a1-part-2-76",
     "ru": "Почему ты радостный?",
     "ruStressed": "Почему́ ты ра́достный?",
     "translit": "Pochemu ty radostnyy?",
-    "en": "Why are you happy?"
+    "en": "Why are you happy?",
+    "pl": "Dlaczego jesteś radosny?"
   },
   {
     "id": "a1-part-2-77",
     "ru": "Потому что я устал.",
     "ruStressed": "Потому́ что я уста́л.",
     "translit": "Potomu chto ya ustal.",
-    "en": "Because I'm tired."
+    "en": "Because I'm tired.",
+    "pl": "Bo jestem zmęczony."
   },
   {
     "id": "a1-part-2-78",
     "ru": "Потому что я отдохнул.",
     "ruStressed": "Потому́ что я отдохну́л.",
     "translit": "Potomu chto ya otdokhnul.",
-    "en": "Because I rested."
+    "en": "Because I rested.",
+    "pl": "Bo odpocząłem."
   },
   {
     "id": "a1-part-2-79",
     "ru": "Это мой телефон.",
     "ruStressed": "Э́то мой телефо́н.",
     "translit": "Eto moy telefon.",
-    "en": "This is my phone."
+    "en": "This is my phone.",
+    "pl": "To jest mój telefon."
   },
   {
     "id": "a1-part-2-80",
     "ru": "Это твоя сумка.",
     "ruStressed": "Э́то твоя́ су́мка.",
     "translit": "Eto tvoya sumka.",
-    "en": "This is your bag."
+    "en": "This is your bag.",
+    "pl": "To jest twoja torba."
   },
   {
     "id": "a1-part-2-81",
     "ru": "Это его машина.",
     "ruStressed": "Э́то его́ маши́на.",
     "translit": "Eto ego mashina.",
-    "en": "This is his car."
+    "en": "This is his car.",
+    "pl": "To jest jego samochód."
   },
   {
     "id": "a1-part-2-82",
     "ru": "Это её книга.",
     "ruStressed": "Э́то её кни́га.",
     "translit": "Eto eyo kniga.",
-    "en": "This is her book."
+    "en": "This is her book.",
+    "pl": "To jest jej książka."
   },
   {
     "id": "a1-part-2-83",
     "ru": "Это наши друзья.",
     "ruStressed": "Э́то на́ши друзья́.",
     "translit": "Eto nashi druzya.",
-    "en": "These are our friends."
+    "en": "These are our friends.",
+    "pl": "To są nasi przyjaciele."
   },
   {
     "id": "a1-part-2-84",
     "ru": "Это ваши вещи.",
     "ruStressed": "Э́то ва́ши ве́щи.",
     "translit": "Eto vashi veshchi.",
-    "en": "These are your things."
+    "en": "These are your things.",
+    "pl": "To są wasze rzeczy."
   },
   {
     "id": "a1-part-2-85",
     "ru": "Это их дом.",
     "ruStressed": "Э́то их дом.",
     "translit": "Eto ikh dom.",
-    "en": "This is their house."
+    "en": "This is their house.",
+    "pl": "To jest ich dom."
   },
   {
     "id": "a1-part-2-86",
     "ru": "Чей это зонт?",
     "ruStressed": "Чей э́то зонт?",
     "translit": "Chey eto zont?",
-    "en": "Whose umbrella is this?"
+    "en": "Whose umbrella is this?",
+    "pl": "Czyj to parasol?"
   },
   {
     "id": "a1-part-2-87",
     "ru": "Чья это ручка?",
     "ruStressed": "Чья э́то ру́чка?",
     "translit": "Chya eto ruchka?",
-    "en": "Whose pen is this?"
+    "en": "Whose pen is this?",
+    "pl": "Czyj to długopis?"
   },
   {
     "id": "a1-part-2-88",
     "ru": "Чьи это очки?",
     "ruStressed": "Чьи э́то очки́?",
     "translit": "Chi eto ochki?",
-    "en": "Whose glasses are these?"
+    "en": "Whose glasses are these?",
+    "pl": "Czyje to okulary?"
   },
   {
     "id": "a1-part-2-89",
     "ru": "Он высокий.",
     "ruStressed": "Он высо́кий.",
     "translit": "On vysokiy.",
-    "en": "He is tall."
+    "en": "He is tall.",
+    "pl": "On jest wysoki."
   },
   {
     "id": "a1-part-2-90",
     "ru": "Она низкого роста.",
     "ruStressed": "Она́ ни́зкого ро́ста.",
     "translit": "Ona nizkogo rosta.",
-    "en": "She is short."
+    "en": "She is short.",
+    "pl": "Ona jest niska."
   },
   {
     "id": "a1-part-2-91",
     "ru": "Он молодой.",
     "ruStressed": "Он молодо́й.",
     "translit": "On molodoy.",
-    "en": "He is young."
+    "en": "He is young.",
+    "pl": "On jest młody."
   },
   {
     "id": "a1-part-2-92",
     "ru": "Она старая.",
     "ruStressed": "Она́ ста́рая.",
     "translit": "Ona staraya.",
-    "en": "She is old."
+    "en": "She is old.",
+    "pl": "Ona jest stara."
   },
   {
     "id": "a1-part-2-93",
     "ru": "Он умный.",
     "ruStressed": "Он у́мный.",
     "translit": "On umnyy.",
-    "en": "He is smart."
+    "en": "He is smart.",
+    "pl": "On jest mądry."
   },
   {
     "id": "a1-part-2-94",
     "ru": "Она красивая.",
     "ruStressed": "Она́ краси́вая.",
     "translit": "Ona krasivaya.",
-    "en": "She is beautiful."
+    "en": "She is beautiful.",
+    "pl": "Ona jest piękna."
   },
   {
     "id": "a1-part-2-95",
     "ru": "Он добрый.",
     "ruStressed": "Он до́брый.",
     "translit": "On dobryy.",
-    "en": "He is kind."
+    "en": "He is kind.",
+    "pl": "On jest miły."
   },
   {
     "id": "a1-part-2-96",
     "ru": "Она весёлая.",
     "ruStressed": "Она́ весёлая.",
     "translit": "Ona vesyolaya.",
-    "en": "She is cheerful."
+    "en": "She is cheerful.",
+    "pl": "Ona jest wesoła."
   },
   {
     "id": "a1-part-2-97",
     "ru": "Я устал.",
     "ruStressed": "Я уста́л.",
     "translit": "Ya ustal.",
-    "en": "I am tired. (m.)"
+    "en": "I am tired. (m.)",
+    "pl": "Jestem zmęczony. (m.)"
   },
   {
     "id": "a1-part-2-98",
     "ru": "Я устала.",
     "ruStressed": "Я уста́ла.",
     "translit": "Ya ustala.",
-    "en": "I am tired. (f.)"
+    "en": "I am tired. (f.)",
+    "pl": "Jestem zmęczona. (f.)"
   },
   {
     "id": "a1-part-2-99",
     "ru": "Я голоден.",
     "ruStressed": "Я го́лоден.",
     "translit": "Ya goloden.",
-    "en": "I am hungry. (m.)"
+    "en": "I am hungry. (m.)",
+    "pl": "Jestem głodny. (m.)"
   },
   {
     "id": "a1-part-2-100",
     "ru": "Я голодна.",
     "ruStressed": "Я голодна́.",
     "translit": "Ya golodna.",
-    "en": "I am hungry. (f.)"
+    "en": "I am hungry. (f.)",
+    "pl": "Jestem głodna. (f.)"
   },
   {
     "id": "a1-part-2-101",
     "ru": "Я живу один.",
     "ruStressed": "Я живу́ оди́н.",
     "translit": "Ya zhivu odin.",
-    "en": "I live alone. (m.)"
+    "en": "I live alone. (m.)",
+    "pl": "Mieszkam sam. (m.)"
   },
   {
     "id": "a1-part-2-102",
     "ru": "Я живу одна.",
     "ruStressed": "Я живу́ одна́.",
     "translit": "Ya zhivu odna.",
-    "en": "I live alone. (f.)"
+    "en": "I live alone. (f.)",
+    "pl": "Mieszkam sama. (f.)"
   },
   {
     "id": "a1-part-2-103",
     "ru": "Я работаю каждый день.",
     "ruStressed": "Я рабо́таю ка́ждый день.",
     "translit": "Ya rabotayu kazhdyy den.",
-    "en": "I work every day."
+    "en": "I work every day.",
+    "pl": "Pracuję codziennie."
   },
   {
     "id": "a1-part-2-104",
     "ru": "Я учусь в университете.",
     "ruStressed": "Я учу́сь в университе́те.",
     "translit": "Ya uchus v universitete.",
-    "en": "I study at the university."
+    "en": "I study at the university.",
+    "pl": "Studiuję na uniwersytecie."
   },
   {
     "id": "a1-part-2-105",
     "ru": "Я люблю свою семью.",
     "ruStressed": "Я люблю́ свою́ семью́.",
     "translit": "Ya lyublyu svoyu semyu.",
-    "en": "I love my family."
+    "en": "I love my family.",
+    "pl": "Kocham moją rodzinę."
   },
   {
     "id": "a1-part-2-106",
     "ru": "Я часто пишу маме.",
     "ruStressed": "Я ча́сто пишу́ ма́ме.",
     "translit": "Ya chasto pishu mame.",
-    "en": "I often write to my mom."
+    "en": "I often write to my mom.",
+    "pl": "Często piszę do mamy."
   },
   {
     "id": "a1-part-2-107",
     "ru": "Мы говорим по-русски.",
     "ruStressed": "Мы говори́м по-ру́сски.",
     "translit": "My govorim po-russki.",
-    "en": "We speak Russian."
+    "en": "We speak Russian.",
+    "pl": "Mówimy po rosyjsku."
   },
   {
     "id": "a1-part-2-108",
     "ru": "Они живут в Москве.",
     "ruStressed": "Они́ живу́т в Москве́.",
     "translit": "Oni zhivut v Moskve.",
-    "en": "They live in Moscow."
+    "en": "They live in Moscow.",
+    "pl": "Oni mieszkają w Moskwie."
   },
   {
     "id": "a1-part-2-109",
     "ru": "Это моя мама.",
     "ruStressed": "Э́то моя́ ма́ма.",
     "translit": "Eto moya mama.",
-    "en": "This is my mother."
+    "en": "This is my mother.",
+    "pl": "To jest moja mama."
   },
   {
     "id": "a1-part-2-110",
     "ru": "Какого цвета машина?",
     "ruStressed": "Како́го цве́та маши́на?",
     "translit": "Kakogo tsveta mashina?",
-    "en": "What color is the car?"
+    "en": "What color is the car?",
+    "pl": "Jakiego koloru jest samochód?"
   },
   {
     "id": "a1-part-2-111",
     "ru": "Дом белый.",
     "ruStressed": "Дом бе́лый.",
     "translit": "Dom belyy.",
-    "en": "The house is white."
+    "en": "The house is white.",
+    "pl": "Dom jest biały."
   },
   {
     "id": "a1-part-2-112",
     "ru": "У меня есть зелёная ручка.",
     "ruStressed": "У меня́ есть зелёная ру́чка.",
     "translit": "U menya est zelyonaya ruchka.",
-    "en": "I have a green pen."
+    "en": "I have a green pen.",
+    "pl": "Mam zielony długopis."
   },
   {
     "id": "a1-part-2-113",
     "ru": "Один, два, три, четыре.",
     "ruStressed": "Оди́н, два, три, четы́ре.",
     "translit": "Odin, dva, tri, chetyre.",
-    "en": "One, two, three, four."
+    "en": "One, two, three, four.",
+    "pl": "Jeden, dwa, trzy, cztery."
   },
   {
     "id": "a1-part-2-114",
     "ru": "Это мой сын.",
     "ruStressed": "Э́то мой сын.",
     "translit": "Eto moy syn.",
-    "en": "This is my son."
+    "en": "This is my son.",
+    "pl": "To jest mój syn."
   },
   {
     "id": "a1-part-2-115",
     "ru": "Моя дочь идёт в школу.",
     "ruStressed": "Моя́ дочь идёт в шко́лу.",
     "translit": "Moya doch idet v shkolu.",
-    "en": "My daughter goes to school."
+    "en": "My daughter goes to school.",
+    "pl": "Moja córka idzie do szkoły."
   },
   {
     "id": "a1-part-2-116",
     "ru": "Небо синее.",
     "ruStressed": "Не́бо си́нее.",
     "translit": "Nebo sinee.",
-    "en": "The sky is blue."
+    "en": "The sky is blue.",
+    "pl": "Niebo jest niebieskie."
   },
   {
     "id": "a1-part-2-117",
     "ru": "Дай мне пять ручек.",
     "ruStressed": "Дай мне пять ру́чек.",
     "translit": "Day mne pyat ruchek.",
-    "en": "Give me five pens."
+    "en": "Give me five pens.",
+    "pl": "Daj mi pięć długopisów."
   },
   {
     "id": "a1-part-2-118",
     "ru": "Книга чёрная.",
     "ruStressed": "Кни́га чёрная.",
     "translit": "Kniga chyornaya.",
-    "en": "The book is black."
+    "en": "The book is black.",
+    "pl": "Książka jest czarna."
   },
   {
     "id": "a1-part-2-119",
     "ru": "Где моя красная сумка?",
     "ruStressed": "Где моя́ кра́сная су́мка?",
     "translit": "Gde moya krasnaya sumka.",
-    "en": "Where is my red bag?"
+    "en": "Where is my red bag?",
+    "pl": "Gdzie jest moja czerwona torba?"
   },
   {
     "id": "a1-part-2-120",
     "ru": "У них есть пятьдесят рублей.",
     "ruStressed": "У них есть пятьдеся́т рубле́й.",
     "translit": "U nikh est pyatdesyat rubley.",
-    "en": "They have fifty rubles."
+    "en": "They have fifty rubles.",
+    "pl": "Oni mają pięćdziesiąt rubli."
   },
   {
     "id": "a1-part-2-121",
     "ru": "Сегодня четверг?",
     "ruStressed": "Сего́дня четве́рг?",
     "translit": "Segodnya chetverg?",
-    "en": "Is today Thursday?"
+    "en": "Is today Thursday?",
+    "pl": "Czy dzisiaj jest czwartek?"
   },
   {
     "id": "a1-part-2-122",
     "ru": "Кошка серая.",
     "ruStressed": "Ко́шка се́рая.",
     "translit": "Koshka seraya.",
-    "en": "The cat is gray."
+    "en": "The cat is gray.",
+    "pl": "Kot jest szary."
   },
   {
     "id": "a1-part-2-123",
     "ru": "Посмотри на этот жёлтый цветок.",
     "ruStressed": "Посмотри́ на э́тот жёлтый цвето́к.",
     "translit": "Posmotri na etot zhyoltyy tsvetok.",
-    "en": "Look at this yellow flower."
+    "en": "Look at this yellow flower.",
+    "pl": "Spójrz na ten żółty kwiatek."
   },
   {
     "id": "a1-part-2-124",
     "ru": "У меня есть восемьдесят долларов.",
     "ruStressed": "У меня́ есть во́семьдесят до́лларов.",
     "translit": "U menya est vosemdesyat dollarov.",
-    "en": "I have eighty dollars."
+    "en": "I have eighty dollars.",
+    "pl": "Mam osiemdziesiąt dolarów."
   },
   {
     "id": "a1-part-2-125",
     "ru": "Это моя маленькая семья.",
     "ruStressed": "Э́то моя́ ма́ленькая семья́.",
     "translit": "Eto moya malenkaya semya.",
-    "en": "This is my small family."
+    "en": "This is my small family.",
+    "pl": "To jest moja mała rodzina."
   },
   {
     "id": "a1-part-2-126",
     "ru": "Мой дом белый.",
     "ruStressed": "Мой дом бе́лый.",
     "translit": "Moy dom belyy.",
-    "en": "My house is white."
+    "en": "My house is white.",
+    "pl": "Mój dom jest biały."
   },
   {
     "id": "a1-part-2-127",
     "ru": "Это моя синяя машина.",
     "ruStressed": "Э́то моя́ си́няя маши́на.",
     "translit": "Eto moya sinyaya mashina.",
-    "en": "This is my blue car."
+    "en": "This is my blue car.",
+    "pl": "To jest mój niebieski samochód."
   },
   {
     "id": "a1-part-2-128",
     "ru": "У меня есть восемьдесят рублей.",
     "ruStressed": "У меня́ есть во́семьдесят рубле́й.",
     "translit": "U menya est vosemdesyat rubley.",
-    "en": "I have eighty rubles."
+    "en": "I have eighty rubles.",
+    "pl": "Mam osiemdziesiąt rubli."
   },
   {
     "id": "a1-part-2-129",
     "ru": "Какого цвета твоя рубашка?",
     "ruStressed": "Како́го цве́та твоя́ руба́шка?",
     "translit": "Kakogo tsveta tvoya rubashka?",
-    "en": "What color is your shirt?"
+    "en": "What color is your shirt?",
+    "pl": "Jakiego koloru jest twoja koszula?"
   },
   {
     "id": "a1-part-2-130",
     "ru": "Это мой чёрный кот.",
     "ruStressed": "Э́то мой чёрный кот.",
     "translit": "Eto moy chornyy kot.",
-    "en": "This is my black cat."
+    "en": "This is my black cat.",
+    "pl": "To jest mój czarny kot."
   },
   {
     "id": "a1-part-2-131",
     "ru": "У нас есть шестьдесят минут.",
     "ruStressed": "У нас есть шестьдеся́т мину́т.",
     "translit": "U nas est shestdesyat minut.",
-    "en": "We have sixty minutes."
+    "en": "We have sixty minutes.",
+    "pl": "Mamy sześćdziesiąt minut."
   },
   {
     "id": "a1-part-2-132",
     "ru": "Моё платье зелёное.",
     "ruStressed": "Моё пла́тье зелёное.",
     "translit": "Moe plate zelenoe.",
-    "en": "My dress is green."
+    "en": "My dress is green.",
+    "pl": "Moja sukienka jest zielona."
   },
   {
     "id": "a1-part-2-133",
     "ru": "У меня есть семьдесят долларов.",
     "ruStressed": "У меня́ есть се́мьдесят до́лларов.",
     "translit": "U menya est semdesyat dollarov.",
-    "en": "I have seventy dollars."
+    "en": "I have seventy dollars.",
+    "pl": "Mam siedemdziesiąt dolarów."
   },
   {
     "id": "a1-part-2-134",
     "ru": "Это мои братья.",
     "ruStressed": "Э́то мои́ бра́тья.",
     "translit": "Eto moi bratya.",
-    "en": "These are my brothers."
+    "en": "These are my brothers.",
+    "pl": "To są moi bracia."
   },
   {
     "id": "a1-part-2-135",
     "ru": "Это твоя мама?",
     "ruStressed": "Э́то твоя́ ма́ма?",
     "translit": "Eto tvoya mama?",
-    "en": "Is this your mother?"
+    "en": "Is this your mother?",
+    "pl": "Czy to twoja mama?"
   },
   {
     "id": "a1-part-2-136",
     "ru": "Дай мне пятнадцать яблок.",
     "ruStressed": "Дай мне пятна́дцать я́блок.",
     "translit": "Day mne pyatnadtsat yablok.",
-    "en": "Give me fifteen apples."
+    "en": "Give me fifteen apples.",
+    "pl": "Daj mi piętnaście jabłek."
   },
   {
     "id": "a1-part-2-137",
     "ru": "У меня есть девяносто книг.",
     "ruStressed": "У меня́ есть девяно́сто книг.",
     "translit": "U menya est devyanosto knig.",
-    "en": "I have ninety books."
+    "en": "I have ninety books.",
+    "pl": "Mam dziewięćdziesiąt książek."
   },
   {
     "id": "a1-part-2-138",
     "ru": "Моя семья дома.",
     "ruStressed": "Моя́ семья́ до́ма.",
     "translit": "Moya semya doma.",
-    "en": "My family is at home."
+    "en": "My family is at home.",
+    "pl": "Moja rodzina jest w domu."
   },
   {
     "id": "a1-part-2-139",
     "ru": "Где моя синяя ручка?",
     "ruStressed": "Где моя́ си́няя ру́чка?",
     "translit": "Gde moya sinyaya ruchka.",
-    "en": "Where is my blue pen?"
+    "en": "Where is my blue pen?",
+    "pl": "Gdzie jest mój niebieski długopis?"
   },
   {
     "id": "a1-part-2-140",
     "ru": "Семь, четырнадцать, двадцать один.",
     "ruStressed": "Семь, четы́рнадцать, два́дцать оди́н.",
     "translit": "Sem, chetyrnadtsat, dvadtsat odin.",
-    "en": "Seven, fourteen, twenty-one."
+    "en": "Seven, fourteen, twenty-one.",
+    "pl": "Siedem, czternaście, dwadzieścia jeden."
   },
   {
     "id": "a1-part-2-141",
     "ru": "Мой свитер зелёный.",
     "ruStressed": "Мой сви́тер зелёный.",
     "translit": "Moy sviter zelyonyy.",
-    "en": "My sweater is green."
+    "en": "My sweater is green.",
+    "pl": "Mój sweter jest zielony."
   },
   {
     "id": "a1-part-2-142",
     "ru": "Пять плюс пять будет десять.",
     "ruStressed": "Пять плюс пять бу́дет де́сять.",
     "translit": "Pyat plyus pyat budet desyat.",
-    "en": "Five plus five is ten."
+    "en": "Five plus five is ten.",
+    "pl": "Pięć plus pięć to dziesięć."
   },
   {
     "id": "a1-part-2-143",
     "ru": "Это твоя белая рубашка?",
     "ruStressed": "Э́то твоя́ бе́лая руба́шка?",
     "translit": "Eto tvoya belaya rubashka?",
-    "en": "Is this your white shirt?"
+    "en": "Is this your white shirt?",
+    "pl": "Czy to twoja biała koszula?"
   },
   {
     "id": "a1-part-2-144",
     "ru": "У него есть семьдесят долларов.",
     "ruStressed": "У него́ есть се́мьдесят до́лларов.",
     "translit": "U nego est semdesyat dollarov.",
-    "en": "He has seventy dollars."
+    "en": "He has seventy dollars.",
+    "pl": "On ma siedemdziesiąt dolarów."
   },
   {
     "id": "a1-part-2-145",
     "ru": "Это мой маленький сын.",
     "ruStressed": "Э́то мой ма́ленький сын.",
     "translit": "Eto moy malenkiy syn.",
-    "en": "This is my little son."
+    "en": "This is my little son.",
+    "pl": "To jest mój mały syn."
   },
   {
     "id": "a1-part-2-146",
     "ru": "У нас есть двенадцать яиц.",
     "ruStressed": "У нас есть двена́дцать яи́ц.",
     "translit": "U nas est dvenadtsat yaits.",
-    "en": "We have twelve eggs."
+    "en": "We have twelve eggs.",
+    "pl": "Mamy dwanaście jajek."
   },
   {
     "id": "a1-part-2-147",
     "ru": "Покажи мне серую машину.",
     "ruStressed": "Покажи́ мне се́рую ма́шину.",
     "translit": "Pokazhi mne seruyu mashinu.",
-    "en": "Show me the gray car."
+    "en": "Show me the gray car.",
+    "pl": "Pokaż mi szary samochód."
   },
   {
     "id": "a1-part-2-148",
     "ru": "Моей дочери пятнадцать лет.",
     "ruStressed": "Мое́й до́чери пятна́дцать лет.",
     "translit": "Moey docheri pyatnadtsat let.",
-    "en": "My daughter is fifteen."
+    "en": "My daughter is fifteen.",
+    "pl": "Moja córka ma piętnaście lat."
   },
   {
     "id": "a1-part-2-149",
     "ru": "У меня есть восемнадцать студентов.",
     "ruStressed": "У меня́ есть восемна́дцать студе́нтов.",
     "translit": "U menya est vosemnadtsat studentov.",
-    "en": "I have eighteen students."
+    "en": "I have eighteen students.",
+    "pl": "Mam osiemnastu studentów."
   },
   {
     "id": "a1-part-2-150",
     "ru": "Моя синяя ручка здесь.",
     "ruStressed": "Моя́ си́няя ру́чка здесь.",
     "translit": "Moya sinyaya ruchka zdes.",
-    "en": "My blue pen is here."
+    "en": "My blue pen is here.",
+    "pl": "Mój niebieski długopis jest tutaj."
   }
 ]
