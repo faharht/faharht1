@@ -897,12 +897,15 @@ function GrammarSheet({
   onJump,
 }: {
   pack: GrammarPack;
-  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; translit?: string }>;
+  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; pl?: string; translit?: string }>;
   open: boolean;
   onOpenChange: (v: boolean) => void;
   onSpeak: (text: string) => void;
   onJump: (id: string) => void;
 }) {
+  const { t, locale } = useT();
+  const trText = (s: { en: string; pl?: string }) =>
+    locale === "pl" && s.pl ? s.pl : s.en;
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent side="bottom" className="max-h-[88vh] overflow-y-auto rounded-t-3xl">
@@ -911,16 +914,16 @@ function GrammarSheet({
             <BookOpen className="h-5 w-5" />
           </span>
           <div className="min-w-0 flex-1">
-            <SheetTitle>Grammar notes</SheetTitle>
-            <SheetDescription>Tap an example to hear it, or jump to the matching sentence in the list.</SheetDescription>
+            <SheetTitle>{t("grammar.title")}</SheetTitle>
+            <SheetDescription>{t("grammar.desc")}</SheetDescription>
             {pack.tags && pack.tags.length > 0 && (
               <div className="mt-2 flex flex-wrap gap-1">
-                {pack.tags.map((t) => (
+                {pack.tags.map((tag) => (
                   <span
-                    key={t}
+                    key={tag}
                     className="rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium capitalize text-primary"
                   >
-                    {t}
+                    {tag}
                   </span>
                 ))}
               </div>
@@ -951,7 +954,7 @@ function GrammarSheet({
                         <button
                           onClick={() => onSpeak(ex.ru)}
                           className="grid h-9 w-9 shrink-0 place-items-center rounded-md border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10"
-                          aria-label={`Play ${ex.ru}`}
+                          aria-label={t("grammar.play", { t: ex.ru })}
                         >
                           <Volume2 className="h-4 w-4" />
                         </button>
@@ -971,7 +974,7 @@ function GrammarSheet({
                 {matches.length > 0 && (
                   <div className="mt-3 border-t border-border/50 pt-3">
                     <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
-                      From this list
+                      {t("grammar.fromList")}
                     </p>
                     <ul className="space-y-2">
                       {matches.map((s) => (
@@ -982,7 +985,7 @@ function GrammarSheet({
                           <button
                             onClick={() => onSpeak(s.ru)}
                             className="grid h-9 w-9 shrink-0 place-items-center rounded-md border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10"
-                            aria-label={`Play ${s.ru}`}
+                            aria-label={t("grammar.play", { t: s.ru })}
                           >
                             <Volume2 className="h-4 w-4" />
                           </button>
@@ -990,12 +993,12 @@ function GrammarSheet({
                             <p lang="ru" className="text-sm font-semibold text-foreground break-words">
                               {s.ru}
                             </p>
-                            <p className="text-xs text-muted-foreground break-words">{s.en}</p>
+                            <p className="text-xs text-muted-foreground break-words">{trText(s)}</p>
                             <button
                               onClick={() => onJump(s.id)}
                               className="mt-1 text-[11px] font-semibold text-primary underline-offset-2 hover:underline"
                             >
-                              Jump to sentence →
+                              {t("grammar.jump")}
                             </button>
                           </div>
                         </li>
