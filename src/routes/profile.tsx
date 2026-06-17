@@ -37,8 +37,6 @@ type SessionUser = { id: string; email: string | null } | null;
 
 function ProfilePage() {
   useDayTick();
-function ProfilePage() {
-  useDayTick();
   const { t } = useT();
   const navigate = useNavigate();
   const [user, setUser] = useState<SessionUser>(null);
