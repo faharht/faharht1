@@ -524,6 +524,7 @@ function maskText(text: string): string {
 function ListenCard({
   idx,
   sentence,
+  translation,
   stars,
   fav,
   active,
@@ -540,7 +541,8 @@ function ListenCard({
   onToggleFav,
 }: {
   idx: number;
-  sentence: { id: string; ru: string; ruStressed?: string; en: string; translit?: string };
+  sentence: { id: string; ru: string; ruStressed?: string; en: string; pl?: string; translit?: string };
+  translation: string;
   stars: number;
   fav: boolean;
   active: boolean;
@@ -556,6 +558,7 @@ function ListenCard({
   onStars: (v: number) => void;
   onToggleFav: () => void;
 }) {
+  const { t } = useT();
   const [revealed, setRevealed] = useState(false);
   useEffect(() => {
     if (!listenMode) setRevealed(false);
@@ -585,13 +588,13 @@ function ListenCard({
           onClick={onPlay}
           disabled={!speechReady}
           className="grid h-10 w-10 place-items-center rounded-lg border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 disabled:opacity-40"
-          aria-label="Play sentence"
+          aria-label={t("list.card.playSentence")}
         >
           <Volume2 className="h-4 w-4" />
         </button>
         <button
           onClick={onToggleFav}
-          aria-label={fav ? "Remove from favorites" : "Add to favorites"}
+          aria-label={fav ? t("list.card.removeFav") : t("list.card.addFav")}
           aria-pressed={fav}
           className={cn(
             "grid h-10 w-10 place-items-center rounded-lg border transition",
@@ -607,14 +610,14 @@ function ListenCard({
         </div>
       </div>
 
-      <p className="mt-3 text-sm text-foreground/80">{sentence.en}</p>
+      <p className="mt-3 text-sm text-foreground/80">{translation}</p>
 
       {hideRu ? (
         <button
           onClick={() => setRevealed(true)}
           className="mt-3 w-full rounded-xl border border-dashed border-primary/40 bg-primary/5 px-3 py-4 text-xs font-semibold text-primary hover:bg-primary/10"
         >
-          Tap to reveal Russian
+          {t("list.card.tapReveal")}
         </button>
       ) : maskRu ? (
         <p
@@ -622,7 +625,7 @@ function ListenCard({
             "mt-3 font-semibold leading-snug tracking-widest text-muted-foreground select-none",
             textSizeClass,
           )}
-          aria-label="Russian hidden"
+          aria-label={t("list.card.ruHidden")}
         >
           {maskText(sentence.ruStressed || sentence.ru)}
         </p>
