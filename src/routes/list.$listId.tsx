@@ -413,6 +413,7 @@ function ListPage() {
                 key={s.id}
                 idx={idx}
                 sentence={s}
+                translation={trText(s)}
                 stars={stars}
                 fav={fav}
                 active={active}
@@ -441,11 +442,11 @@ function ListPage() {
             <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-primary/15 text-xs font-bold text-primary">
               #{(currentIdx ?? 0) + 1}
             </span>
-            <p className="min-w-0 flex-1 truncate text-sm text-foreground">{nowPlaying.en}</p>
+            <p className="min-w-0 flex-1 truncate text-sm text-foreground">{trText(nowPlaying)}</p>
             <button
               onClick={stopAll}
               className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground shadow-sm hover:opacity-90"
-              aria-label="Stop"
+              aria-label={t("list.stop")}
             >
               <Square className="h-4 w-4 fill-current" />
             </button>
