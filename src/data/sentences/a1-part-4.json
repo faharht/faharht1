@@ -484,420 +484,480 @@
     "ru": "Сегодня солнечно.",
     "ruStressed": "Сего́дня со́лнечно.",
     "translit": "Segodnya solnechno.",
-    "en": "It's sunny today."
+    "en": "It's sunny today.",
+    "pl": "Dzisiaj jest słonecznie."
   },
   {
     "id": "a1-part-4-62",
     "ru": "Сегодня облачно.",
     "ruStressed": "Сего́дня о́блачно.",
     "translit": "Segodnya oblachno.",
-    "en": "It's cloudy today."
+    "en": "It's cloudy today.",
+    "pl": "Dzisiaj jest pochmurno."
   },
   {
     "id": "a1-part-4-63",
     "ru": "Сегодня ветрено.",
     "ruStressed": "Сего́дня ве́трено.",
     "translit": "Segodnya vetreno.",
-    "en": "It's windy today."
+    "en": "It's windy today.",
+    "pl": "Dzisiaj jest wietrznie."
   },
   {
     "id": "a1-part-4-64",
     "ru": "На улице холодно.",
     "ruStressed": "На у́лице холодно́.",
     "translit": "Na ulitse kholodno.",
-    "en": "It's cold outside."
+    "en": "It's cold outside.",
+    "pl": "Na zewnątrz jest zimno."
   },
   {
     "id": "a1-part-4-65",
     "ru": "На улице тепло.",
     "ruStressed": "На у́лице тепло́.",
     "translit": "Na ulitse teplo.",
-    "en": "It's warm outside."
+    "en": "It's warm outside.",
+    "pl": "Na zewnątrz jest ciepło."
   },
   {
     "id": "a1-part-4-66",
     "ru": "На улице жарко.",
     "ruStressed": "На у́лице жа́рко.",
     "translit": "Na ulitse zharko.",
-    "en": "It's hot outside."
+    "en": "It's hot outside.",
+    "pl": "Na zewnątrz jest gorąco."
   },
   {
     "id": "a1-part-4-67",
     "ru": "Завтра будет дождь.",
     "ruStressed": "За́втра бу́дет дождь.",
     "translit": "Zavtra budet dozhd.",
-    "en": "It will rain tomorrow."
+    "en": "It will rain tomorrow.",
+    "pl": "Jutro będzie padać."
   },
   {
     "id": "a1-part-4-68",
     "ru": "Завтра будет солнечно.",
     "ruStressed": "За́втра бу́дет со́лнечно.",
     "translit": "Zavtra budet solnechno.",
-    "en": "It will be sunny tomorrow."
+    "en": "It will be sunny tomorrow.",
+    "pl": "Jutro będzie słonecznie."
   },
   {
     "id": "a1-part-4-69",
     "ru": "Возьми зонт.",
     "ruStressed": "Возьми́ зонт.",
     "translit": "Vozmi zont.",
-    "en": "Take an umbrella."
+    "en": "Take an umbrella.",
+    "pl": "Weź parasol."
   },
   {
     "id": "a1-part-4-70",
     "ru": "Надень куртку.",
     "ruStressed": "Наде́нь ку́ртку.",
     "translit": "Naden kurtku.",
-    "en": "Put on a jacket."
+    "en": "Put on a jacket.",
+    "pl": "Załóż kurtkę."
   },
   {
     "id": "a1-part-4-71",
     "ru": "Надень шапку.",
     "ruStressed": "Наде́нь ша́пку.",
     "translit": "Naden shapku.",
-    "en": "Put on a hat."
+    "en": "Put on a hat.",
+    "pl": "Załóż czapkę."
   },
   {
     "id": "a1-part-4-72",
     "ru": "Сегодня плюс пять градусов.",
     "ruStressed": "Сего́дня плюс пять гра́дусов.",
     "translit": "Segodnya plyus pyat gradusov.",
-    "en": "Today it's plus five degrees."
+    "en": "Today it's plus five degrees.",
+    "pl": "Dzisiaj jest plus pięć stopni."
   },
   {
     "id": "a1-part-4-73",
     "ru": "Сегодня минус десять градусов.",
     "ruStressed": "Сего́дня ми́нус де́сять гра́дусов.",
     "translit": "Segodnya minus desyat gradusov.",
-    "en": "Today it's minus ten degrees."
+    "en": "Today it's minus ten degrees.",
+    "pl": "Dzisiaj jest minus dziesięć stopni."
   },
   {
     "id": "a1-part-4-74",
     "ru": "Я встаю рано.",
     "ruStressed": "Я встаю́ ра́но.",
     "translit": "Ya vstayu rano.",
-    "en": "I get up early."
+    "en": "I get up early.",
+    "pl": "Wstaję wcześnie."
   },
   {
     "id": "a1-part-4-75",
     "ru": "Я ложусь поздно.",
     "ruStressed": "Я ложу́сь по́здно.",
     "translit": "Ya lozhus pozdno.",
-    "en": "I go to bed late."
+    "en": "I go to bed late.",
+    "pl": "Kładę się spać późno."
   },
   {
     "id": "a1-part-4-76",
     "ru": "Я чищу зубы утром.",
     "ruStressed": "Я чи́щу зу́бы у́тром.",
     "translit": "Ya chishchu zuby utrom.",
-    "en": "I brush my teeth in the morning."
+    "en": "I brush my teeth in the morning.",
+    "pl": "Rano myję zęby."
   },
   {
     "id": "a1-part-4-77",
     "ru": "Я принимаю душ.",
     "ruStressed": "Я принима́ю душ.",
     "translit": "Ya prinimayu dush.",
-    "en": "I take a shower."
+    "en": "I take a shower.",
+    "pl": "Biorę prysznic."
   },
   {
     "id": "a1-part-4-78",
     "ru": "Я завтракаю дома.",
     "ruStressed": "Я за́втракаю до́ма.",
     "translit": "Ya zavtrakayu doma.",
-    "en": "I have breakfast at home."
+    "en": "I have breakfast at home.",
+    "pl": "Jem śniadanie w domu."
   },
   {
     "id": "a1-part-4-79",
     "ru": "Я обедаю на работе.",
     "ruStressed": "Я обе́даю на рабо́те.",
     "translit": "Ya obedayu na rabote.",
-    "en": "I have lunch at work."
+    "en": "I have lunch at work.",
+    "pl": "Jem obiad w pracy."
   },
   {
     "id": "a1-part-4-80",
     "ru": "Я ужинаю с семьёй.",
     "ruStressed": "Я у́жинаю с семьёй.",
     "translit": "Ya uzhinayu s semyoy.",
-    "en": "I have dinner with my family."
+    "en": "I have dinner with my family.",
+    "pl": "Jem kolację z rodziną."
   },
   {
     "id": "a1-part-4-81",
     "ru": "После работы я гуляю.",
     "ruStressed": "По́сле рабо́ты я гуля́ю.",
     "translit": "Posle raboty ya gulyayu.",
-    "en": "After work I go for a walk."
+    "en": "After work I go for a walk.",
+    "pl": "Po pracy idę na spacer."
   },
   {
     "id": "a1-part-4-82",
     "ru": "По выходным я отдыхаю.",
     "ruStressed": "По выходны́м я отдыха́ю.",
     "translit": "Po vykhodnym ya otdykhayu.",
-    "en": "On weekends I rest."
+    "en": "On weekends I rest.",
+    "pl": "W weekendy odpoczywam."
   },
   {
     "id": "a1-part-4-83",
     "ru": "Я смотрю фильм вечером.",
     "ruStressed": "Я смотрю́ фильм ве́чером.",
     "translit": "Ya smotryu film vecherom.",
-    "en": "I watch a movie in the evening."
+    "en": "I watch a movie in the evening.",
+    "pl": "Wieczorem oglądam film."
   },
   {
     "id": "a1-part-4-84",
     "ru": "Я люблю Москву.",
     "ruStressed": "Я люблю́ Москву́.",
     "translit": "Ya lyublyu Moskvu.",
-    "en": "I love Moscow."
+    "en": "I love Moscow.",
+    "pl": "Kocham Moskwę."
   },
   {
     "id": "a1-part-4-85",
     "ru": "Москва — большой город.",
     "ruStressed": "Москва́ — большо́й го́род.",
     "translit": "Moskva — bolshoy gorod.",
-    "en": "Moscow is a big city."
+    "en": "Moscow is a big city.",
+    "pl": "Moskwa to duże miasto."
   },
   {
     "id": "a1-part-4-86",
     "ru": "Санкт-Петербург очень красивый.",
     "ruStressed": "Санкт-Петербу́рг о́чень краси́вый.",
     "translit": "Sankt-Peterburg ochen krasivyy.",
-    "en": "Saint Petersburg is very beautiful."
+    "en": "Saint Petersburg is very beautiful.",
+    "pl": "Sankt Petersburg jest bardzo piękny."
   },
   {
     "id": "a1-part-4-87",
     "ru": "Я был в России.",
     "ruStressed": "Я был в Росси́и.",
     "translit": "Ya byl v Rossii.",
-    "en": "I have been to Russia."
+    "en": "I have been to Russia.",
+    "pl": "Byłem w Rosji."
   },
   {
     "id": "a1-part-4-88",
     "ru": "Я хочу поехать в Россию.",
     "ruStressed": "Я хочу́ пое́хать в Росси́ю.",
     "translit": "Ya khochu poekhat v Rossiyu.",
-    "en": "I want to go to Russia."
+    "en": "I want to go to Russia.",
+    "pl": "Chcę pojechać do Rosji."
   },
   {
     "id": "a1-part-4-89",
     "ru": "Я живу в центре города.",
     "ruStressed": "Я живу́ в це́нтре го́рода.",
     "translit": "Ya zhivu v tsentre goroda.",
-    "en": "I live in the city centre."
+    "en": "I live in the city centre.",
+    "pl": "Mieszkam w centrum miasta."
   },
   {
     "id": "a1-part-4-90",
     "ru": "Мой дом на тихой улице.",
     "ruStressed": "Мой дом на ти́хой у́лице.",
     "translit": "Moy dom na tikhoy ulitse.",
-    "en": "My house is on a quiet street."
+    "en": "My house is on a quiet street.",
+    "pl": "Mój dom jest na cichej ulicy."
   },
   {
     "id": "a1-part-4-91",
     "ru": "Рядом большой парк.",
     "ruStressed": "Ря́дом большо́й парк.",
     "translit": "Ryadom bolshoy park.",
-    "en": "There is a big park nearby."
+    "en": "There is a big park nearby.",
+    "pl": "W pobliżu jest duży park."
   },
   {
     "id": "a1-part-4-92",
     "ru": "В парке много деревьев.",
     "ruStressed": "В па́рке мно́го дере́вьев.",
     "translit": "V parke mnogo derevev.",
-    "en": "There are many trees in the park."
+    "en": "There are many trees in the park.",
+    "pl": "W parku jest dużo drzew."
   },
   {
     "id": "a1-part-4-93",
     "ru": "В городе много машин.",
     "ruStressed": "В го́роде мно́го маши́н.",
     "translit": "V gorode mnogo mashin.",
-    "en": "There are many cars in the city."
+    "en": "There are many cars in the city.",
+    "pl": "W mieście jest dużo samochodów."
   },
   {
     "id": "a1-part-4-94",
     "ru": "Помогите!",
     "ruStressed": "Помоги́те!",
     "translit": "Pomogite!",
-    "en": "Help!"
+    "en": "Help!",
+    "pl": "Pomocy!"
   },
   {
     "id": "a1-part-4-95",
     "ru": "Вызовите врача!",
     "ruStressed": "Вы́зовите врача́!",
     "translit": "Vyzovite vracha!",
-    "en": "Call a doctor!"
+    "en": "Call a doctor!",
+    "pl": "Proszę wezwać lekarza!"
   },
   {
     "id": "a1-part-4-96",
     "ru": "Вызовите полицию!",
     "ruStressed": "Вы́зовите поли́цию!",
     "translit": "Vyzovite politsiyu!",
-    "en": "Call the police!"
+    "en": "Call the police!",
+    "pl": "Proszę wezwać policję!"
   },
   {
     "id": "a1-part-4-97",
     "ru": "Мне плохо.",
     "ruStressed": "Мне пло́хо.",
     "translit": "Mne plokho.",
-    "en": "I feel sick."
+    "en": "I feel sick.",
+    "pl": "Źle się czuję."
   },
   {
     "id": "a1-part-4-98",
     "ru": "Мне нужен врач.",
     "ruStressed": "Мне ну́жен врач.",
     "translit": "Mne nuzhen vrach.",
-    "en": "I need a doctor."
+    "en": "I need a doctor.",
+    "pl": "Potrzebuję lekarza."
   },
   {
     "id": "a1-part-4-99",
     "ru": "Я потерял паспорт.",
     "ruStressed": "Я потеря́л па́спорт.",
     "translit": "Ya poteryal pasport.",
-    "en": "I lost my passport."
+    "en": "I lost my passport.",
+    "pl": "Zgubiłem paszport."
   },
   {
     "id": "a1-part-4-100",
     "ru": "Я заблудился.",
     "ruStressed": "Я заблуди́лся.",
     "translit": "Ya zabludilsya.",
-    "en": "I got lost. (m.)"
+    "en": "I got lost. (m.)",
+    "pl": "Zgubiłem się. (m.)"
   },
   {
     "id": "a1-part-4-101",
     "ru": "Я заблудилась.",
     "ruStressed": "Я заблуди́лась.",
     "translit": "Ya zabludilas.",
-    "en": "I got lost. (f.)"
+    "en": "I got lost. (f.)",
+    "pl": "Zgubiłam się. (f.)"
   },
   {
     "id": "a1-part-4-102",
     "ru": "Где здесь больница?",
     "ruStressed": "Где здесь больни́ца?",
     "translit": "Gde zdes bolnitsa?",
-    "en": "Where is the hospital?"
+    "en": "Where is the hospital?",
+    "pl": "Gdzie jest szpital?"
   },
   {
     "id": "a1-part-4-103",
     "ru": "Где здесь туалет?",
     "ruStressed": "Где здесь туале́т?",
     "translit": "Gde zdes tualet?",
-    "en": "Where is the toilet?"
+    "en": "Where is the toilet?",
+    "pl": "Gdzie jest toaleta?"
   },
   {
     "id": "a1-part-4-104",
     "ru": "Можно вопрос?",
     "ruStressed": "Мо́жно вопро́с?",
     "translit": "Mozhno vopros?",
-    "en": "May I ask a question?"
+    "en": "May I ask a question?",
+    "pl": "Czy mogę zadać pytanie?"
   },
   {
     "id": "a1-part-4-105",
     "ru": "Можно войти?",
     "ruStressed": "Мо́жно войти́?",
     "translit": "Mozhno voyti?",
-    "en": "May I come in?"
+    "en": "May I come in?",
+    "pl": "Czy mogę wejść?"
   },
   {
     "id": "a1-part-4-106",
     "ru": "Можно выйти?",
     "ruStressed": "Мо́жно вы́йти?",
     "translit": "Mozhno vyyti?",
-    "en": "May I go out?"
+    "en": "May I go out?",
+    "pl": "Czy mogę wyjść?"
   },
   {
     "id": "a1-part-4-107",
     "ru": "Подождите минутку.",
     "ruStressed": "Подожди́те мину́тку.",
     "translit": "Podozhdite minutku.",
-    "en": "Wait a minute."
+    "en": "Wait a minute.",
+    "pl": "Proszę poczekać chwilę."
   },
   {
     "id": "a1-part-4-108",
     "ru": "Я сейчас вернусь.",
     "ruStressed": "Я сейча́с верну́сь.",
     "translit": "Ya seychas vernus.",
-    "en": "I'll be right back."
+    "en": "I'll be right back.",
+    "pl": "Zaraz wracam."
   },
   {
     "id": "a1-part-4-109",
     "ru": "Где центр города?",
     "ruStressed": "Где центр го́рода?",
     "translit": "Gde tsentr goroda?",
-    "en": "Where is the city center?"
+    "en": "Where is the city center?",
+    "pl": "Gdzie jest centrum miasta?"
   },
   {
     "id": "a1-part-4-110",
     "ru": "Я иду в парк.",
     "ruStressed": "Я иду́ в парк.",
     "translit": "Ya idu v park.",
-    "en": "I am going to the park."
+    "en": "I am going to the park.",
+    "pl": "Idę do parku."
   },
   {
     "id": "a1-part-4-111",
     "ru": "Куда вы идёте?",
     "ruStressed": "Куда́ вы идёте?",
     "translit": "Kuda vy idyote?",
-    "en": "Where are you going?"
+    "en": "Where are you going?",
+    "pl": "Dokąd idziesz?"
   },
   {
     "id": "a1-part-4-112",
     "ru": "Гостиница там.",
     "ruStressed": "Гости́ница там.",
     "translit": "Gostinitsa tam.",
-    "en": "The hotel is over there."
+    "en": "The hotel is over there.",
+    "pl": "Hotel jest tam."
   },
   {
     "id": "a1-part-4-113",
     "ru": "Где выход?",
     "ruStressed": "Где вы́ход?",
     "translit": "Gde vykhod?",
-    "en": "Where is the exit?"
+    "en": "Where is the exit?",
+    "pl": "Gdzie jest wyjście?"
   },
   {
     "id": "a1-part-4-114",
     "ru": "Аптека далеко?",
     "ruStressed": "Апте́ка далеко́?",
     "translit": "Apteka daleko?",
-    "en": "Is the pharmacy far?"
+    "en": "Is the pharmacy far?",
+    "pl": "Czy apteka jest daleko?"
   },
   {
     "id": "a1-part-4-115",
     "ru": "Кафе рядом.",
     "ruStressed": "Кафе́ ря́дом.",
     "translit": "Kafe ryadom.",
-    "en": "The cafe is near."
+    "en": "The cafe is near.",
+    "pl": "Kawiarnia jest blisko."
   },
   {
     "id": "a1-part-4-116",
     "ru": "Мы в школе.",
     "ruStressed": "Мы в шко́ле.",
     "translit": "My v shkole.",
-    "en": "We are at school."
+    "en": "We are at school.",
+    "pl": "Jesteśmy w szkole."
   },
   {
     "id": "a1-part-4-117",
     "ru": "Дети на стадионе.",
     "ruStressed": "Де́ти на стадио́не.",
     "translit": "Deti na stadione.",
-    "en": "The children are at the stadium."
+    "en": "The children are at the stadium.",
+    "pl": "Dzieci są na stadionie."
   },
   {
     "id": "a1-part-4-118",
     "ru": "Где туалет?",
     "ruStressed": "Где туале́т?",
     "translit": "Gde tualet?",
-    "en": "Where is the toilet?"
+    "en": "Where is the toilet?",
+    "pl": "Gdzie jest toaleta?"
   },
   {
     "id": "a1-part-4-119",
     "ru": "Откуда вы?",
     "ruStressed": "Отку́да вы?",
     "translit": "Otkuda vy?",
-    "en": "Where are you from?"
+    "en": "Where are you from?",
+    "pl": "Skąd jesteś?"
   },
   {
     "id": "a1-part-4-120",
     "ru": "Я из Лондона.",
     "ruStressed": "Я из Ло́ндона.",
     "translit": "Ya iz Londona.",
-    "en": "I am from London."
+    "en": "I am from London.",
+    "pl": "Jestem z Londynu."
   },
   {
     "id": "a1-part-4-121",
