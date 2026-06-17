@@ -1,120 +1,37 @@
-# Fix: Grammar notes matching unrelated sentences
+## Goal
 
-## The bug
+1. Make the highlighted word match exactly when each Russian word is actually spoken.
+2. Auto-scroll the playing sentence into view so the user never has to scroll during playback.
 
-On `/list/a1-part-1` the **Personal pronouns** note lists "Конечно. / Of course." It shouldn't — that sentence has no pronoun in it.
+## Approach
 
-Root cause is in `resolveMatches()` in `src/routes/list.$listId.tsx` (line ~982):
+### 1. Per-word utterance playback (precise sync)
 
-```ts
-const hay = (s.ru + " " + s.en).toLowerCase();
-if (needles.some((n) => hay.includes(n.toLowerCase()))) { ... }
-```
+The current sync issue is fundamental: `SpeechSynthesisUtterance.onboundary` is unreliable across browsers/voices, and our fallback estimates timing from a hard-coded `CHARS_PER_SEC`. Russian word durations vary too much for that estimate to feel "exact."
 
-Combined with the overlay in `src/lib/trainer/grammar.ts` for `a1-part-1`:
+Switch `speak()` in `src/lib/trainer/speech.ts` to queue **one utterance per word** when an `onBoundary` callback is provided:
 
-```ts
-{ contains: ["я", "ты", "он", "она", "мы", "вы", "они"] }
-```
+- Split the cleaned text into word tokens with their original `charIndex` (via `\p{L}+` regex, identical to the highlighter's logic so indices line up).
+- For each word, create its own `SpeechSynthesisUtterance` and queue them sequentially with `speechSynthesis.speak`.
+- Use that utterance's `onstart` to fire `onBoundary(charIndex, length)` — this fires the moment the engine actually begins that word, giving frame-accurate highlight sync regardless of voice/engine.
+- Fire the original `onEnd` only after the last word's `onend`.
+- Track all queued utterances so `stopSpeaking()` / cancel paths clear them; remove the old fallback-timer machinery (no longer needed).
+- Punctuation/spacing is preserved by speaking each word alone — slight prosody loss is acceptable for the sync win; rate/voice settings still apply.
 
-`includes()` does raw substring matching, so single Cyrillic letters/short pronouns match inside any longer word:
+If `onBoundary` is not provided (e.g., `playWord(single word)`), keep the single-utterance path unchanged.
 
-- "Кон**он**ечно" — `Конечно` contains `он` → matched as a pronoun
-- "До свидани**я**" → matches `я`
-- "**Of** course" → also matches `вы`? no — but `я` matches Russian word endings everywhere
+### 2. Auto-scroll to currently playing sentence
 
-The same class of bug exists in other packs that depend on substring matching (e.g. b1-part-2 already works around it by using `" бы "` with spaces, b2-part-1 keys on suffixes like "ющий" which is fine, b2-part-4 uses `" что "` / `" ли "` with spaces — fragile).
+In `src/routes/list.$listId.tsx`, add an effect that watches `currentIdx`. When it changes to a non-null value, look up the sentence id (`visibleSentences[currentIdx].id`), find `#s-${id}`, and call `scrollIntoView({ behavior: "smooth", block: "center" })`. Reuses the same id pattern already used by the search-focus effect.
 
-## Fix
+Guard against scrolling when the element is already comfortably in view (compare `getBoundingClientRect()` against viewport with a margin) so manual scrolling isn't fought during a single sentence's playback — only re-centers when the new sentence is off-screen or near edges.
 
-Switch `resolveMatches()` from `String.includes` to **whole-word matching** using a Unicode-aware regex.
+## Files
 
-### Changes
+- `src/lib/trainer/speech.ts` — rewrite `speak()` to queue per-word utterances when `onBoundary` is supplied; drop the boundary/fallback estimator code.
+- `src/routes/list.$listId.tsx` — add an effect on `currentIdx` that smooth-scrolls the active sentence into view when off-screen.
 
-**`src/routes/list.$listId.tsx` — `resolveMatches()`**
+## Out of scope
 
-Replace the substring check with a per-needle regex:
-
-```ts
-function makeNeedleRegex(needle: string): RegExp {
-  const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").trim();
-  // If the needle already contains a space, treat it as a phrase (no \b around spaces).
-  // Use Unicode letter class so Cyrillic counts as a "word" character.
-  return new RegExp(`(?<![\\p{L}])${escaped}(?![\\p{L}])`, "iu");
-}
-
-// inside the loop:
-const hay = s.ru + " " + s.en;
-if (needles.some((n) => makeNeedleRegex(n).test(hay))) { ... }
-```
-
-This treats every needle as a whole token bounded by non-letter characters (punctuation, spaces, string edges). Cyrillic letters are recognized via `\p{L}` with the `u` flag, so `он` will no longer match inside `Конечно`, and `я` will no longer match inside `свидания` / `меня`.
-
-Suffix-style needles in `b2-part-1` (`"ющий"`, `"вший"`, `"нный"`…) still work because the lookbehind only rejects a letter **before** the needle; the needle itself contains the preceding letters of the participle ending, and what comes before in the word is fine — wait, that breaks suffixes. We need an exception.
-
-### Suffix handling
-
-For `b2-part-1` we explicitly want suffix matches. Two options:
-
-1. Treat needles that **start with a Cyrillic letter that is a common suffix linker** as suffixes — too fuzzy.
-2. **Cleanest**: extend the overlay schema to allow `{ endsWith: [...] }` and keep `contains` strictly whole-word.
-
-Plan: add a new optional field to `match`:
-
-```ts
-match?: { contains?: string[]; endsWith?: string[] };
-```
-
-- `contains` → whole-word match (new behavior).
-- `endsWith` → matches if any token in the sentence ends with the needle (used for participle/gerund suffixes).
-
-Then update `b2-part-1` and `b2-part-2` overlays in `grammar.ts` to use `endsWith` for suffixes:
-
-```ts
-"b2-part-1": {
-  tags: ["participles"],
-  matches: [
-    { endsWith: ["ющий", "ущий", "ящий", "ащий", "ющая", "ющее", "ющие"] },
-    { endsWith: ["вший", "вшая", "вшее", "вшие"] },
-    { endsWith: ["нный", "нная", "нное", "нные", "тый", "тая", "тое", "тые"] },
-  ],
-},
-"b2-part-2": {
-  tags: ["gerunds"],
-  matches: [
-    { endsWith: ["ая", "яя"], contains: ["читая", "говоря", "идя", "глядя", "слушая"] },
-    { endsWith: ["ав", "ив", "ыв"], contains: ["прочитав", "сказав", "сделав", "закончив"] },
-  ],
-},
-```
-
-(Conservative: keep the existing `contains` entries for b2-part-2 since broad suffix matches like "ая"/"яя" would also catch adjectives. We can keep just `contains` there if safer — final call during implementation.)
-
-`endsWith` is implemented as:
-
-```ts
-const tokenEndsWith = (text: string, suffix: string) =>
-  new RegExp(`[\\p{L}]*${suffix}(?![\\p{L}])`, "iu").test(text);
-```
-
-### Verification
-
-After the change, for `a1-part-1` Personal pronouns the matched sentences should include only:
-
-- "А у тебя?" — `тебя` is a pronoun form, but `ты` is no longer a substring match. We need it to still appear. **Solution**: add the inflected forms to the needles for that note, e.g. `["я", "ты", "он", "она", "оно", "мы", "вы", "они", "меня", "тебя", "его", "её", "нас", "вас", "их", "мне", "тебе", "ему", "ей", "нам", "вам", "им"]`. All are real standalone pronoun tokens, so whole-word matching is correct and "Конечно" stops being matched.
-
-Update the `a1-part-1` Personal pronouns overlay needle list accordingly.
-
-### Files touched
-
-- `src/routes/list.$listId.tsx` — replace substring check with regex helpers; add `endsWith` handling.
-- `src/lib/trainer/grammar.ts` —
-  - extend `GrammarNote.match` type with `endsWith?: string[]`.
-  - expand `a1-part-1` pronouns needle list to include inflected pronoun forms.
-  - migrate `b2-part-1` (and selectively `b2-part-2`) overlay entries to use `endsWith` for suffix-based rules.
-
-### Out of scope
-
-- No data files under `src/data/grammar/*` change.
-- No UI / styling changes; the "FROM THIS LIST" section keeps the same shape and 5-row cap.
-- Other packs already use phrase-style needles (`"У меня"`, `"если"`, `"больше"`) — those are whole words and behave identically or better under the new matcher; no edits needed.
+- No UI/styling changes to the highlight itself.
+- No changes to grammar matching, settings, or the now-playing bar.

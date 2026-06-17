@@ -105,6 +105,8 @@ function ListPage() {
   }, [focusId]);
 
 
+
+
   const visibleSentences = useMemo(() => {
     let list = sentences;
     if (favoritesOnly) list = list.filter((s) => favorites[s.id]);
@@ -131,6 +133,23 @@ function ListPage() {
     setMounted(true);
     return () => stopSpeaking();
   }, []);
+
+  // Auto-scroll the currently playing sentence into view when it changes,
+  // but only if it's not already comfortably visible.
+  useEffect(() => {
+    if (currentIdx === null) return;
+    const s = visibleSentences[currentIdx];
+    if (!s) return;
+    const el = document.getElementById(`s-${s.id}`);
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const vh = window.innerHeight || document.documentElement.clientHeight;
+    const margin = 96; // px from edges before we re-center
+    const offscreen = rect.top < margin || rect.bottom > vh - margin;
+    if (offscreen) {
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }, [currentIdx, visibleSentences]);
 
   const speechReady = mounted && hasSpeech();
 

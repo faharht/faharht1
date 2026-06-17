@@ -19,104 +19,70 @@ export interface SpeakOptions {
   onBoundary?: (charIndex: number, charLength: number) => void;
 }
 
-// Approximate Russian TTS speed in characters per second at rate=1.
-// Tuned lower (was 14) so word-highlight scheduling matches actual audio
-// pacing more closely on engines that do not emit native boundary events.
-const CHARS_PER_SEC = 12;
-// Small inter-word gap (ms) at rate=1 to account for natural pauses.
-const WORD_GAP_MS = 70;
+function makeUtterance(text: string, rate: number): SpeechSynthesisUtterance {
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "ru-RU";
+  const voice = getRussianVoice();
+  if (voice) u.voice = voice;
+  u.rate = rate;
+  u.pitch = 1;
+  return u;
+}
 
 export function speak(text: string, opts: SpeakOptions = {}): void {
   if (!hasSpeech()) return;
   // Strip combining stress marks — TTS engines mispronounce them.
   const clean = text.replace(/\u0301/g, "");
-  const u = new SpeechSynthesisUtterance(clean);
-  u.lang = "ru-RU";
-  const voice = getRussianVoice();
-  if (voice) u.voice = voice;
   const rate = opts.rate ?? 1;
-  u.rate = rate;
-  u.pitch = 1;
 
-  // Word-boundary support varies. We attach onboundary, and also start a
-  // fallback timer that drives word advancement if no boundary fires within
-  // ~250ms (notably iOS Safari, some Chromium voices).
-  let boundaryFired = false;
-  let fallbackTimers: ReturnType<typeof setTimeout>[] = [];
-  let startedAt = 0; // ms timestamp when audio actually began
-
-  // Precompute word ranges & cumulative offsets in the cleaned text.
-  const words: Array<{ start: number; length: number; offsetMs: number }> = [];
-  if (opts.onBoundary) {
-    const re = /\p{L}+/gu;
-    let m: RegExpExecArray | null;
-    let cursor = 0;
-    while ((m = re.exec(clean))) {
-      words.push({ start: m.index, length: m[0].length, offsetMs: cursor });
-      const durMs = (m[0].length / CHARS_PER_SEC) * 1000 / rate + WORD_GAP_MS / rate;
-      cursor += durMs;
-    }
-  }
-
-  if (opts.onBoundary) {
-    u.onboundary = (ev) => {
-      if (ev.name && ev.name !== "word") return;
-      boundaryFired = true;
-      opts.onBoundary!(ev.charIndex, (ev as unknown as { charLength?: number }).charLength ?? 0);
-    };
-
-    const scheduleFallback = () => {
-      if (boundaryFired || words.length === 0) return;
-      const now = Date.now();
-      const elapsed = startedAt > 0 ? now - startedAt : 0;
-      // Find the word currently being spoken; fire it immediately so the
-      // highlight catches up instantly the moment fallback engages.
-      let currentIdx = 0;
-      for (let i = 0; i < words.length; i++) {
-        if (words[i].offsetMs <= elapsed) currentIdx = i;
-        else break;
-      }
-      opts.onBoundary!(words[currentIdx].start, words[currentIdx].length);
-      // Schedule the rest relative to the original audio start anchor.
-      for (let i = currentIdx + 1; i < words.length; i++) {
-        const delay = Math.max(0, words[i].offsetMs - (Date.now() - startedAt));
-        fallbackTimers.push(
-          setTimeout(() => {
-            if (boundaryFired) return;
-            opts.onBoundary!(words[i].start, words[i].length);
-          }, delay),
-        );
-      }
-    };
-
-    // Probe after 250ms; if native boundary already fired, skip fallback.
-    fallbackTimers.push(
-      setTimeout(() => {
-        if (!boundaryFired) scheduleFallback();
-      }, 250),
-    );
-  }
-
-  const clearFallback = () => {
-    for (const t of fallbackTimers) clearTimeout(t);
-    fallbackTimers = [];
-  };
-
-  u.onstart = () => {
-    startedAt = Date.now();
-  };
-  u.onend = () => {
-    clearFallback();
-    opts.onEnd?.();
-  };
-  u.onerror = () => {
-    clearFallback();
-    opts.onError?.();
-  };
   window.speechSynthesis.cancel();
-  // Anchor immediately as a safety net in case onstart doesn't fire promptly.
-  startedAt = Date.now();
-  window.speechSynthesis.speak(u);
+
+  // Single-utterance path when no per-word callback is needed.
+  if (!opts.onBoundary) {
+    const u = makeUtterance(clean, rate);
+    u.onend = () => opts.onEnd?.();
+    u.onerror = () => opts.onError?.();
+    window.speechSynthesis.speak(u);
+    return;
+  }
+
+  // Per-word path: queue one utterance per word so `onstart` fires exactly
+  // when the engine begins each word — frame-accurate highlight sync that
+  // doesn't depend on flaky `onboundary` support.
+  const words: Array<{ text: string; start: number; length: number }> = [];
+  const re = /\p{L}+/gu;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(clean))) {
+    words.push({ text: m[0], start: m.index, length: m[0].length });
+  }
+
+  if (words.length === 0) {
+    const u = makeUtterance(clean, rate);
+    u.onend = () => opts.onEnd?.();
+    u.onerror = () => opts.onError?.();
+    window.speechSynthesis.speak(u);
+    return;
+  }
+
+  let errored = false;
+  words.forEach((w, i) => {
+    const u = makeUtterance(w.text, rate);
+    u.onstart = () => {
+      opts.onBoundary?.(w.start, w.length);
+    };
+    if (i === words.length - 1) {
+      u.onend = () => {
+        if (!errored) opts.onEnd?.();
+      };
+    }
+    u.onerror = () => {
+      if (errored) return;
+      errored = true;
+      window.speechSynthesis.cancel();
+      opts.onError?.();
+    };
+    window.speechSynthesis.speak(u);
+  });
 }
 
 export function stopSpeaking(): void {
