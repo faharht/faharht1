@@ -724,419 +724,479 @@
     "ru": "Сегодня день начался плохо.",
     "ruStressed": "Сего́дня день начался́ пло́хо.",
     "translit": "Segodnya den' nachalsya plokho.",
-    "en": "Today started badly."
+    "en": "Today started badly.",
+    "pl": "Dzisiaj dzień zaczął się źle."
   },
   {
     "id": "a2-part-1-92",
     "ru": "Но потом всё стало лучше.",
     "ruStressed": "Но пото́м всё ста́ло лу́чше.",
     "translit": "No potom vsyo stalo luchshe.",
-    "en": "But then everything got better."
+    "en": "But then everything got better.",
+    "pl": "Ale potem wszystko się poprawiło."
   },
   {
     "id": "a2-part-1-93",
     "ru": "Я люблю спокойные вечера.",
     "ruStressed": "Я люблю́ споко́йные вечера́.",
     "translit": "Ya lyublyu spokoynye vechera.",
-    "en": "I love quiet evenings."
+    "en": "I love quiet evenings.",
+    "pl": "Uwielbiam spokojne wieczory."
   },
   {
     "id": "a2-part-1-94",
     "ru": "Сегодня я никуда не пойду.",
     "ruStressed": "Сего́дня я никуда́ не пойду́.",
     "translit": "Segodnya ya nikuda ne poydu.",
-    "en": "Today I'm not going anywhere."
+    "en": "Today I'm not going anywhere.",
+    "pl": "Dzisiaj nigdzie się nie wybieram."
   },
   {
     "id": "a2-part-1-95",
     "ru": "Я хочу выспаться.",
     "ruStressed": "Я хочу́ вы́спаться.",
     "translit": "Ya khochu vyspat'sya.",
-    "en": "I want to get enough sleep."
+    "en": "I want to get enough sleep.",
+    "pl": "Chcę się wyspać."
   },
   {
     "id": "a2-part-1-96",
     "ru": "Завтра трудный день.",
     "ruStressed": "За́втра тру́дный день.",
     "translit": "Zavtra trudnyy den'.",
-    "en": "Tomorrow is a hard day."
+    "en": "Tomorrow is a hard day.",
+    "pl": "Jutro jest trudny dzień."
   },
   {
     "id": "a2-part-1-97",
     "ru": "Я подготовился к встрече.",
     "ruStressed": "Я подгото́вился к встре́че.",
     "translit": "Ya podgotovilsya k vstreche.",
-    "en": "I prepared for the meeting."
+    "en": "I prepared for the meeting.",
+    "pl": "Przygotowałem się do spotkania."
   },
   {
     "id": "a2-part-1-98",
     "ru": "Я проверил почту.",
     "ruStressed": "Я прове́рил по́чту.",
     "translit": "Ya proveril pochtu.",
-    "en": "I checked the mail."
+    "en": "I checked the mail.",
+    "pl": "Sprawdziłem pocztę."
   },
   {
     "id": "a2-part-1-99",
     "ru": "Пришло пять новых писем.",
     "ruStressed": "Пришло́ пять но́вых пи́сем.",
     "translit": "Prishlo pyat' novykh pisem.",
-    "en": "Five new emails came."
+    "en": "Five new emails came.",
+    "pl": "Przyszło pięć nowych e-maili."
   },
   {
     "id": "a2-part-1-100",
     "ru": "Я ответил на все письма.",
     "ruStressed": "Я отве́тил на все пи́сьма.",
     "translit": "Ya otvetil na vse pis'ma.",
-    "en": "I replied to all the emails."
+    "en": "I replied to all the emails.",
+    "pl": "Odpowiedziałem na wszystkie wiadomości."
   },
   {
     "id": "a2-part-1-101",
     "ru": "Потом я сделал чай.",
     "ruStressed": "Пото́м я сде́лал чай.",
     "translit": "Potom ya sdelal chay.",
-    "en": "Then I made tea."
+    "en": "Then I made tea.",
+    "pl": "Potem zrobiłem herbatę."
   },
   {
     "id": "a2-part-1-102",
     "ru": "Я пью чай без сахара.",
     "ruStressed": "Я пью чай без са́хара.",
     "translit": "Ya p'yu chay bez sakhara.",
-    "en": "I drink tea without sugar."
+    "en": "I drink tea without sugar.",
+    "pl": "Piję herbatę bez cukru."
   },
   {
     "id": "a2-part-1-103",
     "ru": "Утром был сильный туман.",
     "ruStressed": "У́тром был си́льный тума́н.",
     "translit": "Utrom byl sil'nyy tuman.",
-    "en": "There was thick fog in the morning."
+    "en": "There was thick fog in the morning.",
+    "pl": "Rano była gęsta mgła."
   },
   {
     "id": "a2-part-1-104",
     "ru": "Я долго ждал автобус.",
     "ruStressed": "Я до́лго ждал авто́бус.",
     "translit": "Ya dolgo zhdal avtobus.",
-    "en": "I waited for the bus for a long time."
+    "en": "I waited for the bus for a long time.",
+    "pl": "Długo czekałem na autobus."
   },
   {
     "id": "a2-part-1-105",
     "ru": "Автобус опоздал на десять минут.",
     "ruStressed": "Авто́бус опозда́л на де́сять мину́т.",
     "translit": "Avtobus opozdal na desyat' minut.",
-    "en": "The bus was ten minutes late."
+    "en": "The bus was ten minutes late.",
+    "pl": "Autobus spóźnił się dziesięć minut."
   },
   {
     "id": "a2-part-1-106",
     "ru": "Я приехал на работу вовремя.",
     "ruStressed": "Я прие́хал на рабо́ту во́время.",
     "translit": "Ya priekhal na rabotu vovremya.",
-    "en": "I got to work on time."
+    "en": "I got to work on time.",
+    "pl": "Dotarłem do pracy na czas."
   },
   {
     "id": "a2-part-1-107",
     "ru": "На обед я ел салат.",
     "ruStressed": "На обе́д я ел сала́т.",
     "translit": "Na obed ya yel salat.",
-    "en": "For lunch I ate a salad."
+    "en": "For lunch I ate a salad.",
+    "pl": "Na obiad zjadłem sałatkę."
   },
   {
     "id": "a2-part-1-108",
     "ru": "Салат был свежий и вкусный.",
     "ruStressed": "Сала́т был све́жий и вку́сный.",
     "translit": "Salat byl svezhiy i vkusnyy.",
-    "en": "The salad was fresh and tasty."
+    "en": "The salad was fresh and tasty.",
+    "pl": "Sałatka była świeża i smaczna."
   },
   {
     "id": "a2-part-1-109",
     "ru": "После обеда я пил кофе.",
     "ruStressed": "По́сле обе́да я пил ко́фе.",
     "translit": "Posle obeda ya pil kofe.",
-    "en": "After lunch I drank coffee."
+    "en": "After lunch I drank coffee.",
+    "pl": "Po obiedzie piłem kawę."
   },
   {
     "id": "a2-part-1-110",
     "ru": "Я работал до позднего вечера.",
     "ruStressed": "Я рабо́тал до по́зднего ве́чера.",
     "translit": "Ya rabotal do pózdnego vechera.",
-    "en": "I worked until late evening."
+    "en": "I worked until late evening.",
+    "pl": "Pracowałem do późnego wieczora."
   },
   {
     "id": "a2-part-1-111",
     "ru": "Дома меня ждал ужин.",
     "ruStressed": "До́ма меня́ ждал у́жин.",
     "translit": "Doma menya zhdal uzhin.",
-    "en": "Dinner was waiting for me at home."
+    "en": "Dinner was waiting for me at home.",
+    "pl": "W domu czekała na mnie kolacja."
   },
   {
     "id": "a2-part-1-112",
     "ru": "Я был очень голодный.",
     "ruStressed": "Я был о́чень голо́дный.",
     "translit": "Ya byl ochen' golodnyy.",
-    "en": "I was very hungry."
+    "en": "I was very hungry.",
+    "pl": "Byłem bardzo głodny."
   },
   {
     "id": "a2-part-1-113",
     "ru": "После ужина я смотрел сериал.",
     "ruStressed": "По́сле у́жина я смотре́л сериа́л.",
     "translit": "Posle uzhina ya smotrel serial.",
-    "en": "After dinner I watched a series."
+    "en": "After dinner I watched a series.",
+    "pl": "Po kolacji oglądałem serial."
   },
   {
     "id": "a2-part-1-114",
     "ru": "Я посмотрел три серии.",
     "ruStressed": "Я посмотре́л три се́рии.",
     "translit": "Ya posmotrel tri serii.",
-    "en": "I watched three episodes."
+    "en": "I watched three episodes.",
+    "pl": "Obejrzałem trzy odcinki."
   },
   {
     "id": "a2-part-1-115",
     "ru": "Потом я почитал немного.",
     "ruStressed": "Пото́м я почита́л немно́го.",
     "translit": "Potom ya pochital nemnogo.",
-    "en": "Then I read a little."
+    "en": "Then I read a little.",
+    "pl": "Potem trochę poczytałem."
   },
   {
     "id": "a2-part-1-116",
     "ru": "И лёг спать.",
     "ruStressed": "И лёг спать.",
     "translit": "I lyog spat'.",
-    "en": "And went to bed."
+    "en": "And went to bed.",
+    "pl": "I położyłem się spać."
   },
   {
     "id": "a2-part-1-117",
     "ru": "Эта неделя была долгой.",
     "ruStressed": "Э́та неде́ля была́ до́лгой.",
     "translit": "Eta nedelya byla dolgoy.",
-    "en": "This week was long."
+    "en": "This week was long.",
+    "pl": "Ten tydzień był długi."
   },
   {
     "id": "a2-part-1-118",
     "ru": "Я жду выходных.",
     "ruStressed": "Я жду выходны́х.",
     "translit": "Ya zhdu vykhodnykh.",
-    "en": "I'm waiting for the weekend."
+    "en": "I'm waiting for the weekend.",
+    "pl": "Czekam na weekend."
   },
   {
     "id": "a2-part-1-119",
     "ru": "В субботу я пойду на концерт.",
     "ruStressed": "В суббо́ту я пойду́ на конце́рт.",
     "translit": "V subbotu ya poydu na kontsert.",
-    "en": "On Saturday I'll go to a concert."
+    "en": "On Saturday I'll go to a concert.",
+    "pl": "W sobotę idę na koncert."
   },
   {
     "id": "a2-part-1-120",
     "ru": "В воскресенье я буду спать долго.",
     "ruStressed": "В воскресе́нье я бу́ду спать до́лго.",
     "translit": "V voskresen'e ya budu spat' dolgo.",
-    "en": "On Sunday I'll sleep in."
+    "en": "On Sunday I'll sleep in.",
+    "pl": "W niedzielę odeśpię."
   },
   {
     "id": "a2-part-1-121",
     "ru": "Я люблю свободное время.",
     "ruStressed": "Я люблю́ свобо́дное вре́мя.",
     "translit": "Ya lyublyu svobodnoe vremya.",
-    "en": "I love free time."
+    "en": "I love free time.",
+    "pl": "Uwielbiam czas wolny."
   },
   {
     "id": "a2-part-1-122",
     "ru": "В свободное время я рисую.",
     "ruStressed": "В свобо́дное вре́мя я рису́ю.",
     "translit": "V svobodnoe vremya ya risuyu.",
-    "en": "In my free time I draw."
+    "en": "In my free time I draw.",
+    "pl": "W wolnym czasie rysuję."
   },
   {
     "id": "a2-part-1-123",
     "ru": "Раньше я играл на гитаре.",
     "ruStressed": "Ра́ньше я игра́л на гита́ре.",
     "translit": "Ran'she ya igral na gitare.",
-    "en": "I used to play guitar."
+    "en": "I used to play guitar.",
+    "pl": "Kiedyś grałem na gitarze."
   },
   {
     "id": "a2-part-1-124",
     "ru": "Сейчас у меня нет времени.",
     "ruStressed": "Сейча́с у меня́ нет вре́мени.",
     "translit": "Seychas u menya net vremeni.",
-    "en": "Now I don't have time."
+    "en": "Now I don't have time.",
+    "pl": "Teraz nie mam czasu."
   },
   {
     "id": "a2-part-1-125",
     "ru": "Дни летят очень быстро.",
     "ruStressed": "Дни летя́т о́чень бы́стро.",
     "translit": "Dni letyat ochen' bystro.",
-    "en": "The days fly very fast."
+    "en": "The days fly very fast.",
+    "pl": "Dni mijały bardzo szybko."
   },
   {
     "id": "a2-part-1-126",
     "ru": "Год прошёл незаметно.",
     "ruStressed": "Год прошёл незаме́тно.",
     "translit": "God proshyol nezametno.",
-    "en": "The year passed unnoticed."
+    "en": "The year passed unnoticed.",
+    "pl": "Rok minął niezauważenie."
   },
   {
     "id": "a2-part-1-127",
     "ru": "Прошлым летом я был в Италии.",
     "ruStressed": "Про́шлым ле́том я был в Ита́лии.",
     "translit": "Proshlym letom ya byl v Italii.",
-    "en": "Last summer I was in Italy."
+    "en": "Last summer I was in Italy.",
+    "pl": "Zeszłego lata byłem we Włoszech."
   },
   {
     "id": "a2-part-1-128",
     "ru": "Это было незабываемо.",
     "ruStressed": "Э́то бы́ло незабыва́емо.",
     "translit": "Eto bylo nezabyvaemo.",
-    "en": "It was unforgettable."
+    "en": "It was unforgettable.",
+    "pl": "To było niezapomniane."
   },
   {
     "id": "a2-part-1-129",
     "ru": "Я хочу поехать туда снова.",
     "ruStressed": "Я хочу́ пое́хать туда́ сно́ва.",
     "translit": "Ya khochu poekhat' tuda snova.",
-    "en": "I want to go there again."
+    "en": "I want to go there again.",
+    "pl": "Chcę tam pojechać jeszcze raz."
   },
   {
     "id": "a2-part-1-130",
     "ru": "Сегодня я почувствовал себя лучше.",
     "ruStressed": "Сего́дня я почу́вствовал себя́ лу́чше.",
     "translit": "Segodnya ya pochuvstvoval sebya luchshe.",
-    "en": "Today I felt better."
+    "en": "Today I felt better.",
+    "pl": "Dzisiaj poczułem się lepiej."
   },
   {
     "id": "a2-part-1-131",
     "ru": "Вчера у меня болела голова.",
     "ruStressed": "Вчера́ у меня́ боле́ла голова́.",
     "translit": "Vchera u menya bolela golova.",
-    "en": "Yesterday I had a headache."
+    "en": "Yesterday I had a headache.",
+    "pl": "Wczoraj bolała mnie głowa."
   },
   {
     "id": "a2-part-1-132",
     "ru": "Я выпил таблетку и лёг.",
     "ruStressed": "Я вы́пил табле́тку и лёг.",
     "translit": "Ya vypil tabletku i lyog.",
-    "en": "I took a pill and lay down."
+    "en": "I took a pill and lay down.",
+    "pl": "Wziąłem tabletkę i położyłem się."
   },
   {
     "id": "a2-part-1-133",
     "ru": "Я проспал почти двенадцать часов.",
     "ruStressed": "Я проспа́л почти́ двена́дцать часо́в.",
     "translit": "Ya prospal pochti dvenadtsat' chasov.",
-    "en": "I slept almost twelve hours."
+    "en": "I slept almost twelve hours.",
+    "pl": "Przespałem prawie dwanaście godzin."
   },
   {
     "id": "a2-part-1-134",
     "ru": "Утром я был как новый.",
     "ruStressed": "У́тром я был как но́вый.",
     "translit": "Utrom ya byl kak novyy.",
-    "en": "In the morning I felt like new."
+    "en": "In the morning I felt like new.",
+    "pl": "Rano czułem się jak nowo narodzony."
   },
   {
     "id": "a2-part-1-135",
     "ru": "Я всегда чищу зубы утром.",
     "ruStressed": "Я всегда́ чи́щу зу́бы у́тром.",
     "translit": "Ya vsegda chishchu zuby utrom.",
-    "en": "I always brush my teeth in the morning."
+    "en": "I always brush my teeth in the morning.",
+    "pl": "Zawsze myję zęby rano."
   },
   {
     "id": "a2-part-1-136",
     "ru": "Сестра помыла посуду вечером.",
     "ruStressed": "Сестра́ помы́ла посу́ду ве́чером.",
     "translit": "Sestra pomyla posudu vecherom.",
-    "en": "My sister washed the dishes in the evening."
+    "en": "My sister washed the dishes in the evening.",
+    "pl": "Moja siostra umyła wieczorem naczynia."
   },
   {
     "id": "a2-part-1-137",
     "ru": "Иногда он слушает радио в машине.",
     "ruStressed": "Иногда́ он слу́шает ра́дио в маши́не.",
     "translit": "Inogda on slushaet radio v mashine.",
-    "en": "Sometimes he listens to the radio in the car."
+    "en": "Sometimes he listens to the radio in the car.",
+    "pl": "Czasami on słucha radia w samochodzie."
   },
   {
     "id": "a2-part-1-138",
     "ru": "Ты принимал душ вчера?",
     "ruStressed": "Ты принима́л душ вчера́?",
     "translit": "Ty prinimal dush vchera?",
-    "en": "Did you take a shower yesterday?"
+    "en": "Did you take a shower yesterday?",
+    "pl": "Czy brałeś wczoraj prysznic?"
   },
   {
     "id": "a2-part-1-139",
     "ru": "Мы никогда не ходим в парк ночью.",
     "ruStressed": "Мы никогда́ не хо́дим в парк но́чью.",
     "translit": "My nikogda ne khodim v park noch'yu.",
-    "en": "We never go to the park at night."
+    "en": "We never go to the park at night.",
+    "pl": "Nigdy nie chodzimy do parku w nocy."
   },
   {
     "id": "a2-part-1-140",
     "ru": "Где вы гуляли днём?",
     "ruStressed": "Где вы гуля́ли днём?",
     "translit": "Gde vy gulyali dnyom?",
-    "en": "Where did you take a walk during the day?"
+    "en": "Where did you take a walk during the day?",
+    "pl": "Gdzie spacerowaliście w ciągu dnia?"
   },
   {
     "id": "a2-part-1-141",
     "ru": "Брат приготовил обед для всей семьи.",
     "ruStressed": "Брат пригото́вил обе́д для всей семьи́.",
     "translit": "Brat prigotovil obed dlya vsey sem'i.",
-    "en": "My brother prepared lunch for the whole family."
+    "en": "My brother prepared lunch for the whole family.",
+    "pl": "Mój brat przygotował obiad dla całej rodziny."
   },
   {
     "id": "a2-part-1-142",
     "ru": "В какое время ты закончишь работу завтра?",
     "ruStressed": "В како́е вре́мя ты зако́нчишь рабо́ту за́втра?",
     "translit": "V kakoe vremya ty zakonchish' rabotu zavtra?",
-    "en": "What time will you finish work tomorrow?"
+    "en": "What time will you finish work tomorrow?",
+    "pl": "O której godzinie skończysz jutro pracę?"
   },
   {
     "id": "a2-part-1-143",
     "ru": "Она часто покупает фрукты в этом магазине.",
     "ruStressed": "Она́ ча́сто покупа́ет фру́кты в э́том магази́не.",
     "translit": "Ona chasto pokupaet frukty v etom magazine.",
-    "en": "She often buys fruit in this shop."
+    "en": "She often buys fruit in this shop.",
+    "pl": "Ona często kupuje owoce w tym sklepie."
   },
   {
     "id": "a2-part-1-144",
     "ru": "Ложись спать сегодня раньше!",
     "ruStressed": "Ложи́сь спать сего́дня ра́ньше!",
     "translit": "Lozhis' spat' segodnya ran'she!",
-    "en": "Go to bed earlier today!"
+    "en": "Go to bed earlier today!",
+    "pl": "Połóż się dzisiaj wcześniej spać!"
   },
   {
     "id": "a2-part-1-145",
     "ru": "Друзья ждали меня один час.",
     "ruStressed": "Друзья́ жда́ли меня́ оди́н час.",
     "translit": "Druzy'a zhdali menya odin chas.",
-    "en": "My friends waited for me for an hour."
+    "en": "My friends waited for me for an hour.",
+    "pl": "Moi przyjaciele czekali na mnie przez godzinę."
   },
   {
     "id": "a2-part-1-146",
     "ru": "Дети играли на улице весь день.",
     "ruStressed": "Де́ти игра́ли на у́лице весь день.",
     "translit": "Deti igrali na ulitse ves' den'.",
-    "en": "The children played on the street all afternoon."
+    "en": "The children played on the street all afternoon.",
+    "pl": "Dzieci bawiły się na dworze przez całe popołudnie."
   },
   {
     "id": "a2-part-1-147",
     "ru": "Ты будешь гулять с собакой вечером?",
     "ruStressed": "Ты бу́дешь гуля́ть с соба́кой ве́чером?",
     "translit": "Ty budesh' gulyat' s sobakoy vecherom.",
-    "en": "Will you walk the dog in the evening?"
+    "en": "Will you walk the dog in the evening?",
+    "pl": "Czy wyprowadzisz wieczorem psa?"
   },
   {
     "id": "a2-part-1-148",
     "ru": "Я не отвечал на телефон вчера.",
     "ruStressed": "Я не отвеча́л на телефо́н вчера́.",
     "translit": "Ya ne otvechal na telefon vchera.",
-    "en": "I didn't answer the phone yesterday."
+    "en": "I didn't answer the phone yesterday.",
+    "pl": "Nie odbierałem wczoraj telefonu."
   },
   {
     "id": "a2-part-1-149",
     "ru": "Сделай домашнее задание сейчас, пожалуйста.",
     "ruStressed": "Сде́лай дома́шнее зада́ние сейча́с, пожа́луйста.",
     "translit": "Sdelay domashnee zadanie seychas, pozhaluysta.",
-    "en": "Do your homework now, please."
+    "en": "Do your homework now, please.",
+    "pl": "Zrób teraz zadanie domowe, proszę."
   },
   {
     "id": "a2-part-1-150",
     "ru": "Они были в музее во вторник.",
     "ruStressed": "Они́ бы́ли в музе́е во вто́рник.",
     "translit": "Oni byli v muzee vo vtornik.",
-    "en": "They were at the museum on Tuesday."
+    "en": "They were at the museum on Tuesday.",
+    "pl": "Byli w muzeum we wtorek."
   }
 ]
