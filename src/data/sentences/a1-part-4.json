@@ -4,420 +4,480 @@
     "ru": "Где здесь метро?",
     "ruStressed": "Где здесь метро́?",
     "translit": "Gde zdes metro?",
-    "en": "Where is the metro here?"
+    "en": "Where is the metro here?",
+    "pl": "Gdzie tutaj jest metro?"
   },
   {
     "id": "a1-part-4-2",
     "ru": "Где ближайший магазин?",
     "ruStressed": "Где ближа́йший магази́н?",
     "translit": "Gde blizhayshiy magazin?",
-    "en": "Where is the nearest shop?"
+    "en": "Where is the nearest shop?",
+    "pl": "Gdzie jest najbliższy sklep?"
   },
   {
     "id": "a1-part-4-3",
     "ru": "Где находится вокзал?",
     "ruStressed": "Где нахо́дится вокза́л?",
     "translit": "Gde nakhoditsya vokzal?",
-    "en": "Where is the train station?"
+    "en": "Where is the train station?",
+    "pl": "Gdzie jest dworzec?"
   },
   {
     "id": "a1-part-4-4",
     "ru": "Где находится аэропорт?",
     "ruStressed": "Где нахо́дится аэропо́рт?",
     "translit": "Gde nakhoditsya aeroport?",
-    "en": "Where is the airport?"
+    "en": "Where is the airport?",
+    "pl": "Gdzie jest lotnisko?"
   },
   {
     "id": "a1-part-4-5",
     "ru": "Где остановка автобуса?",
     "ruStressed": "Где остано́вка авто́буса?",
     "translit": "Gde ostanovka avtobusa?",
-    "en": "Where is the bus stop?"
+    "en": "Where is the bus stop?",
+    "pl": "Gdzie jest przystanek autobusowy?"
   },
   {
     "id": "a1-part-4-6",
     "ru": "Идите прямо.",
     "ruStressed": "Иди́те пря́мо.",
     "translit": "Idite pryamo.",
-    "en": "Go straight."
+    "en": "Go straight.",
+    "pl": "Proszę iść prosto."
   },
   {
     "id": "a1-part-4-7",
     "ru": "Поверните направо.",
     "ruStressed": "Поверни́те напра́во.",
     "translit": "Povernite napravo.",
-    "en": "Turn right."
+    "en": "Turn right.",
+    "pl": "Proszę skręcić w prawo."
   },
   {
     "id": "a1-part-4-8",
     "ru": "Поверните налево.",
     "ruStressed": "Поверни́те нале́во.",
     "translit": "Povernite nalevo.",
-    "en": "Turn left."
+    "en": "Turn left.",
+    "pl": "Proszę skręcić w lewo."
   },
   {
     "id": "a1-part-4-9",
     "ru": "Это далеко?",
     "ruStressed": "Э́то далеко́?",
     "translit": "Eto daleko?",
-    "en": "Is it far?"
+    "en": "Is it far?",
+    "pl": "Czy to daleko?"
   },
   {
     "id": "a1-part-4-10",
     "ru": "Это близко?",
     "ruStressed": "Э́то бли́зко?",
     "translit": "Eto blizko?",
-    "en": "Is it close?"
+    "en": "Is it close?",
+    "pl": "Czy to blisko?"
   },
   {
     "id": "a1-part-4-11",
     "ru": "Это очень далеко.",
     "ruStressed": "Э́то о́чень далеко́.",
     "translit": "Eto ochen daleko.",
-    "en": "It is very far."
+    "en": "It is very far.",
+    "pl": "To jest bardzo daleko."
   },
   {
     "id": "a1-part-4-12",
     "ru": "Это совсем близко.",
     "ruStressed": "Э́то совсе́м бли́зко.",
     "translit": "Eto sovsem blizko.",
-    "en": "It is quite close."
+    "en": "It is quite close.",
+    "pl": "To jest całkiem blisko."
   },
   {
     "id": "a1-part-4-13",
     "ru": "Идти пешком десять минут.",
     "ruStressed": "Идти́ пешко́м де́сять мину́т.",
     "translit": "Idti peshkom desyat minut.",
-    "en": "It is ten minutes on foot."
+    "en": "It is ten minutes on foot.",
+    "pl": "To dziesięć minut pieszo."
   },
   {
     "id": "a1-part-4-14",
     "ru": "Магазин за углом.",
     "ruStressed": "Магази́н за угло́м.",
     "translit": "Magazin za uglom.",
-    "en": "The shop is around the corner."
+    "en": "The shop is around the corner.",
+    "pl": "Sklep jest za rogiem."
   },
   {
     "id": "a1-part-4-15",
     "ru": "Аптека рядом с метро.",
     "ruStressed": "Апте́ка ря́дом с метро́.",
     "translit": "Apteka ryadom s metro.",
-    "en": "The pharmacy is near the metro."
+    "en": "The pharmacy is near the metro.",
+    "pl": "Apteka jest obok metra."
   },
   {
     "id": "a1-part-4-16",
     "ru": "Банк находится в центре.",
     "ruStressed": "Банк нахо́дится в це́нтре.",
     "translit": "Bank nakhoditsya v tsentre.",
-    "en": "The bank is in the centre."
+    "en": "The bank is in the centre.",
+    "pl": "Bank jest w centrum."
   },
   {
     "id": "a1-part-4-17",
     "ru": "Музей открыт каждый день.",
     "ruStressed": "Музе́й откры́т ка́ждый день.",
     "translit": "Muzey otkryt kazhdyy den.",
-    "en": "The museum is open every day."
+    "en": "The museum is open every day.",
+    "pl": "Muzeum jest otwarte codziennie."
   },
   {
     "id": "a1-part-4-18",
     "ru": "Магазин закрыт.",
     "ruStressed": "Магази́н закры́т.",
     "translit": "Magazin zakryt.",
-    "en": "The shop is closed."
+    "en": "The shop is closed.",
+    "pl": "Sklep jest zamknięty."
   },
   {
     "id": "a1-part-4-19",
     "ru": "Когда открывается банк?",
     "ruStressed": "Когда́ открыва́ется банк?",
     "translit": "Kogda otkryvaetsya bank?",
-    "en": "When does the bank open?"
+    "en": "When does the bank open?",
+    "pl": "O której otwierają bank?"
   },
   {
     "id": "a1-part-4-20",
     "ru": "Когда закрывается почта?",
     "ruStressed": "Когда́ закрыва́ется по́чта?",
     "translit": "Kogda zakryvaetsya pochta?",
-    "en": "When does the post office close?"
+    "en": "When does the post office close?",
+    "pl": "O której zamykają pocztę?"
   },
   {
     "id": "a1-part-4-21",
     "ru": "Почта работает до пяти.",
     "ruStressed": "По́чта рабо́тает до пяти́.",
     "translit": "Pochta rabotaet do pyati.",
-    "en": "The post office works until five."
+    "en": "The post office works until five.",
+    "pl": "Poczta jest czynna do piątej."
   },
   {
     "id": "a1-part-4-22",
     "ru": "Кафе открыто до десяти.",
     "ruStressed": "Кафе́ откры́то до десяти́.",
     "translit": "Kafe otkryto do desyati.",
-    "en": "The café is open until ten."
+    "en": "The café is open until ten.",
+    "pl": "Kawiarnia jest otwarta do dziesiątej."
   },
   {
     "id": "a1-part-4-23",
     "ru": "Я еду на автобусе.",
     "ruStressed": "Я е́ду на авто́бусе.",
     "translit": "Ya edu na avtobuse.",
-    "en": "I'm going by bus."
+    "en": "I'm going by bus.",
+    "pl": "Jadę autobusem."
   },
   {
     "id": "a1-part-4-24",
     "ru": "Я еду на метро.",
     "ruStressed": "Я е́ду на метро́.",
     "translit": "Ya edu na metro.",
-    "en": "I'm going by metro."
+    "en": "I'm going by metro.",
+    "pl": "Jadę metrem."
   },
   {
     "id": "a1-part-4-25",
     "ru": "Я еду на машине.",
     "ruStressed": "Я е́ду на маши́не.",
     "translit": "Ya edu na mashine.",
-    "en": "I'm going by car."
+    "en": "I'm going by car.",
+    "pl": "Jadę samochodem."
   },
   {
     "id": "a1-part-4-26",
     "ru": "Я еду на такси.",
     "ruStressed": "Я е́ду на такси́.",
     "translit": "Ya edu na taksi.",
-    "en": "I'm going by taxi."
+    "en": "I'm going by taxi.",
+    "pl": "Jadę taksówką."
   },
   {
     "id": "a1-part-4-27",
     "ru": "Я еду на поезде.",
     "ruStressed": "Я е́ду на по́езде.",
     "translit": "Ya edu na poezde.",
-    "en": "I'm going by train."
+    "en": "I'm going by train.",
+    "pl": "Jadę pociągiem."
   },
   {
     "id": "a1-part-4-28",
     "ru": "Я лечу на самолёте.",
     "ruStressed": "Я лечу́ на самолёте.",
     "translit": "Ya lechu na samolyote.",
-    "en": "I'm flying by plane."
+    "en": "I'm flying by plane.",
+    "pl": "Lecę samolotem."
   },
   {
     "id": "a1-part-4-29",
     "ru": "Я иду пешком.",
     "ruStressed": "Я иду́ пешко́м.",
     "translit": "Ya idu peshkom.",
-    "en": "I'm going on foot."
+    "en": "I'm going on foot.",
+    "pl": "Idę pieszo."
   },
   {
     "id": "a1-part-4-30",
     "ru": "Вызовите такси, пожалуйста.",
     "ruStressed": "Вы́зовите такси́, пожа́луйста.",
     "translit": "Vyzovite taksi, pozhaluysta.",
-    "en": "Please call a taxi."
+    "en": "Please call a taxi.",
+    "pl": "Proszę wezwać taksówkę."
   },
   {
     "id": "a1-part-4-31",
     "ru": "Сколько ехать до центра?",
     "ruStressed": "Ско́лько е́хать до це́нтра?",
     "translit": "Skolko ekhat do tsentra?",
-    "en": "How long to the centre?"
+    "en": "How long to the centre?",
+    "pl": "Jak długo jedzie się do centrum?"
   },
   {
     "id": "a1-part-4-32",
     "ru": "Остановите здесь, пожалуйста.",
     "ruStressed": "Останови́те здесь, пожа́луйста.",
     "translit": "Ostanovite zdes, pozhaluysta.",
-    "en": "Please stop here."
+    "en": "Please stop here.",
+    "pl": "Proszę się tutaj zatrzymać."
   },
   {
     "id": "a1-part-4-33",
     "ru": "Где можно купить билет?",
     "ruStressed": "Где мо́жно купи́ть биле́т?",
     "translit": "Gde mozhno kupit bilet?",
-    "en": "Where can I buy a ticket?"
+    "en": "Where can I buy a ticket?",
+    "pl": "Gdzie mogę kupić bilet?"
   },
   {
     "id": "a1-part-4-34",
     "ru": "Один билет, пожалуйста.",
     "ruStressed": "Оди́н биле́т, пожа́луйста.",
     "translit": "Odin bilet, pozhaluysta.",
-    "en": "One ticket, please."
+    "en": "One ticket, please.",
+    "pl": "Jeden bilet, poproszę."
   },
   {
     "id": "a1-part-4-35",
     "ru": "Два билета до Москвы.",
     "ruStressed": "Два биле́та до Москвы́.",
     "translit": "Dva bileta do Moskvy.",
-    "en": "Two tickets to Moscow."
+    "en": "Two tickets to Moscow.",
+    "pl": "Dwa bilety do Moskwy."
   },
   {
     "id": "a1-part-4-36",
     "ru": "Когда отправляется поезд?",
     "ruStressed": "Когда́ отправля́ется по́езд?",
     "translit": "Kogda otpravlyaetsya poezd?",
-    "en": "When does the train leave?"
+    "en": "When does the train leave?",
+    "pl": "Kiedy odjeżdża pociąg?"
   },
   {
     "id": "a1-part-4-37",
     "ru": "Поезд опаздывает.",
     "ruStressed": "По́езд опа́здывает.",
     "translit": "Poezd opazdyvaet.",
-    "en": "The train is late."
+    "en": "The train is late.",
+    "pl": "Pociąg się spóźnia."
   },
   {
     "id": "a1-part-4-38",
     "ru": "Самолёт прилетает в семь.",
     "ruStressed": "Самолёт прилета́ет в семь.",
     "translit": "Samolyot priletaet v sem.",
-    "en": "The plane arrives at seven."
+    "en": "The plane arrives at seven.",
+    "pl": "Samolot przylatuje o siódmej."
   },
   {
     "id": "a1-part-4-39",
     "ru": "Сейчас восемь часов утра.",
     "ruStressed": "Сейча́с во́семь часо́в утра́.",
     "translit": "Seychas vosem chasov utra.",
-    "en": "It is eight in the morning."
+    "en": "It is eight in the morning.",
+    "pl": "Jest ósma rano."
   },
   {
     "id": "a1-part-4-40",
     "ru": "Сейчас три часа дня.",
     "ruStressed": "Сейча́с три часа́ дня.",
     "translit": "Seychas tri chasa dnya.",
-    "en": "It is three in the afternoon."
+    "en": "It is three in the afternoon.",
+    "pl": "Jest trzecia po południu."
   },
   {
     "id": "a1-part-4-41",
     "ru": "Сейчас десять часов вечера.",
     "ruStressed": "Сейча́с де́сять часо́в ве́чера.",
     "translit": "Seychas desyat chasov vechera.",
-    "en": "It is ten in the evening."
+    "en": "It is ten in the evening.",
+    "pl": "Jest dziesiąta wieczorem."
   },
   {
     "id": "a1-part-4-42",
     "ru": "Сейчас половина первого.",
     "ruStressed": "Сейча́с полови́на пе́рвого.",
     "translit": "Seychas polovina pervogo.",
-    "en": "It is half past twelve."
+    "en": "It is half past twelve.",
+    "pl": "Jest wpół do pierwszej."
   },
   {
     "id": "a1-part-4-43",
     "ru": "Сейчас четверть второго.",
     "ruStressed": "Сейча́с че́тверть второ́го.",
     "translit": "Seychas chetvert vtorogo.",
-    "en": "It is a quarter past one."
+    "en": "It is a quarter past one.",
+    "pl": "Jest kwadrans po pierwszej."
   },
   {
     "id": "a1-part-4-44",
     "ru": "Без четверти три.",
     "ruStressed": "Без че́тверти три.",
     "translit": "Bez chetverti tri.",
-    "en": "It is a quarter to three."
+    "en": "It is a quarter to three.",
+    "pl": "Jest za kwadrans trzecia."
   },
   {
     "id": "a1-part-4-45",
     "ru": "Магазин открывается в девять.",
     "ruStressed": "Магази́н открыва́ется в де́вять.",
     "translit": "Magazin otkryvaetsya v devyat.",
-    "en": "The shop opens at nine."
+    "en": "The shop opens at nine.",
+    "pl": "Sklep otwierają o dziewiątej."
   },
   {
     "id": "a1-part-4-46",
     "ru": "Я ложусь спать в одиннадцать.",
     "ruStressed": "Я ложу́сь спать в оди́ннадцать.",
     "translit": "Ya lozhus spat v odinnadtsat.",
-    "en": "I go to bed at eleven."
+    "en": "I go to bed at eleven.",
+    "pl": "Kładę się spać o jedenastej."
   },
   {
     "id": "a1-part-4-47",
     "ru": "Я встаю в семь утра.",
     "ruStressed": "Я встаю́ в семь утра́.",
     "translit": "Ya vstayu v sem utra.",
-    "en": "I get up at seven in the morning."
+    "en": "I get up at seven in the morning.",
+    "pl": "Wstaję o siódmej rano."
   },
   {
     "id": "a1-part-4-48",
     "ru": "Завтрак в восемь часов.",
     "ruStressed": "За́втрак в во́семь часо́в.",
     "translit": "Zavtrak v vosem chasov.",
-    "en": "Breakfast is at eight."
+    "en": "Breakfast is at eight.",
+    "pl": "Śniadanie jest o ósmej."
   },
   {
     "id": "a1-part-4-49",
     "ru": "Обед в час дня.",
     "ruStressed": "Обе́д в час дня.",
     "translit": "Obed v chas dnya.",
-    "en": "Lunch is at one."
+    "en": "Lunch is at one.",
+    "pl": "Obiad jest o pierwszej."
   },
   {
     "id": "a1-part-4-50",
     "ru": "Ужин в семь вечера.",
     "ruStressed": "У́жин в семь ве́чера.",
     "translit": "Uzhin v sem vechera.",
-    "en": "Dinner is at seven in the evening."
+    "en": "Dinner is at seven in the evening.",
+    "pl": "Kolacja jest o siódmej wieczorem."
   },
   {
     "id": "a1-part-4-51",
     "ru": "Урок начинается в девять.",
     "ruStressed": "Уро́к начина́ется в де́вять.",
     "translit": "Urok nachinaetsya v devyat.",
-    "en": "The lesson starts at nine."
+    "en": "The lesson starts at nine.",
+    "pl": "Lekcja zaczyna się o dziewiątej."
   },
   {
     "id": "a1-part-4-52",
     "ru": "Урок заканчивается в час.",
     "ruStressed": "Уро́к зака́нчивается в час.",
     "translit": "Urok zakanchivaetsya v chas.",
-    "en": "The lesson ends at one."
+    "en": "The lesson ends at one.",
+    "pl": "Lekcja kończy się o pierwszej."
   },
   {
     "id": "a1-part-4-53",
     "ru": "Сколько времени это займёт?",
     "ruStressed": "Ско́лько вре́мени э́то займёт?",
     "translit": "Skolko vremeni eto zaymyot?",
-    "en": "How long will it take?"
+    "en": "How long will it take?",
+    "pl": "Ile czasu to zajmie?"
   },
   {
     "id": "a1-part-4-54",
     "ru": "Это займёт пять минут.",
     "ruStressed": "Э́то займёт пять мину́т.",
     "translit": "Eto zaymyot pyat minut.",
-    "en": "It will take five minutes."
+    "en": "It will take five minutes.",
+    "pl": "To zajmie pięć minut."
   },
   {
     "id": "a1-part-4-55",
     "ru": "Это займёт целый час.",
     "ruStressed": "Э́то займёт це́лый час.",
     "translit": "Eto zaymyot tselyy chas.",
-    "en": "It will take a whole hour."
+    "en": "It will take a whole hour.",
+    "pl": "To zajmie całą godzinę."
   },
   {
     "id": "a1-part-4-56",
     "ru": "Какая сегодня погода?",
     "ruStressed": "Кака́я сего́дня пого́да?",
     "translit": "Kakaya segodnya pogoda?",
-    "en": "What's the weather like today?"
+    "en": "What's the weather like today?",
+    "pl": "Jaka jest dzisiaj pogoda?"
   },
   {
     "id": "a1-part-4-57",
     "ru": "Сегодня хорошая погода.",
     "ruStressed": "Сего́дня хоро́шая пого́да.",
     "translit": "Segodnya khoroshaya pogoda.",
-    "en": "The weather is nice today."
+    "en": "The weather is nice today.",
+    "pl": "Dzisiaj jest ładna pogoda."
   },
   {
     "id": "a1-part-4-58",
     "ru": "Сегодня плохая погода.",
     "ruStressed": "Сего́дня плоха́я пого́да.",
     "translit": "Segodnya plokhaya pogoda.",
-    "en": "The weather is bad today."
+    "en": "The weather is bad today.",
+    "pl": "Dzisiaj jest brzydka pogoda."
   },
   {
     "id": "a1-part-4-59",
     "ru": "Сегодня идёт дождь.",
     "ruStressed": "Сего́дня идёт дождь.",
     "translit": "Segodnya idyot dozhd.",
-    "en": "It's raining today."
+    "en": "It's raining today.",
+    "pl": "Dzisiaj pada deszcz."
   },
   {
     "id": "a1-part-4-60",
     "ru": "Сегодня идёт снег.",
     "ruStressed": "Сего́дня идёт снег.",
     "translit": "Segodnya idyot sneg.",
-    "en": "It's snowing today."
+    "en": "It's snowing today.",
+    "pl": "Dzisiaj pada śnieg."
   },
   {
     "id": "a1-part-4-61",
