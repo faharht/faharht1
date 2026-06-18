@@ -1284,979 +1284,1119 @@
     "ru": "Она готовит ужин тайно.",
     "ruStressed": "Она́ гото́вит у́жин та́йно.",
     "translit": "Ona gotovit uzhin tayno.",
-    "en": "She makes dinner secretly."
+    "en": "She makes dinner secretly.",
+    "pl": "Ona przygotowuje kolację potajemnie."
   },
   {
     "id": "top-300-adverbs-162",
     "ru": "Учитель объясняет вежливо.",
     "ruStressed": "Учи́тель объясня́ет ве́жливо.",
     "translit": "Uchitel obyasnyaet vezhlivo.",
-    "en": "The teacher explains politely."
+    "en": "The teacher explains politely.",
+    "pl": "Nauczyciel wyjaśnia uprzejmie."
   },
   {
     "id": "top-300-adverbs-163",
     "ru": "Учитель объясняет грубо.",
     "ruStressed": "Учи́тель объясня́ет гру́бо.",
     "translit": "Uchitel obyasnyaet grubo.",
-    "en": "The teacher explains rudely."
+    "en": "The teacher explains rudely.",
+    "pl": "Nauczyciel wyjaśnia niegrzecznie."
   },
   {
     "id": "top-300-adverbs-164",
     "ru": "Учитель объясняет ласково.",
     "ruStressed": "Учи́тель объясня́ет ла́сково.",
     "translit": "Uchitel obyasnyaet laskovo.",
-    "en": "The teacher explains tenderly."
+    "en": "The teacher explains tenderly.",
+    "pl": "Nauczyciel wyjaśnia czule."
   },
   {
     "id": "top-300-adverbs-165",
     "ru": "Учитель объясняет строго.",
     "ruStressed": "Учи́тель объясня́ет стро́го.",
     "translit": "Uchitel obyasnyaet strogo.",
-    "en": "The teacher explains strictly."
+    "en": "The teacher explains strictly.",
+    "pl": "Nauczyciel wyjaśnia surowo."
   },
   {
     "id": "top-300-adverbs-166",
     "ru": "Учитель объясняет спокойно.",
     "ruStressed": "Учи́тель объясня́ет споко́йно.",
     "translit": "Uchitel obyasnyaet spokoyno.",
-    "en": "The teacher explains calmly."
+    "en": "The teacher explains calmly.",
+    "pl": "Nauczyciel wyjaśnia spokojnie."
   },
   {
     "id": "top-300-adverbs-167",
     "ru": "Учитель объясняет нервно.",
     "ruStressed": "Учи́тель объясня́ет не́рвно.",
     "translit": "Uchitel obyasnyaet nervno.",
-    "en": "The teacher explains nervously."
+    "en": "The teacher explains nervously.",
+    "pl": "Nauczyciel wyjaśnia nerwowo."
   },
   {
     "id": "top-300-adverbs-168",
     "ru": "Учитель объясняет уверенно.",
     "ruStressed": "Учи́тель объясня́ет уве́ренно.",
     "translit": "Uchitel obyasnyaet uverenno.",
-    "en": "The teacher explains confidently."
+    "en": "The teacher explains confidently.",
+    "pl": "Nauczyciel wyjaśnia pewnie."
   },
   {
     "id": "top-300-adverbs-169",
     "ru": "Учитель объясняет сомнительно.",
     "ruStressed": "Учи́тель объясня́ет сомни́тельно.",
     "translit": "Uchitel obyasnyaet somnitelno.",
-    "en": "The teacher explains doubtfully."
+    "en": "The teacher explains doubtfully.",
+    "pl": "Nauczyciel wyjaśnia z wątpieniem."
   },
   {
     "id": "top-300-adverbs-170",
     "ru": "Мы всегда работаем охотно.",
     "ruStressed": "Мы всегда́ рабо́таем охо́тно.",
     "translit": "My vsegda rabotaem okhotno.",
-    "en": "We always work willingly."
+    "en": "We always work willingly.",
+    "pl": "Zawsze pracujemy chętnie."
   },
   {
     "id": "top-300-adverbs-171",
     "ru": "Мы всегда работаем неохотно.",
     "ruStressed": "Мы всегда́ рабо́таем неохо́тно.",
     "translit": "My vsegda rabotaem neokhotno.",
-    "en": "We always work unwillingly."
+    "en": "We always work unwillingly.",
+    "pl": "Zawsze pracujemy niechętnie."
   },
   {
     "id": "top-300-adverbs-172",
     "ru": "Она готовит ужин легко.",
     "ruStressed": "Она́ гото́вит у́жин легко́.",
     "translit": "Ona gotovit uzhin legko.",
-    "en": "She makes dinner easily."
+    "en": "She makes dinner easily.",
+    "pl": "Ona przygotowuje kolację z łatwością."
   },
   {
     "id": "top-300-adverbs-173",
     "ru": "Она готовит ужин трудно.",
     "ruStressed": "Она́ гото́вит у́жин тру́дно.",
     "translit": "Ona gotovit uzhin trudno.",
-    "en": "She makes dinner with difficulty."
+    "en": "She makes dinner with difficulty.",
+    "pl": "Ona przygotowuje kolację z trudem."
   },
   {
     "id": "top-300-adverbs-174",
     "ru": "Мы всегда работаем успешно.",
     "ruStressed": "Мы всегда́ рабо́таем успе́шно.",
     "translit": "My vsegda rabotaem uspeshno.",
-    "en": "We always work successfully."
+    "en": "We always work successfully.",
+    "pl": "Zawsze pracujemy z sukcesem."
   },
   {
     "id": "top-300-adverbs-175",
     "ru": "Мы всегда работаем неудачно.",
     "ruStressed": "Мы всегда́ рабо́таем неуда́чно.",
     "translit": "My vsegda rabotaem neudachno.",
-    "en": "We always work unsuccessfully."
+    "en": "We always work unsuccessfully.",
+    "pl": "Zawsze pracujemy bez powodzenia."
   },
   {
     "id": "top-300-adverbs-176",
     "ru": "Она готовит ужин красиво.",
     "ruStressed": "Она́ гото́вит у́жин краси́во.",
     "translit": "Ona gotovit uzhin krasivo.",
-    "en": "She makes dinner beautifully."
+    "en": "She makes dinner beautifully.",
+    "pl": "Ona przygotowuje kolację pięknie."
   },
   {
     "id": "top-300-adverbs-177",
     "ru": "Здесь ужасно тихо.",
     "ruStressed": "Здесь ужа́сно ти́хо.",
     "translit": "Zdes uzhasno tikho.",
-    "en": "Here it is terribly quiet."
+    "en": "Here it is terribly quiet.",
+    "pl": "Tutaj jest strasznie cicho."
   },
   {
     "id": "top-300-adverbs-178",
     "ru": "Здесь прекрасно тихо.",
     "ruStressed": "Здесь прекра́сно ти́хо.",
     "translit": "Zdes prekrasno tikho.",
-    "en": "Here it is wonderfully quiet."
+    "en": "Here it is wonderfully quiet.",
+    "pl": "Tutaj jest cudownie cicho."
   },
   {
     "id": "top-300-adverbs-179",
     "ru": "Учитель объясняет странно.",
     "ruStressed": "Учи́тель объясня́ет стра́нно.",
     "translit": "Uchitel obyasnyaet stranno.",
-    "en": "The teacher explains strangely."
+    "en": "The teacher explains strangely.",
+    "pl": "Nauczyciel wyjaśnia dziwnie."
   },
   {
     "id": "top-300-adverbs-180",
     "ru": "Он опаздывает обычно.",
     "ruStressed": "Он опа́здывает обы́чно.",
     "translit": "On opazdyvaet obychno.",
-    "en": "He is late usually."
+    "en": "He is late usually.",
+    "pl": "On zazwyczaj się spóźnia."
   },
   {
     "id": "top-300-adverbs-181",
     "ru": "Учитель объясняет необычно.",
     "ruStressed": "Учи́тель объясня́ет необы́чно.",
     "translit": "Uchitel obyasnyaet neobychno.",
-    "en": "The teacher explains unusually."
+    "en": "The teacher explains unusually.",
+    "pl": "Nauczyciel wyjaśnia niezwykle."
   },
   {
     "id": "top-300-adverbs-182",
     "ru": "Она готовит ужин просто.",
     "ruStressed": "Она́ гото́вит у́жин про́сто.",
     "translit": "Ona gotovit uzhin prosto.",
-    "en": "She makes dinner simply."
+    "en": "She makes dinner simply.",
+    "pl": "Ona przygotowuje kolację prosto."
   },
   {
     "id": "top-300-adverbs-183",
     "ru": "Она готовит ужин сложно.",
     "ruStressed": "Она́ гото́вит у́жин сло́жно.",
     "translit": "Ona gotovit uzhin slozhno.",
-    "en": "She makes dinner complicatedly."
+    "en": "She makes dinner complicatedly.",
+    "pl": "Ona przygotowuje kolację w sposób skomplikowany."
   },
   {
     "id": "top-300-adverbs-184",
     "ru": "Учитель объясняет важно.",
     "ruStressed": "Учи́тель объясня́ет ва́жно.",
     "translit": "Uchitel obyasnyaet vazhno.",
-    "en": "The teacher explains importantly."
+    "en": "The teacher explains importantly.",
+    "pl": "Nauczyciel wyjaśnia z powagą."
   },
   {
     "id": "top-300-adverbs-185",
     "ru": "Учитель объясняет прямо.",
     "ruStressed": "Учи́тель объясня́ет пря́мо.",
     "translit": "Uchitel obyasnyaet pryamo.",
-    "en": "The teacher explains straight."
+    "en": "The teacher explains straight.",
+    "pl": "Nauczyciel wyjaśnia wprost."
   },
   {
     "id": "top-300-adverbs-186",
     "ru": "Учитель объясняет косвенно.",
     "ruStressed": "Учи́тель объясня́ет ко́свенно.",
     "translit": "Uchitel obyasnyaet kosvenno.",
-    "en": "The teacher explains indirectly."
+    "en": "The teacher explains indirectly.",
+    "pl": "Nauczyciel wyjaśnia okrężnie."
   },
   {
     "id": "top-300-adverbs-187",
     "ru": "Она готовит ужин полностью.",
     "ruStressed": "Она́ гото́вит у́жин по́лностью.",
     "translit": "Ona gotovit uzhin polnostyu.",
-    "en": "She makes dinner completely."
+    "en": "She makes dinner completely.",
+    "pl": "Ona przygotowuje kolację całkowicie."
   },
   {
     "id": "top-300-adverbs-188",
     "ru": "Она готовит ужин частично.",
     "ruStressed": "Она́ гото́вит у́жин части́чно.",
     "translit": "Ona gotovit uzhin chastichno.",
-    "en": "She makes dinner partially."
+    "en": "She makes dinner partially.",
+    "pl": "Ona przygotowuje kolację częściowo."
   },
   {
     "id": "top-300-adverbs-189",
     "ru": "Здесь абсолютно тихо.",
     "ruStressed": "Здесь абсолю́тно ти́хо.",
     "translit": "Zdes absolyutno tikho.",
-    "en": "Here it is absolutely quiet."
+    "en": "Here it is absolutely quiet.",
+    "pl": "Tutaj jest absolutnie cicho."
   },
   {
     "id": "top-300-adverbs-190",
     "ru": "Учитель объясняет относительно.",
     "ruStressed": "Учи́тель объясня́ет относи́тельно.",
     "translit": "Uchitel obyasnyaet otnositelno.",
-    "en": "The teacher explains relatively."
+    "en": "The teacher explains relatively.",
+    "pl": "Nauczyciel wyjaśnia relatywnie."
   },
   {
     "id": "top-300-adverbs-191",
     "ru": "Он опаздывает обязательно.",
     "ruStressed": "Он опа́здывает обяза́тельно.",
     "translit": "On opazdyvaet obyazatelno.",
-    "en": "He is late definitely."
+    "en": "He is late definitely.",
+    "pl": "On spóźnia się na pewno."
   },
   {
     "id": "top-300-adverbs-192",
     "ru": "Он опаздывает возможно.",
     "ruStressed": "Он опа́здывает возмо́жно.",
     "translit": "On opazdyvaet vozmozhno.",
-    "en": "He is late possibly."
+    "en": "He is late possibly.",
+    "pl": "On spóźnia się być może."
   },
   {
     "id": "top-300-adverbs-193",
     "ru": "Он опаздывает вероятно.",
     "ruStressed": "Он опа́здывает вероя́тно.",
     "translit": "On opazdyvaet veroyatno.",
-    "en": "He is late probably."
+    "en": "He is late probably.",
+    "pl": "On prawdopodobnie się spóźnia."
   },
   {
     "id": "top-300-adverbs-194",
     "ru": "Учитель объясняет естественно.",
     "ruStressed": "Учи́тель объясня́ет есте́ственно.",
     "translit": "Uchitel obyasnyaet estestvenno.",
-    "en": "The teacher explains naturally."
+    "en": "The teacher explains naturally.",
+    "pl": "Nauczyciel wyjaśnia naturalnie."
   },
   {
     "id": "top-300-adverbs-195",
     "ru": "Он опаздывает неожиданно.",
     "ruStressed": "Он опа́здывает неожи́данно.",
     "translit": "On opazdyvaet neozhidanno.",
-    "en": "He is late unexpectedly."
+    "en": "He is late unexpectedly.",
+    "pl": "On spóźnia się niespodziewanie."
   },
   {
     "id": "top-300-adverbs-196",
     "ru": "Он опаздывает случайно.",
     "ruStressed": "Он опа́здывает случа́йно.",
     "translit": "On opazdyvaet sluchayno.",
-    "en": "He is late by chance."
+    "en": "He is late by chance.",
+    "pl": "On spóźnia się przypadkiem."
   },
   {
     "id": "top-300-adverbs-197",
     "ru": "Она готовит ужин специально.",
     "ruStressed": "Она́ гото́вит у́жин специа́льно.",
     "translit": "Ona gotovit uzhin spetsialno.",
-    "en": "She makes dinner specially."
+    "en": "She makes dinner specially.",
+    "pl": "Ona przygotowuje kolację specjalnie."
   },
   {
     "id": "top-300-adverbs-198",
     "ru": "Она готовит ужин нарочно.",
     "ruStressed": "Она́ гото́вит у́жин наро́чно.",
     "translit": "Ona gotovit uzhin narochno.",
-    "en": "She makes dinner on purpose."
+    "en": "She makes dinner on purpose.",
+    "pl": "Ona przygotowuje kolację celowo."
   },
   {
     "id": "top-300-adverbs-199",
     "ru": "Мы всегда работаем вдвоём.",
     "ruStressed": "Мы всегда́ рабо́таем вдвоём.",
     "translit": "My vsegda rabotaem vdvoyom.",
-    "en": "We always work as a pair."
+    "en": "We always work as a pair.",
+    "pl": "Zawsze pracujemy we dwójkę."
   },
   {
     "id": "top-300-adverbs-200",
     "ru": "Он опаздывает вместе.",
     "ruStressed": "Он опа́здывает вме́сте.",
     "translit": "On opazdyvaet vmeste.",
-    "en": "He is late together."
+    "en": "He is late together.",
+    "pl": "On spóźnia się razem."
   },
   {
     "id": "top-300-adverbs-201",
     "ru": "Он опаздывает отдельно.",
     "ruStressed": "Он опа́здывает отде́льно.",
     "translit": "On opazdyvaet otdelno.",
-    "en": "He is late separately."
+    "en": "He is late separately.",
+    "pl": "On spóźnia się oddzielnie."
   },
   {
     "id": "top-300-adverbs-202",
     "ru": "Он опаздывает вдруг.",
     "ruStressed": "Он опа́здывает вдруг.",
     "translit": "On opazdyvaet vdrug.",
-    "en": "He is late suddenly."
+    "en": "He is late suddenly.",
+    "pl": "On spóźnia się nagle."
   },
   {
     "id": "top-300-adverbs-203",
     "ru": "Она готовит ужин постепенно.",
     "ruStressed": "Она́ гото́вит у́жин постепе́нно.",
     "translit": "Ona gotovit uzhin postepenno.",
-    "en": "She makes dinner gradually."
+    "en": "She makes dinner gradually.",
+    "pl": "Ona przygotowuje kolację stopniowo."
   },
   {
     "id": "top-300-adverbs-204",
     "ru": "Мы всегда работаем долго.",
     "ruStressed": "Мы всегда́ рабо́таем до́лго.",
     "translit": "My vsegda rabotaem dolgo.",
-    "en": "We always work for a long time."
+    "en": "We always work for a long time.",
+    "pl": "Zawsze pracujemy długo."
   },
   {
     "id": "top-300-adverbs-205",
     "ru": "Учитель объясняет коротко.",
     "ruStressed": "Учи́тель объясня́ет ко́ротко.",
     "translit": "Uchitel obyasnyaet korotko.",
-    "en": "The teacher explains briefly."
+    "en": "The teacher explains briefly.",
+    "pl": "Nauczyciel wyjaśnia krótko."
   },
   {
     "id": "top-300-adverbs-206",
     "ru": "Учитель объясняет полностью.",
     "ruStressed": "Учи́тель объясня́ет по́лностью.",
     "translit": "Uchitel obyasnyaet polnostyu.",
-    "en": "The teacher explains fully."
+    "en": "The teacher explains fully.",
+    "pl": "Nauczyciel wyjaśnia w pełni."
   },
   {
     "id": "top-300-adverbs-207",
     "ru": "Я стараюсь работать быстро.",
     "ruStressed": "Я стара́юсь рабо́тать бы́стро.",
     "translit": "Ya starayus rabotat bystro.",
-    "en": "I try to work quickly."
+    "en": "I try to work quickly.",
+    "pl": "Staram się pracować szybko."
   },
   {
     "id": "top-300-adverbs-208",
     "ru": "Я стараюсь работать медленно.",
     "ruStressed": "Я стара́юсь рабо́тать ме́дленно.",
     "translit": "Ya starayus rabotat medlenno.",
-    "en": "I try to work slowly."
+    "en": "I try to work slowly.",
+    "pl": "Staram się pracować powoli."
   },
   {
     "id": "top-300-adverbs-209",
     "ru": "Я стараюсь работать хорошо.",
     "ruStressed": "Я стара́юсь рабо́тать хорошо́.",
     "translit": "Ya starayus rabotat khorosho.",
-    "en": "I try to work well."
+    "en": "I try to work well.",
+    "pl": "Staram się pracować dobrze."
   },
   {
     "id": "top-300-adverbs-210",
     "ru": "Я стараюсь работать плохо.",
     "ruStressed": "Я стара́юсь рабо́тать пло́хо.",
     "translit": "Ya starayus rabotat plokho.",
-    "en": "I try to work poorly."
+    "en": "I try to work poorly.",
+    "pl": "Staram się pracować źle."
   },
   {
     "id": "top-300-adverbs-211",
     "ru": "Постарайся ответить тихо.",
     "ruStressed": "Постара́йся отве́тить ти́хо.",
     "translit": "Postaraysya otvetit tikho.",
-    "en": "Try to answer quietly."
+    "en": "Try to answer quietly.",
+    "pl": "Postaraj się odpowiedzieć cicho."
   },
   {
     "id": "top-300-adverbs-212",
     "ru": "Постарайся ответить громко.",
     "ruStressed": "Постара́йся отве́тить гро́мко.",
     "translit": "Postaraysya otvetit gromko.",
-    "en": "Try to answer loudly."
+    "en": "Try to answer loudly.",
+    "pl": "Postaraj się odpowiedzieć głośno."
   },
   {
     "id": "top-300-adverbs-213",
     "ru": "Постарайся ответить чётко.",
     "ruStressed": "Постара́йся отве́тить чётко.",
     "translit": "Postaraysya otvetit chyotko.",
-    "en": "Try to answer clearly."
+    "en": "Try to answer clearly.",
+    "pl": "Postaraj się odpowiedzieć wyraźnie."
   },
   {
     "id": "top-300-adverbs-214",
     "ru": "Постарайся ответить ясно.",
     "ruStressed": "Постара́йся отве́тить я́сно.",
     "translit": "Postaraysya otvetit yasno.",
-    "en": "Try to answer clearly."
+    "en": "Try to answer clearly.",
+    "pl": "Postaraj się odpowiedzieć jasno."
   },
   {
     "id": "top-300-adverbs-215",
     "ru": "Гости приехали часто.",
     "ruStressed": "Го́сти прие́хали ча́сто.",
     "translit": "Gosti priekhali chasto.",
-    "en": "The guests arrived often."
+    "en": "The guests arrived often.",
+    "pl": "Goście przyjeżdżali często."
   },
   {
     "id": "top-300-adverbs-216",
     "ru": "Гости приехали редко.",
     "ruStressed": "Го́сти прие́хали ре́дко.",
     "translit": "Gosti priekhali redko.",
-    "en": "The guests arrived rarely."
+    "en": "The guests arrived rarely.",
+    "pl": "Goście przyjeżdżali rzadko."
   },
   {
     "id": "top-300-adverbs-217",
     "ru": "Гости приехали иногда.",
     "ruStressed": "Го́сти прие́хали иногда́.",
     "translit": "Gosti priekhali inogda.",
-    "en": "The guests arrived sometimes."
+    "en": "The guests arrived sometimes.",
+    "pl": "Goście przyjeżdżali czasami."
   },
   {
     "id": "top-300-adverbs-218",
     "ru": "Гости приехали всегда.",
     "ruStressed": "Го́сти прие́хали всегда́.",
     "translit": "Gosti priekhali vsegda.",
-    "en": "The guests arrived always."
+    "en": "The guests arrived always.",
+    "pl": "Goście przyjeżdżali zawsze."
   },
   {
     "id": "top-300-adverbs-219",
     "ru": "Гости приехали никогда.",
     "ruStressed": "Го́сти прие́хали никогда́.",
     "translit": "Gosti priekhali nikogda.",
-    "en": "The guests arrived never."
+    "en": "The guests arrived never.",
+    "pl": "Goście nigdy nie przyjechali."
   },
   {
     "id": "top-300-adverbs-220",
     "ru": "Сегодня начался дождь.",
     "ruStressed": "Сего́дня начался́ дождь.",
     "translit": "Segodnya nachalsya dozhd.",
-    "en": "Today it started raining."
+    "en": "Today it started raining.",
+    "pl": "Dzisiaj zaczął padać deszcz."
   },
   {
     "id": "top-300-adverbs-221",
     "ru": "Вчера начался дождь.",
     "ruStressed": "Вчера́ начался́ дождь.",
     "translit": "Vchera nachalsya dozhd.",
-    "en": "Yesterday it started raining."
+    "en": "Yesterday it started raining.",
+    "pl": "Wczoraj zaczął padać deszcz."
   },
   {
     "id": "top-300-adverbs-222",
     "ru": "Завтра я хочу отдохнуть.",
     "ruStressed": "За́втра я хочу́ отдохну́ть.",
     "translit": "Zavtra ya khochu otdokhnut.",
-    "en": "Tomorrow I want to rest."
+    "en": "Tomorrow I want to rest.",
+    "pl": "Jutro chcę odpocząć."
   },
   {
     "id": "top-300-adverbs-223",
     "ru": "Сейчас я хочу отдохнуть.",
     "ruStressed": "Сейча́с я хочу́ отдохну́ть.",
     "translit": "Seychas ya khochu otdokhnut.",
-    "en": "Now I want to rest."
+    "en": "Now I want to rest.",
+    "pl": "Teraz chcę odpocząć."
   },
   {
     "id": "top-300-adverbs-224",
     "ru": "Потом я хочу отдохнуть.",
     "ruStressed": "Пото́м я хочу́ отдохну́ть.",
     "translit": "Potom ya khochu otdokhnut.",
-    "en": "Later I want to rest."
+    "en": "Later I want to rest.",
+    "pl": "Później chcę odpocząć."
   },
   {
     "id": "top-300-adverbs-225",
     "ru": "Гости приехали рано.",
     "ruStressed": "Го́сти прие́хали ра́но.",
     "translit": "Gosti priekhali rano.",
-    "en": "The guests arrived early."
+    "en": "The guests arrived early.",
+    "pl": "Goście przyjechali wcześnie."
   },
   {
     "id": "top-300-adverbs-226",
     "ru": "Гости приехали поздно.",
     "ruStressed": "Го́сти прие́хали по́здно.",
     "translit": "Gosti priekhali pozdno.",
-    "en": "The guests arrived late."
+    "en": "The guests arrived late.",
+    "pl": "Goście przyjechali późno."
   },
   {
     "id": "top-300-adverbs-227",
     "ru": "Уже я хочу отдохнуть.",
     "ruStressed": "Уже́ я хочу́ отдохну́ть.",
     "translit": "Uzhe ya khochu otdokhnut.",
-    "en": "Already I want to rest."
+    "en": "Already I want to rest.",
+    "pl": "Już chcę odpocząć."
   },
   {
     "id": "top-300-adverbs-228",
     "ru": "Ещё я хочу отдохнуть.",
     "ruStressed": "Ещё я хочу́ отдохну́ть.",
     "translit": "Eshchyo ya khochu otdokhnut.",
-    "en": "Still I want to rest."
+    "en": "Still I want to rest.",
+    "pl": "Wciąż chcę odpocząć."
   },
   {
     "id": "top-300-adverbs-229",
     "ru": "Скоро я хочу отдохнуть.",
     "ruStressed": "Ско́ро я хочу́ отдохну́ть.",
     "translit": "Skoro ya khochu otdokhnut.",
-    "en": "Soon I want to rest."
+    "en": "Soon I want to rest.",
+    "pl": "Wkrótce chcę odpocząć."
   },
   {
     "id": "top-300-adverbs-230",
     "ru": "Давно начался дождь.",
     "ruStressed": "Давно́ начался́ дождь.",
     "translit": "Davno nachalsya dozhd.",
-    "en": "Long ago it started raining."
+    "en": "Long ago it started raining.",
+    "pl": "Dawno temu zaczął padać deszcz."
   },
   {
     "id": "top-300-adverbs-231",
     "ru": "Недавно начался дождь.",
     "ruStressed": "Неда́вно начался́ дождь.",
     "translit": "Nedavno nachalsya dozhd.",
-    "en": "Recently it started raining."
+    "en": "Recently it started raining.",
+    "pl": "Niedawno zaczął padać deszcz."
   },
   {
     "id": "top-300-adverbs-232",
     "ru": "Мы встречаемся здесь.",
     "ruStressed": "Мы встреча́емся здесь.",
     "translit": "My vstrechaemsya zdes.",
-    "en": "We meet here."
+    "en": "We meet here.",
+    "pl": "Spotykamy się tutaj."
   },
   {
     "id": "top-300-adverbs-233",
     "ru": "Мы встречаемся там.",
     "ruStressed": "Мы встреча́емся там.",
     "translit": "My vstrechaemsya tam.",
-    "en": "We meet there."
+    "en": "We meet there.",
+    "pl": "Spotykamy się tam."
   },
   {
     "id": "top-300-adverbs-234",
     "ru": "Мы встречаемся везде.",
     "ruStressed": "Мы встреча́емся везде́.",
     "translit": "My vstrechaemsya vezde.",
-    "en": "We meet everywhere."
+    "en": "We meet everywhere.",
+    "pl": "Spotykamy się wszędzie."
   },
   {
     "id": "top-300-adverbs-235",
     "ru": "Мы встречаемся нигде.",
     "ruStressed": "Мы встреча́емся нигде́.",
     "translit": "My vstrechaemsya nigde.",
-    "en": "We meet nowhere."
+    "en": "We meet nowhere.",
+    "pl": "Nigdzie się nie spotykamy."
   },
   {
     "id": "top-300-adverbs-236",
     "ru": "Мы встречаемся дома.",
     "ruStressed": "Мы встреча́емся до́ма.",
     "translit": "My vstrechaemsya doma.",
-    "en": "We meet at home."
+    "en": "We meet at home.",
+    "pl": "Spotykamy się w domu."
   },
   {
     "id": "top-300-adverbs-237",
     "ru": "Мы встречаемся снаружи.",
     "ruStressed": "Мы встреча́емся снару́жи.",
     "translit": "My vstrechaemsya snaruzhi.",
-    "en": "We meet outside."
+    "en": "We meet outside.",
+    "pl": "Spotykamy się na zewnątrz."
   },
   {
     "id": "top-300-adverbs-238",
     "ru": "Мы встречаемся внутри.",
     "ruStressed": "Мы встреча́емся внутри́.",
     "translit": "My vstrechaemsya vnutri.",
-    "en": "We meet inside."
+    "en": "We meet inside.",
+    "pl": "Spotykamy się wewnątrz."
   },
   {
     "id": "top-300-adverbs-239",
     "ru": "Мы встречаемся наверху.",
     "ruStressed": "Мы встреча́емся наверху́.",
     "translit": "My vstrechaemsya naverkhu.",
-    "en": "We meet above."
+    "en": "We meet above.",
+    "pl": "Spotykamy się na górze."
   },
   {
     "id": "top-300-adverbs-240",
     "ru": "Мы встречаемся внизу.",
     "ruStressed": "Мы встреча́емся внизу́.",
     "translit": "My vstrechaemsya vnizu.",
-    "en": "We meet below."
+    "en": "We meet below.",
+    "pl": "Spotykamy się na dole."
   },
   {
     "id": "top-300-adverbs-241",
     "ru": "Мы встречаемся впереди.",
     "ruStressed": "Мы встреча́емся впереди́.",
     "translit": "My vstrechaemsya vperedi.",
-    "en": "We meet ahead."
+    "en": "We meet ahead.",
+    "pl": "Spotykamy się z przodu."
   },
   {
     "id": "top-300-adverbs-242",
     "ru": "Мы встречаемся сзади.",
     "ruStressed": "Мы встреча́емся сза́ди.",
     "translit": "My vstrechaemsya szadi.",
-    "en": "We meet behind."
+    "en": "We meet behind.",
+    "pl": "Spotykamy się z tyłu."
   },
   {
     "id": "top-300-adverbs-243",
     "ru": "Мы встречаемся слева.",
     "ruStressed": "Мы встреча́емся сле́ва.",
     "translit": "My vstrechaemsya sleva.",
-    "en": "We meet on the left."
+    "en": "We meet on the left.",
+    "pl": "Spotykamy się po lewej."
   },
   {
     "id": "top-300-adverbs-244",
     "ru": "Мы встречаемся справа.",
     "ruStressed": "Мы встреча́емся спра́ва.",
     "translit": "My vstrechaemsya sprava.",
-    "en": "We meet on the right."
+    "en": "We meet on the right.",
+    "pl": "Spotykamy się po prawej."
   },
   {
     "id": "top-300-adverbs-245",
     "ru": "Он очень устал.",
     "ruStressed": "Он о́чень уста́л.",
     "translit": "On ochen ustal.",
-    "en": "He is very tired."
+    "en": "He is very tired.",
+    "pl": "On jest bardzo zmęczony."
   },
   {
     "id": "top-300-adverbs-246",
     "ru": "Он слишком устал.",
     "ruStressed": "Он сли́шком уста́л.",
     "translit": "On slishkom ustal.",
-    "en": "He is too tired."
+    "en": "He is too tired.",
+    "pl": "On jest zbyt zmęczony."
   },
   {
     "id": "top-300-adverbs-247",
     "ru": "Он немного устал.",
     "ruStressed": "Он немно́го уста́л.",
     "translit": "On nemnogo ustal.",
-    "en": "He is a little tired."
+    "en": "He is a little tired.",
+    "pl": "On jest trochę zmęczony."
   },
   {
     "id": "top-300-adverbs-248",
     "ru": "Он совсем устал.",
     "ruStressed": "Он совсе́м уста́л.",
     "translit": "On sovsem ustal.",
-    "en": "He is completely tired."
+    "en": "He is completely tired.",
+    "pl": "On jest całkowicie zmęczony."
   },
   {
     "id": "top-300-adverbs-249",
     "ru": "Он почти устал.",
     "ruStressed": "Он почти́ уста́л.",
     "translit": "On pochti ustal.",
-    "en": "He is almost tired."
+    "en": "He is almost tired.",
+    "pl": "On jest prawie zmęczony."
   },
   {
     "id": "top-300-adverbs-250",
     "ru": "Постарайся ответить точно.",
     "ruStressed": "Постара́йся отве́тить то́чно.",
     "translit": "Postaraysya otvetit tochno.",
-    "en": "Try to answer exactly."
+    "en": "Try to answer exactly.",
+    "pl": "Postaraj się odpowiedzieć dokładnie."
   },
   {
     "id": "top-300-adverbs-251",
     "ru": "Постарайся ответить неточно.",
     "ruStressed": "Постара́йся отве́тить нето́чно.",
     "translit": "Postaraysya otvetit netochno.",
-    "en": "Try to answer inexactly."
+    "en": "Try to answer inexactly.",
+    "pl": "Postaraj się odpowiedzieć niedokładnie."
   },
   {
     "id": "top-300-adverbs-252",
     "ru": "Они закончили задачу правильно.",
     "ruStressed": "Они́ зако́нчили зада́чу пра́вильно.",
     "translit": "Oni zakonchili zadachu pravilno.",
-    "en": "They finished the task correctly."
+    "en": "They finished the task correctly.",
+    "pl": "Ukończyli zadanie poprawnie."
   },
   {
     "id": "top-300-adverbs-253",
     "ru": "Они закончили задачу неправильно.",
     "ruStressed": "Они́ зако́нчили зада́чу непра́вильно.",
     "translit": "Oni zakonchili zadachu nepravilno.",
-    "en": "They finished the task incorrectly."
+    "en": "They finished the task incorrectly.",
+    "pl": "Ukończyli zadanie niepoprawnie."
   },
   {
     "id": "top-300-adverbs-254",
     "ru": "Они закончили задачу осторожно.",
     "ruStressed": "Они́ зако́нчили зада́чу осторо́жно.",
     "translit": "Oni zakonchili zadachu ostorozhno.",
-    "en": "They finished the task carefully."
+    "en": "They finished the task carefully.",
+    "pl": "Ukończyli zadanie ostrożnie."
   },
   {
     "id": "top-300-adverbs-255",
     "ru": "Они закончили задачу аккуратно.",
     "ruStressed": "Они́ зако́нчили зада́чу аккура́тно.",
     "translit": "Oni zakonchili zadachu akkuratno.",
-    "en": "They finished the task neatly."
+    "en": "They finished the task neatly.",
+    "pl": "Ukończyli zadanie starannie."
   },
   {
     "id": "top-300-adverbs-256",
     "ru": "Я стараюсь работать вместе.",
     "ruStressed": "Я стара́юсь рабо́тать вме́сте.",
     "translit": "Ya starayus rabotat vmeste.",
-    "en": "I try to work together."
+    "en": "I try to work together.",
+    "pl": "Staram się pracować razem."
   },
   {
     "id": "top-300-adverbs-257",
     "ru": "Я стараюсь работать отдельно.",
     "ruStressed": "Я стара́юсь рабо́тать отде́льно.",
     "translit": "Ya starayus rabotat otdelno.",
-    "en": "I try to work separately."
+    "en": "I try to work separately.",
+    "pl": "Staram się pracować osobno."
   },
   {
     "id": "top-300-adverbs-258",
     "ru": "Он одиноко устал.",
     "ruStressed": "Он одино́ко уста́л.",
     "translit": "On odinoko ustal.",
-    "en": "He is lonely tired."
+    "en": "He is lonely tired.",
+    "pl": "On jest samotnie zmęczony."
   },
   {
     "id": "top-300-adverbs-259",
     "ru": "Постарайся ответить свободно.",
     "ruStressed": "Постара́йся отве́тить свобо́дно.",
     "translit": "Postaraysya otvetit svobodno.",
-    "en": "Try to answer freely."
+    "en": "Try to answer freely.",
+    "pl": "Postaraj się odpowiedzieć swobodnie."
   },
   {
     "id": "top-300-adverbs-260",
     "ru": "Постарайся ответить серьёзно.",
     "ruStressed": "Постара́йся отве́тить серьёзно.",
     "translit": "Postaraysya otvetit seryozno.",
-    "en": "Try to answer seriously."
+    "en": "Try to answer seriously.",
+    "pl": "Postaraj się odpowiedzieć poważnie."
   },
   {
     "id": "top-300-adverbs-261",
     "ru": "Постарайся ответить шутя.",
     "ruStressed": "Постара́йся отве́тить шутя́.",
     "translit": "Postaraysya otvetit shutya.",
-    "en": "Try to answer jokingly."
+    "en": "Try to answer jokingly.",
+    "pl": "Postaraj się odpowiedzieć żartem."
   },
   {
     "id": "top-300-adverbs-262",
     "ru": "Постарайся ответить честно.",
     "ruStressed": "Постара́йся отве́тить че́стно.",
     "translit": "Postaraysya otvetit chestno.",
-    "en": "Try to answer honestly."
+    "en": "Try to answer honestly.",
+    "pl": "Postaraj się odpowiedzieć szczerze."
   },
   {
     "id": "top-300-adverbs-263",
     "ru": "Постарайся ответить открыто.",
     "ruStressed": "Постара́йся отве́тить откры́то.",
     "translit": "Postaraysya otvetit otkryto.",
-    "en": "Try to answer openly."
+    "en": "Try to answer openly.",
+    "pl": "Postaraj się odpowiedzieć otwarcie."
   },
   {
     "id": "top-300-adverbs-264",
     "ru": "Они закончили задачу тайно.",
     "ruStressed": "Они́ зако́нчили зада́чу та́йно.",
     "translit": "Oni zakonchili zadachu tayno.",
-    "en": "They finished the task secretly."
+    "en": "They finished the task secretly.",
+    "pl": "Ukończyli zadanie potajemnie."
   },
   {
     "id": "top-300-adverbs-265",
     "ru": "Постарайся ответить вежливо.",
     "ruStressed": "Постара́йся отве́тить ве́жливо.",
     "translit": "Postaraysya otvetit vezhlivo.",
-    "en": "Try to answer politely."
+    "en": "Try to answer politely.",
+    "pl": "Postaraj się odpowiedzieć uprzejmie."
   },
   {
     "id": "top-300-adverbs-266",
     "ru": "Постарайся ответить грубо.",
     "ruStressed": "Постара́йся отве́тить гру́бо.",
     "translit": "Postaraysya otvetit grubo.",
-    "en": "Try to answer rudely."
+    "en": "Try to answer rudely.",
+    "pl": "Postaraj się odpowiedzieć niegrzecznie."
   },
   {
     "id": "top-300-adverbs-267",
     "ru": "Постарайся ответить ласково.",
     "ruStressed": "Постара́йся отве́тить ла́сково.",
     "translit": "Postaraysya otvetit laskovo.",
-    "en": "Try to answer tenderly."
+    "en": "Try to answer tenderly.",
+    "pl": "Postaraj się odpowiedzieć czule."
   },
   {
     "id": "top-300-adverbs-268",
     "ru": "Постарайся ответить строго.",
     "ruStressed": "Постара́йся отве́тить стро́го.",
     "translit": "Postaraysya otvetit strogo.",
-    "en": "Try to answer strictly."
+    "en": "Try to answer strictly.",
+    "pl": "Postaraj się odpowiedzieć surowo."
   },
   {
     "id": "top-300-adverbs-269",
     "ru": "Постарайся ответить спокойно.",
     "ruStressed": "Постара́йся отве́тить споко́йно.",
     "translit": "Postaraysya otvetit spokoyno.",
-    "en": "Try to answer calmly."
+    "en": "Try to answer calmly.",
+    "pl": "Postaraj się odpowiedzieć spokojnie."
   },
   {
     "id": "top-300-adverbs-270",
     "ru": "Постарайся ответить нервно.",
     "ruStressed": "Постара́йся отве́тить не́рвно.",
     "translit": "Postaraysya otvetit nervno.",
-    "en": "Try to answer nervously."
+    "en": "Try to answer nervously.",
+    "pl": "Postaraj się odpowiedzieć nerwowo."
   },
   {
     "id": "top-300-adverbs-271",
     "ru": "Постарайся ответить уверенно.",
     "ruStressed": "Постара́йся отве́тить уве́ренно.",
     "translit": "Postaraysya otvetit uverenno.",
-    "en": "Try to answer confidently."
+    "en": "Try to answer confidently.",
+    "pl": "Postaraj się odpowiedzieć pewnie."
   },
   {
     "id": "top-300-adverbs-272",
     "ru": "Постарайся ответить сомнительно.",
     "ruStressed": "Постара́йся отве́тить сомни́тельно.",
     "translit": "Postaraysya otvetit somnitelno.",
-    "en": "Try to answer doubtfully."
+    "en": "Try to answer doubtfully.",
+    "pl": "Postaraj się odpowiedzieć z wątpliwością."
   },
   {
     "id": "top-300-adverbs-273",
     "ru": "Я стараюсь работать охотно.",
     "ruStressed": "Я стара́юсь рабо́тать охо́тно.",
     "translit": "Ya starayus rabotat okhotno.",
-    "en": "I try to work willingly."
+    "en": "I try to work willingly.",
+    "pl": "Staram się pracować chętnie."
   },
   {
     "id": "top-300-adverbs-274",
     "ru": "Я стараюсь работать неохотно.",
     "ruStressed": "Я стара́юсь рабо́тать неохо́тно.",
     "translit": "Ya starayus rabotat neokhotno.",
-    "en": "I try to work unwillingly."
+    "en": "I try to work unwillingly.",
+    "pl": "Staram się pracować niechętnie."
   },
   {
     "id": "top-300-adverbs-275",
     "ru": "Они закончили задачу легко.",
     "ruStressed": "Они́ зако́нчили зада́чу легко́.",
     "translit": "Oni zakonchili zadachu legko.",
-    "en": "They finished the task easily."
+    "en": "They finished the task easily.",
+    "pl": "Ukończyli zadanie łatwo."
   },
   {
     "id": "top-300-adverbs-276",
     "ru": "Они закончили задачу трудно.",
     "ruStressed": "Они́ зако́нчили зада́чу тру́дно.",
     "translit": "Oni zakonchili zadachu trudno.",
-    "en": "They finished the task with difficulty."
+    "en": "They finished the task with difficulty.",
+    "pl": "Ukończyli zadanie z trudem."
   },
   {
     "id": "top-300-adverbs-277",
     "ru": "Я стараюсь работать успешно.",
     "ruStressed": "Я стара́юсь рабо́тать успе́шно.",
     "translit": "Ya starayus rabotat uspeshno.",
-    "en": "I try to work successfully."
+    "en": "I try to work successfully.",
+    "pl": "Staram się pracować z sukcesem."
   },
   {
     "id": "top-300-adverbs-278",
     "ru": "Я стараюсь работать неудачно.",
     "ruStressed": "Я стара́юсь рабо́тать неуда́чно.",
     "translit": "Ya starayus rabotat neudachno.",
-    "en": "I try to work unsuccessfully."
+    "en": "I try to work unsuccessfully.",
+    "pl": "Staram się pracować bez powodzenia."
   },
   {
     "id": "top-300-adverbs-279",
     "ru": "Они закончили задачу красиво.",
     "ruStressed": "Они́ зако́нчили зада́чу краси́во.",
     "translit": "Oni zakonchili zadachu krasivo.",
-    "en": "They finished the task beautifully."
+    "en": "They finished the task beautifully.",
+    "pl": "Ukończyli zadanie pięknie."
   },
   {
     "id": "top-300-adverbs-280",
     "ru": "Он ужасно устал.",
     "ruStressed": "Он ужа́сно уста́л.",
     "translit": "On uzhasno ustal.",
-    "en": "He is terribly tired."
+    "en": "He is terribly tired.",
+    "pl": "On jest strasznie zmęczony."
   },
   {
     "id": "top-300-adverbs-281",
     "ru": "Он прекрасно устал.",
     "ruStressed": "Он прекра́сно уста́л.",
     "translit": "On prekrasno ustal.",
-    "en": "He is wonderfully tired."
+    "en": "He is wonderfully tired.",
+    "pl": "Jest cudownie zmęczony."
   },
   {
     "id": "top-300-adverbs-282",
     "ru": "Постарайся ответить странно.",
     "ruStressed": "Постара́йся отве́тить стра́нно.",
     "translit": "Postaraysya otvetit stranno.",
-    "en": "Try to answer strangely."
+    "en": "Try to answer strangely.",
+    "pl": "Spróbuj odpowiedzieć dziwnie."
   },
   {
     "id": "top-300-adverbs-283",
     "ru": "Гости приехали обычно.",
     "ruStressed": "Го́сти прие́хали обы́чно.",
     "translit": "Gosti priekhali obychno.",
-    "en": "The guests arrived usually."
+    "en": "The guests arrived usually.",
+    "pl": "Goście przyjechali zwyczajnie."
   },
   {
     "id": "top-300-adverbs-284",
     "ru": "Постарайся ответить необычно.",
     "ruStressed": "Постара́йся отве́тить необы́чно.",
     "translit": "Postaraysya otvetit neobychno.",
-    "en": "Try to answer unusually."
+    "en": "Try to answer unusually.",
+    "pl": "Spróbuj odpowiedzieć niezwykle."
   },
   {
     "id": "top-300-adverbs-285",
     "ru": "Они закончили задачу просто.",
     "ruStressed": "Они́ зако́нчили зада́чу про́сто.",
     "translit": "Oni zakonchili zadachu prosto.",
-    "en": "They finished the task simply."
+    "en": "They finished the task simply.",
+    "pl": "Skończyli zadanie prosto."
   },
   {
     "id": "top-300-adverbs-286",
     "ru": "Они закончили задачу сложно.",
     "ruStressed": "Они́ зако́нчили зада́чу сло́жно.",
     "translit": "Oni zakonchili zadachu slozhno.",
-    "en": "They finished the task complicatedly."
+    "en": "They finished the task complicatedly.",
+    "pl": "Skończyli zadanie w skomplikowany sposób."
   },
   {
     "id": "top-300-adverbs-287",
     "ru": "Постарайся ответить важно.",
     "ruStressed": "Постара́йся отве́тить ва́жно.",
     "translit": "Postaraysya otvetit vazhno.",
-    "en": "Try to answer importantly."
+    "en": "Try to answer importantly.",
+    "pl": "Spróbuj odpowiedzieć z powagą."
   },
   {
     "id": "top-300-adverbs-288",
     "ru": "Постарайся ответить прямо.",
     "ruStressed": "Постара́йся отве́тить пря́мо.",
     "translit": "Postaraysya otvetit pryamo.",
-    "en": "Try to answer straight."
+    "en": "Try to answer straight.",
+    "pl": "Spróbuj odpowiedzieć wprost."
   },
   {
     "id": "top-300-adverbs-289",
     "ru": "Постарайся ответить косвенно.",
     "ruStressed": "Постара́йся отве́тить ко́свенно.",
     "translit": "Postaraysya otvetit kosvenno.",
-    "en": "Try to answer indirectly."
+    "en": "Try to answer indirectly.",
+    "pl": "Spróbuj odpowiedzieć okrężnie."
   },
   {
     "id": "top-300-adverbs-290",
     "ru": "Они закончили задачу полностью.",
     "ruStressed": "Они́ зако́нчили зада́чу по́лностью.",
     "translit": "Oni zakonchili zadachu polnostyu.",
-    "en": "They finished the task completely."
+    "en": "They finished the task completely.",
+    "pl": "Skończyli zadanie całkowicie."
   },
   {
     "id": "top-300-adverbs-291",
     "ru": "Они закончили задачу частично.",
     "ruStressed": "Они́ зако́нчили зада́чу части́чно.",
     "translit": "Oni zakonchili zadachu chastichno.",
-    "en": "They finished the task partially."
+    "en": "They finished the task partially.",
+    "pl": "Skończyli zadanie częściowo."
   },
   {
     "id": "top-300-adverbs-292",
     "ru": "Он абсолютно устал.",
     "ruStressed": "Он абсолю́тно уста́л.",
     "translit": "On absolyutno ustal.",
-    "en": "He is absolutely tired."
+    "en": "He is absolutely tired.",
+    "pl": "Jest absolutnie zmęczony."
   },
   {
     "id": "top-300-adverbs-293",
     "ru": "Постарайся ответить относительно.",
     "ruStressed": "Постара́йся отве́тить относи́тельно.",
     "translit": "Postaraysya otvetit otnositelno.",
-    "en": "Try to answer relatively."
+    "en": "Try to answer relatively.",
+    "pl": "Spróbuj odpowiedzieć relatywnie."
   },
   {
     "id": "top-300-adverbs-294",
     "ru": "Гости приехали обязательно.",
     "ruStressed": "Го́сти прие́хали обяза́тельно.",
     "translit": "Gosti priekhali obyazatelno.",
-    "en": "The guests arrived definitely."
+    "en": "The guests arrived definitely.",
+    "pl": "Goście przyjechali na pewno."
   },
   {
     "id": "top-300-adverbs-295",
     "ru": "Гости приехали возможно.",
     "ruStressed": "Го́сти прие́хали возмо́жно.",
     "translit": "Gosti priekhali vozmozhno.",
-    "en": "The guests arrived possibly."
+    "en": "The guests arrived possibly.",
+    "pl": "Goście przyjechali być może."
   },
   {
     "id": "top-300-adverbs-296",
     "ru": "Гости приехали вероятно.",
     "ruStressed": "Го́сти прие́хали вероя́тно.",
     "translit": "Gosti priekhali veroyatno.",
-    "en": "The guests arrived probably."
+    "en": "The guests arrived probably.",
+    "pl": "Goście przyjechali prawdopodobnie."
   },
   {
     "id": "top-300-adverbs-297",
     "ru": "Постарайся ответить естественно.",
     "ruStressed": "Постара́йся отве́тить есте́ственно.",
     "translit": "Postaraysya otvetit estestvenno.",
-    "en": "Try to answer naturally."
+    "en": "Try to answer naturally.",
+    "pl": "Spróbuj odpowiedzieć naturalnie."
   },
   {
     "id": "top-300-adverbs-298",
     "ru": "Гости приехали неожиданно.",
     "ruStressed": "Го́сти прие́хали неожи́данно.",
     "translit": "Gosti priekhali neozhidanno.",
-    "en": "The guests arrived unexpectedly."
+    "en": "The guests arrived unexpectedly.",
+    "pl": "Goście przyjechali niespodziewanie."
   },
   {
     "id": "top-300-adverbs-299",
     "ru": "Гости приехали случайно.",
     "ruStressed": "Го́сти прие́хали случа́йно.",
     "translit": "Gosti priekhali sluchayno.",
-    "en": "The guests arrived by chance."
+    "en": "The guests arrived by chance.",
+    "pl": "Goście przyjechali przypadkiem."
   },
   {
     "id": "top-300-adverbs-300",
     "ru": "Они закончили задачу специально.",
     "ruStressed": "Они́ зако́нчили зада́чу специа́льно.",
     "translit": "Oni zakonchili zadachu spetsialno.",
-    "en": "They finished the task specially."
+    "en": "They finished the task specially.",
+    "pl": "Skończyli zadanie specjalnie."
   }
 ]
