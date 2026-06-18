@@ -4,1049 +4,1199 @@
     "ru": "Он сказал, что приедет на следующей неделе.",
     "ruStressed": "Он сказа́л, что прие́дет на сле́дующей неде́ле.",
     "translit": "On skazal, chto priedet na sleduyushchey nedele.",
-    "en": "He said he would come next week."
+    "en": "He said he would come next week.",
+    "pl": "Powiedział, że przyjdzie w przyszłym tygodniu."
   },
   {
     "id": "b2-part-4-2",
     "ru": "Она спросила, знаю ли я ответ.",
     "ruStressed": "Она́ спроси́ла, зна́ю ли я отве́т.",
     "translit": "Ona sprosila, znayu li ya otvet.",
-    "en": "She asked whether I knew the answer."
+    "en": "She asked whether I knew the answer.",
+    "pl": "Zapytała, czy znam odpowiedź."
   },
   {
     "id": "b2-part-4-3",
     "ru": "Они объяснили, как добраться до музея.",
     "ruStressed": "Они́ объясни́ли, как добра́ться до музе́я.",
     "translit": "Oni obyasnili, kak dobratsya do muzeya.",
-    "en": "They explained how to get to the museum."
+    "en": "They explained how to get to the museum.",
+    "pl": "Wyjaśnili, jak dotrzeć do muzeum."
   },
   {
     "id": "b2-part-4-4",
     "ru": "Я не знал, что он давно уехал.",
     "ruStressed": "Я не знал, что он давно́ уе́хал.",
     "translit": "Ya ne znal, chto on davno uekhal.",
-    "en": "I didn't know that he had left long ago."
+    "en": "I didn't know that he had left long ago.",
+    "pl": "Nie wiedziałem, że wyjechał już dawno temu."
   },
   {
     "id": "b2-part-4-5",
     "ru": "Учитель попросил, чтобы все встали.",
     "ruStressed": "Учи́тель попроси́л, что́бы все вста́ли.",
     "translit": "Uchitel poprosil, chtoby vse vstali.",
-    "en": "The teacher asked everyone to stand up."
+    "en": "The teacher asked everyone to stand up.",
+    "pl": "Nauczyciel poprosił wszystkich o powstanie."
   },
   {
     "id": "b2-part-4-6",
     "ru": "Он рассказал, как провёл лето в деревне.",
     "ruStressed": "Он рассказа́л, как провёл ле́то в дере́вне.",
     "translit": "On rasskazal, kak provyol leto v derevne.",
-    "en": "He told how he had spent the summer in the village."
+    "en": "He told how he had spent the summer in the village.",
+    "pl": "Opowiedział, jak spędził lato na wsi."
   },
   {
     "id": "b2-part-4-7",
     "ru": "Маша призналась, что давно мечтала о собаке.",
     "ruStressed": "Ма́ша призна́лась, что давно́ мечта́ла о соба́ке.",
     "translit": "Masha priznalas, chto davno mechtala o sobake.",
-    "en": "Masha confessed that she had long dreamed of a dog."
+    "en": "Masha confessed that she had long dreamed of a dog.",
+    "pl": "Masza przyznała się, że od dawna marzyła o psie."
   },
   {
     "id": "b2-part-4-8",
     "ru": "Старик вздохнул и сказал: «Жизнь — странная штука».",
     "ruStressed": "Стари́к вздохну́л и сказа́л: «Жизнь — стра́нная шту́ка».",
     "translit": "Starik vzdokhnul i skazal: «Zhizn — strannaya shtuka».",
-    "en": "The old man sighed and said: \"Life is a strange thing.\""
+    "en": "The old man sighed and said: \"Life is a strange thing.\"",
+    "pl": "Starzec westchnął i powiedział: „Życie to dziwna rzecz”."
   },
   {
     "id": "b2-part-4-9",
     "ru": "Главный герой романа — молодой офицер.",
     "ruStressed": "Гла́вный геро́й рома́на — молодо́й офице́р.",
     "translit": "Glavnyy geroy romana — molodoy ofitser.",
-    "en": "The main character of the novel is a young officer."
+    "en": "The main character of the novel is a young officer.",
+    "pl": "Głównym bohaterem powieści jest młody oficer."
   },
   {
     "id": "b2-part-4-10",
     "ru": "Действие повести разворачивается в начале века.",
     "ruStressed": "Де́йствие по́вести развора́чивается в нача́ле ве́ка.",
     "translit": "Deystvie povesti razvorachivaetsya v nachale veka.",
-    "en": "The action of the novella unfolds at the beginning of the century."
+    "en": "The action of the novella unfolds at the beginning of the century.",
+    "pl": "Akcja noweli toczy się na początku wieku."
   },
   {
     "id": "b2-part-4-11",
     "ru": "Автор тонко передаёт настроение своих героев.",
     "ruStressed": "А́втор то́нко передаёт настрое́ние свои́х геро́ев.",
     "translit": "Avtor tonko peredayot nastroenie svoikh geroev.",
-    "en": "The author subtly conveys the mood of his characters."
+    "en": "The author subtly conveys the mood of his characters.",
+    "pl": "Autor subtelnie oddaje nastrój swoich bohaterów."
   },
   {
     "id": "b2-part-4-12",
     "ru": "В этом стихотворении звучит мотив одиночества.",
     "ruStressed": "В э́том стихотворе́нии звучи́т моти́в одино́чества.",
     "translit": "V etom stikhotvorenii zvuchit motiv odinochestva.",
-    "en": "The motif of loneliness sounds in this poem."
+    "en": "The motif of loneliness sounds in this poem.",
+    "pl": "W tym wierszu brzmi motyw samotności."
   },
   {
     "id": "b2-part-4-13",
     "ru": "Толстой исследует природу человеческой души.",
     "ruStressed": "Толсто́й иссле́дует приро́ду челове́ческой души́.",
     "translit": "Tolstoy issleduet prirodu chelovecheskoy dushi.",
-    "en": "Tolstoy explores the nature of the human soul."
+    "en": "Tolstoy explores the nature of the human soul.",
+    "pl": "Tołstoj bada naturę ludzkiej duszy."
   },
   {
     "id": "b2-part-4-14",
     "ru": "Произведение наполнено глубоким философским смыслом.",
     "ruStressed": "Произведе́ние напо́лнено глубо́ким филосо́фским смы́слом.",
     "translit": "Proizvedenie napolneno glubokim filosofskim smyslom.",
-    "en": "The work is filled with deep philosophical meaning."
+    "en": "The work is filled with deep philosophical meaning.",
+    "pl": "Utwór jest wypełniony głębokim sensem filozoficznym."
   },
   {
     "id": "b2-part-4-15",
     "ru": "Сюжет романа держит читателя в напряжении до последней страницы.",
     "ruStressed": "Сюже́т рома́на де́ржит чита́теля в напряже́нии до после́дней страни́цы.",
     "translit": "Syuzhet romana derzhit chitatelya v napryazhenii do posledney stranitsy.",
-    "en": "The novel's plot keeps the reader in suspense until the last page."
+    "en": "The novel's plot keeps the reader in suspense until the last page.",
+    "pl": "Fabuła powieści trzyma czytelnika w napięciu do ostatniej strony."
   },
   {
     "id": "b2-part-4-16",
     "ru": "В этом рассказе мастерски использованы метафоры.",
     "ruStressed": "В э́том расска́зе ма́стерски испо́льзованы мета́форы.",
     "translit": "V etom rasskaze masterski ispolzovany metafory.",
-    "en": "Metaphors are skillfully used in this story."
+    "en": "Metaphors are skillfully used in this story.",
+    "pl": "W tym opowiadaniu po mistrzowsku wykorzystano metafory."
   },
   {
     "id": "b2-part-4-17",
     "ru": "Образ матери в повести — символ безусловной любви.",
     "ruStressed": "О́браз ма́тери в по́вести — си́мвол безусло́вной любви́.",
     "translit": "Obraz materi v povesti — simvol bezuslovnoy lyubvi.",
-    "en": "The image of the mother in the novella is a symbol of unconditional love."
+    "en": "The image of the mother in the novella is a symbol of unconditional love.",
+    "pl": "Obraz matki w noweli jest symbolem bezwarunkowej miłości."
   },
   {
     "id": "b2-part-4-18",
     "ru": "Пушкин считается основоположником современной русской литературы.",
     "ruStressed": "Пу́шкин счита́ется основополо́жником совреме́нной ру́сской литерату́ры.",
     "translit": "Pushkin schitaetsya osnovopolozhnikom sovremennoy russkoy literatury.",
-    "en": "Pushkin is considered the founder of modern Russian literature."
+    "en": "Pushkin is considered the founder of modern Russian literature.",
+    "pl": "Puszkin jest uważany za twórcę nowoczesnej literatury rosyjskiej."
   },
   {
     "id": "b2-part-4-19",
     "ru": "Чехов умел в нескольких строках раскрыть характер.",
     "ruStressed": "Че́хов уме́л в не́скольких стро́ках раскры́ть хара́ктер.",
     "translit": "Chekhov umel v neskolkikh strokakh raskryt kharakter.",
-    "en": "Chekhov could reveal a character in just a few lines."
+    "en": "Chekhov could reveal a character in just a few lines.",
+    "pl": "Czechow potrafił nakreślić postać w zaledwie kilku linijkach."
   },
   {
     "id": "b2-part-4-20",
     "ru": "Достоевский поднимает вечные вопросы о добре и зле.",
     "ruStressed": "Достое́вский поднима́ет ве́чные вопро́сы о добре́ и зле.",
     "translit": "Dostoevskiy podnimaet vechnye voprosy o dobre i zle.",
-    "en": "Dostoevsky raises eternal questions about good and evil."
+    "en": "Dostoevsky raises eternal questions about good and evil.",
+    "pl": "Dostojewski stawia wieczne pytania o dobro i zło."
   },
   {
     "id": "b2-part-4-21",
     "ru": "Каждое слово в этом тексте имеет особое значение.",
     "ruStressed": "Ка́ждое сло́во в э́том те́ксте име́ет осо́бое значе́ние.",
     "translit": "Kazhdoe slovo v etom tekste imeet osoboe znachenie.",
-    "en": "Every word in this text has a special meaning."
+    "en": "Every word in this text has a special meaning.",
+    "pl": "Każde słowo w tym tekście ma szczególne znaczenie."
   },
   {
     "id": "b2-part-4-22",
     "ru": "Повествование ведётся от первого лица.",
     "ruStressed": "Повествова́ние ведётся от пе́рвого лица́.",
     "translit": "Povestvovanie vedyotsya ot pervogo litsa.",
-    "en": "The narration is conducted in the first person."
+    "en": "The narration is conducted in the first person.",
+    "pl": "Narracja prowadzona jest w pierwszej osobie."
   },
   {
     "id": "b2-part-4-23",
     "ru": "Финал произведения остаётся открытым.",
     "ruStressed": "Фина́л произведе́ния остаётся откры́тым.",
     "translit": "Final proizvedeniya ostayotsya otkrytym.",
-    "en": "The ending of the work remains open."
+    "en": "The ending of the work remains open.",
+    "pl": "Zakończenie utworu pozostaje otwarte."
   },
   {
     "id": "b2-part-4-24",
     "ru": "Конфликт между героями разрешается неожиданно.",
     "ruStressed": "Конфли́кт ме́жду геро́ями разреша́ется неожи́данно.",
     "translit": "Konflikt mezhdu geroyami razreshaetsya neozhidanno.",
-    "en": "The conflict between the heroes is resolved unexpectedly."
+    "en": "The conflict between the heroes is resolved unexpectedly.",
+    "pl": "Konflikt między bohaterami rozwiązuje się niespodziewanie."
   },
   {
     "id": "b2-part-4-25",
     "ru": "Книга оставляет глубокий след в душе.",
     "ruStressed": "Кни́га оставля́ет глубо́кий след в душе́.",
     "translit": "Kniga ostavlyaet glubokiy sled v dushe.",
-    "en": "The book leaves a deep mark on the soul."
+    "en": "The book leaves a deep mark on the soul.",
+    "pl": "Książka zostawia głęboki ślad w duszy."
   },
   {
     "id": "b2-part-4-26",
     "ru": "Однажды осенним вечером он постучал в нашу дверь.",
     "ruStressed": "Одна́жды осе́нним ве́чером он постуча́л в на́шу дверь.",
     "translit": "Odnazhdy osennim vecherom on postuchal v nashu dver.",
-    "en": "One autumn evening he knocked at our door."
+    "en": "One autumn evening he knocked at our door.",
+    "pl": "Pewnego jesiennego wieczoru zapukał do naszych drzwi."
   },
   {
     "id": "b2-part-4-27",
     "ru": "Никто не ожидал, что произойдёт такое.",
     "ruStressed": "Никто́ не ожида́л, что произойдёт тако́е.",
     "translit": "Nikto ne ozhidal, chto proizoydyot takoe.",
-    "en": "Nobody expected that such a thing would happen."
+    "en": "Nobody expected that such a thing would happen.",
+    "pl": "Nikt nie spodziewał się, że wydarzy się coś takiego."
   },
   {
     "id": "b2-part-4-28",
     "ru": "С тех пор прошло много лет.",
     "ruStressed": "С тех пор прошло́ мно́го лет.",
     "translit": "S tekh por proshlo mnogo let.",
-    "en": "Many years have passed since then."
+    "en": "Many years have passed since then.",
+    "pl": "Od tego czasu minęło wiele lat."
   },
   {
     "id": "b2-part-4-29",
     "ru": "Когда я вошёл в комнату, все замолчали.",
     "ruStressed": "Когда́ я вошёл в ко́мнату, все замолча́ли.",
     "translit": "Kogda ya voshyol v komnatu, vse zamolchali.",
-    "en": "When I entered the room, everyone fell silent."
+    "en": "When I entered the room, everyone fell silent.",
+    "pl": "Kiedy wszedłem do pokoju, wszyscy zamilkli."
   },
   {
     "id": "b2-part-4-30",
     "ru": "Не успел он сказать ни слова, как зазвонил телефон.",
     "ruStressed": "Не успе́л он сказа́ть ни сло́ва, как зазвони́л телефо́н.",
     "translit": "Ne uspel on skazat ni slova, kak zazvonil telefon.",
-    "en": "He had hardly said a word when the phone rang."
+    "en": "He had hardly said a word when the phone rang.",
+    "pl": "Ledwie wypowiedział słowo, gdy zadzwonił telefon."
   },
   {
     "id": "b2-part-4-31",
     "ru": "Тишину нарушал лишь шум дождя за окном.",
     "ruStressed": "Тишину́ наруша́л лишь шум дождя́ за окно́м.",
     "translit": "Tishinu narushal lish shum dozhdya za oknom.",
-    "en": "The silence was broken only by the sound of rain outside the window."
+    "en": "The silence was broken only by the sound of rain outside the window.",
+    "pl": "Ciszę przerywał tylko szum deszczu za oknem."
   },
   {
     "id": "b2-part-4-32",
     "ru": "Луна освещала пустынную улицу.",
     "ruStressed": "Луна́ освеща́ла пусты́нную у́лицу.",
     "translit": "Luna osveshchala pustynnuyu ulitsu.",
-    "en": "The moon lit the deserted street."
+    "en": "The moon lit the deserted street.",
+    "pl": "Księżyc oświetlał pustą ulicę."
   },
   {
     "id": "b2-part-4-33",
     "ru": "Он понял, что обратной дороги нет.",
     "ruStressed": "Он по́нял, что обра́тной доро́ги нет.",
     "translit": "On ponyal, chto obratnoy dorogi net.",
-    "en": "He realized there was no way back."
+    "en": "He realized there was no way back.",
+    "pl": "Zrozumiał, że nie ma drogi powrotnej."
   },
   {
     "id": "b2-part-4-34",
     "ru": "В тот момент она почувствовала странное волнение.",
     "ruStressed": "В тот моме́нт она́ почу́вствовала стра́нное волне́ние.",
     "translit": "V tot moment ona pochuvstvovala strannoe volnenie.",
-    "en": "At that moment she felt a strange agitation."
+    "en": "At that moment she felt a strange agitation.",
+    "pl": "W tamtym momencie poczuła dziwny niepokój."
   },
   {
     "id": "b2-part-4-35",
     "ru": "Его слова прозвучали как приговор.",
     "ruStressed": "Его́ слова́ прозвуча́ли как пригово́р.",
     "translit": "Ego slova prozvuchali kak prigovor.",
-    "en": "His words sounded like a verdict."
+    "en": "His words sounded like a verdict.",
+    "pl": "Jego słowa brzmiały jak wyrok."
   },
   {
     "id": "b2-part-4-36",
     "ru": "Прошедший день оставил тяжёлое впечатление.",
     "ruStressed": "Проше́дший день оста́вил тяжёлое впечатле́ние.",
     "translit": "Proshedshiy den ostavil tyazhyoloe vpechatlenie.",
-    "en": "The day that had passed left a heavy impression."
+    "en": "The day that had passed left a heavy impression.",
+    "pl": "Miniony dzień pozostawił ciężkie wrażenie."
   },
   {
     "id": "b2-part-4-37",
     "ru": "В её глазах блеснули слёзы.",
     "ruStressed": "В её глаза́х блесну́ли слёзы.",
     "translit": "V eyo glazakh blesnuli slyozy.",
-    "en": "Tears glistened in her eyes."
+    "en": "Tears glistened in her eyes.",
+    "pl": "W jej oczach zabłysły łzy."
   },
   {
     "id": "b2-part-4-38",
     "ru": "Старый дом хранил воспоминания о прошлом.",
     "ruStressed": "Ста́рый дом храни́л воспомина́ния о про́шлом.",
     "translit": "Staryy dom khranil vospominaniya o proshlom.",
-    "en": "The old house kept memories of the past."
+    "en": "The old house kept memories of the past.",
+    "pl": "Stary dom skrywał wspomnienia z przeszłości."
   },
   {
     "id": "b2-part-4-39",
     "ru": "Между ними возникла странная связь.",
     "ruStressed": "Ме́жду ни́ми возни́кла стра́нная связь.",
     "translit": "Mezhdu nimi voznikla strannaya svyaz.",
-    "en": "A strange bond arose between them."
+    "en": "A strange bond arose between them.",
+    "pl": "Między nimi narodziła się dziwna więź."
   },
   {
     "id": "b2-part-4-40",
     "ru": "Судьба свела их вновь много лет спустя.",
     "ruStressed": "Судьба́ свела́ их вновь мно́го лет спустя́.",
     "translit": "Sudba svela ikh vnov mnogo let spustya.",
-    "en": "Fate brought them together again many years later."
+    "en": "Fate brought them together again many years later.",
+    "pl": "Los połączył ich ponownie po wielu latach."
   },
   {
     "id": "b2-part-4-41",
     "ru": "Он долго смотрел вдаль, не говоря ни слова.",
     "ruStressed": "Он до́лго смотре́л вдаль, не говоря́ ни сло́ва.",
     "translit": "On dolgo smotrel vdal, ne govorya ni slova.",
-    "en": "He looked into the distance for a long time without saying a word."
+    "en": "He looked into the distance for a long time without saying a word.",
+    "pl": "Długo patrzył w dal, nie mówiąc ani słowa."
   },
   {
     "id": "b2-part-4-42",
     "ru": "Её рассказ напомнил мне о детстве.",
     "ruStressed": "Её расска́з напо́мнил мне о де́тстве.",
     "translit": "Eyo rasskaz napomnil mne o detstve.",
-    "en": "Her story reminded me of childhood."
+    "en": "Her story reminded me of childhood.",
+    "pl": "Jej opowieść przypomniała mi o dzieciństwie."
   },
   {
     "id": "b2-part-4-43",
     "ru": "Странник присел у дороги и задумался.",
     "ruStressed": "Стра́нник присе́л у доро́ги и заду́мался.",
     "translit": "Strannik prisel u dorogi i zadumalsya.",
-    "en": "The wanderer sat down by the road and pondered."
+    "en": "The wanderer sat down by the road and pondered.",
+    "pl": "Wędrowiec usiadł przy drodze i zamyślił się."
   },
   {
     "id": "b2-part-4-44",
     "ru": "Деревья шептали что-то на ветру.",
     "ruStressed": "Дере́вья шепта́ли что́-то на ветру́.",
     "translit": "Derevya sheptali chto-to na vetru.",
-    "en": "The trees whispered something in the wind."
+    "en": "The trees whispered something in the wind.",
+    "pl": "Drzewa szeptały coś na wietrze."
   },
   {
     "id": "b2-part-4-45",
     "ru": "Время будто остановилось в этот миг.",
     "ruStressed": "Вре́мя бу́дто останови́лось в э́тот миг.",
     "translit": "Vremya budto ostanovilos v etot mig.",
-    "en": "Time seemed to stop at that moment."
+    "en": "Time seemed to stop at that moment.",
+    "pl": "Czas jakby zatrzymał się w tamtej chwili."
   },
   {
     "id": "b2-part-4-46",
     "ru": "Сердце забилось чаще от волнения.",
     "ruStressed": "Се́рдце заби́лось ча́ще от волне́ния.",
     "translit": "Serdtse zabilos chashche ot volneniya.",
-    "en": "His heart beat faster from excitement."
+    "en": "His heart beat faster from excitement.",
+    "pl": "Serce zabiło mu szybciej z emocji."
   },
   {
     "id": "b2-part-4-47",
     "ru": "Никто не мог понять, что произошло на самом деле.",
     "ruStressed": "Никто́ не мог поня́ть, что произошло́ на са́мом де́ле.",
     "translit": "Nikto ne mog ponyat, chto proizoshlo na samom dele.",
-    "en": "No one could understand what had really happened."
+    "en": "No one could understand what had really happened.",
+    "pl": "Nikt nie mógł zrozumieć, co tak naprawdę się stało."
   },
   {
     "id": "b2-part-4-48",
     "ru": "Письмо пришло слишком поздно.",
     "ruStressed": "Письмо́ пришло́ сли́шком по́здно.",
     "translit": "Pismo prishlo slishkom pozdno.",
-    "en": "The letter arrived too late."
+    "en": "The letter arrived too late.",
+    "pl": "List przyszedł za późno."
   },
   {
     "id": "b2-part-4-49",
     "ru": "Он вспоминал её улыбку всю жизнь.",
     "ruStressed": "Он вспомина́л её улы́бку всю жизнь.",
     "translit": "On vspominal eyo ulybku vsyu zhizn.",
-    "en": "He remembered her smile all his life."
+    "en": "He remembered her smile all his life.",
+    "pl": "Przez całe życie wspominał jej uśmiech."
   },
   {
     "id": "b2-part-4-50",
     "ru": "Каждое утро она приходила к этому окну.",
     "ruStressed": "Ка́ждое у́тро она́ приходи́ла к э́тому окну́.",
     "translit": "Kazhdoe utro ona prikhodila k etomu oknu.",
-    "en": "Every morning she came to this window."
+    "en": "Every morning she came to this window.",
+    "pl": "Każdego ranka podchodziła do tego okna."
   },
   {
     "id": "b2-part-4-51",
     "ru": "Их история закончилась грустно, но красиво.",
     "ruStressed": "Их исто́рия зако́нчилась гру́стно, но краси́во.",
     "translit": "Ikh istoriya zakonchilas grustno, no krasivo.",
-    "en": "Their story ended sadly but beautifully."
+    "en": "Their story ended sadly but beautifully.",
+    "pl": "Ich historia zakończyła się smutno, ale pięknie."
   },
   {
     "id": "b2-part-4-52",
     "ru": "Автор намекает на возможность счастливого финала.",
     "ruStressed": "А́втор намека́ет на возмо́жность счастли́вого фина́ла.",
     "translit": "Avtor namekaet na vozmozhnost schastlivogo finala.",
-    "en": "The author hints at the possibility of a happy ending."
+    "en": "The author hints at the possibility of a happy ending.",
+    "pl": "Autor sugeruje możliwość szczęśliwego zakończenia."
   },
   {
     "id": "b2-part-4-53",
     "ru": "Сцена в саду — кульминация всего романа.",
     "ruStressed": "Сце́на в саду́ — кульмина́ция всего́ рома́на.",
     "translit": "Stsena v sadu — kulminatsiya vsego romana.",
-    "en": "The garden scene is the climax of the entire novel."
+    "en": "The garden scene is the climax of the entire novel.",
+    "pl": "Scena w ogrodzie jest punktem kulminacyjnym całej powieści."
   },
   {
     "id": "b2-part-4-54",
     "ru": "Образы природы тесно переплетаются с чувствами героя.",
     "ruStressed": "О́бразы приро́ды те́сно переплета́ются с чу́вствами геро́я.",
     "translit": "Obrazy prirody tesno perepletayutsya s chuvstvami geroya.",
-    "en": "Images of nature are closely intertwined with the hero's feelings."
+    "en": "Images of nature are closely intertwined with the hero's feelings.",
+    "pl": "Obrazy natury są ściśle przeplatane z uczuciami bohatera."
   },
   {
     "id": "b2-part-4-55",
     "ru": "Писатель противопоставляет добро и зло.",
     "ruStressed": "Писа́тель противопоставля́ет добро́ и зло.",
     "translit": "Pisatel protivopostavlyaet dobro i zlo.",
-    "en": "The writer juxtaposes good and evil."
+    "en": "The writer juxtaposes good and evil.",
+    "pl": "Pisarz przeciwstawia sobie dobro i zło."
   },
   {
     "id": "b2-part-4-56",
     "ru": "Этот рассказ написан в духе классической прозы.",
     "ruStressed": "Э́тот расска́з напи́сан в ду́хе класси́ческой про́зы.",
     "translit": "Etot rasskaz napisan v dukhe klassicheskoy prozy.",
-    "en": "This story is written in the spirit of classical prose."
+    "en": "This story is written in the spirit of classical prose.",
+    "pl": "To opowiadanie jest napisane w duchu klasycznej prozy."
   },
   {
     "id": "b2-part-4-57",
     "ru": "Лирический герой переживает глубокий внутренний конфликт.",
     "ruStressed": "Лири́ческий геро́й пережива́ет глубо́кий вну́тренний конфли́кт.",
     "translit": "Liricheskiy geroy perezhivaet glubokiy vnutrenniy konflikt.",
-    "en": "The lyrical hero experiences a deep inner conflict."
+    "en": "The lyrical hero experiences a deep inner conflict.",
+    "pl": "Bohater liryczny przeżywa głęboki konflikt wewnętrzny."
   },
   {
     "id": "b2-part-4-58",
     "ru": "Композиция произведения построена очень изящно.",
     "ruStressed": "Компози́ция произведе́ния постро́ена о́чень изя́щно.",
     "translit": "Kompozitsiya proizvedeniya postroena ochen izyashchno.",
-    "en": "The composition of the work is built very elegantly."
+    "en": "The composition of the work is built very elegantly.",
+    "pl": "Kompozycja utworu jest zbudowana bardzo elegancko."
   },
   {
     "id": "b2-part-4-59",
     "ru": "Автор использует ретроспекцию для раскрытия характера.",
     "ruStressed": "А́втор испо́льзует ретроспе́кцию для раскры́тия хара́ктера.",
     "translit": "Avtor ispolzuet retrospektsiyu dlya raskrytiya kharaktera.",
-    "en": "The author uses flashback to reveal character."
+    "en": "The author uses flashback to reveal character.",
+    "pl": "Autor wykorzystuje retrospekcję, aby ukazać charakter postaci."
   },
   {
     "id": "b2-part-4-60",
     "ru": "Многослойность сюжета поражает своей глубиной.",
     "ruStressed": "Многосло́йность сюже́та поража́ет свое́й глубино́й.",
     "translit": "Mnogosloynost syuzheta porazhaet svoey glubinoy.",
-    "en": "The multilayered plot is striking in its depth."
+    "en": "The multilayered plot is striking in its depth.",
+    "pl": "Wielowarstwowa fabuła uderza swoją głębią."
   },
   {
     "id": "b2-part-4-61",
     "ru": "Он спросил меня, давно ли я живу в Москве.",
     "ruStressed": "Он спроси́л меня́, давно́ ли я живу́ в Москве́.",
     "translit": "On sprosil menya, davno li ya zhivu v Moskve.",
-    "en": "He asked me if I had lived in Moscow for a long time."
+    "en": "He asked me if I had lived in Moscow for a long time.",
+    "pl": "Zapytał mnie, czy od dawna mieszkam w Moskwie."
   },
   {
     "id": "b2-part-4-62",
     "ru": "Она ответила, что не понимает, о чём идёт речь.",
     "ruStressed": "Она́ отве́тила, что не понима́ет, о чём идёт речь.",
     "translit": "Ona otvetila, chto ne ponimaet, o chyom idyot rech.",
-    "en": "She replied that she didn't understand what was being said."
+    "en": "She replied that she didn't understand what was being said.",
+    "pl": "Odpowiedziała, że nie rozumie, o czym mowa."
   },
   {
     "id": "b2-part-4-63",
     "ru": "Друг предложил, чтобы мы встретились в субботу.",
     "ruStressed": "Друг предложи́л, что́бы мы встре́тились в суббо́ту.",
     "translit": "Drug predlozhil, chtoby my vstretilis v subbotu.",
-    "en": "My friend suggested that we meet on Saturday."
+    "en": "My friend suggested that we meet on Saturday.",
+    "pl": "Mój przyjaciel zaproponował, żebyśmy spotkali się w sobotę."
   },
   {
     "id": "b2-part-4-64",
     "ru": "Журналист поинтересовался, когда будет готов отчёт.",
     "ruStressed": "Журнали́ст поинтересова́лся, когда́ бу́дет гото́в отчёт.",
     "translit": "Zhurnalist pointeresovalsya, kogda budet gotov otchyot.",
-    "en": "The journalist enquired when the report would be ready."
+    "en": "The journalist enquired when the report would be ready.",
+    "pl": "Dziennikarz dowiadywał się, kiedy raport będzie gotowy."
   },
   {
     "id": "b2-part-4-65",
     "ru": "Все согласились, что план нуждается в доработке.",
     "ruStressed": "Все согласи́лись, что план нужда́ется в дорабо́тке.",
     "translit": "Vse soglasilis, chto plan nuzhdaetsya v dorabotke.",
-    "en": "Everyone agreed that the plan needed refinement."
+    "en": "Everyone agreed that the plan needed refinement.",
+    "pl": "Wszyscy zgodzili się, że plan wymaga dopracowania."
   },
   {
     "id": "b2-part-4-66",
     "ru": "Я подумал, что было бы неплохо отдохнуть.",
     "ruStressed": "Я поду́мал, что бы́ло бы непло́хо отдохну́ть.",
     "translit": "Ya podumal, chto bylo by neplokho otdokhnut.",
-    "en": "I thought it would be nice to rest."
+    "en": "I thought it would be nice to rest.",
+    "pl": "Pomyślałem, że miło byłoby odpocząć."
   },
   {
     "id": "b2-part-4-67",
     "ru": "Брат пообещал, что вернётся к ужину.",
     "ruStressed": "Брат пообеща́л, что вернётся к у́жину.",
     "translit": "Brat poobeshchal, chto vernyotsya k uzhinu.",
-    "en": "My brother promised that he would return by dinner."
+    "en": "My brother promised that he would return by dinner.",
+    "pl": "Mój brat obiecał, że wróci na obiad."
   },
   {
     "id": "b2-part-4-68",
     "ru": "Сосед предупредил, чтобы мы не оставляли дверь открытой.",
     "ruStressed": "Сосе́д предупреди́л, что́бы мы не оставля́ли дверь откры́той.",
     "translit": "Sosed predupredil, chtoby my ne ostavlyali dver otkrytoy.",
-    "en": "The neighbour warned us not to leave the door open."
+    "en": "The neighbour warned us not to leave the door open.",
+    "pl": "Sąsiad ostrzegł nas, żebyśmy nie zostawiali otwartych drzwi."
   },
   {
     "id": "b2-part-4-69",
     "ru": "Они потребовали, чтобы мы немедленно ушли.",
     "ruStressed": "Они́ потре́бовали, что́бы мы неме́дленно ушли́.",
     "translit": "Oni potrebovali, chtoby my nemedlenno ushli.",
-    "en": "They demanded that we leave immediately."
+    "en": "They demanded that we leave immediately.",
+    "pl": "Zażądali, abyśmy natychmiast wyszli."
   },
   {
     "id": "b2-part-4-70",
     "ru": "Мать напомнила, что пора собираться в школу.",
     "ruStressed": "Мать напо́мнила, что пора́ собира́ться в шко́лу.",
     "translit": "Mat napomnila, chto pora sobiratsya v shkolu.",
-    "en": "Mother reminded that it was time to get ready for school."
+    "en": "Mother reminded that it was time to get ready for school.",
+    "pl": "Mama przypomniała, że czas szykować się do szkoły."
   },
   {
     "id": "b2-part-4-71",
     "ru": "Девочка призналась, что ей было страшно одной.",
     "ruStressed": "Де́вочка призна́лась, что ей бы́ло стра́шно одно́й.",
     "translit": "Devochka priznalas, chto ey bylo strashno odnoy.",
-    "en": "The girl confessed that she had been scared alone."
+    "en": "The girl confessed that she had been scared alone.",
+    "pl": "Dziewczynka przyznała, że bała się sama."
   },
   {
     "id": "b2-part-4-72",
     "ru": "Учёный заявил, что результаты превзошли ожидания.",
     "ruStressed": "Учёный заяви́л, что результа́ты превзошли́ ожида́ния.",
     "translit": "Uchyonyy zayavil, chto rezultaty prevzoshli ozhidaniya.",
-    "en": "The scientist stated that the results had exceeded expectations."
+    "en": "The scientist stated that the results had exceeded expectations.",
+    "pl": "Naukowiec stwierdził, że wyniki przerosły oczekiwania."
   },
   {
     "id": "b2-part-4-73",
     "ru": "Свидетель уверял, что видел всё своими глазами.",
     "ruStressed": "Свиде́тель уверя́л, что ви́дел всё свои́ми глаза́ми.",
     "translit": "Svidetel uveryal, chto videl vsyo svoimi glazami.",
-    "en": "The witness assured that he had seen everything with his own eyes."
+    "en": "The witness assured that he had seen everything with his own eyes.",
+    "pl": "Świadek zapewniał, że widział wszystko na własne oczy."
   },
   {
     "id": "b2-part-4-74",
     "ru": "Бабушка часто рассказывала, как трудно было в военные годы.",
     "ruStressed": "Ба́бушка ча́сто расска́зывала, как тру́дно бы́ло в вое́нные го́ды.",
     "translit": "Babushka chasto rasskazyvala, kak trudno bylo v voennye gody.",
-    "en": "Grandmother often told how hard it had been during the war years."
+    "en": "Grandmother often told how hard it had been during the war years.",
+    "pl": "Babcia często opowiadała, jak ciężko było w latach wojny."
   },
   {
     "id": "b2-part-4-75",
     "ru": "Дед вспоминал, как ходил пешком в школу за десять километров.",
     "ruStressed": "Дед вспомина́л, как ходи́л пешко́м в шко́лу за де́сять киломе́тров.",
     "translit": "Ded vspominal, kak khodil peshkom v shkolu za desyat kilometrov.",
-    "en": "Grandfather recalled how he had walked ten kilometres to school."
+    "en": "Grandfather recalled how he had walked ten kilometres to school.",
+    "pl": "Dziadek wspominał, jak chodził pieszo do szkoły dziesięć kilometrów."
   },
   {
     "id": "b2-part-4-76",
     "ru": "Профессор подчёркивал, что без труда нет успеха.",
     "ruStressed": "Профе́ссор подчёркивал, что без труда́ нет успе́ха.",
     "translit": "Professor podchyorkival, chto bez truda net uspekha.",
-    "en": "The professor emphasized that without work there is no success."
+    "en": "The professor emphasized that without work there is no success.",
+    "pl": "Profesor podkreślał, że bez pracy nie ma sukcesu."
   },
   {
     "id": "b2-part-4-77",
     "ru": "Мне сказали, что собрание перенесли на завтра.",
     "ruStressed": "Мне сказа́ли, что собра́ние перенесли́ на за́втра.",
     "translit": "Mne skazali, chto sobranie perenesli na zavtra.",
-    "en": "I was told the meeting was postponed to tomorrow."
+    "en": "I was told the meeting was postponed to tomorrow.",
+    "pl": "Powiedziano mi, że spotkanie zostało przełożone na jutro."
   },
   {
     "id": "b2-part-4-78",
     "ru": "Гид объяснил, как устроена эта старая крепость.",
     "ruStressed": "Гид объясни́л, как устро́ена э́та ста́рая кре́пость.",
     "translit": "Gid obyasnil, kak ustroena eta staraya krepost.",
-    "en": "The guide explained how this old fortress was built."
+    "en": "The guide explained how this old fortress was built.",
+    "pl": "Przewodnik wyjaśnił, jak zbudowano tę starą twierdzę."
   },
   {
     "id": "b2-part-4-79",
     "ru": "Учитель отметил, что наша группа добилась прогресса.",
     "ruStressed": "Учи́тель отме́тил, что на́ша гру́ппа доби́лась прогре́сса.",
     "translit": "Uchitel otmetil, chto nasha gruppa dobilas progressa.",
-    "en": "The teacher noted that our group had made progress."
+    "en": "The teacher noted that our group had made progress.",
+    "pl": "Nauczyciel zauważył, że nasza grupa zrobiła postępy."
   },
   {
     "id": "b2-part-4-80",
     "ru": "Художник признался, что вдохновение приходит редко.",
     "ruStressed": "Худо́жник призна́лся, что вдохнове́ние прихо́дит ре́дко.",
     "translit": "Khudozhnik priznalsya, chto vdokhnovenie prikhodit redko.",
-    "en": "The artist confessed that inspiration comes rarely."
+    "en": "The artist confessed that inspiration comes rarely.",
+    "pl": "Artysta wyznał, że natchnienie przychodzi rzadko."
   },
   {
     "id": "b2-part-4-81",
     "ru": "Поэт писал так, словно говорил с самой жизнью.",
     "ruStressed": "Поэ́т писа́л так, сло́вно говори́л с само́й жи́знью.",
     "translit": "Poet pisal tak, slovno govoril s samoy zhiznyu.",
-    "en": "The poet wrote as if he were speaking with life itself."
+    "en": "The poet wrote as if he were speaking with life itself.",
+    "pl": "Poeta pisał tak, jakby rozmawiał z samym życiem."
   },
   {
     "id": "b2-part-4-82",
     "ru": "Книга, которую ты мне посоветовал, оказалась прекрасной.",
     "ruStressed": "Кни́га, кото́рую ты мне посове́товал, оказа́лась прекра́сной.",
     "translit": "Kniga, kotoruyu ty mne posovetoval, okazalas prekrasnoy.",
-    "en": "The book you recommended to me turned out to be wonderful."
+    "en": "The book you recommended to me turned out to be wonderful.",
+    "pl": "Książka, którą mi poleciłeś, okazała się wspaniała. (informal)"
   },
   {
     "id": "b2-part-4-83",
     "ru": "Тема одиночества проходит через всё творчество писателя.",
     "ruStressed": "Те́ма одино́чества прохо́дит че́рез всё тво́рчество писа́теля.",
     "translit": "Tema odinochestva prokhodit cherez vsyo tvorchestvo pisatelya.",
-    "en": "The theme of loneliness runs through the writer's entire work."
+    "en": "The theme of loneliness runs through the writer's entire work.",
+    "pl": "Motyw samotności przewija się przez całą twórczość pisarza."
   },
   {
     "id": "b2-part-4-84",
     "ru": "В романе ярко показана эпоха перемен.",
     "ruStressed": "В рома́не я́рко пока́зана эпо́ха переме́н.",
     "translit": "V romane yarko pokazana epokha peremen.",
-    "en": "The era of changes is vividly depicted in the novel."
+    "en": "The era of changes is vividly depicted in the novel.",
+    "pl": "Epoka przemian jest barwnie przedstawiona w powieści."
   },
   {
     "id": "b2-part-4-85",
     "ru": "Главная героиня — собирательный образ женщины своего времени.",
     "ruStressed": "Гла́вная герои́ня — собира́тельный о́браз же́нщины своего́ вре́мени.",
     "translit": "Glavnaya geroinya — sobiratelnyy obraz zhenshchiny svoego vremeni.",
-    "en": "The main heroine is a collective image of a woman of her time."
+    "en": "The main heroine is a collective image of a woman of her time.",
+    "pl": "Główna bohaterka to zbiorowy portret kobiety swoich czasów."
   },
   {
     "id": "b2-part-4-86",
     "ru": "Описание природы передаёт внутреннее состояние героя.",
     "ruStressed": "Описа́ние приро́ды передаёт вну́треннее состоя́ние геро́я.",
     "translit": "Opisanie prirody peredayot vnutrennee sostoyanie geroya.",
-    "en": "The description of nature conveys the hero's inner state."
+    "en": "The description of nature conveys the hero's inner state.",
+    "pl": "Opis przyrody oddaje stan wewnętrzny bohatera."
   },
   {
     "id": "b2-part-4-87",
     "ru": "В каждом абзаце чувствуется тонкое наблюдение автора.",
     "ruStressed": "В ка́ждом абза́це чу́вствуется то́нкое наблюде́ние а́втора.",
     "translit": "V kazhdom abzatse chuvstvuetsya tonkoe nablyudenie avtora.",
-    "en": "In every paragraph one feels the author's subtle observation."
+    "en": "In every paragraph one feels the author's subtle observation.",
+    "pl": "W każdym akapicie wyczuwa się subtelną obserwację autora."
   },
   {
     "id": "b2-part-4-88",
     "ru": "Конфликт поколений — одна из главных тем произведения.",
     "ruStressed": "Конфли́кт поколе́ний — одна́ из гла́вных тем произведе́ния.",
     "translit": "Konflikt pokoleniy — odna iz glavnykh tem proizvedeniya.",
-    "en": "The conflict of generations is one of the main themes of the work."
+    "en": "The conflict of generations is one of the main themes of the work.",
+    "pl": "Konflikt pokoleń to jeden z głównych tematów utworu."
   },
   {
     "id": "b2-part-4-89",
     "ru": "Финальная сцена оставляет читателя в раздумьях.",
     "ruStressed": "Фина́льная сце́на оставля́ет чита́теля в разду́мьях.",
     "translit": "Finalnaya stsena ostavlyaet chitatelya v razdumyakh.",
-    "en": "The final scene leaves the reader in thought."
+    "en": "The final scene leaves the reader in thought.",
+    "pl": "Finałowa scena pozostawia czytelnika w zadumie."
   },
   {
     "id": "b2-part-4-90",
     "ru": "Автор не даёт готовых ответов, он лишь задаёт вопросы.",
     "ruStressed": "А́втор не даёт гото́вых отве́тов, он лишь задаёт вопро́сы.",
     "translit": "Avtor ne dayot gotovykh otvetov, on lish zadayot voprosy.",
-    "en": "The author doesn't give ready answers, he only poses questions."
+    "en": "The author doesn't give ready answers, he only poses questions.",
+    "pl": "Autor nie daje gotowych odpowiedzi, jedynie stawia pytania."
   },
   {
     "id": "b2-part-4-91",
     "ru": "Этот текст стоит перечитать несколько раз.",
     "ruStressed": "Э́тот текст сто́ит перечита́ть не́сколько раз.",
     "translit": "Etot tekst stoit perechitat neskolko raz.",
-    "en": "This text is worth rereading several times."
+    "en": "This text is worth rereading several times.",
+    "pl": "Ten tekst warto przeczytać kilka razy."
   },
   {
     "id": "b2-part-4-92",
     "ru": "Каждое поколение находит в этой книге что-то своё.",
     "ruStressed": "Ка́ждое поколе́ние нахо́дит в э́той кни́ге что́-то своё.",
     "translit": "Kazhdoe pokolenie nakhodit v etoy knige chto-to svoyo.",
-    "en": "Each generation finds something of its own in this book."
+    "en": "Each generation finds something of its own in this book.",
+    "pl": "Każde pokolenie odnajduje w tej książce coś swojego."
   },
   {
     "id": "b2-part-4-93",
     "ru": "Время не властно над настоящими шедеврами.",
     "ruStressed": "Вре́мя не вла́стно над настоя́щими шеде́врами.",
     "translit": "Vremya ne vlastno nad nastoyashchimi shedevrami.",
-    "en": "Time has no power over true masterpieces."
+    "en": "Time has no power over true masterpieces.",
+    "pl": "Czas nie ma władzy nad prawdziwymi arcydziełami."
   },
   {
     "id": "b2-part-4-94",
     "ru": "Литература помогает понять себя и других.",
     "ruStressed": "Литерату́ра помога́ет поня́ть себя́ и други́х.",
     "translit": "Literatura pomogaet ponyat sebya i drugikh.",
-    "en": "Literature helps us understand ourselves and others."
+    "en": "Literature helps us understand ourselves and others.",
+    "pl": "Literatura pomaga nam zrozumieć siebie i innych."
   },
   {
     "id": "b2-part-4-95",
     "ru": "Книги — это окно в мир человеческой души.",
     "ruStressed": "Кни́ги — э́то окно́ в мир челове́ческой души́.",
     "translit": "Knigi — eto okno v mir chelovecheskoy dushi.",
-    "en": "Books are a window into the world of the human soul."
+    "en": "Books are a window into the world of the human soul.",
+    "pl": "Książki są oknem na świat ludzkiej duszy."
   },
   {
     "id": "b2-part-4-96",
     "ru": "Хороший писатель видит то, что незаметно другим.",
     "ruStressed": "Хоро́ший писа́тель ви́дит то, что незаме́тно други́м.",
     "translit": "Khoroshiy pisatel vidit to, chto nezametno drugim.",
-    "en": "A good writer sees what is unnoticed by others."
+    "en": "A good writer sees what is unnoticed by others.",
+    "pl": "Dobry pisarz widzi to, co dla innych jest niedostrzegalne."
   },
   {
     "id": "b2-part-4-97",
     "ru": "История повторяется, но каждый раз по-новому.",
     "ruStressed": "Исто́рия повторя́ется, но ка́ждый раз по-но́вому.",
     "translit": "Istoriya povtoryaetsya, no kazhdyy raz po-novomu.",
-    "en": "History repeats itself, but each time in a new way."
+    "en": "History repeats itself, but each time in a new way.",
+    "pl": "Historia się powtarza, ale za każdym razem inaczej."
   },
   {
     "id": "b2-part-4-98",
     "ru": "Слова поэта живут дольше, чем сам поэт.",
     "ruStressed": "Слова́ поэ́та живу́т до́льше, чем сам поэ́т.",
     "translit": "Slova poeta zhivut dolshe, chem sam poet.",
-    "en": "A poet's words live longer than the poet himself."
+    "en": "A poet's words live longer than the poet himself.",
+    "pl": "Słowa poety żyją dłużej niż on sam."
   },
   {
     "id": "b2-part-4-99",
     "ru": "Истинное искусство не имеет границ.",
     "ruStressed": "И́стинное иску́сство не име́ет грани́ц.",
     "translit": "Istinnoe iskusstvo ne imeet granits.",
-    "en": "True art has no borders."
+    "en": "True art has no borders.",
+    "pl": "Prawdziwa sztuka nie zna granic."
   },
   {
     "id": "b2-part-4-100",
     "ru": "Это произведение по праву считается шедевром мировой литературы.",
     "ruStressed": "Э́то произведе́ние по пра́ву счита́ется шеде́вром мирово́й литерату́ры.",
     "translit": "Eto proizvedenie po pravu schitaetsya shedevrom mirovoy literatury.",
-    "en": "This work is rightfully considered a masterpiece of world literature."
+    "en": "This work is rightfully considered a masterpiece of world literature.",
+    "pl": "To dzieło słusznie uchodzi za arcydzieło literatury światowej."
   },
   {
     "id": "b2-part-4-101",
     "ru": "Литературный критик отметил, что подтекст стихотворения раскрывает скрытые мотивы автора.",
     "ruStressed": "Литерату́рный кри́тик отме́тил, что подте́кст стихотворе́ния раскрыва́ет скры́тые моти́вы а́втора.",
     "translit": "Literaturnyy kritik otmetil, chto podtekst stikhotvoreniya raskryvaet skrytye motivy avtora.",
-    "en": "The literary critic noted that the subtext of the poem reveals the author's hidden motives."
+    "en": "The literary critic noted that the subtext of the poem reveals the author's hidden motives.",
+    "pl": "Krytyk literacki zauważył, że podtekst wiersza ujawnia ukryte motywy autora."
   },
   {
     "id": "b2-part-4-102",
     "ru": "Рассказчик спросил читателей, смогут ли они простить главного героя за его трусливый поступок.",
     "ruStressed": "Расска́зчик спроси́л чита́телей, смо́гут ли они́ прости́ть гла́вного геро́я за его́ тру́сливый посту́пок.",
     "translit": "Rasskazchik sprosil chitateley, smogut li oni prostit glavnogo geroya za ego truslivyy postupok.",
-    "en": "The narrator asked the readers whether they could forgive the protagonist for his cowardly act."
+    "en": "The narrator asked the readers whether they could forgive the protagonist for his cowardly act.",
+    "pl": "Narrator zapytał czytelników, czy mogliby wybaczyć głównemu bohaterowi jego tchórzliwy czyn."
   },
   {
     "id": "b2-part-4-103",
     "ru": "Поэт признался, что черпает вдохновение в наблюдении за повседневной жизнью провинциальных городов.",
     "ruStressed": "Поэ́т призна́лся, что че́рпает вдохнове́ние в наблюде́нии за повседне́вной жи́знью провинциа́льных городо́в.",
     "translit": "Poet priznalsya, chto cherpaet vdokhnovenie v nablyudenii za povsednevnoy zhiznyu provintsialnykh gorodov.",
-    "en": "The poet admitted that his inspiration often comes from observing the daily life of small towns."
+    "en": "The poet admitted that his inspiration often comes from observing the daily life of small towns.",
+    "pl": "Poeta przyznał, że inspirację często czerpie z obserwacji codziennego życia małych miasteczek."
   },
   {
     "id": "b2-part-4-104",
     "ru": "Исследователи поинтересовались, сохранились ли черновики утерянной пьесы в частных архивах.",
     "ruStressed": "Иссле́дователи поинтересова́лись, сохрани́лись ли черновики́ уте́рянной пье́сы в ча́стных архи́вах.",
     "translit": "Issledovateli pointeresovalis, sokhranilis li chernoviki uteryannoy pesy v chastnykh arkhivakh.",
-    "en": "The researchers inquired whether any drafts of the lost play had been preserved in private archives."
+    "en": "The researchers inquired whether any drafts of the lost play had been preserved in private archives.",
+    "pl": "Badacze dowiadywali się, czy w prywatnych archiwach zachowały się jakiekolwiek szkice zaginionej sztuki."
   },
   {
     "id": "b2-part-4-105",
     "ru": "Резюмируя сюжет, учитель подчеркнул, что кульминационный момент наступает в третьей главе.",
     "ruStressed": "Резюми́руя сюже́т, учи́тель подчеркну́л, что кульминацио́нный моме́нт наступа́ет в тре́тьей главе́.",
     "translit": "Rezyumiruya syuzhet, uchitel podcherknul, chto kulminatsionnyy moment nastupaet v tretyey glave.",
-    "en": "Summarizing the plot, the teacher emphasized that the climax occurs in the third chapter."
+    "en": "Summarizing the plot, the teacher emphasized that the climax occurs in the third chapter.",
+    "pl": "Podsumowując fabułę, nauczyciel podkreślił, że punkt kulminacyjny następuje w trzecim rozdziale."
   },
   {
     "id": "b2-part-4-106",
     "ru": "Издательство объявило, что роман, переведённый на двадцать языков, выйдет в свет этой осенью.",
     "ruStressed": "Изда́тельство объяви́ло, что рома́н, переведённый на два́дцать языко́в, вы́йдет в свет э́той о́сенью.",
     "translit": "Izdatelstvo obyavilo, chto roman, perevedennyy na dvadtsat yazykov, vydet v svet etoy osenyu.",
-    "en": "The publishing house announced that the novel, translated into twenty languages, would be released this autumn."
+    "en": "The publishing house announced that the novel, translated into twenty languages, would be released this autumn.",
+    "pl": "Wydawnictwo ogłosiło, że powieść, przetłumaczona na dwadzieścia języków, ukaże się tej jesieni."
   },
   {
     "id": "b2-part-4-107",
     "ru": "Размышляя над финалом, я задаюсь вопросом, были бы герои счастливы в другой реальности.",
     "ruStressed": "Размышля́я над фина́лом, я задаю́сь вопро́сом, бы́ли бы геро́и счастли́вы в друго́й реа́льности.",
     "translit": "Razmyshlyaya nad finalom, ya zadayus voprosom, byli by geroi schastlivy v drugoy realnosti.",
-    "en": "Reflecting on the ending, I wonder if the characters would have been happy in another reality."
+    "en": "Reflecting on the ending, I wonder if the characters would have been happy in another reality.",
+    "pl": "Rozmyślając nad zakończeniem, zastanawiam się, czy bohaterowie byliby szczęśliwi w innej rzeczywistości."
   },
   {
     "id": "b2-part-4-108",
     "ru": "Второстепенный персонаж предупредил путника, чтобы тот не доверял гостеприимству местного помещика.",
     "ruStressed": "Второстепе́нный персона́ж предупреди́л пу́тника, что́бы тот не доверя́л гостеприи́мству ме́стного поме́щика.",
     "translit": "Vtorostepennyy personazh predupredil putnika, chtoby tot ne doveryal gostepriimstvu mestnogo pomeshchika.",
-    "en": "The secondary character warned the traveler not to trust the hospitality of the local estate owner."
+    "en": "The secondary character warned the traveler not to trust the hospitality of the local estate owner.",
+    "pl": "Postać drugoplanowa ostrzegła podróżnika, by nie ufał gościnności miejscowego dziedzica."
   },
   {
     "id": "b2-part-4-109",
     "ru": "Используя олицетворение, автор заставляет нас почувствовать, как старый особняк вздыхает под тяжестью лет.",
     "ruStressed": "Испо́льзуя олицетворе́ние, а́втор заставля́ет нас почув́ствовать, как ста́рый особня́к вздыха́ет под тя́жестью лет.",
     "translit": "Ispolzuya olitsetvorenie, avtor zastavlyaet nas pochuvstvovat, kak staryy osobnyak vzdykhaet pod tyazhestyu let.",
-    "en": "Using personification, the author makes us feel how the old mansion sighs under the weight of years."
+    "en": "Using personification, the author makes us feel how the old mansion sighs under the weight of years.",
+    "pl": "Używając personifikacji, autor sprawia, że czujemy, jak stara rezydencja wzdycha pod ciężarem lat."
   },
   {
     "id": "b2-part-4-110",
     "ru": "Героиня сомневалась, стоит ли ей жертвовать своими принципами ради призрачного успеха в карьере.",
     "ruStressed": "Герои́ня сомнева́лась, сто́ит ли ей же́ртвовать свои́ми при́нципами ра́ди при́зрачного успе́ха в карье́ре.",
     "translit": "Geroinya somnevalas, stoit li ey zhertvovat svoimi printsipami radi prizrachnogo uspekha v karere.",
-    "en": "The heroine doubted whether she should sacrifice her principles for the sake of ephemeral career success."
+    "en": "The heroine doubted whether she should sacrifice her principles for the sake of ephemeral career success.",
+    "pl": "Bohaterka wahała się, czy powinna poświęcić swoje zasady dla efemerycznego sukcesu zawodowego."
   },
   {
     "id": "b2-part-4-111",
     "ru": "Биографы подтвердили, что писатель работал над своим шедевром на протяжении более двенадцати лет.",
     "ruStressed": "Био́графы подтверди́ли, что писа́тель рабо́тал над свои́м шеде́вром на протяже́нии бо́лее двена́дцати лет.",
     "translit": "Biografy podtverdili, chto pisatel rabotal nad svoim shedevrom na protyazhenii bolee dvenadtsati let.",
-    "en": "The biographers confirmed that the writer had been working on his masterpiece for over twelve years."
+    "en": "The biographers confirmed that the writer had been working on his masterpiece for over twelve years.",
+    "pl": "Biografowie potwierdzili, że pisarz pracował nad swoim arcydziełem przez ponad dwanaście lat."
   },
   {
     "id": "b2-part-4-112",
     "ru": "Незнакомец прошептал, что только люди с чистым сердцем смогут найти путь к тайной библиотеке.",
     "ruStressed": "Незнако́мец прошепта́л, что то́лько лю́ди с чи́стым се́рдцем смо́гут найти́ путь к та́йной библиоте́ке.",
     "translit": "Neznakomets prosheptal, chto tolko lyudi s chistym serdtsem smogut nayti put k taynoy biblioteke.",
-    "en": "The stranger whispered that only those with a pure heart can find the path to the library."
+    "en": "The stranger whispered that only those with a pure heart can find the path to the library.",
+    "pl": "Nieznajomy szepnął, że tylko ci o czystym sercu mogą odnaleźć drogę do biblioteki."
   },
   {
     "id": "b2-part-4-113",
     "ru": "Студент спросил, было ли использование архаизмов сознательным стилистическим приёмом драматурга.",
     "ruStressed": "Студе́нт спроси́л, бы́ло ли испо́льзование архаи́змов созна́тельным стилисти́ческим приёмом драматур́га.",
     "translit": "Student sprosil, bylo li ispolzovanie arkhaizmov soznatelnym stilisticheskim priemom dramaturga.",
-    "en": "A student asked whether the use of archaisms was a conscious stylistic choice by the playwright."
+    "en": "A student asked whether the use of archaisms was a conscious stylistic choice by the playwright.",
+    "pl": "Student zapytał, czy użycie archaizmów było świadomym wyborem stylistycznym dramaturga."
   },
   {
     "id": "b2-part-4-114",
     "ru": "Философ утверждал, что трагедия ситуации заключается в неспособности главного героя сделать выбор.",
     "ruStressed": "Фило́соф утвержда́л, что траге́дия ситуа́ции заключа́ется в неспосо́бности гла́вного геро́я сде́лать вы́бор.",
     "translit": "Filosof utverzhdal, chto tragediya situatsii zaklyuchaetsya v nesposobnosti glavnogo geroya sdelat vybor.",
-    "en": "The philosopher argued that the tragedy of the situation lies in the protagonist's inability to choose."
+    "en": "The philosopher argued that the tragedy of the situation lies in the protagonist's inability to choose.",
+    "pl": "Filozof twierdził, że tragedia sytuacji polega na niezdolności głównego bohatera do dokonania wyboru."
   },
   {
     "id": "b2-part-4-115",
     "ru": "Редактор посоветовал, чтобы молодой автор сократил количество описаний для улучшения динамики повествования.",
     "ruStressed": "Реда́ктор посове́товал, что́бы молодо́й а́втор сократи́л коли́чество описа́ний для улучше́ния дина́мики повествова́ния.",
     "translit": "Redaktor posovetoval, chtoby molodoy avtor sokratil kolichestvo opisaniy dlya uluchsheniya dinamiki povestvovaniya.",
-    "en": "The editor suggested that the young author should reduce the number of descriptions to improve the pacing."
+    "en": "The editor suggested that the young author should reduce the number of descriptions to improve the pacing.",
+    "pl": "Redaktor zasugerował, aby młody autor ograniczył liczbę opisów w celu poprawy tempa narracji."
   },
   {
     "id": "b2-part-4-116",
     "ru": "В своих мемуарах ветеран вспоминал, как солдаты слушали стихи при мерцающем свете свечи.",
     "ruStressed": "В свои́х мемуа́рах ветера́н вспомина́л, как солда́ты слу́шали стихи́ при мерца́ющем све́те свечи́.",
     "translit": "V svoikh memuarakh veteran vspominal, kak soldaty slushali stikhi pri mertsayushchem svete svechi.",
-    "en": "In his memoirs, the veteran recalled how the soldiers listened to poems by flickering candlelight."
+    "en": "In his memoirs, the veteran recalled how the soldiers listened to poems by flickering candlelight.",
+    "pl": "W swoich wspomnieniach weteran przywołał chwilę, gdy żołnierze słuchali wierszy przy migotliwym świetle świecy."
   },
   {
     "id": "b2-part-4-117",
     "ru": "Рассказчик объясняет, что внутренний монолог героя отражает раздробленность современного сознания.",
     "ruStressed": "Расска́зчик объясня́ет, что вну́тренний моноло́г геро́я отража́ет раздро́бленность совреме́нного созна́ния.",
     "translit": "Rasskazchik obyasnyaet, chto vnutrenniy monolog geroya otrazhaet razdroblennost sovremennogo soznaniya.",
-    "en": "The narrator explains that the protagonist's internal monologue reflects the fragmentation of modern consciousness."
+    "en": "The narrator explains that the protagonist's internal monologue reflects the fragmentation of modern consciousness.",
+    "pl": "Narrator wyjaśnia, że monolog wewnętrzny bohatera odzwierciedla rozbicie współczesnej świadomości."
   },
   {
     "id": "b2-part-4-118",
     "ru": "Несмотря на тяжеловесный слог, читатель чувствует, как много любви вложено в каждую метафору.",
     "ruStressed": "Несмотря́ на тяжелове́сный слог, чита́тель чу́вствует, как мно́го любви́ вло́жено в ка́ждую мета́фору.",
     "translit": "Nesmotrya na tyazhelovesnyy slog, chitatel chuvstvuet, kak mnogo lyubvi vlozheno v kazhduyu metaforu.",
-    "en": "Despite the heavy style, the reader feels how much love is invested in each metaphor."
+    "en": "Despite the heavy style, the reader feels how much love is invested in each metaphor.",
+    "pl": "Mimo ciężkiego stylu, czytelnik czuje, jak wiele miłości włożono w każdą metaforę."
   },
   {
     "id": "b2-part-4-119",
     "ru": "Сестра поинтересовалась, были ли мистические события в книге реальностью или просто галлюцинацией.",
     "ruStressed": "Сестра́ поинтересова́лась, бы́ли ли мисти́ческие собы́тия в кни́ге реа́льностью и́ли про́сто галлюцина́цией.",
     "translit": "Sestra pointeresovalas, byli li misticheskie sobytiya v knige realnostyu ili prosto gallyutsinatsiey.",
-    "en": "My sister wondered whether the mystical events in the book were real or just a hallucination."
+    "en": "My sister wondered whether the mystical events in the book were real or just a hallucination.",
+    "pl": "Moja siostra zastanawiała się, czy mistyczne wydarzenia w książce były prawdziwe, czy to tylko halucynacja."
   },
   {
     "id": "b2-part-4-120",
     "ru": "Литературный журнал сообщил, что молодой поэт был удостоен престижной премии за свой дебютный сборник.",
     "ruStressed": "Литерату́рный журна́л сообщи́л, что молодо́й поэт был удосто́ен прести́жной пре́мии за свой дебю́тный сбо́рник.",
     "translit": "Literaturnyy zhurnal soobshchil, chto molodoy poet byl udostoen prestizhnoy premii za svoy debyutnyy sbornik.",
-    "en": "The literary journal reported that the young poet had been awarded a prestigious prize for his debut."
+    "en": "The literary journal reported that the young poet had been awarded a prestigious prize for his debut.",
+    "pl": "Magazyn literacki poinformował, że młody poeta otrzymał prestiżową nagrodę za swój debiut."
   },
   {
     "id": "b2-part-4-121",
     "ru": "Критик отметил, что поэт, исследуя тему одиночества, часто прибегает к аллегории.",
     "ruStressed": "Кри́тик отме́тил, что поэт́, иссле́дуя те́му одино́чества, ча́сто прибега́ет к аллего́рии.",
     "translit": "Kritik otmetil, chto poet, issleduya temu odinochestva, chasto pribegaet k allegorii.",
-    "en": "The critic noted that the poet, while exploring the theme of solitude, often resorts to allegory."
+    "en": "The critic noted that the poet, while exploring the theme of solitude, often resorts to allegory.",
+    "pl": "Krytyk zauważył, że poeta, zgłębiając temat samotności, często ucieka się do alegorii."
   },
   {
     "id": "b2-part-4-122",
     "ru": "Повествователь задался вопросом, сможет ли читатель разгадать истинные мотивы главного героя.",
     "ruStressed": "Повествова́тель зада́лся вопро́сом, смо́жет ли чита́тель разгада́ть и́стинные моти́вы гла́вного геро́я.",
     "translit": "Povestvovatel zadalsya voprosom, smozhet li chitatel razgadat istinnye motivy glavnogo geroya.",
-    "en": "The narrator wondered whether the reader would be able to discern the true motives of the protagonist."
+    "en": "The narrator wondered whether the reader would be able to discern the true motives of the protagonist.",
+    "pl": "Narrator zastanawiał się, czy czytelnik będzie w stanie dostrzec prawdziwe motywy głównego bohatera."
   },
   {
     "id": "b2-part-4-123",
     "ru": "Редактор поинтересовался, почему автор решил изменить исторический фон второй главы.",
     "ruStressed": "Реда́ктор поинтересова́лся, почему́ а́втор реши́л измени́ть истори́ческий фон второ́й главы́.",
     "translit": "Redaktor pointeresovalsya, pochemu avtor reshil izmenit istoricheskiy fon vtoroy glavy.",
-    "en": "The editor inquired why the author had decided to change the historical setting of the second chapter."
+    "en": "The editor inquired why the author had decided to change the historical setting of the second chapter.",
+    "pl": "Redaktor zapytał, dlaczego autor zdecydował się zmienić tło historyczne drugiego rozdziału."
   },
   {
     "id": "b2-part-4-124",
     "ru": "Закончив монолог, актёр осознал, насколько сильно зрители оценили драматическую паузу.",
     "ruStressed": "Зако́нчив моноло́г, актёр осозна́л, наско́лько си́льно зри́тели оцени́ли драмати́ческую па́узу.",
     "translit": "Zakonchiv monolog, aktyor osoznal, naskolko silno zriteli otsenili dramaticheskuyu pauzu.",
-    "en": "Having finished the monologue, the actor realized how much the audience appreciated the dramatic pause."
+    "en": "Having finished the monologue, the actor realized how much the audience appreciated the dramatic pause.",
+    "pl": "Skończywszy monolog, aktor zdał sobie sprawę, jak bardzo publiczność doceniła dramatyczną pauzę."
   },
   {
     "id": "b2-part-4-125",
     "ru": "Учитель объяснил, что ритм стихотворения подчёркивает неизбежность приближающейся бури.",
     "ruStressed": "Учи́тель объясни́л, что ритм стихотворе́ния подчёркивает неизбе́жность приближа́ющейся бу́ри.",
     "translit": "Uchitel obyasnil, chto ritym stikhovoreniya podcherkivaet neizbezhnost priblizhayushcheysya buri.",
-    "en": "The teacher explained that the rhythm of the poem emphasizes the inevitability of the approaching storm."
+    "en": "The teacher explained that the rhythm of the poem emphasizes the inevitability of the approaching storm.",
+    "pl": "Nauczyciel wyjaśnił, że rytm wiersza podkreśla nieuchronność zbliżającej się burzy."
   },
   {
     "id": "b2-part-4-126",
     "ru": "Я спросил библиотекаря, сохранились ли экземпляры запрещённой литературы начала девятнадцатого века.",
     "ruStressed": "Я спроси́л библиоте́каря, сохрани́лись ли экземпля́ры запрещённой литерату́ры нача́ла девятна́дцатого ве́ка.",
     "translit": "Ya sprosil bibliotekarya, sokhranilis li ekzemplyary zapreshchyonnoy literatury nachala devyatnadtsatogo veka.",
-    "en": "I asked the librarian if there were any surviving copies of early 19th-century forbidden literature."
+    "en": "I asked the librarian if there were any surviving copies of early 19th-century forbidden literature.",
+    "pl": "Zapytałem bibliotekarza, czy zachowały się jakieś egzemplarze zakazanej literatury z początku XIX wieku."
   },
   {
     "id": "b2-part-4-127",
     "ru": "Главный герой осознал, что мир, созданный его воображением, был куда ярче реальности.",
     "ruStressed": "Гла́вный геро́й осозна́л, что мир, со́зданный его́ воображе́нием, был куда́ я́рче реа́льности.",
     "translit": "Glavny geroy osoznal, chto mir, sozdanny ego voobrazheniem, byl kuda yarche realnosti.",
-    "en": "The protagonist realized that the world created by his imagination was far brighter than reality."
+    "en": "The protagonist realized that the world created by his imagination was far brighter than reality.",
+    "pl": "Główny bohater zdał sobie sprawę, że świat stworzony przez jego wyobraźnię był znacznie barwniejszy niż rzeczywistość."
   },
   {
     "id": "b2-part-4-128",
     "ru": "Изучая черновики, учёный засомневался, планировал ли писатель публиковать эти личные письма.",
     "ruStressed": "Изуча́я черновики́, учёный засомнева́лся, плани́ровал ли писа́тель публикова́ть эти ли́чные пи́сьма.",
     "translit": "Izuchaya chernoviki, uchyony zasomnevalsya, planiroval li pisatel publikovat eti lichnye pisma.",
-    "en": "Examining the notes, the scientist doubted whether the writer intended to publish these personal letters."
+    "en": "Examining the notes, the scientist doubted whether the writer intended to publish these personal letters.",
+    "pl": "Badając notatki, naukowiec wątpił, czy pisarz zamierzał opublikować te prywatne listy."
   },
   {
     "id": "b2-part-4-129",
     "ru": "Она рассказала, как в течение многих лет искала вдохновение в трудах античных философов.",
     "ruStressed": "Она́ рассказа́ла, как в тече́ние мно́гих лет иска́ла вдохнове́ние в труда́х анти́чных фило́софов.",
     "translit": "Ona rasskazala, kak v techenie mnogikh let iskala vdokhnovenie v trudakh antichnykh filosofov.",
-    "en": "She recounted how for many years she sought inspiration in the works of ancient philosophers."
+    "en": "She recounted how for many years she sought inspiration in the works of ancient philosophers.",
+    "pl": "Opowiedziała, jak przez wiele lat szukała inspiracji w dziełach antycznych filozofów."
   },
   {
     "id": "b2-part-4-130",
     "ru": "Профессор подчеркнул, что каждая деталь в тексте служит раскрытию психологического состояния героини.",
     "ruStressed": "Профе́ссор подчеркну́л, что ка́ждая дета́ль в те́ксте слу́жит раскры́тию психологи́ческого состоя́ния герои́ни.",
     "translit": "Professor podcherknul, chto kazhdaya detal v tekste sluzhit raskrytiyu psikhologicheskogo sostoyaniya geroini.",
-    "en": "The professor emphasized that every detail in the text serves to reveal the psychological state of the heroine."
+    "en": "The professor emphasized that every detail in the text serves to reveal the psychological state of the heroine.",
+    "pl": "Profesor podkreślił, że każdy szczegół w tekście służy ukazaniu stanu psychicznego bohaterki."
   },
   {
     "id": "b2-part-4-131",
     "ru": "Свидетель утверждал, что видел таинственную личность, описанную в первом томе трилогии.",
     "ruStressed": "Свиде́тель утвержда́л, что ви́дел таи́нственную ли́чность, опи́санную в пе́рвом то́ме трило́гии.",
     "translit": "Svidetel utverzhdal, chto videl tainstvennuyu lichnost, opisannuyu v pervom tome trilogii.",
-    "en": "The witness claimed that he had seen the mysterious person described in the first volume of the trilogy."
+    "en": "The witness claimed that he had seen the mysterious person described in the first volume of the trilogy.",
+    "pl": "Świadek twierdził, że widział tajemniczą osobę opisaną w pierwszym tomie trylogii."
   },
   {
     "id": "b2-part-4-132",
     "ru": "Студенты спорили, делает ли использование полифонии роман слишком сложным для современного восприятия.",
     "ruStressed": "Студе́нты спо́рили, де́лает ли испо́льзование полифони́и рома́н сли́шком сло́жным для совреме́нного восприя́тия.",
     "translit": "Studenty sporili, delaet li ispolzovanie polifonii roman slishkom slozhnym dlya sovremennogo vospriyatiya.",
-    "en": "The students debated whether use of polyphony makes the novel too difficult for modern perception."
+    "en": "The students debated whether use of polyphony makes the novel too difficult for modern perception.",
+    "pl": "Studenci debatowali, czy użycie polifonii sprawia, że powieść staje się zbyt trudna dla współczesnego odbiorcy."
   },
   {
     "id": "b2-part-4-133",
     "ru": "Вернувшись в родной город, автор понял, что места его детства изменились до неузнаваемости.",
     "ruStressed": "Верну́вшись в родно́й го́род, а́втор по́нял, что места́ его́ де́тства измени́лись до неузнава́емости.",
     "translit": "Vernuvshis v rodnoy gorod, avtor ponyal, chto mesta ego detstva izmenilis do neuznavaemosti.",
-    "en": "Having returned to his hometown, the author realized that the places of his childhood had changed beyond recognition."
+    "en": "Having returned to his hometown, the author realized that the places of his childhood had changed beyond recognition.",
+    "pl": "Po powrocie do rodzinnego miasta autor zdał sobie sprawę, że miejsca jego dzieciństwa zmieniły się nie do poznania."
   },
   {
     "id": "b2-part-4-134",
     "ru": "Герои обсуждали, можно ли найти справедливость в обществе, управляемом холодными законами.",
     "ruStressed": "Геро́и обсужда́ли, мо́жно ли найти́ справедли́вость в о́бществе, управля́емом холо́дными зако́нами.",
     "translit": "Geroi obsuzhdali, mozhno li nayti spravedlivost v obshchestve, upravlyaemom kholodnymi zakonami.",
-    "en": "The characters discussed whether it was possible to find justice in a society governed by cold laws."
+    "en": "The characters discussed whether it was possible to find justice in a society governed by cold laws.",
+    "pl": "Bohaterowie dyskutowali, czy można znaleźć sprawiedliwość w społeczeństwie rządzonym przez chłodne prawa."
   },
   {
     "id": "b2-part-4-135",
     "ru": "Путник спросил, может ли он остаться на ночлег в заброшенном монастыре, упомянутом в легенде.",
     "ruStressed": "Пу́тник спроси́л, мо́жет ли он оста́ться на ночле́г в забро́шенном монастыре́, упо́мянутом в леге́нде.",
     "translit": "Putnik sprosil, mozhet li on ostatsya na nochleg v zabroshennom monastyre, upomyanutom v legende.",
-    "en": "The traveler asked if he could stay overnight in the abandoned monastery mentioned in the legend."
+    "en": "The traveler asked if he could stay overnight in the abandoned monastery mentioned in the legend.",
+    "pl": "Podróżnik zapytał, czy może zostać na noc w opuszczonym klasztorze wspomnianym w legendzie."
   },
   {
     "id": "b2-part-4-136",
     "ru": "Упоминая социальный контекст, лектор объяснил, почему сатирические элементы так важны для произведения.",
     "ruStressed": "Упомина́я социа́льный конте́кст, ле́ктор объясни́л, почему́ сатири́ческие элеме́нты так важны́ для произведе́ния.",
     "translit": "Upominaya sotsialny kontekst, lektor obyasnil, pochemu satiricheskie elementy tak vazhny dlya proizvedeniya.",
-    "en": "Mentioning the social context, the lecturer explained why the satirical elements are so important for the work."
+    "en": "Mentioning the social context, the lecturer explained why the satirical elements are so important for the work.",
+    "pl": "Wspominając o kontekście społecznym, wykładowca wyjaśnił, dlaczego elementy satyryczne są tak ważne dla utworu."
   },
   {
     "id": "b2-part-4-137",
     "ru": "Дедушка сказал, что в его молодости люди ценили настоящие книги больше, чем виртуальные.",
     "ruStressed": "Де́душка сказа́л, что в его́ мо́лодости лю́ди цени́ли настоя́щие кни́ги бо́льше, чем виртуа́льные.",
     "translit": "Dedushka skazal, chto v ego molodosti lyudi tsenili nastoyashchie knigi bolshe, chem virtualnye.",
-    "en": "The grandfather said that in his youth people valued real books more than virtual ones."
+    "en": "The grandfather said that in his youth people valued real books more than virtual ones.",
+    "pl": "Dziadek powiedział, że w młodości ludzie cenili prawdziwe książki bardziej niż te wirtualne."
   },
   {
     "id": "b2-part-4-138",
     "ru": "Незнакомец поинтересовался, помнят ли ещё жители деревни историю о пропавшем художнике.",
     "ruStressed": "Незнако́мец поинтересова́лся, по́мнят ли ещё жи́тели дере́вни исто́рию о пропа́вшем худо́жнике.",
     "translit": "Neznakomets pointeresovalsya, pomnyat li eshchyo zhiteli derevni istoriyu o propavshem khudozhnike.",
-    "en": "The stranger wondered if the residents of the village still remembered the story of the lost artist."
+    "en": "The stranger wondered if the residents of the village still remembered the story of the lost artist.",
+    "pl": "Nieznajomy zastanawiał się, czy mieszkańcy wioski wciąż pamiętają historię zaginionego artysty."
   },
   {
     "id": "b2-part-4-139",
     "ru": "Поэт выразил надежду, что его стихи найдут отклик в сердцах будущих поколений.",
     "ruStressed": "Поэ́т вы́разил наде́жду, что его́ стихи́ найду́т о́тклик в сердца́х бу́дущих поколе́ний.",
     "translit": "Poet vyrazil nadezhdu, chto ego stikhi naydut otklik v serdtsakh budushchikh pokoleniy.",
-    "en": "The poet expressed hope that his poems would find an echo in the hearts of future generations."
+    "en": "The poet expressed hope that his poems would find an echo in the hearts of future generations.",
+    "pl": "Poeta wyraził nadzieję, że jego wiersze znajdą oddźwięk w sercach przyszłych pokoleń."
   },
   {
     "id": "b2-part-4-140",
     "ru": "Профессор подчеркнул, что автор использует религиозную символику для изображения поиска нравственной истины.",
     "ruStressed": "Профе́ссор подчеркну́л, что а́втор испо́льзует религио́зную симво́лику для изображе́ния по́иска нра́вственной и́стины.",
     "translit": "Professor podcherknul, chto avtor ispolzuet religioznuyu simvoliku dlya izobrazheniya poiska nravstvennoy istiny.",
-    "en": "The professor emphasized that the author uses religious symbolism to represent the search for moral truth."
+    "en": "The professor emphasized that the author uses religious symbolism to represent the search for moral truth.",
+    "pl": "Profesor podkreślił, że autor używa symboliki religijnej, aby przedstawić poszukiwanie prawdy moralnej."
   },
   {
     "id": "b2-part-4-141",
     "ru": "Литературный агент гадал, сможет ли молодой писатель справиться с давлением внезапной популярности.",
     "ruStressed": "Литерату́рный аге́нт гада́л, смо́жет ли молодо́й писа́тель спра́виться с давле́нием внеза́пной популя́рности.",
     "translit": "Literaturnyy agent gadal, smozhet li molodoy pisatel spravitsya s davleniem vnezapnoy populyarnosti.",
-    "en": "The literary agent wondered whether the young writer would be able to handle the pressure of sudden fame."
+    "en": "The literary agent wondered whether the young writer would be able to handle the pressure of sudden fame.",
+    "pl": "Agent literacki zastanawiał się, czy młody pisarz poradzi sobie z presją nagłej sławy."
   },
   {
     "id": "b2-part-4-142",
     "ru": "Читая древние рукописи, историк обнаружил, что многие факты были искажены предыдущими летописцами.",
     "ruStressed": "Чита́я дре́вние ру́кописи, исто́рик обнару́жил, что мно́гие фа́кты бы́ли искажены́ предыду́щими летопи́сцами.",
     "translit": "Chitaya drevnie rukopisi, istorik obnaruzhil, chto mnogie fakty byli iskazheny predydushchimi letopistsami.",
-    "en": "Reading the ancient manuscripts, the historian discovered that many facts had been distorted by previous chroniclers."
+    "en": "Reading the ancient manuscripts, the historian discovered that many facts had been distorted by previous chroniclers.",
+    "pl": "Czytając starożytne rękopisy, historyk odkrył, że wiele faktów zostało zniekształconych przez poprzednich kronikarzy."
   },
   {
     "id": "b2-part-4-143",
     "ru": "Издатель попросил, чтобы редактор сократил вторую главу для улучшения темпа повествования.",
     "ruStressed": "Изда́тель попроси́л, что́бы реда́ктор сократи́л втору́ю главу́ для улучше́ния те́мпа повествова́ния.",
     "translit": "Izdatel poprosil, chtoby redaktor sokratil vtoruyu glavu dlya uluchsheniya tempa povestvovaniya.",
-    "en": "The publisher requested that the editor shorten the second chapter to improve the pacing of the narrative."
+    "en": "The publisher requested that the editor shorten the second chapter to improve the pacing of the narrative.",
+    "pl": "Wydawca poprosił, aby redaktor skrócił drugi rozdział w celu poprawy tempa narracji."
   },
   {
     "id": "b2-part-4-144",
     "ru": "Анализируя стихотворение, мы спорили о том, играет ли ритм или образность более значимую роль.",
     "ruStressed": "Анализи́руя стихотворе́ние, мы спо́рили о том, игра́ет ли ритм и́ли о́бразность бо́лее значи́мую роль.",
     "translit": "Analiziruya stikhotvorenie, my sporili o tom, igraet li ritm ili obraznost bolee znachimuyu rol.",
-    "en": "While analyzing the poem, we argued about whether rhythm or imagery plays a more significant role."
+    "en": "While analyzing the poem, we argued about whether rhythm or imagery plays a more significant role.",
+    "pl": "Analizując wiersz, spieraliśmy się o to, czy rytm, czy obrazowanie odgrywa istotniejszą rolę."
   },
   {
     "id": "b2-part-4-145",
     "ru": "Дневник главной героини раскрыл, что она намеренно скрывала своё прошлое от самых близких друзей.",
     "ruStressed": "Дневни́к гла́вной герои́ни раскры́л, что она́ наме́ренно скрыва́ла своё про́шлое от са́мых бли́зких друзе́й.",
     "translit": "Dnevnik glavnoy geroini raskryl, chto ona namerenno skryvala svoyo proshloe ot samykh blizkikh druzey.",
-    "en": "The protagonist's diary revealed that she had intentionally hidden her past from her closest friends."
+    "en": "The protagonist's diary revealed that she had intentionally hidden her past from her closest friends.",
+    "pl": "Dziennik bohaterki ujawnił, że celowo ukrywała swoją przeszłość przed najbliższymi przyjaciółmi."
   },
   {
     "id": "b2-part-4-146",
     "ru": "Закончив эссе, студент засомневался, полностью ли он осознал сложность эпохи постмодернизма.",
     "ruStressed": "Зако́нчив эссе́, студе́нт засомнева́лся, по́лностью ли он осозна́л сло́жность эпо́хи постмодерни́зма.",
     "translit": "Zakonchiv esse, student zasomnevalsya, polnostyu li on osoznal slozhnost epokhi postmodernizma.",
-    "en": "Having finished the essay, the student doubted whether he had fully grasped the complexity of the postmodern era."
+    "en": "Having finished the essay, the student doubted whether he had fully grasped the complexity of the postmodern era.",
+    "pl": "Skończywszy esej, student wątpił, czy w pełni pojął złożoność epoki postmodernizmu."
   },
   {
     "id": "b2-part-4-147",
     "ru": "Библиотекарь предупредил, что редкие издания выдаются только для работы в читальном зале.",
     "ruStressed": "Библиоте́карь предупреди́л, что ре́дкие изда́ния выдаю́тся то́лько для рабо́ты в чита́льном за́ле.",
     "translit": "Bibliotekar predupredil, chto redkie izdaniya vydayutsya tolko dlya raboty v chitalnom zale.",
-    "en": "The librarian warned that rare editions are available only for work in the reading room."
+    "en": "The librarian warned that rare editions are available only for work in the reading room.",
+    "pl": "Bibliotekarz ostrzegł, że rzadkie wydania są dostępne wyłącznie do pracy w czytelni."
   },
   {
     "id": "b2-part-4-148",
     "ru": "Учёные продолжают спорить, был ли таинственный незнакомец реальным историческим лицом или вымышленным мифическим персонажем.",
     "ruStressed": "Учёные продолжа́ют спо́рить, был ли таи́нственный незнако́мец реа́льным истори́ческим лицо́м и́ли вы́мышленным мифи́ческим персона́жем.",
     "translit": "Uchenye prodolzhayut sporit, byl li tainstvennyy neznakomets realnym istoricheskim litsom ili vymyshlennym mificheskim personazhem.",
-    "en": "Scholars continue to debate whether the mysterious stranger was a real historical figure or a fictional mythological character."
+    "en": "Scholars continue to debate whether the mysterious stranger was a real historical figure or a fictional mythological character.",
+    "pl": "Uczeni nadal debatują, czy tajemniczy nieznajomy był postacią historyczną, czy fikcyjnym bohaterem mitologicznym."
   },
   {
     "id": "b2-part-4-149",
     "ru": "Драматург отметил, что зрителям следует обратить внимание на освещение, поскольку оно символизирует внутреннее состояние героев.",
     "ruStressed": "Драмату́рг отме́тил, что зри́телям сле́дует обрати́ть внима́ние на освеще́ние, поско́льку оно́ символизи́рует вну́треннее состоя́ние геро́ев.",
     "translit": "Dramaturg otmetil, chto zritelyam sleduet obratit vnimanie na osveshchenie, poskolku ono simvoliziruet vnutrennee sostoyanie geroev.",
-    "en": "The playwright noted that the audience should pay attention to the lighting, as it symbolizes the characters' inner state."
+    "en": "The playwright noted that the audience should pay attention to the lighting, as it symbolizes the characters' inner state.",
+    "pl": "Dramaturg zauważył, że widzowie powinni zwrócić uwagę na oświetlenie, gdyż symbolizuje ono stan wewnętrzny bohaterów."
   },
   {
     "id": "b2-part-4-150",
     "ru": "Студенты поинтересовались, сколько метафор автору удалось спрятать всего в одной строфе стихотворения.",
     "ruStressed": "Студе́нты поинтересова́лись, ско́лько мета́фор а́втору удало́сь спря́тать всего́ в одно́й строфе́ стихотворе́ния.",
     "translit": "Studenty pointeresovalis, skolko metafor avtoru udalos spryatat vsego v odnoy strofe stikhotvoreniya.",
-    "en": "The students inquired how many metaphors the author managed to hide in just one stanza of the poem."
+    "en": "The students inquired how many metaphors the author managed to hide in just one stanza of the poem.",
+    "pl": "Studenci pytali, ile metafor autorowi udało się ukryć w zaledwie jednej strofie wiersza."
   }
 ]

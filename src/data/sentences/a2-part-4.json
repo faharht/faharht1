@@ -4,1049 +4,1199 @@
     "ru": "Какая сегодня погода?",
     "ruStressed": "Кака́я сего́дня пого́да?",
     "translit": "Kakaya segodnya pogoda?",
-    "en": "What's the weather like today?"
+    "en": "What's the weather like today?",
+    "pl": "Jaka jest dzisiaj pogoda?"
   },
   {
     "id": "a2-part-4-2",
     "ru": "Сегодня тепло и солнечно.",
     "ruStressed": "Сего́дня тепло́ и со́лнечно.",
     "translit": "Segodnya teplo i solnechno.",
-    "en": "Today is warm and sunny."
+    "en": "Today is warm and sunny.",
+    "pl": "Dzisiaj jest ciepło i słonecznie."
   },
   {
     "id": "a2-part-4-3",
     "ru": "На улице холодно.",
     "ruStressed": "На у́лице хо́лодно.",
     "translit": "Na ulitse kholodno.",
-    "en": "It's cold outside."
+    "en": "It's cold outside.",
+    "pl": "Na zewnątrz jest zimno."
   },
   {
     "id": "a2-part-4-4",
     "ru": "Идёт дождь.",
     "ruStressed": "Идёт дождь.",
     "translit": "Idyot dozhd'.",
-    "en": "It's raining."
+    "en": "It's raining.",
+    "pl": "Pada deszcz."
   },
   {
     "id": "a2-part-4-5",
     "ru": "Возьми зонт.",
     "ruStressed": "Возьми́ зонт.",
     "translit": "Voz'mi zont.",
-    "en": "Take an umbrella."
+    "en": "Take an umbrella.",
+    "pl": "Weź parasol."
   },
   {
     "id": "a2-part-4-6",
     "ru": "Я промок до нитки.",
     "ruStressed": "Я промо́к до ни́тки.",
     "translit": "Ya promok do nitki.",
-    "en": "I got soaked to the skin."
+    "en": "I got soaked to the skin.",
+    "pl": "Przemokłem do suchej nitki."
   },
   {
     "id": "a2-part-4-7",
     "ru": "Утром был мороз.",
     "ruStressed": "У́тром был моро́з.",
     "translit": "Utrom byl moroz.",
-    "en": "It was frosty in the morning."
+    "en": "It was frosty in the morning.",
+    "pl": "Rano był mróz."
   },
   {
     "id": "a2-part-4-8",
     "ru": "Минус десять градусов.",
     "ruStressed": "Ми́нус де́сять гра́дусов.",
     "translit": "Minus desyat' gradusov.",
-    "en": "Minus ten degrees."
+    "en": "Minus ten degrees.",
+    "pl": "Minus dziesięć stopni."
   },
   {
     "id": "a2-part-4-9",
     "ru": "Какая температура на улице?",
     "ruStressed": "Кака́я температу́ра на у́лице?",
     "translit": "Kakaya temperatura na ulitse?",
-    "en": "What's the temperature outside?"
+    "en": "What's the temperature outside?",
+    "pl": "Jaka jest temperatura na zewnątrz?"
   },
   {
     "id": "a2-part-4-10",
     "ru": "Плюс двадцать.",
     "ruStressed": "Плюс два́дцать.",
     "translit": "Plyus dvadtsat'.",
-    "en": "Plus twenty."
+    "en": "Plus twenty.",
+    "pl": "Plus dwadzieścia."
   },
   {
     "id": "a2-part-4-11",
     "ru": "Идёт снег.",
     "ruStressed": "Идёт снег.",
     "translit": "Idyot sneg.",
-    "en": "It's snowing."
+    "en": "It's snowing.",
+    "pl": "Pada śnieg."
   },
   {
     "id": "a2-part-4-12",
     "ru": "Зима в этом году тёплая.",
     "ruStressed": "Зима́ в э́том году́ тёплая.",
     "translit": "Zima v etom godu tyoplaya.",
-    "en": "Winter is warm this year."
+    "en": "Winter is warm this year.",
+    "pl": "Zima w tym roku jest ciepła."
   },
   {
     "id": "a2-part-4-13",
     "ru": "Я не люблю холод.",
     "ruStressed": "Я не люблю́ хо́лод.",
     "translit": "Ya ne lyublyu kholod.",
-    "en": "I don't like the cold."
+    "en": "I don't like the cold.",
+    "pl": "Nie lubię zimna."
   },
   {
     "id": "a2-part-4-14",
     "ru": "Лето моё любимое время года.",
     "ruStressed": "Ле́то моё люби́мое вре́мя го́да.",
     "translit": "Leto moyo lyubimoe vremya goda.",
-    "en": "Summer is my favorite season."
+    "en": "Summer is my favorite season.",
+    "pl": "Lato to moja ulubiona pora roku."
   },
   {
     "id": "a2-part-4-15",
     "ru": "Сегодня очень жарко.",
     "ruStressed": "Сего́дня о́чень жа́рко.",
     "translit": "Segodnya ochen' zharko.",
-    "en": "It's very hot today."
+    "en": "It's very hot today.",
+    "pl": "Dzisiaj jest bardzo gorąco."
   },
   {
     "id": "a2-part-4-16",
     "ru": "Тридцать градусов в тени.",
     "ruStressed": "Три́дцать гра́дусов в тени́.",
     "translit": "Tridtsat' gradusov v teni.",
-    "en": "Thirty degrees in the shade."
+    "en": "Thirty degrees in the shade.",
+    "pl": "Trzydzieści stopni w cieniu."
   },
   {
     "id": "a2-part-4-17",
     "ru": "Я устал от жары.",
     "ruStressed": "Я уста́л от жары́.",
     "translit": "Ya ustal ot zhary.",
-    "en": "I'm tired of the heat."
+    "en": "I'm tired of the heat.",
+    "pl": "Mam dość upału."
   },
   {
     "id": "a2-part-4-18",
     "ru": "Завтра обещают дождь.",
     "ruStressed": "За́втра обеща́ют дождь.",
     "translit": "Zavtra obeshchayut dozhd'.",
-    "en": "They forecast rain tomorrow."
+    "en": "They forecast rain tomorrow.",
+    "pl": "Na jutro zapowiadają deszcz."
   },
   {
     "id": "a2-part-4-19",
     "ru": "Прогноз погоды плохой.",
     "ruStressed": "Прогно́з пого́ды плохо́й.",
     "translit": "Prognoz pogody plokhoy.",
-    "en": "The weather forecast is bad."
+    "en": "The weather forecast is bad.",
+    "pl": "Prognoza pogody jest zła."
   },
   {
     "id": "a2-part-4-20",
     "ru": "Дует сильный ветер.",
     "ruStressed": "Ду́ет си́льный ве́тер.",
     "translit": "Duet sil'nyy veter.",
-    "en": "A strong wind is blowing."
+    "en": "A strong wind is blowing.",
+    "pl": "Wieje silny wiatr."
   },
   {
     "id": "a2-part-4-21",
     "ru": "Небо облачное.",
     "ruStressed": "Не́бо о́блачное.",
     "translit": "Nebo oblachnoe.",
-    "en": "The sky is cloudy."
+    "en": "The sky is cloudy.",
+    "pl": "Niebo jest zachmurzone."
   },
   {
     "id": "a2-part-4-22",
     "ru": "Ни облачка на небе.",
     "ruStressed": "Ни о́блачка на не́бе.",
     "translit": "Ni oblachka na nebe.",
-    "en": "Not a cloud in the sky."
+    "en": "Not a cloud in the sky.",
+    "pl": "Na niebie nie ma ani jednej chmurki."
   },
   {
     "id": "a2-part-4-23",
     "ru": "Солнце светит ярко.",
     "ruStressed": "Со́лнце све́тит я́рко.",
     "translit": "Solntse svetit yarko.",
-    "en": "The sun is shining brightly."
+    "en": "The sun is shining brightly.",
+    "pl": "Słońce świeci jasno."
   },
   {
     "id": "a2-part-4-24",
     "ru": "Скоро будет гроза.",
     "ruStressed": "Ско́ро бу́дет гроза́.",
     "translit": "Skoro budet groza.",
-    "en": "There'll be a thunderstorm soon."
+    "en": "There'll be a thunderstorm soon.",
+    "pl": "Niedługo będzie burza."
   },
   {
     "id": "a2-part-4-25",
     "ru": "Я боюсь молний.",
     "ruStressed": "Я бою́сь мо́лний.",
     "translit": "Ya boyus' molniy.",
-    "en": "I'm afraid of lightning."
+    "en": "I'm afraid of lightning.",
+    "pl": "Boję się piorunów."
   },
   {
     "id": "a2-part-4-26",
     "ru": "Слышен гром.",
     "ruStressed": "Слы́шен гром.",
     "translit": "Slyshen grom.",
-    "en": "Thunder can be heard."
+    "en": "Thunder can be heard.",
+    "pl": "Słychać grzmot."
   },
   {
     "id": "a2-part-4-27",
     "ru": "Весной всё зацветает.",
     "ruStressed": "Весно́й всё зацвета́ет.",
     "translit": "Vesnoy vsyo zatsvetaet.",
-    "en": "In spring everything blooms."
+    "en": "In spring everything blooms.",
+    "pl": "Wiosną wszystko kwitnie."
   },
   {
     "id": "a2-part-4-28",
     "ru": "Осенью листья жёлтые.",
     "ruStressed": "О́сенью ли́стья жёлтые.",
     "translit": "Osen'yu list'ya zhyoltye.",
-    "en": "In autumn leaves are yellow."
+    "en": "In autumn leaves are yellow.",
+    "pl": "Jesienią liście są żółte."
   },
   {
     "id": "a2-part-4-29",
     "ru": "Сегодня хорошая погода для прогулки.",
     "ruStressed": "Сего́дня хоро́шая пого́да для прогу́лки.",
     "translit": "Segodnya khoroshaya pogoda dlya progulki.",
-    "en": "Today is good weather for a walk."
+    "en": "Today is good weather for a walk.",
+    "pl": "Dzisiaj jest dobra pogoda na spacer."
   },
   {
     "id": "a2-part-4-30",
     "ru": "Я надену пальто.",
     "ruStressed": "Я наде́ну пальто́.",
     "translit": "Ya nadenu pal'to.",
-    "en": "I'll put on a coat."
+    "en": "I'll put on a coat.",
+    "pl": "Założę płaszcz."
   },
   {
     "id": "a2-part-4-31",
     "ru": "Где моя шапка?",
     "ruStressed": "Где моя́ ша́пка?",
     "translit": "Gde moya shapka?",
-    "en": "Where's my hat?"
+    "en": "Where's my hat?",
+    "pl": "Gdzie jest moja czapka?"
   },
   {
     "id": "a2-part-4-32",
     "ru": "Не забудь шарф.",
     "ruStressed": "Не забу́дь шарф.",
     "translit": "Ne zabud' sharf.",
-    "en": "Don't forget your scarf."
+    "en": "Don't forget your scarf.",
+    "pl": "Nie zapomnij szalika."
   },
   {
     "id": "a2-part-4-33",
     "ru": "Я ношу очки.",
     "ruStressed": "Я ношу́ очки́.",
     "translit": "Ya noshu ochki.",
-    "en": "I wear glasses."
+    "en": "I wear glasses.",
+    "pl": "Noszę okulary."
   },
   {
     "id": "a2-part-4-34",
     "ru": "Эти ботинки удобные.",
     "ruStressed": "Э́ти боти́нки удо́бные.",
     "translit": "Eti botinki udobnye.",
-    "en": "These boots are comfortable."
+    "en": "These boots are comfortable.",
+    "pl": "Te buty są wygodne."
   },
   {
     "id": "a2-part-4-35",
     "ru": "Мне нужны новые туфли.",
     "ruStressed": "Мне нужны́ но́вые ту́фли.",
     "translit": "Mne nuzhny novye tufli.",
-    "en": "I need new shoes."
+    "en": "I need new shoes.",
+    "pl": "Potrzebuję nowych butów."
   },
   {
     "id": "a2-part-4-36",
     "ru": "Какой у вас размер?",
     "ruStressed": "Како́й у вас разме́р?",
     "translit": "Kakoy u vas razmer?",
-    "en": "What's your size?"
+    "en": "What's your size?",
+    "pl": "Jaki ma pan/pani rozmiar? (formal)"
   },
   {
     "id": "a2-part-4-37",
     "ru": "У меня сорок второй.",
     "ruStressed": "У меня́ со́рок второ́й.",
     "translit": "U menya sorok vtoroy.",
-    "en": "I'm a forty-two."
+    "en": "I'm a forty-two.",
+    "pl": "Mam rozmiar czterdzieści dwa."
   },
   {
     "id": "a2-part-4-38",
     "ru": "Можно примерить?",
     "ruStressed": "Мо́жно приме́рить?",
     "translit": "Mozhno primerit'?",
-    "en": "May I try it on?"
+    "en": "May I try it on?",
+    "pl": "Czy mogę to przymierzyć?"
   },
   {
     "id": "a2-part-4-39",
     "ru": "Где примерочная?",
     "ruStressed": "Где приме́рочная?",
     "translit": "Gde primerochnaya?",
-    "en": "Where's the fitting room?"
+    "en": "Where's the fitting room?",
+    "pl": "Gdzie jest przymierzalnia?"
   },
   {
     "id": "a2-part-4-40",
     "ru": "Эта рубашка мне велика.",
     "ruStressed": "Э́та руба́шка мне велика́.",
     "translit": "Eta rubashka mne velika.",
-    "en": "This shirt is too big for me."
+    "en": "This shirt is too big for me.",
+    "pl": "Ta koszula jest na mnie za duża."
   },
   {
     "id": "a2-part-4-41",
     "ru": "Эти джинсы малы.",
     "ruStressed": "Э́ти джи́нсы малы́.",
     "translit": "Eti dzhinsy maly.",
-    "en": "These jeans are too small."
+    "en": "These jeans are too small.",
+    "pl": "Te dżinsy są za małe."
   },
   {
     "id": "a2-part-4-42",
     "ru": "Есть размер поменьше?",
     "ruStressed": "Есть разме́р поме́ньше?",
     "translit": "Yest' razmer pomen'she?",
-    "en": "Is there a smaller size?"
+    "en": "Is there a smaller size?",
+    "pl": "Czy jest mniejszy rozmiar?"
   },
   {
     "id": "a2-part-4-43",
     "ru": "Это мне подходит.",
     "ruStressed": "Э́то мне подхо́дит.",
     "translit": "Eto mne podkhodit.",
-    "en": "This fits me."
+    "en": "This fits me.",
+    "pl": "To na mnie pasuje."
   },
   {
     "id": "a2-part-4-44",
     "ru": "Тебе очень идёт.",
     "ruStressed": "Тебе́ о́чень идёт.",
     "translit": "Tebe ochen' idyot.",
-    "en": "It suits you very well."
+    "en": "It suits you very well.",
+    "pl": "Bardzo ci pasuje."
   },
   {
     "id": "a2-part-4-45",
     "ru": "Какой цвет вы хотите?",
     "ruStressed": "Како́й цвет вы хоти́те?",
     "translit": "Kakoy tsvet vy khotite?",
-    "en": "What color do you want?"
+    "en": "What color do you want?",
+    "pl": "Jaki kolor pan/pani chce? (formal)"
   },
   {
     "id": "a2-part-4-46",
     "ru": "Я люблю чёрный.",
     "ruStressed": "Я люблю́ чёрный.",
     "translit": "Ya lyublyu chyornyy.",
-    "en": "I like black."
+    "en": "I like black.",
+    "pl": "Lubię czarny."
   },
   {
     "id": "a2-part-4-47",
     "ru": "А белого нет?",
     "ruStressed": "А бе́лого нет?",
     "translit": "A belogo net?",
-    "en": "Is there no white?"
+    "en": "Is there no white?",
+    "pl": "Nie ma białego?"
   },
   {
     "id": "a2-part-4-48",
     "ru": "Сколько стоит это платье?",
     "ruStressed": "Ско́лько сто́ит э́то пла́тье?",
     "translit": "Skol'ko stoit eto plat'e?",
-    "en": "How much is this dress?"
+    "en": "How much is this dress?",
+    "pl": "Ile kosztuje ta sukienka?"
   },
   {
     "id": "a2-part-4-49",
     "ru": "Это дорого для меня.",
     "ruStressed": "Э́то до́рого для меня́.",
     "translit": "Eto dorogo dlya menya.",
-    "en": "That's expensive for me."
+    "en": "That's expensive for me.",
+    "pl": "To dla mnie za drogo."
   },
   {
     "id": "a2-part-4-50",
     "ru": "Есть скидка?",
     "ruStressed": "Есть ски́дка?",
     "translit": "Yest' skidka?",
-    "en": "Is there a discount?"
+    "en": "Is there a discount?",
+    "pl": "Czy jest zniżka?"
   },
   {
     "id": "a2-part-4-51",
     "ru": "Сейчас распродажа.",
     "ruStressed": "Сейча́с распрода́жа.",
     "translit": "Seychas rasprodazha.",
-    "en": "There's a sale right now."
+    "en": "There's a sale right now.",
+    "pl": "Teraz jest wyprzedaż."
   },
   {
     "id": "a2-part-4-52",
     "ru": "Я возьму это.",
     "ruStressed": "Я возьму́ э́то.",
     "translit": "Ya voz'mu eto.",
-    "en": "I'll take this."
+    "en": "I'll take this.",
+    "pl": "Wezmę to."
   },
   {
     "id": "a2-part-4-53",
     "ru": "Где касса?",
     "ruStressed": "Где ка́сса?",
     "translit": "Gde kassa?",
-    "en": "Where's the cashier?"
+    "en": "Where's the cashier?",
+    "pl": "Gdzie jest kasa?"
   },
   {
     "id": "a2-part-4-54",
     "ru": "Я сегодня в хорошем настроении.",
     "ruStressed": "Я сего́дня в хоро́шем настрое́нии.",
     "translit": "Ya segodnya v khoroshem nastroenii.",
-    "en": "I'm in a good mood today."
+    "en": "I'm in a good mood today.",
+    "pl": "Jestem dzisiaj w dobrym humorze."
   },
   {
     "id": "a2-part-4-55",
     "ru": "Мне грустно.",
     "ruStressed": "Мне гру́стно.",
     "translit": "Mne grustno.",
-    "en": "I'm sad."
+    "en": "I'm sad.",
+    "pl": "Smutno mi."
   },
   {
     "id": "a2-part-4-56",
     "ru": "Я очень рад.",
     "ruStressed": "Я о́чень рад.",
     "translit": "Ya ochen' rad.",
-    "en": "I'm very glad."
+    "en": "I'm very glad.",
+    "pl": "Bardzo się cieszę."
   },
   {
     "id": "a2-part-4-57",
     "ru": "Я счастлив.",
     "ruStressed": "Я сча́стлив.",
     "translit": "Ya schastliv.",
-    "en": "I'm happy."
+    "en": "I'm happy.",
+    "pl": "Jestem szczęśliwy."
   },
   {
     "id": "a2-part-4-58",
     "ru": "Что с тобой?",
     "ruStressed": "Что с тобо́й?",
     "translit": "Chto s toboy?",
-    "en": "What's wrong with you?"
+    "en": "What's wrong with you?",
+    "pl": "Co z tobą?"
   },
   {
     "id": "a2-part-4-59",
     "ru": "Я просто устал.",
     "ruStressed": "Я про́сто уста́л.",
     "translit": "Ya prosto ustal.",
-    "en": "I'm just tired."
+    "en": "I'm just tired.",
+    "pl": "Jestem po prostu zmęczony."
   },
   {
     "id": "a2-part-4-60",
     "ru": "Не волнуйся.",
     "ruStressed": "Не волну́йся.",
     "translit": "Ne volnuysya.",
-    "en": "Don't worry."
+    "en": "Don't worry.",
+    "pl": "Nie martw się."
   },
   {
     "id": "a2-part-4-61",
     "ru": "Я волнуюсь за тебя.",
     "ruStressed": "Я волну́юсь за тебя́.",
     "translit": "Ya volnuyus' za tebya.",
-    "en": "I'm worried about you."
+    "en": "I'm worried about you.",
+    "pl": "Martwię się o ciebie."
   },
   {
     "id": "a2-part-4-62",
     "ru": "Всё будет хорошо.",
     "ruStressed": "Всё бу́дет хорошо́.",
     "translit": "Vsyo budet khorosho.",
-    "en": "Everything will be okay."
+    "en": "Everything will be okay.",
+    "pl": "Wszystko będzie dobrze."
   },
   {
     "id": "a2-part-4-63",
     "ru": "Я тебя понимаю.",
     "ruStressed": "Я тебя́ понима́ю.",
     "translit": "Ya tebya ponimayu.",
-    "en": "I understand you."
+    "en": "I understand you.",
+    "pl": "Rozumiem cię."
   },
   {
     "id": "a2-part-4-64",
     "ru": "Я скучаю по тебе.",
     "ruStressed": "Я скуча́ю по тебе́.",
     "translit": "Ya skuchayu po tebe.",
-    "en": "I miss you."
+    "en": "I miss you.",
+    "pl": "Tęsknię za tobą."
   },
   {
     "id": "a2-part-4-65",
     "ru": "Я люблю тебя.",
     "ruStressed": "Я люблю́ тебя́.",
     "translit": "Ya lyublyu tebya.",
-    "en": "I love you."
+    "en": "I love you.",
+    "pl": "Kocham cię."
   },
   {
     "id": "a2-part-4-66",
     "ru": "Я тебя обожаю.",
     "ruStressed": "Я тебя́ обожа́ю.",
     "translit": "Ya tebya obozhayu.",
-    "en": "I adore you."
+    "en": "I adore you.",
+    "pl": "Uwielbiam cię."
   },
   {
     "id": "a2-part-4-67",
     "ru": "Спасибо за всё.",
     "ruStressed": "Спаси́бо за всё.",
     "translit": "Spasibo za vsyo.",
-    "en": "Thanks for everything."
+    "en": "Thanks for everything.",
+    "pl": "Dzięki za wszystko."
   },
   {
     "id": "a2-part-4-68",
     "ru": "Я благодарен тебе.",
     "ruStressed": "Я благода́рен тебе́.",
     "translit": "Ya blagodaren tebe.",
-    "en": "I'm grateful to you."
+    "en": "I'm grateful to you.",
+    "pl": "Jestem ci wdzięczny."
   },
   {
     "id": "a2-part-4-69",
     "ru": "Прости меня.",
     "ruStressed": "Прости́ меня́.",
     "translit": "Prosti menya.",
-    "en": "Forgive me."
+    "en": "Forgive me.",
+    "pl": "Wybacz mi."
   },
   {
     "id": "a2-part-4-70",
     "ru": "Я виноват.",
     "ruStressed": "Я винова́т.",
     "translit": "Ya vinovat.",
-    "en": "It's my fault."
+    "en": "It's my fault.",
+    "pl": "To moja wina."
   },
   {
     "id": "a2-part-4-71",
     "ru": "Не сердись.",
     "ruStressed": "Не серди́сь.",
     "translit": "Ne serdis'.",
-    "en": "Don't be angry."
+    "en": "Don't be angry.",
+    "pl": "Nie gniewaj się."
   },
   {
     "id": "a2-part-4-72",
     "ru": "Я не сержусь.",
     "ruStressed": "Я не сержу́сь.",
     "translit": "Ya ne serzhus'.",
-    "en": "I'm not angry."
+    "en": "I'm not angry.",
+    "pl": "Nie gniewam się."
   },
   {
     "id": "a2-part-4-73",
     "ru": "Я разочарован.",
     "ruStressed": "Я разочаро́ван.",
     "translit": "Ya razocharovan.",
-    "en": "I'm disappointed."
+    "en": "I'm disappointed.",
+    "pl": "Jestem rozczarowany."
   },
   {
     "id": "a2-part-4-74",
     "ru": "Это меня раздражает.",
     "ruStressed": "Э́то меня́ раздража́ет.",
     "translit": "Eto menya razdrazhaet.",
-    "en": "This annoys me."
+    "en": "This annoys me.",
+    "pl": "To mnie irytuje."
   },
   {
     "id": "a2-part-4-75",
     "ru": "Я в шоке.",
     "ruStressed": "Я в шо́ке.",
     "translit": "Ya v shoke.",
-    "en": "I'm shocked."
+    "en": "I'm shocked.",
+    "pl": "Jestem w szoku."
   },
   {
     "id": "a2-part-4-76",
     "ru": "Не может быть!",
     "ruStressed": "Не мо́жет быть!",
     "translit": "Ne mozhet byt'!",
-    "en": "Can't be!"
+    "en": "Can't be!",
+    "pl": "To niemożliwe!"
   },
   {
     "id": "a2-part-4-77",
     "ru": "Я удивлён.",
     "ruStressed": "Я удивлён.",
     "translit": "Ya udivlyon.",
-    "en": "I'm surprised."
+    "en": "I'm surprised.",
+    "pl": "Jestem zaskoczony."
   },
   {
     "id": "a2-part-4-78",
     "ru": "Какой сюрприз!",
     "ruStressed": "Како́й сюрпри́з!",
     "translit": "Kakoy syurpriz!",
-    "en": "What a surprise!"
+    "en": "What a surprise!",
+    "pl": "Co za niespodzianka!"
   },
   {
     "id": "a2-part-4-79",
     "ru": "Я горжусь тобой.",
     "ruStressed": "Я горжу́сь тобо́й.",
     "translit": "Ya gorzhus' toboy.",
-    "en": "I'm proud of you."
+    "en": "I'm proud of you.",
+    "pl": "Jestem z ciebie dumny."
   },
   {
     "id": "a2-part-4-80",
     "ru": "Молодец!",
     "ruStressed": "Молоде́ц!",
     "translit": "Molodets!",
-    "en": "Well done!"
+    "en": "Well done!",
+    "pl": "Brawo!"
   },
   {
     "id": "a2-part-4-81",
     "ru": "Я завидую тебе.",
     "ruStressed": "Я зави́дую тебе́.",
     "translit": "Ya zaviduyu tebe.",
-    "en": "I envy you."
+    "en": "I envy you.",
+    "pl": "Zazdroszczę ci."
   },
   {
     "id": "a2-part-4-82",
     "ru": "Мне страшно.",
     "ruStressed": "Мне стра́шно.",
     "translit": "Mne strashno.",
-    "en": "I'm scared."
+    "en": "I'm scared.",
+    "pl": "Boję się."
   },
   {
     "id": "a2-part-4-83",
     "ru": "Не бойся.",
     "ruStressed": "Не бо́йся.",
     "translit": "Ne boysya.",
-    "en": "Don't be afraid."
+    "en": "Don't be afraid.",
+    "pl": "Nie bój się."
   },
   {
     "id": "a2-part-4-84",
     "ru": "Я нервничаю.",
     "ruStressed": "Я не́рвничаю.",
     "translit": "Ya nervnichayu.",
-    "en": "I'm nervous."
+    "en": "I'm nervous.",
+    "pl": "Denerwuję się."
   },
   {
     "id": "a2-part-4-85",
     "ru": "Успокойся, пожалуйста.",
     "ruStressed": "Успоко́йся, пожа́луйста.",
     "translit": "Uspokoysya, pozhaluysta.",
-    "en": "Calm down, please."
+    "en": "Calm down, please.",
+    "pl": "Uspokój się, proszę."
   },
   {
     "id": "a2-part-4-86",
     "ru": "Я в порядке.",
     "ruStressed": "Я в поря́дке.",
     "translit": "Ya v poryadke.",
-    "en": "I'm okay."
+    "en": "I'm okay.",
+    "pl": "Wszystko w porządku."
   },
   {
     "id": "a2-part-4-87",
     "ru": "Мне неудобно.",
     "ruStressed": "Мне неудо́бно.",
     "translit": "Mne neudobno.",
-    "en": "I feel uncomfortable."
+    "en": "I feel uncomfortable.",
+    "pl": "Czuję się nieswojo."
   },
   {
     "id": "a2-part-4-88",
     "ru": "Это смешно!",
     "ruStressed": "Э́то смешно́!",
     "translit": "Eto smeshno!",
-    "en": "That's funny!"
+    "en": "That's funny!",
+    "pl": "To zabawne!"
   },
   {
     "id": "a2-part-4-89",
     "ru": "Мне скучно.",
     "ruStressed": "Мне ску́чно.",
     "translit": "Mne skuchno.",
-    "en": "I'm bored."
+    "en": "I'm bored.",
+    "pl": "Nudzę się."
   },
   {
     "id": "a2-part-4-90",
     "ru": "Это интересно.",
     "ruStressed": "Э́то интере́сно.",
     "translit": "Eto interesno.",
-    "en": "That's interesting."
+    "en": "That's interesting.",
+    "pl": "To interesujące."
   },
   {
     "id": "a2-part-4-91",
     "ru": "Я в восторге.",
     "ruStressed": "Я в восто́рге.",
     "translit": "Ya v vostorge.",
-    "en": "I'm thrilled."
+    "en": "I'm thrilled.",
+    "pl": "Jestem zachwycony."
   },
   {
     "id": "a2-part-4-92",
     "ru": "Я разочарован результатом.",
     "ruStressed": "Я разочаро́ван результа́том.",
     "translit": "Ya razocharovan rezul'tatom.",
-    "en": "I'm disappointed with the result."
+    "en": "I'm disappointed with the result.",
+    "pl": "Jestem rozczarowany wynikiem."
   },
   {
     "id": "a2-part-4-93",
     "ru": "Мне всё равно.",
     "ruStressed": "Мне всё равно́.",
     "translit": "Mne vsyo ravno.",
-    "en": "I don't care."
+    "en": "I don't care.",
+    "pl": "Wszystko mi jedno."
   },
   {
     "id": "a2-part-4-94",
     "ru": "Я не знаю, что делать.",
     "ruStressed": "Я не зна́ю, что де́лать.",
     "translit": "Ya ne znayu, chto delat'.",
-    "en": "I don't know what to do."
+    "en": "I don't know what to do.",
+    "pl": "Nie wiem, co robić."
   },
   {
     "id": "a2-part-4-95",
     "ru": "Я сомневаюсь.",
     "ruStressed": "Я сомнева́юсь.",
     "translit": "Ya somnevayus'.",
-    "en": "I have doubts."
+    "en": "I have doubts.",
+    "pl": "Mam wątpliwości."
   },
   {
     "id": "a2-part-4-96",
     "ru": "Я уверен в этом.",
     "ruStressed": "Я уве́рен в э́том.",
     "translit": "Ya uveren v etom.",
-    "en": "I'm sure of that."
+    "en": "I'm sure of that.",
+    "pl": "Jestem tego pewien."
   },
   {
     "id": "a2-part-4-97",
     "ru": "Я не уверен.",
     "ruStressed": "Я не уве́рен.",
     "translit": "Ya ne uveren.",
-    "en": "I'm not sure."
+    "en": "I'm not sure.",
+    "pl": "Nie jestem pewien."
   },
   {
     "id": "a2-part-4-98",
     "ru": "Подумай хорошо.",
     "ruStressed": "Поду́май хорошо́.",
     "translit": "Podumay khorosho.",
-    "en": "Think it over well."
+    "en": "Think it over well.",
+    "pl": "Przemyśl to dobrze."
   },
   {
     "id": "a2-part-4-99",
     "ru": "Я подумаю.",
     "ruStressed": "Я поду́маю.",
     "translit": "Ya podumayu.",
-    "en": "I'll think about it."
+    "en": "I'll think about it.",
+    "pl": "Pomyślę o tym."
   },
   {
     "id": "a2-part-4-100",
     "ru": "Это сложный выбор.",
     "ruStressed": "Э́то сло́жный вы́бор.",
     "translit": "Eto slozhnyy vybor.",
-    "en": "It's a tough choice."
+    "en": "It's a tough choice.",
+    "pl": "To trudny wybór."
   },
   {
     "id": "a2-part-4-101",
     "ru": "Я надеюсь на лучшее.",
     "ruStressed": "Я наде́юсь на лу́чшее.",
     "translit": "Ya nadeyus' na luchshee.",
-    "en": "I hope for the best."
+    "en": "I hope for the best.",
+    "pl": "Mam nadzieję na najlepsze."
   },
   {
     "id": "a2-part-4-102",
     "ru": "Не теряй надежду.",
     "ruStressed": "Не теря́й наде́жду.",
     "translit": "Ne teryay nadezhdu.",
-    "en": "Don't lose hope."
+    "en": "Don't lose hope.",
+    "pl": "Nie trać nadziei."
   },
   {
     "id": "a2-part-4-103",
     "ru": "Я верю в тебя.",
     "ruStressed": "Я ве́рю в тебя́.",
     "translit": "Ya veryu v tebya.",
-    "en": "I believe in you."
+    "en": "I believe in you.",
+    "pl": "Wierzę w ciebie."
   },
   {
     "id": "a2-part-4-104",
     "ru": "Ты можешь это сделать.",
     "ruStressed": "Ты мо́жешь э́то сде́лать.",
     "translit": "Ty mozhesh' eto sdelat'.",
-    "en": "You can do this."
+    "en": "You can do this.",
+    "pl": "Dasz radę."
   },
   {
     "id": "a2-part-4-105",
     "ru": "Я готов.",
     "ruStressed": "Я гото́в.",
     "translit": "Ya gotov.",
-    "en": "I'm ready."
+    "en": "I'm ready.",
+    "pl": "Jestem gotowy."
   },
   {
     "id": "a2-part-4-106",
     "ru": "Я не готова.",
     "ruStressed": "Я не гото́ва.",
     "translit": "Ya ne gotova.",
-    "en": "I'm not ready."
+    "en": "I'm not ready.",
+    "pl": "Nie jestem gotowa."
   },
   {
     "id": "a2-part-4-107",
     "ru": "Я опаздываю.",
     "ruStressed": "Я опа́здываю.",
     "translit": "Ya opazdyvayu.",
-    "en": "I'm running late."
+    "en": "I'm running late.",
+    "pl": "Spóźnię się."
   },
   {
     "id": "a2-part-4-108",
     "ru": "Поторопись!",
     "ruStressed": "Поторопи́сь!",
     "translit": "Potoropis'!",
-    "en": "Hurry up!"
+    "en": "Hurry up!",
+    "pl": "Pospiesz się!"
   },
   {
     "id": "a2-part-4-109",
     "ru": "Я уже здесь.",
     "ruStressed": "Я уже́ здесь.",
     "translit": "Ya uzhe zdes'.",
-    "en": "I'm already here."
+    "en": "I'm already here.",
+    "pl": "Już tu jestem."
   },
   {
     "id": "a2-part-4-110",
     "ru": "Подожди минутку.",
     "ruStressed": "Подожди́ мину́тку.",
     "translit": "Podozhdi minutku.",
-    "en": "Wait a minute."
+    "en": "Wait a minute.",
+    "pl": "Zaczekaj chwilę."
   },
   {
     "id": "a2-part-4-111",
     "ru": "Я скоро приду.",
     "ruStressed": "Я ско́ро приду́.",
     "translit": "Ya skoro pridu.",
-    "en": "I'll be there soon."
+    "en": "I'll be there soon.",
+    "pl": "Zaraz będę."
   },
   {
     "id": "a2-part-4-112",
     "ru": "Куртка тёплая?",
     "ruStressed": "Ку́ртка тёплая?",
     "translit": "Kurtka tyoplaya?",
-    "en": "Is the jacket warm?"
+    "en": "Is the jacket warm?",
+    "pl": "Czy kurtka jest ciepła?"
   },
   {
     "id": "a2-part-4-113",
     "ru": "Эта куртка слишком тонкая.",
     "ruStressed": "Э́та ку́ртка сли́шком то́нкая.",
     "translit": "Eta kurtka slishkom tonkaya.",
-    "en": "This jacket is too thin."
+    "en": "This jacket is too thin.",
+    "pl": "Ta kurtka jest zbyt cienka."
   },
   {
     "id": "a2-part-4-114",
     "ru": "Надень что-нибудь потеплее.",
     "ruStressed": "Наде́нь что-нибу́дь потепле́е.",
     "translit": "Naden' chto-nibud' poteplee.",
-    "en": "Wear something warmer."
+    "en": "Wear something warmer.",
+    "pl": "Załóż coś cieplejszego."
   },
   {
     "id": "a2-part-4-115",
     "ru": "На мне свитер.",
     "ruStressed": "На мне сви́тер.",
     "translit": "Na mne sviter.",
-    "en": "I'm wearing a sweater."
+    "en": "I'm wearing a sweater.",
+    "pl": "Mam na sobie sweter."
   },
   {
     "id": "a2-part-4-116",
     "ru": "Я в футболке и шортах.",
     "ruStressed": "Я в футбо́лке и шо́ртах.",
     "translit": "Ya v futbolke i shortakh.",
-    "en": "I'm in a T-shirt and shorts."
+    "en": "I'm in a T-shirt and shorts.",
+    "pl": "Jestem w koszulce i szortach."
   },
   {
     "id": "a2-part-4-117",
     "ru": "Дома хожу в тапочках.",
     "ruStressed": "До́ма хожу́ в та́почках.",
     "translit": "Doma khozhu v tapochkakh.",
-    "en": "At home I wear slippers."
+    "en": "At home I wear slippers.",
+    "pl": "W domu chodzę w kapciach."
   },
   {
     "id": "a2-part-4-118",
     "ru": "Не забудь перчатки.",
     "ruStressed": "Не забу́дь перча́тки.",
     "translit": "Ne zabud' perchatki.",
-    "en": "Don't forget your gloves."
+    "en": "Don't forget your gloves.",
+    "pl": "Nie zapomnij rękawiczek."
   },
   {
     "id": "a2-part-4-119",
     "ru": "На улице гололёд.",
     "ruStressed": "На у́лице гололёд.",
     "translit": "Na ulitse gololyod.",
-    "en": "There's ice outside."
+    "en": "There's ice outside.",
+    "pl": "Na zewnątrz jest gołoledź."
   },
   {
     "id": "a2-part-4-120",
     "ru": "Будь осторожен, скользко.",
     "ruStressed": "Будь осторо́жен, ско́льзко.",
     "translit": "Bud' ostorozhen, skol'zko.",
-    "en": "Be careful, it's slippery."
+    "en": "Be careful, it's slippery.",
+    "pl": "Uważaj, jest ślisko."
   },
   {
     "id": "a2-part-4-121",
     "ru": "Я упал на льду.",
     "ruStressed": "Я упа́л на льду́.",
     "translit": "Ya upal na l'du.",
-    "en": "I fell on the ice."
+    "en": "I fell on the ice.",
+    "pl": "Przewróciłem się na lodzie."
   },
   {
     "id": "a2-part-4-122",
     "ru": "Тебе больно?",
     "ruStressed": "Тебе́ бо́льно?",
     "translit": "Tebe bol'no?",
-    "en": "Are you hurt?"
+    "en": "Are you hurt?",
+    "pl": "Boli cię?"
   },
   {
     "id": "a2-part-4-123",
     "ru": "Немного, но всё нормально.",
     "ruStressed": "Немно́го, но всё норма́льно.",
     "translit": "Nemnogo, no vsyo normal'no.",
-    "en": "A little, but everything's fine."
+    "en": "A little, but everything's fine.",
+    "pl": "Trochę, ale wszystko w porządku."
   },
   {
     "id": "a2-part-4-124",
     "ru": "Радуга после дождя!",
     "ruStressed": "Ра́дуга по́сле дождя́!",
     "translit": "Raduga posle dozhdya!",
-    "en": "A rainbow after the rain!"
+    "en": "A rainbow after the rain!",
+    "pl": "Tęcza po deszczu!"
   },
   {
     "id": "a2-part-4-125",
     "ru": "Это так красиво.",
     "ruStressed": "Э́то так краси́во.",
     "translit": "Eto tak krasivo.",
-    "en": "It's so beautiful."
+    "en": "It's so beautiful.",
+    "pl": "To jest takie piękne."
   },
   {
     "id": "a2-part-4-126",
     "ru": "Я просто счастлив быть здесь.",
     "ruStressed": "Я про́сто сча́стлив быть здесь.",
     "translit": "Ya prosto schastliv byt' zdes'.",
-    "en": "I'm just happy to be here."
+    "en": "I'm just happy to be here.",
+    "pl": "Po prostu cieszę się, że tu jestem."
   },
   {
     "id": "a2-part-4-127",
     "ru": "Мне холодно в этой комнате.",
     "ruStressed": "Мне хо́лодно в э́той ко́мнате.",
     "translit": "Mne kholodno v etoy komnate.",
-    "en": "I am cold in this room."
+    "en": "I am cold in this room.",
+    "pl": "Zimno mi w tym pokoju."
   },
   {
     "id": "a2-part-4-128",
     "ru": "Алексею жарко в куртке.",
     "ruStressed": "Алексе́ю жа́рко в ку́ртке.",
     "translit": "Alekseyu zharko v kurtke.",
-    "en": "Alex is hot in a jacket."
+    "en": "Alex is hot in a jacket.",
+    "pl": "Aleksowi jest gorąco w kurtce."
   },
   {
     "id": "a2-part-4-129",
     "ru": "Ей нравится эта рубашка.",
     "ruStressed": "Ей нра́вится э́та руба́шка.",
     "translit": "Ey nravitsya eta rubashka.",
-    "en": "She likes this shirt."
+    "en": "She likes this shirt.",
+    "pl": "Podoba jej się ta koszula."
   },
   {
     "id": "a2-part-4-130",
     "ru": "Тебе скучно дома?",
     "ruStressed": "Тебе́ ску́чно до́ма?",
     "translit": "Tebe skuchno doma?",
-    "en": "Are you bored at home?"
+    "en": "Are you bored at home?",
+    "pl": "Nudzisz się w domu?"
   },
   {
     "id": "a2-part-4-131",
     "ru": "Ребёнку страшно из-за собак.",
     "ruStressed": "Ребёнку стра́шно из-за соба́к.",
     "translit": "Rebyonku strashno iz-za sobak.",
-    "en": "The child is scared of dogs."
+    "en": "The child is scared of dogs.",
+    "pl": "Dziecko boi się psów."
   },
   {
     "id": "a2-part-4-132",
     "ru": "Нам сегодня очень грустно.",
     "ruStressed": "Нам сего́дня о́чень гру́стно.",
     "translit": "Nam segodnya ochen' grustno.",
-    "en": "We are very sad today."
+    "en": "We are very sad today.",
+    "pl": "Jest nam dzisiaj bardzo smutno."
   },
   {
     "id": "a2-part-4-133",
     "ru": "Надень тёплый шарф.",
     "ruStressed": "Наде́нь тёплый шарф.",
     "translit": "Naden' tyoplyy sharf.",
-    "en": "Put on a warm scarf."
+    "en": "Put on a warm scarf.",
+    "pl": "Załóż ciepły szalik."
   },
   {
     "id": "a2-part-4-134",
     "ru": "Эти сапоги очень удобные.",
     "ruStressed": "Э́ти сапоги́ о́чень удо́бные.",
     "translit": "Eti sapogi ochen' udobnye.",
-    "en": "These boots are very comfortable."
+    "en": "These boots are very comfortable.",
+    "pl": "Te buty są bardzo wygodne."
   },
   {
     "id": "a2-part-4-135",
     "ru": "У вас есть синее платье?",
     "ruStressed": "У вас есть си́нее пла́тье?",
     "translit": "U vas yest' sineye plat'ye.",
-    "en": "Do you have a dress in blue?"
+    "en": "Do you have a dress in blue?",
+    "pl": "Czy mają Państwo niebieską sukienkę? (formal)"
   },
   {
     "id": "a2-part-4-136",
     "ru": "Ярко светит солнце.",
     "ruStressed": "Я́рко све́тит со́лнце.",
     "translit": "Yarko svetit solntse.",
-    "en": "The sun is shining brightly."
+    "en": "The sun is shining brightly.",
+    "pl": "Słońce świeci jasno."
   },
   {
     "id": "a2-part-4-137",
     "ru": "Мне нужны новые перчатки.",
     "ruStressed": "Мне нужны́ но́вые перча́тки.",
     "translit": "Mne nuzhny novye perchatki.",
-    "en": "I need new gloves."
+    "en": "I need new gloves.",
+    "pl": "Potrzebuję nowych rękawiczek."
   },
   {
     "id": "a2-part-4-138",
     "ru": "Сколько стоят эти кроссовки?",
     "ruStressed": "Ско́лько сто́ят э́ти кроссо́вки?",
     "translit": "Skol'ko stoyat eti krossovki.",
-    "en": "How much do these sneakers cost?"
+    "en": "How much do these sneakers cost?",
+    "pl": "Ile kosztują te trampki?"
   },
   {
     "id": "a2-part-4-139",
     "ru": "Завтра будет облачно.",
     "ruStressed": "За́втра бу́дет о́блачно.",
     "translit": "Zavtra budet oblachno.",
-    "en": "It will be cloudy tomorrow."
+    "en": "It will be cloudy tomorrow.",
+    "pl": "Jutro będzie pochmurno."
   },
   {
     "id": "a2-part-4-140",
     "ru": "Она купила красивую юбку.",
     "ruStressed": "Она́ купи́ла краси́вую ю́бку.",
     "translit": "Ona kupila krasivuyu yubku.",
-    "en": "She bought a beautiful skirt."
+    "en": "She bought a beautiful skirt.",
+    "pl": "Kupiła piękną spódnicę."
   },
   {
     "id": "a2-part-4-141",
     "ru": "Брату интересен футбол.",
     "ruStressed": "Бра́ту интере́сен футбо́л.",
     "translit": "Bratu interesen futbol.",
-    "en": "My brother is interested in football."
+    "en": "My brother is interested in football.",
+    "pl": "Mój brat interesuje się piłką nożną."
   },
   {
     "id": "a2-part-4-142",
     "ru": "Вам здесь одиноко?",
     "ruStressed": "Вам здесь одино́ко?",
     "translit": "Vam zdes' odinoko.",
-    "en": "Are you lonely here?"
+    "en": "Are you lonely here?",
+    "pl": "Czy czują się Państwo tutaj samotni? (formal)"
   },
   {
     "id": "a2-part-4-143",
     "ru": "Мне трудно говорить.",
     "ruStressed": "Мне тру́дно говори́ть.",
     "translit": "Mne trudno govorit'.",
-    "en": "It's hard for me to talk."
+    "en": "It's hard for me to talk.",
+    "pl": "Trudno mi mówić."
   },
   {
     "id": "a2-part-4-144",
     "ru": "Лето будет жарким.",
     "ruStressed": "Ле́то бу́дет жа́рким.",
     "translit": "Leto budet zharkim.",
-    "en": "Summer will be hot."
+    "en": "Summer will be hot.",
+    "pl": "Lato będzie gorące."
   },
   {
     "id": "a2-part-4-145",
     "ru": "Сними мокрый свитер.",
     "ruStressed": "Сними́ мо́крый сви́тер.",
     "translit": "Snimi mokryy sviter.",
-    "en": "Take off your wet sweater."
+    "en": "Take off your wet sweater.",
+    "pl": "Zdejmij mokry sweter."
   },
   {
     "id": "a2-part-4-146",
     "ru": "Ему стыдно за свою ошибку.",
     "ruStressed": "Ему́ сты́дно за свою́ оши́бку.",
     "translit": "Yemu stydno za svoyu oshibku.",
-    "en": "He is ashamed of his mistake."
+    "en": "He is ashamed of his mistake.",
+    "pl": "Wstyd mu za swój błąd."
   },
   {
     "id": "a2-part-4-147",
     "ru": "Тебе нравится этот шарф?",
     "ruStressed": "Тебе́ нра́вится э́тот шарф?",
     "translit": "Tebe nravitsya etot sharf?",
-    "en": "Do you like this scarf?"
+    "en": "Do you like this scarf?",
+    "pl": "Podoba ci się ten szalik?"
   },
   {
     "id": "a2-part-4-148",
     "ru": "Ей скучно дома.",
     "ruStressed": "Ей ску́чно до́ма.",
     "translit": "Ey skuchno doma.",
-    "en": "She is bored at home."
+    "en": "She is bored at home.",
+    "pl": "Ona nudzi się w domu."
   },
   {
     "id": "a2-part-4-149",
     "ru": "Надень тёплую шапку.",
     "ruStressed": "Наде́нь тёплую ша́пку.",
     "translit": "Naden' tyopluyu shapku.",
-    "en": "Put on a warm hat."
+    "en": "Put on a warm hat.",
+    "pl": "Załóż ciepłą czapkę."
   },
   {
     "id": "a2-part-4-150",
     "ru": "Мне интересна твоя идея.",
     "ruStressed": "Мне интере́сна твоя́ иде́я.",
     "translit": "Mne interesna tvoya ideya.",
-    "en": "I am interested in your idea."
+    "en": "I am interested in your idea.",
+    "pl": "Interesuje mnie twój pomysł."
   }
 ]
