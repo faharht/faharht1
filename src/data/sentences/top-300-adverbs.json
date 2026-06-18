@@ -4,1120 +4,1280 @@
     "ru": "Он работает быстро.",
     "ruStressed": "Он рабо́тает бы́стро.",
     "translit": "On rabotaet bystro.",
-    "en": "He works quickly."
+    "en": "He works quickly.",
+    "pl": "On pracuje szybko."
   },
   {
     "id": "top-300-adverbs-2",
     "ru": "Он работает медленно.",
     "ruStressed": "Он рабо́тает ме́дленно.",
     "translit": "On rabotaet medlenno.",
-    "en": "He works slowly."
+    "en": "He works slowly.",
+    "pl": "On pracuje powoli."
   },
   {
     "id": "top-300-adverbs-3",
     "ru": "Он работает хорошо.",
     "ruStressed": "Он рабо́тает хорошо́.",
     "translit": "On rabotaet khorosho.",
-    "en": "He works well."
+    "en": "He works well.",
+    "pl": "On pracuje dobrze."
   },
   {
     "id": "top-300-adverbs-4",
     "ru": "Он работает плохо.",
     "ruStressed": "Он рабо́тает пло́хо.",
     "translit": "On rabotaet plokho.",
-    "en": "He works poorly."
+    "en": "He works poorly.",
+    "pl": "On pracuje źle."
   },
   {
     "id": "top-300-adverbs-5",
     "ru": "Она говорит тихо.",
     "ruStressed": "Она́ говори́т ти́хо.",
     "translit": "Ona govorit tikho.",
-    "en": "She speaks quietly."
+    "en": "She speaks quietly.",
+    "pl": "Ona mówi cicho."
   },
   {
     "id": "top-300-adverbs-6",
     "ru": "Она говорит громко.",
     "ruStressed": "Она́ говори́т гро́мко.",
     "translit": "Ona govorit gromko.",
-    "en": "She speaks loudly."
+    "en": "She speaks loudly.",
+    "pl": "Ona mówi głośno."
   },
   {
     "id": "top-300-adverbs-7",
     "ru": "Она говорит чётко.",
     "ruStressed": "Она́ говори́т чётко.",
     "translit": "Ona govorit chyotko.",
-    "en": "She speaks clearly."
+    "en": "She speaks clearly.",
+    "pl": "Ona mówi wyraźnie."
   },
   {
     "id": "top-300-adverbs-8",
     "ru": "Она говорит ясно.",
     "ruStressed": "Она́ говори́т я́сно.",
     "translit": "Ona govorit yasno.",
-    "en": "She speaks clearly."
+    "en": "She speaks clearly.",
+    "pl": "Ona mówi jasno."
   },
   {
     "id": "top-300-adverbs-9",
     "ru": "Они приходят часто.",
     "ruStressed": "Они́ прихо́дят ча́сто.",
     "translit": "Oni prikhodyat chasto.",
-    "en": "They come often."
+    "en": "They come often.",
+    "pl": "Oni przychodzą często."
   },
   {
     "id": "top-300-adverbs-10",
     "ru": "Они приходят редко.",
     "ruStressed": "Они́ прихо́дят ре́дко.",
     "translit": "Oni prikhodyat redko.",
-    "en": "They come rarely."
+    "en": "They come rarely.",
+    "pl": "Oni przychodzą rzadko."
   },
   {
     "id": "top-300-adverbs-11",
     "ru": "Они приходят иногда.",
     "ruStressed": "Они́ прихо́дят иногда́.",
     "translit": "Oni prikhodyat inogda.",
-    "en": "They come sometimes."
+    "en": "They come sometimes.",
+    "pl": "Oni przychodzą czasami."
   },
   {
     "id": "top-300-adverbs-12",
     "ru": "Они приходят всегда.",
     "ruStressed": "Они́ прихо́дят всегда́.",
     "translit": "Oni prikhodyat vsegda.",
-    "en": "They come always."
+    "en": "They come always.",
+    "pl": "Oni przychodzą zawsze."
   },
   {
     "id": "top-300-adverbs-13",
     "ru": "Они приходят никогда.",
     "ruStressed": "Они́ прихо́дят никогда́.",
     "translit": "Oni prikhodyat nikogda.",
-    "en": "They come never."
+    "en": "They come never.",
+    "pl": "Oni nigdy nie przychodzą."
   },
   {
     "id": "top-300-adverbs-14",
     "ru": "Сегодня я был дома.",
     "ruStressed": "Сего́дня я был до́ма.",
     "translit": "Segodnya ya byl doma.",
-    "en": "Today I was at home."
+    "en": "Today I was at home.",
+    "pl": "Dzisiaj byłem w domu."
   },
   {
     "id": "top-300-adverbs-15",
     "ru": "Вчера я был дома.",
     "ruStressed": "Вчера́ я был до́ма.",
     "translit": "Vchera ya byl doma.",
-    "en": "Yesterday I was at home."
+    "en": "Yesterday I was at home.",
+    "pl": "Wczoraj byłem w domu."
   },
   {
     "id": "top-300-adverbs-16",
     "ru": "Завтра мы заняты.",
     "ruStressed": "За́втра мы за́няты.",
     "translit": "Zavtra my zanyaty.",
-    "en": "Tomorrow we are busy."
+    "en": "Tomorrow we are busy.",
+    "pl": "Jutro jesteśmy zajęci."
   },
   {
     "id": "top-300-adverbs-17",
     "ru": "Сейчас мы заняты.",
     "ruStressed": "Сейча́с мы за́няты.",
     "translit": "Seychas my zanyaty.",
-    "en": "Now we are busy."
+    "en": "Now we are busy.",
+    "pl": "Teraz jesteśmy zajęci."
   },
   {
     "id": "top-300-adverbs-18",
     "ru": "Потом мы заняты.",
     "ruStressed": "Пото́м мы за́няты.",
     "translit": "Potom my zanyaty.",
-    "en": "Later we are busy."
+    "en": "Later we are busy.",
+    "pl": "Potem jesteśmy zajęci."
   },
   {
     "id": "top-300-adverbs-19",
     "ru": "Они приходят рано.",
     "ruStressed": "Они́ прихо́дят ра́но.",
     "translit": "Oni prikhodyat rano.",
-    "en": "They come early."
+    "en": "They come early.",
+    "pl": "Oni przychodzą wcześnie."
   },
   {
     "id": "top-300-adverbs-20",
     "ru": "Они приходят поздно.",
     "ruStressed": "Они́ прихо́дят по́здно.",
     "translit": "Oni prikhodyat pozdno.",
-    "en": "They come late."
+    "en": "They come late.",
+    "pl": "Oni przychodzą późno."
   },
   {
     "id": "top-300-adverbs-21",
     "ru": "Уже мы заняты.",
     "ruStressed": "Уже́ мы за́няты.",
     "translit": "Uzhe my zanyaty.",
-    "en": "Already we are busy."
+    "en": "Already we are busy.",
+    "pl": "Już jesteśmy zajęci."
   },
   {
     "id": "top-300-adverbs-22",
     "ru": "Ещё мы заняты.",
     "ruStressed": "Ещё мы за́няты.",
     "translit": "Eshchyo my zanyaty.",
-    "en": "Still we are busy."
+    "en": "Still we are busy.",
+    "pl": "Jeszcze jesteśmy zajęci."
   },
   {
     "id": "top-300-adverbs-23",
     "ru": "Скоро мы заняты.",
     "ruStressed": "Ско́ро мы за́няты.",
     "translit": "Skoro my zanyaty.",
-    "en": "Soon we are busy."
+    "en": "Soon we are busy.",
+    "pl": "Wkrótce będziemy zajęci."
   },
   {
     "id": "top-300-adverbs-24",
     "ru": "Давно я был дома.",
     "ruStressed": "Давно́ я был до́ма.",
     "translit": "Davno ya byl doma.",
-    "en": "Long ago I was at home."
+    "en": "Long ago I was at home.",
+    "pl": "Dawno temu byłem w domu."
   },
   {
     "id": "top-300-adverbs-25",
     "ru": "Недавно я был дома.",
     "ruStressed": "Неда́вно я был до́ма.",
     "translit": "Nedavno ya byl doma.",
-    "en": "Recently I was at home."
+    "en": "Recently I was at home.",
+    "pl": "Niedawno byłem w domu."
   },
   {
     "id": "top-300-adverbs-26",
     "ru": "Книга лежит здесь.",
     "ruStressed": "Кни́га лежи́т здесь.",
     "translit": "Kniga lezhit zdes.",
-    "en": "The book lies here."
+    "en": "The book lies here.",
+    "pl": "Książka leży tutaj."
   },
   {
     "id": "top-300-adverbs-27",
     "ru": "Книга лежит там.",
     "ruStressed": "Кни́га лежи́т там.",
     "translit": "Kniga lezhit tam.",
-    "en": "The book lies there."
+    "en": "The book lies there.",
+    "pl": "Książka leży tam."
   },
   {
     "id": "top-300-adverbs-28",
     "ru": "Книга лежит везде.",
     "ruStressed": "Кни́га лежи́т везде́.",
     "translit": "Kniga lezhit vezde.",
-    "en": "The book lies everywhere."
+    "en": "The book lies everywhere.",
+    "pl": "Książka leży wszędzie."
   },
   {
     "id": "top-300-adverbs-29",
     "ru": "Книга лежит нигде.",
     "ruStressed": "Кни́га лежи́т нигде́.",
     "translit": "Kniga lezhit nigde.",
-    "en": "The book lies nowhere."
+    "en": "The book lies nowhere.",
+    "pl": "Książka nigdzie nie leży."
   },
   {
     "id": "top-300-adverbs-30",
     "ru": "Книга лежит дома.",
     "ruStressed": "Кни́га лежи́т до́ма.",
     "translit": "Kniga lezhit doma.",
-    "en": "The book lies at home."
+    "en": "The book lies at home.",
+    "pl": "Książka leży w domu."
   },
   {
     "id": "top-300-adverbs-31",
     "ru": "Книга лежит снаружи.",
     "ruStressed": "Кни́га лежи́т снару́жи.",
     "translit": "Kniga lezhit snaruzhi.",
-    "en": "The book lies outside."
+    "en": "The book lies outside.",
+    "pl": "Książka leży na zewnątrz."
   },
   {
     "id": "top-300-adverbs-32",
     "ru": "Книга лежит внутри.",
     "ruStressed": "Кни́га лежи́т внутри́.",
     "translit": "Kniga lezhit vnutri.",
-    "en": "The book lies inside."
+    "en": "The book lies inside.",
+    "pl": "Książka leży wewnątrz."
   },
   {
     "id": "top-300-adverbs-33",
     "ru": "Книга лежит наверху.",
     "ruStressed": "Кни́га лежи́т наверху́.",
     "translit": "Kniga lezhit naverkhu.",
-    "en": "The book lies above."
+    "en": "The book lies above.",
+    "pl": "Książka leży na górze."
   },
   {
     "id": "top-300-adverbs-34",
     "ru": "Книга лежит внизу.",
     "ruStressed": "Кни́га лежи́т внизу́.",
     "translit": "Kniga lezhit vnizu.",
-    "en": "The book lies below."
+    "en": "The book lies below.",
+    "pl": "Książka leży na dole."
   },
   {
     "id": "top-300-adverbs-35",
     "ru": "Книга лежит впереди.",
     "ruStressed": "Кни́га лежи́т впереди́.",
     "translit": "Kniga lezhit vperedi.",
-    "en": "The book lies ahead."
+    "en": "The book lies ahead.",
+    "pl": "Książka leży z przodu."
   },
   {
     "id": "top-300-adverbs-36",
     "ru": "Книга лежит сзади.",
     "ruStressed": "Кни́га лежи́т сза́ди.",
     "translit": "Kniga lezhit szadi.",
-    "en": "The book lies behind."
+    "en": "The book lies behind.",
+    "pl": "Książka leży z tyłu."
   },
   {
     "id": "top-300-adverbs-37",
     "ru": "Книга лежит слева.",
     "ruStressed": "Кни́га лежи́т сле́ва.",
     "translit": "Kniga lezhit sleva.",
-    "en": "The book lies on the left."
+    "en": "The book lies on the left.",
+    "pl": "Książka leży po lewej."
   },
   {
     "id": "top-300-adverbs-38",
     "ru": "Книга лежит справа.",
     "ruStressed": "Кни́га лежи́т спра́ва.",
     "translit": "Kniga lezhit sprava.",
-    "en": "The book lies on the right."
+    "en": "The book lies on the right.",
+    "pl": "Książka leży po prawej."
   },
   {
     "id": "top-300-adverbs-39",
     "ru": "Мне очень холодно.",
     "ruStressed": "Мне о́чень хо́лодно.",
     "translit": "Mne ochen kholodno.",
-    "en": "I feel very cold."
+    "en": "I feel very cold.",
+    "pl": "Jest mi bardzo zimno."
   },
   {
     "id": "top-300-adverbs-40",
     "ru": "Мне слишком холодно.",
     "ruStressed": "Мне сли́шком хо́лодно.",
     "translit": "Mne slishkom kholodno.",
-    "en": "I feel too cold."
+    "en": "I feel too cold.",
+    "pl": "Jest mi zbyt zimno."
   },
   {
     "id": "top-300-adverbs-41",
     "ru": "Мне немного холодно.",
     "ruStressed": "Мне немно́го хо́лодно.",
     "translit": "Mne nemnogo kholodno.",
-    "en": "I feel a little cold."
+    "en": "I feel a little cold.",
+    "pl": "Jest mi trochę zimno."
   },
   {
     "id": "top-300-adverbs-42",
     "ru": "Мне совсем холодно.",
     "ruStressed": "Мне совсе́м хо́лодно.",
     "translit": "Mne sovsem kholodno.",
-    "en": "I feel completely cold."
+    "en": "I feel completely cold.",
+    "pl": "Jest mi zupełnie zimno."
   },
   {
     "id": "top-300-adverbs-43",
     "ru": "Мне почти холодно.",
     "ruStressed": "Мне почти́ хо́лодно.",
     "translit": "Mne pochti kholodno.",
-    "en": "I feel almost cold."
+    "en": "I feel almost cold.",
+    "pl": "Jest mi prawie zimno."
   },
   {
     "id": "top-300-adverbs-44",
     "ru": "Она говорит точно.",
     "ruStressed": "Она́ говори́т то́чно.",
     "translit": "Ona govorit tochno.",
-    "en": "She speaks exactly."
+    "en": "She speaks exactly.",
+    "pl": "Ona mówi precyzyjnie."
   },
   {
     "id": "top-300-adverbs-45",
     "ru": "Она говорит неточно.",
     "ruStressed": "Она́ говори́т нето́чно.",
     "translit": "Ona govorit netochno.",
-    "en": "She speaks inexactly."
+    "en": "She speaks inexactly.",
+    "pl": "Ona mówi niedokładnie."
   },
   {
     "id": "top-300-adverbs-46",
     "ru": "Я делаю это правильно.",
     "ruStressed": "Я де́лаю э́то пра́вильно.",
     "translit": "Ya delayu eto pravilno.",
-    "en": "I do this correctly."
+    "en": "I do this correctly.",
+    "pl": "Robię to poprawnie."
   },
   {
     "id": "top-300-adverbs-47",
     "ru": "Я делаю это неправильно.",
     "ruStressed": "Я де́лаю э́то непра́вильно.",
     "translit": "Ya delayu eto nepravilno.",
-    "en": "I do this incorrectly."
+    "en": "I do this incorrectly.",
+    "pl": "Robię to niepoprawnie."
   },
   {
     "id": "top-300-adverbs-48",
     "ru": "Я делаю это осторожно.",
     "ruStressed": "Я де́лаю э́то осторо́жно.",
     "translit": "Ya delayu eto ostorozhno.",
-    "en": "I do this carefully."
+    "en": "I do this carefully.",
+    "pl": "Robię to ostrożnie."
   },
   {
     "id": "top-300-adverbs-49",
     "ru": "Я делаю это аккуратно.",
     "ruStressed": "Я де́лаю э́то аккура́тно.",
     "translit": "Ya delayu eto akkuratno.",
-    "en": "I do this neatly."
+    "en": "I do this neatly.",
+    "pl": "Robię to starannie."
   },
   {
     "id": "top-300-adverbs-50",
     "ru": "Он работает вместе.",
     "ruStressed": "Он рабо́тает вме́сте.",
     "translit": "On rabotaet vmeste.",
-    "en": "He works together."
+    "en": "He works together.",
+    "pl": "On pracuje razem."
   },
   {
     "id": "top-300-adverbs-51",
     "ru": "Он работает отдельно.",
     "ruStressed": "Он рабо́тает отде́льно.",
     "translit": "On rabotaet otdelno.",
-    "en": "He works separately."
+    "en": "He works separately.",
+    "pl": "On pracuje osobno."
   },
   {
     "id": "top-300-adverbs-52",
     "ru": "Мне одиноко холодно.",
     "ruStressed": "Мне одино́ко хо́лодно.",
     "translit": "Mne odinoko kholodno.",
-    "en": "I feel lonely cold."
+    "en": "I feel lonely cold.",
+    "pl": "Jest mi samotnie zimno."
   },
   {
     "id": "top-300-adverbs-53",
     "ru": "Она говорит свободно.",
     "ruStressed": "Она́ говори́т свобо́дно.",
     "translit": "Ona govorit svobodno.",
-    "en": "She speaks freely."
+    "en": "She speaks freely.",
+    "pl": "Ona mówi swobodnie."
   },
   {
     "id": "top-300-adverbs-54",
     "ru": "Она говорит серьёзно.",
     "ruStressed": "Она́ говори́т серьёзно.",
     "translit": "Ona govorit seryozno.",
-    "en": "She speaks seriously."
+    "en": "She speaks seriously.",
+    "pl": "Ona mówi poważnie."
   },
   {
     "id": "top-300-adverbs-55",
     "ru": "Она говорит шутя.",
     "ruStressed": "Она́ говори́т шутя́.",
     "translit": "Ona govorit shutya.",
-    "en": "She speaks jokingly."
+    "en": "She speaks jokingly.",
+    "pl": "Ona mówi żartem."
   },
   {
     "id": "top-300-adverbs-56",
     "ru": "Она говорит честно.",
     "ruStressed": "Она́ говори́т че́стно.",
     "translit": "Ona govorit chestno.",
-    "en": "She speaks honestly."
+    "en": "She speaks honestly.",
+    "pl": "Ona mówi szczerze."
   },
   {
     "id": "top-300-adverbs-57",
     "ru": "Она говорит открыто.",
     "ruStressed": "Она́ говори́т откры́то.",
     "translit": "Ona govorit otkryto.",
-    "en": "She speaks openly."
+    "en": "She speaks openly.",
+    "pl": "Ona mówi otwarcie."
   },
   {
     "id": "top-300-adverbs-58",
     "ru": "Я делаю это тайно.",
     "ruStressed": "Я де́лаю э́то та́йно.",
     "translit": "Ya delayu eto tayno.",
-    "en": "I do this secretly."
+    "en": "I do this secretly.",
+    "pl": "Robię to potajemnie."
   },
   {
     "id": "top-300-adverbs-59",
     "ru": "Она говорит вежливо.",
     "ruStressed": "Она́ говори́т ве́жливо.",
     "translit": "Ona govorit vezhlivo.",
-    "en": "She speaks politely."
+    "en": "She speaks politely.",
+    "pl": "Ona mówi uprzejmie."
   },
   {
     "id": "top-300-adverbs-60",
     "ru": "Она говорит грубо.",
     "ruStressed": "Она́ говори́т гру́бо.",
     "translit": "Ona govorit grubo.",
-    "en": "She speaks rudely."
+    "en": "She speaks rudely.",
+    "pl": "Ona mówi niegrzecznie."
   },
   {
     "id": "top-300-adverbs-61",
     "ru": "Она говорит ласково.",
     "ruStressed": "Она́ говори́т ла́сково.",
     "translit": "Ona govorit laskovo.",
-    "en": "She speaks tenderly."
+    "en": "She speaks tenderly.",
+    "pl": "Ona mówi czule."
   },
   {
     "id": "top-300-adverbs-62",
     "ru": "Она говорит строго.",
     "ruStressed": "Она́ говори́т стро́го.",
     "translit": "Ona govorit strogo.",
-    "en": "She speaks strictly."
+    "en": "She speaks strictly.",
+    "pl": "Ona mówi surowo."
   },
   {
     "id": "top-300-adverbs-63",
     "ru": "Она говорит спокойно.",
     "ruStressed": "Она́ говори́т споко́йно.",
     "translit": "Ona govorit spokoyno.",
-    "en": "She speaks calmly."
+    "en": "She speaks calmly.",
+    "pl": "Ona mówi spokojnie."
   },
   {
     "id": "top-300-adverbs-64",
     "ru": "Она говорит нервно.",
     "ruStressed": "Она́ говори́т не́рвно.",
     "translit": "Ona govorit nervno.",
-    "en": "She speaks nervously."
+    "en": "She speaks nervously.",
+    "pl": "Ona mówi nerwowo."
   },
   {
     "id": "top-300-adverbs-65",
     "ru": "Она говорит уверенно.",
     "ruStressed": "Она́ говори́т уве́ренно.",
     "translit": "Ona govorit uverenno.",
-    "en": "She speaks confidently."
+    "en": "She speaks confidently.",
+    "pl": "Ona mówi pewnie."
   },
   {
     "id": "top-300-adverbs-66",
     "ru": "Она говорит сомнительно.",
     "ruStressed": "Она́ говори́т сомни́тельно.",
     "translit": "Ona govorit somnitelno.",
-    "en": "She speaks doubtfully."
+    "en": "She speaks doubtfully.",
+    "pl": "Ona mówi z wątpieniem."
   },
   {
     "id": "top-300-adverbs-67",
     "ru": "Он работает охотно.",
     "ruStressed": "Он рабо́тает охо́тно.",
     "translit": "On rabotaet okhotno.",
-    "en": "He works willingly."
+    "en": "He works willingly.",
+    "pl": "On pracuje chętnie."
   },
   {
     "id": "top-300-adverbs-68",
     "ru": "Он работает неохотно.",
     "ruStressed": "Он рабо́тает неохо́тно.",
     "translit": "On rabotaet neokhotno.",
-    "en": "He works unwillingly."
+    "en": "He works unwillingly.",
+    "pl": "On pracuje niechętnie."
   },
   {
     "id": "top-300-adverbs-69",
     "ru": "Я делаю это легко.",
     "ruStressed": "Я де́лаю э́то легко́.",
     "translit": "Ya delayu eto legko.",
-    "en": "I do this easily."
+    "en": "I do this easily.",
+    "pl": "Robię to łatwo."
   },
   {
     "id": "top-300-adverbs-70",
     "ru": "Я делаю это трудно.",
     "ruStressed": "Я де́лаю э́то тру́дно.",
     "translit": "Ya delayu eto trudno.",
-    "en": "I do this with difficulty."
+    "en": "I do this with difficulty.",
+    "pl": "Robię to z trudem."
   },
   {
     "id": "top-300-adverbs-71",
     "ru": "Он работает успешно.",
     "ruStressed": "Он рабо́тает успе́шно.",
     "translit": "On rabotaet uspeshno.",
-    "en": "He works successfully."
+    "en": "He works successfully.",
+    "pl": "On pracuje z sukcesem."
   },
   {
     "id": "top-300-adverbs-72",
     "ru": "Он работает неудачно.",
     "ruStressed": "Он рабо́тает неуда́чно.",
     "translit": "On rabotaet neudachno.",
-    "en": "He works unsuccessfully."
+    "en": "He works unsuccessfully.",
+    "pl": "On pracuje bez powodzenia."
   },
   {
     "id": "top-300-adverbs-73",
     "ru": "Я делаю это красиво.",
     "ruStressed": "Я де́лаю э́то краси́во.",
     "translit": "Ya delayu eto krasivo.",
-    "en": "I do this beautifully."
+    "en": "I do this beautifully.",
+    "pl": "Robię to pięknie."
   },
   {
     "id": "top-300-adverbs-74",
     "ru": "Мне ужасно холодно.",
     "ruStressed": "Мне ужа́сно хо́лодно.",
     "translit": "Mne uzhasno kholodno.",
-    "en": "I feel terribly cold."
+    "en": "I feel terribly cold.",
+    "pl": "Jest mi strasznie zimno."
   },
   {
     "id": "top-300-adverbs-75",
     "ru": "Мне прекрасно холодно.",
     "ruStressed": "Мне прекра́сно хо́лодно.",
     "translit": "Mne prekrasno kholodno.",
-    "en": "I feel wonderfully cold."
+    "en": "I feel wonderfully cold.",
+    "pl": "Jest mi cudownie zimno."
   },
   {
     "id": "top-300-adverbs-76",
     "ru": "Она говорит странно.",
     "ruStressed": "Она́ говори́т стра́нно.",
     "translit": "Ona govorit stranno.",
-    "en": "She speaks strangely."
+    "en": "She speaks strangely.",
+    "pl": "Ona mówi dziwnie."
   },
   {
     "id": "top-300-adverbs-77",
     "ru": "Они приходят обычно.",
     "ruStressed": "Они́ прихо́дят обы́чно.",
     "translit": "Oni prikhodyat obychno.",
-    "en": "They come usually."
+    "en": "They come usually.",
+    "pl": "Oni przychodzą zazwyczaj."
   },
   {
     "id": "top-300-adverbs-78",
     "ru": "Она говорит необычно.",
     "ruStressed": "Она́ говори́т необы́чно.",
     "translit": "Ona govorit neobychno.",
-    "en": "She speaks unusually."
+    "en": "She speaks unusually.",
+    "pl": "Ona mówi niezwykle."
   },
   {
     "id": "top-300-adverbs-79",
     "ru": "Я делаю это просто.",
     "ruStressed": "Я де́лаю э́то про́сто.",
     "translit": "Ya delayu eto prosto.",
-    "en": "I do this simply."
+    "en": "I do this simply.",
+    "pl": "Robię to prosto."
   },
   {
     "id": "top-300-adverbs-80",
     "ru": "Я делаю это сложно.",
     "ruStressed": "Я де́лаю э́то сло́жно.",
     "translit": "Ya delayu eto slozhno.",
-    "en": "I do this complicatedly."
+    "en": "I do this complicatedly.",
+    "pl": "Robię to w sposób skomplikowany."
   },
   {
     "id": "top-300-adverbs-81",
     "ru": "Она говорит важно.",
     "ruStressed": "Она́ говори́т ва́жно.",
     "translit": "Ona govorit vazhno.",
-    "en": "She speaks importantly."
+    "en": "She speaks importantly.",
+    "pl": "Ona mówi z powagą."
   },
   {
     "id": "top-300-adverbs-82",
     "ru": "Она говорит прямо.",
     "ruStressed": "Она́ говори́т пря́мо.",
     "translit": "Ona govorit pryamo.",
-    "en": "She speaks straight."
+    "en": "She speaks straight.",
+    "pl": "Ona mówi wprost."
   },
   {
     "id": "top-300-adverbs-83",
     "ru": "Она говорит косвенно.",
     "ruStressed": "Она́ говори́т ко́свенно.",
     "translit": "Ona govorit kosvenno.",
-    "en": "She speaks indirectly."
+    "en": "She speaks indirectly.",
+    "pl": "Ona mówi okrężnie."
   },
   {
     "id": "top-300-adverbs-84",
     "ru": "Я делаю это полностью.",
     "ruStressed": "Я де́лаю э́то по́лностью.",
     "translit": "Ya delayu eto polnostyu.",
-    "en": "I do this completely."
+    "en": "I do this completely.",
+    "pl": "Robię to całkowicie."
   },
   {
     "id": "top-300-adverbs-85",
     "ru": "Я делаю это частично.",
     "ruStressed": "Я де́лаю э́то части́чно.",
     "translit": "Ya delayu eto chastichno.",
-    "en": "I do this partially."
+    "en": "I do this partially.",
+    "pl": "Robię to częściowo."
   },
   {
     "id": "top-300-adverbs-86",
     "ru": "Мне абсолютно холодно.",
     "ruStressed": "Мне абсолю́тно хо́лодно.",
     "translit": "Mne absolyutno kholodno.",
-    "en": "I feel absolutely cold."
+    "en": "I feel absolutely cold.",
+    "pl": "Jest mi absolutnie zimno."
   },
   {
     "id": "top-300-adverbs-87",
     "ru": "Она говорит относительно.",
     "ruStressed": "Она́ говори́т относи́тельно.",
     "translit": "Ona govorit otnositelno.",
-    "en": "She speaks relatively."
+    "en": "She speaks relatively.",
+    "pl": "Ona mówi relatywnie."
   },
   {
     "id": "top-300-adverbs-88",
     "ru": "Они приходят обязательно.",
     "ruStressed": "Они́ прихо́дят обяза́тельно.",
     "translit": "Oni prikhodyat obyazatelno.",
-    "en": "They come definitely."
+    "en": "They come definitely.",
+    "pl": "Oni przychodzą na pewno."
   },
   {
     "id": "top-300-adverbs-89",
     "ru": "Они приходят возможно.",
     "ruStressed": "Они́ прихо́дят возмо́жно.",
     "translit": "Oni prikhodyat vozmozhno.",
-    "en": "They come possibly."
+    "en": "They come possibly.",
+    "pl": "Oni przychodzą być może."
   },
   {
     "id": "top-300-adverbs-90",
     "ru": "Они приходят вероятно.",
     "ruStressed": "Они́ прихо́дят вероя́тно.",
     "translit": "Oni prikhodyat veroyatno.",
-    "en": "They come probably."
+    "en": "They come probably.",
+    "pl": "Oni przychodzą prawdopodobnie."
   },
   {
     "id": "top-300-adverbs-91",
     "ru": "Она говорит естественно.",
     "ruStressed": "Она́ говори́т есте́ственно.",
     "translit": "Ona govorit estestvenno.",
-    "en": "She speaks naturally."
+    "en": "She speaks naturally.",
+    "pl": "Ona mówi naturalnie."
   },
   {
     "id": "top-300-adverbs-92",
     "ru": "Они приходят неожиданно.",
     "ruStressed": "Они́ прихо́дят неожи́данно.",
     "translit": "Oni prikhodyat neozhidanno.",
-    "en": "They come unexpectedly."
+    "en": "They come unexpectedly.",
+    "pl": "Oni przychodzą nieoczekiwanie."
   },
   {
     "id": "top-300-adverbs-93",
     "ru": "Они приходят случайно.",
     "ruStressed": "Они́ прихо́дят случа́йно.",
     "translit": "Oni prikhodyat sluchayno.",
-    "en": "They come by chance."
+    "en": "They come by chance.",
+    "pl": "Oni przychodzą przypadkiem."
   },
   {
     "id": "top-300-adverbs-94",
     "ru": "Я делаю это специально.",
     "ruStressed": "Я де́лаю э́то специа́льно.",
     "translit": "Ya delayu eto spetsialno.",
-    "en": "I do this specially."
+    "en": "I do this specially.",
+    "pl": "Robię to specjalnie."
   },
   {
     "id": "top-300-adverbs-95",
     "ru": "Я делаю это нарочно.",
     "ruStressed": "Я де́лаю э́то наро́чно.",
     "translit": "Ya delayu eto narochno.",
-    "en": "I do this on purpose."
+    "en": "I do this on purpose.",
+    "pl": "Robię to umyślnie."
   },
   {
     "id": "top-300-adverbs-96",
     "ru": "Он работает вдвоём.",
     "ruStressed": "Он рабо́тает вдвоём.",
     "translit": "On rabotaet vdvoyom.",
-    "en": "He works as a pair."
+    "en": "He works as a pair.",
+    "pl": "On pracuje w parze."
   },
   {
     "id": "top-300-adverbs-97",
     "ru": "Они приходят вместе.",
     "ruStressed": "Они́ прихо́дят вме́сте.",
     "translit": "Oni prikhodyat vmeste.",
-    "en": "They come together."
+    "en": "They come together.",
+    "pl": "Oni przychodzą razem."
   },
   {
     "id": "top-300-adverbs-98",
     "ru": "Они приходят отдельно.",
     "ruStressed": "Они́ прихо́дят отде́льно.",
     "translit": "Oni prikhodyat otdelno.",
-    "en": "They come separately."
+    "en": "They come separately.",
+    "pl": "Oni przychodzą osobno."
   },
   {
     "id": "top-300-adverbs-99",
     "ru": "Они приходят вдруг.",
     "ruStressed": "Они́ прихо́дят вдруг.",
     "translit": "Oni prikhodyat vdrug.",
-    "en": "They come suddenly."
+    "en": "They come suddenly.",
+    "pl": "Oni przychodzą nagle."
   },
   {
     "id": "top-300-adverbs-100",
     "ru": "Я делаю это постепенно.",
     "ruStressed": "Я де́лаю э́то постепе́нно.",
     "translit": "Ya delayu eto postepenno.",
-    "en": "I do this gradually."
+    "en": "I do this gradually.",
+    "pl": "Robię to stopniowo."
   },
   {
     "id": "top-300-adverbs-101",
     "ru": "Он работает долго.",
     "ruStressed": "Он рабо́тает до́лго.",
     "translit": "On rabotaet dolgo.",
-    "en": "He works for a long time."
+    "en": "He works for a long time.",
+    "pl": "On pracuje długo."
   },
   {
     "id": "top-300-adverbs-102",
     "ru": "Она говорит коротко.",
     "ruStressed": "Она́ говори́т ко́ротко.",
     "translit": "Ona govorit korotko.",
-    "en": "She speaks briefly."
+    "en": "She speaks briefly.",
+    "pl": "Ona mówi krótko."
   },
   {
     "id": "top-300-adverbs-103",
     "ru": "Она говорит полностью.",
     "ruStressed": "Она́ говори́т по́лностью.",
     "translit": "Ona govorit polnostyu.",
-    "en": "She speaks fully."
+    "en": "She speaks fully.",
+    "pl": "Ona mówi w pełni."
   },
   {
     "id": "top-300-adverbs-104",
     "ru": "Мы всегда работаем быстро.",
     "ruStressed": "Мы всегда́ рабо́таем бы́стро.",
     "translit": "My vsegda rabotaem bystro.",
-    "en": "We always work quickly."
+    "en": "We always work quickly.",
+    "pl": "Zawsze pracujemy szybko."
   },
   {
     "id": "top-300-adverbs-105",
     "ru": "Мы всегда работаем медленно.",
     "ruStressed": "Мы всегда́ рабо́таем ме́дленно.",
     "translit": "My vsegda rabotaem medlenno.",
-    "en": "We always work slowly."
+    "en": "We always work slowly.",
+    "pl": "Zawsze pracujemy powoli."
   },
   {
     "id": "top-300-adverbs-106",
     "ru": "Мы всегда работаем хорошо.",
     "ruStressed": "Мы всегда́ рабо́таем хорошо́.",
     "translit": "My vsegda rabotaem khorosho.",
-    "en": "We always work well."
+    "en": "We always work well.",
+    "pl": "Zawsze pracujemy dobrze."
   },
   {
     "id": "top-300-adverbs-107",
     "ru": "Мы всегда работаем плохо.",
     "ruStressed": "Мы всегда́ рабо́таем пло́хо.",
     "translit": "My vsegda rabotaem plokho.",
-    "en": "We always work poorly."
+    "en": "We always work poorly.",
+    "pl": "Zawsze pracujemy źle."
   },
   {
     "id": "top-300-adverbs-108",
     "ru": "Учитель объясняет тихо.",
     "ruStressed": "Учи́тель объясня́ет ти́хо.",
     "translit": "Uchitel obyasnyaet tikho.",
-    "en": "The teacher explains quietly."
+    "en": "The teacher explains quietly.",
+    "pl": "Nauczyciel wyjaśnia cicho."
   },
   {
     "id": "top-300-adverbs-109",
     "ru": "Учитель объясняет громко.",
     "ruStressed": "Учи́тель объясня́ет гро́мко.",
     "translit": "Uchitel obyasnyaet gromko.",
-    "en": "The teacher explains loudly."
+    "en": "The teacher explains loudly.",
+    "pl": "Nauczyciel wyjaśnia głośno."
   },
   {
     "id": "top-300-adverbs-110",
     "ru": "Учитель объясняет чётко.",
     "ruStressed": "Учи́тель объясня́ет чётко.",
     "translit": "Uchitel obyasnyaet chyotko.",
-    "en": "The teacher explains clearly."
+    "en": "The teacher explains clearly.",
+    "pl": "Nauczyciel wyjaśnia wyraźnie."
   },
   {
     "id": "top-300-adverbs-111",
     "ru": "Учитель объясняет ясно.",
     "ruStressed": "Учи́тель объясня́ет я́сно.",
     "translit": "Uchitel obyasnyaet yasno.",
-    "en": "The teacher explains clearly."
+    "en": "The teacher explains clearly.",
+    "pl": "Nauczyciel wyjaśnia jasno."
   },
   {
     "id": "top-300-adverbs-112",
     "ru": "Он опаздывает часто.",
     "ruStressed": "Он опа́здывает ча́сто.",
     "translit": "On opazdyvaet chasto.",
-    "en": "He is late often."
+    "en": "He is late often.",
+    "pl": "On spóźnia się często."
   },
   {
     "id": "top-300-adverbs-113",
     "ru": "Он опаздывает редко.",
     "ruStressed": "Он опа́здывает ре́дко.",
     "translit": "On opazdyvaet redko.",
-    "en": "He is late rarely."
+    "en": "He is late rarely.",
+    "pl": "On spóźnia się rzadko."
   },
   {
     "id": "top-300-adverbs-114",
     "ru": "Он опаздывает иногда.",
     "ruStressed": "Он опа́здывает иногда́.",
     "translit": "On opazdyvaet inogda.",
-    "en": "He is late sometimes."
+    "en": "He is late sometimes.",
+    "pl": "On spóźnia się czasami."
   },
   {
     "id": "top-300-adverbs-115",
     "ru": "Он опаздывает всегда.",
     "ruStressed": "Он опа́здывает всегда́.",
     "translit": "On opazdyvaet vsegda.",
-    "en": "He is late always."
+    "en": "He is late always.",
+    "pl": "On spóźnia się zawsze."
   },
   {
     "id": "top-300-adverbs-116",
     "ru": "Он опаздывает никогда.",
     "ruStressed": "Он опа́здывает никогда́.",
     "translit": "On opazdyvaet nikogda.",
-    "en": "He is late never."
+    "en": "He is late never.",
+    "pl": "On nigdy się nie spóźnia."
   },
   {
     "id": "top-300-adverbs-117",
     "ru": "Сегодня мы ходили в кино.",
     "ruStressed": "Сего́дня мы ходи́ли в кино́.",
     "translit": "Segodnya my khodili v kino.",
-    "en": "Today we went to the cinema."
+    "en": "Today we went to the cinema.",
+    "pl": "Dzisiaj poszliśmy do kina."
   },
   {
     "id": "top-300-adverbs-118",
     "ru": "Вчера мы ходили в кино.",
     "ruStressed": "Вчера́ мы ходи́ли в кино́.",
     "translit": "Vchera my khodili v kino.",
-    "en": "Yesterday we went to the cinema."
+    "en": "Yesterday we went to the cinema.",
+    "pl": "Wczoraj poszliśmy do kina."
   },
   {
     "id": "top-300-adverbs-119",
     "ru": "Завтра он позвонит.",
     "ruStressed": "За́втра он позвони́т.",
     "translit": "Zavtra on pozvonit.",
-    "en": "Tomorrow he will call."
+    "en": "Tomorrow he will call.",
+    "pl": "Jutro on zadzwoni."
   },
   {
     "id": "top-300-adverbs-120",
     "ru": "Сейчас он позвонит.",
     "ruStressed": "Сейча́с он позвони́т.",
     "translit": "Seychas on pozvonit.",
-    "en": "Now he will call."
+    "en": "Now he will call.",
+    "pl": "Teraz on zadzwoni."
   },
   {
     "id": "top-300-adverbs-121",
     "ru": "Потом он позвонит.",
     "ruStressed": "Пото́м он позвони́т.",
     "translit": "Potom on pozvonit.",
-    "en": "Later he will call."
+    "en": "Later he will call.",
+    "pl": "Później on zadzwoni."
   },
   {
     "id": "top-300-adverbs-122",
     "ru": "Он опаздывает рано.",
     "ruStressed": "Он опа́здывает ра́но.",
     "translit": "On opazdyvaet rano.",
-    "en": "He is late early."
+    "en": "He is late early.",
+    "pl": "On spóźnia się wcześnie."
   },
   {
     "id": "top-300-adverbs-123",
     "ru": "Он опаздывает поздно.",
     "ruStressed": "Он опа́здывает по́здно.",
     "translit": "On opazdyvaet pozdno.",
-    "en": "He is late late."
+    "en": "He is late late.",
+    "pl": "On spóźnia się późno."
   },
   {
     "id": "top-300-adverbs-124",
     "ru": "Уже он позвонит.",
     "ruStressed": "Уже́ он позвони́т.",
     "translit": "Uzhe on pozvonit.",
-    "en": "Already he will call."
+    "en": "Already he will call.",
+    "pl": "Już on zadzwoni."
   },
   {
     "id": "top-300-adverbs-125",
     "ru": "Ещё он позвонит.",
     "ruStressed": "Ещё он позвони́т.",
     "translit": "Eshchyo on pozvonit.",
-    "en": "Still he will call."
+    "en": "Still he will call.",
+    "pl": "Jeszcze on zadzwoni."
   },
   {
     "id": "top-300-adverbs-126",
     "ru": "Скоро он позвонит.",
     "ruStressed": "Ско́ро он позвони́т.",
     "translit": "Skoro on pozvonit.",
-    "en": "Soon he will call."
+    "en": "Soon he will call.",
+    "pl": "Wkrótce on zadzwoni."
   },
   {
     "id": "top-300-adverbs-127",
     "ru": "Давно мы ходили в кино.",
     "ruStressed": "Давно́ мы ходи́ли в кино́.",
     "translit": "Davno my khodili v kino.",
-    "en": "Long ago we went to the cinema."
+    "en": "Long ago we went to the cinema.",
+    "pl": "Dawno temu poszliśmy do kina."
   },
   {
     "id": "top-300-adverbs-128",
     "ru": "Недавно мы ходили в кино.",
     "ruStressed": "Неда́вно мы ходи́ли в кино́.",
     "translit": "Nedavno my khodili v kino.",
-    "en": "Recently we went to the cinema."
+    "en": "Recently we went to the cinema.",
+    "pl": "Niedawno poszliśmy do kina."
   },
   {
     "id": "top-300-adverbs-129",
     "ru": "Машина стоит здесь.",
     "ruStressed": "Маши́на стои́т здесь.",
     "translit": "Mashina stoit zdes.",
-    "en": "The car is parked here."
+    "en": "The car is parked here.",
+    "pl": "Samochód stoi tutaj."
   },
   {
     "id": "top-300-adverbs-130",
     "ru": "Машина стоит там.",
     "ruStressed": "Маши́на стои́т там.",
     "translit": "Mashina stoit tam.",
-    "en": "The car is parked there."
+    "en": "The car is parked there.",
+    "pl": "Samochód stoi tam."
   },
   {
     "id": "top-300-adverbs-131",
     "ru": "Машина стоит везде.",
     "ruStressed": "Маши́на стои́т везде́.",
     "translit": "Mashina stoit vezde.",
-    "en": "The car is parked everywhere."
+    "en": "The car is parked everywhere.",
+    "pl": "Samochód stoi wszędzie."
   },
   {
     "id": "top-300-adverbs-132",
     "ru": "Машина стоит нигде.",
     "ruStressed": "Маши́на стои́т нигде́.",
     "translit": "Mashina stoit nigde.",
-    "en": "The car is parked nowhere."
+    "en": "The car is parked nowhere.",
+    "pl": "Samochód nigdzie nie stoi."
   },
   {
     "id": "top-300-adverbs-133",
     "ru": "Машина стоит дома.",
     "ruStressed": "Маши́на стои́т до́ма.",
     "translit": "Mashina stoit doma.",
-    "en": "The car is parked at home."
+    "en": "The car is parked at home.",
+    "pl": "Samochód stoi pod domem."
   },
   {
     "id": "top-300-adverbs-134",
     "ru": "Машина стоит снаружи.",
     "ruStressed": "Маши́на стои́т снару́жи.",
     "translit": "Mashina stoit snaruzhi.",
-    "en": "The car is parked outside."
+    "en": "The car is parked outside.",
+    "pl": "Samochód stoi na zewnątrz."
   },
   {
     "id": "top-300-adverbs-135",
     "ru": "Машина стоит внутри.",
     "ruStressed": "Маши́на стои́т внутри́.",
     "translit": "Mashina stoit vnutri.",
-    "en": "The car is parked inside."
+    "en": "The car is parked inside.",
+    "pl": "Samochód stoi wewnątrz."
   },
   {
     "id": "top-300-adverbs-136",
     "ru": "Машина стоит наверху.",
     "ruStressed": "Маши́на стои́т наверху́.",
     "translit": "Mashina stoit naverkhu.",
-    "en": "The car is parked above."
+    "en": "The car is parked above.",
+    "pl": "Samochód stoi na górze."
   },
   {
     "id": "top-300-adverbs-137",
     "ru": "Машина стоит внизу.",
     "ruStressed": "Маши́на стои́т внизу́.",
     "translit": "Mashina stoit vnizu.",
-    "en": "The car is parked below."
+    "en": "The car is parked below.",
+    "pl": "Samochód stoi na dole."
   },
   {
     "id": "top-300-adverbs-138",
     "ru": "Машина стоит впереди.",
     "ruStressed": "Маши́на стои́т впереди́.",
     "translit": "Mashina stoit vperedi.",
-    "en": "The car is parked ahead."
+    "en": "The car is parked ahead.",
+    "pl": "Samochód stoi z przodu."
   },
   {
     "id": "top-300-adverbs-139",
     "ru": "Машина стоит сзади.",
     "ruStressed": "Маши́на стои́т сза́ди.",
     "translit": "Mashina stoit szadi.",
-    "en": "The car is parked behind."
+    "en": "The car is parked behind.",
+    "pl": "Samochód stoi z tyłu."
   },
   {
     "id": "top-300-adverbs-140",
     "ru": "Машина стоит слева.",
     "ruStressed": "Маши́на стои́т сле́ва.",
     "translit": "Mashina stoit sleva.",
-    "en": "The car is parked on the left."
+    "en": "The car is parked on the left.",
+    "pl": "Samochód stoi po lewej."
   },
   {
     "id": "top-300-adverbs-141",
     "ru": "Машина стоит справа.",
     "ruStressed": "Маши́на стои́т спра́ва.",
     "translit": "Mashina stoit sprava.",
-    "en": "The car is parked on the right."
+    "en": "The car is parked on the right.",
+    "pl": "Samochód stoi po prawej."
   },
   {
     "id": "top-300-adverbs-142",
     "ru": "Здесь очень тихо.",
     "ruStressed": "Здесь о́чень ти́хо.",
     "translit": "Zdes ochen tikho.",
-    "en": "Here it is very quiet."
+    "en": "Here it is very quiet.",
+    "pl": "Tutaj jest bardzo cicho."
   },
   {
     "id": "top-300-adverbs-143",
     "ru": "Здесь слишком тихо.",
     "ruStressed": "Здесь сли́шком ти́хо.",
     "translit": "Zdes slishkom tikho.",
-    "en": "Here it is too quiet."
+    "en": "Here it is too quiet.",
+    "pl": "Tutaj jest zbyt cicho."
   },
   {
     "id": "top-300-adverbs-144",
     "ru": "Здесь немного тихо.",
     "ruStressed": "Здесь немно́го ти́хо.",
     "translit": "Zdes nemnogo tikho.",
-    "en": "Here it is a little quiet."
+    "en": "Here it is a little quiet.",
+    "pl": "Tutaj jest trochę cicho."
   },
   {
     "id": "top-300-adverbs-145",
     "ru": "Здесь совсем тихо.",
     "ruStressed": "Здесь совсе́м ти́хо.",
     "translit": "Zdes sovsem tikho.",
-    "en": "Here it is completely quiet."
+    "en": "Here it is completely quiet.",
+    "pl": "Tutaj jest całkiem cicho."
   },
   {
     "id": "top-300-adverbs-146",
     "ru": "Здесь почти тихо.",
     "ruStressed": "Здесь почти́ ти́хо.",
     "translit": "Zdes pochti tikho.",
-    "en": "Here it is almost quiet."
+    "en": "Here it is almost quiet.",
+    "pl": "Tutaj jest prawie cicho."
   },
   {
     "id": "top-300-adverbs-147",
     "ru": "Учитель объясняет точно.",
     "ruStressed": "Учи́тель объясня́ет то́чно.",
     "translit": "Uchitel obyasnyaet tochno.",
-    "en": "The teacher explains exactly."
+    "en": "The teacher explains exactly.",
+    "pl": "Nauczyciel wyjaśnia dokładnie."
   },
   {
     "id": "top-300-adverbs-148",
     "ru": "Учитель объясняет неточно.",
     "ruStressed": "Учи́тель объясня́ет нето́чно.",
     "translit": "Uchitel obyasnyaet netochno.",
-    "en": "The teacher explains inexactly."
+    "en": "The teacher explains inexactly.",
+    "pl": "Nauczyciel wyjaśnia niedokładnie."
   },
   {
     "id": "top-300-adverbs-149",
     "ru": "Она готовит ужин правильно.",
     "ruStressed": "Она́ гото́вит у́жин пра́вильно.",
     "translit": "Ona gotovit uzhin pravilno.",
-    "en": "She makes dinner correctly."
+    "en": "She makes dinner correctly.",
+    "pl": "Ona przygotowuje kolację prawidłowo."
   },
   {
     "id": "top-300-adverbs-150",
     "ru": "Она готовит ужин неправильно.",
     "ruStressed": "Она́ гото́вит у́жин непра́вильно.",
     "translit": "Ona gotovit uzhin nepravilno.",
-    "en": "She makes dinner incorrectly."
+    "en": "She makes dinner incorrectly.",
+    "pl": "Ona przygotowuje kolację nieprawidłowo."
   },
   {
     "id": "top-300-adverbs-151",
     "ru": "Она готовит ужин осторожно.",
     "ruStressed": "Она́ гото́вит у́жин осторо́жно.",
     "translit": "Ona gotovit uzhin ostorozhno.",
-    "en": "She makes dinner carefully."
+    "en": "She makes dinner carefully.",
+    "pl": "Ona przygotowuje kolację ostrożnie."
   },
   {
     "id": "top-300-adverbs-152",
     "ru": "Она готовит ужин аккуратно.",
     "ruStressed": "Она́ гото́вит у́жин аккура́тно.",
     "translit": "Ona gotovit uzhin akkuratno.",
-    "en": "She makes dinner neatly."
+    "en": "She makes dinner neatly.",
+    "pl": "Ona przygotowuje kolację starannie."
   },
   {
     "id": "top-300-adverbs-153",
     "ru": "Мы всегда работаем вместе.",
     "ruStressed": "Мы всегда́ рабо́таем вме́сте.",
     "translit": "My vsegda rabotaem vmeste.",
-    "en": "We always work together."
+    "en": "We always work together.",
+    "pl": "Zawsze pracujemy razem."
   },
   {
     "id": "top-300-adverbs-154",
     "ru": "Мы всегда работаем отдельно.",
     "ruStressed": "Мы всегда́ рабо́таем отде́льно.",
     "translit": "My vsegda rabotaem otdelno.",
-    "en": "We always work separately."
+    "en": "We always work separately.",
+    "pl": "Zawsze pracujemy osobno."
   },
   {
     "id": "top-300-adverbs-155",
     "ru": "Здесь одиноко тихо.",
     "ruStressed": "Здесь одино́ко ти́хо.",
     "translit": "Zdes odinoko tikho.",
-    "en": "Here it is lonely quiet."
+    "en": "Here it is lonely quiet.",
+    "pl": "Tutaj jest samotnie cicho."
   },
   {
     "id": "top-300-adverbs-156",
     "ru": "Учитель объясняет свободно.",
     "ruStressed": "Учи́тель объясня́ет свобо́дно.",
     "translit": "Uchitel obyasnyaet svobodno.",
-    "en": "The teacher explains freely."
+    "en": "The teacher explains freely.",
+    "pl": "Nauczyciel wyjaśnia swobodnie."
   },
   {
     "id": "top-300-adverbs-157",
     "ru": "Учитель объясняет серьёзно.",
     "ruStressed": "Учи́тель объясня́ет серьёзно.",
     "translit": "Uchitel obyasnyaet seryozno.",
-    "en": "The teacher explains seriously."
+    "en": "The teacher explains seriously.",
+    "pl": "Nauczyciel wyjaśnia poważnie."
   },
   {
     "id": "top-300-adverbs-158",
     "ru": "Учитель объясняет шутя.",
     "ruStressed": "Учи́тель объясня́ет шутя́.",
     "translit": "Uchitel obyasnyaet shutya.",
-    "en": "The teacher explains jokingly."
+    "en": "The teacher explains jokingly.",
+    "pl": "Nauczyciel wyjaśnia żartem."
   },
   {
     "id": "top-300-adverbs-159",
     "ru": "Учитель объясняет честно.",
     "ruStressed": "Учи́тель объясня́ет че́стно.",
     "translit": "Uchitel obyasnyaet chestno.",
-    "en": "The teacher explains honestly."
+    "en": "The teacher explains honestly.",
+    "pl": "Nauczyciel wyjaśnia szczerze."
   },
   {
     "id": "top-300-adverbs-160",
     "ru": "Учитель объясняет открыто.",
     "ruStressed": "Учи́тель объясня́ет откры́то.",
     "translit": "Uchitel obyasnyaet otkryto.",
-    "en": "The teacher explains openly."
+    "en": "The teacher explains openly.",
+    "pl": "Nauczyciel wyjaśnia otwarcie."
   },
   {
     "id": "top-300-adverbs-161",
