@@ -484,629 +484,719 @@
     "ru": "Сколько ехать до отеля?",
     "ruStressed": "Ско́лько е́хать до оте́ля?",
     "translit": "Skol'ko ekhat' do otelya?",
-    "en": "How long to the hotel?"
+    "en": "How long to the hotel?",
+    "pl": "Jak długo jedzie się do hotelu?"
   },
   {
     "id": "a2-part-3-62",
     "ru": "Минут двадцать.",
     "ruStressed": "Мину́т два́дцать.",
     "translit": "Minut dvadtsat'.",
-    "en": "About twenty minutes."
+    "en": "About twenty minutes.",
+    "pl": "Około dwudziestu minut."
   },
   {
     "id": "a2-part-3-63",
     "ru": "Я забронировал номер.",
     "ruStressed": "Я заброни́ровал но́мер.",
     "translit": "Ya zabroniroval nomer.",
-    "en": "I booked a room."
+    "en": "I booked a room.",
+    "pl": "Zarezerwowałem pokój."
   },
   {
     "id": "a2-part-3-64",
     "ru": "На какое имя бронь?",
     "ruStressed": "На како́е и́мя бронь?",
     "translit": "Na kakoe imya bron'?",
-    "en": "Under what name is the booking?"
+    "en": "Under what name is the booking?",
+    "pl": "Na jakie nazwisko jest rezerwacja?"
   },
   {
     "id": "a2-part-3-65",
     "ru": "На двое ночей.",
     "ruStressed": "На дво́е ноче́й.",
     "translit": "Na dvoe nochey.",
-    "en": "For two nights."
+    "en": "For two nights.",
+    "pl": "Na dwie noce."
   },
   {
     "id": "a2-part-3-66",
     "ru": "Завтрак включён?",
     "ruStressed": "За́втрак включён?",
     "translit": "Zavtrak vklyuchyon?",
-    "en": "Is breakfast included?"
+    "en": "Is breakfast included?",
+    "pl": "Czy śniadanie jest wliczone?"
   },
   {
     "id": "a2-part-3-67",
     "ru": "Да, с семи до десяти.",
     "ruStressed": "Да, с семи́ до десяти́.",
     "translit": "Da, s semi do desyati.",
-    "en": "Yes, from seven to ten."
+    "en": "Yes, from seven to ten.",
+    "pl": "Tak, od siódmej do dziesiątej."
   },
   {
     "id": "a2-part-3-68",
     "ru": "В номере есть вай-фай?",
     "ruStressed": "В но́мере есть вай-фа́й?",
     "translit": "V nomere yest' vay-fay?",
-    "en": "Is there Wi-Fi in the room?"
+    "en": "Is there Wi-Fi in the room?",
+    "pl": "Czy w pokoju jest Wi-Fi?"
   },
   {
     "id": "a2-part-3-69",
     "ru": "Какой пароль?",
     "ruStressed": "Како́й паро́ль?",
     "translit": "Kakoy parol'?",
-    "en": "What's the password?"
+    "en": "What's the password?",
+    "pl": "Jakie jest hasło?"
   },
   {
     "id": "a2-part-3-70",
     "ru": "Пароль на карточке.",
     "ruStressed": "Паро́ль на ка́рточке.",
     "translit": "Parol' na kartochke.",
-    "en": "The password is on the card."
+    "en": "The password is on the card.",
+    "pl": "Hasło jest na karcie."
   },
   {
     "id": "a2-part-3-71",
     "ru": "Где лифт?",
     "ruStressed": "Где лифт?",
     "translit": "Gde lift?",
-    "en": "Where's the elevator?"
+    "en": "Where's the elevator?",
+    "pl": "Gdzie jest winda?"
   },
   {
     "id": "a2-part-3-72",
     "ru": "На каком этаже?",
     "ruStressed": "На како́м этаже́?",
     "translit": "Na kakom etazhe?",
-    "en": "On what floor?"
+    "en": "On what floor?",
+    "pl": "Na którym piętrze?"
   },
   {
     "id": "a2-part-3-73",
     "ru": "На пятом этаже.",
     "ruStressed": "На пя́том этаже́.",
     "translit": "Na pyatom etazhe.",
-    "en": "On the fifth floor."
+    "en": "On the fifth floor.",
+    "pl": "Na piątym piętrze."
   },
   {
     "id": "a2-part-3-74",
     "ru": "Можно поздний выезд?",
     "ruStressed": "Мо́жно по́здний вы́езд?",
     "translit": "Mozhno pozdniy vyezd?",
-    "en": "Can I check out late?"
+    "en": "Can I check out late?",
+    "pl": "Czy możliwy jest późny wyjazd?"
   },
   {
     "id": "a2-part-3-75",
     "ru": "Я уезжаю завтра.",
     "ruStressed": "Я уезжа́ю за́втра.",
     "translit": "Ya uezzhayu zavtra.",
-    "en": "I'm leaving tomorrow."
+    "en": "I'm leaving tomorrow.",
+    "pl": "Wyjeżdżam jutro."
   },
   {
     "id": "a2-part-3-76",
     "ru": "Спасибо за гостеприимство.",
     "ruStressed": "Спаси́бо за гостеприи́мство.",
     "translit": "Spasibo za gostepriimstvo.",
-    "en": "Thanks for the hospitality."
+    "en": "Thanks for the hospitality.",
+    "pl": "Dziękuję za gościnność."
   },
   {
     "id": "a2-part-3-77",
     "ru": "Я обязательно вернусь.",
     "ruStressed": "Я обяза́тельно верну́сь.",
     "translit": "Ya obyazatel'no vernus'.",
-    "en": "I'll definitely come back."
+    "en": "I'll definitely come back.",
+    "pl": "Na pewno wrócę."
   },
   {
     "id": "a2-part-3-78",
     "ru": "Какие достопримечательности посмотреть?",
     "ruStressed": "Каки́е достопримеча́тельности посмотре́ть?",
     "translit": "Kakie dostoprimechatel'nosti posmotret'?",
-    "en": "What sights should I see?"
+    "en": "What sights should I see?",
+    "pl": "Jakie zabytki warto zobaczyć?"
   },
   {
     "id": "a2-part-3-79",
     "ru": "Не пропустите старый город.",
     "ruStressed": "Не пропусти́те ста́рый го́род.",
     "translit": "Ne propustite staryy gorod.",
-    "en": "Don't miss the old town."
+    "en": "Don't miss the old town.",
+    "pl": "Proszę nie przegapić starego miasta."
   },
   {
     "id": "a2-part-3-80",
     "ru": "Куда сходить вечером?",
     "ruStressed": "Куда́ сходи́ть ве́чером?",
     "translit": "Kuda skhodit' vecherom?",
-    "en": "Where to go in the evening?"
+    "en": "Where to go in the evening?",
+    "pl": "Gdzie pójść wieczorem?"
   },
   {
     "id": "a2-part-3-81",
     "ru": "В центре много баров.",
     "ruStressed": "В це́нтре мно́го ба́ров.",
     "translit": "V tsentre mnogo barov.",
-    "en": "There are many bars downtown."
+    "en": "There are many bars downtown.",
+    "pl": "W centrum jest wiele barów."
   },
   {
     "id": "a2-part-3-82",
     "ru": "Я был в музее.",
     "ruStressed": "Я был в музе́е.",
     "translit": "Ya byl v muzee.",
-    "en": "I was at the museum."
+    "en": "I was at the museum.",
+    "pl": "Byłem w muzeum."
   },
   {
     "id": "a2-part-3-83",
     "ru": "Музей открыт до шести.",
     "ruStressed": "Музе́й откры́т до шести́.",
     "translit": "Muzey otkryt do shesti.",
-    "en": "The museum is open until six."
+    "en": "The museum is open until six.",
+    "pl": "Muzeum jest otwarte do szóstej."
   },
   {
     "id": "a2-part-3-84",
     "ru": "Сколько стоит вход?",
     "ruStressed": "Ско́лько сто́ит вход?",
     "translit": "Skol'ko stoit vkhod?",
-    "en": "How much is admission?"
+    "en": "How much is admission?",
+    "pl": "Ile kosztuje wstęp?"
   },
   {
     "id": "a2-part-3-85",
     "ru": "Триста рублей.",
     "ruStressed": "Три́ста рубле́й.",
     "translit": "Trista rubley.",
-    "en": "Three hundred rubles."
+    "en": "Three hundred rubles.",
+    "pl": "Trzysta rubli."
   },
   {
     "id": "a2-part-3-86",
     "ru": "У студентов скидка.",
     "ruStressed": "У студе́нтов ски́дка.",
     "translit": "U studentov skidka.",
-    "en": "Students get a discount."
+    "en": "Students get a discount.",
+    "pl": "Studenci mają zniżkę."
   },
   {
     "id": "a2-part-3-87",
     "ru": "Где я могу купить карту?",
     "ruStressed": "Где я могу́ купи́ть ка́рту?",
     "translit": "Gde ya mogu kupit' kartu?",
-    "en": "Where can I buy a map?"
+    "en": "Where can I buy a map?",
+    "pl": "Gdzie mogę kupić mapę?"
   },
   {
     "id": "a2-part-3-88",
     "ru": "Карты есть в киоске.",
     "ruStressed": "Ка́рты есть в кио́ске.",
     "translit": "Karty yest' v kioske.",
-    "en": "Maps are at the kiosk."
+    "en": "Maps are at the kiosk.",
+    "pl": "Mapy są w kiosku."
   },
   {
     "id": "a2-part-3-89",
     "ru": "Где ближайшая станция метро?",
     "ruStressed": "Где ближа́йшая ста́нция метро́?",
     "translit": "Gde blizhayshaya stantsiya metro?",
-    "en": "Where's the nearest metro station?"
+    "en": "Where's the nearest metro station?",
+    "pl": "Gdzie jest najbliższa stacja metra?"
   },
   {
     "id": "a2-part-3-90",
     "ru": "Прямо и направо.",
     "ruStressed": "Пря́мо и напра́во.",
     "translit": "Pryamo i napravo.",
-    "en": "Straight and to the right."
+    "en": "Straight and to the right.",
+    "pl": "Prosto i w prawo."
   },
   {
     "id": "a2-part-3-91",
     "ru": "Сколько остановок до центра?",
     "ruStressed": "Ско́лько остано́вок до це́нтра?",
     "translit": "Skol'ko ostanovok do tsentra?",
-    "en": "How many stops to the center?"
+    "en": "How many stops to the center?",
+    "pl": "Ile przystanków do centrum?"
   },
   {
     "id": "a2-part-3-92",
     "ru": "Три остановки.",
     "ruStressed": "Три остано́вки.",
     "translit": "Tri ostanovki.",
-    "en": "Three stops."
+    "en": "Three stops.",
+    "pl": "Trzy przystanki."
   },
   {
     "id": "a2-part-3-93",
     "ru": "На какой станции выходить?",
     "ruStressed": "На како́й ста́нции выходи́ть?",
     "translit": "Na kakoy stantsii vykhodit'?",
-    "en": "At which station do I get off?"
+    "en": "At which station do I get off?",
+    "pl": "Na której stacji mam wysiąść?"
   },
   {
     "id": "a2-part-3-94",
     "ru": "Выходите на Пушкинской.",
     "ruStressed": "Выходи́те на Пу́шкинской.",
     "translit": "Vykhodite na Pushkinskoy.",
-    "en": "Get off at Pushkinskaya."
+    "en": "Get off at Pushkinskaya.",
+    "pl": "Proszę wysiąść na Puszkińskiej."
   },
   {
     "id": "a2-part-3-95",
     "ru": "Сделайте пересадку.",
     "ruStressed": "Сде́лайте переса́дку.",
     "translit": "Sdelayte peresadku.",
-    "en": "Make a transfer."
+    "en": "Make a transfer.",
+    "pl": "Proszę się przesiąść."
   },
   {
     "id": "a2-part-3-96",
     "ru": "Я заблудился.",
     "ruStressed": "Я заблуди́лся.",
     "translit": "Ya zabludilsya.",
-    "en": "I got lost."
+    "en": "I got lost.",
+    "pl": "Zgubiłem się."
   },
   {
     "id": "a2-part-3-97",
     "ru": "Помогите мне, пожалуйста.",
     "ruStressed": "Помоги́те мне, пожа́луйста.",
     "translit": "Pomogite mne, pozhaluysta.",
-    "en": "Help me, please."
+    "en": "Help me, please.",
+    "pl": "Proszę mi pomóc."
   },
   {
     "id": "a2-part-3-98",
     "ru": "Как пройти в центр?",
     "ruStressed": "Как пройти́ в центр?",
     "translit": "Kak proyti v tsentr?",
-    "en": "How do I get to the center?"
+    "en": "How do I get to the center?",
+    "pl": "Jak dojść do centrum?"
   },
   {
     "id": "a2-part-3-99",
     "ru": "Идите прямо два квартала.",
     "ruStressed": "Иди́те пря́мо два кварта́ла.",
     "translit": "Idite pryamo dva kvartala.",
-    "en": "Walk straight for two blocks."
+    "en": "Walk straight for two blocks.",
+    "pl": "Proszę iść prosto przez dwa bloki."
   },
   {
     "id": "a2-part-3-100",
     "ru": "Это далеко?",
     "ruStressed": "Э́то далеко́?",
     "translit": "Eto daleko?",
-    "en": "Is it far?"
+    "en": "Is it far?",
+    "pl": "Czy to daleko?"
   },
   {
     "id": "a2-part-3-101",
     "ru": "Близко, минут пять пешком.",
     "ruStressed": "Бли́зко, мину́т пять пешко́м.",
     "translit": "Blizko, minut pyat' peshkom.",
-    "en": "Close, about five minutes walking."
+    "en": "Close, about five minutes walking.",
+    "pl": "Blisko, około pięciu minut pieszo."
   },
   {
     "id": "a2-part-3-102",
     "ru": "В следующем году я поеду в Японию.",
     "ruStressed": "В сле́дующем году́ я пое́ду в Япо́нию.",
     "translit": "V sleduyushchem godu ya poedu v Yaponiyu.",
-    "en": "Next year I'll go to Japan."
+    "en": "Next year I'll go to Japan.",
+    "pl": "W przyszłym roku pojadę do Japonii."
   },
   {
     "id": "a2-part-3-103",
     "ru": "Это моя мечта.",
     "ruStressed": "Э́то моя́ мечта́.",
     "translit": "Eto moya mechta.",
-    "en": "It's my dream."
+    "en": "It's my dream.",
+    "pl": "To moje marzenie."
   },
   {
     "id": "a2-part-3-104",
     "ru": "Я начну копить деньги.",
     "ruStressed": "Я начну́ копи́ть де́ньги.",
     "translit": "Ya nachnu kopit' den'gi.",
-    "en": "I'll start saving money."
+    "en": "I'll start saving money.",
+    "pl": "Zacznę oszczędzać pieniądze."
   },
   {
     "id": "a2-part-3-105",
     "ru": "Я буду экономить.",
     "ruStressed": "Я бу́ду эконо́мить.",
     "translit": "Ya budu ekonomit'.",
-    "en": "I'll save up."
+    "en": "I'll save up.",
+    "pl": "Będę oszczędzać."
   },
   {
     "id": "a2-part-3-106",
     "ru": "Куда вы поедете на праздники?",
     "ruStressed": "Куда́ вы пое́дете на пра́здники?",
     "translit": "Kuda vy poedete na prazdniki?",
-    "en": "Where will you go for the holidays?"
+    "en": "Where will you go for the holidays?",
+    "pl": "Gdzie pojedziecie na święta? (plural)"
   },
   {
     "id": "a2-part-3-107",
     "ru": "Мы поедем к родителям.",
     "ruStressed": "Мы пое́дем к роди́телям.",
     "translit": "My poedem k roditelyam.",
-    "en": "We'll visit our parents."
+    "en": "We'll visit our parents.",
+    "pl": "Odwiedzimy rodziców."
   },
   {
     "id": "a2-part-3-108",
     "ru": "Они живут в деревне.",
     "ruStressed": "Они́ живу́т в дере́вне.",
     "translit": "Oni zhivut v derevne.",
-    "en": "They live in the countryside."
+    "en": "They live in the countryside.",
+    "pl": "Oni mieszkają na wsi."
   },
   {
     "id": "a2-part-3-109",
     "ru": "Я давно их не видел.",
     "ruStressed": "Я давно́ их не ви́дел.",
     "translit": "Ya davno ikh ne videl.",
-    "en": "I haven't seen them in a long time."
+    "en": "I haven't seen them in a long time.",
+    "pl": "Dawno ich nie widziałem."
   },
   {
     "id": "a2-part-3-110",
     "ru": "Я возьму с собой подарки.",
     "ruStressed": "Я возьму́ с собо́й пода́рки.",
     "translit": "Ya voz'mu s soboy podarki.",
-    "en": "I'll take gifts with me."
+    "en": "I'll take gifts with me.",
+    "pl": "Wezmę ze sobą prezenty."
   },
   {
     "id": "a2-part-3-111",
     "ru": "Машина в порядке?",
     "ruStressed": "Маши́на в поря́дке?",
     "translit": "Mashina v poryadke?",
-    "en": "Is the car okay?"
+    "en": "Is the car okay?",
+    "pl": "Czy z samochodem wszystko w porządku?"
   },
   {
     "id": "a2-part-3-112",
     "ru": "Я проверю шины.",
     "ruStressed": "Я прове́рю ши́ны.",
     "translit": "Ya proveryu shiny.",
-    "en": "I'll check the tires."
+    "en": "I'll check the tires.",
+    "pl": "Sprawdzę opony."
   },
   {
     "id": "a2-part-3-113",
     "ru": "Нужно заправиться.",
     "ruStressed": "Ну́жно запра́виться.",
     "translit": "Nuzhno zapravit'sya.",
-    "en": "We need to refuel."
+    "en": "We need to refuel.",
+    "pl": "Musimy zatankować."
   },
   {
     "id": "a2-part-3-114",
     "ru": "Заправка через километр.",
     "ruStressed": "Запра́вка че́рез киломе́тр.",
     "translit": "Zapravka cherez kilometr.",
-    "en": "Gas station in a kilometer."
+    "en": "Gas station in a kilometer.",
+    "pl": "Stacja benzynowa za kilometr."
   },
   {
     "id": "a2-part-3-115",
     "ru": "Полный бак, пожалуйста.",
     "ruStressed": "По́лный бак, пожа́луйста.",
     "translit": "Polnyy bak, pozhaluysta.",
-    "en": "Full tank, please."
+    "en": "Full tank, please.",
+    "pl": "Pełny bak, poproszę."
   },
   {
     "id": "a2-part-3-116",
     "ru": "Я в пробке.",
     "ruStressed": "Я в про́бке.",
     "translit": "Ya v probke.",
-    "en": "I'm in a traffic jam."
+    "en": "I'm in a traffic jam.",
+    "pl": "Jestem w korku."
   },
   {
     "id": "a2-part-3-117",
     "ru": "Дорога свободная.",
     "ruStressed": "Доро́га свобо́дная.",
     "translit": "Doroga svobodnaya.",
-    "en": "The road is clear."
+    "en": "The road is clear.",
+    "pl": "Droga jest przejezdna."
   },
   {
     "id": "a2-part-3-118",
     "ru": "Какая скорость разрешена?",
     "ruStressed": "Кака́я ско́рость разрешена́?",
     "translit": "Kakaya skorost' razreshena?",
-    "en": "What's the speed limit?"
+    "en": "What's the speed limit?",
+    "pl": "Jakie jest ograniczenie prędkości?"
   },
   {
     "id": "a2-part-3-119",
     "ru": "Сто километров в час.",
     "ruStressed": "Сто киломе́тров в час.",
     "translit": "Sto kilometrov v chas.",
-    "en": "A hundred kilometers an hour."
+    "en": "A hundred kilometers an hour.",
+    "pl": "Sto kilometrów na godzinę."
   },
   {
     "id": "a2-part-3-120",
     "ru": "Не превышай скорость.",
     "ruStressed": "Не превыша́й ско́рость.",
     "translit": "Ne prevyshay skorost'.",
-    "en": "Don't speed."
+    "en": "Don't speed.",
+    "pl": "Nie przekraczaj prędkości."
   },
   {
     "id": "a2-part-3-121",
     "ru": "Меня остановила полиция.",
     "ruStressed": "Меня́ останови́ла поли́ция.",
     "translit": "Menya ostanovila politsiya.",
-    "en": "The police stopped me."
+    "en": "The police stopped me.",
+    "pl": "Policja mnie zatrzymała."
   },
   {
     "id": "a2-part-3-122",
     "ru": "Документы, пожалуйста.",
     "ruStressed": "Докуме́нты, пожа́луйста.",
     "translit": "Dokumenty, pozhaluysta.",
-    "en": "Documents, please."
+    "en": "Documents, please.",
+    "pl": "Dokumenty, poproszę."
   },
   {
     "id": "a2-part-3-123",
     "ru": "Вот мои права.",
     "ruStressed": "Вот мои́ права́.",
     "translit": "Vot moi prava.",
-    "en": "Here's my license."
+    "en": "Here's my license.",
+    "pl": "Oto moje prawo jazdy."
   },
   {
     "id": "a2-part-3-124",
     "ru": "Где парковка?",
     "ruStressed": "Где парко́вка?",
     "translit": "Gde parkovka?",
-    "en": "Where's the parking?"
+    "en": "Where's the parking?",
+    "pl": "Gdzie jest parking?"
   },
   {
     "id": "a2-part-3-125",
     "ru": "Здесь нельзя парковаться.",
     "ruStressed": "Здесь нельзя́ паркова́ться.",
     "translit": "Zdes' nel'zya parkovat'sya.",
-    "en": "You can't park here."
+    "en": "You can't park here.",
+    "pl": "Tutaj nie wolno parkować."
   },
   {
     "id": "a2-part-3-126",
     "ru": "Сколько стоит час парковки?",
     "ruStressed": "Ско́лько сто́ит час парко́вки?",
     "translit": "Skol'ko stoit chas parkovki?",
-    "en": "How much per hour for parking?"
+    "en": "How much per hour for parking?",
+    "pl": "Ile kosztuje godzina parkowania?"
   },
   {
     "id": "a2-part-3-127",
     "ru": "Бесплатная парковка.",
     "ruStressed": "Беспла́тная парко́вка.",
     "translit": "Besplatnaya parkovka.",
-    "en": "Free parking."
+    "en": "Free parking.",
+    "pl": "Bezpłatny parking."
   },
   {
     "id": "a2-part-3-128",
     "ru": "Путешествие было прекрасное.",
     "ruStressed": "Путеше́ствие бы́ло прекра́сное.",
     "translit": "Puteshestvie bylo prekrasnoe.",
-    "en": "The trip was wonderful."
+    "en": "The trip was wonderful.",
+    "pl": "Podróż była wspaniała."
   },
   {
     "id": "a2-part-3-129",
     "ru": "Я куплю билеты завтра.",
     "ruStressed": "Я куплю́ биле́ты за́втра.",
     "translit": "Ya kuplyu bilety zavtra.",
-    "en": "I will buy tickets tomorrow."
+    "en": "I will buy tickets tomorrow.",
+    "pl": "Kupię bilety jutro."
   },
   {
     "id": "a2-part-3-130",
     "ru": "Мы будем жить в гостинице.",
     "ruStressed": "Мы бу́дем жить в гости́нице.",
     "translit": "My budem zhit' v gostinitse.",
-    "en": "We will stay in a hotel."
+    "en": "We will stay in a hotel.",
+    "pl": "Zatrzymamy się w hotelu."
   },
   {
     "id": "a2-part-3-131",
     "ru": "Где вы будете в понедельник?",
     "ruStressed": "Где вы бу́дете в понеде́льник?",
     "translit": "Gde vy budete v ponedel'nik?",
-    "en": "Where will you be on Monday?"
+    "en": "Where will you be on Monday?",
+    "pl": "Gdzie będziecie w poniedziałek? (plural)"
   },
   {
     "id": "a2-part-3-132",
     "ru": "Регистрация начинается в два часа.",
     "ruStressed": "Регистра́ция начина́ется в два часа́.",
     "translit": "Registratsiya nachinaetsya v dva chasa.",
-    "en": "Check-in starts at two o'clock."
+    "en": "Check-in starts at two o'clock.",
+    "pl": "Zameldowanie zaczyna się o drugiej."
   },
   {
     "id": "a2-part-3-133",
     "ru": "Покажите ваш паспорт, пожалуйста.",
     "ruStressed": "Покажи́те ваш па́спорт, пожа́луйста.",
     "translit": "Pokazhite vash pasport, pozhaluysta.",
-    "en": "Show your passport, please."
+    "en": "Show your passport, please.",
+    "pl": "Proszę pokazać paszport. (formal)"
   },
   {
     "id": "a2-part-3-134",
     "ru": "Он забронирует номер онлайн.",
     "ruStressed": "Он заброни́рует но́мер онла́йн.",
     "translit": "On zabroniruet nomer onlayn.",
-    "en": "He will book a room online."
+    "en": "He will book a room online.",
+    "pl": "On zarezerwuje pokój online."
   },
   {
     "id": "a2-part-3-135",
     "ru": "Когда придёт следующий автобус?",
     "ruStressed": "Когда́ придёт сле́дующий авто́бус?",
     "translit": "Kogda pridyot sleduyushchiy avtobus?",
-    "en": "When will the next bus arrive?"
+    "en": "When will the next bus arrive?",
+    "pl": "Kiedy przyjedzie następny autobus?"
   },
   {
     "id": "a2-part-3-136",
     "ru": "Я покажу вам город.",
     "ruStressed": "Я покажу́ вам го́род.",
     "translit": "Ya pokazhu vam gorod.",
-    "en": "I will show you the city."
+    "en": "I will show you the city.",
+    "pl": "Pokażę wam miasto. (plural)"
   },
   {
     "id": "a2-part-3-137",
     "ru": "Там будет бассейн?",
     "ruStressed": "Там бу́дет бассе́йн?",
     "translit": "Tam budet basseyn?",
-    "en": "Will there be a pool there?"
+    "en": "Will there be a pool there?",
+    "pl": "Czy będzie tam basen?"
   },
   {
     "id": "a2-part-3-138",
     "ru": "Мы приедем пятого мая.",
     "ruStressed": "Мы прие́дем пя́того ма́я.",
     "translit": "My priedem pyatogo maya.",
-    "en": "We will arrive on the fifth of May."
+    "en": "We will arrive on the fifth of May.",
+    "pl": "Przyjedziemy piątego maja."
   },
   {
     "id": "a2-part-3-139",
     "ru": "Автобус скоро отправится.",
     "ruStressed": "Авто́бус ско́ро отпра́вится.",
     "translit": "Avtobus skoro otpravitsya.",
-    "en": "The bus will depart soon."
+    "en": "The bus will depart soon.",
+    "pl": "Autobus wkrótce odjedzie."
   },
   {
     "id": "a2-part-3-140",
     "ru": "Она будет ждать нас на вокзале.",
     "ruStressed": "Она́ бу́дет ждать нас на вокза́ле.",
     "translit": "Ona budet zhdat' nas na vokzale.",
-    "en": "She will wait for us at the station."
+    "en": "She will wait for us at the station.",
+    "pl": "Ona będzie na nas czekać na dworcu."
   },
   {
     "id": "a2-part-3-141",
     "ru": "Они поедут в горы зимой.",
     "ruStressed": "Они́ пое́дут в го́ры зимо́й.",
     "translit": "Oni poedut v gory zimoy.",
-    "en": "They will go to the mountains in winter."
+    "en": "They will go to the mountains in winter.",
+    "pl": "Zimą pojadą w góry."
   },
   {
     "id": "a2-part-3-142",
     "ru": "Я буду платить картой.",
     "ruStressed": "Я бу́ду плати́ть ка́ртой.",
     "translit": "Ya budu platit' kartoy.",
-    "en": "I'll pay by card."
+    "en": "I'll pay by card.",
+    "pl": "Zapłacę kartą."
   },
   {
     "id": "a2-part-3-143",
     "ru": "Кто встретит тебя в аэропорту?",
     "ruStressed": "Кто встре́тит тебя́ в аэропорту́?",
     "translit": "Kto vstretit tebya v aeroportu?",
-    "en": "Who will meet you at the airport?"
+    "en": "Who will meet you at the airport?",
+    "pl": "Kto cię odbierze z lotniska?"
   },
   {
     "id": "a2-part-3-144",
     "ru": "Возьмите ваши чемоданы.",
     "ruStressed": "Возьми́те ва́ши чемода́ны.",
     "translit": "Voz'mite vashi chemodany.",
-    "en": "Take your suitcases."
+    "en": "Take your suitcases.",
+    "pl": "Proszę wziąć swoje walizki."
   },
   {
     "id": "a2-part-3-145",
     "ru": "Сколько времени займёт поездка?",
     "ruStressed": "Ско́лько вре́мени займёт пое́здка?",
     "translit": "Skol'ko vremeni zaymyot poyezdka?",
-    "en": "How long will the trip take?"
+    "en": "How long will the trip take?",
+    "pl": "Ile czasu zajmie podróż?"
   },
   {
     "id": "a2-part-3-146",
     "ru": "Музей будет закрыт завтра.",
     "ruStressed": "Музе́й бу́дет закры́т за́втра.",
     "translit": "Muzey budet zakryt zavtra.",
-    "en": "The museum will be closed tomorrow."
+    "en": "The museum will be closed tomorrow.",
+    "pl": "Muzeum będzie jutro zamknięte."
   },
   {
     "id": "a2-part-3-147",
     "ru": "Вы быстро найдёте гостиницу.",
     "ruStressed": "Вы бы́стро найдёте гости́ницу.",
     "translit": "Vy bystro naydyote gostinitsu.",
-    "en": "You will find the hotel quickly."
+    "en": "You will find the hotel quickly.",
+    "pl": "Szybko znajdą Państwo hotel. (formal)"
   },
   {
     "id": "a2-part-3-148",
     "ru": "На какой платформе будет поезд?",
     "ruStressed": "На како́й платфо́рме бу́дет по́езд?",
     "translit": "Na kakoy platforme budet poyezd?",
-    "en": "Which platform will the train be at?"
+    "en": "Which platform will the train be at?",
+    "pl": "Na którym peronie będzie pociąg?"
   },
   {
     "id": "a2-part-3-149",
     "ru": "Посмотри цену билета в приложении.",
     "ruStressed": "Посмотри́ це́ну биле́та в приложе́нии.",
     "translit": "Posmotri tsenu bileta v prilozhenii.",
-    "en": "Check the ticket price in the app."
+    "en": "Check the ticket price in the app.",
+    "pl": "Sprawdź cenę biletu w aplikacji. (informal)"
   },
   {
     "id": "a2-part-3-150",
     "ru": "Мы будем гулять по городу весь день.",
     "ruStressed": "Мы бу́дем гуля́ть по го́роду весь день.",
     "translit": "My budem gulyat' po gorodu ves' den'.",
-    "en": "We will walk around the city all day."
+    "en": "We will walk around the city all day.",
+    "pl": "Będziemy spacerować po mieście cały dzień."
   }
 ]
