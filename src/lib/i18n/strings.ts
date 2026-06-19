@@ -227,7 +227,7 @@ export const STRINGS = {
   "auth.confirmEmail":      { en: "Check your email to confirm your account, then sign in.", pl: "Sprawdź e-mail, aby potwierdzić konto, a następnie zaloguj się." },
   "auth.genericFail":       { en: "Something went wrong",                  pl: "Coś poszło nie tak" },
   "auth.googleFail":        { en: "Google sign-in failed",                 pl: "Logowanie przez Google nie powiodło się" },
-} as const satisfies Record<string, { en: string; pl: string }>;
+} as const satisfies Record<string, { en: string; pl: string; de?: string }>;
 
 export type StringKey = keyof typeof STRINGS;
 
@@ -236,7 +236,7 @@ export function translate(
   key: StringKey,
   vars?: Record<string, string | number>,
 ): string {
-  const entry = STRINGS[key];
+  const entry = STRINGS[key] as Record<string, string> | undefined;
   let text = (entry?.[locale] ?? entry?.en ?? key) as string;
   if (vars) {
     for (const [k, v] of Object.entries(vars)) {
@@ -245,3 +245,4 @@ export function translate(
   }
   return text;
 }
+
