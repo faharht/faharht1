@@ -16,7 +16,7 @@ import { getProgressToNext } from "@/lib/trainer/ranks";
 import { RepsChart } from "@/components/profile/RepsChart";
 import { ChangeGoalDialog } from "@/components/profile/ChangeGoalDialog";
 import { cn } from "@/lib/utils";
-import { useT } from "@/lib/i18n/useT";
+import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
 
 export const Route = createFileRoute("/profile")({
