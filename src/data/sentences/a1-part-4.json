@@ -1085,7 +1085,8 @@
     "ruStressed": "Где река́?",
     "translit": "Gde reka?",
     "en": "Where is the river?",
-    "pl": "Gdzie jest rzeka?"
+    "pl": "Gdzie jest rzeka?",
+    "de": "Wo ist der Fluss?"
   },
   {
     "id": "a1-part-4-122",
@@ -1093,7 +1094,8 @@
     "ruStressed": "Подожди́те здесь.",
     "translit": "Podozhdite zdes.",
     "en": "Wait here.",
-    "pl": "Proszę tu poczekać."
+    "pl": "Proszę tu poczekać.",
+    "de": "Warten Sie hier."
   },
   {
     "id": "a1-part-4-123",
@@ -1101,7 +1103,8 @@
     "ruStressed": "Ка́рта на столе́.",
     "translit": "Karta na stole.",
     "en": "The map is on the table.",
-    "pl": "Mapa jest na stole."
+    "pl": "Mapa jest na stole.",
+    "de": "Die Karte liegt auf dem Tisch."
   },
   {
     "id": "a1-part-4-124",
@@ -1109,7 +1112,8 @@
     "ruStressed": "Мы идём в музе́й?",
     "translit": "My idyom v muzey?",
     "en": "Are we going to the museum?",
-    "pl": "Idziemy do muzeum?"
+    "pl": "Idziemy do muzeum?",
+    "de": "Gehen wir ins Museum?"
   },
   {
     "id": "a1-part-4-125",
@@ -1117,7 +1121,8 @@
     "ruStressed": "Шко́ла нахо́дится сле́ва.",
     "translit": "Shkola nakhoditsya sleva.",
     "en": "The school is on the left.",
-    "pl": "Szkoła jest po lewej."
+    "pl": "Szkoła jest po lewej.",
+    "de": "Die Schule ist links."
   },
   {
     "id": "a1-part-4-126",
@@ -1125,7 +1130,8 @@
     "ruStressed": "Парк нахо́дится спра́ва.",
     "translit": "Park nakhoditsya sprava.",
     "en": "The park is on the right.",
-    "pl": "Park jest po prawej."
+    "pl": "Park jest po prawej.",
+    "de": "Der Park ist rechts."
   },
   {
     "id": "a1-part-4-127",
@@ -1133,7 +1139,8 @@
     "ruStressed": "Вы е́дете в центр?",
     "translit": "Vy yedete v tsentr?",
     "en": "Are you going to the center?",
-    "pl": "Jedziecie do centrum? (plural)"
+    "pl": "Jedziecie do centrum? (plural)",
+    "de": "Fahren Sie ins Zentrum?"
   },
   {
     "id": "a1-part-4-128",
@@ -1141,7 +1148,8 @@
     "ruStressed": "Я иду́ в апте́ку.",
     "translit": "Ya idu v apteku.",
     "en": "I am going to the pharmacy.",
-    "pl": "Idę do apteki."
+    "pl": "Idę do apteki.",
+    "de": "Ich gehe zur Apotheke."
   },
   {
     "id": "a1-part-4-129",
@@ -1149,7 +1157,8 @@
     "ruStressed": "Куда́ идти́ в кафе́?",
     "translit": "Kuda idti v kafe?",
     "en": "Which way to the cafe?",
-    "pl": "Którędy do kawiarni?"
+    "pl": "Którędy do kawiarni?",
+    "de": "Welcher Weg zum Café?"
   },
   {
     "id": "a1-part-4-130",
@@ -1157,7 +1166,8 @@
     "ruStressed": "Я из Пари́жа.",
     "translit": "Ya iz Parizha.",
     "en": "I am from Paris.",
-    "pl": "Jestem z Paryża."
+    "pl": "Jestem z Paryża.",
+    "de": "Ich komme aus Paris."
   },
   {
     "id": "a1-part-4-131",
@@ -1165,7 +1175,8 @@
     "ruStressed": "Ско́лько сто́ит биле́т?",
     "translit": "Skolko stoit bilet?",
     "en": "How much for a ticket?",
-    "pl": "Ile kosztuje bilet?"
+    "pl": "Ile kosztuje bilet?",
+    "de": "Wie viel kostet eine Fahrkarte?"
   },
   {
     "id": "a1-part-4-132",
@@ -1173,7 +1184,8 @@
     "ruStressed": "Он в больни́це.",
     "translit": "On v bolnitse.",
     "en": "He is in the hospital.",
-    "pl": "On jest w szpitalu."
+    "pl": "On jest w szpitalu.",
+    "de": "Er ist im Krankenhaus."
   },
   {
     "id": "a1-part-4-133",
@@ -1181,7 +1193,8 @@
     "ruStressed": "Мы в теа́тре.",
     "translit": "My v teatre.",
     "en": "We are at the theater.",
-    "pl": "Jesteśmy w teatrze."
+    "pl": "Jesteśmy w teatrze.",
+    "de": "Wir sind im Theater."
   },
   {
     "id": "a1-part-4-134",
@@ -1189,7 +1202,8 @@
     "ruStressed": "Иди́те в парк.",
     "translit": "Idite v park.",
     "en": "Go to the park.",
-    "pl": "Proszę iść do parku."
+    "pl": "Proszę iść do parku.",
+    "de": "Gehen Sie in den Park."
   },
   {
     "id": "a1-part-4-135",
@@ -1197,7 +1211,8 @@
     "ruStressed": "Рестора́н откры́т?",
     "translit": "Restoran otkryt?",
     "en": "Is the restaurant open?",
-    "pl": "Czy restauracja jest otwarta?"
+    "pl": "Czy restauracja jest otwarta?",
+    "de": "Ist das Restaurant geöffnet?"
   },
   {
     "id": "a1-part-4-136",
@@ -1205,7 +1220,8 @@
     "ruStressed": "Я на стадио́не.",
     "translit": "Ya na stadione.",
     "en": "I am at the stadium.",
-    "pl": "Jestem na stadionie."
+    "pl": "Jestem na stadionie.",
+    "de": "Ich bin im Stadion."
   },
   {
     "id": "a1-part-4-137",
@@ -1213,7 +1229,8 @@
     "ruStressed": "Библиоте́ка там.",
     "translit": "Biblioteka tam.",
     "en": "The library is there.",
-    "pl": "Biblioteka jest tam."
+    "pl": "Biblioteka jest tam.",
+    "de": "Die Bibliothek ist dort."
   },
   {
     "id": "a1-part-4-138",
@@ -1221,7 +1238,8 @@
     "ruStressed": "Жди́те на остано́вке.",
     "translit": "Zhdite na ostanovke.",
     "en": "Wait at the stop.",
-    "pl": "Proszę czekać na przystanku."
+    "pl": "Proszę czekać na przystanku.",
+    "de": "Warten Sie an der Haltestelle."
   },
   {
     "id": "a1-part-4-139",
@@ -1229,7 +1247,8 @@
     "ruStressed": "Где кни́га?",
     "translit": "Gde kniga?",
     "en": "Where is the book?",
-    "pl": "Gdzie jest książka?"
+    "pl": "Gdzie jest książka?",
+    "de": "Wo ist das Buch?"
   },
   {
     "id": "a1-part-4-140",
@@ -1237,7 +1256,8 @@
     "ruStressed": "Е́дьте ме́дленно.",
     "translit": "Yedte medlenno.",
     "en": "Drive slowly.",
-    "pl": "Proszę jechać powoli."
+    "pl": "Proszę jechać powoli.",
+    "de": "Fahren Sie langsam."
   },
   {
     "id": "a1-part-4-141",
@@ -1245,7 +1265,8 @@
     "ruStressed": "Я иду́ в банк.",
     "translit": "Ya idu v bank.",
     "en": "I am going to the bank.",
-    "pl": "Idę do banku."
+    "pl": "Idę do banku.",
+    "de": "Ich gehe zur Bank."
   },
   {
     "id": "a1-part-4-142",
@@ -1253,7 +1274,8 @@
     "ruStressed": "Отку́да вы прие́хали?",
     "translit": "Otkuda vy priyekhali?",
     "en": "Where are you from?",
-    "pl": "Skąd państwo są? (formal)"
+    "pl": "Skąd państwo są? (formal)",
+    "de": "Woher kommen Sie?"
   },
   {
     "id": "a1-part-4-143",
@@ -1261,7 +1283,8 @@
     "ruStressed": "Парк ря́дом?",
     "translit": "Park ryadom?",
     "en": "Is the park nearby?",
-    "pl": "Czy park jest blisko?"
+    "pl": "Czy park jest blisko?",
+    "de": "Ist der Park in der Nähe?"
   },
   {
     "id": "a1-part-4-144",
@@ -1269,7 +1292,8 @@
     "ruStressed": "Где нахо́дится шко́ла?",
     "translit": "Gde nakhoditsya shkola?",
     "en": "Where is the school?",
-    "pl": "Gdzie jest szkoła?"
+    "pl": "Gdzie jest szkoła?",
+    "de": "Wo ist die Schule?"
   },
   {
     "id": "a1-part-4-145",
@@ -1277,7 +1301,8 @@
     "ruStressed": "Ско́лько здесь остано́вок?",
     "translit": "Skolko zdes ostanovok?",
     "en": "How many stops are there?",
-    "pl": "Ile tu jest przystanków?"
+    "pl": "Ile tu jest przystanków?",
+    "de": "Wie viele Haltestellen gibt es?"
   },
   {
     "id": "a1-part-4-146",
@@ -1285,7 +1310,8 @@
     "ruStressed": "Вы е́дете в парк?",
     "translit": "Vy yedete v park?",
     "en": "Are you going to the park?",
-    "pl": "Jedziecie do parku? (plural)"
+    "pl": "Jedziecie do parku? (plural)",
+    "de": "Fahren Sie in den Park?"
   },
   {
     "id": "a1-part-4-147",
@@ -1293,7 +1319,8 @@
     "ruStressed": "Музе́й сего́дня закры́т.",
     "translit": "Muzey segodnya zakryt?",
     "en": "The museum is closed today.",
-    "pl": "Muzeum jest dzisiaj zamknięte."
+    "pl": "Muzeum jest dzisiaj zamknięte.",
+    "de": "Das Museum ist heute geschlossen."
   },
   {
     "id": "a1-part-4-148",
@@ -1301,7 +1328,8 @@
     "ruStressed": "Где нахо́дится больни́ца?",
     "translit": "Gde nakhoditsya bolnitsa?",
     "en": "Where is the hospital?",
-    "pl": "Gdzie jest szpital?"
+    "pl": "Gdzie jest szpital?",
+    "de": "Wo ist das Krankenhaus?"
   },
   {
     "id": "a1-part-4-149",
@@ -1309,7 +1337,8 @@
     "ruStressed": "Апте́ка нахо́дится сле́ва.",
     "translit": "Apteka nakhoditsya sleva.",
     "en": "The pharmacy is on the left.",
-    "pl": "Apteka jest po lewej."
+    "pl": "Apteka jest po lewej.",
+    "de": "Die Apotheke ist links."
   },
   {
     "id": "a1-part-4-150",
@@ -1317,6 +1346,7 @@
     "ruStressed": "Ры́нок там.",
     "translit": "Rynok tam.",
     "en": "The market is over there.",
-    "pl": "Targ jest tam."
+    "pl": "Targ jest tam.",
+    "de": "Der Markt ist dort drüben."
   }
 ]
