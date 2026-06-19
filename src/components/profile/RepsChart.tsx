@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { todayKey } from "@/lib/trainer/store";
-import { useT } from "@/lib/i18n/useT";
+import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 
 type Range = 14 | 30;
 
