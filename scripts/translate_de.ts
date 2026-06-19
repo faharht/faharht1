@@ -14,8 +14,8 @@ import { join } from "node:path";
 const DATA_DIR = "src/data/sentences";
 const BATCH = 40;
 const CONCURRENCY = 1;
-const REQUEST_DELAY_MS = 500;
-const MODEL = "google/gemini-3-flash-preview";
+const REQUEST_DELAY_MS = 1200;
+const MODEL = "google/gemini-2.5-flash-lite";
 const API = "https://ai.gateway.lovable.dev/v1/chat/completions";
 
 const KEY = process.env.LOVABLE_API_KEY;
