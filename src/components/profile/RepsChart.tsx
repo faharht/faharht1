@@ -50,7 +50,7 @@ export function RepsChart({
             <div className="text-sm font-semibold text-foreground">{t("chart.title")}</div>
             <div className="text-[11px] text-muted-foreground">
               {t("chart.summary", {
-                total: total.toLocaleString(locale === "pl" ? "pl-PL" : "en-US"),
+                total: total.toLocaleString(localeToBCP47(locale)),
                 avg,
                 hit: hitDays,
               })}
