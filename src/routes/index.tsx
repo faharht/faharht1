@@ -144,7 +144,7 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
   return (
     <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm">
       <button
-        onClick={() => setOpen((v) => !v)}
+        onClick={toggle}
         className="flex w-full items-center gap-3 px-4 py-3 text-left"
         aria-expanded={open}
       >
