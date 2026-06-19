@@ -107,8 +107,11 @@ function ListPage() {
 
 
 
-  const trText = (s: { en: string; pl?: string }) =>
-    locale === "pl" && s.pl ? s.pl : s.en;
+  const trText = (s: { en: string; pl?: string; de?: string }) => {
+    if (locale === "pl" && s.pl) return s.pl;
+    if (locale === "de" && s.de) return s.de;
+    return s.en;
+  };
 
   const visibleSentences = useMemo(() => {
     let list = sentences;
@@ -121,6 +124,7 @@ function ListPage() {
           (s.ruStressed?.toLowerCase().includes(q) ?? false) ||
           s.en.toLowerCase().includes(q) ||
           (s.pl?.toLowerCase().includes(q) ?? false) ||
+          (s.de?.toLowerCase().includes(q) ?? false) ||
           (s.translit?.toLowerCase().includes(q) ?? false),
       );
     }
