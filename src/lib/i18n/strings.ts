@@ -1,11 +1,12 @@
 // Tiny i18n: typed string dictionary keyed by an id. No external library.
-// To add a key: declare it on `Strings` and set both `en` and `pl` values.
+// To add a key: declare it on `Strings` and set `en`, `pl`, `de` values.
 
-export type Locale = "en" | "pl";
+export type Locale = "en" | "pl" | "de";
 
 export const LOCALES: { id: Locale; label: string; flag: string }[] = [
   { id: "en", label: "English", flag: "🇬🇧" },
   { id: "pl", label: "Polski", flag: "🇵🇱" },
+  { id: "de", label: "Deutsch", flag: "🇩🇪" },
 ];
 
 export const STRINGS = {
