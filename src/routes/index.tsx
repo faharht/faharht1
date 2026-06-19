@@ -107,10 +107,40 @@ function ExtraCard({ extra, band }: { extra: ListMeta; band: string }) {
   );
 }
 
+const LEVEL_OPEN_STORAGE_KEY = "trainer.levelOpen.v1";
+
+function readLevelOpen(): Record<string, boolean> {
+  if (typeof window === "undefined") return {};
+  try {
+    const raw = window.localStorage.getItem(LEVEL_OPEN_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
 function LevelAccordion({ level }: { level: LevelGroup }) {
   const { t } = useT();
-  const [open, setOpen] = useState(level.id === "A1");
+  const [open, setOpen] = useState<boolean>(() => {
+    const stored = readLevelOpen();
+    if (level.id in stored) return stored[level.id];
+    return level.id === "A1";
+  });
   const tone = TONE_CLASSES[level.tone];
+
+  const toggle = () => {
+    setOpen((v) => {
+      const next = !v;
+      try {
+        const stored = readLevelOpen();
+        stored[level.id] = next;
+        window.localStorage.setItem(LEVEL_OPEN_STORAGE_KEY, JSON.stringify(stored));
+      } catch {
+        // ignore
+      }
+      return next;
+    });
+  };
   return (
     <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm">
       <button
