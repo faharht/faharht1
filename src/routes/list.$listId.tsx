@@ -901,15 +901,18 @@ function GrammarSheet({
   onJump,
 }: {
   pack: GrammarPack;
-  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; pl?: string; translit?: string }>;
+  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; pl?: string; de?: string; translit?: string }>;
   open: boolean;
   onOpenChange: (v: boolean) => void;
   onSpeak: (text: string) => void;
   onJump: (id: string) => void;
 }) {
   const { t, locale } = useT();
-  const trText = (s: { en: string; pl?: string }) =>
-    locale === "pl" && s.pl ? s.pl : s.en;
+  const trText = (s: { en: string; pl?: string; de?: string }) => {
+    if (locale === "pl" && s.pl) return s.pl;
+    if (locale === "de" && s.de) return s.de;
+    return s.en;
+  };
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent side="bottom" className="max-h-[88vh] overflow-y-auto rounded-t-3xl">
