@@ -5,7 +5,8 @@
     "ruStressed": "Я просну́лся сего́дня с си́льной головно́й бо́лью и высо́кой температу́рой.",
     "translit": "Ya prosnulsya segodnya s sil'noy golovnoy bol'yu i vysokoy temperaturoy.",
     "en": "I woke up today with a severe headache and a high fever.",
-    "pl": "Obudziłem się dzisiaj z silnym bólem głowy i wysoką gorączką."
+    "pl": "Obudziłem się dzisiaj z silnym bólem głowy i wysoką gorączką.",
+    "de": "Ich bin heute mit starken Kopfschmerzen und hohem Fieber aufgewacht."
   },
   {
     "id": "b1-part-3-2",
@@ -13,7 +14,8 @@
     "ruStressed": "Где нахо́дится ближа́йшая поликли́ника, в кото́рой мо́жно записа́ться на приём?",
     "translit": "Gde nahoditsya blizhayshaya poliklinika, v kotoroy mozhno zapisat'sya na priyom?",
     "en": "Where is the nearest polyclinic where I can sign up for an appointment?",
-    "pl": "Gdzie jest najbliższa przychodnia, w której mogę zapisać się na wizytę?"
+    "pl": "Gdzie jest najbliższa przychodnia, w której mogę zapisać się na wizytę?",
+    "de": "Wo ist die nächste Poliklinik, in der ich mich für einen Termin anmelden kann?"
   },
   {
     "id": "b1-part-3-3",
@@ -21,7 +23,8 @@
     "ruStressed": "Больно́й о́чень слаб, но его́ дух кре́пок.",
     "translit": "Bol'noy ochen' slab, no ego duh krepok.",
     "en": "The patient is very weak, but his spirit is strong.",
-    "pl": "Pacjent jest bardzo słaby, ale jego duch jest silny."
+    "pl": "Pacjent jest bardzo słaby, ale jego duch jest silny.",
+    "de": "Der Patient ist sehr schwach, aber sein Geist ist stark."
   },
   {
     "id": "b1-part-3-4",
@@ -29,7 +32,8 @@
     "ruStressed": "Принима́йте э́то лека́рство два́жды в день пе́ред едо́й, как сказа́л врач.",
     "translit": "Prinimayte eto lekarstvo dvazhdy v den' pered edoy, kak skazal vrach.",
     "en": "Take this medicine twice a day before meals, as the doctor said.",
-    "pl": "Proszę przyjmować ten lek dwa razy dziennie przed posiłkiem, tak jak powiedział lekarz."
+    "pl": "Proszę przyjmować ten lek dwa razy dziennie przed posiłkiem, tak jak powiedział lekarz.",
+    "de": "Nehmen Sie dieses Medikament zweimal täglich vor den Mahlzeiten ein, wie der Arzt gesagt hat."
   },
   {
     "id": "b1-part-3-5",
@@ -37,7 +41,8 @@
     "ruStressed": "Ребёнок уда́рился коле́ном, и оно́ ста́ло опу́хшим и кра́сным.",
     "translit": "Rebyonok udarilsya kolenom, i ono stalo opuhshim i krasnym.",
     "en": "The child hit his knee and it became swollen and red.",
-    "pl": "Dziecko uderzyło się w kolano, które stało się opuchnięte i czerwone."
+    "pl": "Dziecko uderzyło się w kolano, które stało się opuchnięte i czerwone.",
+    "de": "Das Kind hat sich am Knie gestoßen, und es ist angeschwollen und rot geworden."
   },
   {
     "id": "b1-part-3-6",
@@ -45,7 +50,8 @@
     "ruStressed": "Результа́т ана́лиза гото́в, и он о́чень хоро́ш.",
     "translit": "Rezul'tat analiza gotov, i on ochen' horosh.",
     "en": "The result of the analysis is ready, and it is very good.",
-    "pl": "Wynik analizy jest gotowy i jest bardzo dobry."
+    "pl": "Wynik analizy jest gotowy i jest bardzo dobry.",
+    "de": "Das Analyseergebnis ist fertig, und es ist sehr gut."
   },
   {
     "id": "b1-part-3-7",
@@ -53,7 +59,8 @@
     "ruStressed": "Мне ну́жно обрати́ться к стомато́логу, потому́ что у меня́ си́льно боли́т зуб.",
     "translit": "Mne nuzhno obratit'sya k stomatologu, potomu chto u menya sil'no bolit zub.",
     "en": "I need to see a dentist because my tooth hurts a lot.",
-    "pl": "Muszę iść do dentysty, ponieważ bardzo boli mnie ząb."
+    "pl": "Muszę iść do dentysty, ponieważ bardzo boli mnie ząb.",
+    "de": "Ich muss zum Zahnarzt gehen, weil mein Zahn sehr wehtut."
   },
   {
     "id": "b1-part-3-8",
@@ -61,7 +68,8 @@
     "ruStressed": "Состоя́ние пацие́нта стаби́льно, но ему́ ну́жен по́лный поко́й.",
     "translit": "Sostoyanie patsienta stabil'no, no emu nuzhen polnyy pokoy.",
     "en": "The patient's condition is stable, but he needs complete rest.",
-    "pl": "Stan pacjenta jest stabilny, ale potrzebuje on całkowitego spokoju."
+    "pl": "Stan pacjenta jest stabilny, ale potrzebuje on całkowitego spokoju.",
+    "de": "Der Zustand des Patienten ist stabil, aber er braucht absolute Ruhe."
   },
   {
     "id": "b1-part-3-9",
@@ -69,7 +77,8 @@
     "ruStressed": "Почему́ ты не оде́лся тепло́? Пого́да сего́дня о́чень холодна́.",
     "translit": "Pochemu ty ne odelsya teplo? Pogoda segodnya ochen' holodna.",
     "en": "Why didn't you dress warmly? The weather today is very cold.",
-    "pl": "Dlaczego nie ubrałeś się ciepło? Dzisiaj jest bardzo zimno."
+    "pl": "Dlaczego nie ubrałeś się ciepło? Dzisiaj jest bardzo zimno.",
+    "de": "Warum hast du dich nicht warm angezogen? Das Wetter heute ist sehr kalt."
   },
   {
     "id": "b1-part-3-10",
@@ -77,7 +86,8 @@
     "ruStressed": "Для здоро́вья ва́жно мыть ру́ки пе́ред едо́й не́сколько раз.",
     "translit": "Dlya zdorov'ya vazhno myt' ruki pered edoy neskol'ko raz.",
     "en": "For health, it is important to wash your hands before eating several times.",
-    "pl": "Dla zdrowia ważne jest, aby kilkakrotnie myć ręce przed jedzeniem."
+    "pl": "Dla zdrowia ważne jest, aby kilkakrotnie myć ręce przed jedzeniem.",
+    "de": "Für die Gesundheit ist es wichtig, sich vor dem Essen mehrmals die Hände zu waschen."
   },
   {
     "id": "b1-part-3-11",
@@ -85,7 +95,8 @@
     "ruStressed": "Он сли́шком мо́лод для таки́х тяжёлых физи́ческих нагру́зок.",
     "translit": "On slishkom molod dlya takih tyazhyolyh fizicheskih nagruzok.",
     "en": "He is too young for such heavy physical activity.",
-    "pl": "On jest za młody na tak duży wysiłek fizyczny."
+    "pl": "On jest za młody na tak duży wysiłek fizyczny.",
+    "de": "Er ist zu jung für eine so schwere körperliche Belastung."
   },
   {
     "id": "b1-part-3-12",
@@ -93,7 +104,8 @@
     "ruStressed": "Ра́на глубока́, поэ́тому нам ну́жно неме́дленно вы́звать ско́рую по́мощь.",
     "translit": "Rana gluboka, poetomu nam nuzhno nemedlenno vyzvat' skoruyu pomoshch'.",
     "en": "The wound is deep, so we need to call an ambulance immediately.",
-    "pl": "Rana jest głęboka, więc musimy natychmiast wezwać karetkę."
+    "pl": "Rana jest głęboka, więc musimy natychmiast wezwać karetkę.",
+    "de": "Die Wunde ist tief, deshalb müssen wir sofort einen Krankenwagen rufen."
   },
   {
     "id": "b1-part-3-13",
@@ -101,7 +113,8 @@
     "ruStressed": "Как ты себя́ чу́вствуешь по́сле приёма э́тих но́вых го́рьких табле́ток?",
     "translit": "Kak ty sebya chuvstvuyesh' posle priyoma etih novyh gor'kih tabletok.",
     "en": "How do you feel after taking these new bitter pills?",
-    "pl": "Jak się czujesz po zażyciu tych nowych gorzkich tabletek?"
+    "pl": "Jak się czujesz po zażyciu tych nowych gorzkich tabletek?",
+    "de": "Wie fühlst du dich nach der Einnahme dieser neuen bitteren Tabletten?"
   },
   {
     "id": "b1-part-3-14",
@@ -109,7 +122,8 @@
     "ruStressed": "У меня́ постоя́нно боли́т спина́, потому́ что я до́лго сижу́ за компью́тером.",
     "translit": "U menya postoyanno bolit spina, potomu chto ya dolgo sizhu za komp'yuterom.",
     "en": "My back constantly hurts because I sit for a long time at the computer.",
-    "pl": "Plecy stale mnie bolą, ponieważ długo siedzę przy komputerze."
+    "pl": "Plecy stale mnie bolą, ponieważ długo siedzę przy komputerze.",
+    "de": "Mein Rücken tut ständig weh, weil ich lange am Computer sitze."
   },
   {
     "id": "b1-part-3-15",
@@ -117,7 +131,8 @@
     "ruStressed": "Э́тот ма́льчик о́чень умён и акти́вен, и его́ здоро́вье прекра́сно.",
     "translit": "Etot mal'chik ochen' umyon i aktiven, i ego zdorov'ye prekrasno.",
     "en": "This boy is very smart and active, and his health is excellent.",
-    "pl": "Ten chłopiec jest bardzo mądry i aktywny, a jego zdrowie jest doskonałe."
+    "pl": "Ten chłopiec jest bardzo mądry i aktywny, a jego zdrowie jest doskonałe.",
+    "de": "Dieser Junge ist sehr klug und aktiv, und seine Gesundheit ist ausgezeichnet."
   },
   {
     "id": "b1-part-3-16",
@@ -125,7 +140,8 @@
     "ruStressed": "Я наде́юсь, что ско́ро вы́здоровею и верну́сь к рабо́те.",
     "translit": "Ya nadeyus', chto skoro vyzdoroveyu i vernus' k rabote.",
     "en": "I hope that I will recover quickly and return to work.",
-    "pl": "Mam nadzieję, że szybko wyzdrowieję i wrócę do pracy."
+    "pl": "Mam nadzieję, że szybko wyzdrowieję i wrócę do pracy.",
+    "de": "Ich hoffe, dass ich mich schnell erhole und zur Arbeit zurückkehre."
   },
   {
     "id": "b1-part-3-17",
@@ -133,7 +149,8 @@
     "ruStressed": "Медсестра́ улыбну́лась и сказа́ла, что опера́ция прошла́ успе́шно.",
     "translit": "Medsestra ulybnulas' i skazala, chto operatsiya proshla uspeshno.",
     "en": "The nurse smiled and said that the operation was successful.",
-    "pl": "Pielęgniarka uśmiechnęła się i powiedziała, że operacja się udała."
+    "pl": "Pielęgniarka uśmiechnęła się i powiedziała, że operacja się udała.",
+    "de": "Die Krankenschwester lächelte und sagte, dass die Operation erfolgreich war."
   },
   {
     "id": "b1-part-3-18",
@@ -141,7 +158,8 @@
     "ruStressed": "Твои́ глаза́ о́чень красны́, возмо́жно, у тебя́ кака́я-то аллерги́я.",
     "translit": "Tvoi glaza ochen' krasny, vozmozhno, u tebya kakaya-to allergiya.",
     "en": "Your eyes are very red; perhaps you have some kind of allergy.",
-    "pl": "Twoje oczy są bardzo czerwone; być może masz jakąś alergię."
+    "pl": "Twoje oczy są bardzo czerwone; być może masz jakąś alergię.",
+    "de": "Deine Augen sind sehr rot; vielleicht hast du eine Art Allergie."
   },
   {
     "id": "b1-part-3-19",
@@ -149,7 +167,8 @@
     "ruStressed": "Э́то лека́рство запрещено́ для дете́й мла́дше двена́дцати лет.",
     "translit": "Eto lekarstvo zapreshcheno dlya detey mladshe dvenadtsati let.",
     "en": "This medicine is prohibited for children under twelve years old.",
-    "pl": "Ten lek jest zabroniony dla dzieci poniżej dwunastego roku życia."
+    "pl": "Ten lek jest zabroniony dla dzieci poniżej dwunastego roku życia.",
+    "de": "Dieses Medikament ist für Kinder unter zwölf Jahren verboten."
   },
   {
     "id": "b1-part-3-20",
@@ -157,7 +176,8 @@
     "ruStressed": "Он всегда́ бре́ется по утра́м пе́ред тем, как идти́ в кли́нику.",
     "translit": "On vsegda breyetsya po utram pered tem, kak idti v kliniku.",
     "en": "He always shaves in the morning before going to the clinic.",
-    "pl": "On zawsze goli się rano przed wyjściem do kliniki."
+    "pl": "On zawsze goli się rano przed wyjściem do kliniki.",
+    "de": "Er rasiert sich morgens immer, bevor er in die Klinik geht."
   },
   {
     "id": "b1-part-3-21",
@@ -165,7 +185,8 @@
     "ruStressed": "Врач сейча́с за́нят, но он бу́дет свобо́ден че́рез де́сять мину́т.",
     "translit": "Vrach seychas zanyat, no on budet svoboden cherez desyat' minut.",
     "en": "The doctor is busy now, but he will be free in ten minutes.",
-    "pl": "Lekarz jest teraz zajęty, ale będzie wolny za dziesięć minut."
+    "pl": "Lekarz jest teraz zajęty, ale będzie wolny za dziesięć minut.",
+    "de": "Der Arzt ist gerade beschäftigt, aber er wird in zehn Minuten frei sein."
   },
   {
     "id": "b1-part-3-22",
@@ -173,7 +194,8 @@
     "ruStressed": "Не волну́йтесь, ме́стная анестези́я начнёт де́йствовать о́чень ско́ро.",
     "translit": "Ne volnuytes', mestnaya anesteziya nachnyot deystvovat' ochen' skoro.",
     "en": "Don't worry, the local anesthetic will start working very soon.",
-    "pl": "Proszę się nie martwić, znieczulenie miejscowe zacznie działać bardzo szybko."
+    "pl": "Proszę się nie martwić, znieczulenie miejscowe zacznie działać bardzo szybko.",
+    "de": "Keine Sorge, die örtliche Betäubung wird sehr bald wirken."
   },
   {
     "id": "b1-part-3-23",
@@ -181,7 +203,8 @@
     "ruStressed": "Ребёнок сно́ва здоро́в и гото́в идти́ в де́тский сад.",
     "translit": "Rebyonok snova zdorov i gotov idti v detskiy sad.",
     "en": "The child is healthy again and ready to go to kindergarten.",
-    "pl": "Dziecko jest znowu zdrowe i gotowe do pójścia do przedszkola."
+    "pl": "Dziecko jest znowu zdrowe i gotowe do pójścia do przedszkola.",
+    "de": "Das Kind ist wieder gesund und bereit, in den Kindergarten zu gehen."
   },
   {
     "id": "b1-part-3-24",
@@ -189,7 +212,8 @@
     "ruStressed": "Лу́чше измеря́ть давле́ние, пока́ вы споко́йно сиди́те на сту́ле.",
     "translit": "Luchshe izmeryat' davlenie, poka vy spokoyno sidite na stule.",
     "en": "It is better to measure the pressure while you are sitting calmly.",
-    "pl": "Lepiej mierzyć ciśnienie, siedząc spokojnie."
+    "pl": "Lepiej mierzyć ciśnienie, siedząc spokojnie.",
+    "de": "Es ist besser, den Blutdruck zu messen, während man ruhig sitzt."
   },
   {
     "id": "b1-part-3-25",
@@ -197,7 +221,8 @@
     "ruStressed": "Ка́ждое у́тро я умыва́юсь холо́дной водо́й, что́бы просну́ться.",
     "translit": "Kazhdoye utro ya umyvayus' holodnoy vodoy, chtoby prosnut'sya.",
     "en": "Every morning I wash my face with cold water to wake up.",
-    "pl": "Każdego ranka myję twarz zimną wodą, aby się obudzić."
+    "pl": "Każdego ranka myję twarz zimną wodą, aby się obudzić.",
+    "de": "Jeden Morgen wasche ich mein Gesicht mit kaltem Wasser, um wach zu werden."
   },
   {
     "id": "b1-part-3-26",
@@ -205,7 +230,8 @@
     "ruStressed": "Я наде́юсь, что ваш оте́ц уже́ здоро́в и чу́вствует себя́ намно́го лу́чше.",
     "translit": "Ya nadeyus, chto vash otets uzhe zdorov i chuvstvuet sebya namnogo luchshe.",
     "en": "I hope that your father is already healthy and feels much better.",
-    "pl": "Mam nadzieję, że pana ojciec jest już zdrowy i czuje się znacznie lepiej."
+    "pl": "Mam nadzieję, że pana ojciec jest już zdrowy i czuje się znacznie lepiej.",
+    "de": "Ich hoffe, dass Ihr Vater bereits gesund ist und sich viel besser fühlt."
   },
   {
     "id": "b1-part-3-27",
@@ -213,7 +239,8 @@
     "ruStressed": "Терапе́вт о́чень о́пытен, и её сове́ты всегда́ поле́зны и кра́тки.",
     "translit": "Terapevt ochen opyten, i eyo sovety vsegda polezny i kratki.",
     "en": "The therapist is very experienced, and her advice is always helpful and short.",
-    "pl": "Internistka jest bardzo doświadczona, a jej rady są zawsze pomocne i zwięzłe."
+    "pl": "Internistka jest bardzo doświadczona, a jej rady są zawsze pomocne i zwięzłe.",
+    "de": "Die Therapeutin ist sehr erfahren, und ihre Ratschläge sind immer hilfreich und kurz."
   },
   {
     "id": "b1-part-3-28",
@@ -221,7 +248,8 @@
     "ruStressed": "Е́сли вы беспоко́итесь, лу́чше посове́товаться со специали́стом пря́мо сейча́с.",
     "translit": "Esli vy bespokoites, luchshe posovetovat 'sya so spetsialistom pryamo seychas.",
     "en": "If you are worried, it is better to consult a specialist right now.",
-    "pl": "Jeśli się pan niepokoi, lepiej skonsultować się ze specjalistą już teraz."
+    "pl": "Jeśli się pan niepokoi, lepiej skonsultować się ze specjalistą już teraz.",
+    "de": "Wenn Sie besorgt sind, ist es besser, jetzt gleich einen Spezialisten zu konsultieren."
   },
   {
     "id": "b1-part-3-29",
@@ -229,7 +257,8 @@
     "ruStressed": "Э́тот хиру́рг изве́стен на весь мир, потому́ что его́ тала́нт пои́стине вели́к.",
     "translit": "Etot khirurg izvesten na ves mir, potomu chto ego talant poistine velik.",
     "en": "This surgeon is world-famous because his talent is truly great.",
-    "pl": "Ten chirurg jest znany na całym świecie, ponieważ jego talent jest naprawdę wielki."
+    "pl": "Ten chirurg jest znany na całym świecie, ponieważ jego talent jest naprawdę wielki.",
+    "de": "Dieser Chirurg ist weltberühmt, weil sein Talent wirklich groß ist."
   },
   {
     "id": "b1-part-3-30",
@@ -237,7 +266,8 @@
     "ruStressed": "Ваш сын о́чень смел, он да́же не пла́кал во вре́мя приви́вки.",
     "translit": "Vash syn ochen smel, on dazhe ne plakal vo vremya privivki.",
     "en": "Your son is very brave, he didn't even cry during the vaccination.",
-    "pl": "Pana syn jest bardzo dzielny, nawet nie płakał podczas szczepienia."
+    "pl": "Pana syn jest bardzo dzielny, nawet nie płakał podczas szczepienia.",
+    "de": "Ihr Sohn ist sehr tapfer, er hat während der Impfung nicht einmal geweint."
   },
   {
     "id": "b1-part-3-31",
@@ -245,7 +275,8 @@
     "ruStressed": "Вы ча́сто занима́етесь спорти́вными тра́вмами и́ли то́лько обы́чными просту́дами?",
     "translit": "Vy chasto zanimayetes sportivnymi travmami ili tolko obychnymi prostudami?",
     "en": "Do you often deal with sports injuries or just common colds?",
-    "pl": "Czy często zajmuje się pan urazami sportowymi, czy tylko zwykłymi przeziębieniami?"
+    "pl": "Czy często zajmuje się pan urazami sportowymi, czy tylko zwykłymi przeziębieniami?",
+    "de": "Haben Sie oft mit Sportverletzungen zu tun oder nur mit gewöhnlichen Erkältungen?"
   },
   {
     "id": "b1-part-3-32",
@@ -253,7 +284,8 @@
     "ruStressed": "Наш де́душка всё ещё акти́вен и энерги́чен, несмотря́ на прекло́нный во́зраст.",
     "translit": "Nash dedushka vsyo eshcho aktiven i energichen, nesmotrya na preklonny vozrast.",
     "en": "Our grandpa is still active and energetic, despite his old age.",
-    "pl": "Nasz dziadek jest wciąż aktywny i energiczny, mimo podeszłego wieku."
+    "pl": "Nasz dziadek jest wciąż aktywny i energiczny, mimo podeszłego wieku.",
+    "de": "Unser Opa ist trotz seines hohen Alters immer noch aktiv und energisch."
   },
   {
     "id": "b1-part-3-33",
@@ -261,7 +293,8 @@
     "ruStressed": "Пульс больно́го част, но его́ дыха́ние ро́вно и споко́йно.",
     "translit": "Puls bolnogo chast, no ego dykhanie rovno i spokoyno.",
     "en": "The patient's pulse is fast, but his breathing is even and calm.",
-    "pl": "Tętno pacjenta jest szybkie, ale jego oddech jest równy i spokojny."
+    "pl": "Tętno pacjenta jest szybkie, ale jego oddech jest równy i spokojny.",
+    "de": "Der Puls des Patienten ist schnell, aber seine Atmung ist gleichmäßig und ruhig."
   },
   {
     "id": "b1-part-3-34",
@@ -269,7 +302,8 @@
     "ruStressed": "Я хоте́л записа́ться на масса́ж, но кли́ника оказа́лась закры́та.",
     "translit": "Ya khotel zapisatsya na massazh, no klinika okazalas zakryta.",
     "en": "I wanted to sign up for a massage, but the clinic was closed.",
-    "pl": "Chciałem zapisać się na masaż, ale klinika była zamknięta."
+    "pl": "Chciałem zapisać się na masaż, ale klinika była zamknięta.",
+    "de": "Ich wollte mich für eine Massage anmelden, aber die Klinik war geschlossen."
   },
   {
     "id": "b1-part-3-35",
@@ -277,7 +311,8 @@
     "ruStressed": "Медсестра́ попроси́ла меня́ разде́ться до по́яса для проведе́ния осмо́тра.",
     "translit": "Medsestra poprosila menya razdetsya do poyasa dlya provedeniya osmotra.",
     "en": "The nurse asked me to undress to the waist for the examination.",
-    "pl": "Pielęgniarka poprosiła mnie o rozebranie się do pasa do badania."
+    "pl": "Pielęgniarka poprosiła mnie o rozebranie się do pasa do badania.",
+    "de": "Die Krankenschwester bat mich, mich für die Untersuchung bis zur Taille auszuziehen."
   },
   {
     "id": "b1-part-3-36",
@@ -285,7 +320,8 @@
     "ruStressed": "Э́то лека́рство эффекти́вно, хотя́ его́ вкус не́сколько неприя́тен и го́рек.",
     "translit": "Eto lekarstvo effektivno, khotya ego vkus neskolko nepriyaten i gorek.",
     "en": "This medicine is effective, although its taste is somewhat unpleasant and bitter.",
-    "pl": "Ten lek jest skuteczny, chociaż jego smak jest nieco nieprzyjemny i gorzki."
+    "pl": "Ten lek jest skuteczny, chociaż jego smak jest nieco nieprzyjemny i gorzki.",
+    "de": "Dieses Medikament ist wirksam, obwohl sein Geschmack etwas unangenehm und bitter ist."
   },
   {
     "id": "b1-part-3-37",
@@ -293,7 +329,8 @@
     "ruStressed": "Мне ну́жно встре́титься с врачо́м, что́бы поговори́ть о пла́не лече́ния.",
     "translit": "Mne nuzhno vstretitsya s vrachom, chtoby pogovorit o plane lecheniya.",
     "en": "I need to meet with the doctor to talk about the treatment.",
-    "pl": "Muszę spotkać się z lekarzem, aby porozmawiać o leczeniu."
+    "pl": "Muszę spotkać się z lekarzem, aby porozmawiać o leczeniu.",
+    "de": "Ich muss mich mit dem Arzt treffen, um über die Behandlung zu sprechen."
   },
   {
     "id": "b1-part-3-38",
@@ -301,7 +338,8 @@
     "ruStressed": "Де́вушка о́чень краси́ва и стройна́, потому́ что она́ трениру́ется ка́ждый день.",
     "translit": "Devushka ochen krasiva i stroyna, potomu chto ona treniruetsya kazhdy den.",
     "en": "The girl is very beautiful and slim, because she exercises every day.",
-    "pl": "Dziewczyna jest bardzo ładna i szczupła, ponieważ codziennie ćwiczy."
+    "pl": "Dziewczyna jest bardzo ładna i szczupła, ponieważ codziennie ćwiczy.",
+    "de": "Das Mädchen ist sehr schön und schlank, weil sie jeden Tag trainiert."
   },
   {
     "id": "b1-part-3-39",
@@ -309,7 +347,8 @@
     "ruStressed": "Пра́вда ли, что отделе́ние кардиоло́гии нахо́дится на тре́тьем этаже́?",
     "translit": "Pravda li, chto otdelenie kardiologii nakhoditsya na tretem etazhe?",
     "en": "Is it true that the cardiology department is located on the third floor?",
-    "pl": "Czy to prawda, że oddział kardiologii znajduje się na trzecim piętrze?"
+    "pl": "Czy to prawda, że oddział kardiologii znajduje się na trzecim piętrze?",
+    "de": "Ist es wahr, dass sich die Kardiologieabteilung im dritten Stock befindet?"
   },
   {
     "id": "b1-part-3-40",
@@ -317,7 +356,8 @@
     "ruStressed": "Де́душка был дово́лен лече́нием и верну́лся домо́й вчера́.",
     "translit": "Dedushka byl dovolen lecheniem i vernulsya domoy vchera.",
     "en": "The grandfather was satisfied with the treatment and returned home yesterday.",
-    "pl": "Dziadek był zadowolony z leczenia i wrócił wczoraj do domu."
+    "pl": "Dziadek był zadowolony z leczenia i wrócił wczoraj do domu.",
+    "de": "Der Großvater war mit der Behandlung zufrieden und ist gestern nach Hause zurückgekehrt."
   },
   {
     "id": "b1-part-3-41",
@@ -325,7 +365,8 @@
     "ruStressed": "Пацие́нт нахо́дится в созна́нии, и его́ речь ясна́ и поня́тна.",
     "translit": "Patsient nakhoditsya v soznanii, i ego rech yasna i ponyatna.",
     "en": "The patient is conscious and his speech is clear and understandable.",
-    "pl": "Pacjent jest przytomny, a jego mowa jest wyraźna i zrozumiała."
+    "pl": "Pacjent jest przytomny, a jego mowa jest wyraźna i zrozumiała.",
+    "de": "Der Patient ist bei Bewusstsein und seine Sprache ist klar und verständlich."
   },
   {
     "id": "b1-part-3-42",
@@ -333,7 +374,8 @@
     "ruStressed": "Постара́йтесь не волнова́ться, стресс о́чень вре́ден для ва́шего се́рдца.",
     "translit": "Postaraytes ne volnovatsya, stress ochen vreden dlya vashego serdtsa.",
     "en": "Try not to worry, stress is very harmful to your heart.",
-    "pl": "Proszę się nie martwić, stres jest bardzo szkodliwy dla Pana/Pani serca."
+    "pl": "Proszę się nie martwić, stres jest bardzo szkodliwy dla Pana/Pani serca.",
+    "de": "Versuchen Sie, sich keine Sorgen zu machen, Stress ist sehr schädlich für Ihr Herz."
   },
   {
     "id": "b1-part-3-43",
@@ -341,7 +383,8 @@
     "ruStressed": "Я причёсываюсь ка́ждое утро пе́ред тем, как идти́ в больни́цу.",
     "translit": "Ya prichyosyvayus kazhdoe utro pered tem, kak idti v bolnitsu.",
     "en": "I comb my hair every morning before I go to the hospital.",
-    "pl": "Czeszę się każdego ranka, zanim pójdę do szpitala."
+    "pl": "Czeszę się każdego ranka, zanim pójdę do szpitala.",
+    "de": "Ich kämme mir jeden Morgen die Haare, bevor ich ins Krankenhaus gehe."
   },
   {
     "id": "b1-part-3-44",
@@ -349,7 +392,8 @@
     "ruStressed": "Его́ взгляд серьёзен, потому́ что он зна́ет, что боле́знь опа́сна.",
     "translit": "Ego vzglyad seryozen, potomu chto on znaet, chto bolezn opasna.",
     "en": "His look is serious because he knows that the disease is dangerous.",
-    "pl": "Jego spojrzenie jest poważne, ponieważ wie, że choroba jest niebezpieczna."
+    "pl": "Jego spojrzenie jest poważne, ponieważ wie, że choroba jest niebezpieczna.",
+    "de": "Sein Blick ist ernst, weil er weiß, dass die Krankheit gefährlich ist."
   },
   {
     "id": "b1-part-3-45",
@@ -357,7 +401,8 @@
     "ruStressed": "Мой друг заинтересова́лся йо́гой и тепе́рь он чу́вствует себя́ чуде́сно.",
     "translit": "Moy drug zainteresovalsya yogoy i teper on chuvstvuet sebya chudesno.",
     "en": "My friend was interested in yoga and now he feels wonderful.",
-    "pl": "Mój przyjaciel zainteresował się jogą i teraz czuje się cudownie."
+    "pl": "Mój przyjaciel zainteresował się jogą i teraz czuje się cudownie.",
+    "de": "Mein Freund hat sich für Yoga interessiert und jetzt fühlt er sich wunderbar."
   },
   {
     "id": "b1-part-3-46",
@@ -365,7 +410,8 @@
     "ruStressed": "Вода́ в бассе́йне чиста́ и тепла́, она́ поле́зна для ко́жи.",
     "translit": "Voda v basseyne chista i tepla, ona polezna dlya kozhi.",
     "en": "The water in the pool is clean and warm, it is good for the skin.",
-    "pl": "Woda w basenie jest czysta i ciepła, jest dobra dla skóry."
+    "pl": "Woda w basenie jest czysta i ciepła, jest dobra dla skóry.",
+    "de": "Das Wasser im Pool ist sauber und warm, es ist gut für die Haut."
   },
   {
     "id": "b1-part-3-47",
@@ -373,7 +419,8 @@
     "ruStressed": "Врач улыбну́лся и сказа́л: «Ва́ше выздоровле́ние близко́, не пережива́йте».",
     "translit": "Vrach ulybnulsya i skazal: \"Vashe vyzdorovlenie blizko, ne perezhivayte\".",
     "en": "The doctor smiled and said: \"Your recovery is close, don't worry.\"",
-    "pl": "Lekarz uśmiechnął się i powiedział: „Pana/Pani wyzdrowienie jest bliskie, proszę się nie martwić”."
+    "pl": "Lekarz uśmiechnął się i powiedział: „Pana/Pani wyzdrowienie jest bliskie, proszę się nie martwić”.",
+    "de": "Der Arzt lächelte und sagte: „Ihre Genesung ist nah, machen Sie sich keine Sorgen.“"
   },
   {
     "id": "b1-part-3-48",
@@ -381,7 +428,8 @@
     "ruStressed": "Я ре́дко боле́ю, потому́ что одева́юсь по пого́де.",
     "translit": "Ya redko boleyu, potomu chto odevayus po pogode.",
     "en": "I rarely get sick because I dress according to the weather.",
-    "pl": "Rzadko choruję, ponieważ ubieram się stosownie do pogody."
+    "pl": "Rzadko choruję, ponieważ ubieram się stosownie do pogody.",
+    "de": "Ich werde selten krank, weil ich mich dem Wetter entsprechend kleide."
   },
   {
     "id": "b1-part-3-49",
@@ -389,7 +437,8 @@
     "ruStressed": "Ребёнок испуга́лся уко́ла, но бы́стро успоко́ился по́сле конфе́ты.",
     "translit": "Rebyonok ispugalsya ukola, no bystro uspokoilsya posle konfety.",
     "en": "The child was afraid of the injection, but quickly calmed down after a candy.",
-    "pl": "Dziecko bało się zastrzyku, ale szybko uspokoiło się po cukierku."
+    "pl": "Dziecko bało się zastrzyku, ale szybko uspokoiło się po cukierku.",
+    "de": "Das Kind hatte Angst vor der Spritze, beruhigte sich aber nach einer Süßigkeit schnell."
   },
   {
     "id": "b1-part-3-50",
@@ -397,7 +446,8 @@
     "ruStressed": "Зи́мний во́здух свеж и хо́лоден, поэ́тому нам ну́жно бере́чь здоро́вье.",
     "translit": "Zimniy vozdukh svezh i kholoden, poetomu nam nuzhno berech zdorove.",
     "en": "The winter air is fresh and cold, so we need to stay healthy.",
-    "pl": "Zimowe powietrze jest świeże i mroźne, więc musimy dbać o zdrowie."
+    "pl": "Zimowe powietrze jest świeże i mroźne, więc musimy dbać o zdrowie.",
+    "de": "Die Winterluft ist frisch und kalt, deshalb müssen wir gesund bleiben."
   },
   {
     "id": "b1-part-3-51",
@@ -405,7 +455,8 @@
     "ruStressed": "Вам сле́дует ча́ще мыть ру́ки, что́бы не зарази́ться ви́русом.",
     "translit": "Vam sleduet chashche myt' ruki, chtoby ne zarazit'sya virusom.",
     "en": "You should wash your hands more often to avoid getting sick.",
-    "pl": "Powinieneś/Powinnaś częściej myć ręce, aby uniknąć choroby."
+    "pl": "Powinieneś/Powinnaś częściej myć ręce, aby uniknąć choroby.",
+    "de": "Sie sollten sich öfter die Hände waschen, um nicht krank zu werden."
   },
   {
     "id": "b1-part-3-52",
@@ -413,7 +464,8 @@
     "ruStressed": "Трениро́вка была́ сло́жной, и тепе́рь у меня́ боля́т мы́шцы спины́.",
     "translit": "Trenirovka byla slozhnoy, i teper' u menya bolyat myshtsy spiny.",
     "en": "The training was difficult, and now my back muscles ache.",
-    "pl": "Trening był trudny i teraz bolą mnie mięśnie pleców."
+    "pl": "Trening był trudny i teraz bolą mnie mięśnie pleców.",
+    "de": "Das Training war schwierig, und jetzt schmerzen meine Rückenmuskeln."
   },
   {
     "id": "b1-part-3-53",
@@ -421,7 +473,8 @@
     "ruStressed": "Мой брат о́чень силён, но сего́дня он уста́л по́сле рабо́ты.",
     "translit": "Moy brat ochen' silyon, no segodnya on ustal posle raboty.",
     "en": "My brother is very strong, but today he is tired after work.",
-    "pl": "Mój brat jest bardzo silny, ale dzisiaj jest zmęczony po pracy."
+    "pl": "Mój brat jest bardzo silny, ale dzisiaj jest zmęczony po pracy.",
+    "de": "Mein Bruder ist sehr stark, aber heute ist er nach der Arbeit müde."
   },
   {
     "id": "b1-part-3-54",
@@ -429,7 +482,8 @@
     "ruStressed": "Я реши́л записа́ться на йо́гу, что́бы улу́чшить свою́ ги́бкость.",
     "translit": "Ya reshyl zapisat'sya na yogu, chtoby uluchshit' svoyu gibkost'.",
     "en": "I decided to sign up for yoga to improve my flexibility.",
-    "pl": "Zdecydowałem się zapisać na jogę, aby poprawić swoją elastyczność."
+    "pl": "Zdecydowałem się zapisać na jogę, aby poprawić swoją elastyczność.",
+    "de": "Ich habe mich entschieden, mich für Yoga anzumelden, um meine Flexibilität zu verbessern."
   },
   {
     "id": "b1-part-3-55",
@@ -437,7 +491,8 @@
     "ruStressed": "Как вы себя́ чу́вствуете по́сле приё́ма э́того но́вого лека́рства?",
     "translit": "Kak vy sebya chuvstvuete posle priyoma etogo novogo lekarstva?",
     "en": "How do you feel after taking this new medicine?",
-    "pl": "Jak się Pan/Pani czuje po zażyciu tego nowego leku?"
+    "pl": "Jak się Pan/Pani czuje po zażyciu tego nowego leku?",
+    "de": "Wie fühlen Sie sich nach der Einnahme dieses neuen Medikaments?"
   },
   {
     "id": "b1-part-3-56",
@@ -445,7 +500,8 @@
     "ruStressed": "Диа́гноз ве́рен, но нам нужны́ дополни́тельные ана́лизы для подтвержде́ния.",
     "translit": "Diagnoz veren, no nam nuzhny dopolnitel'nye analizy dlya podtverzhdeniya.",
     "en": "The diagnosis is correct, but we need more tests for confirmation.",
-    "pl": "Diagnoza jest trafna, ale potrzebujemy więcej badań dla potwierdzenia."
+    "pl": "Diagnoza jest trafna, ale potrzebujemy więcej badań dla potwierdzenia.",
+    "de": "Die Diagnose ist korrekt, aber wir benötigen weitere Tests zur Bestätigung."
   },
   {
     "id": "b1-part-3-57",
@@ -453,7 +509,8 @@
     "ruStressed": "Ребё́нок бы́стро отвлё́кся и переста́л пла́кать по́сле процеду́ры.",
     "translit": "Rebyonok bystro otvlyoksya i perestal plakat' posle protsedury.",
     "en": "The child was quickly distracted and stopped crying after the procedure.",
-    "pl": "Dziecko szybko się rozproszyło i przestało płakać po zabiegu."
+    "pl": "Dziecko szybko się rozproszyło i przestało płakać po zabiegu.",
+    "de": "Das Kind war schnell abgelenkt und hörte nach dem Eingriff auf zu weinen."
   },
   {
     "id": "b1-part-3-58",
@@ -461,7 +518,8 @@
     "ruStressed": "Ва́ше се́рдце здоро́во, но вам сто́ит пить ме́ньше ко́фе.",
     "translit": "Vashe serdtse zdorovo, no vam stoit pit' men'she kofe.",
     "en": "Your heart is healthy, but you should cut down on coffee.",
-    "pl": "Pana/Pani serce jest zdrowe, ale należy ograniczyć kawę."
+    "pl": "Pana/Pani serce jest zdrowe, ale należy ograniczyć kawę.",
+    "de": "Ihr Herz ist gesund, aber Sie sollten den Kaffeekonsum einschränken."
   },
   {
     "id": "b1-part-3-59",
@@ -469,7 +527,8 @@
     "ruStressed": "Когда́ у вас на́чал боле́ть живо́т и где и́менно боли́т?",
     "translit": "Kogda u vas nachal bolet' zhivot i gde imenno bolit?",
     "en": "When did your stomach start hurting, and where exactly is the pain?",
-    "pl": "Kiedy zaczął Pana/Panią boleć brzuch i gdzie dokładnie jest ten ból?"
+    "pl": "Kiedy zaczął Pana/Panią boleć brzuch i gdzie dokładnie jest ten ból?",
+    "de": "Wann hat Ihr Magen angefangen wehzutun, und wo genau ist der Schmerz?"
   },
   {
     "id": "b1-part-3-60",
@@ -477,7 +536,8 @@
     "ruStressed": "Спортсме́н был быстр и ло́вок, что помогло́ ему́ победи́ть.",
     "translit": "Sportsmen byl bystr i lovok, chto pomoglo emu pobedit'.",
     "en": "The athlete was fast and agile, which helped him win.",
-    "pl": "Sportowiec był szybki i zwinny, co pomogło mu wygrać."
+    "pl": "Sportowiec był szybki i zwinny, co pomogło mu wygrać.",
+    "de": "Der Athlet war schnell und wendig, was ihm zum Sieg verhalf."
   },
   {
     "id": "b1-part-3-61",
@@ -485,7 +545,8 @@
     "ruStressed": "У меня́ аллерги́я на пыль, поэ́тому я ча́сто чиха́ю в э́той ко́мнате.",
     "translit": "U menya allergiya na pyl', poetomu ya chasto chikhayu v etoy komnate.",
     "en": "I am allergic to dust, so I often sneeze in this room.",
-    "pl": "Mam alergię na kurz, więc często kicham w tym pokoju."
+    "pl": "Mam alergię na kurz, więc często kicham w tym pokoju.",
+    "de": "Ich bin allergisch gegen Staub, deshalb niese ich oft in diesem Raum."
   },
   {
     "id": "b1-part-3-62",
@@ -493,7 +554,8 @@
     "ruStressed": "Вы вы́глядите споко́йно, но вам сле́дует изме́рить артериа́льное давле́ние.",
     "translit": "Vy vyglyadite spokoyno, no vam sleduet izmerit' arterial'noe davlenie.",
     "en": "You look calm, but you should measure your blood pressure.",
-    "pl": "Wygląda Pan/Pani spokojnie, ale należy zmierzyć ciśnienie krwi."
+    "pl": "Wygląda Pan/Pani spokojnie, ale należy zmierzyć ciśnienie krwi.",
+    "de": "Sie sehen ruhig aus, aber Sie sollten Ihren Blutdruck messen."
   },
   {
     "id": "b1-part-3-63",
@@ -501,7 +563,8 @@
     "ruStressed": "Ма́льчик о́чень умён, но он ча́сто забыва́ет чи́стить зу́бы.",
     "translit": "Mal'chik ochen' umyon, no on chasto zabyvaet chistit' zuby.",
     "en": "The boy is very smart, but he often forgets to brush his teeth.",
-    "pl": "Chłopiec jest bardzo mądry, ale często zapomina o myciu zębów."
+    "pl": "Chłopiec jest bardzo mądry, ale często zapomina o myciu zębów.",
+    "de": "Der Junge ist sehr klug, aber er vergisst oft, sich die Zähne zu putzen."
   },
   {
     "id": "b1-part-3-64",
@@ -509,7 +572,8 @@
     "ruStressed": "Ра́на мала́, поэ́тому она́ заживё́т о́чень бы́стро.",
     "translit": "Rana mala, poetomu ona zazhivyot ochen' bystro.",
     "en": "The wound is small, so it will heal very quickly.",
-    "pl": "Rana jest mała, więc zagoi się bardzo szybko."
+    "pl": "Rana jest mała, więc zagoi się bardzo szybko.",
+    "de": "Die Wunde ist klein, daher wird sie sehr schnell heilen."
   },
   {
     "id": "b1-part-3-65",
@@ -517,7 +581,8 @@
     "ruStressed": "У вас боли́т голова́ по́сле до́лгого рабо́чего дня за компью́тером?",
     "translit": "U vas bolit golova posle dolgogo rabochego dnya za komp'yuterom?",
     "en": "Does your head ache after a long day at the computer?",
-    "pl": "Czy boli Pana/Panią głowa po długim dniu przy komputerze?"
+    "pl": "Czy boli Pana/Panią głowa po długim dniu przy komputerze?",
+    "de": "Haben Sie Kopfschmerzen nach einem langen Tag am Computer?"
   },
   {
     "id": "b1-part-3-66",
@@ -525,7 +590,8 @@
     "ruStressed": "Во́здух в лесу́ свеж и чист, он поле́зен для лёгких.",
     "translit": "Vozdukh v lesu svezh i chist, on polezen dlya lyogkikh.",
     "en": "The air in the forest is fresh and clean, it's good for the lungs.",
-    "pl": "Powietrze w lesie jest świeże i czyste, jest dobre dla płuc."
+    "pl": "Powietrze w lesie jest świeże i czyste, jest dobre dla płuc.",
+    "de": "Die Waldluft ist frisch und sauber, sie ist gut für die Lungen."
   },
   {
     "id": "b1-part-3-67",
@@ -533,7 +599,8 @@
     "ruStressed": "Я стара́юсь бо́льше дви́гаться в тече́ние дня, что́бы чу́вствовать себя́ бо́дро.",
     "translit": "Ya starayus' bol'she dvigat'sya v techenie dnya, chtoby chuvstvovat' sebya bodro.",
     "en": "I try to move more during the day to feel cheerful.",
-    "pl": "Staram się więcej ruszać w ciągu dnia, aby czuć się rześko."
+    "pl": "Staram się więcej ruszać w ciągu dnia, aby czuć się rześko.",
+    "de": "Ich versuche mich tagsüber mehr zu bewegen, um mich munter zu fühlen."
   },
   {
     "id": "b1-part-3-68",
@@ -541,7 +608,8 @@
     "ruStressed": "Врач пове́рнулся к пацие́нту и ещё раз прове́рил его́ температу́ру.",
     "translit": "Vrach povernulsya k patsientu i eshcho raz proveril ego temperaturu.",
     "en": "The doctor turned to the patient and checked his temperature once more.",
-    "pl": "Lekarz odwrócił się do pacjenta i jeszcze raz sprawdził mu temperaturę."
+    "pl": "Lekarz odwrócił się do pacjenta i jeszcze raz sprawdził mu temperaturę.",
+    "de": "Der Arzt wandte sich dem Patienten zu und überprüfte noch einmal seine Temperatur."
   },
   {
     "id": "b1-part-3-69",
@@ -549,7 +617,8 @@
     "ruStressed": "Ваш сын дово́льно высо́к для своего́ во́зраста, не так ли?",
     "translit": "Vash syn dovol'no vysok dlya svoego vozrasta, ne tak li?",
     "en": "Your son is quite tall for his age, isn't he?",
-    "pl": "Pana/Pani syn jest dość wysoki jak na swój wiek, prawda?"
+    "pl": "Pana/Pani syn jest dość wysoki jak na swój wiek, prawda?",
+    "de": "Ihr Sohn ist ziemlich groß für sein Alter, nicht wahr?"
   },
   {
     "id": "b1-part-3-70",
@@ -557,7 +626,8 @@
     "ruStressed": "Невозмо́жно сосредото́читься, когда́ ты так утомлён и го́лоден.",
     "translit": "Nevozmozhno sosredotochit'sya, kogda ty tak utomlyon i goloden.",
     "en": "It's impossible to concentrate when you are so tired and hungry.",
-    "pl": "Nie da się skoncentrować, gdy jest się tak zmęczonym i głodnym."
+    "pl": "Nie da się skoncentrować, gdy jest się tak zmęczonym i głodnym.",
+    "de": "Es ist unmöglich sich zu konzentrieren, wenn man so müde und hungrig ist."
   },
   {
     "id": "b1-part-3-71",
@@ -565,7 +635,8 @@
     "ruStressed": "Мы встре́тились во́зле апте́ки, что́бы купи́ть витами́ны для дете́й.",
     "translit": "My vstretilis' vozle apteki, chtoby kupit' vitaminy dlya detey.",
     "en": "We met near the pharmacy to buy some vitamins for the children.",
-    "pl": "Spotkaliśmy się obok apteki, aby kupić witaminy dla dzieci."
+    "pl": "Spotkaliśmy się obok apteki, aby kupić witaminy dla dzieci.",
+    "de": "Wir haben uns bei der Apotheke getroffen, um Vitamine für die Kinder zu kaufen."
   },
   {
     "id": "b1-part-3-72",
@@ -573,7 +644,8 @@
     "ruStressed": "Не́бо я́сно, но ве́тер сего́дня хо́лоден и силён.",
     "translit": "Nebo yasno, no veter segodnya kholoden i silyon.",
     "en": "The sky is clear, but the wind is cold and strong today.",
-    "pl": "Niebo jest czyste, ale wiatr jest dzisiaj zimny i silny."
+    "pl": "Niebo jest czyste, ale wiatr jest dzisiaj zimny i silny.",
+    "de": "Der Himmel ist klar, aber der Wind ist heute kalt und stark."
   },
   {
     "id": "b1-part-3-73",
@@ -581,7 +653,8 @@
     "ruStressed": "Я извини́лся пе́ред стомато́логом за опозда́ние на приём.",
     "translit": "Ya izvinilsya pered stomatologom za opozdanie na priyom.",
     "en": "I apologized to the dentist for being late for the appointment.",
-    "pl": "Przeprosiłem dentystę za spóźnienie na wizytę."
+    "pl": "Przeprosiłem dentystę za spóźnienie na wizytę.",
+    "de": "Ich habe mich beim Zahnarzt für die Verspätung zum Termin entschuldigt."
   },
   {
     "id": "b1-part-3-74",
@@ -589,7 +662,8 @@
     "ruStressed": "Его́ взгляд серьё́зен, но он добр и помога́ет всем пацие́нтам.",
     "translit": "Ego vzglyad seryozen, no on dobr i pomogaet vsem patsientam.",
     "en": "His gaze is serious, but he is kind and helps all patients.",
-    "pl": "Jego spojrzenie jest poważne, ale jest on miły i pomaga wszystkim pacjentom."
+    "pl": "Jego spojrzenie jest poważne, ale jest on miły i pomaga wszystkim pacjentom.",
+    "de": "Sein Blick ist ernst, aber er ist gütig und hilft allen Patienten."
   },
   {
     "id": "b1-part-3-75",
@@ -597,7 +671,8 @@
     "ruStressed": "Не беспоко́йтесь, лека́рство начнё́т де́йствовать че́рез два́дцать мину́т.",
     "translit": "Ne bespokoytes', lekarstvo nachnyot deystvovat' cherez dvadtsat' minut.",
     "en": "Don't worry, the medicine will start working in twenty minutes.",
-    "pl": "Proszę się nie martwić, lek zacznie działać za dwadzieścia minut."
+    "pl": "Proszę się nie martwić, lek zacznie działać za dwadzieścia minut.",
+    "de": "Keine Sorge, das Medikament wird in zwanzig Minuten wirken."
   },
   {
     "id": "b1-part-3-76",
@@ -605,7 +680,8 @@
     "ruStressed": "Я рад, что мы наконе́ц встре́тились в э́том санато́рии.",
     "translit": "Ya rad, chto my nakonets vstretilis' v etom sanatorii.",
     "en": "I am glad that we finally met at the sanatorium.",
-    "pl": "Cieszę się, że w końcu spotkaliśmy się w sanatorium."
+    "pl": "Cieszę się, że w końcu spotkaliśmy się w sanatorium.",
+    "de": "Ich bin froh, dass wir uns endlich im Sanatorium getroffen haben."
   },
   {
     "id": "b1-part-3-77",
@@ -613,7 +689,8 @@
     "ruStressed": "Как ты себя́ чу́вствуешь по́сле э́того но́вого го́рького лека́рства?",
     "translit": "Kak ty sebya chuvstvuesh' posle etogo novogo gor'kogo lekarstva?",
     "en": "How do you feel after this new bitter medicine?",
-    "pl": "Jak się czujesz po tym nowym gorzkim leku? (informal)"
+    "pl": "Jak się czujesz po tym nowym gorzkim leku? (informal)",
+    "de": "Wie fühlst du dich nach dieser neuen bitteren Medizin?"
   },
   {
     "id": "b1-part-3-78",
@@ -621,7 +698,8 @@
     "ruStressed": "Ваш взгляд неве́рен, э́тот ме́тод лече́ния о́чень эффекти́вен.",
     "translit": "Vash vzglyad neveren, etot metod lecheniya ochen' effektiven.",
     "en": "Your view is wrong; this method of treatment is very effective.",
-    "pl": "Pana/Pani pogląd jest błędny; ta metoda leczenia jest bardzo skuteczna."
+    "pl": "Pana/Pani pogląd jest błędny; ta metoda leczenia jest bardzo skuteczna.",
+    "de": "Ihre Ansicht ist falsch; diese Behandlungsmethode ist sehr effektiv."
   },
   {
     "id": "b1-part-3-79",
@@ -629,7 +707,8 @@
     "ruStressed": "Врач был за́нят, поэ́тому мы договори́лись поговори́ть за́втра.",
     "translit": "Vrach byl zanyat, poetomu my dogovorilis' pogovorit' zavtra.",
     "en": "The doctor was busy, so we agreed to talk tomorrow.",
-    "pl": "Lekarz był zajęty, więc umówiliśmy się na rozmowę jutro."
+    "pl": "Lekarz był zajęty, więc umówiliśmy się na rozmowę jutro.",
+    "de": "Der Arzt war beschäftigt, daher haben wir vereinbart, morgen zu sprechen."
   },
   {
     "id": "b1-part-3-80",
@@ -637,7 +716,8 @@
     "ruStressed": "Скажи́те, э́та боль постоя́нна и́ли она́ появля́ется то́лько у́тром?",
     "translit": "Skazhite, eta bol' postoyanna ili ona poyavlyaetsya tol'ko utrom?",
     "en": "Tell me, is this pain permanent or does it appear only in the morning?",
-    "pl": "Proszę mi powiedzieć, czy ten ból jest stały, czy pojawia się tylko rano?"
+    "pl": "Proszę mi powiedzieć, czy ten ból jest stały, czy pojawia się tylko rano?",
+    "de": "Sagen Sie mir, ist dieser Schmerz dauerhaft oder tritt er nur morgens auf?"
   },
   {
     "id": "b1-part-3-81",
@@ -645,7 +725,8 @@
     "ruStressed": "Я хочу́ убеди́ться, что э́та опера́ция бу́дет соверше́нно безопа́сна.",
     "translit": "Ya hochu ubedit'sya, chto eta operatsiya budet sovershenno bezopasna.",
     "en": "I want to make sure that the operation will be safe.",
-    "pl": "Chcę się upewnić, że operacja będzie bezpieczna."
+    "pl": "Chcę się upewnić, że operacja będzie bezpieczna.",
+    "de": "Ich möchte sicherstellen, dass die Operation sicher sein wird."
   },
   {
     "id": "b1-part-3-82",
@@ -653,7 +734,8 @@
     "ruStressed": "Мой де́душка о́чень умён и осторо́жен в вопро́сах пита́ния.",
     "translit": "Moy dedushka ochen' umyon i ostorozhen v voprosah pitaniya.",
     "en": "My grandfather is very clever and cautious about his diet.",
-    "pl": "Mój dziadek jest bardzo mądry i ostrożny w kwestii swojej diety."
+    "pl": "Mój dziadek jest bardzo mądry i ostrożny w kwestii swojej diety.",
+    "de": "Mein Großvater ist sehr klug und vorsichtig mit seiner Ernährung."
   },
   {
     "id": "b1-part-3-83",
@@ -661,7 +743,8 @@
     "ruStressed": "Пацие́нт поко́ен и гото́в к предстоя́щему медици́нскому осмо́тру.",
     "translit": "Patsient spokoen i gotov k predstoyashchemu meditsinskomu osmotru.",
     "en": "The patient is calm and ready for the upcoming examination.",
-    "pl": "Pacjent jest spokojny i gotowy na nadchodzące badanie."
+    "pl": "Pacjent jest spokojny i gotowy na nadchodzące badanie.",
+    "de": "Der Patient ist ruhig und bereit für die anstehende Untersuchung."
   },
   {
     "id": "b1-part-3-84",
@@ -669,7 +752,8 @@
     "ruStressed": "Ситуа́ция трудна́, но до́ктор уве́рен в успе́хе э́той терапи́и.",
     "translit": "Situatsiya trudna, no doktor uveren v uspehe etoy terapii.",
     "en": "The situation is difficult, but the doctor is sure of success.",
-    "pl": "Sytuacja jest trudna, ale lekarz jest pewny sukcesu."
+    "pl": "Sytuacja jest trudna, ale lekarz jest pewny sukcesu.",
+    "de": "Die Situation ist schwierig, aber der Arzt ist sich des Erfolgs sicher."
   },
   {
     "id": "b1-part-3-85",
@@ -677,7 +761,8 @@
     "ruStressed": "Извини́те, я опозда́л, потому́ что задержа́лся в апте́ке.",
     "translit": "Izvinite, ya opozdal, potomu chto zaderzhalsya v apteke.",
     "en": "I'm sorry, I'm late because I was stuck in the pharmacy.",
-    "pl": "Przepraszam, spóźniłem się, bo utknąłem w aptece."
+    "pl": "Przepraszam, spóźniłem się, bo utknąłem w aptece.",
+    "de": "Es tut mir leid, ich bin zu spät, weil ich in der Apotheke aufgehalten wurde."
   },
   {
     "id": "b1-part-3-86",
@@ -685,7 +770,8 @@
     "ruStressed": "Ва́ше плечо́ о́чень напряжено́, вам сто́ит ча́ще де́лать растя́жку.",
     "translit": "Vashe plecho ochen' napryazheno, vam stoit chashche delat' rastyazhku.",
     "en": "Your shoulder is very stiff; you should do stretching more often.",
-    "pl": "Pana ramię jest bardzo sztywne; powinien Pan częściej się rozciągać. (formal)"
+    "pl": "Pana ramię jest bardzo sztywne; powinien Pan częściej się rozciągać. (formal)",
+    "de": "Ihre Schulter ist sehr steif; Sie sollten öfter Dehnübungen machen."
   },
   {
     "id": "b1-part-3-87",
@@ -693,7 +779,8 @@
     "ruStressed": "Ребёнок боя́лся уко́лов, но пото́м он бы́стро успоко́ился.",
     "translit": "Rebyonok boyalsya ukolov, no potom on bystro uspokoilsya.",
     "en": "The child was afraid of injections, but then he calmed down.",
-    "pl": "Dziecko bało się zastrzyków, ale potem się uspokoiło."
+    "pl": "Dziecko bało się zastrzyków, ale potem się uspokoiło.",
+    "de": "Das Kind hatte Angst vor Spritzen, aber dann beruhigte es sich."
   },
   {
     "id": "b1-part-3-88",
@@ -701,7 +788,8 @@
     "ruStressed": "Э́тот врач изве́стен свое́й рабо́той с профессиона́льными спортсме́нами.",
     "translit": "Etot vrach izvesten svoey rabotoy s professional'nymi sportsmenami.",
     "en": "This doctor is famous for his work with professional athletes.",
-    "pl": "Ten lekarz jest znany ze swojej pracy z zawodowymi sportowcami."
+    "pl": "Ten lekarz jest znany ze swojej pracy z zawodowymi sportowcami.",
+    "de": "Dieser Arzt ist berühmt für seine Arbeit mit Profisportlern."
   },
   {
     "id": "b1-part-3-89",
@@ -709,7 +797,8 @@
     "ruStressed": "Пра́вда ли, что витами́ны из овоще́й бо́лее поле́зны?",
     "translit": "Pravda li, chto vitaminy iz ovoshchey bolee polezny?",
     "en": "Is it true that vitamins from vegetables are more useful?",
-    "pl": "Czy to prawda, że witaminy z warzyw są bardziej pożyteczne?"
+    "pl": "Czy to prawda, że witaminy z warzyw są bardziej pożyteczne?",
+    "de": "Ist es wahr, dass Vitamine aus Gemüse nützlicher sind?"
   },
   {
     "id": "b1-part-3-90",
@@ -717,7 +806,8 @@
     "ruStressed": "Когда́ у меня́ боли́т спина́, я обы́чно обраща́юсь к массажи́сту.",
     "translit": "Kogda u menya bolit spina, ya obychno obrashchayus' k massazhistu.",
     "en": "When my back hurts, I usually turn to a massage therapist.",
-    "pl": "Kiedy bolą mnie plecy, zazwyczaj zwracam się do masażysty."
+    "pl": "Kiedy bolą mnie plecy, zazwyczaj zwracam się do masażysty.",
+    "de": "Wenn mein Rücken wehtut, wende ich mich normalerweise an einen Masseur."
   },
   {
     "id": "b1-part-3-91",
@@ -725,7 +815,8 @@
     "ruStressed": "Его́ рука́ мала́, но его́ хва́тка о́чень крепка́.",
     "translit": "Ego ruka mala, no ego hvatka ochen' krepka.",
     "en": "His hand is small, but his grip is very firm.",
-    "pl": "Jego dłoń jest mała, ale uścisk bardzo mocny."
+    "pl": "Jego dłoń jest mała, ale uścisk bardzo mocny.",
+    "de": "Seine Hand ist klein, aber sein Griff ist sehr fest."
   },
   {
     "id": "b1-part-3-92",
@@ -733,7 +824,8 @@
     "ruStressed": "Почему́ ты так печа́лен? Результа́т те́ста уже́ пришёл?",
     "translit": "Pochemu ty tak pechalen? Rezul'tat testa uzhe prishol?",
     "en": "Why are you so sad? Has the test result come yet?",
-    "pl": "Dlaczego jesteś taki smutny? Czy przyszedł już wynik testu? (informal)"
+    "pl": "Dlaczego jesteś taki smutny? Czy przyszedł już wynik testu? (informal)",
+    "de": "Warum bist du so traurig? Ist das Testergebnis schon da?"
   },
   {
     "id": "b1-part-3-93",
@@ -741,7 +833,8 @@
     "ruStressed": "Мне не нра́вится, когда́ лю́ди постоя́нно жа́луются на своё здоро́вье.",
     "translit": "Mne ne nravitsya, kogda lyudi postoyanno zhaluyutsya na svoyo zdorov'e.",
     "en": "I don't like it when people complain about their health constantly.",
-    "pl": "Nie lubię, gdy ludzie ciągle narzekają na swoje zdrowie."
+    "pl": "Nie lubię, gdy ludzie ciągle narzekają na swoje zdrowie.",
+    "de": "Ich mag es nicht, wenn Menschen sich ständig über ihre Gesundheit beklagen."
   },
   {
     "id": "b1-part-3-94",
@@ -749,7 +842,8 @@
     "ruStressed": "Проце́сс восстановле́ния был ме́длен, но результа́т был ви́ден.",
     "translit": "Protsess vosstanovleniya byl medlen, no rezul'tat byl viden.",
     "en": "The recovery process was slow, but the result was visible.",
-    "pl": "Proces powrotu do zdrowia był powolny, ale wynik był widoczny."
+    "pl": "Proces powrotu do zdrowia był powolny, ale wynik był widoczny.",
+    "de": "Der Genesungsprozess war langsam, aber das Ergebnis war sichtbar."
   },
   {
     "id": "b1-part-3-95",
@@ -757,7 +851,8 @@
     "ruStressed": "Мы обы́чно встреча́емся в спортза́ле два ра́за в неде́лю.",
     "translit": "My obychno vstrechaemsya v sportzale dva raza v nedelyu.",
     "en": "We usually meet at the gym twice a week.",
-    "pl": "Zazwyczaj spotykamy się na siłowni dwa razy w tygodniu."
+    "pl": "Zazwyczaj spotykamy się na siłowni dwa razy w tygodniu.",
+    "de": "Wir treffen uns normalerweise zweimal pro Woche im Fitnessstudio."
   },
   {
     "id": "b1-part-3-96",
@@ -765,7 +860,8 @@
     "ruStressed": "Э́тот челове́к о́чень добр и че́стен со свои́ми пациен́тами.",
     "translit": "Etot chelovek ochen' dobr i chesten so svoimi patsientami.",
     "en": "This person is very kind and honest with his patients.",
-    "pl": "Ta osoba jest bardzo miła i szczera wobec swoich pacjentów."
+    "pl": "Ta osoba jest bardzo miła i szczera wobec swoich pacjentów.",
+    "de": "Diese Person ist sehr gütig und ehrlich zu ihren Patienten."
   },
   {
     "id": "b1-part-3-97",
@@ -773,7 +869,8 @@
     "ruStressed": "Ожо́г был невели́к, но ко́жа была́ о́чень красна́.",
     "translit": "Ozhog byl nevelik, no kozha byla ochen' krasna.",
     "en": "The burn was small, but the skin was very red.",
-    "pl": "Oparzenie było małe, ale skóra była bardzo czerwona."
+    "pl": "Oparzenie było małe, ale skóra była bardzo czerwona.",
+    "de": "Die Verbrennung war klein, aber die Haut war sehr rot."
   },
   {
     "id": "b1-part-3-98",
@@ -781,7 +878,8 @@
     "ruStressed": "Я уже́ записа́лся на консульта́цию к о́пытному кардиоло́гу.",
     "translit": "Ya uzhe zapisalsya na konsul'tatsiyu k opytnomu kardiologu.",
     "en": "I have already signed up for a consultation with a cardiologist.",
-    "pl": "Zapisałem się już na konsultację u kardiologa."
+    "pl": "Zapisałem się już na konsultację u kardiologa.",
+    "de": "Ich habe mich bereits für eine Beratung bei einem Kardiologen angemeldet."
   },
   {
     "id": "b1-part-3-99",
@@ -789,7 +887,8 @@
     "ruStressed": "Ребёнок упа́л, но, к сча́стью, он не уши́бся.",
     "translit": "Rebyonok upal, no, k schast'yu, on ne ushibsya.",
     "en": "The child fell down, but luckily he did not get hurt.",
-    "pl": "Dziecko upadło, ale na szczęście nic mu się nie stało."
+    "pl": "Dziecko upadło, ale na szczęście nic mu się nie stało.",
+    "de": "Das Kind ist hingefallen, aber zum Glück hat es sich nicht verletzt."
   },
   {
     "id": "b1-part-3-100",
@@ -797,7 +896,8 @@
     "ruStressed": "Ваш аргуме́нт слаб, вам ну́жно измени́ть свой о́браз жи́зни.",
     "translit": "Vash argument slab, vam nuzhno izmenit' svoy obraz zhizni.",
     "en": "Your argument is weak, you need to change your lifestyle.",
-    "pl": "Pana argument jest słaby, musi Pan zmienić styl życia. (formal)"
+    "pl": "Pana argument jest słaby, musi Pan zmienić styl życia. (formal)",
+    "de": "Ihr Argument ist schwach, Sie müssen Ihren Lebensstil ändern."
   },
   {
     "id": "b1-part-3-101",
@@ -805,7 +905,8 @@
     "ruStressed": "Я реши́л заня́ться спо́ртом, что́бы стать си́льным и здоро́вым.",
     "translit": "Ya reshil zanyat'sya sportom, chtoby stat' sil'nym i zdorovym.",
     "en": "I decided to go in for sports to become strong and healthy.",
-    "pl": "Zdecydowałem się uprawiać sport, aby stać się silnym i zdrowym."
+    "pl": "Zdecydowałem się uprawiać sport, aby stać się silnym i zdrowym.",
+    "de": "Ich habe mich entschieden, Sport zu treiben, um stark und gesund zu werden."
   },
   {
     "id": "b1-part-3-102",
@@ -813,7 +914,8 @@
     "ruStressed": "Врач уже́ осмотре́л пацие́нта, кото́рый жа́ловался на боль в се́рдце?",
     "translit": "Vrach uzhe osmotrel pacienta, kotoryy zhalovalsya na bol' v serdce?",
     "en": "Has the doctor already examined the patient who complained of heart pain?",
-    "pl": "Czy lekarz zbadał już pacjenta, który skarżył się na ból w sercu?"
+    "pl": "Czy lekarz zbadał już pacjenta, który skarżył się na ból w sercu?",
+    "de": "Hat der Arzt den Patienten, der über Herzschmerzen klagte, bereits untersucht?"
   },
   {
     "id": "b1-part-3-103",
@@ -821,7 +923,8 @@
     "ruStressed": "Е́сли вы боле́ете гри́ппом, вам сле́дует остава́ться до́ма и отдыха́ть.",
     "translit": "Esli vy boleete grippom, vam sleduet ostavat'sya doma i otdyhat'.",
     "en": "If you have the flu, you should stay at home and rest.",
-    "pl": "Jeśli masz grypę, powinieneś zostać w domu i odpoczywać. (informal)"
+    "pl": "Jeśli masz grypę, powinieneś zostać w domu i odpoczywać. (informal)",
+    "de": "Wenn Sie die Grippe haben, sollten Sie zu Hause bleiben und sich ausruhen."
   },
   {
     "id": "b1-part-3-104",
@@ -829,7 +932,8 @@
     "ruStressed": "Мой брат занима́ется пла́ванием, потому́ что э́то помога́ет ему́ рассла́биться.",
     "translit": "Moy brat zanimaetsya plavaniem, potomu chto eto pomogaet emu rasslabit'sya.",
     "en": "My brother enjoys swimming because it helps him relax.",
-    "pl": "Mój brat lubi pływać, ponieważ pomaga mu to się zrelaksować."
+    "pl": "Mój brat lubi pływać, ponieważ pomaga mu to się zrelaksować.",
+    "de": "Mein Bruder geht gerne schwimmen, weil es ihm hilft, sich zu entspannen."
   },
   {
     "id": "b1-part-3-105",
@@ -837,7 +941,8 @@
     "ruStressed": "Ка́ждое у́тро спортсме́н умыва́ется холо́дной водо́й, что́бы укрепи́ть иммуните́т.",
     "translit": "Kazhdoe utro sportsmen umyvaetsya holodnoy vodoy, chtoby ukrepit' immunitet.",
     "en": "Every morning the athlete washes with cold water to strengthen his immunity.",
-    "pl": "Każdego ranka sportowiec myje się zimną wodą, aby wzmocnić swoją odporność."
+    "pl": "Każdego ranka sportowiec myje się zimną wodą, aby wzmocnić swoją odporność.",
+    "de": "Jeden Morgen wäscht sich der Sportler mit kaltem Wasser, um sein Immunsystem zu stärken."
   },
   {
     "id": "b1-part-3-106",
@@ -845,7 +950,8 @@
     "ruStressed": "Когда́ я устаю́ на рабо́те, у меня́ начина́ют боле́ть глаза́.",
     "translit": "Kogda ya ustayu na rabote, u menya nachinayut bolet' glaza.",
     "en": "When I get tired at work, my eyes start to hurt.",
-    "pl": "Kiedy męczę się w pracy, zaczynają boleć mnie oczy."
+    "pl": "Kiedy męczę się w pracy, zaczynają boleć mnie oczy.",
+    "de": "Wenn ich bei der Arbeit müde werde, fangen meine Augen an wehzutun."
   },
   {
     "id": "b1-part-3-107",
@@ -853,7 +959,8 @@
     "ruStressed": "Как до́лго вы му́чаетесь э́тим ужа́сным ка́шлем и на́сморком?",
     "translit": "Kak dolgo vy muchaetes' etim uzhasnym kashlem i nasmorkom?",
     "en": "How long have you been suffering from this terrible cough and runny nose?",
-    "pl": "Jak długo cierpisz na ten straszny kaszel i katar? (informal)"
+    "pl": "Jak długo cierpisz na ten straszny kaszel i katar? (informal)",
+    "de": "Wie lange leiden Sie schon unter diesem schrecklichen Husten und Schnupfen?"
   },
   {
     "id": "b1-part-3-108",
@@ -861,7 +968,8 @@
     "ruStressed": "По моему́ мне́нию, необходи́мо занима́ться бе́гом на све́жем во́здухе.",
     "translit": "Po moemu mneniyu, neobhodimo zanyat'sya begom na svezhem vozduhe.",
     "en": "In my opinion, it is necessary to practice running in the fresh air.",
-    "pl": "Moim zdaniem konieczne jest bieganie na świeżym powietrzu."
+    "pl": "Moim zdaniem konieczne jest bieganie na świeżym powietrzu.",
+    "de": "Meiner Meinung nach ist es notwendig, das Laufen an der frischen Luft zu praktizieren."
   },
   {
     "id": "b1-part-3-109",
@@ -869,7 +977,8 @@
     "ruStressed": "Больно́й почу́вствовал себя́ лу́чше по́сле приёма лека́рства, кото́рое вы́писал врач.",
     "translit": "Bol'noy pochuvstvoval sebya luchshe posle priyoma lekarstva, kotoroe vypisal vrach.",
     "en": "The patient felt better after taking the medicine prescribed by the doctor.",
-    "pl": "Pacjent poczuł się lepiej po zażyciu leku przepisanego przez lekarza."
+    "pl": "Pacjent poczuł się lepiej po zażyciu leku przepisanego przez lekarza.",
+    "de": "Der Patient fühlte sich besser, nachdem er das vom Arzt verschriebene Medikament eingenommen hatte."
   },
   {
     "id": "b1-part-3-110",
@@ -877,7 +986,8 @@
     "ruStressed": "Я мо́ю ру́ки с мы́лом не́сколько раз в день, что́бы не заболе́ть.",
     "translit": "Ya moyu ruki s mylom neskol'ko raz v den', chtoby ne zabolet'.",
     "en": "I wash my hands with soap several times a day not to get sick.",
-    "pl": "Myję ręce mydłem kilka razy dziennie, aby nie zachorować."
+    "pl": "Myję ręce mydłem kilka razy dziennie, aby nie zachorować.",
+    "de": "Ich wasche mir mehrmals täglich die Hände mit Seife, um nicht krank zu werden."
   },
   {
     "id": "b1-part-3-111",
@@ -885,7 +995,8 @@
     "ruStressed": "Медсестра́ объясни́ла, как по́льзоваться э́тим кре́мом для ко́жи?",
     "translit": "Medsestra ob'yasnila, kak pol'zovat'sya etim kremom dlya kozhi?",
     "en": "Did the nurse explain how to use this cream for the skin?",
-    "pl": "Czy pielęgniarka wyjaśniła, jak używać tego kremu do skóry?"
+    "pl": "Czy pielęgniarka wyjaśniła, jak używać tego kremu do skóry?",
+    "de": "Hat die Krankenschwester erklärt, wie man diese Hautcreme anwendet?"
   },
   {
     "id": "b1-part-3-112",
@@ -893,7 +1004,8 @@
     "ruStressed": "Я счита́ю, что психи́ческое здоро́вье так же ва́жно, как и физи́ческое.",
     "translit": "Ya schitayu, chto psihicheskoe zdorov'e tak zhe vazhno, kak i fizicheskoe.",
     "en": "I think that mental health is as important as physical health.",
-    "pl": "Uważam, że zdrowie psychiczne jest tak samo ważne jak zdrowie fizyczne."
+    "pl": "Uważam, że zdrowie psychiczne jest tak samo ważne jak zdrowie fizyczne.",
+    "de": "Ich denke, dass die psychische Gesundheit genauso wichtig ist wie die körperliche."
   },
   {
     "id": "b1-part-3-113",
@@ -901,7 +1013,8 @@
     "ruStressed": "Береги́те себя́ и не забыва́йте принима́ть витами́ны в зи́мний пери́од.",
     "translit": "Beregite sebya i ne zabyvayte prinimat' vitaminy v zimniy period.",
     "en": "Take care of yourself and don't forget to take vitamins in winter.",
-    "pl": "Dbaj o siebie i nie zapominaj o braniu witamin zimą. (informal)"
+    "pl": "Dbaj o siebie i nie zapominaj o braniu witamin zimą. (informal)",
+    "de": "Passen Sie auf sich auf und vergessen Sie nicht, im Winter Vitamine zu nehmen."
   },
   {
     "id": "b1-part-3-114",
@@ -909,7 +1022,8 @@
     "ruStressed": "Вы интересу́етесь профессиона́льным спо́ртом и́ли про́сто трениру́етесь для себя́?",
     "translit": "Vy interesuetes' professional'nym sportom ili prosto treniruetes' dlya sebya?",
     "en": "Are you interested in professional sports or just exercising for yourself?",
-    "pl": "Interesuje się Pan sportem zawodowym czy tylko ćwiczy dla siebie? (formal)"
+    "pl": "Interesuje się Pan sportem zawodowym czy tylko ćwiczy dla siebie? (formal)",
+    "de": "Interessieren Sie sich für Profisport oder trainieren Sie nur für sich selbst?"
   },
   {
     "id": "b1-part-3-115",
@@ -917,7 +1031,8 @@
     "ruStressed": "Ма́льчик почи́стил зу́бы и лёг спать в де́сять часо́в ве́чера.",
     "translit": "Mal'chik pochistil zuby i lyog spat' v desyat' chasov vechera.",
     "en": "The boy brushed his teeth and went to bed at ten o'clock.",
-    "pl": "Chłopiec umył zęby i poszedł spać o dziesiątej."
+    "pl": "Chłopiec umył zęby i poszedł spać o dziesiątej.",
+    "de": "Der Junge putzte sich die Zähne und ging um zehn Uhr ins Bett."
   },
   {
     "id": "b1-part-3-116",
@@ -925,7 +1040,8 @@
     "ruStressed": "Э́то пра́вда, что вы бро́сили кури́ть по причи́нам здоро́вья?",
     "translit": "Eto pravda, chto vy brosili kurit' po prichinam zdorov'ya.",
     "en": "Is it true that you stopped smoking for health reasons?",
-    "pl": "Czy to prawda, że rzucił Pan palenie ze względów zdrowotnych? (formal)"
+    "pl": "Czy to prawda, że rzucił Pan palenie ze względów zdrowotnych? (formal)",
+    "de": "Ist es wahr, dass Sie aus gesundheitlichen Gründen mit dem Rauchen aufgehört haben?"
   },
   {
     "id": "b1-part-3-117",
@@ -933,7 +1049,8 @@
     "ruStressed": "Хиру́рг мо́ет ру́ки пе́ред тем, как нача́ть сло́жную опера́цию.",
     "translit": "Hirurg moet ruki pered tem, kak nachat' slozhnuyu operaciyu.",
     "en": "The surgeon is washing his hands before starting the complicated operation.",
-    "pl": "Chirurg myje ręce przed rozpoczęciem skomplikowanej operacji."
+    "pl": "Chirurg myje ręce przed rozpoczęciem skomplikowanej operacji.",
+    "de": "Der Chirurg wäscht sich die Hände, bevor er die komplizierte Operation beginnt."
   },
   {
     "id": "b1-part-3-118",
@@ -941,7 +1058,8 @@
     "ruStressed": "Когда́ температу́ра па́дает, больно́й начина́ет чу́вствовать себя́ гора́здо лу́чше.",
     "translit": "Kogda temperatura padaet, bol'noy nachinaet chuvstvovat' sebya gorazdo luchshe.",
     "en": "When the temperature drops, the patient starts to feel much better.",
-    "pl": "Kiedy temperatura spada, pacjent zaczyna czuć się znacznie lepiej."
+    "pl": "Kiedy temperatura spada, pacjent zaczyna czuć się znacznie lepiej.",
+    "de": "Wenn das Fieber sinkt, beginnt der Patient sich viel besser zu fühlen."
   },
   {
     "id": "b1-part-3-119",
@@ -949,7 +1067,8 @@
     "ruStressed": "К како́му врачу́ мне обрати́ться, е́сли у меня́ боли́т у́хо?",
     "translit": "K kakomu vrachu mne obratit'sya, esli u menya bolit uho?",
     "en": "Which doctor should I contact if my ear hurts?",
-    "pl": "Z którym lekarzem powinienem się skontaktować, jeśli boli mnie ucho?"
+    "pl": "Z którym lekarzem powinienem się skontaktować, jeśli boli mnie ucho?",
+    "de": "An welchen Arzt sollte ich mich wenden, wenn mein Ohr wehtut?"
   },
   {
     "id": "b1-part-3-120",
@@ -957,7 +1076,8 @@
     "ruStressed": "Мы горди́мся на́шим де́душкой, потому́ что он пра́вильно пита́ется и трениру́ется.",
     "translit": "My gordimsya nashim dedushkoy, potomu chto on pravil'no pitaetsya i treniruetsya.",
     "en": "We are proud of our grandfather because he eats right and exercises.",
-    "pl": "Jesteśmy dumni z naszego dziadka, ponieważ zdrowo się odżywia i ćwiczy."
+    "pl": "Jesteśmy dumni z naszego dziadka, ponieważ zdrowo się odżywia i ćwiczy.",
+    "de": "Wir sind stolz auf unseren Großvater, weil er sich richtig ernährt und trainiert."
   },
   {
     "id": "b1-part-3-121",
@@ -965,7 +1085,8 @@
     "ruStressed": "Я чу́вствую себя́ пло́хо, потому́ что заболе́л гри́ппом на про́шлой неде́ле.",
     "translit": "Ya chuvstvuyu sebya ploho, potomu chto zabolel grippom na proshloy nedele.",
     "en": "I feel bad because I caught the flu last week.",
-    "pl": "Czuję się źle, ponieważ w zeszłym tygodniu złapałem grypę."
+    "pl": "Czuję się źle, ponieważ w zeszłym tygodniu złapałem grypę.",
+    "de": "Ich fühle mich schlecht, weil ich letzte Woche die Grippe bekommen habe."
   },
   {
     "id": "b1-part-3-122",
@@ -973,7 +1094,8 @@
     "ruStressed": "Е́сли вы хоти́те быть здоро́выми, вам сле́дует регуля́рно занима́ться спо́ртом.",
     "translit": "Esli vy hotite byt' zdorovymi, vam sleduet regulyarno zanimat'sya sportom.",
     "en": "If you want to be healthy, you should exercise regularly.",
-    "pl": "Jeśli chcecie być zdrowi, powinniście regularnie ćwiczyć. (plural)"
+    "pl": "Jeśli chcecie być zdrowi, powinniście regularnie ćwiczyć. (plural)",
+    "de": "Wenn Sie gesund sein wollen, sollten Sie regelmäßig Sport treiben."
   },
   {
     "id": "b1-part-3-123",
@@ -981,7 +1103,8 @@
     "ruStressed": "Медсестра́ накры́ла больно́го тёплым одея́лом, что́бы он не мёрз.",
     "translit": "Medsetra nakryla bol'nogo tyoplym odeyalom, chtoby on ne myorz.",
     "en": "The nurse covered the patient with a warm blanket so he wouldn't freeze.",
-    "pl": "Pielęgniarka przykryła pacjenta ciepłym kocem, żeby nie zmarzł."
+    "pl": "Pielęgniarka przykryła pacjenta ciepłym kocem, żeby nie zmarzł.",
+    "de": "Die Krankenschwester deckte den Patienten mit einer warmen Decke zu, damit er nicht friert."
   },
   {
     "id": "b1-part-3-124",
@@ -989,7 +1112,8 @@
     "ruStressed": "Когда́ у меня́ боли́т го́рло, я пью горя́чий чай с лимо́ном и мёдом.",
     "translit": "Kogda u menya bolit gorlo, ya p'yu goryachiy chay s limonom i myodom.",
     "en": "When my throat hurts, I drink hot tea with lemon and honey.",
-    "pl": "Kiedy boli mnie gardło, piję gorącą herbatę z cytryną i miodem."
+    "pl": "Kiedy boli mnie gardło, piję gorącą herbatę z cytryną i miodem.",
+    "de": "Wenn mein Hals wehtut, trinke ich heißen Tee mit Zitrone und Honig."
   },
   {
     "id": "b1-part-3-125",
@@ -997,7 +1121,8 @@
     "ruStressed": "Моя́ сестра́ с де́тства увлека́ется медици́ной и хо́чет стать врачо́м.",
     "translit": "Moya sestra s detstva uvlekaetsya meditsinoy i hochet stat' vrachom.",
     "en": "My sister has been interested in medicine since childhood and wants to become a doctor.",
-    "pl": "Moja siostra od dzieciństwa interesuje się medycyną i chce zostać lekarzem."
+    "pl": "Moja siostra od dzieciństwa interesuje się medycyną i chce zostać lekarzem.",
+    "de": "Meine Schwester interessiert sich seit ihrer Kindheit für Medizin und möchte Ärztin werden."
   },
   {
     "id": "b1-part-3-126",
@@ -1005,7 +1130,8 @@
     "ruStressed": "Врач сказа́л, что моё выздоровле́ние зави́сит от пра́вильного пита́ния.",
     "translit": "Vrach skazal, chto moyo vyzdorovlenie zavisit ot pravil'nogo pitaniya.",
     "en": "The doctor said that my recovery depends on correct nutrition.",
-    "pl": "Lekarz powiedział, że mój powrót do zdrowia zależy od prawidłowego odżywiania."
+    "pl": "Lekarz powiedział, że mój powrót do zdrowia zależy od prawidłowego odżywiania.",
+    "de": "Der Arzt sagte, dass meine Genesung von der richtigen Ernährung abhängt."
   },
   {
     "id": "b1-part-3-127",
@@ -1013,7 +1139,8 @@
     "ruStressed": "Мо́йте ру́ки с мы́лом ча́ще, что́бы защити́ть себя́ от ви́русов.",
     "translit": "Moyte ruki s mylom chashche, chtoby zashchitit' sebya ot virusov.",
     "en": "Wash your hands with soap more often to protect yourself from viruses.",
-    "pl": "Myj ręce mydłem częściej, aby chronić się przed wirusami."
+    "pl": "Myj ręce mydłem częściej, aby chronić się przed wirusami.",
+    "de": "Waschen Sie Ihre Hände öfter mit Seife, um sich vor Viren zu schützen."
   },
   {
     "id": "b1-part-3-128",
@@ -1021,7 +1148,8 @@
     "ruStressed": "Почему́ ты отказа́лся от посеще́ния стомато́лога в про́шлом ме́сяце?",
     "translit": "Pochemu ty otkazalsya ot posescheniya stomatologa v proshlom mesyace?",
     "en": "Why did you refrain from visiting the dentist last month?",
-    "pl": "Dlaczego powstrzymałeś się od wizyty u dentysty w zeszłym miesiącu?"
+    "pl": "Dlaczego powstrzymałeś się od wizyty u dentysty w zeszłym miesiącu?",
+    "de": "Warum hast du letzten Monat auf den Besuch beim Zahnarzt verzichtet?"
   },
   {
     "id": "b1-part-3-129",
@@ -1029,7 +1157,8 @@
     "ruStressed": "Тре́нер следи́т за мои́м физи́ческим состоя́нием во вре́мя трениро́вки.",
     "translit": "Trener sledit za moim fizicheskim sostoyaniem vo vremya trenirovki.",
     "en": "The trainer monitors my physical condition during the workout.",
-    "pl": "Trener monitoruje moją kondycję fizyczną podczas treningu."
+    "pl": "Trener monitoruje moją kondycję fizyczną podczas treningu.",
+    "de": "Der Trainer überwacht meinen körperlichen Zustand während des Trainings."
   },
   {
     "id": "b1-part-3-130",
@@ -1037,7 +1166,8 @@
     "ruStressed": "Ба́бушка ча́сто жа́луется на бо́ли в се́рдце, когда́ меня́ется пого́да.",
     "translit": "Babushka chasto zhaluetsya na boli v serdce, kogda menyaetsya pogoda.",
     "en": "Grandmother often complains of heart pain when the weather changes.",
-    "pl": "Babcia często skarży się na ból serca, gdy zmienia się pogoda."
+    "pl": "Babcia często skarży się na ból serca, gdy zmienia się pogoda.",
+    "de": "Großmutter klagt oft über Herzschmerzen, wenn das Wetter umschlägt."
   },
   {
     "id": "b1-part-3-131",
@@ -1045,7 +1175,8 @@
     "ruStressed": "Я наде́юсь, что э́та терапи́я помо́жет тебе́ спра́виться со стре́ссом.",
     "translit": "Ya nadeyus', chto eta terapiya pomozhet tebe spravit'sya so stressom.",
     "en": "I hope that this therapy will help you cope with stress.",
-    "pl": "Mam nadzieję, że ta terapia pomoże ci poradzić sobie ze stresem."
+    "pl": "Mam nadzieję, że ta terapia pomoże ci poradzić sobie ze stresem.",
+    "de": "Ich hoffe, dass diese Therapie dir helfen wird, den Stress zu bewältigen."
   },
   {
     "id": "b1-part-3-132",
@@ -1053,7 +1184,8 @@
     "ruStressed": "Как мо́жно эффекти́вно боро́ться с высо́кой температу́рой в дома́шних усло́виях?",
     "translit": "Kak mozhno effektivno borot'sya s vysokoy temperaturoy v domashnih usloviyah?",
     "en": "How can one effectively deal with a high temperature at home?",
-    "pl": "Jak można skutecznie radzić sobie z wysoką temperaturą w domu?"
+    "pl": "Jak można skutecznie radzić sobie z wysoką temperaturą w domu?",
+    "de": "Wie kann man hohes Fieber zu Hause effektiv bekämpfen?"
   },
   {
     "id": "b1-part-3-133",
@@ -1061,7 +1193,8 @@
     "ruStressed": "На́шему органи́зму необходи́м о́тдых по́сле до́лгой и тяжёлой боле́зни.",
     "translit": "Nashemu organizmu neobhodim otdyh posle dolgoy i tyazhyoloy bolezni.",
     "en": "Our body needs rest after a long illness.",
-    "pl": "Nasz organizm potrzebuje odpoczynku po długiej chorobie."
+    "pl": "Nasz organizm potrzebuje odpoczynku po długiej chorobie.",
+    "de": "Unser Körper braucht nach einer langen Krankheit Ruhe."
   },
   {
     "id": "b1-part-3-134",
@@ -1069,7 +1202,8 @@
     "ruStressed": "Прими́те душ и оде́ньтесь в чи́стую оде́жду пе́ред осмо́тром.",
     "translit": "Primite dush i oden'tes' v chistuyu odezhdu pered osmotrom.",
     "en": "Take a shower and dress in clean clothes before the examination.",
-    "pl": "Proszę wziąć prysznic i założyć czyste ubranie przed badaniem. (formal)"
+    "pl": "Proszę wziąć prysznic i założyć czyste ubranie przed badaniem. (formal)",
+    "de": "Duschen Sie und ziehen Sie saubere Kleidung an vor der Untersuchung."
   },
   {
     "id": "b1-part-3-135",
@@ -1077,7 +1211,8 @@
     "ruStressed": "Пацие́нт улыбну́лся, потому́ что результа́ты ана́лизов оказа́лись хоро́шими.",
     "translit": "Pacient ulybnulsya, potomu chto rezul'taty analizov okazalis' horoshimi.",
     "en": "The patient smiled because the test results were good.",
-    "pl": "Pacjent uśmiechnął się, ponieważ wyniki badań były dobre."
+    "pl": "Pacjent uśmiechnął się, ponieważ wyniki badań były dobre.",
+    "de": "Der Patient lächelte, weil die Testergebnisse gut waren."
   },
   {
     "id": "b1-part-3-136",
@@ -1085,7 +1220,8 @@
     "ruStressed": "Не по́льзуйтесь э́той ма́зью, е́сли у вас чувстви́тельная ко́жа.",
     "translit": "Ne pol'zuytes' etoy maz'yu, esli u vas chuvstvitel'naya kozha.",
     "en": "Do not use this ointment if you have sensitive skin.",
-    "pl": "Nie używaj tej maści, jeśli masz wrażliwą skórę."
+    "pl": "Nie używaj tej maści, jeśli masz wrażliwą skórę.",
+    "de": "Verwenden Sie diese Salbe nicht, wenn Sie empfindliche Haut haben."
   },
   {
     "id": "b1-part-3-137",
@@ -1093,7 +1229,8 @@
     "ruStressed": "По моему́ мне́нию, здоро́вье важне́е, чем карье́ра и́ли де́ньги.",
     "translit": "Po moemu mneniyu, zdorov'e vazhnee, chem kar'era ili den'gi.",
     "en": "In my opinion, health is more important than career or money.",
-    "pl": "Moim zdaniem zdrowie jest ważniejsze niż kariera czy pieniądze."
+    "pl": "Moim zdaniem zdrowie jest ważniejsze niż kariera czy pieniądze.",
+    "de": "Meiner Meinung nach ist Gesundheit wichtiger als Karriere oder Geld."
   },
   {
     "id": "b1-part-3-138",
@@ -1101,7 +1238,8 @@
     "ruStressed": "Ребёнок испуга́лся врача́, но пото́м на́чал игра́ть и смея́ться.",
     "translit": "Rebyonok ispugalsya vracha, no potom nachal igrat' i smeyat'sya.",
     "en": "The child got scared of the doctor, but then started playing.",
-    "pl": "Dziecko przestraszyło się lekarza, ale potem zaczęło się bawić."
+    "pl": "Dziecko przestraszyło się lekarza, ale potem zaczęło się bawić.",
+    "de": "Das Kind bekam Angst vor dem Arzt, fing dann aber an zu spielen."
   },
   {
     "id": "b1-part-3-139",
@@ -1109,7 +1247,8 @@
     "ruStressed": "У меня́ кру́жится голова́, когда́ я сли́шком бы́стро встаю́.",
     "translit": "U menya kruzhitsya golova, kogda ya slishkom bystro vstayu.",
     "en": "I feel dizzy when I stand up too quickly.",
-    "pl": "Kręci mi się w głowie, gdy zbyt szybko wstaję."
+    "pl": "Kręci mi się w głowie, gdy zbyt szybko wstaję.",
+    "de": "Mir wird schwindelig, wenn ich zu schnell aufstehe."
   },
   {
     "id": "b1-part-3-140",
@@ -1117,7 +1256,8 @@
     "ruStressed": "Апте́карь сказа́л, что э́тот сиро́п хорошо́ помога́ет при сухо́м ка́шле.",
     "translit": "Aptekar' skazal, chto etot sirop horosho pomogaet pri suhom kashle.",
     "en": "The pharmacist said that this syrup helps with dry cough.",
-    "pl": "Farmaceuta powiedział, że ten syrop pomaga na suchy kaszel."
+    "pl": "Farmaceuta powiedział, że ten syrop pomaga na suchy kaszel.",
+    "de": "Der Apotheker sagte, dass dieser Sirup bei trockenem Husten hilft."
   },
   {
     "id": "b1-part-3-141",
@@ -1125,7 +1265,8 @@
     "ruStressed": "Я считаю́, что заня́тия бе́гом помога́ют мне справля́ться со стре́ссом и бессо́нницей.",
     "translit": "Ya schitayu, chto zanyatiya begom pomogayut mne spravlyat'sya so stressom i bessonnitsey.",
     "en": "I think that jogging helps me deal with stress and insomnia.",
-    "pl": "Uważam, że jogging pomaga mi radzić sobie ze stresem i bezsennością."
+    "pl": "Uważam, że jogging pomaga mi radzić sobie ze stresem i bezsennością.",
+    "de": "Ich denke, dass Joggen mir hilft, mit Stress und Schlaflosigkeit fertig zu werden."
   },
   {
     "id": "b1-part-3-142",
@@ -1133,7 +1274,8 @@
     "ruStressed": "Е́сли вы хоти́те остава́ться здоро́вым, следи́те за свое́й физи́ческой фо́рмой.",
     "translit": "Esli vy hotite ostavat'sya zdorovym, sledite za svoey fizicheskoy formoy.",
     "en": "If you want to stay healthy, focus on your physical form.",
-    "pl": "Jeśli chcesz zachować zdrowie, skup się na swojej formie fizycznej."
+    "pl": "Jeśli chcesz zachować zdrowie, skup się na swojej formie fizycznej.",
+    "de": "Wenn Sie gesund bleiben wollen, konzentrieren Sie sich auf Ihre körperliche Form."
   },
   {
     "id": "b1-part-3-143",
@@ -1141,7 +1283,8 @@
     "ruStressed": "Почему́ ты не помы́л ру́ки тёплой водо́й и мы́лом?",
     "translit": "Pochemu ty ne pomyl ruki tyoploy vodoy i mylom?",
     "en": "Why did you not wash your hands with warm water and soap?",
-    "pl": "Dlaczego nie umyłeś rąk ciepłą wodą i mydłem?"
+    "pl": "Dlaczego nie umyłeś rąk ciepłą wodą i mydłem?",
+    "de": "Warum hast du dir die Hände nicht mit warmem Wasser und Seife gewaschen?"
   },
   {
     "id": "b1-part-3-144",
@@ -1149,7 +1292,8 @@
     "ruStressed": "Пацие́нт вы́глядит бле́дным, потому́ что он му́чается си́льной бо́лью в животе́.",
     "translit": "Patsient vyglyadit blednym, potomu chto on muchaetsya sil'noy bol'yu v zhivote.",
     "en": "The patient looks pale because he is suffering from a strong stomach ache.",
-    "pl": "Pacjent wygląda blado, ponieważ cierpi na silny ból brzucha."
+    "pl": "Pacjent wygląda blado, ponieważ cierpi na silny ból brzucha.",
+    "de": "Der Patient sieht blass aus, weil er unter starken Magenschmerzen leidet."
   },
   {
     "id": "b1-part-3-145",
@@ -1157,7 +1301,8 @@
     "ruStressed": "Моя́ сестра́ переста́ла есть са́хар, когда́ она́ начала́ занима́ться гимна́стикой.",
     "translit": "Moya sestra perestala est' sahar, kogda ona nachala zanimat'sya gimnastikoy.",
     "en": "My sister stopped eating sugar when she started doing gymnastics.",
-    "pl": "Moja siostra przestała jeść cukier, gdy zaczęła uprawiać gimnastykę."
+    "pl": "Moja siostra przestała jeść cukier, gdy zaczęła uprawiać gimnastykę.",
+    "de": "Meine Schwester hat aufgehört Zucker zu essen, als sie mit Gymnastik anfing."
   },
   {
     "id": "b1-part-3-146",
@@ -1165,7 +1310,8 @@
     "ruStressed": "Не волну́йтесь, хиру́рг оста́лся дово́лен результа́том ва́шего ана́лиза.",
     "translit": "Ne volnuytes', hirurg ostalsya dovolen rezul'tatom vashego analiza.",
     "en": "Do not worry, the surgeon was pleased with the result of your analysis.",
-    "pl": "Proszę się nie martwić, chirurg był zadowolony z wyniku pana/pani analizy. (formal)"
+    "pl": "Proszę się nie martwić, chirurg był zadowolony z wyniku pana/pani analizy. (formal)",
+    "de": "Machen Sie sich keine Sorgen, der Chirurg war mit dem Ergebnis Ihrer Analyse zufrieden."
   },
   {
     "id": "b1-part-3-147",
@@ -1173,7 +1319,8 @@
     "ruStressed": "Вам сле́дует посове́товаться с терапе́втом, е́сли боль не прохо́дит.",
     "translit": "Vam sleduet posovetovat'sya s terapevtom, esli bol' ne prohodit.",
     "en": "You should consult with a therapist if the pain does not go away.",
-    "pl": "Powinieneś skonsultować się z terapeutą, jeśli ból nie ustępuje."
+    "pl": "Powinieneś skonsultować się z terapeutą, jeśli ból nie ustępuje.",
+    "de": "Sie sollten einen Therapeuten konsultieren, wenn der Schmerz nicht weggeht."
   },
   {
     "id": "b1-part-3-148",
@@ -1181,7 +1328,8 @@
     "ruStressed": "Я реши́л стать врачо́м по́сле того́, как вы́здоровел по́сле тяжёлой боле́зни.",
     "translit": "Ya reshil stat' vrachom posle togo, kak vyzdorovel posle tyazhyoloy bolezni.",
     "en": "I decided to become a doctor after I recovered from a serious illness.",
-    "pl": "Zdecydowałem się zostać lekarzem po tym, jak wyzdrowiałem z poważnej choroby."
+    "pl": "Zdecydowałem się zostać lekarzem po tym, jak wyzdrowiałem z poważnej choroby.",
+    "de": "Ich habe mich entschieden Arzt zu werden, nachdem ich mich von einer schweren Krankheit erholt hatte."
   },
   {
     "id": "b1-part-3-149",
@@ -1189,7 +1337,8 @@
     "ruStressed": "Когда́ ты обы́чно просыпа́ешься, что́бы подгото́виться к у́тренней трениро́вке?",
     "translit": "Kogda ty obychno prosypaesh'sya, chtoby podgotovit'sya k utrenney trenirovke.",
     "en": "When do you usually wake up to prepare for your morning workout?",
-    "pl": "O której zazwyczaj wstajesz, aby przygotować się do porannego treningu?"
+    "pl": "O której zazwyczaj wstajesz, aby przygotować się do porannego treningu?",
+    "de": "Wann wachst du normalerweise auf, um dich auf dein morgendliches Training vorzubereiten?"
   },
   {
     "id": "b1-part-3-150",
@@ -1197,6 +1346,7 @@
     "ruStressed": "Совреме́нная медици́на успе́шно справля́ется с ви́русами, кото́рые бы́ли опа́сны ра́ньше.",
     "translit": "Sovremennaya meditsina uspeshno spravlyaetsya s virusami, kotorye byli opasny ran'she.",
     "en": "Modern medicine successfully copes with viruses that were dangerous before.",
-    "pl": "Współczesna medycyna skutecznie radzi sobie z wirusami, które wcześniej były niebezpieczne."
+    "pl": "Współczesna medycyna skutecznie radzi sobie z wirusami, które wcześniej były niebezpieczne.",
+    "de": "Die moderne Medizin bewältigt erfolgreich Viren, die früher gefährlich waren."
   }
 ]
