@@ -739,7 +739,7 @@ function SettingsSheet({
         <div className="mt-4 space-y-3">
           <Group title={t("settings.appLanguage")}>
             <p className="text-xs text-muted-foreground mb-3">{t("settings.appLangHint")}</p>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-3 gap-2">
               {LOCALES.map((opt) => {
                 const active = settings.appLanguage === opt.id;
                 return (
