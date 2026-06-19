@@ -563,7 +563,7 @@ function RankCard({
   const { t, locale } = useT();
   const { current, next, pct, toNext } = progress;
   const rankKey = (id: string): StringKey => `rank.${id}` as StringKey;
-  const fmtNum = (n: number) => n.toLocaleString(locale === "pl" ? "pl-PL" : "en-US");
+  const fmtNum = (n: number) => n.toLocaleString(localeToBCP47(locale));
   return (
     <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
       <div className="flex items-center justify-between">
