@@ -5,7 +5,8 @@
     "ruStressed": "Где здесь метро́?",
     "translit": "Gde zdes metro?",
     "en": "Where is the metro here?",
-    "pl": "Gdzie tutaj jest metro?"
+    "pl": "Gdzie tutaj jest metro?",
+    "de": "Wo ist hier die U-Bahn?"
   },
   {
     "id": "a1-part-4-2",
@@ -13,7 +14,8 @@
     "ruStressed": "Где ближа́йший магази́н?",
     "translit": "Gde blizhayshiy magazin?",
     "en": "Where is the nearest shop?",
-    "pl": "Gdzie jest najbliższy sklep?"
+    "pl": "Gdzie jest najbliższy sklep?",
+    "de": "Wo ist das nächste Geschäft?"
   },
   {
     "id": "a1-part-4-3",
@@ -21,7 +23,8 @@
     "ruStressed": "Где нахо́дится вокза́л?",
     "translit": "Gde nakhoditsya vokzal?",
     "en": "Where is the train station?",
-    "pl": "Gdzie jest dworzec?"
+    "pl": "Gdzie jest dworzec?",
+    "de": "Wo ist der Bahnhof?"
   },
   {
     "id": "a1-part-4-4",
@@ -29,7 +32,8 @@
     "ruStressed": "Где нахо́дится аэропо́рт?",
     "translit": "Gde nakhoditsya aeroport?",
     "en": "Where is the airport?",
-    "pl": "Gdzie jest lotnisko?"
+    "pl": "Gdzie jest lotnisko?",
+    "de": "Wo ist der Flughafen?"
   },
   {
     "id": "a1-part-4-5",
@@ -37,7 +41,8 @@
     "ruStressed": "Где остано́вка авто́буса?",
     "translit": "Gde ostanovka avtobusa?",
     "en": "Where is the bus stop?",
-    "pl": "Gdzie jest przystanek autobusowy?"
+    "pl": "Gdzie jest przystanek autobusowy?",
+    "de": "Wo ist die Bushaltestelle?"
   },
   {
     "id": "a1-part-4-6",
@@ -45,7 +50,8 @@
     "ruStressed": "Иди́те пря́мо.",
     "translit": "Idite pryamo.",
     "en": "Go straight.",
-    "pl": "Proszę iść prosto."
+    "pl": "Proszę iść prosto.",
+    "de": "Gehen Sie geradeaus."
   },
   {
     "id": "a1-part-4-7",
@@ -53,7 +59,8 @@
     "ruStressed": "Поверни́те напра́во.",
     "translit": "Povernite napravo.",
     "en": "Turn right.",
-    "pl": "Proszę skręcić w prawo."
+    "pl": "Proszę skręcić w prawo.",
+    "de": "Biegen Sie rechts ab."
   },
   {
     "id": "a1-part-4-8",
@@ -61,7 +68,8 @@
     "ruStressed": "Поверни́те нале́во.",
     "translit": "Povernite nalevo.",
     "en": "Turn left.",
-    "pl": "Proszę skręcić w lewo."
+    "pl": "Proszę skręcić w lewo.",
+    "de": "Biegen Sie links ab."
   },
   {
     "id": "a1-part-4-9",
@@ -69,7 +77,8 @@
     "ruStressed": "Э́то далеко́?",
     "translit": "Eto daleko?",
     "en": "Is it far?",
-    "pl": "Czy to daleko?"
+    "pl": "Czy to daleko?",
+    "de": "Ist es weit?"
   },
   {
     "id": "a1-part-4-10",
@@ -77,7 +86,8 @@
     "ruStressed": "Э́то бли́зко?",
     "translit": "Eto blizko?",
     "en": "Is it close?",
-    "pl": "Czy to blisko?"
+    "pl": "Czy to blisko?",
+    "de": "Ist es nah?"
   },
   {
     "id": "a1-part-4-11",
@@ -85,7 +95,8 @@
     "ruStressed": "Э́то о́чень далеко́.",
     "translit": "Eto ochen daleko.",
     "en": "It is very far.",
-    "pl": "To jest bardzo daleko."
+    "pl": "To jest bardzo daleko.",
+    "de": "Es ist sehr weit."
   },
   {
     "id": "a1-part-4-12",
@@ -93,7 +104,8 @@
     "ruStressed": "Э́то совсе́м бли́зко.",
     "translit": "Eto sovsem blizko.",
     "en": "It is quite close.",
-    "pl": "To jest całkiem blisko."
+    "pl": "To jest całkiem blisko.",
+    "de": "Es ist ganz nah."
   },
   {
     "id": "a1-part-4-13",
@@ -101,7 +113,8 @@
     "ruStressed": "Идти́ пешко́м де́сять мину́т.",
     "translit": "Idti peshkom desyat minut.",
     "en": "It is ten minutes on foot.",
-    "pl": "To dziesięć minut pieszo."
+    "pl": "To dziesięć minut pieszo.",
+    "de": "Es sind zehn Minuten zu Fuß."
   },
   {
     "id": "a1-part-4-14",
@@ -109,7 +122,8 @@
     "ruStressed": "Магази́н за угло́м.",
     "translit": "Magazin za uglom.",
     "en": "The shop is around the corner.",
-    "pl": "Sklep jest za rogiem."
+    "pl": "Sklep jest za rogiem.",
+    "de": "Das Geschäft ist um die Ecke."
   },
   {
     "id": "a1-part-4-15",
@@ -117,7 +131,8 @@
     "ruStressed": "Апте́ка ря́дом с метро́.",
     "translit": "Apteka ryadom s metro.",
     "en": "The pharmacy is near the metro.",
-    "pl": "Apteka jest obok metra."
+    "pl": "Apteka jest obok metra.",
+    "de": "Die Apotheke ist in der Nähe der U-Bahn."
   },
   {
     "id": "a1-part-4-16",
@@ -125,7 +140,8 @@
     "ruStressed": "Банк нахо́дится в це́нтре.",
     "translit": "Bank nakhoditsya v tsentre.",
     "en": "The bank is in the centre.",
-    "pl": "Bank jest w centrum."
+    "pl": "Bank jest w centrum.",
+    "de": "Die Bank ist im Zentrum."
   },
   {
     "id": "a1-part-4-17",
@@ -133,7 +149,8 @@
     "ruStressed": "Музе́й откры́т ка́ждый день.",
     "translit": "Muzey otkryt kazhdyy den.",
     "en": "The museum is open every day.",
-    "pl": "Muzeum jest otwarte codziennie."
+    "pl": "Muzeum jest otwarte codziennie.",
+    "de": "Das Museum ist jeden Tag geöffnet."
   },
   {
     "id": "a1-part-4-18",
@@ -141,7 +158,8 @@
     "ruStressed": "Магази́н закры́т.",
     "translit": "Magazin zakryt.",
     "en": "The shop is closed.",
-    "pl": "Sklep jest zamknięty."
+    "pl": "Sklep jest zamknięty.",
+    "de": "Das Geschäft ist geschlossen."
   },
   {
     "id": "a1-part-4-19",
@@ -149,7 +167,8 @@
     "ruStressed": "Когда́ открыва́ется банк?",
     "translit": "Kogda otkryvaetsya bank?",
     "en": "When does the bank open?",
-    "pl": "O której otwierają bank?"
+    "pl": "O której otwierają bank?",
+    "de": "Wann öffnet die Bank?"
   },
   {
     "id": "a1-part-4-20",
@@ -157,7 +176,8 @@
     "ruStressed": "Когда́ закрыва́ется по́чта?",
     "translit": "Kogda zakryvaetsya pochta?",
     "en": "When does the post office close?",
-    "pl": "O której zamykają pocztę?"
+    "pl": "O której zamykają pocztę?",
+    "de": "Wann schließt die Post?"
   },
   {
     "id": "a1-part-4-21",
@@ -165,7 +185,8 @@
     "ruStressed": "По́чта рабо́тает до пяти́.",
     "translit": "Pochta rabotaet do pyati.",
     "en": "The post office works until five.",
-    "pl": "Poczta jest czynna do piątej."
+    "pl": "Poczta jest czynna do piątej.",
+    "de": "Die Post hat bis fünf Uhr geöffnet."
   },
   {
     "id": "a1-part-4-22",
@@ -173,7 +194,8 @@
     "ruStressed": "Кафе́ откры́то до десяти́.",
     "translit": "Kafe otkryto do desyati.",
     "en": "The café is open until ten.",
-    "pl": "Kawiarnia jest otwarta do dziesiątej."
+    "pl": "Kawiarnia jest otwarta do dziesiątej.",
+    "de": "Das Café ist bis zehn Uhr geöffnet."
   },
   {
     "id": "a1-part-4-23",
@@ -181,7 +203,8 @@
     "ruStressed": "Я е́ду на авто́бусе.",
     "translit": "Ya edu na avtobuse.",
     "en": "I'm going by bus.",
-    "pl": "Jadę autobusem."
+    "pl": "Jadę autobusem.",
+    "de": "Ich fahre mit dem Bus."
   },
   {
     "id": "a1-part-4-24",
@@ -189,7 +212,8 @@
     "ruStressed": "Я е́ду на метро́.",
     "translit": "Ya edu na metro.",
     "en": "I'm going by metro.",
-    "pl": "Jadę metrem."
+    "pl": "Jadę metrem.",
+    "de": "Ich fahre mit der U-Bahn."
   },
   {
     "id": "a1-part-4-25",
@@ -197,7 +221,8 @@
     "ruStressed": "Я е́ду на маши́не.",
     "translit": "Ya edu na mashine.",
     "en": "I'm going by car.",
-    "pl": "Jadę samochodem."
+    "pl": "Jadę samochodem.",
+    "de": "Ich fahre mit dem Auto."
   },
   {
     "id": "a1-part-4-26",
@@ -205,7 +230,8 @@
     "ruStressed": "Я е́ду на такси́.",
     "translit": "Ya edu na taksi.",
     "en": "I'm going by taxi.",
-    "pl": "Jadę taksówką."
+    "pl": "Jadę taksówką.",
+    "de": "Ich fahre mit dem Taxi."
   },
   {
     "id": "a1-part-4-27",
@@ -213,7 +239,8 @@
     "ruStressed": "Я е́ду на по́езде.",
     "translit": "Ya edu na poezde.",
     "en": "I'm going by train.",
-    "pl": "Jadę pociągiem."
+    "pl": "Jadę pociągiem.",
+    "de": "Ich fahre mit dem Zug."
   },
   {
     "id": "a1-part-4-28",
@@ -221,7 +248,8 @@
     "ruStressed": "Я лечу́ на самолёте.",
     "translit": "Ya lechu na samolyote.",
     "en": "I'm flying by plane.",
-    "pl": "Lecę samolotem."
+    "pl": "Lecę samolotem.",
+    "de": "Ich fliege mit dem Flugzeug."
   },
   {
     "id": "a1-part-4-29",
@@ -229,7 +257,8 @@
     "ruStressed": "Я иду́ пешко́м.",
     "translit": "Ya idu peshkom.",
     "en": "I'm going on foot.",
-    "pl": "Idę pieszo."
+    "pl": "Idę pieszo.",
+    "de": "Ich gehe zu Fuß."
   },
   {
     "id": "a1-part-4-30",
@@ -237,7 +266,8 @@
     "ruStressed": "Вы́зовите такси́, пожа́луйста.",
     "translit": "Vyzovite taksi, pozhaluysta.",
     "en": "Please call a taxi.",
-    "pl": "Proszę wezwać taksówkę."
+    "pl": "Proszę wezwać taksówkę.",
+    "de": "Rufen Sie bitte ein Taxi."
   },
   {
     "id": "a1-part-4-31",
@@ -245,7 +275,8 @@
     "ruStressed": "Ско́лько е́хать до це́нтра?",
     "translit": "Skolko ekhat do tsentra?",
     "en": "How long to the centre?",
-    "pl": "Jak długo jedzie się do centrum?"
+    "pl": "Jak długo jedzie się do centrum?",
+    "de": "Wie lange dauert es bis zum Zentrum?"
   },
   {
     "id": "a1-part-4-32",
@@ -253,7 +284,8 @@
     "ruStressed": "Останови́те здесь, пожа́луйста.",
     "translit": "Ostanovite zdes, pozhaluysta.",
     "en": "Please stop here.",
-    "pl": "Proszę się tutaj zatrzymać."
+    "pl": "Proszę się tutaj zatrzymać.",
+    "de": "Halten Sie bitte hier an."
   },
   {
     "id": "a1-part-4-33",
@@ -261,7 +293,8 @@
     "ruStressed": "Где мо́жно купи́ть биле́т?",
     "translit": "Gde mozhno kupit bilet?",
     "en": "Where can I buy a ticket?",
-    "pl": "Gdzie mogę kupić bilet?"
+    "pl": "Gdzie mogę kupić bilet?",
+    "de": "Wo kann ich eine Fahrkarte kaufen?"
   },
   {
     "id": "a1-part-4-34",
@@ -269,7 +302,8 @@
     "ruStressed": "Оди́н биле́т, пожа́луйста.",
     "translit": "Odin bilet, pozhaluysta.",
     "en": "One ticket, please.",
-    "pl": "Jeden bilet, poproszę."
+    "pl": "Jeden bilet, poproszę.",
+    "de": "Eine Fahrkarte, bitte."
   },
   {
     "id": "a1-part-4-35",
@@ -277,7 +311,8 @@
     "ruStressed": "Два биле́та до Москвы́.",
     "translit": "Dva bileta do Moskvy.",
     "en": "Two tickets to Moscow.",
-    "pl": "Dwa bilety do Moskwy."
+    "pl": "Dwa bilety do Moskwy.",
+    "de": "Zwei Fahrkarten nach Moskau."
   },
   {
     "id": "a1-part-4-36",
@@ -285,7 +320,8 @@
     "ruStressed": "Когда́ отправля́ется по́езд?",
     "translit": "Kogda otpravlyaetsya poezd?",
     "en": "When does the train leave?",
-    "pl": "Kiedy odjeżdża pociąg?"
+    "pl": "Kiedy odjeżdża pociąg?",
+    "de": "Wann fährt der Zug ab?"
   },
   {
     "id": "a1-part-4-37",
@@ -293,7 +329,8 @@
     "ruStressed": "По́езд опа́здывает.",
     "translit": "Poezd opazdyvaet.",
     "en": "The train is late.",
-    "pl": "Pociąg się spóźnia."
+    "pl": "Pociąg się spóźnia.",
+    "de": "Der Zug hat Verspätung."
   },
   {
     "id": "a1-part-4-38",
@@ -301,7 +338,8 @@
     "ruStressed": "Самолёт прилета́ет в семь.",
     "translit": "Samolyot priletaet v sem.",
     "en": "The plane arrives at seven.",
-    "pl": "Samolot przylatuje o siódmej."
+    "pl": "Samolot przylatuje o siódmej.",
+    "de": "Das Flugzeug kommt um sieben Uhr an."
   },
   {
     "id": "a1-part-4-39",
@@ -309,7 +347,8 @@
     "ruStressed": "Сейча́с во́семь часо́в утра́.",
     "translit": "Seychas vosem chasov utra.",
     "en": "It is eight in the morning.",
-    "pl": "Jest ósma rano."
+    "pl": "Jest ósma rano.",
+    "de": "Es ist acht Uhr morgens."
   },
   {
     "id": "a1-part-4-40",
@@ -317,7 +356,8 @@
     "ruStressed": "Сейча́с три часа́ дня.",
     "translit": "Seychas tri chasa dnya.",
     "en": "It is three in the afternoon.",
-    "pl": "Jest trzecia po południu."
+    "pl": "Jest trzecia po południu.",
+    "de": "Es ist drei Uhr nachmittags."
   },
   {
     "id": "a1-part-4-41",
@@ -325,7 +365,8 @@
     "ruStressed": "Сейча́с де́сять часо́в ве́чера.",
     "translit": "Seychas desyat chasov vechera.",
     "en": "It is ten in the evening.",
-    "pl": "Jest dziesiąta wieczorem."
+    "pl": "Jest dziesiąta wieczorem.",
+    "de": "Es ist zehn Uhr abends."
   },
   {
     "id": "a1-part-4-42",
@@ -333,7 +374,8 @@
     "ruStressed": "Сейча́с полови́на пе́рвого.",
     "translit": "Seychas polovina pervogo.",
     "en": "It is half past twelve.",
-    "pl": "Jest wpół do pierwszej."
+    "pl": "Jest wpół do pierwszej.",
+    "de": "Es ist halb eins."
   },
   {
     "id": "a1-part-4-43",
@@ -341,7 +383,8 @@
     "ruStressed": "Сейча́с че́тверть второ́го.",
     "translit": "Seychas chetvert vtorogo.",
     "en": "It is a quarter past one.",
-    "pl": "Jest kwadrans po pierwszej."
+    "pl": "Jest kwadrans po pierwszej.",
+    "de": "Es ist Viertel nach eins."
   },
   {
     "id": "a1-part-4-44",
@@ -349,7 +392,8 @@
     "ruStressed": "Без че́тверти три.",
     "translit": "Bez chetverti tri.",
     "en": "It is a quarter to three.",
-    "pl": "Jest za kwadrans trzecia."
+    "pl": "Jest za kwadrans trzecia.",
+    "de": "Es ist Viertel vor drei."
   },
   {
     "id": "a1-part-4-45",
@@ -357,7 +401,8 @@
     "ruStressed": "Магази́н открыва́ется в де́вять.",
     "translit": "Magazin otkryvaetsya v devyat.",
     "en": "The shop opens at nine.",
-    "pl": "Sklep otwierają o dziewiątej."
+    "pl": "Sklep otwierają o dziewiątej.",
+    "de": "Das Geschäft öffnet um neun."
   },
   {
     "id": "a1-part-4-46",
@@ -365,7 +410,8 @@
     "ruStressed": "Я ложу́сь спать в оди́ннадцать.",
     "translit": "Ya lozhus spat v odinnadtsat.",
     "en": "I go to bed at eleven.",
-    "pl": "Kładę się spać o jedenastej."
+    "pl": "Kładę się spać o jedenastej.",
+    "de": "Ich gehe um elf ins Bett."
   },
   {
     "id": "a1-part-4-47",
@@ -373,7 +419,8 @@
     "ruStressed": "Я встаю́ в семь утра́.",
     "translit": "Ya vstayu v sem utra.",
     "en": "I get up at seven in the morning.",
-    "pl": "Wstaję o siódmej rano."
+    "pl": "Wstaję o siódmej rano.",
+    "de": "Ich stehe um sieben Uhr morgens auf."
   },
   {
     "id": "a1-part-4-48",
@@ -381,7 +428,8 @@
     "ruStressed": "За́втрак в во́семь часо́в.",
     "translit": "Zavtrak v vosem chasov.",
     "en": "Breakfast is at eight.",
-    "pl": "Śniadanie jest o ósmej."
+    "pl": "Śniadanie jest o ósmej.",
+    "de": "Das Frühstück ist um acht."
   },
   {
     "id": "a1-part-4-49",
@@ -389,7 +437,8 @@
     "ruStressed": "Обе́д в час дня.",
     "translit": "Obed v chas dnya.",
     "en": "Lunch is at one.",
-    "pl": "Obiad jest o pierwszej."
+    "pl": "Obiad jest o pierwszej.",
+    "de": "Das Mittagessen ist um eins."
   },
   {
     "id": "a1-part-4-50",
@@ -397,7 +446,8 @@
     "ruStressed": "У́жин в семь ве́чера.",
     "translit": "Uzhin v sem vechera.",
     "en": "Dinner is at seven in the evening.",
-    "pl": "Kolacja jest o siódmej wieczorem."
+    "pl": "Kolacja jest o siódmej wieczorem.",
+    "de": "Das Abendessen ist um sieben Uhr abends."
   },
   {
     "id": "a1-part-4-51",
@@ -405,7 +455,8 @@
     "ruStressed": "Уро́к начина́ется в де́вять.",
     "translit": "Urok nachinaetsya v devyat.",
     "en": "The lesson starts at nine.",
-    "pl": "Lekcja zaczyna się o dziewiątej."
+    "pl": "Lekcja zaczyna się o dziewiątej.",
+    "de": "Der Unterricht beginnt um neun."
   },
   {
     "id": "a1-part-4-52",
@@ -413,7 +464,8 @@
     "ruStressed": "Уро́к зака́нчивается в час.",
     "translit": "Urok zakanchivaetsya v chas.",
     "en": "The lesson ends at one.",
-    "pl": "Lekcja kończy się o pierwszej."
+    "pl": "Lekcja kończy się o pierwszej.",
+    "de": "Der Unterricht endet um eins."
   },
   {
     "id": "a1-part-4-53",
@@ -421,7 +473,8 @@
     "ruStressed": "Ско́лько вре́мени э́то займёт?",
     "translit": "Skolko vremeni eto zaymyot?",
     "en": "How long will it take?",
-    "pl": "Ile czasu to zajmie?"
+    "pl": "Ile czasu to zajmie?",
+    "de": "Wie lange wird es dauern?"
   },
   {
     "id": "a1-part-4-54",
@@ -429,7 +482,8 @@
     "ruStressed": "Э́то займёт пять мину́т.",
     "translit": "Eto zaymyot pyat minut.",
     "en": "It will take five minutes.",
-    "pl": "To zajmie pięć minut."
+    "pl": "To zajmie pięć minut.",
+    "de": "Es wird fünf Minuten dauern."
   },
   {
     "id": "a1-part-4-55",
@@ -437,7 +491,8 @@
     "ruStressed": "Э́то займёт це́лый час.",
     "translit": "Eto zaymyot tselyy chas.",
     "en": "It will take a whole hour.",
-    "pl": "To zajmie całą godzinę."
+    "pl": "To zajmie całą godzinę.",
+    "de": "Es wird eine ganze Stunde dauern."
   },
   {
     "id": "a1-part-4-56",
@@ -445,7 +500,8 @@
     "ruStressed": "Кака́я сего́дня пого́да?",
     "translit": "Kakaya segodnya pogoda?",
     "en": "What's the weather like today?",
-    "pl": "Jaka jest dzisiaj pogoda?"
+    "pl": "Jaka jest dzisiaj pogoda?",
+    "de": "Wie ist das Wetter heute?"
   },
   {
     "id": "a1-part-4-57",
@@ -453,7 +509,8 @@
     "ruStressed": "Сего́дня хоро́шая пого́да.",
     "translit": "Segodnya khoroshaya pogoda.",
     "en": "The weather is nice today.",
-    "pl": "Dzisiaj jest ładna pogoda."
+    "pl": "Dzisiaj jest ładna pogoda.",
+    "de": "Das Wetter ist heute schön."
   },
   {
     "id": "a1-part-4-58",
@@ -461,7 +518,8 @@
     "ruStressed": "Сего́дня плоха́я пого́да.",
     "translit": "Segodnya plokhaya pogoda.",
     "en": "The weather is bad today.",
-    "pl": "Dzisiaj jest brzydka pogoda."
+    "pl": "Dzisiaj jest brzydka pogoda.",
+    "de": "Das Wetter ist heute schlecht."
   },
   {
     "id": "a1-part-4-59",
@@ -469,7 +527,8 @@
     "ruStressed": "Сего́дня идёт дождь.",
     "translit": "Segodnya idyot dozhd.",
     "en": "It's raining today.",
-    "pl": "Dzisiaj pada deszcz."
+    "pl": "Dzisiaj pada deszcz.",
+    "de": "Heute regnet es."
   },
   {
     "id": "a1-part-4-60",
@@ -477,7 +536,8 @@
     "ruStressed": "Сего́дня идёт снег.",
     "translit": "Segodnya idyot sneg.",
     "en": "It's snowing today.",
-    "pl": "Dzisiaj pada śnieg."
+    "pl": "Dzisiaj pada śnieg.",
+    "de": "Heute schneit es."
   },
   {
     "id": "a1-part-4-61",
@@ -485,7 +545,8 @@
     "ruStressed": "Сего́дня со́лнечно.",
     "translit": "Segodnya solnechno.",
     "en": "It's sunny today.",
-    "pl": "Dzisiaj jest słonecznie."
+    "pl": "Dzisiaj jest słonecznie.",
+    "de": "Heute ist es sonnig."
   },
   {
     "id": "a1-part-4-62",
@@ -493,7 +554,8 @@
     "ruStressed": "Сего́дня о́блачно.",
     "translit": "Segodnya oblachno.",
     "en": "It's cloudy today.",
-    "pl": "Dzisiaj jest pochmurno."
+    "pl": "Dzisiaj jest pochmurno.",
+    "de": "Heute ist es bewölkt."
   },
   {
     "id": "a1-part-4-63",
@@ -501,7 +563,8 @@
     "ruStressed": "Сего́дня ве́трено.",
     "translit": "Segodnya vetreno.",
     "en": "It's windy today.",
-    "pl": "Dzisiaj jest wietrznie."
+    "pl": "Dzisiaj jest wietrznie.",
+    "de": "Heute ist es windig."
   },
   {
     "id": "a1-part-4-64",
@@ -509,7 +572,8 @@
     "ruStressed": "На у́лице холодно́.",
     "translit": "Na ulitse kholodno.",
     "en": "It's cold outside.",
-    "pl": "Na zewnątrz jest zimno."
+    "pl": "Na zewnątrz jest zimno.",
+    "de": "Draußen ist es kalt."
   },
   {
     "id": "a1-part-4-65",
@@ -517,7 +581,8 @@
     "ruStressed": "На у́лице тепло́.",
     "translit": "Na ulitse teplo.",
     "en": "It's warm outside.",
-    "pl": "Na zewnątrz jest ciepło."
+    "pl": "Na zewnątrz jest ciepło.",
+    "de": "Draußen ist es warm."
   },
   {
     "id": "a1-part-4-66",
@@ -525,7 +590,8 @@
     "ruStressed": "На у́лице жа́рко.",
     "translit": "Na ulitse zharko.",
     "en": "It's hot outside.",
-    "pl": "Na zewnątrz jest gorąco."
+    "pl": "Na zewnątrz jest gorąco.",
+    "de": "Draußen ist es heiß."
   },
   {
     "id": "a1-part-4-67",
@@ -533,7 +599,8 @@
     "ruStressed": "За́втра бу́дет дождь.",
     "translit": "Zavtra budet dozhd.",
     "en": "It will rain tomorrow.",
-    "pl": "Jutro będzie padać."
+    "pl": "Jutro będzie padać.",
+    "de": "Morgen wird es regnen."
   },
   {
     "id": "a1-part-4-68",
@@ -541,7 +608,8 @@
     "ruStressed": "За́втра бу́дет со́лнечно.",
     "translit": "Zavtra budet solnechno.",
     "en": "It will be sunny tomorrow.",
-    "pl": "Jutro będzie słonecznie."
+    "pl": "Jutro będzie słonecznie.",
+    "de": "Morgen wird es sonnig sein."
   },
   {
     "id": "a1-part-4-69",
@@ -549,7 +617,8 @@
     "ruStressed": "Возьми́ зонт.",
     "translit": "Vozmi zont.",
     "en": "Take an umbrella.",
-    "pl": "Weź parasol."
+    "pl": "Weź parasol.",
+    "de": "Nimm einen Regenschirm mit."
   },
   {
     "id": "a1-part-4-70",
@@ -557,7 +626,8 @@
     "ruStressed": "Наде́нь ку́ртку.",
     "translit": "Naden kurtku.",
     "en": "Put on a jacket.",
-    "pl": "Załóż kurtkę."
+    "pl": "Załóż kurtkę.",
+    "de": "Zieh eine Jacke an."
   },
   {
     "id": "a1-part-4-71",
@@ -565,7 +635,8 @@
     "ruStressed": "Наде́нь ша́пку.",
     "translit": "Naden shapku.",
     "en": "Put on a hat.",
-    "pl": "Załóż czapkę."
+    "pl": "Załóż czapkę.",
+    "de": "Zieh eine Mütze an."
   },
   {
     "id": "a1-part-4-72",
@@ -573,7 +644,8 @@
     "ruStressed": "Сего́дня плюс пять гра́дусов.",
     "translit": "Segodnya plyus pyat gradusov.",
     "en": "Today it's plus five degrees.",
-    "pl": "Dzisiaj jest plus pięć stopni."
+    "pl": "Dzisiaj jest plus pięć stopni.",
+    "de": "Heute sind es plus fünf Grad."
   },
   {
     "id": "a1-part-4-73",
@@ -581,7 +653,8 @@
     "ruStressed": "Сего́дня ми́нус де́сять гра́дусов.",
     "translit": "Segodnya minus desyat gradusov.",
     "en": "Today it's minus ten degrees.",
-    "pl": "Dzisiaj jest minus dziesięć stopni."
+    "pl": "Dzisiaj jest minus dziesięć stopni.",
+    "de": "Heute sind es minus zehn Grad."
   },
   {
     "id": "a1-part-4-74",
@@ -589,7 +662,8 @@
     "ruStressed": "Я встаю́ ра́но.",
     "translit": "Ya vstayu rano.",
     "en": "I get up early.",
-    "pl": "Wstaję wcześnie."
+    "pl": "Wstaję wcześnie.",
+    "de": "Ich stehe früh auf."
   },
   {
     "id": "a1-part-4-75",
@@ -597,7 +671,8 @@
     "ruStressed": "Я ложу́сь по́здно.",
     "translit": "Ya lozhus pozdno.",
     "en": "I go to bed late.",
-    "pl": "Kładę się spać późno."
+    "pl": "Kładę się spać późno.",
+    "de": "Ich gehe spät ins Bett."
   },
   {
     "id": "a1-part-4-76",
@@ -605,7 +680,8 @@
     "ruStressed": "Я чи́щу зу́бы у́тром.",
     "translit": "Ya chishchu zuby utrom.",
     "en": "I brush my teeth in the morning.",
-    "pl": "Rano myję zęby."
+    "pl": "Rano myję zęby.",
+    "de": "Ich putze mir morgens die Zähne."
   },
   {
     "id": "a1-part-4-77",
@@ -613,7 +689,8 @@
     "ruStressed": "Я принима́ю душ.",
     "translit": "Ya prinimayu dush.",
     "en": "I take a shower.",
-    "pl": "Biorę prysznic."
+    "pl": "Biorę prysznic.",
+    "de": "Ich gehe duschen."
   },
   {
     "id": "a1-part-4-78",
@@ -621,7 +698,8 @@
     "ruStressed": "Я за́втракаю до́ма.",
     "translit": "Ya zavtrakayu doma.",
     "en": "I have breakfast at home.",
-    "pl": "Jem śniadanie w domu."
+    "pl": "Jem śniadanie w domu.",
+    "de": "Ich frühstücke zu Hause."
   },
   {
     "id": "a1-part-4-79",
@@ -629,7 +707,8 @@
     "ruStressed": "Я обе́даю на рабо́те.",
     "translit": "Ya obedayu na rabote.",
     "en": "I have lunch at work.",
-    "pl": "Jem obiad w pracy."
+    "pl": "Jem obiad w pracy.",
+    "de": "Ich esse auf der Arbeit zu Mittag."
   },
   {
     "id": "a1-part-4-80",
@@ -637,7 +716,8 @@
     "ruStressed": "Я у́жинаю с семьёй.",
     "translit": "Ya uzhinayu s semyoy.",
     "en": "I have dinner with my family.",
-    "pl": "Jem kolację z rodziną."
+    "pl": "Jem kolację z rodziną.",
+    "de": "Ich esse mit meiner Familie zu Abend."
   },
   {
     "id": "a1-part-4-81",
@@ -645,7 +725,8 @@
     "ruStressed": "По́сле рабо́ты я гуля́ю.",
     "translit": "Posle raboty ya gulyayu.",
     "en": "After work I go for a walk.",
-    "pl": "Po pracy idę na spacer."
+    "pl": "Po pracy idę na spacer.",
+    "de": "Nach der Arbeit gehe ich spazieren."
   },
   {
     "id": "a1-part-4-82",
@@ -653,7 +734,8 @@
     "ruStressed": "По выходны́м я отдыха́ю.",
     "translit": "Po vykhodnym ya otdykhayu.",
     "en": "On weekends I rest.",
-    "pl": "W weekendy odpoczywam."
+    "pl": "W weekendy odpoczywam.",
+    "de": "Am Wochenende ruhe ich mich aus."
   },
   {
     "id": "a1-part-4-83",
@@ -661,7 +743,8 @@
     "ruStressed": "Я смотрю́ фильм ве́чером.",
     "translit": "Ya smotryu film vecherom.",
     "en": "I watch a movie in the evening.",
-    "pl": "Wieczorem oglądam film."
+    "pl": "Wieczorem oglądam film.",
+    "de": "Abends schaue ich einen Film."
   },
   {
     "id": "a1-part-4-84",
@@ -669,7 +752,8 @@
     "ruStressed": "Я люблю́ Москву́.",
     "translit": "Ya lyublyu Moskvu.",
     "en": "I love Moscow.",
-    "pl": "Kocham Moskwę."
+    "pl": "Kocham Moskwę.",
+    "de": "Ich liebe Moskau."
   },
   {
     "id": "a1-part-4-85",
@@ -677,7 +761,8 @@
     "ruStressed": "Москва́ — большо́й го́род.",
     "translit": "Moskva — bolshoy gorod.",
     "en": "Moscow is a big city.",
-    "pl": "Moskwa to duże miasto."
+    "pl": "Moskwa to duże miasto.",
+    "de": "Moskau ist eine große Stadt."
   },
   {
     "id": "a1-part-4-86",
@@ -685,7 +770,8 @@
     "ruStressed": "Санкт-Петербу́рг о́чень краси́вый.",
     "translit": "Sankt-Peterburg ochen krasivyy.",
     "en": "Saint Petersburg is very beautiful.",
-    "pl": "Sankt Petersburg jest bardzo piękny."
+    "pl": "Sankt Petersburg jest bardzo piękny.",
+    "de": "Sankt Petersburg ist sehr schön."
   },
   {
     "id": "a1-part-4-87",
@@ -693,7 +779,8 @@
     "ruStressed": "Я был в Росси́и.",
     "translit": "Ya byl v Rossii.",
     "en": "I have been to Russia.",
-    "pl": "Byłem w Rosji."
+    "pl": "Byłem w Rosji.",
+    "de": "Ich war schon in Russland."
   },
   {
     "id": "a1-part-4-88",
@@ -701,7 +788,8 @@
     "ruStressed": "Я хочу́ пое́хать в Росси́ю.",
     "translit": "Ya khochu poekhat v Rossiyu.",
     "en": "I want to go to Russia.",
-    "pl": "Chcę pojechać do Rosji."
+    "pl": "Chcę pojechać do Rosji.",
+    "de": "Ich möchte nach Russland reisen."
   },
   {
     "id": "a1-part-4-89",
@@ -709,7 +797,8 @@
     "ruStressed": "Я живу́ в це́нтре го́рода.",
     "translit": "Ya zhivu v tsentre goroda.",
     "en": "I live in the city centre.",
-    "pl": "Mieszkam w centrum miasta."
+    "pl": "Mieszkam w centrum miasta.",
+    "de": "Ich wohne im Stadtzentrum."
   },
   {
     "id": "a1-part-4-90",
@@ -717,7 +806,8 @@
     "ruStressed": "Мой дом на ти́хой у́лице.",
     "translit": "Moy dom na tikhoy ulitse.",
     "en": "My house is on a quiet street.",
-    "pl": "Mój dom jest na cichej ulicy."
+    "pl": "Mój dom jest na cichej ulicy.",
+    "de": "Mein Haus liegt in einer ruhigen Straße."
   },
   {
     "id": "a1-part-4-91",
@@ -725,7 +815,8 @@
     "ruStressed": "Ря́дом большо́й парк.",
     "translit": "Ryadom bolshoy park.",
     "en": "There is a big park nearby.",
-    "pl": "W pobliżu jest duży park."
+    "pl": "W pobliżu jest duży park.",
+    "de": "In der Nähe gibt es einen großen Park."
   },
   {
     "id": "a1-part-4-92",
@@ -733,7 +824,8 @@
     "ruStressed": "В па́рке мно́го дере́вьев.",
     "translit": "V parke mnogo derevev.",
     "en": "There are many trees in the park.",
-    "pl": "W parku jest dużo drzew."
+    "pl": "W parku jest dużo drzew.",
+    "de": "Im Park gibt es viele Bäume."
   },
   {
     "id": "a1-part-4-93",
@@ -741,7 +833,8 @@
     "ruStressed": "В го́роде мно́го маши́н.",
     "translit": "V gorode mnogo mashin.",
     "en": "There are many cars in the city.",
-    "pl": "W mieście jest dużo samochodów."
+    "pl": "W mieście jest dużo samochodów.",
+    "de": "In der Stadt gibt es viele Autos."
   },
   {
     "id": "a1-part-4-94",
@@ -749,7 +842,8 @@
     "ruStressed": "Помоги́те!",
     "translit": "Pomogite!",
     "en": "Help!",
-    "pl": "Pomocy!"
+    "pl": "Pomocy!",
+    "de": "Hilfe!"
   },
   {
     "id": "a1-part-4-95",
@@ -757,7 +851,8 @@
     "ruStressed": "Вы́зовите врача́!",
     "translit": "Vyzovite vracha!",
     "en": "Call a doctor!",
-    "pl": "Proszę wezwać lekarza!"
+    "pl": "Proszę wezwać lekarza!",
+    "de": "Rufen Sie einen Arzt!"
   },
   {
     "id": "a1-part-4-96",
@@ -765,7 +860,8 @@
     "ruStressed": "Вы́зовите поли́цию!",
     "translit": "Vyzovite politsiyu!",
     "en": "Call the police!",
-    "pl": "Proszę wezwać policję!"
+    "pl": "Proszę wezwać policję!",
+    "de": "Rufen Sie die Polizei!"
   },
   {
     "id": "a1-part-4-97",
@@ -773,7 +869,8 @@
     "ruStressed": "Мне пло́хо.",
     "translit": "Mne plokho.",
     "en": "I feel sick.",
-    "pl": "Źle się czuję."
+    "pl": "Źle się czuję.",
+    "de": "Mir ist schlecht."
   },
   {
     "id": "a1-part-4-98",
@@ -781,7 +878,8 @@
     "ruStressed": "Мне ну́жен врач.",
     "translit": "Mne nuzhen vrach.",
     "en": "I need a doctor.",
-    "pl": "Potrzebuję lekarza."
+    "pl": "Potrzebuję lekarza.",
+    "de": "Ich brauche einen Arzt."
   },
   {
     "id": "a1-part-4-99",
@@ -789,7 +887,8 @@
     "ruStressed": "Я потеря́л па́спорт.",
     "translit": "Ya poteryal pasport.",
     "en": "I lost my passport.",
-    "pl": "Zgubiłem paszport."
+    "pl": "Zgubiłem paszport.",
+    "de": "Ich habe meinen Reisepass verloren."
   },
   {
     "id": "a1-part-4-100",
@@ -797,7 +896,8 @@
     "ruStressed": "Я заблуди́лся.",
     "translit": "Ya zabludilsya.",
     "en": "I got lost. (m.)",
-    "pl": "Zgubiłem się. (m.)"
+    "pl": "Zgubiłem się. (m.)",
+    "de": "Ich habe mich verlaufen. (m.)"
   },
   {
     "id": "a1-part-4-101",
@@ -805,7 +905,8 @@
     "ruStressed": "Я заблуди́лась.",
     "translit": "Ya zabludilas.",
     "en": "I got lost. (f.)",
-    "pl": "Zgubiłam się. (f.)"
+    "pl": "Zgubiłam się. (f.)",
+    "de": "Ich habe mich verlaufen. (f.)"
   },
   {
     "id": "a1-part-4-102",
@@ -813,7 +914,8 @@
     "ruStressed": "Где здесь больни́ца?",
     "translit": "Gde zdes bolnitsa?",
     "en": "Where is the hospital?",
-    "pl": "Gdzie jest szpital?"
+    "pl": "Gdzie jest szpital?",
+    "de": "Wo ist das Krankenhaus?"
   },
   {
     "id": "a1-part-4-103",
@@ -821,7 +923,8 @@
     "ruStressed": "Где здесь туале́т?",
     "translit": "Gde zdes tualet?",
     "en": "Where is the toilet?",
-    "pl": "Gdzie jest toaleta?"
+    "pl": "Gdzie jest toaleta?",
+    "de": "Wo ist die Toilette?"
   },
   {
     "id": "a1-part-4-104",
@@ -829,7 +932,8 @@
     "ruStressed": "Мо́жно вопро́с?",
     "translit": "Mozhno vopros?",
     "en": "May I ask a question?",
-    "pl": "Czy mogę zadać pytanie?"
+    "pl": "Czy mogę zadać pytanie?",
+    "de": "Darf ich eine Frage stellen?"
   },
   {
     "id": "a1-part-4-105",
@@ -837,7 +941,8 @@
     "ruStressed": "Мо́жно войти́?",
     "translit": "Mozhno voyti?",
     "en": "May I come in?",
-    "pl": "Czy mogę wejść?"
+    "pl": "Czy mogę wejść?",
+    "de": "Darf ich reinkommen?"
   },
   {
     "id": "a1-part-4-106",
@@ -845,7 +950,8 @@
     "ruStressed": "Мо́жно вы́йти?",
     "translit": "Mozhno vyyti?",
     "en": "May I go out?",
-    "pl": "Czy mogę wyjść?"
+    "pl": "Czy mogę wyjść?",
+    "de": "Darf ich rausgehen?"
   },
   {
     "id": "a1-part-4-107",
@@ -853,7 +959,8 @@
     "ruStressed": "Подожди́те мину́тку.",
     "translit": "Podozhdite minutku.",
     "en": "Wait a minute.",
-    "pl": "Proszę poczekać chwilę."
+    "pl": "Proszę poczekać chwilę.",
+    "de": "Warten Sie einen Moment."
   },
   {
     "id": "a1-part-4-108",
@@ -861,7 +968,8 @@
     "ruStressed": "Я сейча́с верну́сь.",
     "translit": "Ya seychas vernus.",
     "en": "I'll be right back.",
-    "pl": "Zaraz wracam."
+    "pl": "Zaraz wracam.",
+    "de": "Ich bin gleich zurück."
   },
   {
     "id": "a1-part-4-109",
@@ -869,7 +977,8 @@
     "ruStressed": "Где центр го́рода?",
     "translit": "Gde tsentr goroda?",
     "en": "Where is the city center?",
-    "pl": "Gdzie jest centrum miasta?"
+    "pl": "Gdzie jest centrum miasta?",
+    "de": "Wo ist das Stadtzentrum?"
   },
   {
     "id": "a1-part-4-110",
@@ -877,7 +986,8 @@
     "ruStressed": "Я иду́ в парк.",
     "translit": "Ya idu v park.",
     "en": "I am going to the park.",
-    "pl": "Idę do parku."
+    "pl": "Idę do parku.",
+    "de": "Ich gehe in den Park."
   },
   {
     "id": "a1-part-4-111",
@@ -885,7 +995,8 @@
     "ruStressed": "Куда́ вы идёте?",
     "translit": "Kuda vy idyote?",
     "en": "Where are you going?",
-    "pl": "Dokąd idziesz?"
+    "pl": "Dokąd idziesz?",
+    "de": "Wohin gehen Sie?"
   },
   {
     "id": "a1-part-4-112",
@@ -893,7 +1004,8 @@
     "ruStressed": "Гости́ница там.",
     "translit": "Gostinitsa tam.",
     "en": "The hotel is over there.",
-    "pl": "Hotel jest tam."
+    "pl": "Hotel jest tam.",
+    "de": "Das Hotel ist dort drüben."
   },
   {
     "id": "a1-part-4-113",
@@ -901,7 +1013,8 @@
     "ruStressed": "Где вы́ход?",
     "translit": "Gde vykhod?",
     "en": "Where is the exit?",
-    "pl": "Gdzie jest wyjście?"
+    "pl": "Gdzie jest wyjście?",
+    "de": "Wo ist der Ausgang?"
   },
   {
     "id": "a1-part-4-114",
@@ -909,7 +1022,8 @@
     "ruStressed": "Апте́ка далеко́?",
     "translit": "Apteka daleko?",
     "en": "Is the pharmacy far?",
-    "pl": "Czy apteka jest daleko?"
+    "pl": "Czy apteka jest daleko?",
+    "de": "Ist die Apotheke weit weg?"
   },
   {
     "id": "a1-part-4-115",
@@ -917,7 +1031,8 @@
     "ruStressed": "Кафе́ ря́дом.",
     "translit": "Kafe ryadom.",
     "en": "The cafe is near.",
-    "pl": "Kawiarnia jest blisko."
+    "pl": "Kawiarnia jest blisko.",
+    "de": "Das Café ist in der Nähe."
   },
   {
     "id": "a1-part-4-116",
@@ -925,7 +1040,8 @@
     "ruStressed": "Мы в шко́ле.",
     "translit": "My v shkole.",
     "en": "We are at school.",
-    "pl": "Jesteśmy w szkole."
+    "pl": "Jesteśmy w szkole.",
+    "de": "Wir sind in der Schule."
   },
   {
     "id": "a1-part-4-117",
@@ -933,7 +1049,8 @@
     "ruStressed": "Де́ти на стадио́не.",
     "translit": "Deti na stadione.",
     "en": "The children are at the stadium.",
-    "pl": "Dzieci są na stadionie."
+    "pl": "Dzieci są na stadionie.",
+    "de": "Die Kinder sind im Stadion."
   },
   {
     "id": "a1-part-4-118",
@@ -941,7 +1058,8 @@
     "ruStressed": "Где туале́т?",
     "translit": "Gde tualet?",
     "en": "Where is the toilet?",
-    "pl": "Gdzie jest toaleta?"
+    "pl": "Gdzie jest toaleta?",
+    "de": "Wo ist die Toilette?"
   },
   {
     "id": "a1-part-4-119",
@@ -949,7 +1067,8 @@
     "ruStressed": "Отку́да вы?",
     "translit": "Otkuda vy?",
     "en": "Where are you from?",
-    "pl": "Skąd jesteś?"
+    "pl": "Skąd jesteś?",
+    "de": "Woher kommen Sie?"
   },
   {
     "id": "a1-part-4-120",
@@ -957,7 +1076,8 @@
     "ruStressed": "Я из Ло́ндона.",
     "translit": "Ya iz Londona.",
     "en": "I am from London.",
-    "pl": "Jestem z Londynu."
+    "pl": "Jestem z Londynu.",
+    "de": "Ich komme aus London."
   },
   {
     "id": "a1-part-4-121",
@@ -965,7 +1085,8 @@
     "ruStressed": "Где река́?",
     "translit": "Gde reka?",
     "en": "Where is the river?",
-    "pl": "Gdzie jest rzeka?"
+    "pl": "Gdzie jest rzeka?",
+    "de": "Wo ist der Fluss?"
   },
   {
     "id": "a1-part-4-122",
@@ -973,7 +1094,8 @@
     "ruStressed": "Подожди́те здесь.",
     "translit": "Podozhdite zdes.",
     "en": "Wait here.",
-    "pl": "Proszę tu poczekać."
+    "pl": "Proszę tu poczekać.",
+    "de": "Warten Sie hier."
   },
   {
     "id": "a1-part-4-123",
@@ -981,7 +1103,8 @@
     "ruStressed": "Ка́рта на столе́.",
     "translit": "Karta na stole.",
     "en": "The map is on the table.",
-    "pl": "Mapa jest na stole."
+    "pl": "Mapa jest na stole.",
+    "de": "Die Karte liegt auf dem Tisch."
   },
   {
     "id": "a1-part-4-124",
@@ -989,7 +1112,8 @@
     "ruStressed": "Мы идём в музе́й?",
     "translit": "My idyom v muzey?",
     "en": "Are we going to the museum?",
-    "pl": "Idziemy do muzeum?"
+    "pl": "Idziemy do muzeum?",
+    "de": "Gehen wir ins Museum?"
   },
   {
     "id": "a1-part-4-125",
@@ -997,7 +1121,8 @@
     "ruStressed": "Шко́ла нахо́дится сле́ва.",
     "translit": "Shkola nakhoditsya sleva.",
     "en": "The school is on the left.",
-    "pl": "Szkoła jest po lewej."
+    "pl": "Szkoła jest po lewej.",
+    "de": "Die Schule ist links."
   },
   {
     "id": "a1-part-4-126",
@@ -1005,7 +1130,8 @@
     "ruStressed": "Парк нахо́дится спра́ва.",
     "translit": "Park nakhoditsya sprava.",
     "en": "The park is on the right.",
-    "pl": "Park jest po prawej."
+    "pl": "Park jest po prawej.",
+    "de": "Der Park ist rechts."
   },
   {
     "id": "a1-part-4-127",
@@ -1013,7 +1139,8 @@
     "ruStressed": "Вы е́дете в центр?",
     "translit": "Vy yedete v tsentr?",
     "en": "Are you going to the center?",
-    "pl": "Jedziecie do centrum? (plural)"
+    "pl": "Jedziecie do centrum? (plural)",
+    "de": "Fahren Sie ins Zentrum?"
   },
   {
     "id": "a1-part-4-128",
@@ -1021,7 +1148,8 @@
     "ruStressed": "Я иду́ в апте́ку.",
     "translit": "Ya idu v apteku.",
     "en": "I am going to the pharmacy.",
-    "pl": "Idę do apteki."
+    "pl": "Idę do apteki.",
+    "de": "Ich gehe zur Apotheke."
   },
   {
     "id": "a1-part-4-129",
@@ -1029,7 +1157,8 @@
     "ruStressed": "Куда́ идти́ в кафе́?",
     "translit": "Kuda idti v kafe?",
     "en": "Which way to the cafe?",
-    "pl": "Którędy do kawiarni?"
+    "pl": "Którędy do kawiarni?",
+    "de": "Welcher Weg zum Café?"
   },
   {
     "id": "a1-part-4-130",
@@ -1037,7 +1166,8 @@
     "ruStressed": "Я из Пари́жа.",
     "translit": "Ya iz Parizha.",
     "en": "I am from Paris.",
-    "pl": "Jestem z Paryża."
+    "pl": "Jestem z Paryża.",
+    "de": "Ich komme aus Paris."
   },
   {
     "id": "a1-part-4-131",
@@ -1045,7 +1175,8 @@
     "ruStressed": "Ско́лько сто́ит биле́т?",
     "translit": "Skolko stoit bilet?",
     "en": "How much for a ticket?",
-    "pl": "Ile kosztuje bilet?"
+    "pl": "Ile kosztuje bilet?",
+    "de": "Wie viel kostet eine Fahrkarte?"
   },
   {
     "id": "a1-part-4-132",
@@ -1053,7 +1184,8 @@
     "ruStressed": "Он в больни́це.",
     "translit": "On v bolnitse.",
     "en": "He is in the hospital.",
-    "pl": "On jest w szpitalu."
+    "pl": "On jest w szpitalu.",
+    "de": "Er ist im Krankenhaus."
   },
   {
     "id": "a1-part-4-133",
@@ -1061,7 +1193,8 @@
     "ruStressed": "Мы в теа́тре.",
     "translit": "My v teatre.",
     "en": "We are at the theater.",
-    "pl": "Jesteśmy w teatrze."
+    "pl": "Jesteśmy w teatrze.",
+    "de": "Wir sind im Theater."
   },
   {
     "id": "a1-part-4-134",
@@ -1069,7 +1202,8 @@
     "ruStressed": "Иди́те в парк.",
     "translit": "Idite v park.",
     "en": "Go to the park.",
-    "pl": "Proszę iść do parku."
+    "pl": "Proszę iść do parku.",
+    "de": "Gehen Sie in den Park."
   },
   {
     "id": "a1-part-4-135",
@@ -1077,7 +1211,8 @@
     "ruStressed": "Рестора́н откры́т?",
     "translit": "Restoran otkryt?",
     "en": "Is the restaurant open?",
-    "pl": "Czy restauracja jest otwarta?"
+    "pl": "Czy restauracja jest otwarta?",
+    "de": "Ist das Restaurant geöffnet?"
   },
   {
     "id": "a1-part-4-136",
@@ -1085,7 +1220,8 @@
     "ruStressed": "Я на стадио́не.",
     "translit": "Ya na stadione.",
     "en": "I am at the stadium.",
-    "pl": "Jestem na stadionie."
+    "pl": "Jestem na stadionie.",
+    "de": "Ich bin im Stadion."
   },
   {
     "id": "a1-part-4-137",
@@ -1093,7 +1229,8 @@
     "ruStressed": "Библиоте́ка там.",
     "translit": "Biblioteka tam.",
     "en": "The library is there.",
-    "pl": "Biblioteka jest tam."
+    "pl": "Biblioteka jest tam.",
+    "de": "Die Bibliothek ist dort."
   },
   {
     "id": "a1-part-4-138",
@@ -1101,7 +1238,8 @@
     "ruStressed": "Жди́те на остано́вке.",
     "translit": "Zhdite na ostanovke.",
     "en": "Wait at the stop.",
-    "pl": "Proszę czekać na przystanku."
+    "pl": "Proszę czekać na przystanku.",
+    "de": "Warten Sie an der Haltestelle."
   },
   {
     "id": "a1-part-4-139",
@@ -1109,7 +1247,8 @@
     "ruStressed": "Где кни́га?",
     "translit": "Gde kniga?",
     "en": "Where is the book?",
-    "pl": "Gdzie jest książka?"
+    "pl": "Gdzie jest książka?",
+    "de": "Wo ist das Buch?"
   },
   {
     "id": "a1-part-4-140",
@@ -1117,7 +1256,8 @@
     "ruStressed": "Е́дьте ме́дленно.",
     "translit": "Yedte medlenno.",
     "en": "Drive slowly.",
-    "pl": "Proszę jechać powoli."
+    "pl": "Proszę jechać powoli.",
+    "de": "Fahren Sie langsam."
   },
   {
     "id": "a1-part-4-141",
@@ -1125,7 +1265,8 @@
     "ruStressed": "Я иду́ в банк.",
     "translit": "Ya idu v bank.",
     "en": "I am going to the bank.",
-    "pl": "Idę do banku."
+    "pl": "Idę do banku.",
+    "de": "Ich gehe zur Bank."
   },
   {
     "id": "a1-part-4-142",
@@ -1133,7 +1274,8 @@
     "ruStressed": "Отку́да вы прие́хали?",
     "translit": "Otkuda vy priyekhali?",
     "en": "Where are you from?",
-    "pl": "Skąd państwo są? (formal)"
+    "pl": "Skąd państwo są? (formal)",
+    "de": "Woher kommen Sie?"
   },
   {
     "id": "a1-part-4-143",
@@ -1141,7 +1283,8 @@
     "ruStressed": "Парк ря́дом?",
     "translit": "Park ryadom?",
     "en": "Is the park nearby?",
-    "pl": "Czy park jest blisko?"
+    "pl": "Czy park jest blisko?",
+    "de": "Ist der Park in der Nähe?"
   },
   {
     "id": "a1-part-4-144",
@@ -1149,7 +1292,8 @@
     "ruStressed": "Где нахо́дится шко́ла?",
     "translit": "Gde nakhoditsya shkola?",
     "en": "Where is the school?",
-    "pl": "Gdzie jest szkoła?"
+    "pl": "Gdzie jest szkoła?",
+    "de": "Wo ist die Schule?"
   },
   {
     "id": "a1-part-4-145",
@@ -1157,7 +1301,8 @@
     "ruStressed": "Ско́лько здесь остано́вок?",
     "translit": "Skolko zdes ostanovok?",
     "en": "How many stops are there?",
-    "pl": "Ile tu jest przystanków?"
+    "pl": "Ile tu jest przystanków?",
+    "de": "Wie viele Haltestellen gibt es?"
   },
   {
     "id": "a1-part-4-146",
@@ -1165,7 +1310,8 @@
     "ruStressed": "Вы е́дете в парк?",
     "translit": "Vy yedete v park?",
     "en": "Are you going to the park?",
-    "pl": "Jedziecie do parku? (plural)"
+    "pl": "Jedziecie do parku? (plural)",
+    "de": "Fahren Sie in den Park?"
   },
   {
     "id": "a1-part-4-147",
@@ -1173,7 +1319,8 @@
     "ruStressed": "Музе́й сего́дня закры́т.",
     "translit": "Muzey segodnya zakryt?",
     "en": "The museum is closed today.",
-    "pl": "Muzeum jest dzisiaj zamknięte."
+    "pl": "Muzeum jest dzisiaj zamknięte.",
+    "de": "Das Museum ist heute geschlossen."
   },
   {
     "id": "a1-part-4-148",
@@ -1181,7 +1328,8 @@
     "ruStressed": "Где нахо́дится больни́ца?",
     "translit": "Gde nakhoditsya bolnitsa?",
     "en": "Where is the hospital?",
-    "pl": "Gdzie jest szpital?"
+    "pl": "Gdzie jest szpital?",
+    "de": "Wo ist das Krankenhaus?"
   },
   {
     "id": "a1-part-4-149",
@@ -1189,7 +1337,8 @@
     "ruStressed": "Апте́ка нахо́дится сле́ва.",
     "translit": "Apteka nakhoditsya sleva.",
     "en": "The pharmacy is on the left.",
-    "pl": "Apteka jest po lewej."
+    "pl": "Apteka jest po lewej.",
+    "de": "Die Apotheke ist links."
   },
   {
     "id": "a1-part-4-150",
@@ -1197,6 +1346,7 @@
     "ruStressed": "Ры́нок там.",
     "translit": "Rynok tam.",
     "en": "The market is over there.",
-    "pl": "Targ jest tam."
+    "pl": "Targ jest tam.",
+    "de": "Der Markt ist dort drüben."
   }
 ]

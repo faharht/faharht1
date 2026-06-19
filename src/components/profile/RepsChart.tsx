@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { todayKey } from "@/lib/trainer/store";
-import { useT } from "@/lib/i18n/useT";
+import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 
 type Range = 14 | 30;
 
@@ -36,7 +36,7 @@ export function RepsChart({
 
   const goalLineTop = 100 - (dailyGoal / maxReps) * 100;
   const weekday = (d: Date) =>
-    d.toLocaleDateString(locale === "pl" ? "pl-PL" : "en-US", { weekday: "short" });
+    d.toLocaleDateString(localeToBCP47(locale), { weekday: "short" });
   const tickEvery = range === 14 ? 2 : 5;
 
   return (
@@ -50,7 +50,7 @@ export function RepsChart({
             <div className="text-sm font-semibold text-foreground">{t("chart.title")}</div>
             <div className="text-[11px] text-muted-foreground">
               {t("chart.summary", {
-                total: total.toLocaleString(locale === "pl" ? "pl-PL" : "en-US"),
+                total: total.toLocaleString(localeToBCP47(locale)),
                 avg,
                 hit: hitDays,
               })}

@@ -6,11 +6,13 @@ export interface Sentence {
   en: string;
   /** Polish translation. Optional; falls back to `en` when missing. */
   pl?: string;
+  /** German translation. Optional; falls back to `en` when missing. */
+  de?: string;
 }
 
 export type TextSize = "xs" | "sm" | "md" | "lg";
 
-export type AppLanguage = "en" | "pl";
+export type AppLanguage = "en" | "pl" | "de";
 
 export interface TrainerSettings {
   reps: 1 | 2 | 3 | 4 | 5;

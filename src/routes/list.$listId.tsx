@@ -107,8 +107,11 @@ function ListPage() {
 
 
 
-  const trText = (s: { en: string; pl?: string }) =>
-    locale === "pl" && s.pl ? s.pl : s.en;
+  const trText = (s: { en: string; pl?: string; de?: string }) => {
+    if (locale === "pl" && s.pl) return s.pl;
+    if (locale === "de" && s.de) return s.de;
+    return s.en;
+  };
 
   const visibleSentences = useMemo(() => {
     let list = sentences;
@@ -121,6 +124,7 @@ function ListPage() {
           (s.ruStressed?.toLowerCase().includes(q) ?? false) ||
           s.en.toLowerCase().includes(q) ||
           (s.pl?.toLowerCase().includes(q) ?? false) ||
+          (s.de?.toLowerCase().includes(q) ?? false) ||
           (s.translit?.toLowerCase().includes(q) ?? false),
       );
     }
@@ -735,7 +739,7 @@ function SettingsSheet({
         <div className="mt-4 space-y-3">
           <Group title={t("settings.appLanguage")}>
             <p className="text-xs text-muted-foreground mb-3">{t("settings.appLangHint")}</p>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-3 gap-2">
               {LOCALES.map((opt) => {
                 const active = settings.appLanguage === opt.id;
                 return (
@@ -897,15 +901,18 @@ function GrammarSheet({
   onJump,
 }: {
   pack: GrammarPack;
-  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; pl?: string; translit?: string }>;
+  sentences: Array<{ id: string; ru: string; ruStressed?: string; en: string; pl?: string; de?: string; translit?: string }>;
   open: boolean;
   onOpenChange: (v: boolean) => void;
   onSpeak: (text: string) => void;
   onJump: (id: string) => void;
 }) {
   const { t, locale } = useT();
-  const trText = (s: { en: string; pl?: string }) =>
-    locale === "pl" && s.pl ? s.pl : s.en;
+  const trText = (s: { en: string; pl?: string; de?: string }) => {
+    if (locale === "pl" && s.pl) return s.pl;
+    if (locale === "de" && s.de) return s.de;
+    return s.en;
+  };
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent side="bottom" className="max-h-[88vh] overflow-y-auto rounded-t-3xl">

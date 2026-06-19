@@ -5,7 +5,8 @@
     "ruStressed": "Я хочу́ есть.",
     "translit": "Ya khochu yest'.",
     "en": "I want to eat.",
-    "pl": "Chcę mi się jeść."
+    "pl": "Chcę mi się jeść.",
+    "de": "Ich möchte essen."
   },
   {
     "id": "a2-part-2-2",
@@ -13,7 +14,8 @@
     "ruStressed": "Я о́чень го́лоден.",
     "translit": "Ya ochen' goloden.",
     "en": "I'm very hungry.",
-    "pl": "Jestem bardzo głodny."
+    "pl": "Jestem bardzo głodny.",
+    "de": "Ich habe großen Hunger."
   },
   {
     "id": "a2-part-2-3",
@@ -21,7 +23,8 @@
     "ruStressed": "Что вы хоти́те заказа́ть?",
     "translit": "Chto vy khotite zakazat'?",
     "en": "What would you like to order?",
-    "pl": "Co chciałby pan zamówić? (formal)"
+    "pl": "Co chciałby pan zamówić? (formal)",
+    "de": "Was möchten Sie bestellen?"
   },
   {
     "id": "a2-part-2-4",
@@ -29,7 +32,8 @@
     "ruStressed": "Мо́жно меню́, пожа́луйста?",
     "translit": "Mozhno menyu, pozhaluysta?",
     "en": "May I have the menu, please?",
-    "pl": "Czy mogę prosić o menu?"
+    "pl": "Czy mogę prosić o menu?",
+    "de": "Könnte ich bitte die Speisekarte haben?"
   },
   {
     "id": "a2-part-2-5",
@@ -37,7 +41,8 @@
     "ruStressed": "Что вы порекоменду́ете?",
     "translit": "Chto vy porekomenduete?",
     "en": "What do you recommend?",
-    "pl": "Co pan poleca? (formal)"
+    "pl": "Co pan poleca? (formal)",
+    "de": "Was empfehlen Sie?"
   },
   {
     "id": "a2-part-2-6",
@@ -45,7 +50,8 @@
     "ruStressed": "Я возьму́ суп и сала́т.",
     "translit": "Ya voz'mu sup i salat.",
     "en": "I'll have soup and salad.",
-    "pl": "Poproszę zupę i sałatkę."
+    "pl": "Poproszę zupę i sałatkę.",
+    "de": "Ich nehme eine Suppe und einen Salat."
   },
   {
     "id": "a2-part-2-7",
@@ -53,7 +59,8 @@
     "ruStressed": "Что есть на за́втрак?",
     "translit": "Chto yest' na zavtrak?",
     "en": "What's for breakfast?",
-    "pl": "Co jest na śniadanie?"
+    "pl": "Co jest na śniadanie?",
+    "de": "Was gibt es zum Frühstück?"
   },
   {
     "id": "a2-part-2-8",
@@ -61,7 +68,8 @@
     "ruStressed": "На за́втрак есть омле́т и ка́ша.",
     "translit": "Na zavtrak yest' omlet i kasha.",
     "en": "There's omelette and porridge for breakfast.",
-    "pl": "Na śniadanie jest omlet i kasza."
+    "pl": "Na śniadanie jest omlet i kasza.",
+    "de": "Zum Frühstück gibt es Omelett und Brei."
   },
   {
     "id": "a2-part-2-9",
@@ -69,7 +77,8 @@
     "ruStressed": "Мне, пожа́луйста, чёрный ко́фе.",
     "translit": "Mne, pozhaluysta, chyornyy kofe.",
     "en": "Black coffee for me, please.",
-    "pl": "Dla mnie czarna kawa, proszę."
+    "pl": "Dla mnie czarna kawa, proszę.",
+    "de": "Für mich bitte einen schwarzen Kaffee."
   },
   {
     "id": "a2-part-2-10",
@@ -77,7 +86,8 @@
     "ruStressed": "С са́харом и́ли без?",
     "translit": "S sakharom ili bez?",
     "en": "With sugar or without?",
-    "pl": "Z cukrem czy bez?"
+    "pl": "Z cukrem czy bez?",
+    "de": "Mit Zucker oder ohne?"
   },
   {
     "id": "a2-part-2-11",
@@ -85,7 +95,8 @@
     "ruStressed": "Без са́хара, спаси́бо.",
     "translit": "Bez sakhara, spasibo.",
     "en": "Without sugar, thanks.",
-    "pl": "Bez cukru, dziękuję."
+    "pl": "Bez cukru, dziękuję.",
+    "de": "Ohne Zucker, danke."
   },
   {
     "id": "a2-part-2-12",
@@ -93,7 +104,8 @@
     "ruStressed": "Я люблю́ чай с лимо́ном.",
     "translit": "Ya lyublyu chay s limonom.",
     "en": "I like tea with lemon.",
-    "pl": "Lubi herbatę z cytryną."
+    "pl": "Lubi herbatę z cytryną.",
+    "de": "Ich mag Tee mit Zitrone."
   },
   {
     "id": "a2-part-2-13",
@@ -101,7 +113,8 @@
     "ruStressed": "Мо́жно ещё воды́?",
     "translit": "Mozhno yeshchyo vody?",
     "en": "May I have more water?",
-    "pl": "Czy mogę prosić o więcej wody?"
+    "pl": "Czy mogę prosić o więcej wody?",
+    "de": "Könnte ich noch etwas Wasser haben?"
   },
   {
     "id": "a2-part-2-14",
@@ -109,7 +122,8 @@
     "ruStressed": "Во́ду с га́зом и́ли без?",
     "translit": "Vodu s gazom ili bez?",
     "en": "Sparkling or still water?",
-    "pl": "Gazowaną czy niegazowaną?"
+    "pl": "Gazowaną czy niegazowaną?",
+    "de": "Wasser mit Kohlensäure oder stilles Wasser?"
   },
   {
     "id": "a2-part-2-15",
@@ -117,7 +131,8 @@
     "ruStressed": "Без га́за, пожа́луйста.",
     "translit": "Bez gaza, pozhaluysta.",
     "en": "Still, please.",
-    "pl": "Niegazowaną, proszę."
+    "pl": "Niegazowaną, proszę.",
+    "de": "Still, bitte."
   },
   {
     "id": "a2-part-2-16",
@@ -125,7 +140,8 @@
     "ruStressed": "Я не ем мя́со.",
     "translit": "Ya ne yem myaso.",
     "en": "I don't eat meat.",
-    "pl": "Nie jem mięsa."
+    "pl": "Nie jem mięsa.",
+    "de": "Ich esse kein Fleisch."
   },
   {
     "id": "a2-part-2-17",
@@ -133,7 +149,8 @@
     "ruStressed": "Я вегетариа́нец.",
     "translit": "Ya vegetarianets.",
     "en": "I'm a vegetarian.",
-    "pl": "Jestem wegetarianinem."
+    "pl": "Jestem wegetarianinem.",
+    "de": "Ich bin Vegetarier."
   },
   {
     "id": "a2-part-2-18",
@@ -141,7 +158,8 @@
     "ruStressed": "У вас есть вегетариа́нские блю́да?",
     "translit": "U vas yest' vegetarianskie blyuda?",
     "en": "Do you have vegetarian dishes?",
-    "pl": "Czy mają państwo dania wegetariańskie? (plural)"
+    "pl": "Czy mają państwo dania wegetariańskie? (plural)",
+    "de": "Haben Sie vegetarische Gerichte?"
   },
   {
     "id": "a2-part-2-19",
@@ -149,7 +167,8 @@
     "ruStressed": "Я не ем ры́бу.",
     "translit": "Ya ne yem rybu.",
     "en": "I don't eat fish.",
-    "pl": "Nie jem ryb."
+    "pl": "Nie jem ryb.",
+    "de": "Ich esse keinen Fisch."
   },
   {
     "id": "a2-part-2-20",
@@ -157,7 +176,8 @@
     "ruStressed": "У меня́ аллерги́я на оре́хи.",
     "translit": "U menya allergiya na orekhi.",
     "en": "I'm allergic to nuts.",
-    "pl": "Mam alergię na orzechy."
+    "pl": "Mam alergię na orzechy.",
+    "de": "Ich bin allergisch gegen Nüsse."
   },
   {
     "id": "a2-part-2-21",
@@ -165,7 +185,8 @@
     "ruStressed": "Э́то блю́до о́строе?",
     "translit": "Eto blyudo ostroe?",
     "en": "Is this dish spicy?",
-    "pl": "Czy to danie jest ostre?"
+    "pl": "Czy to danie jest ostre?",
+    "de": "Ist dieses Gericht scharf?"
   },
   {
     "id": "a2-part-2-22",
@@ -173,7 +194,8 @@
     "ruStressed": "Я не люблю́ о́строе.",
     "translit": "Ya ne lyublyu ostroe.",
     "en": "I don't like spicy food.",
-    "pl": "Nie lubię ostrego jedzenia."
+    "pl": "Nie lubię ostrego jedzenia.",
+    "de": "Ich mag kein scharfes Essen."
   },
   {
     "id": "a2-part-2-23",
@@ -181,7 +203,8 @@
     "ruStressed": "Э́то о́чень вку́сно!",
     "translit": "Eto ochen' vkusno!",
     "en": "This is very tasty!",
-    "pl": "To jest bardzo smaczne!"
+    "pl": "To jest bardzo smaczne!",
+    "de": "Das ist sehr lecker!"
   },
   {
     "id": "a2-part-2-24",
@@ -189,7 +212,8 @@
     "ruStressed": "Мне нра́вится э́та еда́.",
     "translit": "Mne nravitsya eta yeda.",
     "en": "I like this food.",
-    "pl": "Smakuje mi to jedzenie."
+    "pl": "Smakuje mi to jedzenie.",
+    "de": "Ich mag dieses Essen."
   },
   {
     "id": "a2-part-2-25",
@@ -197,7 +221,8 @@
     "ruStressed": "Мо́жно счёт, пожа́луйста?",
     "translit": "Mozhno schyot, pozhaluysta?",
     "en": "Could I have the bill, please?",
-    "pl": "Czy mogę prosić o rachunek?"
+    "pl": "Czy mogę prosić o rachunek?",
+    "de": "Die Rechnung, bitte."
   },
   {
     "id": "a2-part-2-26",
@@ -205,7 +230,8 @@
     "ruStressed": "Я могу́ заплати́ть ка́ртой?",
     "translit": "Ya mogu zaplatit' kartoy?",
     "en": "Can I pay by card?",
-    "pl": "Czy mogę zapłacić kartą?"
+    "pl": "Czy mogę zapłacić kartą?",
+    "de": "Kann ich mit Karte zahlen?"
   },
   {
     "id": "a2-part-2-27",
@@ -213,7 +239,8 @@
     "ruStressed": "Коне́чно, мо́жно ка́ртой.",
     "translit": "Konechno, mozhno kartoy.",
     "en": "Of course, you can pay by card.",
-    "pl": "Oczywiście, można płacić kartą."
+    "pl": "Oczywiście, można płacić kartą.",
+    "de": "Natürlich können Sie mit Karte zahlen."
   },
   {
     "id": "a2-part-2-28",
@@ -221,7 +248,8 @@
     "ruStressed": "Ско́лько с меня́?",
     "translit": "Skol'ko s menya?",
     "en": "How much do I owe?",
-    "pl": "Ile płacę?"
+    "pl": "Ile płacę?",
+    "de": "Wie viel macht das?"
   },
   {
     "id": "a2-part-2-29",
@@ -229,7 +257,8 @@
     "ruStressed": "С вас пятьсо́т рубле́й.",
     "translit": "S vas pyatsot rubley.",
     "en": "That'll be five hundred rubles.",
-    "pl": "To będzie pięćset rubli."
+    "pl": "To będzie pięćset rubli.",
+    "de": "Das macht fünfhundert Rubel."
   },
   {
     "id": "a2-part-2-30",
@@ -237,7 +266,8 @@
     "ruStressed": "Сда́чу оста́вьте себе́.",
     "translit": "Sdachu ostav'te sebe.",
     "en": "Keep the change.",
-    "pl": "Reszty nie trzeba."
+    "pl": "Reszty nie trzeba.",
+    "de": "Stimmt so."
   },
   {
     "id": "a2-part-2-31",
@@ -245,7 +275,8 @@
     "ruStressed": "Спаси́бо, всё бы́ло отли́чно.",
     "translit": "Spasibo, vsyo bylo otlichno.",
     "en": "Thanks, everything was great.",
-    "pl": "Dziękuję, wszystko było świetnie."
+    "pl": "Dziękuję, wszystko było świetnie.",
+    "de": "Danke, alles war ausgezeichnet."
   },
   {
     "id": "a2-part-2-32",
@@ -253,7 +284,8 @@
     "ruStressed": "Мо́жно мне ещё хле́ба?",
     "translit": "Mozhno mne yeshchyo khleba?",
     "en": "Can I have more bread?",
-    "pl": "Czy mogę prosić o więcej chleba?"
+    "pl": "Czy mogę prosić o więcej chleba?",
+    "de": "Kann ich noch mehr Brot haben?"
   },
   {
     "id": "a2-part-2-33",
@@ -261,7 +293,8 @@
     "ruStressed": "Переда́йте мне соль, пожа́луйста.",
     "translit": "Peredayte mne sol', pozhaluysta.",
     "en": "Pass me the salt, please.",
-    "pl": "Proszę, podaj mi sól."
+    "pl": "Proszę, podaj mi sól.",
+    "de": "Reichen Sie mir bitte das Salz."
   },
   {
     "id": "a2-part-2-34",
@@ -269,7 +302,8 @@
     "ruStressed": "Э́то сли́шком солёное.",
     "translit": "Eto slishkom solyonoe.",
     "en": "This is too salty.",
-    "pl": "To jest zbyt słone."
+    "pl": "To jest zbyt słone.",
+    "de": "Das ist zu salzig."
   },
   {
     "id": "a2-part-2-35",
@@ -277,7 +311,8 @@
     "ruStressed": "Мо́жно сде́лать ме́нее сла́дко?",
     "translit": "Mozhno sdelat' menee sladko?",
     "en": "Could you make it less sweet?",
-    "pl": "Czy można by to zrobić mniej słodkim?"
+    "pl": "Czy można by to zrobić mniej słodkim?",
+    "de": "Könnten Sie es weniger süß machen?"
   },
   {
     "id": "a2-part-2-36",
@@ -285,7 +320,8 @@
     "ruStressed": "Я хочу́ что-нибу́дь горя́чее.",
     "translit": "Ya khochu chto-nibud' goryachee.",
     "en": "I want something hot.",
-    "pl": "Chcę coś gorącego."
+    "pl": "Chcę coś gorącego.",
+    "de": "Ich möchte etwas Heißes."
   },
   {
     "id": "a2-part-2-37",
@@ -293,7 +329,8 @@
     "ruStressed": "А на десе́рт что есть?",
     "translit": "A na desert chto yest'?",
     "en": "And for dessert, what is there?",
-    "pl": "A co jest na deser?"
+    "pl": "A co jest na deser?",
+    "de": "Und was gibt es als Nachtisch?"
   },
   {
     "id": "a2-part-2-38",
@@ -301,7 +338,8 @@
     "ruStressed": "У нас есть торт и моро́женое.",
     "translit": "U nas yest' tort i morozhenoe.",
     "en": "We have cake and ice cream.",
-    "pl": "Mamy ciasto i lody."
+    "pl": "Mamy ciasto i lody.",
+    "de": "Wir haben Kuchen und Eis."
   },
   {
     "id": "a2-part-2-39",
@@ -309,7 +347,8 @@
     "ruStressed": "Мне моро́женое, пожа́луйста.",
     "translit": "Mne morozhenoe, pozhaluysta.",
     "en": "Ice cream for me, please.",
-    "pl": "Dla mnie lody, poproszę."
+    "pl": "Dla mnie lody, poproszę.",
+    "de": "Für mich bitte ein Eis."
   },
   {
     "id": "a2-part-2-40",
@@ -317,7 +356,8 @@
     "ruStressed": "Каки́е фру́кты у вас есть?",
     "translit": "Kakie frukty u vas yest'?",
     "en": "What fruits do you have?",
-    "pl": "Jakie macie owoce?"
+    "pl": "Jakie macie owoce?",
+    "de": "Welches Obst haben Sie?"
   },
   {
     "id": "a2-part-2-41",
@@ -325,7 +365,8 @@
     "ruStressed": "У нас есть я́блоки и гру́ши.",
     "translit": "U nas yest' yabloki i grushi.",
     "en": "We have apples and pears.",
-    "pl": "Mamy jabłka i gruszki."
+    "pl": "Mamy jabłka i gruszki.",
+    "de": "Wir haben Äpfel und Birnen."
   },
   {
     "id": "a2-part-2-42",
@@ -333,7 +374,8 @@
     "ruStressed": "Да́йте мне килогра́мм я́блок.",
     "translit": "Dayte mne kilogramm yablok.",
     "en": "Give me a kilogram of apples.",
-    "pl": "Poproszę kilogram jabłek."
+    "pl": "Poproszę kilogram jabłek.",
+    "de": "Geben Sie mir ein Kilogramm Äpfel."
   },
   {
     "id": "a2-part-2-43",
@@ -341,7 +383,8 @@
     "ruStressed": "Ско́лько сто́ит э́тот сыр?",
     "translit": "Skol'ko stoit etot syr?",
     "en": "How much is this cheese?",
-    "pl": "Ile kosztuje ten ser?"
+    "pl": "Ile kosztuje ten ser?",
+    "de": "Wie viel kostet dieser Käse?"
   },
   {
     "id": "a2-part-2-44",
@@ -349,7 +392,8 @@
     "ruStressed": "Две́сти рубле́й за сто грамм.",
     "translit": "Dvesti rubley za sto gramm.",
     "en": "Two hundred rubles per hundred grams.",
-    "pl": "Dwieście rubli za sto gramów."
+    "pl": "Dwieście rubli za sto gramów.",
+    "de": "Zweihundert Rubel pro hundert Gramm."
   },
   {
     "id": "a2-part-2-45",
@@ -357,7 +401,8 @@
     "ruStressed": "Э́то до́рого.",
     "translit": "Eto dorogo.",
     "en": "That's expensive.",
-    "pl": "To drogo."
+    "pl": "To drogo.",
+    "de": "Das ist teuer."
   },
   {
     "id": "a2-part-2-46",
@@ -365,7 +410,8 @@
     "ruStressed": "А есть что-нибу́дь подеше́вле?",
     "translit": "A yest' chto-nibud' podeshevle?",
     "en": "Is there something cheaper?",
-    "pl": "Czy jest coś tańszego?"
+    "pl": "Czy jest coś tańszego?",
+    "de": "Gibt es etwas Günstigeres?"
   },
   {
     "id": "a2-part-2-47",
@@ -373,7 +419,8 @@
     "ruStressed": "Я хочу́ купи́ть хлеб.",
     "translit": "Ya khochu kupit' khleb.",
     "en": "I want to buy bread.",
-    "pl": "Chcę kupić chleb."
+    "pl": "Chcę kupić chleb.",
+    "de": "Ich möchte Brot kaufen."
   },
   {
     "id": "a2-part-2-48",
@@ -381,7 +428,8 @@
     "ruStressed": "Где мо́жно купи́ть молоко́?",
     "translit": "Gde mozhno kupit' moloko?",
     "en": "Where can I buy milk?",
-    "pl": "Gdzie mogę kupić mleko?"
+    "pl": "Gdzie mogę kupić mleko?",
+    "de": "Wo kann ich Milch kaufen?"
   },
   {
     "id": "a2-part-2-49",
@@ -389,7 +437,8 @@
     "ruStressed": "Молоко́ вон там, в холоди́льнике.",
     "translit": "Moloko von tam, v kholodil'nike.",
     "en": "Milk is over there, in the fridge.",
-    "pl": "Mleko jest tam, w lodówce."
+    "pl": "Mleko jest tam, w lodówce.",
+    "de": "Die Milch ist dort drüben im Kühlschrank."
   },
   {
     "id": "a2-part-2-50",
@@ -397,7 +446,8 @@
     "ruStressed": "Я не уме́ю гото́вить.",
     "translit": "Ya ne umeyu gotovit'.",
     "en": "I can't cook.",
-    "pl": "Nie umiem gotować."
+    "pl": "Nie umiem gotować.",
+    "de": "Ich kann nicht kochen."
   },
   {
     "id": "a2-part-2-51",
@@ -405,7 +455,8 @@
     "ruStressed": "Моя́ ма́ма уме́ет гото́вить отли́чно.",
     "translit": "Moya mama umeet gotovit' otlichno.",
     "en": "My mom cooks great.",
-    "pl": "Moja mama świetnie gotuje."
+    "pl": "Moja mama świetnie gotuje.",
+    "de": "Meine Mutter kocht hervorragend."
   },
   {
     "id": "a2-part-2-52",
@@ -413,7 +464,8 @@
     "ruStressed": "Я могу́ пригото́вить па́сту.",
     "translit": "Ya mogu prigotovit' pastu.",
     "en": "I can make pasta.",
-    "pl": "Potrafię zrobić makaron."
+    "pl": "Potrafię zrobić makaron.",
+    "de": "Ich kann Pasta machen."
   },
   {
     "id": "a2-part-2-53",
@@ -421,7 +473,8 @@
     "ruStressed": "Ты до́лжен попро́бовать борщ.",
     "translit": "Ty dolzhen poprobovat' borshch.",
     "en": "You must try borscht.",
-    "pl": "Musisz spróbować barszczu."
+    "pl": "Musisz spróbować barszczu.",
+    "de": "Du musst Borschtsch probieren."
   },
   {
     "id": "a2-part-2-54",
@@ -429,7 +482,8 @@
     "ruStressed": "Я никогда́ не про́бовал су́ши.",
     "translit": "Ya nikogda ne proboval sushi.",
     "en": "I've never tried sushi.",
-    "pl": "Nigdy nie próbowałem sushi."
+    "pl": "Nigdy nie próbowałem sushi.",
+    "de": "Ich habe noch nie Sushi probiert."
   },
   {
     "id": "a2-part-2-55",
@@ -437,7 +491,8 @@
     "ruStressed": "Хо́чешь попро́бовать?",
     "translit": "Khochesh' poprobovat'?",
     "en": "Want to try it?",
-    "pl": "Chcesz spróbować?"
+    "pl": "Chcesz spróbować?",
+    "de": "Willst du mal probieren?"
   },
   {
     "id": "a2-part-2-56",
@@ -445,7 +500,8 @@
     "ruStressed": "Да, с удово́льствием.",
     "translit": "Da, s udovol'stviem.",
     "en": "Yes, with pleasure.",
-    "pl": "Tak, z przyjemnością."
+    "pl": "Tak, z przyjemnością.",
+    "de": "Ja, sehr gerne."
   },
   {
     "id": "a2-part-2-57",
@@ -453,7 +509,8 @@
     "ruStressed": "Нет, спаси́бо, я сыт.",
     "translit": "Net, spasibo, ya syt.",
     "en": "No thanks, I'm full.",
-    "pl": "Nie, dziękuję, jestem najedzony."
+    "pl": "Nie, dziękuję, jestem najedzony.",
+    "de": "Nein danke, ich bin satt."
   },
   {
     "id": "a2-part-2-58",
@@ -461,7 +518,8 @@
     "ruStressed": "Прия́тного аппети́та!",
     "translit": "Priyatnogo appetita!",
     "en": "Enjoy your meal!",
-    "pl": "Smacznego!"
+    "pl": "Smacznego!",
+    "de": "Guten Appetit!"
   },
   {
     "id": "a2-part-2-59",
@@ -469,7 +527,8 @@
     "ruStressed": "Э́то мой люби́мый рестора́н.",
     "translit": "Eto moy lyubimyy restoran.",
     "en": "This is my favorite restaurant.",
-    "pl": "To moja ulubiona restauracja."
+    "pl": "To moja ulubiona restauracja.",
+    "de": "Das ist mein Lieblingsrestaurant."
   },
   {
     "id": "a2-part-2-60",
@@ -477,7 +536,8 @@
     "ruStressed": "Здесь всегда́ вку́сно.",
     "translit": "Zdes' vsegda vkusno.",
     "en": "It's always tasty here.",
-    "pl": "Tutaj zawsze jest smacznie."
+    "pl": "Tutaj zawsze jest smacznie.",
+    "de": "Hier schmeckt es immer gut."
   },
   {
     "id": "a2-part-2-61",
@@ -485,7 +545,8 @@
     "ruStressed": "Зака́жем пи́ццу?",
     "translit": "Zakazhem pittsu?",
     "en": "Shall we order pizza?",
-    "pl": "Zamówimy pizzę?"
+    "pl": "Zamówimy pizzę?",
+    "de": "Sollen wir Pizza bestellen?"
   },
   {
     "id": "a2-part-2-62",
@@ -493,7 +554,8 @@
     "ruStressed": "Каку́ю пи́ццу ты хо́чешь?",
     "translit": "Kakuyu pittsu ty khochesh'?",
     "en": "What pizza do you want?",
-    "pl": "Jaką pizzę chcesz?"
+    "pl": "Jaką pizzę chcesz?",
+    "de": "Welche Pizza möchtest du?"
   },
   {
     "id": "a2-part-2-63",
@@ -501,7 +563,8 @@
     "ruStressed": "Я хочу́ с гриба́ми и сы́ром.",
     "translit": "Ya khochu s gribami i syrom.",
     "en": "I want one with mushrooms and cheese.",
-    "pl": "Chcę taką z grzybami i serem."
+    "pl": "Chcę taką z grzybami i serem.",
+    "de": "Ich möchte eine mit Pilzen und Käse."
   },
   {
     "id": "a2-part-2-64",
@@ -509,7 +572,8 @@
     "ruStressed": "Мо́жно мне без лу́ка?",
     "translit": "Mozhno mne bez luka?",
     "en": "Could I have it without onion?",
-    "pl": "Czy mogę prosić bez cebuli?"
+    "pl": "Czy mogę prosić bez cebuli?",
+    "de": "Könnte ich sie ohne Zwiebeln haben?"
   },
   {
     "id": "a2-part-2-65",
@@ -517,7 +581,8 @@
     "ruStressed": "Я не люблю́ лук.",
     "translit": "Ya ne lyublyu luk.",
     "en": "I don't like onion.",
-    "pl": "Nie lubię cebuli."
+    "pl": "Nie lubię cebuli.",
+    "de": "Ich mag keine Zwiebeln."
   },
   {
     "id": "a2-part-2-66",
@@ -525,7 +590,8 @@
     "ruStressed": "Принеси́те во́ду без льда.",
     "translit": "Prinesite vodu bez l'da.",
     "en": "Bring water without ice.",
-    "pl": "Proszę przynieść wodę bez lodu."
+    "pl": "Proszę przynieść wodę bez lodu.",
+    "de": "Bringen Sie Wasser ohne Eis."
   },
   {
     "id": "a2-part-2-67",
@@ -533,7 +599,8 @@
     "ruStressed": "Мо́жно сто́лик у окна́?",
     "translit": "Mozhno stolik u okna?",
     "en": "Could we have a table by the window?",
-    "pl": "Czy możemy prosić o stolik przy oknie?"
+    "pl": "Czy możemy prosić o stolik przy oknie?",
+    "de": "Könnten wir einen Tisch am Fenster haben?"
   },
   {
     "id": "a2-part-2-68",
@@ -541,7 +608,8 @@
     "ruStressed": "У вас есть сто́лик на двои́х?",
     "translit": "U vas yest' stolik na dvoikh?",
     "en": "Do you have a table for two?",
-    "pl": "Czy mają Państwo stolik dla dwojga?"
+    "pl": "Czy mają Państwo stolik dla dwojga?",
+    "de": "Haben Sie einen Tisch für zwei?"
   },
   {
     "id": "a2-part-2-69",
@@ -549,7 +617,8 @@
     "ruStressed": "Я заказа́л сто́лик на во́семь.",
     "translit": "Ya zakazal stolik na vosem'.",
     "en": "I reserved a table for eight.",
-    "pl": "Zarezerwowałem stolik na osiem osób."
+    "pl": "Zarezerwowałem stolik na osiem osób.",
+    "de": "Ich habe einen Tisch für acht Personen reserviert."
   },
   {
     "id": "a2-part-2-70",
@@ -557,7 +626,8 @@
     "ruStressed": "На како́е и́мя?",
     "translit": "Na kakoe imya?",
     "en": "Under what name?",
-    "pl": "Na jakie nazwisko?"
+    "pl": "Na jakie nazwisko?",
+    "de": "Auf welchen Namen?"
   },
   {
     "id": "a2-part-2-71",
@@ -565,7 +635,8 @@
     "ruStressed": "На и́мя Ивано́в.",
     "translit": "Na imya Ivanov.",
     "en": "Under Ivanov.",
-    "pl": "Na nazwisko Iwanow."
+    "pl": "Na nazwisko Iwanow.",
+    "de": "Auf den Namen Iwanow."
   },
   {
     "id": "a2-part-2-72",
@@ -573,7 +644,8 @@
     "ruStressed": "Принеси́те мне ещё одну́ ви́лку.",
     "translit": "Prinesite mne yeshchyo odnu vilku.",
     "en": "Bring me another fork.",
-    "pl": "Proszę przynieść mi jeszcze jeden widelec."
+    "pl": "Proszę przynieść mi jeszcze jeden widelec.",
+    "de": "Bringen Sie mir bitte noch eine Gabel."
   },
   {
     "id": "a2-part-2-73",
@@ -581,7 +653,8 @@
     "ruStressed": "У меня́ нет ножа́.",
     "translit": "U menya net nozha.",
     "en": "I don't have a knife.",
-    "pl": "Nie mam noża."
+    "pl": "Nie mam noża.",
+    "de": "Ich habe kein Messer."
   },
   {
     "id": "a2-part-2-74",
@@ -589,7 +662,8 @@
     "ruStressed": "Э́то не моё блю́до.",
     "translit": "Eto ne moyo blyudo.",
     "en": "This isn't my dish.",
-    "pl": "To nie jest moje danie."
+    "pl": "To nie jest moje danie.",
+    "de": "Das ist nicht mein Gericht."
   },
   {
     "id": "a2-part-2-75",
@@ -597,7 +671,8 @@
     "ruStressed": "Я зака́зывал ку́рицу, а не ры́бу.",
     "translit": "Ya zakazyval kuritsu, a ne rybu.",
     "en": "I ordered chicken, not fish.",
-    "pl": "Zamawiałem kurczaka, a nie rybę."
+    "pl": "Zamawiałem kurczaka, a nie rybę.",
+    "de": "Ich habe Hähnchen bestellt, keinen Fisch."
   },
   {
     "id": "a2-part-2-76",
@@ -605,7 +680,8 @@
     "ruStressed": "Извини́те за оши́бку.",
     "translit": "Izvinite za oshibku.",
     "en": "Sorry for the mistake.",
-    "pl": "Przepraszam za pomyłkę."
+    "pl": "Przepraszam za pomyłkę.",
+    "de": "Entschuldigung für den Fehler."
   },
   {
     "id": "a2-part-2-77",
@@ -613,7 +689,8 @@
     "ruStressed": "Сейча́с принесу́ пра́вильное.",
     "translit": "Seychas prinesu pravil'noe.",
     "en": "I'll bring the correct one now.",
-    "pl": "Już przynoszę właściwe."
+    "pl": "Już przynoszę właściwe.",
+    "de": "Ich bringe sofort das Richtige."
   },
   {
     "id": "a2-part-2-78",
@@ -621,7 +698,8 @@
     "ruStressed": "Э́то блю́до холо́дное.",
     "translit": "Eto blyudo kholodnoe.",
     "en": "This dish is cold.",
-    "pl": "To danie jest zimne."
+    "pl": "To danie jest zimne.",
+    "de": "Dieses Gericht ist kalt."
   },
   {
     "id": "a2-part-2-79",
@@ -629,7 +707,8 @@
     "ruStressed": "Мо́жно подогре́ть?",
     "translit": "Mozhno podogret'?",
     "en": "Could you reheat it?",
-    "pl": "Czy można je podgrzać?"
+    "pl": "Czy można je podgrzać?",
+    "de": "Könnten Sie es aufwärmen?"
   },
   {
     "id": "a2-part-2-80",
@@ -637,7 +716,8 @@
     "ruStressed": "Я могу́ взять оста́тки с собо́й?",
     "translit": "Ya mogu vzyat' ostatki s soboy?",
     "en": "Can I take the leftovers with me?",
-    "pl": "Czy mogę wziąć resztki ze sobą?"
+    "pl": "Czy mogę wziąć resztki ze sobą?",
+    "de": "Kann ich die Reste mitnehmen?"
   },
   {
     "id": "a2-part-2-81",
@@ -645,7 +725,8 @@
     "ruStressed": "Коне́чно, я упаку́ю.",
     "translit": "Konechno, ya upakuyu.",
     "en": "Of course, I'll pack it up.",
-    "pl": "Oczywiście, zapakuję to."
+    "pl": "Oczywiście, zapakuję to.",
+    "de": "Natürlich, ich packe es ein."
   },
   {
     "id": "a2-part-2-82",
@@ -653,7 +734,8 @@
     "ruStressed": "Кафе́ закрыва́ется в де́сять.",
     "translit": "Kafe zakryvaetsya v desyat'.",
     "en": "The cafe closes at ten.",
-    "pl": "Kawiarnia zamyka się o dziesiątej."
+    "pl": "Kawiarnia zamyka się o dziesiątej.",
+    "de": "Das Café schließt um zehn."
   },
   {
     "id": "a2-part-2-83",
@@ -661,7 +743,8 @@
     "ruStressed": "Когда́ вы открыва́етесь?",
     "translit": "Kogda vy otkryvaetes'?",
     "en": "When do you open?",
-    "pl": "O której otwieracie?"
+    "pl": "O której otwieracie?",
+    "de": "Wann öffnen Sie? (formal)"
   },
   {
     "id": "a2-part-2-84",
@@ -669,7 +752,8 @@
     "ruStressed": "Мы открыва́емся в во́семь утра́.",
     "translit": "My otkryvaemsya v vosem' utra.",
     "en": "We open at eight in the morning.",
-    "pl": "Otwieramy o ósmej rano."
+    "pl": "Otwieramy o ósmej rano.",
+    "de": "Wir öffnen um acht Uhr morgens."
   },
   {
     "id": "a2-part-2-85",
@@ -677,7 +761,8 @@
     "ruStressed": "Мо́жно брони́ровать онла́йн.",
     "translit": "Mozhno bronirovat' onlayn.",
     "en": "You can book online.",
-    "pl": "Można rezerwować online."
+    "pl": "Można rezerwować online.",
+    "de": "Man kann online buchen."
   },
   {
     "id": "a2-part-2-86",
@@ -685,7 +770,8 @@
     "ruStressed": "Я ре́дко ем в рестора́нах.",
     "translit": "Ya redko yem v restoranakh.",
     "en": "I rarely eat in restaurants.",
-    "pl": "Rzadko jem w restauracjach."
+    "pl": "Rzadko jem w restauracjach.",
+    "de": "Ich esse selten in Restaurants."
   },
   {
     "id": "a2-part-2-87",
@@ -693,7 +779,8 @@
     "ruStressed": "До́ма еда́ вкусне́е.",
     "translit": "Doma yeda vkusnee.",
     "en": "Food is tastier at home.",
-    "pl": "W domu jedzenie jest smaczniejsze."
+    "pl": "W domu jedzenie jest smaczniejsze.",
+    "de": "Zu Hause schmeckt das Essen besser."
   },
   {
     "id": "a2-part-2-88",
@@ -701,7 +788,8 @@
     "ruStressed": "Мне ну́жно купи́ть проду́кты.",
     "translit": "Mne nuzhno kupit' produkty.",
     "en": "I need to buy groceries.",
-    "pl": "Muszę kupić produkty spożywcze."
+    "pl": "Muszę kupić produkty spożywcze.",
+    "de": "Ich muss Lebensmittel kaufen."
   },
   {
     "id": "a2-part-2-89",
@@ -709,7 +797,8 @@
     "ruStressed": "Что ну́жно купи́ть?",
     "translit": "Chto nuzhno kupit'?",
     "en": "What do we need to buy?",
-    "pl": "Co musimy kupić?"
+    "pl": "Co musimy kupić?",
+    "de": "Was müssen wir kaufen?"
   },
   {
     "id": "a2-part-2-90",
@@ -717,7 +806,8 @@
     "ruStressed": "Нам нужны́ я́йца и ма́сло.",
     "translit": "Nam nuzhny yaytsa i maslo.",
     "en": "We need eggs and butter.",
-    "pl": "Potrzebujemy jajek i masła."
+    "pl": "Potrzebujemy jajek i masła.",
+    "de": "Wir brauchen Eier und Butter."
   },
   {
     "id": "a2-part-2-91",
@@ -725,7 +815,8 @@
     "ruStressed": "Я могу́ пойти́ в магази́н.",
     "translit": "Ya mogu poyti v magazin.",
     "en": "I can go to the store.",
-    "pl": "Mogę pójść do sklepu."
+    "pl": "Mogę pójść do sklepu.",
+    "de": "Ich kann zum Laden gehen."
   },
   {
     "id": "a2-part-2-92",
@@ -733,7 +824,8 @@
     "ruStressed": "Ты мо́жешь принести́ хле́ба?",
     "translit": "Ty mozhesh' prinesti khleba?",
     "en": "Can you bring some bread?",
-    "pl": "Możesz przynieść chleb?"
+    "pl": "Możesz przynieść chleb?",
+    "de": "Kannst du Brot mitbringen?"
   },
   {
     "id": "a2-part-2-93",
@@ -741,7 +833,8 @@
     "ruStressed": "Нельзя́ есть так мно́го сла́дкого.",
     "translit": "Nel'zya yest' tak mnogo sladkogo.",
     "en": "You shouldn't eat so much sweets.",
-    "pl": "Nie powinieneś jeść tylu słodyczy."
+    "pl": "Nie powinieneś jeść tylu słodyczy.",
+    "de": "Du solltest nicht so viele Süßigkeiten essen."
   },
   {
     "id": "a2-part-2-94",
@@ -749,7 +842,8 @@
     "ruStressed": "Тебе́ ну́жно пить бо́льше воды́.",
     "translit": "Tebe nuzhno pit' bol'she vody.",
     "en": "You need to drink more water.",
-    "pl": "Musisz pić więcej wody."
+    "pl": "Musisz pić więcej wody.",
+    "de": "Du musst mehr Wasser trinken."
   },
   {
     "id": "a2-part-2-95",
@@ -757,7 +851,8 @@
     "ruStressed": "Я до́лжен похуде́ть.",
     "translit": "Ya dolzhen pokhudet'.",
     "en": "I must lose weight.",
-    "pl": "Muszę schudnąć."
+    "pl": "Muszę schudnąć.",
+    "de": "Ich muss abnehmen."
   },
   {
     "id": "a2-part-2-96",
@@ -765,7 +860,8 @@
     "ruStressed": "Я на́чал дие́ту.",
     "translit": "Ya nachal dietu.",
     "en": "I started a diet.",
-    "pl": "Zacząłem dietę."
+    "pl": "Zacząłem dietę.",
+    "de": "Ich habe eine Diät angefangen."
   },
   {
     "id": "a2-part-2-97",
@@ -773,7 +869,8 @@
     "ruStressed": "Без хле́ба я не могу́.",
     "translit": "Bez khleba ya ne mogu.",
     "en": "I can't go without bread.",
-    "pl": "Nie mogę obejść się bez chleba."
+    "pl": "Nie mogę obejść się bez chleba.",
+    "de": "Ohne Brot geht es bei mir nicht."
   },
   {
     "id": "a2-part-2-98",
@@ -781,7 +878,8 @@
     "ruStressed": "Сего́дня я гото́влю у́жин.",
     "translit": "Segodnya ya gotovlyu uzhin.",
     "en": "Today I'm cooking dinner.",
-    "pl": "Dzisiaj ja gotuję kolację."
+    "pl": "Dzisiaj ja gotuję kolację.",
+    "de": "Heute koche ich das Abendessen."
   },
   {
     "id": "a2-part-2-99",
@@ -789,7 +887,8 @@
     "ruStressed": "Что бу́дем гото́вить?",
     "translit": "Chto budem gotovit'?",
     "en": "What shall we cook?",
-    "pl": "Co ugotujemy?"
+    "pl": "Co ugotujemy?",
+    "de": "Was sollen wir kochen?"
   },
   {
     "id": "a2-part-2-100",
@@ -797,7 +896,8 @@
     "ruStressed": "Дава́й сде́лаем сала́т.",
     "translit": "Davay sdelaem salat.",
     "en": "Let's make a salad.",
-    "pl": "Zróbmy sałatkę."
+    "pl": "Zróbmy sałatkę.",
+    "de": "Lass uns einen Salat machen."
   },
   {
     "id": "a2-part-2-101",
@@ -805,7 +905,8 @@
     "ruStressed": "Помоги́ мне поре́зать о́вощи.",
     "translit": "Pomogi mne porezat' ovoshchi.",
     "en": "Help me chop the vegetables.",
-    "pl": "Pomóż mi pokroić warzywa."
+    "pl": "Pomóż mi pokroić warzywa.",
+    "de": "Hilf mir, das Gemüse zu schneiden."
   },
   {
     "id": "a2-part-2-102",
@@ -813,7 +914,8 @@
     "ruStressed": "Поста́вь во́ду на плиту́.",
     "translit": "Postav' vodu na plitu.",
     "en": "Put the water on the stove.",
-    "pl": "Postaw wodę na kuchence."
+    "pl": "Postaw wodę na kuchence.",
+    "de": "Stell das Wasser auf den Herd."
   },
   {
     "id": "a2-part-2-103",
@@ -821,7 +923,8 @@
     "ruStressed": "Доба́вь немно́го со́ли.",
     "translit": "Dobav' nemnogo soli.",
     "en": "Add a little salt.",
-    "pl": "Dodaj trochę soli."
+    "pl": "Dodaj trochę soli.",
+    "de": "Gib ein wenig Salz hinzu."
   },
   {
     "id": "a2-part-2-104",
@@ -829,7 +932,8 @@
     "ruStressed": "Не пересоли́!",
     "translit": "Ne peresoli!",
     "en": "Don't oversalt!",
-    "pl": "Nie przesól!"
+    "pl": "Nie przesól!",
+    "de": "Versalze es nicht!"
   },
   {
     "id": "a2-part-2-105",
@@ -837,7 +941,8 @@
     "ruStressed": "Э́то сли́шком пре́сно.",
     "translit": "Eto slishkom presno.",
     "en": "This is too bland.",
-    "pl": "To jest zbyt mdłe."
+    "pl": "To jest zbyt mdłe.",
+    "de": "Das ist zu fade."
   },
   {
     "id": "a2-part-2-106",
@@ -845,7 +950,8 @@
     "ruStressed": "Ну́жно бо́льше спе́ций.",
     "translit": "Nuzhno bol'she spetsiy.",
     "en": "We need more spices.",
-    "pl": "Potrzeba więcej przypraw."
+    "pl": "Potrzeba więcej przypraw.",
+    "de": "Wir brauchen mehr Gewürze."
   },
   {
     "id": "a2-part-2-107",
@@ -853,7 +959,8 @@
     "ruStressed": "У́жин гото́в!",
     "translit": "Uzhin gotov!",
     "en": "Dinner is ready!",
-    "pl": "Kolacja gotowa!"
+    "pl": "Kolacja gotowa!",
+    "de": "Das Abendessen ist fertig!"
   },
   {
     "id": "a2-part-2-108",
@@ -861,7 +968,8 @@
     "ruStressed": "Сади́сь за стол.",
     "translit": "Sadis' za stol.",
     "en": "Sit down at the table.",
-    "pl": "Siadaj do stołu."
+    "pl": "Siadaj do stołu.",
+    "de": "Setz dich an den Tisch."
   },
   {
     "id": "a2-part-2-109",
@@ -869,7 +977,8 @@
     "ruStressed": "Я налью́ тебе́ вина́?",
     "translit": "Ya nal'yu tebe vina?",
     "en": "Shall I pour you wine?",
-    "pl": "Nalać ci wina?"
+    "pl": "Nalać ci wina?",
+    "de": "Soll ich dir Wein einschenken?"
   },
   {
     "id": "a2-part-2-110",
@@ -877,7 +986,8 @@
     "ruStressed": "Спаси́бо, мне воды́.",
     "translit": "Spasibo, mne vody.",
     "en": "Thanks, water for me.",
-    "pl": "Dzięki, dla mnie woda."
+    "pl": "Dzięki, dla mnie woda.",
+    "de": "Danke, für mich bitte Wasser."
   },
   {
     "id": "a2-part-2-111",
@@ -885,7 +995,8 @@
     "ruStressed": "Я не пью алкого́ль.",
     "translit": "Ya ne p'yu alkogol'.",
     "en": "I don't drink alcohol.",
-    "pl": "Nie piję alkoholu."
+    "pl": "Nie piję alkoholu.",
+    "de": "Ich trinke keinen Alkohol."
   },
   {
     "id": "a2-part-2-112",
@@ -893,7 +1004,8 @@
     "ruStressed": "Мо́жно мне сок?",
     "translit": "Mozhno mne sok?",
     "en": "May I have juice?",
-    "pl": "Czy mogę prosić sok?"
+    "pl": "Czy mogę prosić sok?",
+    "de": "Darf ich einen Saft haben?"
   },
   {
     "id": "a2-part-2-113",
@@ -901,7 +1013,8 @@
     "ruStressed": "Како́й сок есть?",
     "translit": "Kakoy sok yest'?",
     "en": "What juice is there?",
-    "pl": "Jaki jest sok?"
+    "pl": "Jaki jest sok?",
+    "de": "Welchen Saft gibt es?"
   },
   {
     "id": "a2-part-2-114",
@@ -909,7 +1022,8 @@
     "ruStressed": "Апельси́новый и я́блочный.",
     "translit": "Apel'sinovyy i yablochnyy.",
     "en": "Orange and apple.",
-    "pl": "Pomarańczowy i jabłkowy."
+    "pl": "Pomarańczowy i jabłkowy.",
+    "de": "Orangen- und Apfelsaft."
   },
   {
     "id": "a2-part-2-115",
@@ -917,7 +1031,8 @@
     "ruStressed": "Я возьму́ апельси́новый.",
     "translit": "Ya voz'mu apel'sinovyy.",
     "en": "I'll have orange.",
-    "pl": "Poproszę pomarańczowy."
+    "pl": "Poproszę pomarańczowy.",
+    "de": "Ich nehme Orangensaft."
   },
   {
     "id": "a2-part-2-116",
@@ -925,7 +1040,8 @@
     "ruStressed": "Что хо́чешь на у́жин?",
     "translit": "Chto khochesh' na uzhin?",
     "en": "What do you want for dinner?",
-    "pl": "Co chcesz na kolację?"
+    "pl": "Co chcesz na kolację?",
+    "de": "Was möchtest du zum Abendessen?"
   },
   {
     "id": "a2-part-2-117",
@@ -933,7 +1049,8 @@
     "ruStressed": "Мне всё равно́.",
     "translit": "Mne vsyo ravno.",
     "en": "I don't care.",
-    "pl": "Wszystko mi jedno."
+    "pl": "Wszystko mi jedno.",
+    "de": "Das ist mir egal."
   },
   {
     "id": "a2-part-2-118",
@@ -941,7 +1058,8 @@
     "ruStressed": "Тогда́ зака́жем су́ши.",
     "translit": "Togda zakazhem sushi.",
     "en": "Then let's order sushi.",
-    "pl": "To zamówmy sushi."
+    "pl": "To zamówmy sushi.",
+    "de": "Dann lass uns Sushi bestellen."
   },
   {
     "id": "a2-part-2-119",
@@ -949,7 +1067,8 @@
     "ruStressed": "Хоро́шая иде́я!",
     "translit": "Khoroshaya ideya!",
     "en": "Good idea!",
-    "pl": "Dobry pomysł!"
+    "pl": "Dobry pomysł!",
+    "de": "Gute Idee!"
   },
   {
     "id": "a2-part-2-120",
@@ -957,7 +1076,8 @@
     "ruStressed": "Ку́рица была́ пересу́шена.",
     "translit": "Kuritsa byla peresushena.",
     "en": "The chicken was overcooked.",
-    "pl": "Kurczak był przeciągnięty."
+    "pl": "Kurczak był przeciągnięty.",
+    "de": "Das Hähnchen war zu trocken."
   },
   {
     "id": "a2-part-2-121",
@@ -965,7 +1085,8 @@
     "ruStressed": "Э́тот суп идеа́льный.",
     "translit": "Etot sup ideal'nyy.",
     "en": "This soup is perfect.",
-    "pl": "Ta zupa jest idealna."
+    "pl": "Ta zupa jest idealna.",
+    "de": "Diese Suppe ist perfekt."
   },
   {
     "id": "a2-part-2-122",
@@ -973,7 +1094,8 @@
     "ruStressed": "Мо́жно мне ещё по́рцию?",
     "translit": "Mozhno mne yeshchyo portsiyu?",
     "en": "May I have another portion?",
-    "pl": "Czy mogę prosić o jeszcze jedną porcję?"
+    "pl": "Czy mogę prosić o jeszcze jedną porcję?",
+    "de": "Darf ich noch eine Portion haben?"
   },
   {
     "id": "a2-part-2-123",
@@ -981,7 +1103,8 @@
     "ruStressed": "Я не могу́ бо́льше есть.",
     "translit": "Ya ne mogu bol'she yest'.",
     "en": "I can't eat any more.",
-    "pl": "Nie mogę już więcej zjeść."
+    "pl": "Nie mogę już więcej zjeść.",
+    "de": "Ich kann nicht mehr essen."
   },
   {
     "id": "a2-part-2-124",
@@ -989,7 +1112,8 @@
     "ruStressed": "Я объе́лся.",
     "translit": "Ya ob'yelsya.",
     "en": "I'm stuffed.",
-    "pl": "Jestem pełny."
+    "pl": "Jestem pełny.",
+    "de": "Ich bin pappsatt."
   },
   {
     "id": "a2-part-2-125",
@@ -997,7 +1121,8 @@
     "ruStressed": "Мы должны́ заплати́ть отде́льно.",
     "translit": "My dolzhny zaplatit' otdel'no.",
     "en": "We need to pay separately.",
-    "pl": "Musimy zapłacić osobno."
+    "pl": "Musimy zapłacić osobno.",
+    "de": "Wir müssen getrennt bezahlen."
   },
   {
     "id": "a2-part-2-126",
@@ -1005,7 +1130,8 @@
     "ruStressed": "Я плачу́ за всех.",
     "translit": "Ya plachu za vsekh.",
     "en": "I'm paying for everyone.",
-    "pl": "Płacę za wszystkich."
+    "pl": "Płacę za wszystkich.",
+    "de": "Ich bezahle für alle."
   },
   {
     "id": "a2-part-2-127",
@@ -1013,7 +1139,8 @@
     "ruStressed": "Спаси́бо, ты о́чень ще́дрый.",
     "translit": "Spasibo, ty ochen' shchedryy.",
     "en": "Thanks, you're very generous.",
-    "pl": "Dzięki, jesteś bardzo hojny."
+    "pl": "Dzięki, jesteś bardzo hojny.",
+    "de": "Danke, du bist sehr großzügig."
   },
   {
     "id": "a2-part-2-128",
@@ -1021,7 +1148,8 @@
     "ruStressed": "В сле́дующий раз я угоща́ю.",
     "translit": "V sleduyushchiy raz ya ugoshchayu.",
     "en": "Next time it's on me.",
-    "pl": "Następnym razem ja stawiam."
+    "pl": "Następnym razem ja stawiam.",
+    "de": "Nächstes Mal lade ich ein."
   },
   {
     "id": "a2-part-2-129",
@@ -1029,7 +1157,8 @@
     "ruStressed": "Я хочу́ пить холо́дную во́ду.",
     "translit": "Ya khochu pit' kholodnuyu vodu.",
     "en": "I want to drink cold water.",
-    "pl": "Chcę pić zimną wodę."
+    "pl": "Chcę pić zimną wodę.",
+    "de": "Ich möchte kaltes Wasser trinken."
   },
   {
     "id": "a2-part-2-130",
@@ -1037,7 +1166,8 @@
     "ruStressed": "Мы хоти́м заказа́ть большу́ю пи́ццу.",
     "translit": "My khotim zakazat' bol'shuyu pitstsu.",
     "en": "We want to order a large pizza.",
-    "pl": "Chcemy zamówić dużą pizzę."
+    "pl": "Chcemy zamówić dużą pizzę.",
+    "de": "Wir wollen eine große Pizza bestellen."
   },
   {
     "id": "a2-part-2-131",
@@ -1045,7 +1175,8 @@
     "ruStressed": "Вы должны́ попро́бовать э́тот десе́рт.",
     "translit": "Vy dolzhny poprobovat' etot desert.",
     "en": "You must try this dessert.",
-    "pl": "Musi pan spróbować tego deseru. (formal)"
+    "pl": "Musi pan spróbować tego deseru. (formal)",
+    "de": "Sie müssen dieses Dessert probieren."
   },
   {
     "id": "a2-part-2-132",
@@ -1053,7 +1184,8 @@
     "ruStressed": "Мо́жно посмотре́ть ви́нную ка́рту?",
     "translit": "Mozhno posmotret' vinnuyu kartu.",
     "en": "Can I look at the wine list?",
-    "pl": "Czy mogę zobaczyć kartę win?"
+    "pl": "Czy mogę zobaczyć kartę win?",
+    "de": "Kann ich die Weinkarte sehen?"
   },
   {
     "id": "a2-part-2-133",
@@ -1061,7 +1193,8 @@
     "ruStressed": "Он хо́чет ча́шку чёрного ко́фе.",
     "translit": "On khochet chashku chyornogo kofe.",
     "en": "He wants a cup of black coffee.",
-    "pl": "On chce filiżankę czarnej kawy."
+    "pl": "On chce filiżankę czarnej kawy.",
+    "de": "Er möchte eine Tasse schwarzen Kaffee."
   },
   {
     "id": "a2-part-2-134",
@@ -1069,7 +1202,8 @@
     "ruStressed": "Мне нужна́ чи́стая салфе́тка.",
     "translit": "Mne nuzhna chistaya salfetka.",
     "en": "I need a clean napkin.",
-    "pl": "Potrzebuję czystej serwetki."
+    "pl": "Potrzebuję czystej serwetki.",
+    "de": "Ich brauche eine saubere Serviette."
   },
   {
     "id": "a2-part-2-135",
@@ -1077,7 +1211,8 @@
     "ruStressed": "Официантка, принеси́те стака́н со́ка.",
     "translit": "Ofitsiantka, prinesite stakan soka.",
     "en": "Waitress, bring a glass of juice.",
-    "pl": "Pani kelnerko, proszę przynieść szklankę soku."
+    "pl": "Pani kelnerko, proszę przynieść szklankę soku.",
+    "de": "Bedienung, bringen Sie ein Glas Saft."
   },
   {
     "id": "a2-part-2-136",
@@ -1085,7 +1220,8 @@
     "ruStressed": "В су́пе есть о́стрый пе́рец?",
     "translit": "V supe yest' ostryy perets.",
     "en": "Does the soup have hot pepper?",
-    "pl": "Czy w zupie jest ostra papryka?"
+    "pl": "Czy w zupie jest ostra papryka?",
+    "de": "Ist in der Suppe scharfer Pfeffer?"
   },
   {
     "id": "a2-part-2-137",
@@ -1093,7 +1229,8 @@
     "ruStressed": "Я могу́ порекомендова́ть све́жий сала́т.",
     "translit": "Ya mogu porekomendovat' svezhiy salat.",
     "en": "I can recommend the fresh salad.",
-    "pl": "Mogę polecić świeżą sałatkę."
+    "pl": "Mogę polecić świeżą sałatkę.",
+    "de": "Ich kann den frischen Salat empfehlen."
   },
   {
     "id": "a2-part-2-138",
@@ -1101,7 +1238,8 @@
     "ruStressed": "Ты хо́чешь горя́чий шокола́д?",
     "translit": "Ty khochesh' goryachiy shokolad.",
     "en": "Do you want hot chocolate?",
-    "pl": "Chcesz gorącą czekoladę? (informal)"
+    "pl": "Chcesz gorącą czekoladę? (informal)",
+    "de": "Möchtest du heiße Schokolade?"
   },
   {
     "id": "a2-part-2-139",
@@ -1109,7 +1247,8 @@
     "ruStressed": "Мы должны́ заплати́ть за обе́д.",
     "translit": "My dolzhny zaplatit' za obed.",
     "en": "We must pay for the lunch.",
-    "pl": "Musimy zapłacić za obiad."
+    "pl": "Musimy zapłacić za obiad.",
+    "de": "Wir müssen für das Mittagessen bezahlen."
   },
   {
     "id": "a2-part-2-140",
@@ -1117,7 +1256,8 @@
     "ruStressed": "Принеси́те основно́е блю́до по́зже.",
     "translit": "Prinesite osnovnoye blyudo pozzhe.",
     "en": "Bring the main course later.",
-    "pl": "Proszę przynieść danie główne później."
+    "pl": "Proszę przynieść danie główne później.",
+    "de": "Bringen Sie das Hauptgericht später."
   },
   {
     "id": "a2-part-2-141",
@@ -1125,7 +1265,8 @@
     "ruStressed": "Я возьму́ бока́л кра́сного вина́.",
     "translit": "Ya voz'mu bokal krasnogo vina.",
     "en": "I'll have a glass of red wine.",
-    "pl": "Poproszę kieliszek czerwonego wina."
+    "pl": "Poproszę kieliszek czerwonego wina.",
+    "de": "Ich nehme ein Glas Rotwein."
   },
   {
     "id": "a2-part-2-142",
@@ -1133,7 +1274,8 @@
     "ruStressed": "Ей ну́жно купи́ть сла́дкие фру́кты.",
     "translit": "Yey nuzhno kupit' sladkiye frukty.",
     "en": "She needs to buy sweet fruit.",
-    "pl": "Ona musi kupić słodkie owoce."
+    "pl": "Ona musi kupić słodkie owoce.",
+    "de": "Sie muss süßes Obst kaufen."
   },
   {
     "id": "a2-part-2-143",
@@ -1141,7 +1283,8 @@
     "ruStressed": "Мо́жно чай без са́хара?",
     "translit": "Mozhno chay bez sakhara.",
     "en": "Can I have tea without sugar?",
-    "pl": "Czy mogę prosić herbatę bez cukru?"
+    "pl": "Czy mogę prosić herbatę bez cukru?",
+    "de": "Kann ich Tee ohne Zucker haben?"
   },
   {
     "id": "a2-part-2-144",
@@ -1149,7 +1292,8 @@
     "ruStressed": "Како́й суп у вас есть?",
     "translit": "Kakoy sup u vas yest.",
     "en": "What kind of soup do you have?",
-    "pl": "Jaką mają państwo zupę? (formal)"
+    "pl": "Jaką mają państwo zupę? (formal)",
+    "de": "Welche Suppe haben Sie?"
   },
   {
     "id": "a2-part-2-145",
@@ -1157,7 +1301,8 @@
     "ruStressed": "Официант, да́йте мне пе́пельницу.",
     "translit": "Ofitsiant, dayte mne pepel'nitsu.",
     "en": "Waiter, give me an ash tray.",
-    "pl": "Kelnerze, proszę mi podać popielniczkę."
+    "pl": "Kelnerze, proszę mi podać popielniczkę.",
+    "de": "Kellner, geben Sie mir einen Aschenbecher."
   },
   {
     "id": "a2-part-2-146",
@@ -1165,7 +1310,8 @@
     "ruStressed": "Я хочу́ заброни́ровать сто́лик.",
     "translit": "Ya khochu zabronirovat' stolik.",
     "en": "I want to book a table.",
-    "pl": "Chcę zarezerwować stolik."
+    "pl": "Chcę zarezerwować stolik.",
+    "de": "Ich möchte einen Tisch reservieren."
   },
   {
     "id": "a2-part-2-147",
@@ -1173,7 +1319,8 @@
     "ruStressed": "Где я могу́ помы́ть ру́ки?",
     "translit": "Gde ya mogu pomyt' ruki.",
     "en": "Where can I wash my hands?",
-    "pl": "Gdzie mogę umyć ręce?"
+    "pl": "Gdzie mogę umyć ręce?",
+    "de": "Wo kann ich mir die Hände waschen?"
   },
   {
     "id": "a2-part-2-148",
@@ -1181,7 +1328,8 @@
     "ruStressed": "Они́ хотя́т пить зелёный чай.",
     "translit": "Oni khotyat pit' zelyonyy chay.",
     "en": "They want to drink green tea.",
-    "pl": "Oni chcą pić zieloną herbatę."
+    "pl": "Oni chcą pić zieloną herbatę.",
+    "de": "Sie wollen grünen Tee trinken."
   },
   {
     "id": "a2-part-2-149",
@@ -1189,7 +1337,8 @@
     "ruStressed": "Я до́лжен найти́ хоро́шее кафе́.",
     "translit": "Ya dolzhen nayti khoroshee kafe.",
     "en": "I must find a good cafe.",
-    "pl": "Muszę znaleźć dobrą kawiarnię."
+    "pl": "Muszę znaleźć dobrą kawiarnię.",
+    "de": "Ich muss ein gutes Café finden."
   },
   {
     "id": "a2-part-2-150",
@@ -1197,6 +1346,7 @@
     "ruStressed": "Вы хоти́те стака́н холо́дной воды́?",
     "translit": "Vy khotite stakan kholodnoy vody?",
     "en": "Would you like a glass of cold water?",
-    "pl": "Czy chciałby pan szklankę zimnej wody? (formal)"
+    "pl": "Czy chciałby pan szklankę zimnej wody? (formal)",
+    "de": "Möchten Sie ein Glas kaltes Wasser?"
   }
 ]

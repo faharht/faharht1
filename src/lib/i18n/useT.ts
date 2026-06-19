@@ -1,6 +1,16 @@
 import { useTrainerStore } from "@/lib/trainer/store";
 import { translate, type Locale, type StringKey } from "./strings";
 
+const BCP47: Record<Locale, string> = {
+  en: "en-US",
+  pl: "pl-PL",
+  de: "de-DE",
+};
+
+export function localeToBCP47(locale: Locale): string {
+  return BCP47[locale] ?? "en-US";
+}
+
 export function useLocale(): Locale {
   return useTrainerStore((s) => s.settings.appLanguage);
 }
@@ -14,7 +24,8 @@ export function useT() {
     /** Format a Date or YYYY-MM-DD with the user's locale. */
     formatDate: (d: Date | string, opts?: Intl.DateTimeFormatOptions) => {
       const date = typeof d === "string" ? new Date(d) : d;
-      return date.toLocaleDateString(locale === "pl" ? "pl-PL" : "en-US", opts);
+      return date.toLocaleDateString(localeToBCP47(locale), opts);
     },
   };
 }
+
