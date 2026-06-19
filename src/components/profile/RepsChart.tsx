@@ -36,7 +36,7 @@ export function RepsChart({
 
   const goalLineTop = 100 - (dailyGoal / maxReps) * 100;
   const weekday = (d: Date) =>
-    d.toLocaleDateString(locale === "pl" ? "pl-PL" : "en-US", { weekday: "short" });
+    d.toLocaleDateString(localeToBCP47(locale), { weekday: "short" });
   const tickEvery = range === 14 ? 2 : 5;
 
   return (
