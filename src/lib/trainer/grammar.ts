@@ -253,8 +253,53 @@ function applyOverlay(pack: GrammarPack): GrammarPack {
   };
 }
 
+// Sidecar translations: src/data/grammar/_i18n/<listId>.json
+// Shape: { pl?: { intro?, notes: [{ title?, body?, examples?: [{en?, note?}] }] }, de?: {...} }
+type I18nExample = { en?: string; note?: string };
+type I18nNote = { title?: string; body?: string; examples?: I18nExample[] };
+type I18nPack = { intro?: string; notes?: I18nNote[] };
+type Sidecar = { pl?: I18nPack; de?: I18nPack };
+
+const I18N_MODULES = import.meta.glob<{ default: Sidecar }>(
+  "../../data/grammar/_i18n/*.json",
+  { eager: true },
+);
+const I18N_MAP = new Map<string, Sidecar>();
+for (const [path, mod] of Object.entries(I18N_MODULES)) {
+  const id = path.replace(/^.*\/([^/]+)\.json$/, "$1");
+  I18N_MAP.set(id, mod.default);
+}
+
+function mergeI18n(pack: GrammarPack): GrammarPack {
+  const sc = I18N_MAP.get(pack.listId);
+  if (!sc) return pack;
+  return {
+    ...pack,
+    intro_pl: sc.pl?.intro ?? pack.intro_pl,
+    intro_de: sc.de?.intro ?? pack.intro_de,
+    notes: pack.notes.map((note, i) => {
+      const pl = sc.pl?.notes?.[i];
+      const de = sc.de?.notes?.[i];
+      return {
+        ...note,
+        title_pl: pl?.title ?? note.title_pl,
+        title_de: de?.title ?? note.title_de,
+        body_pl: pl?.body ?? note.body_pl,
+        body_de: de?.body ?? note.body_de,
+        examples: note.examples?.map((ex, j) => ({
+          ...ex,
+          en_pl: pl?.examples?.[j]?.en ?? ex.en_pl,
+          en_de: de?.examples?.[j]?.en ?? ex.en_de,
+          note_pl: pl?.examples?.[j]?.note ?? ex.note_pl,
+          note_de: de?.examples?.[j]?.note ?? ex.note_de,
+        })),
+      };
+    }),
+  };
+}
+
 const PACKS: Record<string, GrammarPack> = Object.fromEntries(
-  Object.entries(RAW_PACKS).map(([k, v]) => [k, applyOverlay(v)]),
+  Object.entries(RAW_PACKS).map(([k, v]) => [k, mergeI18n(applyOverlay(v))]),
 );
 
 export function getGrammar(listId: string): GrammarPack | undefined {
