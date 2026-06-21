@@ -1,0 +1,120 @@
+{
+  "pl": {
+    "intro": "Przejście na poziom B1 wymaga przejścia od podstawowych faktów do wyrażania osobistych opinii i używania **czasowników zwrotnych** do opisywania czynności skierowanych z powrotem na podmiot.",
+    "notes": [
+      {
+        "title": "Wyrażanie opinii",
+        "body": "Chociaż **я думаю, что** jest standardowym sposobem mówienia _myślę, że_, rosyjski oferuje bardziej subtelne alternatywy. Użyj osoby w **celowniku** z **кажется** (wydaje się) dla łagodniejszych opinii. Aby stwierdzić, co uważasz za coś, użyj **считать** z następującym po nim **biernikiem**. Dla szybkiego _moim zdaniem_, użyj ustalonego zwrotu **по-моему**.",
+        "examples": [
+          {
+            "en": "It seems to me that it's too expensive.",
+            "note": "Mnie się wydaje, że to za drogo."
+          },
+          {
+            "en": "I consider him a professional.",
+            "note": "Ja uważam go za profesjonalistę."
+          },
+          {
+            "en": "In my opinion, this is a great idea.",
+            "note": "Moim zdaniem, to świetny pomysł."
+          }
+        ]
+      },
+      {
+        "title": "Sufiks zwrotny -ся/-сь",
+        "body": "Czasowniki zwrotne kończą się na **-ся** (po spółgłoskach) lub **-сь** (po samogłoskach). Często wskazują na czynność, którą podmiot wykonuje na sobie, ale mogą również opisywać stan trwały lub zainteresowanie. **Учиться** skupia się na procesie bycia uczniem, podczas gdy **заниматься** (z następującym po nim **narzędnikiem**) skupia się na konkretnej czynności lub sesji nauki.",
+        "examples": [
+          {
+            "en": "Where do you study?",
+            "note": "Gdzie studiujesz?"
+          },
+          {
+            "en": "I have been studying music since childhood.",
+            "note": "Uczę się muzyki od dzieciństwa."
+          },
+          {
+            "en": "Don't be afraid, the dog is small.",
+            "note": "Nie bój się, pies jest mały."
+          }
+        ]
+      },
+      {
+        "title": "Lubienie rzeczy z Нравиться",
+        "body": "Czasownik **нравиться** (podobać się/być przyjemnym dla) jest technicznie zwrotny. W języku rosyjskim rzecz, która się podoba, jest **podmiotem** (mianownik), a osoba, której się podoba, jest w **celowniku**. Jeśli podoba Ci się ogólna kategoria lub konkretny przedmiot, czasownik musi zgadzać się z tym przedmiotem.",
+        "examples": [
+          {
+            "en": "I like this city. (Lit: This city pleases me)",
+            "note": "Podoba mi się to miasto. (Dosł.: To miasto podoba mi się)"
+          },
+          {
+            "en": "I like these books. (Plural agreement)",
+            "note": "Podobają mi się te książki. (Zgoda w liczbie mnogiej)"
+          },
+          {
+            "en": "Did you like the film?",
+            "note": "Podobał Ci się film?"
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Der Übergang zu B1 erfordert die Verlagerung von grundlegenden Fakten hin zum Ausdruck persönlicher Ansichten und der Verwendung von **reflexiven Verben**, um Handlungen zu beschreiben, die auf das Subjekt zurückwirken.",
+    "notes": [
+      {
+        "title": "Meinungen äußern",
+        "body": "Während **я думаю, что** die Standardformulierung für _ich denke, dass_ ist, bietet Russisch nuanciertere Alternativen. Verwenden Sie die Person im **Dativ** mit **кажется** (es scheint) für weichere Meinungen. Um anzugeben, was Sie von etwas halten, verwenden Sie **считать**, gefolgt vom **Akkusativ**. Für ein schnelles _meiner Meinung nach_ verwenden Sie die feste Wendung **по-моему**.",
+        "examples": [
+          {
+            "en": "Es scheint mir, dass es zu teuer ist.",
+            "note": null
+          },
+          {
+            "en": "Ich betrachte ihn als Profi.",
+            "note": null
+          },
+          {
+            "en": "Meiner Meinung nach ist das eine großartige Idee.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Das reflexive Suffix -ся/-сь",
+        "body": "Reflexive Verben enden auf **-ся** (nach Konsonanten) oder **-сь** (nach Vokalen). Sie bezeichnen oft eine Handlung, die das Subjekt an sich selbst ausführt, können aber auch einen permanenten Zustand oder ein Interesse beschreiben. **Учиться** konzentriert sich auf den Prozess des Student-Seins, während **заниматься** (gefolgt vom **Instrumental**) sich auf die spezifische Aktivität oder Lernsitzung konzentriert.",
+        "examples": [
+          {
+            "en": "Wo studierst du?",
+            "note": null
+          },
+          {
+            "en": "Ich studiere seit meiner Kindheit Musik.",
+            "note": null
+          },
+          {
+            "en": "Hab keine Angst, der Hund ist klein.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Dinge mögen mit Нравиться",
+        "body": "Das Verb **нравиться** (gefallen/angenehm sein) ist technisch gesehen reflexiv. Im Russischen ist die Sache, die gemocht wird, das **Subjekt** (Nominativ), und die Person, die sie mag, steht im **Dativ**. Wenn Sie eine allgemeine Kategorie oder ein bestimmtes Objekt mögen, muss das Verb mit diesem Objekt übereinstimmen.",
+        "examples": [
+          {
+            "en": "Ich mag diese Stadt. (Wörtlich: Diese Stadt gefällt mir)",
+            "note": null
+          },
+          {
+            "en": "Ich mag diese Bücher. (Pluralübereinstimmung)",
+            "note": null
+          },
+          {
+            "en": "Hat dir der Film gefallen?",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

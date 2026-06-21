@@ -1,0 +1,120 @@
+{
+  "pl": {
+    "intro": "Ten przewodnik skupia się na wskazywaniu lokalizacji i ruchu przy użyciu **Miejscownika** i **Biernika**. Opanuj te podstawy, aby opisać, gdzie jesteś i dokąd zmierzasz.",
+    "notes": [
+      {
+        "title": "Lokalizacja: Где? (Gdzie?)",
+        "body": "Użyj **Miejscownika** (zakończenie **-е**) z przyimkami **в** (w) i **на** (na) do odpowiedzi na pytanie **Где?** (Gdzie?). Używaj **в** dla zamkniętych przestrzeni i miast, a **на** dla otwartych terenów, wydarzeń lub specyficznych tradycyjnych miejsc, takich jak praca czy poczta.",
+        "examples": [
+          {
+            "en": "I am in the park.",
+            "note": null
+          },
+          {
+            "en": "He is at work.",
+            "note": null
+          },
+          {
+            "en": "Anna is in Moscow.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Ruch: Куда? (Dokąd?)",
+        "body": "Kiedy przemieszczasz się w kierunku celu, użyj **Biernika**, aby odpowiedzieć na pytanie **Куда?** (Dokąd?). Chociaż przyimki **в** i **на** pozostają takie same, męskie rzeczowniki nieożywione nie zmieniają się, podczas gdy rzeczowniki żeńskie zmieniają końcówkę na **-у**.",
+        "examples": [
+          {
+            "en": "I am going to the park.",
+            "note": null
+          },
+          {
+            "en": "He is going to work.",
+            "note": null
+          },
+          {
+            "en": "She is going to the pharmacy.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Wybór \"В\" vs \"НА\"",
+        "body": "Wybór między **в** a **на** zależy od rzeczownika. Używaj **в** dla budynków, takich jak _школа_ (szkoła) lub _офис_ (biuro). Używaj **на** dla wydarzeń, takich jak _урок_ (lekcja) lub _концерт_ (koncert). Jeśli miejsce używa **на** do lokalizacji, będzie również używać **на** do ruchu.",
+        "examples": [
+          {
+            "en": "We are at the lesson.",
+            "note": null
+          },
+          {
+            "en": "We are going to the lesson.",
+            "note": null
+          },
+          {
+            "en": "The book is in the cafe.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Dieser Leitfaden konzentriert sich auf die Angabe von Ort und Bewegung mit den **Präpositiv**- und **Akkusativ**-Fällen. Beherrschen Sie diese Grundlagen, um zu beschreiben, wo Sie sind und wohin Sie gehen.",
+    "notes": [
+      {
+        "title": "Ort: Где? (Wo?)",
+        "body": "Verwenden Sie den **Präpositiv** (Endung **-е**) mit den Präpositionen **в** (in) und **на** (auf/an) zur Beantwortung der Frage **Где?** (Wo?). Verwenden Sie **в** für geschlossene Räume und Städte und **на** für offene Flächen, Veranstaltungen oder bestimmte traditionelle Orte wie Arbeit oder das Postamt.",
+        "examples": [
+          {
+            "en": "I am in the park.",
+            "note": "Ich bin im Park."
+          },
+          {
+            "en": "He is at work.",
+            "note": "Er ist bei der Arbeit."
+          },
+          {
+            "en": "Anna is in Moscow.",
+            "note": "Anna ist in Moskau."
+          }
+        ]
+      },
+      {
+        "title": "Bewegung: Куда? (Wohin?)",
+        "body": "Wenn Sie sich auf ein Ziel zubewegen, verwenden Sie den **Akkusativ**, um die Frage **Куда?** (Wohin?) zu beantworten. Obwohl die Präpositionen **в** und **на** gleich bleiben, ändern sich männliche unbelebte Nomen nicht, während weibliche Nomen ihre Endung zu **-у** ändern.",
+        "examples": [
+          {
+            "en": "I am going to the park.",
+            "note": "Ich gehe in den Park."
+          },
+          {
+            "en": "He is going to work.",
+            "note": "Er geht zur Arbeit."
+          },
+          {
+            "en": "She is going to the pharmacy.",
+            "note": "Sie geht zur Apotheke."
+          }
+        ]
+      },
+      {
+        "title": "Auswahl von \"В\" vs \"НА\"",
+        "body": "Die Wahl zwischen **в** und **на** hängt vom Nomen ab. Verwenden Sie **в** für Gebäude wie _школа_ (Schule) oder _офис_ (Büro). Verwenden Sie **на** für Veranstaltungen wie _урок_ (Unterricht) oder _концерт_ (Konzert). Wenn ein Ort **на** für den Ort verwendet, wird er auch **на** für die Bewegung verwenden.",
+        "examples": [
+          {
+            "en": "We are at the lesson.",
+            "note": "Wir sind beim Unterricht."
+          },
+          {
+            "en": "We are going to the lesson.",
+            "note": "Wir gehen zum Unterricht."
+          },
+          {
+            "en": "The book is in the cafe.",
+            "note": "Das Buch ist im Café."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "pl": {
+    "intro": "Imiesłowy funkcjonują jako czasownikowe przymiotniki, pozwalając zawrzeć złożone informacje w jednym słowie. Różnią się w zależności od **czasu**, **strony** oraz tego, czy czynność jest **czynna**, czy **bierna**.",
+    "notes": [
+      {
+        "title": "Imiesłowy Czynne: Teraźniejszy i Przeszły",
+        "body": "Imiesłowy czynne opisują kogoś wykonującego czynność. Aby utworzyć formę **teraźniejszą** (robiący), weź formę _3. osoby liczby mnogiej_ i zamień **-т** na **-щий**. Aby utworzyć formę **przeszłą** (robił), weź rdzeń _czasu przeszłego_ i dodaj **-вший**. Używaj ich, gdy rzeczownik jest podmiotem czynności.",
+        "examples": [
+          {
+            "en": "The woman sitting by the window is my sister.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Imiesłowy Bierne Przeszłe: Długie i Krótkie",
+        "body": "Imiesłowy bierne przeszłe (IBP) opisują czynność wykonaną na obiekcie. Tworzone są od _czasowników dokonanych_ przez dodanie sufiksów takich jak **-нн-**, **-енн-** lub **-т-**. Funkcjonują one jak pełne przymiotniki. Dla bardziej formalnego stylu, \"reportażowego\", użyj **formy krótkiej** (kończącej się na **-н**, **-на**, **-но**, **-ны**), która funkcjonuje jak orzecznik.",
+        "examples": [
+          {
+            "en": "The book written by him became a bestseller.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Imiesłowy a Zdania z \"Который\"",
+        "body": "Podczas gdy zdania z **который** są standardowe w mowie, imiesłowy są niezbędne w formalnym piśmie, dziennikarstwie i literaturze. Imiesłowy czynią zdanie bardziej zwięzłym, eliminując potrzebę zaimka względnego i odmienionego czasownika. Trzymaj się **который** w swobodnej rozmowie, ale używaj imiesłowów, gdy chcesz brzmieć **akademicko** lub **profesjonalnie**.",
+        "examples": [
+          {
+            "en": "The students who finished the test can leave.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Partizipien funktionieren als verbale Adjektive und ermöglichen es Ihnen, komplexe Informationen in einem einzigen Wort zu verpacken. Sie variieren je nach **Tempus**, **Genus Verbi** und ob die Aktion **aktiv** oder **passiv** ist.",
+    "notes": [
+      {
+        "title": "Aktive Partizipien: Präsens und Perfekt",
+        "body": "Aktive Partizipien beschreiben jemanden, der eine Aktion ausführt. Um das **Präsens** (tuend) zu bilden, nehmen Sie die Form der _3. Person Plural_ und ersetzen **-т** durch **-щий**. Um das **Perfekt** (tat) zu bilden, nehmen Sie den Stamm des _Präteritums_ und fügen **-вший** hinzu. Verwenden Sie diese, wenn das Nomen das Subjekt der Aktion ist.",
+        "examples": [
+          {
+            "en": "The woman sitting by the window is my sister.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Passive Perfektpartizipien: Lang und Kurz",
+        "body": "Passive Perfektpartizipien (PPP) beschreiben eine Aktion, die mit einem Objekt durchgeführt wird. Sie werden aus _perfektiven Verben_ gebildet, indem Suffixe wie **-нн-**, **-енн-** oder **-т-** hinzugefügt werden. Diese funktionieren wie vollständige Adjektive. Für einen formelleren \"Reportage\"-Stil verwenden Sie die **Kurzform** (endet auf **-н**, **-на**, **-но**, **-ны**), die wie ein Prädikat funktioniert.",
+        "examples": [
+          {
+            "en": "The book written by him became a bestseller.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Partizipien vs. \"Который\"-Sätze",
+        "body": "Während **который**-Sätze in der gesprochenen Sprache üblich sind, sind Partizipien für formelles Schreiben, Journalismus und Literatur unerlässlich. Partizipien machen den Satz prägnanter, indem sie die Notwendigkeit eines Relativpronomens und eines konjugierten Verbs beseitigen. Bleiben Sie bei **который** in lockerer Unterhaltung, aber verwenden Sie Partizipien, wenn Sie **akademisch** oder **professionell** klingen möchten.",
+        "examples": [
+          {
+            "en": "The students who finished the test can leave.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

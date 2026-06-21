@@ -1,0 +1,120 @@
+{
+  "pl": {
+    "intro": "Nauka rozpoznawania **rodzaju rzeczownika** jest pierwszym krokiem do budowania poprawnych zdań w języku rosyjskim. Te zasady określają, jak zachowują się **przymiotniki**, **zaimki** i **formy liczby mnogiej**.",
+    "notes": [
+      {
+        "title": "Trzy rodzaje",
+        "body": "Każdy rosyjski rzeczownik ma rodzaj: **męski**, **żeński** lub **nijaki**. Zazwyczaj można określić rodzaj, patrząc na ostatnią literę słowa w jego podstawowej formie. Rzeczowniki **męskie** kończą się na spółgłoskę lub _-й_. Rzeczowniki **żeńskie** kończą się na _-а_ lub _-я_. Rzeczowniki **nijakie** kończą się na _-о_ lub _-е_.",
+        "examples": [
+          {
+            "en": "This is a table and a book.",
+            "note": "To jest stół i książka."
+          },
+          {
+            "en": "Where is my coffee?",
+            "note": "Gdzie jest moja kawa?"
+          },
+          {
+            "en": "An apple and a museum.",
+            "note": "Jabłko i muzeum."
+          }
+        ]
+      },
+      {
+        "title": "Zaimki dzierżawcze",
+        "body": "Aby powiedzieć _mój_, musisz dopasować słowo do rodzaju rzeczownika, który opisuje. Użyj **мой** dla rodzaju męskiego, **моя** dla żeńskiego i **моё** dla nijakiego. Mówiąc o wielu rzeczach, użyj **мои** niezależnie od pierwotnego rodzaju.",
+        "examples": [
+          {
+            "en": "My brother and my sister.",
+            "note": "Mój brat i moja siostra."
+          },
+          {
+            "en": "This is my window.",
+            "note": "To jest moje okno."
+          },
+          {
+            "en": "These are my books.",
+            "note": "To są moje książki."
+          }
+        ]
+      },
+      {
+        "title": "Podstawowe liczby mnogie",
+        "body": "Większość rzeczowników tworzy liczbę mnogą przez dodanie **-ы** lub **-и**. Rzeczowniki męskie kończące się na spółgłoskę dodają **-ы**, podczas gdy rzeczowniki żeńskie zmieniają _-а_ na **-ы**. Jeśli słowo kończy się na _-й_, _-ь_ lub podlega **zasadzie 7 liter** (po к, г, х, ш, щ, ж, ч), zamiast tego użyj **-и**. Rzeczowniki nijakie są unikalne: _-о_ zmienia się na **-а**, a _-е_ zmienia się na **-я**.",
+        "examples": [
+          {
+            "en": "Newspapers and maps.",
+            "note": "Gazety i mapy."
+          },
+          {
+            "en": "Parks and museums.",
+            "note": "Parki i muzea."
+          },
+          {
+            "en": "Windows and words.",
+            "note": "Okna i słowa."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Das Erlernen der **Genusbestimmung von Substantiven** ist der erste Schritt zum Aufbau korrekter Sätze im Russischen. Diese Regeln bestimmen, wie sich **Adjektive**, **Pronomen** und **Pluralformen** verhalten.",
+    "notes": [
+      {
+        "title": "Die drei Genera",
+        "body": "Jedes russische Substantiv hat ein Genus: **maskulin**, **feminin** oder **neutrum**. Sie können das Genus normalerweise erkennen, indem Sie den letzten Buchstaben des Wortes in seiner Grundform betrachten. **Maskuline** Substantive enden auf einen Konsonanten oder _-й_. **Feminine** Substantive enden auf _-а_ oder _-я_. **Neutrale** Substantive enden auf _-о_ oder _-е_.",
+        "examples": [
+          {
+            "en": "This is a table and a book.",
+            "note": null
+          },
+          {
+            "en": "Where is my coffee?",
+            "note": null
+          },
+          {
+            "en": "An apple and a museum.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Possessive Pronomen",
+        "body": "Um _mein_ zu sagen, müssen Sie das Wort an das Genus des Substantivs anpassen, das es beschreibt. Verwenden Sie **мой** für maskulin, **моя** für feminin und **моё** für neutrum. Wenn Sie über mehrere Dinge sprechen, verwenden Sie **мои** unabhängig vom ursprünglichen Genus.",
+        "examples": [
+          {
+            "en": "My brother and my sister.",
+            "note": null
+          },
+          {
+            "en": "This is my window.",
+            "note": null
+          },
+          {
+            "en": "These are my books.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Grundlegende Pluralformen",
+        "body": "Die meisten Substantive werden im Plural durch Anhängen von **-ы** oder **-и** gebildet. Maskuline Substantive, die auf einen Konsonanten enden, erhalten **-ы**, während feminine Substantive _-а_ zu **-ы** ändern. Wenn das Wort auf _-й_, _-ь_ endet oder der **7-Buchstaben-Regel** folgt (nach к, г, х, ш, щ, ж, ч), verwenden Sie stattdessen **-и**. Neutrale Substantive sind einzigartig: _-о_ wird zu **-а** und _-е_ wird zu **-я**.",
+        "examples": [
+          {
+            "en": "Newspapers and maps.",
+            "note": null
+          },
+          {
+            "en": "Parks and museums.",
+            "note": null
+          },
+          {
+            "en": "Windows and words.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

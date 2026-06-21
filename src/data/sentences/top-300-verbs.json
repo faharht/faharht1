@@ -5,7 +5,8 @@
     "ruStressed": "Я ча́сто рабо́таю.",
     "translit": "Ya chasto rabotayu.",
     "en": "I often work.",
-    "pl": "Często pracuję."
+    "pl": "Często pracuję.",
+    "de": "Ich arbeite oft."
   },
   {
     "id": "top-300-verbs-2",
@@ -13,7 +14,8 @@
     "ruStressed": "Я ча́сто де́лаю.",
     "translit": "Ya chasto delayu.",
     "en": "I often do.",
-    "pl": "Często robię."
+    "pl": "Często robię.",
+    "de": "Ich mache es oft."
   },
   {
     "id": "top-300-verbs-3",
@@ -21,7 +23,8 @@
     "ruStressed": "Я ча́сто иду́.",
     "translit": "Ya chasto idu.",
     "en": "I often walk.",
-    "pl": "Często idę."
+    "pl": "Często idę.",
+    "de": "Ich gehe oft."
   },
   {
     "id": "top-300-verbs-4",
@@ -29,7 +32,8 @@
     "ruStressed": "Я ча́сто хожу́.",
     "translit": "Ya chasto khozhu.",
     "en": "I often go (on foot).",
-    "pl": "Często chodzę."
+    "pl": "Często chodzę.",
+    "de": "Ich gehe oft (zu Fuß)."
   },
   {
     "id": "top-300-verbs-5",
@@ -37,7 +41,8 @@
     "ruStressed": "Я ча́сто е́ду.",
     "translit": "Ya chasto edu.",
     "en": "I often ride.",
-    "pl": "Często jadę."
+    "pl": "Często jadę.",
+    "de": "Ich fahre oft."
   },
   {
     "id": "top-300-verbs-6",
@@ -45,7 +50,8 @@
     "ruStressed": "Я ча́сто е́зжу.",
     "translit": "Ya chasto ezzhu.",
     "en": "I often travel.",
-    "pl": "Często jeżdżę."
+    "pl": "Często jeżdżę.",
+    "de": "Ich reise oft."
   },
   {
     "id": "top-300-verbs-7",
@@ -53,7 +59,8 @@
     "ruStressed": "Я ча́сто чита́ю.",
     "translit": "Ya chasto chitayu.",
     "en": "I often read.",
-    "pl": "Często czytam."
+    "pl": "Często czytam.",
+    "de": "Ich lese oft."
   },
   {
     "id": "top-300-verbs-8",
@@ -61,7 +68,8 @@
     "ruStressed": "Я ча́сто пишу́.",
     "translit": "Ya chasto pishu.",
     "en": "I often write.",
-    "pl": "Często piszę."
+    "pl": "Często piszę.",
+    "de": "Ich schreibe oft."
   },
   {
     "id": "top-300-verbs-9",
@@ -69,7 +77,8 @@
     "ruStressed": "Я ча́сто говорю́.",
     "translit": "Ya chasto govoryu.",
     "en": "I often speak.",
-    "pl": "Często mówię."
+    "pl": "Często mówię.",
+    "de": "Ich spreche oft."
   },
   {
     "id": "top-300-verbs-10",
@@ -77,7 +86,8 @@
     "ruStressed": "Я ча́сто слу́шаю.",
     "translit": "Ya chasto slushayu.",
     "en": "I often listen.",
-    "pl": "Często słucham."
+    "pl": "Często słucham.",
+    "de": "Ich höre oft zu."
   },
   {
     "id": "top-300-verbs-11",
@@ -85,7 +95,8 @@
     "ruStressed": "Я ча́сто смотрю́.",
     "translit": "Ya chasto smotryu.",
     "en": "I often watch.",
-    "pl": "Często oglądam."
+    "pl": "Często oglądam.",
+    "de": "Ich schaue oft."
   },
   {
     "id": "top-300-verbs-12",
@@ -93,7 +104,8 @@
     "ruStressed": "Я ча́сто ви́жу.",
     "translit": "Ya chasto vizhu.",
     "en": "I often see.",
-    "pl": "Często widzę."
+    "pl": "Często widzę.",
+    "de": "Ich sehe oft."
   },
   {
     "id": "top-300-verbs-13",
@@ -101,7 +113,8 @@
     "ruStressed": "Я ча́сто зна́ю.",
     "translit": "Ya chasto znayu.",
     "en": "I often know.",
-    "pl": "Często wiem."
+    "pl": "Często wiem.",
+    "de": "Ich weiß oft."
   },
   {
     "id": "top-300-verbs-14",
@@ -109,7 +122,8 @@
     "ruStressed": "Я ча́сто понима́ю.",
     "translit": "Ya chasto ponimayu.",
     "en": "I often understand.",
-    "pl": "Często rozumiem."
+    "pl": "Często rozumiem.",
+    "de": "Ich verstehe oft."
   },
   {
     "id": "top-300-verbs-15",
@@ -117,7 +131,8 @@
     "ruStressed": "Я ча́сто ду́маю.",
     "translit": "Ya chasto dumayu.",
     "en": "I often think.",
-    "pl": "Często myślę."
+    "pl": "Często myślę.",
+    "de": "Ich denke oft."
   },
   {
     "id": "top-300-verbs-16",
@@ -125,7 +140,8 @@
     "ruStressed": "Я ча́сто люблю́.",
     "translit": "Ya chasto lyublyu.",
     "en": "I often love.",
-    "pl": "Często kocham."
+    "pl": "Często kocham.",
+    "de": "Ich liebe oft."
   },
   {
     "id": "top-300-verbs-17",
@@ -133,7 +149,8 @@
     "ruStressed": "Я ча́сто хочу́.",
     "translit": "Ya chasto khochu.",
     "en": "I often want.",
-    "pl": "Często chcę."
+    "pl": "Często chcę.",
+    "de": "Ich will oft."
   },
   {
     "id": "top-300-verbs-18",
@@ -141,7 +158,8 @@
     "ruStressed": "Я ча́сто могу́.",
     "translit": "Ya chasto mogu.",
     "en": "I often be able.",
-    "pl": "Często mogę."
+    "pl": "Często mogę.",
+    "de": "Ich kann oft."
   },
   {
     "id": "top-300-verbs-19",
@@ -149,7 +167,8 @@
     "ruStressed": "Я ча́сто ем.",
     "translit": "Ya chasto em.",
     "en": "I often eat.",
-    "pl": "Często jem."
+    "pl": "Często jem.",
+    "de": "Ich esse oft."
   },
   {
     "id": "top-300-verbs-20",
@@ -157,7 +176,8 @@
     "ruStressed": "Я ча́сто пью.",
     "translit": "Ya chasto pyu.",
     "en": "I often drink.",
-    "pl": "Często piję."
+    "pl": "Często piję.",
+    "de": "Ich trinke oft."
   },
   {
     "id": "top-300-verbs-21",
@@ -165,7 +185,8 @@
     "ruStressed": "Я ча́сто сплю.",
     "translit": "Ya chasto splyu.",
     "en": "I often sleep.",
-    "pl": "Często śpię."
+    "pl": "Często śpię.",
+    "de": "Ich schlafe oft."
   },
   {
     "id": "top-300-verbs-22",
@@ -173,7 +194,8 @@
     "ruStressed": "Я ча́сто живу́.",
     "translit": "Ya chasto zhivu.",
     "en": "I often live.",
-    "pl": "Często mieszkam."
+    "pl": "Często mieszkam.",
+    "de": "Ich lebe oft."
   },
   {
     "id": "top-300-verbs-23",
@@ -181,7 +203,8 @@
     "ruStressed": "Я ча́сто учу́.",
     "translit": "Ya chasto uchu.",
     "en": "I often study.",
-    "pl": "Często się uczę (czegoś)."
+    "pl": "Często się uczę (czegoś).",
+    "de": "Ich studiere oft."
   },
   {
     "id": "top-300-verbs-24",
@@ -189,7 +212,8 @@
     "ruStressed": "Я ча́сто учу́сь.",
     "translit": "Ya chasto uchus.",
     "en": "I often learn.",
-    "pl": "Często się uczę."
+    "pl": "Często się uczę.",
+    "de": "Ich lerne oft."
   },
   {
     "id": "top-300-verbs-25",
@@ -197,7 +221,8 @@
     "ruStressed": "Я ча́сто игра́ю.",
     "translit": "Ya chasto igrayu.",
     "en": "I often play.",
-    "pl": "Często gram."
+    "pl": "Często gram.",
+    "de": "Ich spiele oft."
   },
   {
     "id": "top-300-verbs-26",
@@ -205,7 +230,8 @@
     "ruStressed": "Я ча́сто покупа́ю.",
     "translit": "Ya chasto pokupayu.",
     "en": "I often buy.",
-    "pl": "Często kupuję."
+    "pl": "Często kupuję.",
+    "de": "Ich kaufe oft."
   },
   {
     "id": "top-300-verbs-27",
@@ -213,7 +239,8 @@
     "ruStressed": "Я ча́сто продаю́.",
     "translit": "Ya chasto prodayu.",
     "en": "I often sell.",
-    "pl": "Często sprzedaję."
+    "pl": "Często sprzedaję.",
+    "de": "Ich verkaufe oft."
   },
   {
     "id": "top-300-verbs-28",
@@ -221,7 +248,8 @@
     "ruStressed": "Я ча́сто даю́.",
     "translit": "Ya chasto dayu.",
     "en": "I often give.",
-    "pl": "Często daję."
+    "pl": "Często daję.",
+    "de": "Ich gebe oft."
   },
   {
     "id": "top-300-verbs-29",
@@ -229,7 +257,8 @@
     "ruStressed": "Я ча́сто беру́.",
     "translit": "Ya chasto beru.",
     "en": "I often take.",
-    "pl": "Często biorę."
+    "pl": "Często biorę.",
+    "de": "Ich nehme oft."
   },
   {
     "id": "top-300-verbs-30",
@@ -237,7 +266,8 @@
     "ruStressed": "Я ча́сто приношу́.",
     "translit": "Ya chasto prinoshu.",
     "en": "I often bring.",
-    "pl": "Często przynoszę."
+    "pl": "Często przynoszę.",
+    "de": "Ich bringe oft."
   },
   {
     "id": "top-300-verbs-31",
@@ -245,7 +275,8 @@
     "ruStressed": "Я ча́сто получа́ю.",
     "translit": "Ya chasto poluchayu.",
     "en": "I often receive.",
-    "pl": "Często otrzymuję."
+    "pl": "Często otrzymuję.",
+    "de": "Ich erhalte oft."
   },
   {
     "id": "top-300-verbs-32",
@@ -253,7 +284,8 @@
     "ruStressed": "Я ча́сто отдаю́.",
     "translit": "Ya chasto otdayu.",
     "en": "I often give back.",
-    "pl": "Często oddaję."
+    "pl": "Często oddaję.",
+    "de": "Ich gebe zurück oft."
   },
   {
     "id": "top-300-verbs-33",
@@ -261,7 +293,8 @@
     "ruStressed": "Я ча́сто прихожу́.",
     "translit": "Ya chasto prikhozhu.",
     "en": "I often arrive (on foot).",
-    "pl": "Często przychodzę."
+    "pl": "Często przychodzę.",
+    "de": "Ich komme oft (zu Fuß) an."
   },
   {
     "id": "top-300-verbs-34",
@@ -269,7 +302,8 @@
     "ruStressed": "Я ча́сто приезжа́ю.",
     "translit": "Ya chasto priezzhayu.",
     "en": "I often arrive (by vehicle).",
-    "pl": "Często przyjeżdżam."
+    "pl": "Często przyjeżdżam.",
+    "de": "Ich komme oft (mit dem Fahrzeug) an."
   },
   {
     "id": "top-300-verbs-35",
@@ -277,7 +311,8 @@
     "ruStressed": "Я ча́сто ухожу́.",
     "translit": "Ya chasto ukhozhu.",
     "en": "I often leave (on foot).",
-    "pl": "Często wychodzę."
+    "pl": "Często wychodzę.",
+    "de": "Ich gehe oft weg (zu Fuß)."
   },
   {
     "id": "top-300-verbs-36",
@@ -285,7 +320,8 @@
     "ruStressed": "Я ча́сто уезжа́ю.",
     "translit": "Ya chasto uezzhayu.",
     "en": "I often leave (by vehicle).",
-    "pl": "Często wyjeżdżam."
+    "pl": "Często wyjeżdżam.",
+    "de": "Ich fahre oft weg (mit dem Fahrzeug)."
   },
   {
     "id": "top-300-verbs-37",
@@ -293,7 +329,8 @@
     "ruStressed": "Я ча́сто звоню́.",
     "translit": "Ya chasto zvonyu.",
     "en": "I often call.",
-    "pl": "Często dzwonię."
+    "pl": "Często dzwonię.",
+    "de": "Ich rufe oft an."
   },
   {
     "id": "top-300-verbs-38",
@@ -301,7 +338,8 @@
     "ruStressed": "Я ча́сто отвеча́ю.",
     "translit": "Ya chasto otvechayu.",
     "en": "I often answer.",
-    "pl": "Często odpowiadam."
+    "pl": "Często odpowiadam.",
+    "de": "Ich antworte oft."
   },
   {
     "id": "top-300-verbs-39",
@@ -309,7 +347,8 @@
     "ruStressed": "Я ча́сто спра́шиваю.",
     "translit": "Ya chasto sprashivayu.",
     "en": "I often ask.",
-    "pl": "Często pytam."
+    "pl": "Często pytam.",
+    "de": "Ich frage oft."
   },
   {
     "id": "top-300-verbs-40",
@@ -317,7 +356,8 @@
     "ruStressed": "Я ча́сто прошу́.",
     "translit": "Ya chasto proshu.",
     "en": "I often request.",
-    "pl": "Często proszę."
+    "pl": "Często proszę.",
+    "de": "Ich bitte oft um etwas."
   },
   {
     "id": "top-300-verbs-41",
@@ -325,7 +365,8 @@
     "ruStressed": "Я ча́сто помога́ю.",
     "translit": "Ya chasto pomogayu.",
     "en": "I often help.",
-    "pl": "Często pomagam."
+    "pl": "Często pomagam.",
+    "de": "Ich helfe oft."
   },
   {
     "id": "top-300-verbs-42",
@@ -333,7 +374,8 @@
     "ruStressed": "Я ча́сто открыва́ю.",
     "translit": "Ya chasto otkryvayu.",
     "en": "I often open.",
-    "pl": "Często otwieram."
+    "pl": "Często otwieram.",
+    "de": "Ich öffne oft."
   },
   {
     "id": "top-300-verbs-43",
@@ -341,7 +383,8 @@
     "ruStressed": "Я ча́сто закрыва́ю.",
     "translit": "Ya chasto zakryvayu.",
     "en": "I often close.",
-    "pl": "Często zamykam."
+    "pl": "Często zamykam.",
+    "de": "Ich schließe oft."
   },
   {
     "id": "top-300-verbs-44",
@@ -349,7 +392,8 @@
     "ruStressed": "Я ча́сто начина́ю.",
     "translit": "Ya chasto nachinayu.",
     "en": "I often begin.",
-    "pl": "Często zaczynam."
+    "pl": "Często zaczynam.",
+    "de": "Ich beginne oft."
   },
   {
     "id": "top-300-verbs-45",
@@ -357,7 +401,8 @@
     "ruStressed": "Я ча́сто зака́нчиваю.",
     "translit": "Ya chasto zakanchivayu.",
     "en": "I often finish.",
-    "pl": "Często kończę."
+    "pl": "Często kończę.",
+    "de": "Ich beende oft."
   },
   {
     "id": "top-300-verbs-46",
@@ -365,7 +410,8 @@
     "ruStressed": "Я ча́сто продолжа́ю.",
     "translit": "Ya chasto prodolzhayu.",
     "en": "I often continue.",
-    "pl": "Często kontynuuję."
+    "pl": "Często kontynuuję.",
+    "de": "Ich mache oft weiter."
   },
   {
     "id": "top-300-verbs-47",
@@ -373,7 +419,8 @@
     "ruStressed": "Я ча́сто ищу́.",
     "translit": "Ya chasto ishchu.",
     "en": "I often search for.",
-    "pl": "Często szukam."
+    "pl": "Często szukam.",
+    "de": "Ich suche oft."
   },
   {
     "id": "top-300-verbs-48",
@@ -381,7 +428,8 @@
     "ruStressed": "Я ча́сто нахожу́.",
     "translit": "Ya chasto nakhozhu.",
     "en": "I often find.",
-    "pl": "Często znajduję."
+    "pl": "Często znajduję.",
+    "de": "Ich finde oft."
   },
   {
     "id": "top-300-verbs-49",
@@ -389,7 +437,8 @@
     "ruStressed": "Я ча́сто теря́ю.",
     "translit": "Ya chasto teryayu.",
     "en": "I often lose.",
-    "pl": "Często gubię."
+    "pl": "Często gubię.",
+    "de": "Ich verliere oft."
   },
   {
     "id": "top-300-verbs-50",
@@ -397,7 +446,8 @@
     "ruStressed": "Я ча́сто забыва́ю.",
     "translit": "Ya chasto zabyvayu.",
     "en": "I often forget.",
-    "pl": "Często zapominam."
+    "pl": "Często zapominam.",
+    "de": "Ich vergesse oft."
   },
   {
     "id": "top-300-verbs-51",
@@ -405,7 +455,8 @@
     "ruStressed": "Я ча́сто вспомина́ю.",
     "translit": "Ya chasto vspominayu.",
     "en": "I often recall.",
-    "pl": "Często wspominam."
+    "pl": "Często wspominam.",
+    "de": "Ich erinnere mich oft."
   },
   {
     "id": "top-300-verbs-52",
@@ -413,7 +464,8 @@
     "ruStressed": "Я ча́сто по́мню.",
     "translit": "Ya chasto pomnyu.",
     "en": "I often remember.",
-    "pl": "Często pamiętam."
+    "pl": "Często pamiętam.",
+    "de": "Ich erinnere mich oft."
   },
   {
     "id": "top-300-verbs-53",
@@ -421,7 +473,8 @@
     "ruStressed": "Я ча́сто повторя́ю.",
     "translit": "Ya chasto povtoryayu.",
     "en": "I often repeat.",
-    "pl": "Często powtarzam."
+    "pl": "Często powtarzam.",
+    "de": "Ich wiederhole oft."
   },
   {
     "id": "top-300-verbs-54",
@@ -429,7 +482,8 @@
     "ruStressed": "Я ча́сто слы́шу.",
     "translit": "Ya chasto slyshu.",
     "en": "I often hear.",
-    "pl": "Często słyszę."
+    "pl": "Często słyszę.",
+    "de": "Ich höre oft."
   },
   {
     "id": "top-300-verbs-55",
@@ -437,7 +491,8 @@
     "ruStressed": "Я ча́сто чу́вствую.",
     "translit": "Ya chasto chuvstvuyu.",
     "en": "I often feel.",
-    "pl": "Często czuję."
+    "pl": "Często czuję.",
+    "de": "Ich fühle oft."
   },
   {
     "id": "top-300-verbs-56",
@@ -445,7 +500,8 @@
     "ruStressed": "Я ча́сто любу́юсь.",
     "translit": "Ya chasto lyubuyus.",
     "en": "I often admire.",
-    "pl": "Często podziwiam."
+    "pl": "Często podziwiam.",
+    "de": "Ich bewundere oft."
   },
   {
     "id": "top-300-verbs-57",
@@ -453,7 +509,8 @@
     "ruStressed": "Я ча́сто наде́юсь.",
     "translit": "Ya chasto nadeyus.",
     "en": "I often hope.",
-    "pl": "Często mam nadzieję."
+    "pl": "Często mam nadzieję.",
+    "de": "Ich hoffe oft."
   },
   {
     "id": "top-300-verbs-58",
@@ -461,7 +518,8 @@
     "ruStressed": "Я ча́сто ве́рю.",
     "translit": "Ya chasto veryu.",
     "en": "I often believe.",
-    "pl": "Często wierzę."
+    "pl": "Często wierzę.",
+    "de": "Ich glaube oft."
   },
   {
     "id": "top-300-verbs-59",
@@ -469,7 +527,8 @@
     "ruStressed": "Я ча́сто улыба́юсь.",
     "translit": "Ya chasto ulybayus.",
     "en": "I often smile.",
-    "pl": "Często się uśmiecham."
+    "pl": "Często się uśmiecham.",
+    "de": "Ich lächle oft."
   },
   {
     "id": "top-300-verbs-60",
@@ -477,7 +536,8 @@
     "ruStressed": "Я ча́сто смею́сь.",
     "translit": "Ya chasto smeyus.",
     "en": "I often laugh.",
-    "pl": "Często się śmieję."
+    "pl": "Często się śmieję.",
+    "de": "Ich lache oft."
   },
   {
     "id": "top-300-verbs-61",
@@ -485,7 +545,8 @@
     "ruStressed": "Я ча́сто пла́чу.",
     "translit": "Ya chasto plachu.",
     "en": "I often cry.",
-    "pl": "Często płaczę."
+    "pl": "Często płaczę.",
+    "de": "Ich weine oft."
   },
   {
     "id": "top-300-verbs-62",
@@ -493,7 +554,8 @@
     "ruStressed": "Я ча́сто бою́сь.",
     "translit": "Ya chasto boyus.",
     "en": "I often fear.",
-    "pl": "Często się boję."
+    "pl": "Często się boję.",
+    "de": "Ich fürchte mich oft."
   },
   {
     "id": "top-300-verbs-63",
@@ -501,7 +563,8 @@
     "ruStressed": "Я ча́сто волну́юсь.",
     "translit": "Ya chasto volnuyus.",
     "en": "I often worry.",
-    "pl": "Często się martwię."
+    "pl": "Często się martwię.",
+    "de": "Ich mache mir oft Sorgen."
   },
   {
     "id": "top-300-verbs-64",
@@ -509,7 +572,8 @@
     "ruStressed": "Я ча́сто отдыха́ю.",
     "translit": "Ya chasto otdykhayu.",
     "en": "I often rest.",
-    "pl": "Często odpoczywam."
+    "pl": "Często odpoczywam.",
+    "de": "Ich ruhe mich oft aus."
   },
   {
     "id": "top-300-verbs-65",
@@ -517,7 +581,8 @@
     "ruStressed": "Я ча́сто гуля́ю.",
     "translit": "Ya chasto gulyayu.",
     "en": "I often go for a walk.",
-    "pl": "Często spaceruję."
+    "pl": "Często spaceruję.",
+    "de": "Ich gehe oft spazieren."
   },
   {
     "id": "top-300-verbs-66",
@@ -525,7 +590,8 @@
     "ruStressed": "Я ча́сто путеше́ствую.",
     "translit": "Ya chasto puteshestvuyu.",
     "en": "I often travel.",
-    "pl": "Często podróżuję."
+    "pl": "Często podróżuję.",
+    "de": "Ich reise oft."
   },
   {
     "id": "top-300-verbs-67",
@@ -533,7 +599,8 @@
     "ruStressed": "Я ча́сто гото́влю.",
     "translit": "Ya chasto gotovlyu.",
     "en": "I often cook.",
-    "pl": "Często gotuję."
+    "pl": "Często gotuję.",
+    "de": "Ich koche oft."
   },
   {
     "id": "top-300-verbs-68",
@@ -541,7 +608,8 @@
     "ruStressed": "Я ча́сто убира́ю.",
     "translit": "Ya chasto ubirayu.",
     "en": "I often tidy up.",
-    "pl": "Często sprzątam."
+    "pl": "Często sprzątam.",
+    "de": "Ich räume oft auf."
   },
   {
     "id": "top-300-verbs-69",
@@ -549,7 +617,8 @@
     "ruStressed": "Я ча́сто стира́ю.",
     "translit": "Ya chasto stirayu.",
     "en": "I often do laundry.",
-    "pl": "Często robię pranie."
+    "pl": "Często robię pranie.",
+    "de": "Ich wasche oft Wäsche."
   },
   {
     "id": "top-300-verbs-70",
@@ -557,7 +626,8 @@
     "ruStressed": "Я ча́сто мо́ю.",
     "translit": "Ya chasto moyu.",
     "en": "I often wash.",
-    "pl": "Często myję."
+    "pl": "Często myję.",
+    "de": "Ich wasche oft."
   },
   {
     "id": "top-300-verbs-71",
@@ -565,7 +635,8 @@
     "ruStressed": "Я ча́сто рису́ю.",
     "translit": "Ya chasto risuyu.",
     "en": "I often draw.",
-    "pl": "Często rysuję."
+    "pl": "Często rysuję.",
+    "de": "Ich zeichne oft."
   },
   {
     "id": "top-300-verbs-72",
@@ -573,7 +644,8 @@
     "ruStressed": "Я ча́сто пою́.",
     "translit": "Ya chasto poyu.",
     "en": "I often sing.",
-    "pl": "Często śpiewam."
+    "pl": "Często śpiewam.",
+    "de": "Ich singe oft."
   },
   {
     "id": "top-300-verbs-73",
@@ -581,7 +653,8 @@
     "ruStressed": "Я ча́сто танцу́ю.",
     "translit": "Ya chasto tantsuyu.",
     "en": "I often dance.",
-    "pl": "Często tańczę."
+    "pl": "Często tańczę.",
+    "de": "Ich tanze oft."
   },
   {
     "id": "top-300-verbs-74",
@@ -589,7 +662,8 @@
     "ruStressed": "Я ча́сто бе́гаю.",
     "translit": "Ya chasto begayu.",
     "en": "I often run.",
-    "pl": "Często biegam."
+    "pl": "Często biegam.",
+    "de": "Ich renne oft."
   },
   {
     "id": "top-300-verbs-75",
@@ -597,7 +671,8 @@
     "ruStressed": "Я ча́сто пла́ваю.",
     "translit": "Ya chasto plavayu.",
     "en": "I often swim.",
-    "pl": "Często pływam."
+    "pl": "Często pływam.",
+    "de": "Ich schwimme oft."
   },
   {
     "id": "top-300-verbs-76",
@@ -605,7 +680,8 @@
     "ruStressed": "Я ча́сто пры́гаю.",
     "translit": "Ya chasto prygayu.",
     "en": "I often jump.",
-    "pl": "Często skaczę."
+    "pl": "Często skaczę.",
+    "de": "Ich springe oft."
   },
   {
     "id": "top-300-verbs-77",
@@ -613,7 +689,8 @@
     "ruStressed": "Я ча́сто сижу́.",
     "translit": "Ya chasto sizhu.",
     "en": "I often sit.",
-    "pl": "Często siedzę."
+    "pl": "Często siedzę.",
+    "de": "Ich sitze oft."
   },
   {
     "id": "top-300-verbs-78",
@@ -621,7 +698,8 @@
     "ruStressed": "Я ча́сто стою́.",
     "translit": "Ya chasto stoyu.",
     "en": "I often stand.",
-    "pl": "Często stoję."
+    "pl": "Często stoję.",
+    "de": "Ich stehe oft."
   },
   {
     "id": "top-300-verbs-79",
@@ -629,7 +707,8 @@
     "ruStressed": "Я ча́сто лежу́.",
     "translit": "Ya chasto lezhu.",
     "en": "I often lie.",
-    "pl": "Często leżę."
+    "pl": "Często leżę.",
+    "de": "Ich liege oft."
   },
   {
     "id": "top-300-verbs-80",
@@ -637,7 +716,8 @@
     "ruStressed": "Я ча́сто встреча́ю.",
     "translit": "Ya chasto vstrechayu.",
     "en": "I often meet.",
-    "pl": "Często spotykam."
+    "pl": "Często spotykam.",
+    "de": "Ich treffe oft."
   },
   {
     "id": "top-300-verbs-81",
@@ -645,7 +725,8 @@
     "ruStressed": "Я ча́сто приглаша́ю.",
     "translit": "Ya chasto priglashayu.",
     "en": "I often invite.",
-    "pl": "Często zapraszam."
+    "pl": "Często zapraszam.",
+    "de": "Ich lade oft ein."
   },
   {
     "id": "top-300-verbs-82",
@@ -653,7 +734,8 @@
     "ruStressed": "Я ча́сто дарю́.",
     "translit": "Ya chasto daryu.",
     "en": "I often give as gift.",
-    "pl": "Często daję w prezencie."
+    "pl": "Często daję w prezencie.",
+    "de": "Ich schenke oft etwas."
   },
   {
     "id": "top-300-verbs-83",
@@ -661,7 +743,8 @@
     "ruStressed": "Я ча́сто обеща́ю.",
     "translit": "Ya chasto obeshchayu.",
     "en": "I often promise.",
-    "pl": "Często obiecuję."
+    "pl": "Często obiecuję.",
+    "de": "Ich verspreche oft."
   },
   {
     "id": "top-300-verbs-84",
@@ -669,7 +752,8 @@
     "ruStressed": "Я ча́сто сове́тую.",
     "translit": "Ya chasto sovetuyu.",
     "en": "I often advise.",
-    "pl": "Często radzę."
+    "pl": "Często radzę.",
+    "de": "Ich rate oft."
   },
   {
     "id": "top-300-verbs-85",
@@ -677,7 +761,8 @@
     "ruStressed": "Я ча́сто объясня́ю.",
     "translit": "Ya chasto obyasnyayu.",
     "en": "I often explain.",
-    "pl": "Często wyjaśniam."
+    "pl": "Często wyjaśniam.",
+    "de": "Ich erkläre oft."
   },
   {
     "id": "top-300-verbs-86",
@@ -685,7 +770,8 @@
     "ruStressed": "Я ча́сто расска́зываю.",
     "translit": "Ya chasto rasskazyvayu.",
     "en": "I often tell.",
-    "pl": "Często opowiadam."
+    "pl": "Często opowiadam.",
+    "de": "Ich erzähle oft."
   },
   {
     "id": "top-300-verbs-87",
@@ -693,7 +779,8 @@
     "ruStressed": "Я ча́сто перевожу́.",
     "translit": "Ya chasto perevozhu.",
     "en": "I often translate.",
-    "pl": "Często tłumaczę."
+    "pl": "Często tłumaczę.",
+    "de": "Ich übersetze oft."
   },
   {
     "id": "top-300-verbs-88",
@@ -701,7 +788,8 @@
     "ruStressed": "Я ча́сто испо́льзую.",
     "translit": "Ya chasto ispolzuyu.",
     "en": "I often use.",
-    "pl": "Często używam."
+    "pl": "Często używam.",
+    "de": "Ich benutze oft."
   },
   {
     "id": "top-300-verbs-89",
@@ -709,7 +797,8 @@
     "ruStressed": "Я ча́сто создаю́.",
     "translit": "Ya chasto sozdayu.",
     "en": "I often create.",
-    "pl": "Często tworzę."
+    "pl": "Często tworzę.",
+    "de": "Ich erschaffe oft."
   },
   {
     "id": "top-300-verbs-90",
@@ -717,7 +806,8 @@
     "ruStressed": "Я ча́сто стро́ю.",
     "translit": "Ya chasto stroyu.",
     "en": "I often build.",
-    "pl": "Często buduję."
+    "pl": "Często buduję.",
+    "de": "Ich baue oft."
   },
   {
     "id": "top-300-verbs-91",
@@ -725,7 +815,8 @@
     "ruStressed": "Я ча́сто лома́ю.",
     "translit": "Ya chasto lomayu.",
     "en": "I often break.",
-    "pl": "Często łamię."
+    "pl": "Często łamię.",
+    "de": "Ich zerbreche oft."
   },
   {
     "id": "top-300-verbs-92",
@@ -733,7 +824,8 @@
     "ruStressed": "Я ча́сто чиню́.",
     "translit": "Ya chasto chinyu.",
     "en": "I often repair.",
-    "pl": "Często naprawiam."
+    "pl": "Często naprawiam.",
+    "de": "Ich repariere oft."
   },
   {
     "id": "top-300-verbs-93",
@@ -741,7 +833,8 @@
     "ruStressed": "Я ча́сто зараба́тываю.",
     "translit": "Ya chasto zarabatyvayu.",
     "en": "I often earn.",
-    "pl": "Często zarabiam."
+    "pl": "Często zarabiam.",
+    "de": "Ich verdiene oft."
   },
   {
     "id": "top-300-verbs-94",
@@ -749,7 +842,8 @@
     "ruStressed": "Я ча́сто тра́чу.",
     "translit": "Ya chasto trachu.",
     "en": "I often spend.",
-    "pl": "Często wydaję."
+    "pl": "Często wydaję.",
+    "de": "Ich gebe oft aus."
   },
   {
     "id": "top-300-verbs-95",
@@ -757,7 +851,8 @@
     "ruStressed": "Я ча́сто эконо́млю.",
     "translit": "Ya chasto ekonomlyu.",
     "en": "I often save.",
-    "pl": "Często oszczędzam."
+    "pl": "Często oszczędzam.",
+    "de": "Ich spare oft."
   },
   {
     "id": "top-300-verbs-96",
@@ -765,7 +860,8 @@
     "ruStressed": "Я ча́сто выбира́ю.",
     "translit": "Ya chasto vybirayu.",
     "en": "I often choose.",
-    "pl": "Często wybieram."
+    "pl": "Często wybieram.",
+    "de": "Ich wähle oft aus."
   },
   {
     "id": "top-300-verbs-97",
@@ -773,7 +869,8 @@
     "ruStressed": "Я ча́сто реша́ю.",
     "translit": "Ya chasto reshayu.",
     "en": "I often decide.",
-    "pl": "Często decyduję."
+    "pl": "Często decyduję.",
+    "de": "Ich entscheide oft."
   },
   {
     "id": "top-300-verbs-98",
@@ -781,7 +878,8 @@
     "ruStressed": "Я ча́сто плани́рую.",
     "translit": "Ya chasto planiruyu.",
     "en": "I often plan.",
-    "pl": "Często planuję."
+    "pl": "Często planuję.",
+    "de": "Ich plane oft."
   },
   {
     "id": "top-300-verbs-99",
@@ -789,7 +887,8 @@
     "ruStressed": "Я ча́сто проверя́ю.",
     "translit": "Ya chasto proveryayu.",
     "en": "I often check.",
-    "pl": "Często sprawdzam."
+    "pl": "Często sprawdzam.",
+    "de": "Ich prüfe oft."
   },
   {
     "id": "top-300-verbs-100",
@@ -797,7 +896,8 @@
     "ruStressed": "Я ча́сто обсужда́ю.",
     "translit": "Ya chasto obsuzhdayu.",
     "en": "I often discuss.",
-    "pl": "Często dyskutuję."
+    "pl": "Często dyskutuję.",
+    "de": "Ich diskutiere oft."
   },
   {
     "id": "top-300-verbs-101",
@@ -805,7 +905,8 @@
     "ruStressed": "Я ча́сто соглаша́юсь.",
     "translit": "Ya chasto soglashayus.",
     "en": "I often agree.",
-    "pl": "Często się zgadzam."
+    "pl": "Często się zgadzam.",
+    "de": "Ich stimme oft zu."
   },
   {
     "id": "top-300-verbs-102",
@@ -813,7 +914,8 @@
     "ruStressed": "Я ча́сто спо́рю.",
     "translit": "Ya chasto sporyu.",
     "en": "I often argue.",
-    "pl": "Często się spieram."
+    "pl": "Często się spieram.",
+    "de": "Ich streite oft."
   },
   {
     "id": "top-300-verbs-103",
@@ -821,7 +923,8 @@
     "ruStressed": "Я ча́сто извиня́юсь.",
     "translit": "Ya chasto izvinyayus.",
     "en": "I often apologize.",
-    "pl": "Często przepraszam."
+    "pl": "Często przepraszam.",
+    "de": "Ich entschuldige mich oft."
   },
   {
     "id": "top-300-verbs-104",
@@ -829,7 +932,8 @@
     "ruStressed": "Я ча́сто благодарю́.",
     "translit": "Ya chasto blagodaryu.",
     "en": "I often thank.",
-    "pl": "Często dziękuję."
+    "pl": "Często dziękuję.",
+    "de": "Ich danke oft."
   },
   {
     "id": "top-300-verbs-105",
@@ -837,7 +941,8 @@
     "ruStressed": "Я ча́сто поздравля́ю.",
     "translit": "Ya chasto pozdravlyayu.",
     "en": "I often congratulate.",
-    "pl": "Często gratuluję."
+    "pl": "Często gratuluję.",
+    "de": "Ich gratuliere oft."
   },
   {
     "id": "top-300-verbs-106",
@@ -845,7 +950,8 @@
     "ruStressed": "Я ча́сто проща́ю.",
     "translit": "Ya chasto proshchayu.",
     "en": "I often forgive.",
-    "pl": "Często wybaczam."
+    "pl": "Często wybaczam.",
+    "de": "Ich vergebe oft."
   },
   {
     "id": "top-300-verbs-107",
@@ -853,7 +959,8 @@
     "ruStressed": "Вчера́ я рабо́тал.",
     "translit": "Vchera ya rabotal.",
     "en": "Yesterday I worked.",
-    "pl": "Wczoraj pracowałem."
+    "pl": "Wczoraj pracowałem.",
+    "de": "Gestern habe ich gearbeitet."
   },
   {
     "id": "top-300-verbs-108",
@@ -861,7 +968,8 @@
     "ruStressed": "Вчера́ я де́лал.",
     "translit": "Vchera ya delal.",
     "en": "Yesterday I did.",
-    "pl": "Wczoraj robiłem."
+    "pl": "Wczoraj robiłem.",
+    "de": "Gestern habe ich gemacht."
   },
   {
     "id": "top-300-verbs-109",
@@ -869,7 +977,8 @@
     "ruStressed": "Вчера́ я идти́л.",
     "translit": "Vchera ya idl.",
     "en": "Yesterday I walked.",
-    "pl": "Wczoraj szedłem."
+    "pl": "Wczoraj szedłem.",
+    "de": "Gestern bin ich gegangen."
   },
   {
     "id": "top-300-verbs-110",
@@ -877,7 +986,8 @@
     "ruStressed": "Вчера́ я ходи́л.",
     "translit": "Vchera ya khodil.",
     "en": "Yesterday I went (on foot).",
-    "pl": "Wczoraj chodziłem."
+    "pl": "Wczoraj chodziłem.",
+    "de": "Gestern bin ich gegangen."
   },
   {
     "id": "top-300-verbs-111",
@@ -885,7 +995,8 @@
     "ruStressed": "Вчера́ я е́хал.",
     "translit": "Vchera ya ekhal.",
     "en": "Yesterday I rode.",
-    "pl": "Wczoraj jechałem."
+    "pl": "Wczoraj jechałem.",
+    "de": "Gestern bin ich gefahren."
   },
   {
     "id": "top-300-verbs-112",
@@ -893,7 +1004,8 @@
     "ruStressed": "Вчера́ я е́здил.",
     "translit": "Vchera ya ezdil.",
     "en": "Yesterday I traveled.",
-    "pl": "Wczoraj jeździłem."
+    "pl": "Wczoraj jeździłem.",
+    "de": "Gestern bin ich gefahren."
   },
   {
     "id": "top-300-verbs-113",
@@ -901,7 +1013,8 @@
     "ruStressed": "Вчера́ я чита́л.",
     "translit": "Vchera ya chital.",
     "en": "Yesterday I read.",
-    "pl": "Wczoraj czytałem."
+    "pl": "Wczoraj czytałem.",
+    "de": "Gestern habe ich gelesen."
   },
   {
     "id": "top-300-verbs-114",
@@ -909,7 +1022,8 @@
     "ruStressed": "Вчера́ я писа́л.",
     "translit": "Vchera ya pisal.",
     "en": "Yesterday I wrote.",
-    "pl": "Wczoraj pisałem."
+    "pl": "Wczoraj pisałem.",
+    "de": "Gestern habe ich geschrieben."
   },
   {
     "id": "top-300-verbs-115",
@@ -917,7 +1031,8 @@
     "ruStressed": "Вчера́ я говори́л.",
     "translit": "Vchera ya govoril.",
     "en": "Yesterday I spoke.",
-    "pl": "Wczoraj mówiłem."
+    "pl": "Wczoraj mówiłem.",
+    "de": "Gestern habe ich gesprochen."
   },
   {
     "id": "top-300-verbs-116",
@@ -925,7 +1040,8 @@
     "ruStressed": "Вчера́ я слу́шал.",
     "translit": "Vchera ya slushal.",
     "en": "Yesterday I listened.",
-    "pl": "Wczoraj słuchałem."
+    "pl": "Wczoraj słuchałem.",
+    "de": "Gestern habe ich zugehört."
   },
   {
     "id": "top-300-verbs-117",
@@ -933,7 +1049,8 @@
     "ruStressed": "Вчера́ я смотре́л.",
     "translit": "Vchera ya smotrel.",
     "en": "Yesterday I watched.",
-    "pl": "Wczoraj oglądałem."
+    "pl": "Wczoraj oglądałem.",
+    "de": "Gestern habe ich zugeschaut."
   },
   {
     "id": "top-300-verbs-118",
@@ -941,7 +1058,8 @@
     "ruStressed": "Вчера́ я ви́дел.",
     "translit": "Vchera ya videl.",
     "en": "Yesterday I saw.",
-    "pl": "Wczoraj widziałem."
+    "pl": "Wczoraj widziałem.",
+    "de": "Gestern habe ich gesehen."
   },
   {
     "id": "top-300-verbs-119",
@@ -949,7 +1067,8 @@
     "ruStressed": "Вчера́ я знал.",
     "translit": "Vchera ya znal.",
     "en": "Yesterday I knew.",
-    "pl": "Wczoraj wiedziałem."
+    "pl": "Wczoraj wiedziałem.",
+    "de": "Gestern wusste ich."
   },
   {
     "id": "top-300-verbs-120",
@@ -957,7 +1076,8 @@
     "ruStressed": "Вчера́ я понима́л.",
     "translit": "Vchera ya ponimal.",
     "en": "Yesterday I understood.",
-    "pl": "Wczoraj rozumiałem."
+    "pl": "Wczoraj rozumiałem.",
+    "de": "Gestern habe ich verstanden."
   },
   {
     "id": "top-300-verbs-121",
@@ -965,7 +1085,8 @@
     "ruStressed": "Вчера́ я ду́мал.",
     "translit": "Vchera ya dumal.",
     "en": "Yesterday I thought.",
-    "pl": "Wczoraj myślałem."
+    "pl": "Wczoraj myślałem.",
+    "de": "Gestern dachte ich."
   },
   {
     "id": "top-300-verbs-122",
@@ -973,7 +1094,8 @@
     "ruStressed": "Вчера́ я люби́л.",
     "translit": "Vchera ya lyubil.",
     "en": "Yesterday I loved.",
-    "pl": "Wczoraj kochałem."
+    "pl": "Wczoraj kochałem.",
+    "de": "Gestern liebte ich."
   },
   {
     "id": "top-300-verbs-123",
@@ -981,7 +1103,8 @@
     "ruStressed": "Вчера́ я хоте́л.",
     "translit": "Vchera ya khotel.",
     "en": "Yesterday I wanted.",
-    "pl": "Wczoraj chciałem."
+    "pl": "Wczoraj chciałem.",
+    "de": "Gestern wollte ich."
   },
   {
     "id": "top-300-verbs-124",
@@ -989,7 +1112,8 @@
     "ruStressed": "Вчера́ я мог.",
     "translit": "Vchera ya mog.",
     "en": "Yesterday I was able.",
-    "pl": "Wczoraj mogłem."
+    "pl": "Wczoraj mogłem.",
+    "de": "Gestern konnte ich."
   },
   {
     "id": "top-300-verbs-125",
@@ -997,7 +1121,8 @@
     "ruStressed": "Вчера́ я есл.",
     "translit": "Vchera ya esl.",
     "en": "Yesterday I ate.",
-    "pl": "Wczoraj jadłem."
+    "pl": "Wczoraj jadłem.",
+    "de": "Gestern aß ich."
   },
   {
     "id": "top-300-verbs-126",
@@ -1005,7 +1130,8 @@
     "ruStressed": "Вчера́ я пил.",
     "translit": "Vchera ya pil.",
     "en": "Yesterday I drank.",
-    "pl": "Wczoraj piłem."
+    "pl": "Wczoraj piłem.",
+    "de": "Gestern trank ich."
   },
   {
     "id": "top-300-verbs-127",
@@ -1013,7 +1139,8 @@
     "ruStressed": "Вчера́ я спал.",
     "translit": "Vchera ya spal.",
     "en": "Yesterday I slept.",
-    "pl": "Wczoraj spałem."
+    "pl": "Wczoraj spałem.",
+    "de": "Gestern schlief ich."
   },
   {
     "id": "top-300-verbs-128",
@@ -1021,7 +1148,8 @@
     "ruStressed": "Вчера́ я жил.",
     "translit": "Vchera ya zhil.",
     "en": "Yesterday I lived.",
-    "pl": "Wczoraj żyłem."
+    "pl": "Wczoraj żyłem.",
+    "de": "Gestern lebte ich."
   },
   {
     "id": "top-300-verbs-129",
@@ -1029,7 +1157,8 @@
     "ruStressed": "Вчера́ я учи́л.",
     "translit": "Vchera ya uchil.",
     "en": "Yesterday I studied.",
-    "pl": "Wczoraj się uczyłem."
+    "pl": "Wczoraj się uczyłem.",
+    "de": "Gestern lernte ich."
   },
   {
     "id": "top-300-verbs-130",
@@ -1037,7 +1166,8 @@
     "ruStressed": "Вчера́ я учи́лся.",
     "translit": "Vchera ya uchilsya.",
     "en": "Yesterday I learned.",
-    "pl": "Wczoraj się uczyłem."
+    "pl": "Wczoraj się uczyłem.",
+    "de": "Gestern lernte ich."
   },
   {
     "id": "top-300-verbs-131",
@@ -1045,7 +1175,8 @@
     "ruStressed": "Вчера́ я игра́л.",
     "translit": "Vchera ya igral.",
     "en": "Yesterday I played.",
-    "pl": "Wczoraj grałem."
+    "pl": "Wczoraj grałem.",
+    "de": "Gestern spielte ich."
   },
   {
     "id": "top-300-verbs-132",
@@ -1053,7 +1184,8 @@
     "ruStressed": "Вчера́ я покупа́л.",
     "translit": "Vchera ya pokupal.",
     "en": "Yesterday I bought.",
-    "pl": "Wczoraj kupowałem."
+    "pl": "Wczoraj kupowałem.",
+    "de": "Gestern kaufte ich."
   },
   {
     "id": "top-300-verbs-133",
@@ -1061,7 +1193,8 @@
     "ruStressed": "Вчера́ я продава́л.",
     "translit": "Vchera ya prodaval.",
     "en": "Yesterday I sold.",
-    "pl": "Wczoraj sprzedawałem."
+    "pl": "Wczoraj sprzedawałem.",
+    "de": "Gestern verkaufte ich."
   },
   {
     "id": "top-300-verbs-134",
@@ -1069,7 +1202,8 @@
     "ruStressed": "Вчера́ я дава́л.",
     "translit": "Vchera ya daval.",
     "en": "Yesterday I gave.",
-    "pl": "Wczoraj dawałem."
+    "pl": "Wczoraj dawałem.",
+    "de": "Gestern gab ich."
   },
   {
     "id": "top-300-verbs-135",
@@ -1077,7 +1211,8 @@
     "ruStressed": "Вчера́ я брал.",
     "translit": "Vchera ya bral.",
     "en": "Yesterday I took.",
-    "pl": "Wczoraj brałem."
+    "pl": "Wczoraj brałem.",
+    "de": "Gestern nahm ich."
   },
   {
     "id": "top-300-verbs-136",
@@ -1085,7 +1220,8 @@
     "ruStressed": "Вчера́ я приноси́л.",
     "translit": "Vchera ya prinosil.",
     "en": "Yesterday I brought.",
-    "pl": "Wczoraj przynosiłem."
+    "pl": "Wczoraj przynosiłem.",
+    "de": "Gestern brachte ich."
   },
   {
     "id": "top-300-verbs-137",
@@ -1093,7 +1229,8 @@
     "ruStressed": "Вчера́ я получа́л.",
     "translit": "Vchera ya poluchal.",
     "en": "Yesterday I received.",
-    "pl": "Wczoraj dostawałem."
+    "pl": "Wczoraj dostawałem.",
+    "de": "Gestern erhielt ich."
   },
   {
     "id": "top-300-verbs-138",
@@ -1101,7 +1238,8 @@
     "ruStressed": "Вчера́ я отдава́л.",
     "translit": "Vchera ya otdaval.",
     "en": "Yesterday I gave back.",
-    "pl": "Wczoraj oddawałem."
+    "pl": "Wczoraj oddawałem.",
+    "de": "Gestern gab ich zurück."
   },
   {
     "id": "top-300-verbs-139",
@@ -1109,7 +1247,8 @@
     "ruStressed": "Вчера́ я приходи́л.",
     "translit": "Vchera ya prikhodil.",
     "en": "Yesterday I arrived (on foot).",
-    "pl": "Wczoraj przychodziłem."
+    "pl": "Wczoraj przychodziłem.",
+    "de": "Gestern kam ich (zu Fuß)."
   },
   {
     "id": "top-300-verbs-140",
@@ -1117,7 +1256,8 @@
     "ruStressed": "Вчера́ я приезжа́л.",
     "translit": "Vchera ya priezzhal.",
     "en": "Yesterday I arrived (by vehicle).",
-    "pl": "Wczoraj przyjeżdżałem."
+    "pl": "Wczoraj przyjeżdżałem.",
+    "de": "Gestern kam ich (mit Fahrzeug)."
   },
   {
     "id": "top-300-verbs-141",
@@ -1125,7 +1265,8 @@
     "ruStressed": "Вчера́ я уходи́л.",
     "translit": "Vchera ya ukhodil.",
     "en": "Yesterday I left (on foot).",
-    "pl": "Wczoraj wychodziłem."
+    "pl": "Wczoraj wychodziłem.",
+    "de": "Gestern ging ich weg (zu Fuß)."
   },
   {
     "id": "top-300-verbs-142",
@@ -1133,7 +1274,8 @@
     "ruStressed": "Вчера́ я уезжа́л.",
     "translit": "Vchera ya uezzhal.",
     "en": "Yesterday I left (by vehicle).",
-    "pl": "Wczoraj wyjeżdżałem."
+    "pl": "Wczoraj wyjeżdżałem.",
+    "de": "Gestern fuhr ich weg (mit Fahrzeug)."
   },
   {
     "id": "top-300-verbs-143",
@@ -1141,7 +1283,8 @@
     "ruStressed": "Вчера́ я звони́л.",
     "translit": "Vchera ya zvonil.",
     "en": "Yesterday I called.",
-    "pl": "Wczoraj dzwoniłem."
+    "pl": "Wczoraj dzwoniłem.",
+    "de": "Gestern rief ich an."
   },
   {
     "id": "top-300-verbs-144",
@@ -1149,7 +1292,8 @@
     "ruStressed": "Вчера́ я отвеча́л.",
     "translit": "Vchera ya otvechal.",
     "en": "Yesterday I answered.",
-    "pl": "Wczoraj odpowiadałem."
+    "pl": "Wczoraj odpowiadałem.",
+    "de": "Gestern antwortete ich."
   },
   {
     "id": "top-300-verbs-145",
@@ -1157,7 +1301,8 @@
     "ruStressed": "Вчера́ я спра́шивал.",
     "translit": "Vchera ya sprashival.",
     "en": "Yesterday I asked.",
-    "pl": "Wczoraj pytałem."
+    "pl": "Wczoraj pytałem.",
+    "de": "Gestern fragte ich."
   },
   {
     "id": "top-300-verbs-146",
@@ -1165,7 +1310,8 @@
     "ruStressed": "Вчера́ я проси́л.",
     "translit": "Vchera ya prosil.",
     "en": "Yesterday I requested.",
-    "pl": "Wczoraj prosiłem."
+    "pl": "Wczoraj prosiłem.",
+    "de": "Gestern bat ich."
   },
   {
     "id": "top-300-verbs-147",
@@ -1173,7 +1319,8 @@
     "ruStressed": "Вчера́ я помога́л.",
     "translit": "Vchera ya pomogal.",
     "en": "Yesterday I helped.",
-    "pl": "Wczoraj pomagałem."
+    "pl": "Wczoraj pomagałem.",
+    "de": "Gestern half ich."
   },
   {
     "id": "top-300-verbs-148",
@@ -1181,7 +1328,8 @@
     "ruStressed": "Вчера́ я открыва́л.",
     "translit": "Vchera ya otkryval.",
     "en": "Yesterday I opened.",
-    "pl": "Wczoraj otwierałem."
+    "pl": "Wczoraj otwierałem.",
+    "de": "Gestern öffnete ich."
   },
   {
     "id": "top-300-verbs-149",
@@ -1189,7 +1337,8 @@
     "ruStressed": "Вчера́ я закрыва́л.",
     "translit": "Vchera ya zakryval.",
     "en": "Yesterday I closed.",
-    "pl": "Wczoraj zamykałem."
+    "pl": "Wczoraj zamykałem.",
+    "de": "Gestern schloss ich."
   },
   {
     "id": "top-300-verbs-150",
@@ -1197,7 +1346,8 @@
     "ruStressed": "Вчера́ я начина́л.",
     "translit": "Vchera ya nachinal.",
     "en": "Yesterday I began.",
-    "pl": "Wczoraj zaczynałem."
+    "pl": "Wczoraj zaczynałem.",
+    "de": "Gestern begann ich."
   },
   {
     "id": "top-300-verbs-151",
@@ -1205,7 +1355,8 @@
     "ruStressed": "Вчера́ я зака́нчивал.",
     "translit": "Vchera ya zakanchival.",
     "en": "Yesterday I finished.",
-    "pl": "Wczoraj kończyłem."
+    "pl": "Wczoraj kończyłem.",
+    "de": "Gestern beendete ich."
   },
   {
     "id": "top-300-verbs-152",
@@ -1213,7 +1364,8 @@
     "ruStressed": "Вчера́ я продолжа́л.",
     "translit": "Vchera ya prodolzhal.",
     "en": "Yesterday I continued.",
-    "pl": "Wczoraj kontynuowałem."
+    "pl": "Wczoraj kontynuowałem.",
+    "de": "Gestern fuhr ich fort."
   },
   {
     "id": "top-300-verbs-153",
@@ -1221,7 +1373,8 @@
     "ruStressed": "Вчера́ я иска́л.",
     "translit": "Vchera ya iskal.",
     "en": "Yesterday I searched for.",
-    "pl": "Wczoraj szukałem."
+    "pl": "Wczoraj szukałem.",
+    "de": "Gestern suchte ich."
   },
   {
     "id": "top-300-verbs-154",
@@ -1229,7 +1382,8 @@
     "ruStressed": "Вчера́ я находи́л.",
     "translit": "Vchera ya nakhodil.",
     "en": "Yesterday I found.",
-    "pl": "Wczoraj znajdowałem."
+    "pl": "Wczoraj znajdowałem.",
+    "de": "Gestern fand ich."
   },
   {
     "id": "top-300-verbs-155",
@@ -1237,7 +1391,8 @@
     "ruStressed": "Вчера́ я теря́л.",
     "translit": "Vchera ya teryal.",
     "en": "Yesterday I lost.",
-    "pl": "Wczoraj gubiłem."
+    "pl": "Wczoraj gubiłem.",
+    "de": "Gestern verlor ich."
   },
   {
     "id": "top-300-verbs-156",
@@ -1245,7 +1400,8 @@
     "ruStressed": "Вчера́ я забыва́л.",
     "translit": "Vchera ya zabyval.",
     "en": "Yesterday I forgot.",
-    "pl": "Wczoraj zapominałem."
+    "pl": "Wczoraj zapominałem.",
+    "de": "Gestern vergaß ich."
   },
   {
     "id": "top-300-verbs-157",
@@ -1253,7 +1409,8 @@
     "ruStressed": "Вчера́ я вспомина́л.",
     "translit": "Vchera ya vspominal.",
     "en": "Yesterday I recalled.",
-    "pl": "Wczoraj przypominałem sobie."
+    "pl": "Wczoraj przypominałem sobie.",
+    "de": "Gestern erinnerte ich mich."
   },
   {
     "id": "top-300-verbs-158",
@@ -1261,7 +1418,8 @@
     "ruStressed": "Вчера́ я по́мнил.",
     "translit": "Vchera ya pomnil.",
     "en": "Yesterday I remembered.",
-    "pl": "Wczoraj pamiętałem."
+    "pl": "Wczoraj pamiętałem.",
+    "de": "Gestern erinnerte ich mich."
   },
   {
     "id": "top-300-verbs-159",
@@ -1269,7 +1427,8 @@
     "ruStressed": "Вчера́ я повторя́л.",
     "translit": "Vchera ya povtoryal.",
     "en": "Yesterday I repeated.",
-    "pl": "Wczoraj powtarzałem."
+    "pl": "Wczoraj powtarzałem.",
+    "de": "Gestern wiederholte ich."
   },
   {
     "id": "top-300-verbs-160",
@@ -1277,7 +1436,8 @@
     "ruStressed": "Вчера́ я слы́шал.",
     "translit": "Vchera ya slyshal.",
     "en": "Yesterday I heard.",
-    "pl": "Wczoraj słyszałem."
+    "pl": "Wczoraj słyszałem.",
+    "de": "Gestern hörte ich."
   },
   {
     "id": "top-300-verbs-161",
@@ -1285,7 +1445,8 @@
     "ruStressed": "Вчера́ я чу́вствовал.",
     "translit": "Vchera ya chuvstvoval.",
     "en": "Yesterday I felt.",
-    "pl": "Wczoraj czułem."
+    "pl": "Wczoraj czułem.",
+    "de": "Gestern habe ich gefühlt."
   },
   {
     "id": "top-300-verbs-162",
@@ -1293,7 +1454,8 @@
     "ruStressed": "Вчера́ я любова́лся.",
     "translit": "Vchera ya lyubovalsya.",
     "en": "Yesterday I admired.",
-    "pl": "Wczoraj podziwiałem."
+    "pl": "Wczoraj podziwiałem.",
+    "de": "Gestern habe ich bewundert."
   },
   {
     "id": "top-300-verbs-163",
@@ -1301,7 +1463,8 @@
     "ruStressed": "Вчера́ я наде́ялся.",
     "translit": "Vchera ya nadeyalsya.",
     "en": "Yesterday I hoped.",
-    "pl": "Wczoraj miałem nadzieję."
+    "pl": "Wczoraj miałem nadzieję.",
+    "de": "Gestern habe ich gehofft."
   },
   {
     "id": "top-300-verbs-164",
@@ -1309,7 +1472,8 @@
     "ruStressed": "Вчера́ я ве́рил.",
     "translit": "Vchera ya veril.",
     "en": "Yesterday I believed.",
-    "pl": "Wczoraj wierzyłem."
+    "pl": "Wczoraj wierzyłem.",
+    "de": "Gestern habe ich geglaubt."
   },
   {
     "id": "top-300-verbs-165",
@@ -1317,7 +1481,8 @@
     "ruStressed": "Вчера́ я улыба́лся.",
     "translit": "Vchera ya ulybalsya.",
     "en": "Yesterday I smiled.",
-    "pl": "Wczoraj uśmiechałem się."
+    "pl": "Wczoraj uśmiechałem się.",
+    "de": "Gestern habe ich gelächelt."
   },
   {
     "id": "top-300-verbs-166",
@@ -1325,7 +1490,8 @@
     "ruStressed": "Вчера́ я смея́лся.",
     "translit": "Vchera ya smeyalsya.",
     "en": "Yesterday I laughed.",
-    "pl": "Wczoraj śmiałem się."
+    "pl": "Wczoraj śmiałem się.",
+    "de": "Gestern habe ich gelacht."
   },
   {
     "id": "top-300-verbs-167",
@@ -1333,7 +1499,8 @@
     "ruStressed": "Вчера́ я пла́кал.",
     "translit": "Vchera ya plakal.",
     "en": "Yesterday I cried.",
-    "pl": "Wczoraj płakałem."
+    "pl": "Wczoraj płakałem.",
+    "de": "Gestern habe ich geweint."
   },
   {
     "id": "top-300-verbs-168",
@@ -1341,7 +1508,8 @@
     "ruStressed": "Вчера́ я боя́лся.",
     "translit": "Vchera ya boyalsya.",
     "en": "Yesterday I feared.",
-    "pl": "Wczoraj bałem się."
+    "pl": "Wczoraj bałem się.",
+    "de": "Gestern habe ich gefürchtet."
   },
   {
     "id": "top-300-verbs-169",
@@ -1349,7 +1517,8 @@
     "ruStressed": "Вчера́ я волнова́лся.",
     "translit": "Vchera ya volnovalsya.",
     "en": "Yesterday I worried.",
-    "pl": "Wczoraj martwiłem się."
+    "pl": "Wczoraj martwiłem się.",
+    "de": "Gestern habe ich mir Sorgen gemacht."
   },
   {
     "id": "top-300-verbs-170",
@@ -1357,7 +1526,8 @@
     "ruStressed": "Вчера́ я отдыха́л.",
     "translit": "Vchera ya otdykhal.",
     "en": "Yesterday I rested.",
-    "pl": "Wczoraj odpoczywałem."
+    "pl": "Wczoraj odpoczywałem.",
+    "de": "Gestern habe ich mich ausgeruht."
   },
   {
     "id": "top-300-verbs-171",
@@ -1365,7 +1535,8 @@
     "ruStressed": "Вчера́ я гуля́л.",
     "translit": "Vchera ya gulyal.",
     "en": "Yesterday I went for a walk.",
-    "pl": "Wczoraj spacerowałem."
+    "pl": "Wczoraj spacerowałem.",
+    "de": "Gestern bin ich spazieren gegangen."
   },
   {
     "id": "top-300-verbs-172",
@@ -1373,7 +1544,8 @@
     "ruStressed": "Вчера́ я путеше́ствовал.",
     "translit": "Vchera ya puteshestvoval.",
     "en": "Yesterday I traveled.",
-    "pl": "Wczoraj podróżowałem."
+    "pl": "Wczoraj podróżowałem.",
+    "de": "Gestern bin ich gereist."
   },
   {
     "id": "top-300-verbs-173",
@@ -1381,7 +1553,8 @@
     "ruStressed": "Вчера́ я гото́вил.",
     "translit": "Vchera ya gotovil.",
     "en": "Yesterday I cooked.",
-    "pl": "Wczoraj gotowałem."
+    "pl": "Wczoraj gotowałem.",
+    "de": "Gestern habe ich gekocht."
   },
   {
     "id": "top-300-verbs-174",
@@ -1389,7 +1562,8 @@
     "ruStressed": "Вчера́ я убира́л.",
     "translit": "Vchera ya ubiral.",
     "en": "Yesterday I tidied up.",
-    "pl": "Wczoraj sprzątałem."
+    "pl": "Wczoraj sprzątałem.",
+    "de": "Gestern habe ich aufgeräumt."
   },
   {
     "id": "top-300-verbs-175",
@@ -1397,7 +1571,8 @@
     "ruStressed": "Вчера́ я стира́л.",
     "translit": "Vchera ya stiral.",
     "en": "Yesterday I did laundry.",
-    "pl": "Wczoraj prałem."
+    "pl": "Wczoraj prałem.",
+    "de": "Gestern habe ich Wäsche gewaschen."
   },
   {
     "id": "top-300-verbs-176",
@@ -1405,7 +1580,8 @@
     "ruStressed": "Вчера́ я мыл.",
     "translit": "Vchera ya myl.",
     "en": "Yesterday I washed.",
-    "pl": "Wczoraj myłem."
+    "pl": "Wczoraj myłem.",
+    "de": "Gestern habe ich gewaschen."
   },
   {
     "id": "top-300-verbs-177",
@@ -1413,7 +1589,8 @@
     "ruStressed": "Вчера́ я рисова́л.",
     "translit": "Vchera ya risoval.",
     "en": "Yesterday I drew.",
-    "pl": "Wczoraj rysowałem."
+    "pl": "Wczoraj rysowałem.",
+    "de": "Gestern habe ich gezeichnet."
   },
   {
     "id": "top-300-verbs-178",
@@ -1421,7 +1598,8 @@
     "ruStressed": "Вчера́ я пел.",
     "translit": "Vchera ya pel.",
     "en": "Yesterday I sang.",
-    "pl": "Wczoraj śpiewałem."
+    "pl": "Wczoraj śpiewałem.",
+    "de": "Gestern habe ich gesungen."
   },
   {
     "id": "top-300-verbs-179",
@@ -1429,7 +1607,8 @@
     "ruStressed": "Вчера́ я танцева́л.",
     "translit": "Vchera ya tantseval.",
     "en": "Yesterday I danced.",
-    "pl": "Wczoraj tańczyłem."
+    "pl": "Wczoraj tańczyłem.",
+    "de": "Gestern habe ich getanzt."
   },
   {
     "id": "top-300-verbs-180",
@@ -1437,7 +1616,8 @@
     "ruStressed": "Вчера́ я бе́гал.",
     "translit": "Vchera ya begal.",
     "en": "Yesterday I ran.",
-    "pl": "Wczoraj biegałem."
+    "pl": "Wczoraj biegałem.",
+    "de": "Gestern bin ich gerannt."
   },
   {
     "id": "top-300-verbs-181",
@@ -1445,7 +1625,8 @@
     "ruStressed": "Вчера́ я пла́вал.",
     "translit": "Vchera ya plaval.",
     "en": "Yesterday I swam.",
-    "pl": "Wczoraj pływałem."
+    "pl": "Wczoraj pływałem.",
+    "de": "Gestern bin ich geschwommen."
   },
   {
     "id": "top-300-verbs-182",
@@ -1453,7 +1634,8 @@
     "ruStressed": "Вчера́ я пры́гал.",
     "translit": "Vchera ya prygal.",
     "en": "Yesterday I jumped.",
-    "pl": "Wczoraj skakałem."
+    "pl": "Wczoraj skakałem.",
+    "de": "Gestern bin ich gesprungen."
   },
   {
     "id": "top-300-verbs-183",
@@ -1461,7 +1643,8 @@
     "ruStressed": "Вчера́ я сиде́л.",
     "translit": "Vchera ya sidel.",
     "en": "Yesterday I sat.",
-    "pl": "Wczoraj siedziałem."
+    "pl": "Wczoraj siedziałem.",
+    "de": "Gestern habe ich gesessen."
   },
   {
     "id": "top-300-verbs-184",
@@ -1469,7 +1652,8 @@
     "ruStressed": "Вчера́ я стоя́л.",
     "translit": "Vchera ya stoyal.",
     "en": "Yesterday I stood.",
-    "pl": "Wczoraj stałem."
+    "pl": "Wczoraj stałem.",
+    "de": "Gestern habe ich gestanden."
   },
   {
     "id": "top-300-verbs-185",
@@ -1477,7 +1661,8 @@
     "ruStressed": "Вчера́ я лежа́л.",
     "translit": "Vchera ya lezhal.",
     "en": "Yesterday I lay.",
-    "pl": "Wczoraj leżałem."
+    "pl": "Wczoraj leżałem.",
+    "de": "Gestern habe ich gelegen."
   },
   {
     "id": "top-300-verbs-186",
@@ -1485,7 +1670,8 @@
     "ruStressed": "Вчера́ я встреча́л.",
     "translit": "Vchera ya vstrechal.",
     "en": "Yesterday I met.",
-    "pl": "Wczoraj spotykałem."
+    "pl": "Wczoraj spotykałem.",
+    "de": "Gestern habe ich getroffen."
   },
   {
     "id": "top-300-verbs-187",
@@ -1493,7 +1679,8 @@
     "ruStressed": "Вчера́ я приглаша́л.",
     "translit": "Vchera ya priglashal.",
     "en": "Yesterday I invited.",
-    "pl": "Wczoraj zapraszałem."
+    "pl": "Wczoraj zapraszałem.",
+    "de": "Gestern habe ich eingeladen."
   },
   {
     "id": "top-300-verbs-188",
@@ -1501,7 +1688,8 @@
     "ruStressed": "Вчера́ я дари́л.",
     "translit": "Vchera ya daril.",
     "en": "Yesterday I gave as gift.",
-    "pl": "Wczoraj dawałem w prezencie."
+    "pl": "Wczoraj dawałem w prezencie.",
+    "de": "Gestern habe ich geschenkt."
   },
   {
     "id": "top-300-verbs-189",
@@ -1509,7 +1697,8 @@
     "ruStressed": "Вчера́ я обеща́л.",
     "translit": "Vchera ya obeshchal.",
     "en": "Yesterday I promised.",
-    "pl": "Wczoraj obiecywałem."
+    "pl": "Wczoraj obiecywałem.",
+    "de": "Gestern habe ich versprochen."
   },
   {
     "id": "top-300-verbs-190",
@@ -1517,7 +1706,8 @@
     "ruStressed": "Вчера́ я сове́товал.",
     "translit": "Vchera ya sovetoval.",
     "en": "Yesterday I advised.",
-    "pl": "Wczoraj radziłem."
+    "pl": "Wczoraj radziłem.",
+    "de": "Gestern habe ich geraten."
   },
   {
     "id": "top-300-verbs-191",
@@ -1525,7 +1715,8 @@
     "ruStressed": "Вчера́ я объясня́л.",
     "translit": "Vchera ya obyasnyal.",
     "en": "Yesterday I explained.",
-    "pl": "Wczoraj wyjaśniałem."
+    "pl": "Wczoraj wyjaśniałem.",
+    "de": "Gestern habe ich erklärt."
   },
   {
     "id": "top-300-verbs-192",
@@ -1533,7 +1724,8 @@
     "ruStressed": "Вчера́ я расска́зывал.",
     "translit": "Vchera ya rasskazyval.",
     "en": "Yesterday I told.",
-    "pl": "Wczoraj opowiadałem."
+    "pl": "Wczoraj opowiadałem.",
+    "de": "Gestern habe ich erzählt."
   },
   {
     "id": "top-300-verbs-193",
@@ -1541,7 +1733,8 @@
     "ruStressed": "Вчера́ я переводи́л.",
     "translit": "Vchera ya perevodil.",
     "en": "Yesterday I translated.",
-    "pl": "Wczoraj tłumaczyłem."
+    "pl": "Wczoraj tłumaczyłem.",
+    "de": "Gestern habe ich übersetzt."
   },
   {
     "id": "top-300-verbs-194",
@@ -1549,7 +1742,8 @@
     "ruStressed": "Вчера́ я испо́льзовал.",
     "translit": "Vchera ya ispolzoval.",
     "en": "Yesterday I used.",
-    "pl": "Wczoraj używałem."
+    "pl": "Wczoraj używałem.",
+    "de": "Gestern habe ich benutzt."
   },
   {
     "id": "top-300-verbs-195",
@@ -1557,7 +1751,8 @@
     "ruStressed": "Вчера́ я создава́л.",
     "translit": "Vchera ya sozdaval.",
     "en": "Yesterday I created.",
-    "pl": "Wczoraj tworzyłem."
+    "pl": "Wczoraj tworzyłem.",
+    "de": "Gestern habe ich erschaffen."
   },
   {
     "id": "top-300-verbs-196",
@@ -1565,7 +1760,8 @@
     "ruStressed": "Вчера́ я стро́ил.",
     "translit": "Vchera ya stroil.",
     "en": "Yesterday I built.",
-    "pl": "Wczoraj budowałem."
+    "pl": "Wczoraj budowałem.",
+    "de": "Gestern habe ich gebaut."
   },
   {
     "id": "top-300-verbs-197",
@@ -1573,7 +1769,8 @@
     "ruStressed": "Вчера́ я лома́л.",
     "translit": "Vchera ya lomal.",
     "en": "Yesterday I broke.",
-    "pl": "Wczoraj łamałem."
+    "pl": "Wczoraj łamałem.",
+    "de": "Gestern habe ich kaputt gemacht."
   },
   {
     "id": "top-300-verbs-198",
@@ -1581,7 +1778,8 @@
     "ruStressed": "Вчера́ я чини́л.",
     "translit": "Vchera ya chinil.",
     "en": "Yesterday I repaired.",
-    "pl": "Wczoraj naprawiałem."
+    "pl": "Wczoraj naprawiałem.",
+    "de": "Gestern habe ich repariert."
   },
   {
     "id": "top-300-verbs-199",
@@ -1589,7 +1787,8 @@
     "ruStressed": "Вчера́ я плати́л.",
     "translit": "Vchera ya platil.",
     "en": "Yesterday I paid.",
-    "pl": "Wczoraj płaciłem."
+    "pl": "Wczoraj płaciłem.",
+    "de": "Gestern habe ich bezahlt."
   },
   {
     "id": "top-300-verbs-200",
@@ -1597,7 +1796,8 @@
     "ruStressed": "Вчера́ я сто́ил.",
     "translit": "Vchera ya stoil.",
     "en": "Yesterday I cost.",
-    "pl": "Wczoraj kosztowałem."
+    "pl": "Wczoraj kosztowałem.",
+    "de": "Gestern habe ich gekostet."
   },
   {
     "id": "top-300-verbs-201",
@@ -1605,7 +1805,8 @@
     "ruStressed": "Вчера́ я зараба́тывал.",
     "translit": "Vchera ya zarabatyval.",
     "en": "Yesterday I earned.",
-    "pl": "Wczoraj zarabiałem."
+    "pl": "Wczoraj zarabiałem.",
+    "de": "Gestern habe ich verdient."
   },
   {
     "id": "top-300-verbs-202",
@@ -1613,7 +1814,8 @@
     "ruStressed": "Вчера́ я тра́тил.",
     "translit": "Vchera ya tratil.",
     "en": "Yesterday I spent.",
-    "pl": "Wczoraj wydawałem."
+    "pl": "Wczoraj wydawałem.",
+    "de": "Gestern habe ich ausgegeben."
   },
   {
     "id": "top-300-verbs-203",
@@ -1621,7 +1823,8 @@
     "ruStressed": "Вчера́ я эконо́мил.",
     "translit": "Vchera ya ekonomil.",
     "en": "Yesterday I saved.",
-    "pl": "Wczoraj oszczędzałem."
+    "pl": "Wczoraj oszczędzałem.",
+    "de": "Gestern habe ich gespart."
   },
   {
     "id": "top-300-verbs-204",
@@ -1629,7 +1832,8 @@
     "ruStressed": "Вчера́ я выбира́л.",
     "translit": "Vchera ya vybiral.",
     "en": "Yesterday I chose.",
-    "pl": "Wczoraj wybierałem."
+    "pl": "Wczoraj wybierałem.",
+    "de": "Gestern habe ich gewählt."
   },
   {
     "id": "top-300-verbs-205",
@@ -1637,7 +1841,8 @@
     "ruStressed": "Вчера́ я реша́л.",
     "translit": "Vchera ya reshal.",
     "en": "Yesterday I decided.",
-    "pl": "Wczoraj decydowałem."
+    "pl": "Wczoraj decydowałem.",
+    "de": "Gestern habe ich entschieden."
   },
   {
     "id": "top-300-verbs-206",
@@ -1645,7 +1850,8 @@
     "ruStressed": "Вчера́ я плани́ровал.",
     "translit": "Vchera ya planiroval.",
     "en": "Yesterday I planned.",
-    "pl": "Wczoraj planowałem."
+    "pl": "Wczoraj planowałem.",
+    "de": "Gestern habe ich geplant."
   },
   {
     "id": "top-300-verbs-207",
@@ -1653,7 +1859,8 @@
     "ruStressed": "Вчера́ я проверя́л.",
     "translit": "Vchera ya proveryal.",
     "en": "Yesterday I checked.",
-    "pl": "Wczoraj sprawdzałem."
+    "pl": "Wczoraj sprawdzałem.",
+    "de": "Gestern habe ich geprüft."
   },
   {
     "id": "top-300-verbs-208",
@@ -1661,7 +1868,8 @@
     "ruStressed": "Вчера́ я обсужда́л.",
     "translit": "Vchera ya obsuzhdal.",
     "en": "Yesterday I discussed.",
-    "pl": "Wczoraj dyskutowałem."
+    "pl": "Wczoraj dyskutowałem.",
+    "de": "Gestern habe ich besprochen."
   },
   {
     "id": "top-300-verbs-209",
@@ -1669,7 +1877,8 @@
     "ruStressed": "Вчера́ я соглаша́лся.",
     "translit": "Vchera ya soglashalsya.",
     "en": "Yesterday I agreed.",
-    "pl": "Wczoraj się zgadzałem."
+    "pl": "Wczoraj się zgadzałem.",
+    "de": "Gestern habe ich zugestimmt."
   },
   {
     "id": "top-300-verbs-210",
@@ -1677,7 +1886,8 @@
     "ruStressed": "Вчера́ я спо́рил.",
     "translit": "Vchera ya sporil.",
     "en": "Yesterday I argued.",
-    "pl": "Wczoraj się kłóciłem."
+    "pl": "Wczoraj się kłóciłem.",
+    "de": "Gestern habe ich gestritten."
   },
   {
     "id": "top-300-verbs-211",
@@ -1685,7 +1895,8 @@
     "ruStressed": "Вчера́ я извиня́лся.",
     "translit": "Vchera ya izvinyalsya.",
     "en": "Yesterday I apologized.",
-    "pl": "Wczoraj przepraszałem."
+    "pl": "Wczoraj przepraszałem.",
+    "de": "Gestern habe ich mich entschuldigt."
   },
   {
     "id": "top-300-verbs-212",
@@ -1693,7 +1904,8 @@
     "ruStressed": "Вчера́ я благодари́л.",
     "translit": "Vchera ya blagodaril.",
     "en": "Yesterday I thanked.",
-    "pl": "Wczoraj dziękowałem."
+    "pl": "Wczoraj dziękowałem.",
+    "de": "Gestern habe ich gedankt."
   },
   {
     "id": "top-300-verbs-213",
@@ -1701,7 +1913,8 @@
     "ruStressed": "Вчера́ я поздравля́л.",
     "translit": "Vchera ya pozdravlyal.",
     "en": "Yesterday I congratulated.",
-    "pl": "Wczoraj gratulowałem."
+    "pl": "Wczoraj gratulowałem.",
+    "de": "Gestern habe ich gratuliert."
   },
   {
     "id": "top-300-verbs-214",
@@ -1709,7 +1922,8 @@
     "ruStressed": "Вчера́ я проща́л.",
     "translit": "Vchera ya proshchal.",
     "en": "Yesterday I forgave.",
-    "pl": "Wczoraj wybaczałem."
+    "pl": "Wczoraj wybaczałem.",
+    "de": "Gestern habe ich vergeben."
   },
   {
     "id": "top-300-verbs-215",
@@ -1717,7 +1931,8 @@
     "ruStressed": "За́втра я бу́ду рабо́тать.",
     "translit": "Zavtra ya budu rabotat.",
     "en": "Tomorrow I will work.",
-    "pl": "Jutro będę pracować."
+    "pl": "Jutro będę pracować.",
+    "de": "Morgen werde ich arbeiten."
   },
   {
     "id": "top-300-verbs-216",
@@ -1725,7 +1940,8 @@
     "ruStressed": "За́втра я бу́ду де́лать.",
     "translit": "Zavtra ya budu delat.",
     "en": "Tomorrow I will do.",
-    "pl": "Jutro będę robić."
+    "pl": "Jutro będę robić.",
+    "de": "Morgen werde ich tun."
   },
   {
     "id": "top-300-verbs-217",
@@ -1733,7 +1949,8 @@
     "ruStressed": "За́втра я бу́ду идти́.",
     "translit": "Zavtra ya budu idti.",
     "en": "Tomorrow I will walk.",
-    "pl": "Jutro będę iść."
+    "pl": "Jutro będę iść.",
+    "de": "Morgen werde ich gehen."
   },
   {
     "id": "top-300-verbs-218",
@@ -1741,7 +1958,8 @@
     "ruStressed": "За́втра я бу́ду ходи́ть.",
     "translit": "Zavtra ya budu khodit.",
     "en": "Tomorrow I will go (on foot).",
-    "pl": "Jutro będę chodzić."
+    "pl": "Jutro będę chodzić.",
+    "de": "Morgen werde ich gehen (zu Fuß)."
   },
   {
     "id": "top-300-verbs-219",
@@ -1749,7 +1967,8 @@
     "ruStressed": "За́втра я бу́ду е́хать.",
     "translit": "Zavtra ya budu ekhat.",
     "en": "Tomorrow I will ride.",
-    "pl": "Jutro będę jechać."
+    "pl": "Jutro będę jechać.",
+    "de": "Morgen werde ich fahren."
   },
   {
     "id": "top-300-verbs-220",
@@ -1757,7 +1976,8 @@
     "ruStressed": "За́втра я бу́ду е́здить.",
     "translit": "Zavtra ya budu ezdit.",
     "en": "Tomorrow I will travel.",
-    "pl": "Jutro będę jeździć."
+    "pl": "Jutro będę jeździć.",
+    "de": "Morgen werde ich reisen."
   },
   {
     "id": "top-300-verbs-221",
@@ -1765,7 +1985,8 @@
     "ruStressed": "За́втра я бу́ду чита́ть.",
     "translit": "Zavtra ya budu chitat.",
     "en": "Tomorrow I will read.",
-    "pl": "Jutro będę czytać."
+    "pl": "Jutro będę czytać.",
+    "de": "Morgen werde ich lesen."
   },
   {
     "id": "top-300-verbs-222",
@@ -1773,7 +1994,8 @@
     "ruStressed": "За́втра я бу́ду писа́ть.",
     "translit": "Zavtra ya budu pisat.",
     "en": "Tomorrow I will write.",
-    "pl": "Jutro będę pisać."
+    "pl": "Jutro będę pisać.",
+    "de": "Morgen werde ich schreiben."
   },
   {
     "id": "top-300-verbs-223",
@@ -1781,7 +2003,8 @@
     "ruStressed": "За́втра я бу́ду говори́ть.",
     "translit": "Zavtra ya budu govorit.",
     "en": "Tomorrow I will speak.",
-    "pl": "Jutro będę mówić."
+    "pl": "Jutro będę mówić.",
+    "de": "Morgen werde ich sprechen."
   },
   {
     "id": "top-300-verbs-224",
@@ -1789,7 +2012,8 @@
     "ruStressed": "За́втра я бу́ду слу́шать.",
     "translit": "Zavtra ya budu slushat.",
     "en": "Tomorrow I will listen.",
-    "pl": "Jutro będę słuchać."
+    "pl": "Jutro będę słuchać.",
+    "de": "Morgen werde ich zuhören."
   },
   {
     "id": "top-300-verbs-225",
@@ -1797,7 +2021,8 @@
     "ruStressed": "За́втра я бу́ду смотре́ть.",
     "translit": "Zavtra ya budu smotret.",
     "en": "Tomorrow I will watch.",
-    "pl": "Jutro będę oglądać."
+    "pl": "Jutro będę oglądać.",
+    "de": "Morgen werde ich zusehen."
   },
   {
     "id": "top-300-verbs-226",
@@ -1805,7 +2030,8 @@
     "ruStressed": "За́втра я бу́ду ви́деть.",
     "translit": "Zavtra ya budu videt.",
     "en": "Tomorrow I will see.",
-    "pl": "Jutro będę widzieć."
+    "pl": "Jutro będę widzieć.",
+    "de": "Morgen werde ich sehen."
   },
   {
     "id": "top-300-verbs-227",
@@ -1813,7 +2039,8 @@
     "ruStressed": "За́втра я бу́ду знать.",
     "translit": "Zavtra ya budu znat.",
     "en": "Tomorrow I will know.",
-    "pl": "Jutro będę wiedzieć."
+    "pl": "Jutro będę wiedzieć.",
+    "de": "Morgen werde ich wissen."
   },
   {
     "id": "top-300-verbs-228",
@@ -1821,7 +2048,8 @@
     "ruStressed": "За́втра я бу́ду понима́ть.",
     "translit": "Zavtra ya budu ponimat.",
     "en": "Tomorrow I will understand.",
-    "pl": "Jutro będę rozumieć."
+    "pl": "Jutro będę rozumieć.",
+    "de": "Morgen werde ich verstehen."
   },
   {
     "id": "top-300-verbs-229",
@@ -1829,7 +2057,8 @@
     "ruStressed": "За́втра я бу́ду ду́мать.",
     "translit": "Zavtra ya budu dumat.",
     "en": "Tomorrow I will think.",
-    "pl": "Jutro będę myśleć."
+    "pl": "Jutro będę myśleć.",
+    "de": "Morgen werde ich denken."
   },
   {
     "id": "top-300-verbs-230",
@@ -1837,7 +2066,8 @@
     "ruStressed": "За́втра я бу́ду люби́ть.",
     "translit": "Zavtra ya budu lyubit.",
     "en": "Tomorrow I will love.",
-    "pl": "Jutro będę kochać."
+    "pl": "Jutro będę kochać.",
+    "de": "Morgen werde ich lieben."
   },
   {
     "id": "top-300-verbs-231",
@@ -1845,7 +2075,8 @@
     "ruStressed": "За́втра я бу́ду хоте́ть.",
     "translit": "Zavtra ya budu khotet.",
     "en": "Tomorrow I will want.",
-    "pl": "Jutro będę chcieć."
+    "pl": "Jutro będę chcieć.",
+    "de": "Morgen werde ich wollen."
   },
   {
     "id": "top-300-verbs-232",
@@ -1853,7 +2084,8 @@
     "ruStressed": "За́втра я бу́ду мочь.",
     "translit": "Zavtra ya budu moch.",
     "en": "Tomorrow I will be able.",
-    "pl": "Jutro będę móc."
+    "pl": "Jutro będę móc.",
+    "de": "Morgen werde ich können."
   },
   {
     "id": "top-300-verbs-233",
@@ -1861,7 +2093,8 @@
     "ruStressed": "За́втра я бу́ду есть.",
     "translit": "Zavtra ya budu est.",
     "en": "Tomorrow I will eat.",
-    "pl": "Jutro będę jeść."
+    "pl": "Jutro będę jeść.",
+    "de": "Morgen werde ich essen."
   },
   {
     "id": "top-300-verbs-234",
@@ -1869,7 +2102,8 @@
     "ruStressed": "За́втра я бу́ду пить.",
     "translit": "Zavtra ya budu pit.",
     "en": "Tomorrow I will drink.",
-    "pl": "Jutro będę pić."
+    "pl": "Jutro będę pić.",
+    "de": "Morgen werde ich trinken."
   },
   {
     "id": "top-300-verbs-235",
@@ -1877,7 +2111,8 @@
     "ruStressed": "За́втра я бу́ду спать.",
     "translit": "Zavtra ya budu spat.",
     "en": "Tomorrow I will sleep.",
-    "pl": "Jutro będę spać."
+    "pl": "Jutro będę spać.",
+    "de": "Morgen werde ich schlafen."
   },
   {
     "id": "top-300-verbs-236",
@@ -1885,7 +2120,8 @@
     "ruStressed": "За́втра я бу́ду жить.",
     "translit": "Zavtra ya budu zhit.",
     "en": "Tomorrow I will live.",
-    "pl": "Jutro będę żyć."
+    "pl": "Jutro będę żyć.",
+    "de": "Morgen werde ich leben."
   },
   {
     "id": "top-300-verbs-237",
@@ -1893,7 +2129,8 @@
     "ruStressed": "За́втра я бу́ду учи́ть.",
     "translit": "Zavtra ya budu uchit.",
     "en": "Tomorrow I will study.",
-    "pl": "Jutro będę się uczyć."
+    "pl": "Jutro będę się uczyć.",
+    "de": "Morgen werde ich lernen (etwas)."
   },
   {
     "id": "top-300-verbs-238",
@@ -1901,7 +2138,8 @@
     "ruStressed": "За́втра я бу́ду учи́ться.",
     "translit": "Zavtra ya budu uchitsya.",
     "en": "Tomorrow I will learn.",
-    "pl": "Jutro będę się uczyć."
+    "pl": "Jutro będę się uczyć.",
+    "de": "Morgen werde ich lernen (mich bilden)."
   },
   {
     "id": "top-300-verbs-239",
@@ -1909,7 +2147,8 @@
     "ruStressed": "За́втра я бу́ду игра́ть.",
     "translit": "Zavtra ya budu igrat.",
     "en": "Tomorrow I will play.",
-    "pl": "Jutro będę grać."
+    "pl": "Jutro będę grać.",
+    "de": "Morgen werde ich spielen."
   },
   {
     "id": "top-300-verbs-240",
@@ -1917,7 +2156,8 @@
     "ruStressed": "За́втра я бу́ду покупа́ть.",
     "translit": "Zavtra ya budu pokupat.",
     "en": "Tomorrow I will buy.",
-    "pl": "Jutro będę kupować."
+    "pl": "Jutro będę kupować.",
+    "de": "Morgen werde ich kaufen."
   },
   {
     "id": "top-300-verbs-241",
@@ -1925,7 +2165,8 @@
     "ruStressed": "За́втра я бу́ду продава́ть.",
     "translit": "Zavtra ya budu prodavat.",
     "en": "Tomorrow I will sell.",
-    "pl": "Jutro będę sprzedawać."
+    "pl": "Jutro będę sprzedawać.",
+    "de": "Morgen werde ich verkaufen."
   },
   {
     "id": "top-300-verbs-242",
@@ -1933,7 +2174,8 @@
     "ruStressed": "За́втра я бу́ду дава́ть.",
     "translit": "Zavtra ya budu davat.",
     "en": "Tomorrow I will give.",
-    "pl": "Jutro będę dawać."
+    "pl": "Jutro będę dawać.",
+    "de": "Morgen werde ich geben."
   },
   {
     "id": "top-300-verbs-243",
@@ -1941,7 +2183,8 @@
     "ruStressed": "За́втра я бу́ду брать.",
     "translit": "Zavtra ya budu brat.",
     "en": "Tomorrow I will take.",
-    "pl": "Jutro będę brać."
+    "pl": "Jutro będę brać.",
+    "de": "Morgen werde ich nehmen."
   },
   {
     "id": "top-300-verbs-244",
@@ -1949,7 +2192,8 @@
     "ruStressed": "За́втра я бу́ду приноси́ть.",
     "translit": "Zavtra ya budu prinosit.",
     "en": "Tomorrow I will bring.",
-    "pl": "Jutro będę przynosić."
+    "pl": "Jutro będę przynosić.",
+    "de": "Morgen werde ich bringen."
   },
   {
     "id": "top-300-verbs-245",
@@ -1957,7 +2201,8 @@
     "ruStressed": "За́втра я бу́ду получа́ть.",
     "translit": "Zavtra ya budu poluchat.",
     "en": "Tomorrow I will receive.",
-    "pl": "Jutro będę dostawać."
+    "pl": "Jutro będę dostawać.",
+    "de": "Morgen werde ich erhalten."
   },
   {
     "id": "top-300-verbs-246",
@@ -1965,7 +2210,8 @@
     "ruStressed": "За́втра я бу́ду отдава́ть.",
     "translit": "Zavtra ya budu otdavat.",
     "en": "Tomorrow I will give back.",
-    "pl": "Jutro będę oddawać."
+    "pl": "Jutro będę oddawać.",
+    "de": "Morgen werde ich zurückgeben."
   },
   {
     "id": "top-300-verbs-247",
@@ -1973,7 +2219,8 @@
     "ruStressed": "За́втра я бу́ду приходи́ть.",
     "translit": "Zavtra ya budu prikhodit.",
     "en": "Tomorrow I will arrive (on foot).",
-    "pl": "Jutro będę przychodzić."
+    "pl": "Jutro będę przychodzić.",
+    "de": "Morgen werde ich ankommen (zu Fuß)."
   },
   {
     "id": "top-300-verbs-248",
@@ -1981,7 +2228,8 @@
     "ruStressed": "За́втра я бу́ду приезжа́ть.",
     "translit": "Zavtra ya budu priezzhat.",
     "en": "Tomorrow I will arrive (by vehicle).",
-    "pl": "Jutro będę przyjeżdżać."
+    "pl": "Jutro będę przyjeżdżać.",
+    "de": "Morgen werde ich ankommen (mit Fahrzeug)."
   },
   {
     "id": "top-300-verbs-249",
@@ -1989,7 +2237,8 @@
     "ruStressed": "За́втра я бу́ду уходи́ть.",
     "translit": "Zavtra ya budu ukhodit.",
     "en": "Tomorrow I will leave (on foot).",
-    "pl": "Jutro będę wychodzić."
+    "pl": "Jutro będę wychodzić.",
+    "de": "Morgen werde ich gehen (zu Fuß)."
   },
   {
     "id": "top-300-verbs-250",
@@ -1997,7 +2246,8 @@
     "ruStressed": "За́втра я бу́ду уезжа́ть.",
     "translit": "Zavtra ya budu uezzhat.",
     "en": "Tomorrow I will leave (by vehicle).",
-    "pl": "Jutro będę wyjeżdżać."
+    "pl": "Jutro będę wyjeżdżać.",
+    "de": "Morgen werde ich gehen (mit Fahrzeug)."
   },
   {
     "id": "top-300-verbs-251",
@@ -2005,7 +2255,8 @@
     "ruStressed": "За́втра я бу́ду звони́ть.",
     "translit": "Zavtra ya budu zvonit.",
     "en": "Tomorrow I will call.",
-    "pl": "Jutro będę dzwonić."
+    "pl": "Jutro będę dzwonić.",
+    "de": "Morgen werde ich anrufen."
   },
   {
     "id": "top-300-verbs-252",
@@ -2013,7 +2264,8 @@
     "ruStressed": "За́втра я бу́ду отвеча́ть.",
     "translit": "Zavtra ya budu otvechat.",
     "en": "Tomorrow I will answer.",
-    "pl": "Jutro będę odpowiadać."
+    "pl": "Jutro będę odpowiadać.",
+    "de": "Morgen werde ich antworten."
   },
   {
     "id": "top-300-verbs-253",
@@ -2021,7 +2273,8 @@
     "ruStressed": "За́втра я бу́ду спра́шивать.",
     "translit": "Zavtra ya budu sprashivat.",
     "en": "Tomorrow I will ask.",
-    "pl": "Jutro będę pytać."
+    "pl": "Jutro będę pytać.",
+    "de": "Morgen werde ich fragen."
   },
   {
     "id": "top-300-verbs-254",
@@ -2029,7 +2282,8 @@
     "ruStressed": "За́втра я бу́ду проси́ть.",
     "translit": "Zavtra ya budu prosit.",
     "en": "Tomorrow I will request.",
-    "pl": "Jutro będę prosić."
+    "pl": "Jutro będę prosić.",
+    "de": "Morgen werde ich bitten."
   },
   {
     "id": "top-300-verbs-255",
@@ -2037,7 +2291,8 @@
     "ruStressed": "За́втра я бу́ду помога́ть.",
     "translit": "Zavtra ya budu pomogat.",
     "en": "Tomorrow I will help.",
-    "pl": "Jutro będę pomagać."
+    "pl": "Jutro będę pomagać.",
+    "de": "Morgen werde ich helfen."
   },
   {
     "id": "top-300-verbs-256",
@@ -2045,7 +2300,8 @@
     "ruStressed": "За́втра я бу́ду открыва́ть.",
     "translit": "Zavtra ya budu otkryvat.",
     "en": "Tomorrow I will open.",
-    "pl": "Jutro będę otwierać."
+    "pl": "Jutro będę otwierać.",
+    "de": "Morgen werde ich öffnen."
   },
   {
     "id": "top-300-verbs-257",
@@ -2053,7 +2309,8 @@
     "ruStressed": "За́втра я бу́ду закрыва́ть.",
     "translit": "Zavtra ya budu zakryvat.",
     "en": "Tomorrow I will close.",
-    "pl": "Jutro będę zamykać."
+    "pl": "Jutro będę zamykać.",
+    "de": "Morgen werde ich schließen."
   },
   {
     "id": "top-300-verbs-258",
@@ -2061,7 +2318,8 @@
     "ruStressed": "За́втра я бу́ду начина́ть.",
     "translit": "Zavtra ya budu nachinat.",
     "en": "Tomorrow I will begin.",
-    "pl": "Jutro będę zaczynać."
+    "pl": "Jutro będę zaczynać.",
+    "de": "Morgen werde ich beginnen."
   },
   {
     "id": "top-300-verbs-259",
@@ -2069,7 +2327,8 @@
     "ruStressed": "За́втра я бу́ду зака́нчивать.",
     "translit": "Zavtra ya budu zakanchivat.",
     "en": "Tomorrow I will finish.",
-    "pl": "Jutro będę kończyć."
+    "pl": "Jutro będę kończyć.",
+    "de": "Morgen werde ich beenden."
   },
   {
     "id": "top-300-verbs-260",
@@ -2077,7 +2336,8 @@
     "ruStressed": "За́втра я бу́ду продолжа́ть.",
     "translit": "Zavtra ya budu prodolzhat.",
     "en": "Tomorrow I will continue.",
-    "pl": "Jutro będę kontynuować."
+    "pl": "Jutro będę kontynuować.",
+    "de": "Morgen werde ich fortfahren."
   },
   {
     "id": "top-300-verbs-261",
@@ -2085,7 +2345,8 @@
     "ruStressed": "За́втра я бу́ду иска́ть.",
     "translit": "Zavtra ya budu iskat.",
     "en": "Tomorrow I will search for.",
-    "pl": "Jutro będę szukać."
+    "pl": "Jutro będę szukać.",
+    "de": "Morgen werde ich suchen."
   },
   {
     "id": "top-300-verbs-262",
@@ -2093,7 +2354,8 @@
     "ruStressed": "За́втра я бу́ду находи́ть.",
     "translit": "Zavtra ya budu nakhodit.",
     "en": "Tomorrow I will find.",
-    "pl": "Jutro będę znajdować."
+    "pl": "Jutro będę znajdować.",
+    "de": "Morgen werde ich finden."
   },
   {
     "id": "top-300-verbs-263",
@@ -2101,7 +2363,8 @@
     "ruStressed": "За́втра я бу́ду теря́ть.",
     "translit": "Zavtra ya budu teryat.",
     "en": "Tomorrow I will lose.",
-    "pl": "Jutro będę gubić."
+    "pl": "Jutro będę gubić.",
+    "de": "Morgen werde ich verlieren."
   },
   {
     "id": "top-300-verbs-264",
@@ -2109,7 +2372,8 @@
     "ruStressed": "За́втра я бу́ду забыва́ть.",
     "translit": "Zavtra ya budu zabyvat.",
     "en": "Tomorrow I will forget.",
-    "pl": "Jutro będę zapominać."
+    "pl": "Jutro będę zapominać.",
+    "de": "Morgen werde ich vergessen."
   },
   {
     "id": "top-300-verbs-265",
@@ -2117,7 +2381,8 @@
     "ruStressed": "За́втра я бу́ду вспомина́ть.",
     "translit": "Zavtra ya budu vspominat.",
     "en": "Tomorrow I will recall.",
-    "pl": "Jutro będę wspominać."
+    "pl": "Jutro będę wspominać.",
+    "de": "Morgen werde ich mich erinnern."
   },
   {
     "id": "top-300-verbs-266",
@@ -2125,7 +2390,8 @@
     "ruStressed": "За́втра я бу́ду по́мнить.",
     "translit": "Zavtra ya budu pomnit.",
     "en": "Tomorrow I will remember.",
-    "pl": "Jutro będę pamiętać."
+    "pl": "Jutro będę pamiętać.",
+    "de": "Morgen werde ich mich erinnern."
   },
   {
     "id": "top-300-verbs-267",
@@ -2133,7 +2399,8 @@
     "ruStressed": "За́втра я бу́ду повторя́ть.",
     "translit": "Zavtra ya budu povtoryat.",
     "en": "Tomorrow I will repeat.",
-    "pl": "Jutro będę powtarzać."
+    "pl": "Jutro będę powtarzać.",
+    "de": "Morgen werde ich wiederholen."
   },
   {
     "id": "top-300-verbs-268",
@@ -2141,7 +2408,8 @@
     "ruStressed": "За́втра я бу́ду слы́шать.",
     "translit": "Zavtra ya budu slyshat.",
     "en": "Tomorrow I will hear.",
-    "pl": "Jutro będę słyszeć."
+    "pl": "Jutro będę słyszeć.",
+    "de": "Morgen werde ich hören."
   },
   {
     "id": "top-300-verbs-269",
@@ -2149,7 +2417,8 @@
     "ruStressed": "За́втра я бу́ду чу́вствовать.",
     "translit": "Zavtra ya budu chuvstvovat.",
     "en": "Tomorrow I will feel.",
-    "pl": "Jutro będę czuć."
+    "pl": "Jutro będę czuć.",
+    "de": "Morgen werde ich fühlen."
   },
   {
     "id": "top-300-verbs-270",
@@ -2157,7 +2426,8 @@
     "ruStressed": "За́втра я бу́ду любова́ться.",
     "translit": "Zavtra ya budu lyubovatsya.",
     "en": "Tomorrow I will admire.",
-    "pl": "Jutro będę podziwiać."
+    "pl": "Jutro będę podziwiać.",
+    "de": "Morgen werde ich bewundern."
   },
   {
     "id": "top-300-verbs-271",
@@ -2165,7 +2435,8 @@
     "ruStressed": "За́втра я бу́ду наде́яться.",
     "translit": "Zavtra ya budu nadeyatsya.",
     "en": "Tomorrow I will hope.",
-    "pl": "Jutro będę mieć nadzieję."
+    "pl": "Jutro będę mieć nadzieję.",
+    "de": "Morgen werde ich hoffen."
   },
   {
     "id": "top-300-verbs-272",
@@ -2173,7 +2444,8 @@
     "ruStressed": "За́втра я бу́ду ве́рить.",
     "translit": "Zavtra ya budu verit.",
     "en": "Tomorrow I will believe.",
-    "pl": "Jutro będę wierzyć."
+    "pl": "Jutro będę wierzyć.",
+    "de": "Morgen werde ich glauben."
   },
   {
     "id": "top-300-verbs-273",
@@ -2181,7 +2453,8 @@
     "ruStressed": "За́втра я бу́ду улыба́ться.",
     "translit": "Zavtra ya budu ulybatsya.",
     "en": "Tomorrow I will smile.",
-    "pl": "Jutro będę się uśmiechać."
+    "pl": "Jutro będę się uśmiechać.",
+    "de": "Morgen werde ich lächeln."
   },
   {
     "id": "top-300-verbs-274",
@@ -2189,7 +2462,8 @@
     "ruStressed": "За́втра я бу́ду смея́ться.",
     "translit": "Zavtra ya budu smeyatsya.",
     "en": "Tomorrow I will laugh.",
-    "pl": "Jutro będę się śmiać."
+    "pl": "Jutro będę się śmiać.",
+    "de": "Morgen werde ich lachen."
   },
   {
     "id": "top-300-verbs-275",
@@ -2197,7 +2471,8 @@
     "ruStressed": "За́втра я бу́ду пла́кать.",
     "translit": "Zavtra ya budu plakat.",
     "en": "Tomorrow I will cry.",
-    "pl": "Jutro będę płakać."
+    "pl": "Jutro będę płakać.",
+    "de": "Morgen werde ich weinen."
   },
   {
     "id": "top-300-verbs-276",
@@ -2205,7 +2480,8 @@
     "ruStressed": "За́втра я бу́ду боя́ться.",
     "translit": "Zavtra ya budu boyatsya.",
     "en": "Tomorrow I will fear.",
-    "pl": "Jutro będę się bać."
+    "pl": "Jutro będę się bać.",
+    "de": "Morgen werde ich Angst haben."
   },
   {
     "id": "top-300-verbs-277",
@@ -2213,7 +2489,8 @@
     "ruStressed": "За́втра я бу́ду волнова́ться.",
     "translit": "Zavtra ya budu volnovatsya.",
     "en": "Tomorrow I will worry.",
-    "pl": "Jutro będę się martwić."
+    "pl": "Jutro będę się martwić.",
+    "de": "Morgen werde ich mir Sorgen machen."
   },
   {
     "id": "top-300-verbs-278",
@@ -2221,7 +2498,8 @@
     "ruStressed": "За́втра я бу́ду отдыха́ть.",
     "translit": "Zavtra ya budu otdykhat.",
     "en": "Tomorrow I will rest.",
-    "pl": "Jutro będę odpoczywać."
+    "pl": "Jutro będę odpoczywać.",
+    "de": "Morgen werde ich mich ausruhen."
   },
   {
     "id": "top-300-verbs-279",
@@ -2229,7 +2507,8 @@
     "ruStressed": "За́втра я бу́ду гуля́ть.",
     "translit": "Zavtra ya budu gulyat.",
     "en": "Tomorrow I will go for a walk.",
-    "pl": "Jutro będę spacerować."
+    "pl": "Jutro będę spacerować.",
+    "de": "Morgen werde ich spazieren gehen."
   },
   {
     "id": "top-300-verbs-280",
@@ -2237,7 +2516,8 @@
     "ruStressed": "За́втра я бу́ду путеше́ствовать.",
     "translit": "Zavtra ya budu puteshestvovat.",
     "en": "Tomorrow I will travel.",
-    "pl": "Jutro będę podróżować."
+    "pl": "Jutro będę podróżować.",
+    "de": "Morgen werde ich reisen."
   },
   {
     "id": "top-300-verbs-281",
@@ -2245,7 +2525,8 @@
     "ruStressed": "За́втра я бу́ду гото́вить.",
     "translit": "Zavtra ya budu gotovit.",
     "en": "Tomorrow I will cook.",
-    "pl": "Jutro będę gotować."
+    "pl": "Jutro będę gotować.",
+    "de": "Morgen werde ich kochen."
   },
   {
     "id": "top-300-verbs-282",
@@ -2253,7 +2534,8 @@
     "ruStressed": "За́втра я бу́ду убира́ть.",
     "translit": "Zavtra ya budu ubirat.",
     "en": "Tomorrow I will tidy up.",
-    "pl": "Jutro będę sprzątać."
+    "pl": "Jutro będę sprzątać.",
+    "de": "Morgen werde ich aufräumen."
   },
   {
     "id": "top-300-verbs-283",
@@ -2261,7 +2543,8 @@
     "ruStressed": "За́втра я бу́ду стира́ть.",
     "translit": "Zavtra ya budu stirat.",
     "en": "Tomorrow I will do laundry.",
-    "pl": "Jutro będę prać."
+    "pl": "Jutro będę prać.",
+    "de": "Morgen werde ich Wäsche waschen."
   },
   {
     "id": "top-300-verbs-284",
@@ -2269,7 +2552,8 @@
     "ruStressed": "За́втра я бу́ду мыть.",
     "translit": "Zavtra ya budu myt.",
     "en": "Tomorrow I will wash.",
-    "pl": "Jutro będę myć."
+    "pl": "Jutro będę myć.",
+    "de": "Morgen werde ich waschen."
   },
   {
     "id": "top-300-verbs-285",
@@ -2277,7 +2561,8 @@
     "ruStressed": "За́втра я бу́ду рисова́ть.",
     "translit": "Zavtra ya budu risovat.",
     "en": "Tomorrow I will draw.",
-    "pl": "Jutro będę rysować."
+    "pl": "Jutro będę rysować.",
+    "de": "Morgen werde ich zeichnen."
   },
   {
     "id": "top-300-verbs-286",
@@ -2285,7 +2570,8 @@
     "ruStressed": "За́втра я бу́ду петь.",
     "translit": "Zavtra ya budu pet.",
     "en": "Tomorrow I will sing.",
-    "pl": "Jutro będę śpiewać."
+    "pl": "Jutro będę śpiewać.",
+    "de": "Morgen werde ich singen."
   },
   {
     "id": "top-300-verbs-287",
@@ -2293,7 +2579,8 @@
     "ruStressed": "За́втра я бу́ду танцева́ть.",
     "translit": "Zavtra ya budu tantsevat.",
     "en": "Tomorrow I will dance.",
-    "pl": "Jutro będę tańczyć."
+    "pl": "Jutro będę tańczyć.",
+    "de": "Morgen werde ich tanzen."
   },
   {
     "id": "top-300-verbs-288",
@@ -2301,7 +2588,8 @@
     "ruStressed": "За́втра я бу́ду бе́гать.",
     "translit": "Zavtra ya budu begat.",
     "en": "Tomorrow I will run.",
-    "pl": "Jutro będę biegać."
+    "pl": "Jutro będę biegać.",
+    "de": "Morgen werde ich rennen."
   },
   {
     "id": "top-300-verbs-289",
@@ -2309,7 +2597,8 @@
     "ruStressed": "За́втра я бу́ду пла́вать.",
     "translit": "Zavtra ya budu plavat.",
     "en": "Tomorrow I will swim.",
-    "pl": "Jutro będę pływać."
+    "pl": "Jutro będę pływać.",
+    "de": "Morgen werde ich schwimmen."
   },
   {
     "id": "top-300-verbs-290",
@@ -2317,7 +2606,8 @@
     "ruStressed": "За́втра я бу́ду пры́гать.",
     "translit": "Zavtra ya budu prygat.",
     "en": "Tomorrow I will jump.",
-    "pl": "Jutro będę skakać."
+    "pl": "Jutro będę skakać.",
+    "de": "Morgen werde ich springen."
   },
   {
     "id": "top-300-verbs-291",
@@ -2325,7 +2615,8 @@
     "ruStressed": "За́втра я бу́ду сиде́ть.",
     "translit": "Zavtra ya budu sidet.",
     "en": "Tomorrow I will sit.",
-    "pl": "Jutro będę siedzieć."
+    "pl": "Jutro będę siedzieć.",
+    "de": "Morgen werde ich sitzen."
   },
   {
     "id": "top-300-verbs-292",
@@ -2333,7 +2624,8 @@
     "ruStressed": "За́втра я бу́ду стоя́ть.",
     "translit": "Zavtra ya budu stoyat.",
     "en": "Tomorrow I will stand.",
-    "pl": "Jutro będę stać."
+    "pl": "Jutro będę stać.",
+    "de": "Morgen werde ich stehen."
   },
   {
     "id": "top-300-verbs-293",
@@ -2341,7 +2633,8 @@
     "ruStressed": "За́втра я бу́ду лежа́ть.",
     "translit": "Zavtra ya budu lezhat.",
     "en": "Tomorrow I will lie.",
-    "pl": "Jutro będę leżeć."
+    "pl": "Jutro będę leżeć.",
+    "de": "Morgen werde ich liegen."
   },
   {
     "id": "top-300-verbs-294",
@@ -2349,7 +2642,8 @@
     "ruStressed": "За́втра я бу́ду встреча́ть.",
     "translit": "Zavtra ya budu vstrechat.",
     "en": "Tomorrow I will meet.",
-    "pl": "Jutro będę spotykać."
+    "pl": "Jutro będę spotykać.",
+    "de": "Morgen werde ich treffen."
   },
   {
     "id": "top-300-verbs-295",
@@ -2357,7 +2651,8 @@
     "ruStressed": "За́втра я бу́ду приглаша́ть.",
     "translit": "Zavtra ya budu priglashat.",
     "en": "Tomorrow I will invite.",
-    "pl": "Jutro będę zapraszać."
+    "pl": "Jutro będę zapraszać.",
+    "de": "Morgen werde ich einladen."
   },
   {
     "id": "top-300-verbs-296",
@@ -2365,7 +2660,8 @@
     "ruStressed": "За́втра я бу́ду дари́ть.",
     "translit": "Zavtra ya budu darit.",
     "en": "Tomorrow I will give as gift.",
-    "pl": "Jutro będę dawać w prezencie."
+    "pl": "Jutro będę dawać w prezencie.",
+    "de": "Morgen werde ich schenken."
   },
   {
     "id": "top-300-verbs-297",
@@ -2373,7 +2669,8 @@
     "ruStressed": "За́втра я бу́ду обеща́ть.",
     "translit": "Zavtra ya budu obeshchat.",
     "en": "Tomorrow I will promise.",
-    "pl": "Jutro będę obiecywać."
+    "pl": "Jutro będę obiecywać.",
+    "de": "Morgen werde ich versprechen."
   },
   {
     "id": "top-300-verbs-298",
@@ -2381,7 +2678,8 @@
     "ruStressed": "За́втра я бу́ду сове́товать.",
     "translit": "Zavtra ya budu sovetovat.",
     "en": "Tomorrow I will advise.",
-    "pl": "Jutro będę radzić."
+    "pl": "Jutro będę radzić.",
+    "de": "Morgen werde ich raten."
   },
   {
     "id": "top-300-verbs-299",
@@ -2389,7 +2687,8 @@
     "ruStressed": "За́втра я бу́ду объясня́ть.",
     "translit": "Zavtra ya budu obyasnyat.",
     "en": "Tomorrow I will explain.",
-    "pl": "Jutro będę wyjaśniać."
+    "pl": "Jutro będę wyjaśniać.",
+    "de": "Morgen werde ich erklären."
   },
   {
     "id": "top-300-verbs-300",
@@ -2397,6 +2696,7 @@
     "ruStressed": "За́втра я бу́ду расска́зывать.",
     "translit": "Zavtra ya budu rasskazyvat.",
     "en": "Tomorrow I will tell.",
-    "pl": "Jutro będę opowiadać."
+    "pl": "Jutro będę opowiadać.",
+    "de": "Morgen werde ich erzählen."
   }
 ]

@@ -1,0 +1,104 @@
+{
+  "pl": {
+    "intro": "W języku rosyjskim uczucia i stany są często wyrażane jako **konstrukcje bezosobowe**, gdzie osoba doświadczająca uczucia znajduje się w **celowniku**.",
+    "notes": [
+      {
+        "title": "Celownikowy podmiot uczuć",
+        "body": "Aby opisać fizyczne lub emocjonalne stany, takie jak odczuwanie zimna, gorąca lub nudy, osoba umieszczana jest w **celowniku**. Sam stan jest przysłówkiem zakończonym na **-о**, a podmiot aktywnie wykonujący czynność nie istnieje. Wygląda to tak, jakby uczucie _działo się_ osobie.",
+        "examples": [
+          {
+            "en": "I am cold.",
+            "note": "Mi jest zimno."
+          }
+        ]
+      },
+      {
+        "title": "Stany i uczucia",
+        "body": "Aby opisać fizyczne lub emocjonalne stany, takie jak odczuwanie zimna, gorąca lub nudy, osoba umieszczana jest w **celowniku**. Sam stan jest przysłówkiem zakończonym na **-о**, a podmiot aktywnie wykonujący czynność nie istnieje. Wygląda to tak, jakby uczucie _działo się_ osobie.",
+        "examples": [
+          {
+            "en": "I am cold. (To me it is cold)",
+            "note": "Mi jest zimno."
+          },
+          {
+            "en": "The student is bored.",
+            "note": "Studentowi jest nudno."
+          },
+          {
+            "en": "Are you hot?",
+            "note": "Jest ci gorąco?"
+          }
+        ]
+      },
+      {
+        "title": "Lubienie i potrzeba",
+        "body": "Czasowniki **нравиться** (lubić) i **нужно** (potrzebować) również używają celownika. W przeciwieństwie do angielskiego, gdzie 'I' jest podmiotem, w języku rosyjskim obiekt 'podoba się' tobie lub jest dla ciebie 'konieczny'. Osoba, która coś lubi lub czegoś potrzebuje, musi zostać zmieniona na **мне, тебе, ему, ей, нам, вам** lub **им**.",
+        "examples": [
+          {
+            "en": "He likes this city.",
+            "note": "Jemu podoba się to miasto."
+          },
+          {
+            "en": "We need to go.",
+            "note": "Nam trzeba iść."
+          },
+          {
+            "en": "She likes the flowers.",
+            "note": "Jej podobają się kwiaty."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Im Russischen werden Gefühle und Zustände oft als **unpersönliche Konstruktionen** ausgedrückt, wobei die Person, die das Gefühl erlebt, im _Dativ_ steht.",
+    "notes": [
+      {
+        "title": "Der Dativ-Erlebende",
+        "body": "Um körperliche oder emotionale Zustände wie Kälte, Hitze oder Langeweile zu beschreiben, wird die Person in den **Dativ** gesetzt. Der Zustand selbst ist ein Adverb, das auf **-о** endet, und es gibt kein aktives Subjekt, das die Handlung ausführt. Es ist, als ob das Gefühl der Person _widerfährt_.",
+        "examples": [
+          {
+            "en": "I am cold.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Zustände und Gefühle",
+        "body": "Um körperliche oder emotionale Zustände wie Kälte, Hitze oder Langeweile zu beschreiben, wird die Person in den **Dativ** gesetzt. Der Zustand selbst ist ein Adverb, das auf **-о** endet, und es gibt kein aktives Subjekt, das die Handlung ausführt. Es ist, als ob das Gefühl der Person _widerfährt_.",
+        "examples": [
+          {
+            "en": "I am cold. (Mir ist kalt)",
+            "note": null
+          },
+          {
+            "en": "The student is bored.",
+            "note": null
+          },
+          {
+            "en": "Are you hot?",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Mögen und Brauchen",
+        "body": "Die Verben **нравиться** (mögen) und **нужно** (brauchen) verwenden ebenfalls den Dativ. Im Gegensatz zum Deutschen, wo 'ich' das Subjekt ist, gefällt im Russischen das Objekt Ihnen oder ist Ihnen 'notwendig'. Die Person, die etwas mag oder braucht, muss in **мне, тебе, ему, ей, нам, вам** oder **им** geändert werden.",
+        "examples": [
+          {
+            "en": "He likes this city.",
+            "note": null
+          },
+          {
+            "en": "We need to go.",
+            "note": null
+          },
+          {
+            "en": "She likes the flowers.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

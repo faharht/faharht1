@@ -1,0 +1,96 @@
+{
+  "pl": {
+    "intro": "**Imiesłowy przysłówkowe** (деепричастия) funkcjonują jako przysłówki czasownikowe opisujące, jak lub kiedy zachodzi główna czynność w zdaniu. Są one używane głównie w piśmie lub w formalnym języku rosyjskim do łączenia dwóch czynności wykonywanych przez _ten sam podmiot_.",
+    "notes": [
+      {
+        "title": "Imiesłowy niedokonane: Czynność równoczesna",
+        "body": "Imiesłowy niedokonane opisują czynność, która zachodzi **w tym samym czasie** co czasownik główny. Tworzy się je, biorąc rdzeń trzeciej osoby liczby mnogiej czasu teraźniejszego (np. **говор**-ят) i dodając przyrostek **-я** (lub **-а** po sybilantach). Te imiesłowy często można przetłumaczyć jako **\"-ing\"** w języku angielskim.",
+        "examples": [
+          {
+            "en": "Listening to music, I usually clean the house.",
+            "note": "Czynności równoczesne."
+          },
+          {
+            "en": "Walking through the park, they talked about the future.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Imiesłowy dokonane: Czynność zakończona",
+        "body": "Imiesłowy dokonane oznaczają czynność, która została **zakończona przed** rozpoczęciem głównej czynności. Większość z nich tworzy się od rdzenia męskiego czasu przeszłego, zastępując **-л** przyrostkiem **-в** lub **-вши**. Jeśli czasownik jest zwrotny, używa się przyrostka **-вшись**. Zazwyczaj tłumaczy się je jako **\"po zrobieniu\"** lub **\"kiedy coś się zrobiło\"**.",
+        "examples": [
+          {
+            "en": "Having read the letter, she burst into tears.",
+            "note": "Czynność zakończona wcześniej."
+          },
+          {
+            "en": "Having returned home, he immediately went to bed.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Zasada tego samego podmiotu i interpunkcja",
+        "body": "W języku rosyjskim imiesłów i czasownik główny **muszą odnosić się do tego samego podmiotu**. Użycie imiesłowu, gdy podmiot zdania się zmienia, jest częstym błędem gramatycznym. Dodatkowo, imiesłów lub fraza z imiesłowem jest **zawsze oddzielona przecinkami**, niezależnie od jej pozycji w zdaniu.",
+        "examples": [
+          {
+            "en": "Knowing the answer, the student raised his hand.",
+            "note": "Poprawnie: uczeń wie i uczeń podnosi rękę."
+          },
+          {
+            "en": "Opening the window, I felt a draft.",
+            "note": "Niepoprawnie byłoby 'Otwierając okno, wiatr wiał'."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "**Gerundien** (деепричастия) fungieren als verbale Adverbien, die beschreiben, wie oder wann die Hauptaktion in einem Satz stattfindet. Sie werden hauptsächlich in der geschriebenen oder formellen russischen Sprache verwendet, um zwei Aktionen zu verbinden, die vom _selben Subjekt_ ausgeführt werden.",
+    "notes": [
+      {
+        "title": "Imperfektive Gerundien: Gleichzeitige Aktion",
+        "body": "Imperfektive Gerundien beschreiben eine Aktion, die **gleichzeitig** mit dem Hauptverb stattfindet. Sie werden gebildet, indem man vom Stamm der 3. Person Plural im Präsens (z. B. **говор**-ят) die Endung **-я** (oder **-а** nach Zischlauten) hinzufügt. Diese Gerundien können oft mit dem englischen **\"-ing\"** übersetzt werden.",
+        "examples": [
+          {
+            "en": "Listening to music, I usually clean the house.",
+            "note": "Gleichzeitige Aktionen."
+          },
+          {
+            "en": "Walking through the park, they talked about the future.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Perfektive Gerundien: Abgeschlossene Aktion",
+        "body": "Perfektive Gerundien bezeichnen eine Aktion, die **abgeschlossen war, bevor** die Hauptaktion begann. Die meisten werden vom maskulinen Stamm im Präteritum gebildet, indem **-л** durch die Endung **-в** oder **-вши** ersetzt wird. Wenn das Verb reflexiv ist, wird die Endung **-вшись** verwendet. Diese werden typischerweise als **\"nachdem\"** oder **\"nachdem getan\"** übersetzt.",
+        "examples": [
+          {
+            "en": "Having read the letter, she burst into tears.",
+            "note": "Abgeschlossene vorherige Aktion."
+          },
+          {
+            "en": "Having returned home, he immediately went to bed.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Die Regel des gleichen Subjekts und die Zeichensetzung",
+        "body": "Im Russischen müssen das Gerundium und das Hauptverb **sich auf dasselbe Subjekt beziehen**. Die Verwendung eines Gerundiums, wenn sich das Subjekt des Satzes ändert, ist ein häufiger Grammatikfehler. Zusätzlich wird ein Gerundium oder eine Gerundiumphrase **immer durch Kommas abgetrennt**, unabhängig von ihrer Position im Satz.",
+        "examples": [
+          {
+            "en": "Knowing the answer, the student raised his hand.",
+            "note": "Korrekt: der Student weiß und der Student hebt seine Hand."
+          },
+          {
+            "en": "Opening the window, I felt a draft.",
+            "note": "Falsch wäre 'Opening the window, the wind blew'."
+          }
+        ]
+      }
+    ]
+  }
+}

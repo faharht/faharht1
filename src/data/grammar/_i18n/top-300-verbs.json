@@ -1,0 +1,86 @@
+{
+  "pl": {
+    "intro": "Prawie każdy rosyjski czasownik występuje w **parze aspektowej** — jeden niedokonany, jeden dokonany. Nauka czasowników w parach jest kluczem do dalszych postępów na tym poziomie.",
+    "notes": [
+      {
+        "title": "Niedokonany vs dokonany",
+        "body": "**Niedokonany** opisuje proces, powtórzenie lub trwającą czynność. **Dokonany** opisuje pojedynczy, zakończony rezultat. Większość wpisów w słowniku wymienia oba.",
+        "examples": [
+          {
+            "en": "pisać (proces) / napisać (ukończyć)",
+            "note": null
+          },
+          {
+            "en": "czytać / przeczytać",
+            "note": null
+          },
+          {
+            "en": "robić / zrobić",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Jak tworzone są pary",
+        "body": "Częste wzorce: **dodanie prefiksu** (_писать → написать_), **zmiana sufiksu** (_решать → решить_) lub **całkowicie różne rdzenie** (_говорить / сказать_, _брать / взять_).",
+        "examples": []
+      },
+      {
+        "title": "Aspekt w czasach",
+        "body": "Czas teraźniejszy: tylko niedokonany. Czas przeszły i przyszły: oba aspekty, a wybór zmienia znaczenie. Tryb rozkazujący i bezokolicznik: oba, w zależności od tego, czy masz na myśli _zacząć coś robić_, czy _zrobić coś do końca_.",
+        "examples": [
+          {
+            "en": "Nie otwieraj okna. (niedokonany — ogólny zakaz)",
+            "note": null
+          },
+          {
+            "en": "Nie otwieraj okna! (dokonany — tym razem)",
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Fast jedes russische Verb hat ein **Aspektpaar** – eines imperfektiv, eines perfekt. Verben paarweise zu lernen ist der größte Schlüssel auf diesem Niveau.",
+    "notes": [
+      {
+        "title": "Imperfektiv vs. Perfektiv",
+        "body": "Das **imperfektive** Verb beschreibt den Prozess, die Wiederholung oder eine andauernde Handlung. Das **perfektive** Verb beschreibt ein einzelnes, abgeschlossenes Ergebnis. Die meisten Wörterbucheinträge listen beide auf.",
+        "examples": [
+          {
+            "en": "schreiben (Prozess) / schreiben (fertigstellen)",
+            "note": null
+          },
+          {
+            "en": "lesen / durchlesen",
+            "note": null
+          },
+          {
+            "en": "machen / erledigen",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Wie Paare gebildet werden",
+        "body": "Gängige Muster: **Präfix hinzugefügt** (_писать → написать_), **Suffix geändert** (_решать → решить_) oder **komplett unterschiedliche Wurzeln** (_говорить / сказать_, _брать / взять_).",
+        "examples": []
+      },
+      {
+        "title": "Aspekt in Zeitformen",
+        "body": "Präsens: nur imperfektiv. Vergangenheit und Zukunft: beide Aspekte, und die Wahl ändert die Bedeutung. Imperativ und Infinitiv: beide, je nachdem, ob Sie _anfangen zu tun_ oder _es erledigt bekommen_ meinen.",
+        "examples": [
+          {
+            "en": "Öffne das Fenster nicht. (imperfektiv – allgemeines Verbot)",
+            "note": null
+          },
+          {
+            "en": "Öffne das Fenster nicht! (perfektiv – dieses eine Mal)",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

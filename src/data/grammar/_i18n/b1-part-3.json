@@ -1,0 +1,120 @@
+{
+  "pl": {
+    "intro": "Przypadkiem **narzędnikowym** (творительный падеж) opisujemy narzędzia, których używamy, towarzystwo, w jakim przebywamy, oraz role, jakie odgrywamy w społeczeństwie. Odpowiada on na pytania **кем?** (_kim?_) i **чем?** (_czym?_).",
+    "notes": [
+      {
+        "title": "Narzędzia i przyrządy",
+        "body": "Narzędnik jest używany bez przyimka do wskazania **środka lub narzędzia** używanego do wykonania czynności. W języku polskim zazwyczaj tłumaczymy to za pomocą słowa _z_, _za pomocą_, _przy użyciu_. Używaj końcówek **-ом/-ем** dla rzeczowników rodzaju męskiego/nijakiego i **-ой/-ей** dla rzeczowników rodzaju żeńskiego.",
+        "examples": [
+          {
+            "en": "I am writing with a pen.",
+            "note": "Piszę _piórem_."
+          },
+          {
+            "en": "Eat the soup with a spoon.",
+            "note": "Jedz zupę _łyżką_."
+          },
+          {
+            "en": "I came by plane.",
+            "note": "Przyleciałem _samolotem_."
+          }
+        ]
+      },
+      {
+        "title": "Przyimek 'с' (z)",
+        "body": "Kiedy chcesz powiedzieć, że robisz coś **razem z** kimś lub czymś, użyj przyimka **с** poprzedzającego narzędnik. Uwaga: użycie **с** zmienia znaczenie z „używania narzędzia” na „w towarzystwie”.",
+        "examples": [
+          {
+            "en": "I'm going to the cinema with a friend.",
+            "note": "Idę do kina _z przyjacielem_."
+          },
+          {
+            "en": "I like tea with lemon.",
+            "note": "Lubię herbatę _z cytryną_."
+          },
+          {
+            "en": "He is talking with the teacher.",
+            "note": "Rozmawia _z nauczycielem_."
+          }
+        ]
+      },
+      {
+        "title": "Zawody i zajęcia",
+        "body": "W języku rosyjskim używamy narzędnika do opisu **zawodów, ról lub hobby** po czasownikach takich jak **быть** (_być_), **стать** (_zostać_), **работать** (_pracować jako_), i **заниматься** (_zajmować się czymś/praktykować_).",
+        "examples": [
+          {
+            "en": "My sister works as a doctor.",
+            "note": "Moja siostra pracuje _jako lekarka_."
+          },
+          {
+            "en": "I want to become an engineer.",
+            "note": "Chcę zostać _inżynierem_."
+          },
+          {
+            "en": "He plays sports every day.",
+            "note": "On codziennie _uprawia sport_."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Der **Instrumental** (творительный падеж) beschreibt die Werkzeuge, die wir benutzen, die Gesellschaft, in der wir uns bewegen, und die Rollen, die wir in der Gesellschaft spielen. Er beantwortet die Fragen **кем?** (_von wem?_) und **чем?** (_womit?_).",
+    "notes": [
+      {
+        "title": "Werkzeuge und Instrumente",
+        "body": "Der Instrumental wird ohne Präposition verwendet, um das **Mittel oder Instrument** anzugeben, mit dem eine Handlung ausgeführt wird. Im Deutschen übersetzen wir dies normalerweise mit _mit_ oder _mittels_. Verwenden Sie die Endungen **-ом/-ем** für maskuline/neutrale und **-ой/-ей** für feminine Substantive.",
+        "examples": [
+          {
+            "en": "I am writing with a pen.",
+            "note": "Ich schreibe mit einem Stift."
+          },
+          {
+            "en": "Eat the soup with a spoon.",
+            "note": "Iss die Suppe mit einem Löffel."
+          },
+          {
+            "en": "I came by plane.",
+            "note": "Ich bin mit dem Flugzeug gekommen."
+          }
+        ]
+      },
+      {
+        "title": "Die Präposition 'с' (Mit)",
+        "body": "Wenn Sie sagen möchten, dass Sie etwas **zusammen mit** jemandem oder etwas tun, verwenden Sie die Präposition **с**, gefolgt vom Instrumental. Achtung: Die Verwendung von **с** ändert die Bedeutung von „ein Werkzeug benutzen“ zu „begleitet von“.",
+        "examples": [
+          {
+            "en": "I'm going to the cinema with a friend.",
+            "note": "Ich gehe mit einem Freund ins Kino."
+          },
+          {
+            "en": "I like tea with lemon.",
+            "note": "Ich mag Tee mit Zitrone."
+          },
+          {
+            "en": "He is talking with the teacher.",
+            "note": "Er spricht mit dem Lehrer."
+          }
+        ]
+      },
+      {
+        "title": "Berufe und Tätigkeiten",
+        "body": "Im Russischen verwenden wir den Instrumental, um **Berufe, Rollen oder Hobbys** nach Verben wie **быть** (_sein_), **стать** (_werden_), **работать** (_als ... arbeiten_) und **заниматься** (_sich beschäftigen mit/trainieren_) zu beschreiben.",
+        "examples": [
+          {
+            "en": "My sister works as a doctor.",
+            "note": "Meine Schwester arbeitet als Ärztin."
+          },
+          {
+            "en": "I want to become an engineer.",
+            "note": "Ich möchte Ingenieur werden."
+          },
+          {
+            "en": "He plays sports every day.",
+            "note": "Er treibt jeden Tag Sport."
+          }
+        ]
+      }
+    ]
+  }
+}

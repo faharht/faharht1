@@ -1,0 +1,78 @@
+{
+  "pl": {
+    "intro": "Idiomy to nie gramatyka — to słownictwo z określonym rejestrem. Dopasuj idiom do sytuacji: potoczny zwrot w rozmowie kwalifikacyjnej zabrzmi równie źle, jak podręcznikowa formuła przy rodzinnym stole.",
+    "notes": [
+      {
+        "title": "Zwróć uwagę na rejestr, zanim użyjesz idiomu",
+        "body": "Idiomy rosyjskie mieszczą się w spektrum od **książkowych (книжный)**, przez **neutralne**, po **разговорный** (potoczne) i **просторечный / сленг** (dosadne lub slangowe). Rodzimi użytkownicy języka od razu je rozpoznają; uczący się często nie. W razie wątpliwości preferuj neutralną parafrazę.",
+        "examples": [
+          {
+            "en": "It's, as they say, a double-edged sword.",
+            "note": "neutralny / lekko książkowy"
+          },
+          {
+            "en": "Just forget about it!",
+            "note": "bardzo potoczny — tylko między przyjaciółmi"
+          }
+        ]
+      },
+      {
+        "title": "Idiomy nie tłumaczą się dosłownie",
+        "body": "Traktuj każdy idiom jako pojedynczą jednostkę leksykalną. Nie zmieniaj aspektu czasownika, nie przestawiaj słów i nie zastępuj synonimów — fraza straci znaczenie lub zabrzmi dziwnie.",
+        "examples": [
+          {
+            "en": "He works carelessly / half-heartedly.",
+            "note": "dosł. 'z opuszczonymi rękawami'"
+          },
+          {
+            "en": "To pull the wool over someone's eyes.",
+            "note": "dosł. 'wieszać makaron na uszach'"
+          }
+        ]
+      },
+      {
+        "title": "Częste formuły warte zapamiętania",
+        "body": "Garść utartych zwrotów pojawia się stale w mówionym rosyjskim i działa jak spoiwo gramatyczne: **дело в том, что...** (rzecz w tym, że...), **на самом деле** (w rzeczywistości), **как ни странно** (co dziwne), **тем не менее** (niemniej jednak).",
+        "examples": []
+      }
+    ]
+  },
+  "de": {
+    "intro": "Redewendungen sind keine Grammatik – sie sind Wortschatz mit Register. Passen Sie die Redewendung an die Situation an: Eine umgangssprachliche Phrase in einem Vorstellungsgespräch kommt genauso schlecht an wie eine Lehrbuchformel am Küchentisch.",
+    "notes": [
+      {
+        "title": "Lesen Sie das Register, bevor Sie zu einer Redewendung greifen",
+        "body": "Russische Redewendungen fallen in ein Spektrum von **buchsprachlich (книжный)** über **neutral** bis **разговорный** (umgangssprachlich) und **просторечный / сленг** (derb oder Slang). Muttersprachler kennzeichnen diese sofort; Lernende oft nicht. Im Zweifelsfall ziehen Sie die neutrale Paraphrase vor.",
+        "examples": [
+          {
+            "en": "It's, as they say, a double-edged sword.",
+            "note": "neutral / leicht buchsprachlich"
+          },
+          {
+            "en": "Just forget about it!",
+            "note": "sehr umgangssprachlich – nur unter Freunden"
+          }
+        ]
+      },
+      {
+        "title": "Redewendungen lassen sich nicht wortwörtlich übersetzen",
+        "body": "Behandeln Sie jede Redewendung als eine einzige lexikalische Einheit. Ändern Sie nicht das Verb-Aspekt, ordnen Sie die Wörter nicht neu an und ersetzen Sie keine Synonyme – die Phrase verliert ihre Bedeutung oder klingt seltsam.",
+        "examples": [
+          {
+            "en": "He works carelessly / half-heartedly.",
+            "note": "wörtlich: 'mit heruntergerollten Ärmeln'"
+          },
+          {
+            "en": "To pull the wool over someone's eyes.",
+            "note": "wörtlich: 'Nudeln ans Ohr hängen'"
+          }
+        ]
+      },
+      {
+        "title": "Häufige Formeln, die sich auswendig zu lernen lohnen",
+        "body": "Eine Handvoll fester Ausdrücke taucht ständig im gesprochenen Russisch auf und wirkt wie ein grammatikalischer Klebstoff: **дело в том, что...** (die Sache ist die, dass...), **на самом деле** (tatsächlich), **как ни странно** (seltsamerweise), **тем не менее** (nichtsdestotrotz).",
+        "examples": []
+      }
+    ]
+  }
+}
