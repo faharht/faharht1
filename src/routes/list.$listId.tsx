@@ -937,23 +937,41 @@ function GrammarSheet({
             )}
           </div>
         </SheetHeader>
-        {pack.intro && (
-          <p className="mt-4 rounded-2xl border border-border/60 bg-primary/5 p-4 text-sm leading-relaxed text-foreground">
-            {renderInline(pack.intro)}
-          </p>
-        )}
+        {(() => {
+          const intro = locale === "pl" ? (pack.intro_pl ?? pack.intro)
+                      : locale === "de" ? (pack.intro_de ?? pack.intro)
+                      : pack.intro;
+          return intro ? (
+            <p className="mt-4 rounded-2xl border border-border/60 bg-primary/5 p-4 text-sm leading-relaxed text-foreground">
+              {renderInline(intro)}
+            </p>
+          ) : null;
+        })()}
         <div className="mt-3 space-y-3">
           {pack.notes.map((note, i) => {
             const matches = resolveMatches(note, sentences);
+            const title = locale === "pl" ? (note.title_pl ?? note.title)
+                        : locale === "de" ? (note.title_de ?? note.title)
+                        : note.title;
+            const body = locale === "pl" ? (note.body_pl ?? note.body)
+                       : locale === "de" ? (note.body_de ?? note.body)
+                       : note.body;
             return (
               <div key={i} className="rounded-2xl border border-border/60 bg-card p-4">
-                <h3 className="text-sm font-bold text-foreground">{note.title}</h3>
+                <h3 className="text-sm font-bold text-foreground">{title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {renderInline(note.body)}
+                  {renderInline(body)}
                 </p>
                 {note.examples && note.examples.length > 0 && (
                   <ul className="mt-3 space-y-2">
-                    {note.examples.map((ex, j) => (
+                    {note.examples.map((ex, j) => {
+                      const exEn = locale === "pl" ? (ex.en_pl ?? ex.en)
+                                 : locale === "de" ? (ex.en_de ?? ex.en)
+                                 : ex.en;
+                      const exNote = locale === "pl" ? (ex.note_pl ?? ex.note)
+                                   : locale === "de" ? (ex.note_de ?? ex.note)
+                                   : ex.note;
+                      return (
                       <li
                         key={j}
                         className="flex items-start gap-2 rounded-lg border border-border/50 bg-background/60 p-2"
@@ -969,13 +987,14 @@ function GrammarSheet({
                           <p lang="ru" className="text-sm font-semibold text-foreground break-words">
                             {ex.ru}
                           </p>
-                          <p className="text-xs text-muted-foreground break-words">{ex.en}</p>
-                          {ex.note && (
-                            <p className="mt-0.5 text-[11px] uppercase tracking-wider text-primary">{ex.note}</p>
+                          <p className="text-xs text-muted-foreground break-words">{exEn}</p>
+                          {exNote && (
+                            <p className="mt-0.5 text-[11px] uppercase tracking-wider text-primary">{exNote}</p>
                           )}
                         </div>
                       </li>
-                    ))}
+                      );
+                    })}
                   </ul>
                 )}
                 {matches.length > 0 && (
