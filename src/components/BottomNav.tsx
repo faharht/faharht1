@@ -37,7 +37,8 @@ export function BottomNav() {
   // Hide on auth screen
   if (pathname.startsWith("/auth")) return null;
 
-  const items: { to: string; label: string; icon: typeof Home; match: (p: string) => boolean }[] = [
+  type NavTo = "/" | "/utilities" | "/profile" | "/admin";
+  const items: { to: NavTo; label: string; icon: typeof Home; match: (p: string) => boolean }[] = [
     { to: "/", label: t("nav.home"), icon: Home, match: (p) => p === "/" },
     { to: "/utilities", label: "Utilities", icon: Wrench, match: (p) => p.startsWith("/utilities") },
     { to: "/profile", label: t("nav.profile"), icon: User, match: (p) => p.startsWith("/profile") },
