@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronDown, BookOpen, ArrowLeft } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   BANDS,
   TONE_CLASSES,
@@ -121,11 +121,12 @@ function readLevelOpen(): Record<string, boolean> {
 
 function LevelAccordion({ level }: { level: LevelGroup }) {
   const { t } = useT();
-  const [open, setOpen] = useState<boolean>(() => {
+  // Start with SSR-stable default to avoid hydration mismatch; sync from localStorage after mount.
+  const [open, setOpen] = useState<boolean>(level.id === "A1");
+  useEffect(() => {
     const stored = readLevelOpen();
-    if (level.id in stored) return stored[level.id];
-    return level.id === "A1";
-  });
+    if (level.id in stored) setOpen(stored[level.id]);
+  }, [level.id]);
   const tone = TONE_CLASSES[level.tone];
 
   const toggle = () => {
