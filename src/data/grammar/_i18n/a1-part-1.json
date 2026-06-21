@@ -36,5 +36,43 @@
         "examples": []
       }
     ]
+  },
+  "pl": {
+    "intro": "Rosyjski zaczyna się od dwóch podstawowych zagadnień: jak się do kogoś zwracać i jak pominąć czasownik _być_ w czasie teraźniejszym.",
+    "notes": [
+      {
+        "title": "ты vs вы — nieformalne vs formalne \"ty\"",
+        "body": "Używaj **ты** z przyjaciółmi, rodziną i dziećmi. Używaj **вы** z nieznajomymi, starszymi, w obsłudze i zwracając się do więcej niż jednej osoby. Gdy masz wątpliwości, zacznij od **вы** — przejście na **ты** jest małym rytuałem społecznym.",
+        "examples": [
+          {
+            "en": "What's your name?",
+            "note": "nieformalne"
+          },
+          {
+            "en": "What's your name?",
+            "note": "formalne / liczba mnoga"
+          }
+        ]
+      },
+      {
+        "title": "Brak czasownika \"być\" w czasie teraźniejszym",
+        "body": "Rosyjski pomija czasownik _być_ w czasie teraźniejszym. Rzeczownik po prostu równa się rzeczownikowi. W piśmie można zobaczyć myślnik tam, gdzie angielski użyłby _is_.",
+        "examples": [
+          {
+            "en": "I am a student.",
+            "note": null
+          },
+          {
+            "en": "Moscow is the capital.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Zaimki osobowe",
+        "body": "**я** ja · **ты** ty (l.poj.) · **он / она / оно** on / ona / ono · **мы** my · **вы** wy (l.mn./formalne) · **они** oni.",
+        "examples": []
+      }
+    ]
   }
 }
