@@ -1,0 +1,78 @@
+{
+  "pl": {
+    "intro": "Rosyjskie czasowniki w czasie teraźniejszym dzielą się na dwa wzorce koniugacyjne, zazwyczaj nazywane _koniugacją na -e_ i _koniugacją na -i_.",
+    "notes": [
+      {
+        "title": "Pierwsza koniugacja (-е-)",
+        "body": "Większość czasowników kończących się na **-ать / -ять** podąża tym wzorcem. Końcówki: **-ю, -ешь, -ет, -ем, -ете, -ют**.",
+        "examples": [
+          {
+            "en": "I read, you read, he reads",
+            "note": null
+          },
+          {
+            "en": "we / you (pl.) / they read",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Druga koniugacja (-и-)",
+        "body": "Większość czasowników kończących się na **-ить** podąża tym wzorcem. Końcówki: **-ю/-у, -ишь, -ит, -им, -ите, -ят/-ат**.",
+        "examples": [
+          {
+            "en": "I speak, you speak, he speaks",
+            "note": null
+          },
+          {
+            "en": "we / you (pl.) / they speak",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Mutacja spółgłoski w formie я",
+        "body": "Niektóre czasowniki drugiej koniugacji mutują swoją końcową spółgłoskę tylko w formie **я**: _любить → люблю_, _видеть → вижу_, _ходить → хожу_.",
+        "examples": []
+      }
+    ]
+  },
+  "de": {
+    "intro": "Russische Verben im Präsens fallen in zwei Konjugationsmuster, die üblicherweise als _e-Konjugation_ und _i-Konjugation_ bezeichnet werden.",
+    "notes": [
+      {
+        "title": "Erste Konjugation (-е-)",
+        "body": "Die meisten Verben, die auf **-ать / -ять** enden, folgen diesem Muster. Endungen: **-ю, -ешь, -ет, -ем, -ете, -ют**.",
+        "examples": [
+          {
+            "en": "I read, you read, he reads",
+            "note": null
+          },
+          {
+            "en": "we / you (pl.) / they read",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Zweite Konjugation (-и-)",
+        "body": "Die meisten Verben, die auf **-ить** enden, folgen diesem Muster. Endungen: **-ю/-у, -ишь, -ит, -им, -ите, -ят/-ат**.",
+        "examples": [
+          {
+            "en": "I speak, you speak, he speaks",
+            "note": null
+          },
+          {
+            "en": "we / you (pl.) / they speak",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Konsonantenmutation in der я-Form",
+        "body": "Einige Verben der zweiten Konjugation ändern ihren Endkonsonanten nur in der **я**-Form: _любить → люблю_, _видеть → вижу_, _ходить → хожу_.",
+        "examples": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pl": {
+    "intro": "Przypadkiem **narzędnikowym** (творительный падеж) opisujemy narzędzia, których używamy, towarzystwo, w jakim przebywamy, oraz role, jakie odgrywamy w społeczeństwie. Odpowiada on na pytania **кем?** (_kim?_) i **чем?** (_czym?_).",
+    "notes": [
+      {
+        "title": "Narzędzia i przyrządy",
+        "body": "Narzędnik jest używany bez przyimka do wskazania **środka lub narzędzia** używanego do wykonania czynności. W języku polskim zazwyczaj tłumaczymy to za pomocą słowa _z_, _za pomocą_, _przy użyciu_. Używaj końcówek **-ом/-ем** dla rzeczowników rodzaju męskiego/nijakiego i **-ой/-ей** dla rzeczowników rodzaju żeńskiego.",
+        "examples": [
+          {
+            "en": "I am writing with a pen.",
+            "note": "Piszę _piórem_."
+          },
+          {
+            "en": "Eat the soup with a spoon.",
+            "note": "Jedz zupę _łyżką_."
+          },
+          {
+            "en": "I came by plane.",
+            "note": "Przyleciałem _samolotem_."
+          }
+        ]
+      },
+      {
+        "title": "Przyimek 'с' (z)",
+        "body": "Kiedy chcesz powiedzieć, że robisz coś **razem z** kimś lub czymś, użyj przyimka **с** poprzedzającego narzędnik. Uwaga: użycie **с** zmienia znaczenie z „używania narzędzia” na „w towarzystwie”.",
+        "examples": [
+          {
+            "en": "I'm going to the cinema with a friend.",
+            "note": "Idę do kina _z przyjacielem_."
+          },
+          {
+            "en": "I like tea with lemon.",
+            "note": "Lubię herbatę _z cytryną_."
+          },
+          {
+            "en": "He is talking with the teacher.",
+            "note": "Rozmawia _z nauczycielem_."
+          }
+        ]
+      },
+      {
+        "title": "Zawody i zajęcia",
+        "body": "W języku rosyjskim używamy narzędnika do opisu **zawodów, ról lub hobby** po czasownikach takich jak **быть** (_być_), **стать** (_zostać_), **работать** (_pracować jako_), i **заниматься** (_zajmować się czymś/praktykować_).",
+        "examples": [
+          {
+            "en": "My sister works as a doctor.",
+            "note": "Moja siostra pracuje _jako lekarka_."
+          },
+          {
+            "en": "I want to become an engineer.",
+            "note": "Chcę zostać _inżynierem_."
+          },
+          {
+            "en": "He plays sports every day.",
+            "note": "On codziennie _uprawia sport_."
+          }
+        ]
+      }
+    ]
+  }
+}

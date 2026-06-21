@@ -1,0 +1,68 @@
+{
+  "pl": {
+    "intro": "Rosyjski ma dwa sposoby mówienia o przyszłości, które odpowiadają aspektowi.",
+    "notes": [
+      {
+        "title": "Przyszły czas niedokonany: буду + bezokolicznik",
+        "body": "Używaj tego do czynności przyszłych trwających, powtarzających się lub otwartych. Odmień **быть**: _буду, будешь, будет, будем, будете, будут_ i dodaj bezokolicznik niedokonany.",
+        "examples": [
+          {
+            "en": "Jutro będę pracować.",
+            "note": null
+          },
+          {
+            "en": "Będziemy mieszkać w Moskwie.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Przyszły czas dokonany: po prostu odmień",
+        "body": "Czasownik dokonany odmieniony w formie _czasu teraźniejszego_ faktycznie oznacza przyszłość — pojedynczą, zakończoną czynność.",
+        "examples": [
+          {
+            "en": "Przeczytam (skończę) książkę.",
+            "note": null
+          },
+          {
+            "en": "On napisze list.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Russisch hat zwei Möglichkeiten, über die Zukunft zu sprechen, und diese entsprechen direkt dem Aspekt.",
+    "notes": [
+      {
+        "title": "Imperfektiver Futur: буду + Infinitiv",
+        "body": "Verwenden Sie dies für andauernde, wiederholte oder offene zukünftige Handlungen. Konjugieren Sie **быть**: _буду, будешь, будет, будем, будете, будут_ und fügen Sie den imperfektiven Infinitiv hinzu.",
+        "examples": [
+          {
+            "en": "Morgen werde ich arbeiten.",
+            "note": null
+          },
+          {
+            "en": "Wir werden in Moskau leben.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Perfektiver Futur: einfach konjugieren",
+        "body": "Ein perfektives Verb, das in der _Präsens_-Form konjugiert wird, bedeutet tatsächlich die Zukunft – eine einzelne abgeschlossene Handlung.",
+        "examples": [
+          {
+            "en": "Ich werde das Buch lesen (fertig lesen).",
+            "note": null
+          },
+          {
+            "en": "Er wird den Brief schreiben.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

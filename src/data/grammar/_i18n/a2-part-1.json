@@ -1,0 +1,76 @@
+{
+  "pl": {
+    "intro": "Rosyjski czas przeszły tworzy się w zależności od rodzaju, a nie osoby – liczy się rodzaj podmiotu (lub czy jest on w liczbie mnogiej).",
+    "notes": [
+      {
+        "title": "Tworzenie czasu przeszłego",
+        "body": "Odrzuć końcówkę **-ть** bezokolicznika i dodaj **-л** (rodzaj męski), **-ла** (rodzaj żeński), **-ло** (rodzaj nijaki) lub **-ли** (liczba mnoga / formalne _вы_).",
+        "examples": [
+          {
+            "en": "I (m.) was reading a book.",
+            "note": "Czytałem książkę."
+          },
+          {
+            "en": "I (f.) was reading a book.",
+            "note": "Czytałam książkę."
+          },
+          {
+            "en": "They were reading a book.",
+            "note": "Oni/one czytali/czytały książkę."
+          }
+        ]
+      },
+      {
+        "title": "Aspekt zabarwia znaczenie",
+        "body": "Czas przeszły **niedokonany** = czynność trwająca lub powtarzająca się. Czas przeszły **dokonany** = zakończony rezultat. To samo angielskie zdanie często ma dwa rosyjskie tłumaczenia.",
+        "examples": [
+          {
+            "en": "I was reading / used to read this book.",
+            "note": "Czytałem/czytałam tę książkę (czynność trwała lub była powtarzana)."
+          },
+          {
+            "en": "I (have) finished reading this book.",
+            "note": "Przeczytałem/przeczytałam tę książkę (czynność została zakończona)."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Der russische Vergangenheits-Tempus wird nach Geschlecht gebildet, nicht nach Person – entscheidend ist das Geschlecht des Subjekts (oder ob es Plural ist).",
+    "notes": [
+      {
+        "title": "Bildung des Vergangenheits-Tempus",
+        "body": "Entferne die **-ть**-Endung des Infinitivs und füge **-л** (maskulin), **-ла** (feminin), **-ло** (neutral) oder **-ли** (Plural / formelles _вы_) hinzu.",
+        "examples": [
+          {
+            "en": "Ich (m.) las ein Buch.",
+            "note": null
+          },
+          {
+            "en": "Ich (f.) las ein Buch.",
+            "note": null
+          },
+          {
+            "en": "Sie lasen ein Buch.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Aspekt färbt die Bedeutung",
+        "body": "**Imperfektiver** Vergangenheits-Tempus = andauernd oder wiederholt. **Perfektiver** Vergangenheits-Tempus = ein abgeschlossenes Ergebnis. Derselbe englische Satz hat oft zwei russische Übersetzungen.",
+        "examples": [
+          {
+            "en": "Ich las / las gewöhnlich dieses Buch.",
+            "note": null
+          },
+          {
+            "en": "Ich habe dieses Buch zu Ende gelesen.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

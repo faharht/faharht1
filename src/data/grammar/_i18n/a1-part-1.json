@@ -1,0 +1,40 @@
+{
+  "de": {
+    "intro": "Russisch beginnt mit zwei Grundlagen: wie man jemanden anspricht und wie man das Wort _sein_ im Präsens weglässt.",
+    "notes": [
+      {
+        "title": "ты vs вы — informelles vs formelles Du",
+        "body": "Verwenden Sie **ты** bei Freunden, Familie und Kindern. Verwenden Sie **вы** bei Fremden, älteren Personen, im Dienstleistungsbereich und wenn Sie mehr als eine Person ansprechen. Im Zweifelsfall beginnen Sie mit **вы** – der Wechsel zu **ты** ist ein kleines soziales Ritual.",
+        "examples": [
+          {
+            "en": "What's your name?",
+            "note": "informell"
+          },
+          {
+            "en": "What's your name?",
+            "note": "formell / Plural"
+          }
+        ]
+      },
+      {
+        "title": "Kein „sein“ im Präsens",
+        "body": "Russisch lässt das Verb _sein_ im Präsens weg. Ein Nomen ist einfach gleich einem Nomen. In der Schrift sehen Sie möglicherweise einen Gedankenstrich, wo das Englische _is_ setzen würde.",
+        "examples": [
+          {
+            "en": "I am a student.",
+            "note": null
+          },
+          {
+            "en": "Moscow is the capital.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Personalpronomen",
+        "body": "**я** ich · **ты** du (Singular) · **он / она / оно** er / sie / es · **мы** wir · **вы** ihr / Sie (Plural/formell) · **они** sie.",
+        "examples": []
+      }
+    ]
+  }
+}

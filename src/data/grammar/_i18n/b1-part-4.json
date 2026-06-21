@@ -1,0 +1,112 @@
+{
+  "pl": {
+    "intro": "Opanowanie **stopniowania** (comparatives and superlatives) pozwala na opisywanie różnic i skrajności w języku rosyjskim. Ten przewodnik skupia się na porównywaniu rzeczowników i używaniu _najbardziej_ powszechnych form emfazy.",
+    "notes": [
+      {
+        "title": "Stopień wyższy z 'Чем'",
+        "body": "Standardowe porównania często używają przyrostka **-ее**. Aby połączyć dwa porównywane elementy, można użyć słowa **чем** (niż). Używając **чем**, drugi rzeczownik pozostaje w swoim oryginalnym przypadku (zazwyczaj mianowniku).",
+        "examples": [
+          {
+            "en": "Our city is more beautiful than yours.",
+            "note": "Nasze miasto jest piękniejsze niż twoje."
+          },
+          {
+            "en": "This book is more interesting than that one.",
+            "note": "Ta książka jest ciekawsza niż tamta."
+          }
+        ]
+      },
+      {
+        "title": "Porównanie z dopełniaczem",
+        "body": "Dla bardziej zwięzłego lub formalnego stylu, można pominąć **чем** i umieścić drugi rzeczownik bezpośrednio w **dopełniaczu (genitiv)**. Zauważ, że niektóre przymiotniki mają nieregularne formy, takie jak **больше** (więcej/większy), **меньше** (mniej/mniejszy) i **лучше** (lepiej/lepszy).",
+        "examples": [
+          {
+            "en": "The sister is older than the brother.",
+            "note": "Siostra jest starsza od brata."
+          },
+          {
+            "en": "My cat is bigger than yours.",
+            "note": "Mój kot jest większy niż twój."
+          },
+          {
+            "en": "Tea is better than coffee.",
+            "note": "Herbata jest lepsza niż kawa."
+          }
+        ]
+      },
+      {
+        "title": "Stopień najwyższy z 'Самый'",
+        "body": "Aby wyrazić 'najbardziej' pod względem jakiejkolwiek cechy, najczęstszą metodą jest umieszczenie **самый** przed przymiotnikiem. Zarówno **самый**, jak i przymiotnik muszą zgadzać się z rzeczownikiem pod względem rodzaju, liczby i przypadku. W formalnych lub technicznych tekstach można zamiast tego zobaczyć **наиболее**.",
+        "examples": [
+          {
+            "en": "This is the most expensive hotel.",
+            "note": "To jest najdroższy hotel."
+          },
+          {
+            "en": "She is our most talented student.",
+            "note": "Ona jest naszym najbardziej utalentowanym studentem."
+          },
+          {
+            "en": "This is the most effective method.",
+            "note": "To jest najbardziej skuteczna metoda. (Używa formalnego 'наиболее'.)"
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Das Beherrschen von **Komparativ** und **Superlativ** ermöglicht es Ihnen, Unterschiede und Extreme im Russischen zu beschreiben. Dieser Leitfaden konzentriert sich auf den Vergleich von Substantiven und die Verwendung der _häufigsten_ Formen der Betonung.",
+    "notes": [
+      {
+        "title": "Komparativ mit Чем",
+        "body": "Standardvergleiche verwenden oft die Endung **-ее**. Um die beiden verglichenen Elemente zu verbinden, können Sie das Wort **чем** (als) verwenden. Bei der Verwendung von **чем** bleibt das zweite Substantiv im ursprünglichen Kasus (normalerweise Nominativ).",
+        "examples": [
+          {
+            "en": "Our city is more beautiful than yours.",
+            "note": null
+          },
+          {
+            "en": "This book is more interesting than that one.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Der Genitiv-Vergleich",
+        "body": "Für einen prägnanteren oder formelleren Stil können Sie **чем** weglassen und das zweite Substantiv direkt in den **Genitiv** setzen. Beachten Sie, dass einige Adjektive unregelmäßige Formen wie **больше** (größer), **меньше** (kleiner) und **лучше** (besser) haben.",
+        "examples": [
+          {
+            "en": "The sister is older than the brother.",
+            "note": null
+          },
+          {
+            "en": "My cat is bigger than yours.",
+            "note": null
+          },
+          {
+            "en": "Tea is better than coffee.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Superlativ mit Самый",
+        "body": "Um 'am meisten' einer Eigenschaft auszudrücken, ist die gebräuchlichste Methode, **самый** vor das Adjektiv zu stellen. Sowohl **самый** als auch das Adjektiv müssen in Geschlecht, Zahl und Kasus mit dem Substantiv übereinstimmen. In formellen oder technischen Texten kann stattdessen **наиболее** verwendet werden.",
+        "examples": [
+          {
+            "en": "This is the most expensive hotel.",
+            "note": null
+          },
+          {
+            "en": "She is our most talented student.",
+            "note": null
+          },
+          {
+            "en": "This is the most effective method.",
+            "note": "Dies verwendet das formelle 'наиболее'."
+          }
+        ]
+      }
+    ]
+  }
+}

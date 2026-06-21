@@ -1,0 +1,124 @@
+{
+  "pl": {
+    "intro": "Mowa zależna w języku rosyjskim jest prostsza niż w angielskim, ponieważ **czasowniki się nie zmieniają**. Niniejsze notatki omawiają użycie spójników takich jak _что_ i _ли_ do relacjonowania stwierdzeń i pytań.",
+    "notes": [
+      {
+        "title": "Zasada 'braku przesunięcia czasu'",
+        "body": "W przeciwieństwie do angielskiego, rosyjski nie przesuwa czasów \"o jeden krok wstecz\" podczas relacjonowania mowy. Jeśli oryginalny mówca użył czasu teraźniejszego, mowa zależna pozostaje w **czasie teraźniejszym**, nawet jeśli czasownik relacjonujący jest w czasie przeszłym.",
+        "examples": [
+          {
+            "en": "He said that he was working.",
+            "note": "On powiedział, że pracuje."
+          },
+          {
+            "en": "She thought he would come.",
+            "note": "Ona myślała, że przyjdzie."
+          }
+        ]
+      },
+      {
+        "title": "Relacjonowanie stwierdzeń za pomocą Что",
+        "body": "Aby zrelacjonować stwierdzenie, użyj spójnika **что**. Jeśli relacjonujesz czyjeś słowa lub myśli, po prostu połącz zdanie główne ze zdaniem relacjonowanym za pomocą **что**. Pamiętaj, że przed **что** zawsze wymagany jest przecinek.",
+        "examples": [
+          {
+            "en": "They said that they were ready.",
+            "note": "Powiedzieli, że są gotowi."
+          },
+          {
+            "en": "I knew that she was lying.",
+            "note": "Wiedziałem, że kłamie."
+          }
+        ]
+      },
+      {
+        "title": "Pytania o potwierdzenie/zaprzeczenie za pomocą Ли",
+        "body": "Aby zrelacjonować pytanie typu \"tak/nie\", rosyjski używa partykuły **ли**. Umieść **ли** bezpośrednio po konkretnym słowie, o które pytasz (zazwyczaj czasowniku). W tej konstrukcji nie używaj słowa _что_. Działa ono jak angielskie _if_ lub _whether_.",
+        "examples": [
+          {
+            "en": "I asked whether he was at home.",
+            "note": "Zapytałem, czy był w domu."
+          },
+          {
+            "en": "She asked if I knew the answer.",
+            "note": "Zapytała, czy znam odpowiedź."
+          }
+        ]
+      },
+      {
+        "title": "Relacjonowanie pytań WH-",
+        "body": "Podczas relacjonowania pytań używających słów takich jak _kto_, _gdzie_ lub _dlaczego_, po prostu użyj tego słowa pytającego jako łącznika. Szyk zdania zazwyczaj pozostaje taki sam jak w normalnym stwierdzeniu, a czas pozostaje dokładnie taki sam, jak w oryginalnym pytaniu.",
+        "examples": [
+          {
+            "en": "I asked where he lived.",
+            "note": "Zapytałem, gdzie mieszka."
+          },
+          {
+            "en": "He didn't say when he would return.",
+            "note": "Nie powiedział, kiedy wróci."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Die indirekte Rede ist im Russischen einfacher als im Englischen, da sich die **Zeiten nicht ändern**. Diese Hinweise behandeln die Verwendung von Konjunktionen wie _что_ und _ли_ zur Wiedergabe von Aussagen und Fragen.",
+    "notes": [
+      {
+        "title": "Die Regel des \"Kein Tempuswechsel\"",
+        "body": "Im Gegensatz zum Englischen verschiebt das Russische die Zeiten bei der Wiedergabe von Rede nicht \"einen Schritt zurück\". Wenn der ursprüngliche Sprecher den Präsens verwendet hat, bleibt die indirekte Rede im **Präsens**, auch wenn das berichtende Verb in der Vergangenheit steht.",
+        "examples": [
+          {
+            "en": "Er sagte, dass er arbeitete.",
+            "note": null
+          },
+          {
+            "en": "Sie dachte, er würde kommen.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Aussagen mit Что wiedergeben",
+        "body": "Um eine Aussage wiederzugeben, verwenden Sie die Konjunktion **что**. Wenn Sie die Worte oder Gedanken von jemandem wiedergeben, verbinden Sie einfach den Hauptsatz mit dem indirekten Satz durch **что**. Denken Sie daran, dass vor **что** immer ein Komma gesetzt wird.",
+        "examples": [
+          {
+            "en": "Sie sagten, dass sie bereit seien.",
+            "note": null
+          },
+          {
+            "en": "Ich wusste, dass sie log.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Ja/Nein-Fragen mit Ли",
+        "body": "Um eine \"Ja/Nein\"-Frage wiederzugeben, verwendet das Russische die Partikel **ли**. Setzen Sie **ли** direkt nach dem spezifischen Wort, das hinterfragt wird (normalerweise das Verb). Verwenden Sie in dieser Konstruktion nicht das Wort _что_. Es funktioniert wie das deutsche _ob_.",
+        "examples": [
+          {
+            "en": "Ich fragte, ob er zu Hause sei.",
+            "note": null
+          },
+          {
+            "en": "Sie fragte, ob ich die Antwort wüsste.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "WH-Fragen wiedergeben",
+        "body": "Wenn Sie Fragen wiedergeben, die Wörter wie _wer_, _wo_ oder _warum_ verwenden, verwenden Sie einfach dieses Fragewort als Verbindungswort. Die Wortstellung bleibt normalerweise wie in einem normalen Aussagesatz, und die Zeitform bleibt genau so, wie sie in der ursprünglichen Frage war.",
+        "examples": [
+          {
+            "en": "Ich fragte, wo er wohne.",
+            "note": null
+          },
+          {
+            "en": "Er sagte nicht, wann er zurückkehren würde.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}

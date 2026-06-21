@@ -1,0 +1,68 @@
+{
+  "pl": {
+    "intro": "Rosyjskie tryby warunkowe są zaskakująco proste: jedna mała cząstka wykonuje większość pracy.",
+    "notes": [
+      {
+        "title": "Konstrukcja z бы",
+        "body": "Użyj **czasownika w czasie przeszłym + бы** zarówno dla _would_, jak i _would have_. Czas jest określany przez kontekst, a nie gramatykę.",
+        "examples": [
+          {
+            "en": "I'd like a coffee.",
+            "note": "Chciałbym kawę."
+          },
+          {
+            "en": "If I had known, I would have come.",
+            "note": "Gdybym wiedział, przyszedłbym."
+          }
+        ]
+      },
+      {
+        "title": "Warunki realne vs hipotetyczne",
+        "body": "**Warunki realne** używają **если** + tryb oznajmujący (bez _бы_). **Warunki hipotetyczne / kontrfaktyczne** używają **если бы** + czas przeszły, z **бы** również w zdaniu głównym.",
+        "examples": [
+          {
+            "en": "If I have time, I'll call.",
+            "note": "Jeśli będę miał czas, zadzwonię."
+          },
+          {
+            "en": "If I had time, I'd call.",
+            "note": "Gdybym miał czas, zadzwoniłbym."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Russische Konditionalsätze sind überraschend einfach: ein winziges Partikel erledigt die meiste Arbeit.",
+    "notes": [
+      {
+        "title": "Die бы-Konstruktion",
+        "body": "Verwenden Sie **Präteritum + бы** für _würde_ und _hätte_. Die Zeit wird durch den Kontext bestimmt, nicht durch die Grammatik.",
+        "examples": [
+          {
+            "en": "I'd like a coffee.",
+            "note": "Ich hätte gern einen Kaffee."
+          },
+          {
+            "en": "If I had known, I would have come.",
+            "note": "Wenn ich es gewusst hätte, wäre ich gekommen."
+          }
+        ]
+      },
+      {
+        "title": "Reale vs. hypothetische Bedingungen",
+        "body": "**Reale** Bedingungen verwenden **если** + Indikativ (kein _бы_). **Hypothetische / irrealen** Bedingungen verwenden **если бы** + Präteritum, wobei _бы_ auch im Hauptsatz steht.",
+        "examples": [
+          {
+            "en": "If I have time, I'll call.",
+            "note": "Wenn ich Zeit habe, werde ich anrufen."
+          },
+          {
+            "en": "If I had time, I'd call.",
+            "note": "Wenn ich Zeit hätte, würde ich anrufen."
+          }
+        ]
+      }
+    ]
+  }
+}

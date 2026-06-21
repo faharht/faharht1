@@ -1,0 +1,120 @@
+{
+  "pl": {
+    "intro": "Opanuj **biernik** dla dopełnień bliższych i wyrażaj potrzebę lub możliwość za pomocą **czasowników modalnych**. Ten pakiet obejmuje podstawowe struktury zdaniowe do codziennej komunikacji.",
+    "notes": [
+      {
+        "title": "Biernik (Dopełnienie bliższe)",
+        "body": "Biernik używany jest dla dopełnienia bliższego czynności. W przypadku **rzeczowników rodzaju żeńskiego**, końcówka _-а_ zmienia się na **-у**, a _-я_ na **-ю**. W przypadku **rzeczowników rodzaju męskiego**, końcówka zależy od tego, czy jest żywotny: obiekty **nieżywotne** nie zmieniają się, podczas gdy rzeczowniki **żywotne** (ludzie i zwierzęta) przyjmują końcówkę **-а** lub **-я**.",
+        "examples": [
+          {
+            "en": "I'm reading a book.",
+            "note": "Czytam książkę."
+          },
+          {
+            "en": "He sees a friend.",
+            "note": "On widzi przyjaciela."
+          },
+          {
+            "en": "We are buying a computer.",
+            "note": "Kupujemy komputer."
+          }
+        ]
+      },
+      {
+        "title": "Czasowniki modalne: хотеть i мочь",
+        "body": "Aby wyrazić pragnienie lub możliwość, użyj **хотеть** (chcieć) lub **мочь** (móc) z **bezokolicznikiem**. Zauważ, że _хотеть_ ma unikalną koniugację: _хочешь_ w liczbie pojedynczej, ale _хотим_ w liczbie mnogiej. _Мочь_ również znacząco zmienia rdzeń, np. _я могу_ vs _ты можешь_.",
+        "examples": [
+          {
+            "en": "I want to drink coffee.",
+            "note": "Chcę pić kawę."
+          },
+          {
+            "en": "Can you speak Russian?",
+            "note": "Czy potrafisz mówić po rosyjsku?"
+          },
+          {
+            "en": "They want to watch a movie.",
+            "note": "Oni chcą obejrzeć film."
+          }
+        ]
+      },
+      {
+        "title": "Konieczność: должен i нужно",
+        "body": "Aby wyrazić konieczność, użyj **нужно** lub **надо** (zamiennie) lub przymiotnika **должен**. Podczas gdy _нужно_ używane jest z **celownikiem** (osoba potrzebująca), _должен_ działa jak przymiotnik i musi zgadzać się z **rodzajem** i **liczbą** podmiotu. Wszystkie te formy poprzedzają **bezokolicznik**.",
+        "examples": [
+          {
+            "en": "I (masc.) must work.",
+            "note": "Ja (m.) muszę pracować."
+          },
+          {
+            "en": "She must wait.",
+            "note": "Ona musi czekać."
+          },
+          {
+            "en": "We need to go.",
+            "note": "My musimy iść."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "intro": "Meistern Sie den **Akkusativ** für direkte Objekte und drücken Sie Notwendigkeit oder Fähigkeit mit **Modalverben** aus. Dieses Paket behandelt wesentliche Satzstrukturen für die tägliche Kommunikation.",
+    "notes": [
+      {
+        "title": "Der Akkusativ (Direkte Objekte)",
+        "body": "Der Akkusativ wird für das Objekt einer Handlung verwendet. Bei **femininen Substantiven** wird die Endung _-а_ zu **-у** und _-я_ zu **-ю** geändert. Bei **maskulinen Substantiven** hängt die Endung vom Leben ab: **unbelebte** Objekte ändern sich nicht, während **belebte** (Menschen und Tiere) Substantive die Endung **-а** oder **-я** erhalten.",
+        "examples": [
+          {
+            "en": "I'm reading a book.",
+            "note": null
+          },
+          {
+            "en": "He sees a friend.",
+            "note": null
+          },
+          {
+            "en": "We are buying a computer.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Modalverben: хотеть und мочь",
+        "body": "Um Wunsch oder Fähigkeit auszudrücken, verwenden Sie **хотеть** (wollen) oder **мочь** (können), gefolgt von einem **Infinitiv**. Beachten Sie, dass _хотеть_ eine einzigartige Konjugation hat: es ist _хочешь_ im Singular, aber _хотим_ im Plural. _Мочь_ ändert ebenfalls Stämme erheblich, wie z. B. _я могу_ vs. _ты можешь_.",
+        "examples": [
+          {
+            "en": "I want to drink coffee.",
+            "note": null
+          },
+          {
+            "en": "Can you speak Russian?",
+            "note": null
+          },
+          {
+            "en": "They want to watch a movie.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "title": "Notwendigkeit: должен und нужно",
+        "body": "Um Notwendigkeit auszudrücken, verwenden Sie **нужно** oder **надо** (austauschbar) oder das Adjektiv **должен**. Während _нужно_ mit dem **Dativ** (die Person, die es braucht) verwendet wird, fungiert _должен_ wie ein Adjektiv und muss mit **Genus** und **Numerus** des Subjekts übereinstimmen. All dies wird von einem **Infinitiv** gefolgt.",
+        "examples": [
+          {
+            "en": "I (masc.) must work.",
+            "note": null
+          },
+          {
+            "en": "She must wait.",
+            "note": null
+          },
+          {
+            "en": "We need to go.",
+            "note": null
+          }
+        ]
+      }
+    ]
+  }
+}
