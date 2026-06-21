@@ -5,7 +5,8 @@
     "ruStressed": "Э́то о́чень хоро́ший день.",
     "translit": "Eto ochen khoroshiy den.",
     "en": "This is a very good day.",
-    "pl": "To jest bardzo dobry dzień."
+    "pl": "To jest bardzo dobry dzień.",
+    "de": "Das ist ein sehr guter Tag."
   },
   {
     "id": "top-300-adjectives-2",
@@ -13,7 +14,8 @@
     "ruStressed": "Э́то о́чень плохо́й день.",
     "translit": "Eto ochen plokhoy den.",
     "en": "This is a very bad day.",
-    "pl": "To jest bardzo zły dzień."
+    "pl": "To jest bardzo zły dzień.",
+    "de": "Das ist ein sehr schlechter Tag."
   },
   {
     "id": "top-300-adjectives-3",
@@ -21,7 +23,8 @@
     "ruStressed": "Э́то о́чень большо́й дом.",
     "translit": "Eto ochen bolshoy dom.",
     "en": "This is a very big house.",
-    "pl": "To jest bardzo duży dom."
+    "pl": "To jest bardzo duży dom.",
+    "de": "Das ist ein sehr großes Haus."
   },
   {
     "id": "top-300-adjectives-4",
@@ -29,7 +32,8 @@
     "ruStressed": "Э́то о́чень ма́ленький дом.",
     "translit": "Eto ochen malenkiy dom.",
     "en": "This is a very small house.",
-    "pl": "To jest bardzo mały dom."
+    "pl": "To jest bardzo mały dom.",
+    "de": "Das ist ein sehr kleines Haus."
   },
   {
     "id": "top-300-adjectives-5",
@@ -37,7 +41,8 @@
     "ruStressed": "Э́то о́чень но́вый фильм.",
     "translit": "Eto ochen novyy film.",
     "en": "This is a very new film.",
-    "pl": "To jest bardzo nowy film."
+    "pl": "To jest bardzo nowy film.",
+    "de": "Das ist ein sehr neuer Film."
   },
   {
     "id": "top-300-adjectives-6",
@@ -45,7 +50,8 @@
     "ruStressed": "Э́то о́чень ста́рый дом.",
     "translit": "Eto ochen staryy dom.",
     "en": "This is a very old house.",
-    "pl": "To jest bardzo stary dom."
+    "pl": "To jest bardzo stary dom.",
+    "de": "Das ist ein sehr altes Haus."
   },
   {
     "id": "top-300-adjectives-7",
@@ -53,7 +59,8 @@
     "ruStressed": "Э́то о́чень молодо́й челове́к.",
     "translit": "Eto ochen molodoy chelovek.",
     "en": "This is a very young person.",
-    "pl": "To jest bardzo młoda osoba."
+    "pl": "To jest bardzo młoda osoba.",
+    "de": "Das ist eine sehr junge Person."
   },
   {
     "id": "top-300-adjectives-8",
@@ -61,7 +68,8 @@
     "ruStressed": "Э́то о́чень краси́вый го́род.",
     "translit": "Eto ochen krasivyy gorod.",
     "en": "This is a very beautiful city.",
-    "pl": "To jest bardzo piękne miasto."
+    "pl": "To jest bardzo piękne miasto.",
+    "de": "Das ist eine sehr schöne Stadt."
   },
   {
     "id": "top-300-adjectives-9",
@@ -69,7 +77,8 @@
     "ruStressed": "Э́то о́чень у́мный челове́к.",
     "translit": "Eto ochen umnyy chelovek.",
     "en": "This is a very smart person.",
-    "pl": "To jest bardzo mądra osoba."
+    "pl": "To jest bardzo mądra osoba.",
+    "de": "Das ist eine sehr kluge Person."
   },
   {
     "id": "top-300-adjectives-10",
@@ -77,7 +86,8 @@
     "ruStressed": "Э́то о́чень глу́пый отве́т.",
     "translit": "Eto ochen glupyy otvet.",
     "en": "This is a very stupid answer.",
-    "pl": "To jest bardzo głupia odpowiedź."
+    "pl": "To jest bardzo głupia odpowiedź.",
+    "de": "Das ist eine sehr dumme Antwort."
   },
   {
     "id": "top-300-adjectives-11",
@@ -85,7 +95,8 @@
     "ruStressed": "Э́то о́чень до́брый челове́к.",
     "translit": "Eto ochen dobryy chelovek.",
     "en": "This is a very kind person.",
-    "pl": "To jest bardzo dobra osoba."
+    "pl": "To jest bardzo dobra osoba.",
+    "de": "Das ist eine sehr freundliche Person."
   },
   {
     "id": "top-300-adjectives-12",
@@ -93,7 +104,8 @@
     "ruStressed": "Э́то о́чень злой челове́к.",
     "translit": "Eto ochen zloy chelovek.",
     "en": "This is a very angry person.",
-    "pl": "To jest bardzo zła osoba."
+    "pl": "To jest bardzo zła osoba.",
+    "de": "Das ist eine sehr wütende Person."
   },
   {
     "id": "top-300-adjectives-13",
@@ -101,7 +113,8 @@
     "ruStressed": "Э́то о́чень весёлый челове́к.",
     "translit": "Eto ochen vesyolyy chelovek.",
     "en": "This is a very cheerful person.",
-    "pl": "To jest bardzo wesoła osoba."
+    "pl": "To jest bardzo wesoła osoba.",
+    "de": "Das ist eine sehr fröhliche Person."
   },
   {
     "id": "top-300-adjectives-14",
@@ -109,7 +122,8 @@
     "ruStressed": "Э́то о́чень гру́стный фильм.",
     "translit": "Eto ochen grustnyy film.",
     "en": "This is a very sad film.",
-    "pl": "To jest bardzo smutny film."
+    "pl": "To jest bardzo smutny film.",
+    "de": "Das ist ein sehr trauriger Film."
   },
   {
     "id": "top-300-adjectives-15",
@@ -117,7 +131,8 @@
     "ruStressed": "Э́то о́чень счастли́вый челове́к.",
     "translit": "Eto ochen schastlivyy chelovek.",
     "en": "This is a very happy person.",
-    "pl": "To jest bardzo szczęśliwa osoba."
+    "pl": "To jest bardzo szczęśliwa osoba.",
+    "de": "Das ist eine sehr glückliche Person."
   },
   {
     "id": "top-300-adjectives-16",
@@ -125,7 +140,8 @@
     "ruStressed": "Э́то о́чень дли́нный день.",
     "translit": "Eto ochen dlinnyy den.",
     "en": "This is a very long day.",
-    "pl": "To jest bardzo długi dzień."
+    "pl": "To jest bardzo długi dzień.",
+    "de": "Das ist ein sehr langer Tag."
   },
   {
     "id": "top-300-adjectives-17",
@@ -133,7 +149,8 @@
     "ruStressed": "Э́то о́чень коро́ткий отве́т.",
     "translit": "Eto ochen korotkiy otvet.",
     "en": "This is a very short answer.",
-    "pl": "To jest bardzo krótka odpowiedź."
+    "pl": "To jest bardzo krótka odpowiedź.",
+    "de": "Das ist eine sehr kurze Antwort."
   },
   {
     "id": "top-300-adjectives-18",
@@ -141,7 +158,8 @@
     "ruStressed": "Э́то о́чень высо́кий челове́к.",
     "translit": "Eto ochen vysokiy chelovek.",
     "en": "This is a very tall person.",
-    "pl": "To jest bardzo wysoka osoba."
+    "pl": "To jest bardzo wysoka osoba.",
+    "de": "Das ist eine sehr große Person."
   },
   {
     "id": "top-300-adjectives-19",
@@ -149,7 +167,8 @@
     "ruStressed": "Э́то о́чень ни́зкий дом.",
     "translit": "Eto ochen nizkiy dom.",
     "en": "This is a very short house.",
-    "pl": "To jest bardzo niski dom."
+    "pl": "To jest bardzo niski dom.",
+    "de": "Das ist ein sehr niedriges Haus."
   },
   {
     "id": "top-300-adjectives-20",
@@ -157,7 +176,8 @@
     "ruStressed": "Э́то о́чень широ́кий го́род.",
     "translit": "Eto ochen shirokiy gorod.",
     "en": "This is a very wide city.",
-    "pl": "To jest bardzo rozległe miasto."
+    "pl": "To jest bardzo rozległe miasto.",
+    "de": "Das ist eine sehr breite Stadt."
   },
   {
     "id": "top-300-adjectives-21",
@@ -165,7 +185,8 @@
     "ruStressed": "Э́то о́чень у́зкий дом.",
     "translit": "Eto ochen uzkiy dom.",
     "en": "This is a very narrow house.",
-    "pl": "To jest bardzo wąski dom."
+    "pl": "To jest bardzo wąski dom.",
+    "de": "Das ist ein sehr schmales Haus."
   },
   {
     "id": "top-300-adjectives-22",
@@ -173,7 +194,8 @@
     "ruStressed": "Э́то о́чень тяжёлый день.",
     "translit": "Eto ochen tyazhyolyy den.",
     "en": "This is a very heavy day.",
-    "pl": "To jest bardzo ciężki dzień."
+    "pl": "To jest bardzo ciężki dzień.",
+    "de": "Das ist ein sehr schwerer Tag."
   },
   {
     "id": "top-300-adjectives-23",
@@ -181,7 +203,8 @@
     "ruStressed": "Э́то о́чень лёгкий вопро́с.",
     "translit": "Eto ochen lyogkiy vopros.",
     "en": "This is a very light question.",
-    "pl": "To jest bardzo łatwe pytanie."
+    "pl": "To jest bardzo łatwe pytanie.",
+    "de": "Das ist eine sehr leichte Frage."
   },
   {
     "id": "top-300-adjectives-24",
@@ -189,7 +212,8 @@
     "ruStressed": "Э́то о́чень си́льный челове́к.",
     "translit": "Eto ochen silnyy chelovek.",
     "en": "This is a very strong person.",
-    "pl": "To jest bardzo silna osoba."
+    "pl": "To jest bardzo silna osoba.",
+    "de": "Das ist eine sehr starke Person."
   },
   {
     "id": "top-300-adjectives-25",
@@ -197,7 +221,8 @@
     "ruStressed": "Э́то о́чень сла́бый отве́т.",
     "translit": "Eto ochen slabyy otvet.",
     "en": "This is a very weak answer.",
-    "pl": "To jest bardzo słaba odpowiedź."
+    "pl": "To jest bardzo słaba odpowiedź.",
+    "de": "Das ist eine sehr schwache Antwort."
   },
   {
     "id": "top-300-adjectives-26",
@@ -205,7 +230,8 @@
     "ruStressed": "Э́то о́чень бы́стрый отве́т.",
     "translit": "Eto ochen bystryy otvet.",
     "en": "This is a very fast answer.",
-    "pl": "To jest bardzo szybka odpowiedź."
+    "pl": "To jest bardzo szybka odpowiedź.",
+    "de": "Das ist eine sehr schnelle Antwort."
   },
   {
     "id": "top-300-adjectives-27",
@@ -213,7 +239,8 @@
     "ruStressed": "Э́то о́чень ме́дленный день.",
     "translit": "Eto ochen medlennyy den.",
     "en": "This is a very slow day.",
-    "pl": "To jest bardzo powolny dzień."
+    "pl": "To jest bardzo powolny dzień.",
+    "de": "Das ist ein sehr langsamer Tag."
   },
   {
     "id": "top-300-adjectives-28",
@@ -221,7 +248,8 @@
     "ruStressed": "Э́то о́чень горя́чий день.",
     "translit": "Eto ochen goryachiy den.",
     "en": "This is a very hot day.",
-    "pl": "To jest bardzo gorący dzień."
+    "pl": "To jest bardzo gorący dzień.",
+    "de": "Das ist ein sehr heißer Tag."
   },
   {
     "id": "top-300-adjectives-29",
@@ -229,7 +257,8 @@
     "ruStressed": "Э́то о́чень холо́дный день.",
     "translit": "Eto ochen kholodnyy den.",
     "en": "This is a very cold day.",
-    "pl": "To jest bardzo zimny dzień."
+    "pl": "To jest bardzo zimny dzień.",
+    "de": "Das ist ein sehr kalter Tag."
   },
   {
     "id": "top-300-adjectives-30",
@@ -237,7 +266,8 @@
     "ruStressed": "Э́то о́чень тёплый день.",
     "translit": "Eto ochen tyoplyy den.",
     "en": "This is a very warm day.",
-    "pl": "To jest bardzo ciepły dzień."
+    "pl": "To jest bardzo ciepły dzień.",
+    "de": "Das ist ein sehr warmer Tag."
   },
   {
     "id": "top-300-adjectives-31",
@@ -245,7 +275,8 @@
     "ruStressed": "Э́то о́чень све́жий отве́т.",
     "translit": "Eto ochen svezhiy otvet.",
     "en": "This is a very fresh answer.",
-    "pl": "To jest bardzo świeża odpowiedź."
+    "pl": "To jest bardzo świeża odpowiedź.",
+    "de": "Das ist eine sehr frische Antwort."
   },
   {
     "id": "top-300-adjectives-32",
@@ -253,7 +284,8 @@
     "ruStressed": "Э́то о́чень чи́стый дом.",
     "translit": "Eto ochen chistyy dom.",
     "en": "This is a very clean house.",
-    "pl": "To jest bardzo czysty dom."
+    "pl": "To jest bardzo czysty dom.",
+    "de": "Das ist ein sehr sauberes Haus."
   },
   {
     "id": "top-300-adjectives-33",
@@ -261,7 +293,8 @@
     "ruStressed": "Э́то о́чень гря́зный дом.",
     "translit": "Eto ochen gryaznyy dom.",
     "en": "This is a very dirty house.",
-    "pl": "To jest bardzo brudny dom."
+    "pl": "To jest bardzo brudny dom.",
+    "de": "Das ist ein sehr schmutziges Haus."
   },
   {
     "id": "top-300-adjectives-34",
@@ -269,7 +302,8 @@
     "ruStressed": "Э́то о́чень дорого́й фильм.",
     "translit": "Eto ochen dorogoy film.",
     "en": "This is a very expensive film.",
-    "pl": "To jest bardzo drogi film."
+    "pl": "To jest bardzo drogi film.",
+    "de": "Das ist ein sehr teurer Film."
   },
   {
     "id": "top-300-adjectives-35",
@@ -277,7 +311,8 @@
     "ruStressed": "Э́то о́чень дешёвый дом.",
     "translit": "Eto ochen deshyovyy dom.",
     "en": "This is a very cheap house.",
-    "pl": "To jest bardzo tani dom."
+    "pl": "To jest bardzo tani dom.",
+    "de": "Das ist ein sehr billiges Haus."
   },
   {
     "id": "top-300-adjectives-36",
@@ -285,7 +320,8 @@
     "ruStressed": "Э́то о́чень бога́тый челове́к.",
     "translit": "Eto ochen bogatyy chelovek.",
     "en": "This is a very rich person.",
-    "pl": "To jest bardzo bogata osoba."
+    "pl": "To jest bardzo bogata osoba.",
+    "de": "Das ist eine sehr reiche Person."
   },
   {
     "id": "top-300-adjectives-37",
@@ -293,7 +329,8 @@
     "ruStressed": "Э́то о́чень бе́дный челове́к.",
     "translit": "Eto ochen bednyy chelovek.",
     "en": "This is a very poor person.",
-    "pl": "To jest bardzo biedna osoba."
+    "pl": "To jest bardzo biedna osoba.",
+    "de": "Das ist eine sehr arme Person."
   },
   {
     "id": "top-300-adjectives-38",
@@ -301,7 +338,8 @@
     "ruStressed": "Э́то о́чень ва́жный вопро́с.",
     "translit": "Eto ochen vazhnyy vopros.",
     "en": "This is a very important question.",
-    "pl": "To jest bardzo ważne pytanie."
+    "pl": "To jest bardzo ważne pytanie.",
+    "de": "Das ist eine sehr wichtige Frage."
   },
   {
     "id": "top-300-adjectives-39",
@@ -309,7 +347,8 @@
     "ruStressed": "Э́то о́чень просто́й вопро́с.",
     "translit": "Eto ochen prostoy vopros.",
     "en": "This is a very simple question.",
-    "pl": "To jest bardzo proste pytanie."
+    "pl": "To jest bardzo proste pytanie.",
+    "de": "Das ist eine sehr einfache Frage."
   },
   {
     "id": "top-300-adjectives-40",
@@ -317,7 +356,8 @@
     "ruStressed": "Э́то о́чень сло́жный вопро́с.",
     "translit": "Eto ochen slozhnyy vopros.",
     "en": "This is a very complex question.",
-    "pl": "To jest bardzo trudne pytanie."
+    "pl": "To jest bardzo trudne pytanie.",
+    "de": "Das ist eine sehr komplexe Frage."
   },
   {
     "id": "top-300-adjectives-41",
