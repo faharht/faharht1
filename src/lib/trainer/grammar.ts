@@ -1,13 +1,21 @@
 export interface GrammarExample {
   ru: string;
   en: string;
+  en_pl?: string;
+  en_de?: string;
   note?: string;
+  note_pl?: string;
+  note_de?: string;
 }
 
 export interface GrammarNote {
   title: string;
+  title_pl?: string;
+  title_de?: string;
   // Markdown-lite: **bold** and _italic_ supported by renderInline().
   body: string;
+  body_pl?: string;
+  body_de?: string;
   examples?: GrammarExample[];
   /** Explicit sentence IDs from the same list to surface under the note. */
   matchIds?: string[];
@@ -19,6 +27,8 @@ export interface GrammarNote {
 export interface GrammarPack {
   listId: string;
   intro?: string;
+  intro_pl?: string;
+  intro_de?: string;
   tags?: GrammarTag[];
   notes: GrammarNote[];
 }
