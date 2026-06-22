@@ -18,6 +18,7 @@ import { ChangeGoalDialog } from "@/components/profile/ChangeGoalDialog";
 import { cn } from "@/lib/utils";
 import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
+import { UserSuggestions } from "@/components/Suggestions";
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
