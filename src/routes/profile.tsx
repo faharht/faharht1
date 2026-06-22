@@ -295,6 +295,9 @@ function ProfilePage() {
           </p>
         </section>
 
+        {/* Suggestions — chat with the admin */}
+        <UserSuggestions />
+
         <span className="hidden">{BANDS.length}</span>
       </main>
 
