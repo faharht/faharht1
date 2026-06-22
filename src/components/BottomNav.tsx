@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { Home, User, Wrench, Shield } from "lucide-react";
+import { Home, User, Shield } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/useT";
@@ -37,10 +37,9 @@ export function BottomNav() {
   // Hide on auth screen
   if (pathname.startsWith("/auth")) return null;
 
-  type NavTo = "/" | "/utilities" | "/profile" | "/admin";
+  type NavTo = "/" | "/profile" | "/admin";
   const items: { to: NavTo; label: string; icon: typeof Home; match: (p: string) => boolean }[] = [
     { to: "/", label: t("nav.home"), icon: Home, match: (p) => p === "/" },
-    { to: "/utilities", label: "Utilities", icon: Wrench, match: (p) => p.startsWith("/utilities") },
     { to: "/profile", label: t("nav.profile"), icon: User, match: (p) => p.startsWith("/profile") },
   ];
   if (isAdmin) {
