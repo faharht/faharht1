@@ -186,6 +186,11 @@ function ListPage() {
 
   function playOne(idx: number) {
     if (!hasSpeech()) return;
+    if (isGuest && idx >= GUEST_AUDIO_LIMIT) {
+      toast.info(t("guestLock.toast"));
+      navigate({ to: "/auth", search: { mode: "signin" } });
+      return;
+    }
     stopSpeaking();
     setPlayingAll(false);
     cancelRef.current = true;
@@ -210,8 +215,13 @@ function ListPage() {
     });
   }
 
-  function playWord(word: string) {
+  function playWord(word: string, idx?: number) {
     if (!hasSpeech()) return;
+    if (isGuest && typeof idx === "number" && idx >= GUEST_AUDIO_LIMIT) {
+      toast.info(t("guestLock.toast"));
+      navigate({ to: "/auth", search: { mode: "signin" } });
+      return;
+    }
     speak(word, { rate: settings.speed });
   }
 
@@ -219,7 +229,10 @@ function ListPage() {
     if (!hasSpeech()) return;
     setPlayingAll(true);
     cancelRef.current = false;
-    for (let i = 0; i < visibleSentences.length; i++) {
+    const limit = isGuest
+      ? Math.min(visibleSentences.length, GUEST_AUDIO_LIMIT)
+      : visibleSentences.length;
+    for (let i = 0; i < limit; i++) {
       if (cancelRef.current) break;
       setCurrentIdx(i);
       setActiveWord(null);
