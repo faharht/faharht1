@@ -19,7 +19,9 @@ import {
   X,
 } from "lucide-react";
 import { findList, TONE_CLASSES, LEVELS } from "@/lib/trainer/levels";
-import { getSentences } from "@/lib/trainer/sentences";
+import { sentencesQueryOptions } from "@/lib/trainer/sentences";
+import { useQuery } from "@tanstack/react-query";
+
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
@@ -67,7 +69,7 @@ function ListPage() {
   const notifyGoal = useNotifyGoal();
 
   const { meta } = Route.useLoaderData();
-  const sentences = useMemo(() => getSentences(meta.id), [meta.id]);
+  const { data: sentences = [], isLoading: sentencesLoading } = useQuery(sentencesQueryOptions(meta.id));
   const settings = useTrainerStore((s) => s.settings);
   const progress = useTrainerStore((s) => s.progress);
   const favorites = useTrainerStore((s) => s.favorites);
