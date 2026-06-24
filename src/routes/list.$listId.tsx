@@ -626,12 +626,17 @@ function ListenCard({
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-xs font-semibold text-primary">#{idx + 1}</span>
         <button
-          onClick={onPlay}
+          onClick={locked ? onUnlock : onPlay}
           disabled={!speechReady}
-          className="grid h-10 w-10 place-items-center rounded-lg border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 disabled:opacity-40"
-          aria-label={t("list.card.playSentence")}
+          className={cn(
+            "grid h-10 w-10 place-items-center rounded-lg border disabled:opacity-40",
+            locked
+              ? "border-amber-300 bg-amber-50 text-amber-700 hover:bg-amber-100"
+              : "border-primary/30 bg-primary/5 text-primary hover:bg-primary/10",
+          )}
+          aria-label={locked ? t("guestLock.cardTitle") : t("list.card.playSentence")}
         >
-          <Volume2 className="h-4 w-4" />
+          {locked ? <Lock className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
         </button>
         <button
           onClick={onToggleFav}
