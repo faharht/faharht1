@@ -76,11 +76,11 @@ function AuthPage() {
     }
   }
 
-  async function handleGoogle() {
+  async function handleOAuth(provider: "google" | "apple") {
     setBusy(true);
     setError(null);
     try {
-      const result = await lovable.auth.signInWithOAuth("google", {
+      const result = await lovable.auth.signInWithOAuth(provider, {
         redirect_uri: window.location.origin + "/profile",
       });
       if (result.error) {
@@ -95,6 +95,7 @@ function AuthPage() {
       setBusy(false);
     }
   }
+
 
   return (
     <div className="min-h-screen bg-[oklch(0.985_0.008_180)]">
@@ -148,13 +149,24 @@ function AuthPage() {
 
           <button
             type="button"
-            onClick={handleGoogle}
+            onClick={() => handleOAuth("google")}
             disabled={busy}
             className="mt-4 flex h-10 w-full items-center justify-center gap-2 rounded-md border border-border/60 bg-background text-sm font-semibold text-foreground hover:bg-muted disabled:opacity-60"
           >
             <GoogleIcon />
             {t("auth.google")}
           </button>
+
+          <button
+            type="button"
+            onClick={() => handleOAuth("apple")}
+            disabled={busy}
+            className="mt-2 flex h-10 w-full items-center justify-center gap-2 rounded-md border border-border/60 bg-foreground text-sm font-semibold text-background hover:bg-foreground/90 disabled:opacity-60"
+          >
+            <AppleIcon />
+            Continue with Apple
+          </button>
+
 
           <div className="relative my-4 text-center">
             <span className="absolute inset-x-0 top-1/2 -z-10 border-t border-border/60" />
@@ -216,6 +228,14 @@ function GoogleIcon() {
         fill="#EA4335"
         d="M12 10.2v3.9h5.5c-.24 1.4-1.7 4.1-5.5 4.1-3.3 0-6-2.7-6-6.2s2.7-6.2 6-6.2c1.9 0 3.2.8 3.9 1.5l2.7-2.6C16.9 3 14.7 2 12 2 6.9 2 2.8 6.1 2.8 11.2c0 5.1 4.1 9.2 9.2 9.2 5.3 0 8.8-3.7 8.8-9 0-.6-.07-1-.16-1.2H12z"
       />
+    </svg>
+  );
+}
+
+function AppleIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-4 w-4" aria-hidden="true" fill="currentColor">
+      <path d="M16.365 12.34c.02-2.13 1.74-3.15 1.82-3.2-.99-1.45-2.53-1.65-3.08-1.67-1.31-.13-2.56.77-3.23.77-.68 0-1.7-.75-2.8-.73-1.44.02-2.77.84-3.51 2.13-1.5 2.6-.38 6.44 1.07 8.55.72 1.04 1.57 2.2 2.68 2.16 1.08-.04 1.49-.7 2.79-.7 1.3 0 1.67.7 2.81.68 1.16-.02 1.89-1.05 2.6-2.09.82-1.2 1.16-2.37 1.18-2.43-.03-.01-2.26-.87-2.28-3.47zM14.3 5.94c.6-.72 1-1.72.89-2.72-.86.04-1.9.57-2.51 1.29-.55.64-1.04 1.66-.91 2.64.96.07 1.94-.49 2.53-1.21z"/>
     </svg>
   );
 }
