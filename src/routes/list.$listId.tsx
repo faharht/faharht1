@@ -392,12 +392,19 @@ function ListPage() {
           </div>
         )}
 
-        {!sentences.length && (
+        {sentencesLoading && (
+          <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
+            <p className="text-sm font-semibold text-foreground">{t("common.pleaseWait")}</p>
+          </div>
+        )}
+
+        {!sentencesLoading && !sentences.length && (
           <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
             <p className="text-sm font-semibold text-foreground">{t("list.empty.cookingTitle")}</p>
             <p className="mt-1 text-xs text-muted-foreground">{t("list.empty.cookingDesc")}</p>
           </div>
         )}
+
 
         {sentences.length > 0 && visibleSentences.length === 0 && (
           <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
