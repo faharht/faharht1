@@ -1,5 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Award, CalendarCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import {
@@ -20,6 +21,7 @@ import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
 import { UserSuggestions } from "@/components/Suggestions";
 import { AvatarUploader } from "@/components/AvatarUploader";
+import { sessionUserQueryOptions, profileQueryOptions } from "@/lib/userQueries";
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
@@ -31,18 +33,24 @@ export const Route = createFileRoute("/profile")({
       },
     ],
   }),
+  loader: async ({ context }) => {
+    const user = await context.queryClient.ensureQueryData(sessionUserQueryOptions);
+    if (user) {
+      context.queryClient.prefetchQuery(profileQueryOptions(user.id));
+    }
+  },
   component: ProfilePage,
 });
 
-type SessionUser = { id: string; email: string | null; emailConfirmed: boolean } | null;
 
 function ProfilePage() {
   useDayTick();
   const { t } = useT();
   const navigate = useNavigate();
-  const [user, setUser] = useState<SessionUser>(null);
-  const [loading, setLoading] = useState(true);
+  const queryClient = useQueryClient();
+  const { data: user = null, isLoading: loading } = useQuery(sessionUserQueryOptions);
   const [goalDialog, setGoalDialog] = useState(false);
+
 
   const progress = useTrainerStore((s) => s.progress);
   const favorites = useTrainerStore((s) => s.favorites);
@@ -64,36 +72,14 @@ function ProfilePage() {
   const [resendError, setResendError] = useState<string | null>(null);
 
   useEffect(() => {
-    let mounted = true;
-    supabase.auth.getUser().then(({ data }) => {
-      if (!mounted) return;
-      setUser(
-        data.user
-          ? {
-              id: data.user.id,
-              email: data.user.email ?? null,
-              emailConfirmed: !!data.user.email_confirmed_at,
-            }
-          : null,
-      );
-      setLoading(false);
+    const { data: sub } = supabase.auth.onAuthStateChange((event) => {
+      if (event === "SIGNED_IN" || event === "SIGNED_OUT" || event === "USER_UPDATED") {
+        queryClient.invalidateQueries({ queryKey: ["sessionUser"] });
+      }
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(
-        session?.user
-          ? {
-              id: session.user.id,
-              email: session.user.email ?? null,
-              emailConfirmed: !!session.user.email_confirmed_at,
-            }
-          : null,
-      );
-    });
-    return () => {
-      mounted = false;
-      sub.subscription.unsubscribe();
-    };
-  }, []);
+    return () => sub.subscription.unsubscribe();
+  }, [queryClient]);
+
 
   async function handleResendVerification() {
     if (!user?.email) return;
@@ -170,8 +156,9 @@ function ProfilePage() {
 
   async function handleSignOut() {
     await supabase.auth.signOut();
-    setUser(null);
+    queryClient.setQueryData(["sessionUser"], null);
   }
+
 
   function handleGoalConfirm(goal: ChallengeGoal) {
     if (challenge) resetChallengeWithNewGoal(goal);

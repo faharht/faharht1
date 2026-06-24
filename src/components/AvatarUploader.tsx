@@ -1,6 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Camera, Loader2, Trash2 } from "lucide-react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
+import { profileQueryOptions } from "@/lib/userQueries";
 
 const SIGNED_URL_TTL = 60 * 60 * 24 * 7; // 7 days
 
@@ -11,38 +13,14 @@ export function AvatarUploader({
   userId: string;
   fallbackChar: string;
 }) {
-  const [avatarPath, setAvatarPath] = useState<string | null>(null);
-  const [signedUrl, setSignedUrl] = useState<string | null>(null);
-  const [displayName, setDisplayName] = useState<string | null>(null);
+  const queryClient = useQueryClient();
+  const { data: profile } = useQuery(profileQueryOptions(userId));
+  const avatarPath = profile?.avatarPath ?? null;
+  const signedUrl = profile?.avatarUrl ?? null;
+  const displayName = profile?.displayName ?? null;
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement | null>(null);
-
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      const { data } = await supabase
-        .from("profiles")
-        .select("avatar_url, display_name")
-        .eq("id", userId)
-        .maybeSingle();
-      if (cancelled) return;
-      const path = data?.avatar_url ?? null;
-      setAvatarPath(path);
-      setDisplayName(data?.display_name ?? null);
-      if (path) {
-        const { data: s } = await supabase.storage
-          .from("avatars")
-          .createSignedUrl(path, SIGNED_URL_TTL);
-        if (!cancelled) setSignedUrl(s?.signedUrl ?? null);
-      } else {
-        setSignedUrl(null);
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, [userId]);
 
   async function onPick(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -70,7 +48,6 @@ export function AvatarUploader({
       return;
     }
 
-    // Delete old object
     if (avatarPath && avatarPath !== path) {
       await supabase.storage.from("avatars").remove([avatarPath]).catch(() => {});
     }
@@ -83,11 +60,14 @@ export function AvatarUploader({
       setBusy(false);
       return;
     }
-    setAvatarPath(path);
     const { data: s } = await supabase.storage
       .from("avatars")
       .createSignedUrl(path, SIGNED_URL_TTL);
-    setSignedUrl(s?.signedUrl ?? null);
+    queryClient.setQueryData(profileQueryOptions(userId).queryKey, {
+      displayName,
+      avatarPath: path,
+      avatarUrl: s?.signedUrl ?? null,
+    });
     setBusy(false);
   }
 
@@ -96,8 +76,11 @@ export function AvatarUploader({
     setBusy(true);
     await supabase.storage.from("avatars").remove([avatarPath]).catch(() => {});
     await supabase.from("profiles").upsert({ id: userId, avatar_url: null }, { onConflict: "id" });
-    setAvatarPath(null);
-    setSignedUrl(null);
+    queryClient.setQueryData(profileQueryOptions(userId).queryKey, {
+      displayName,
+      avatarPath: null,
+      avatarUrl: null,
+    });
     setBusy(false);
   }
 
