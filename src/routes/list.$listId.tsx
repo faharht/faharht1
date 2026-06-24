@@ -572,10 +572,12 @@ function ListenCard({
   textSizeClass,
   toneBorder,
   speechReady,
+  locked,
   onPlay,
   onPlayWord,
   onStars,
   onToggleFav,
+  onUnlock,
 }: {
   idx: number;
   sentence: { id: string; ru: string; ruStressed?: string; en: string; pl?: string; translit?: string };
@@ -590,10 +592,12 @@ function ListenCard({
   textSizeClass: string;
   toneBorder: string;
   speechReady: boolean;
+  locked: boolean;
   onPlay: () => void;
   onPlayWord: (word: string) => void;
   onStars: (v: number) => void;
   onToggleFav: () => void;
+  onUnlock: () => void;
 }) {
   const { t } = useT();
   const [revealed, setRevealed] = useState(false);
