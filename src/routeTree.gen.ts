@@ -16,6 +16,7 @@ import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ListListIdRouteImport } from './routes/list.$listId'
+import { Route as AdminSentencesRouteImport } from './routes/admin.sentences'
 
 const UtilitiesRoute = UtilitiesRouteImport.update({
   id: '/utilities',
@@ -52,33 +53,41 @@ const ListListIdRoute = ListListIdRouteImport.update({
   path: '/list/$listId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminSentencesRoute = AdminSentencesRouteImport.update({
+  id: '/sentences',
+  path: '/sentences',
+  getParentRoute: () => AdminRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
   '/onboarding': typeof OnboardingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
+  '/admin/sentences': typeof AdminSentencesRoute
   '/list/$listId': typeof ListListIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
   '/onboarding': typeof OnboardingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
+  '/admin/sentences': typeof AdminSentencesRoute
   '/list/$listId': typeof ListListIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
   '/onboarding': typeof OnboardingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
+  '/admin/sentences': typeof AdminSentencesRoute
   '/list/$listId': typeof ListListIdRoute
 }
 export interface FileRouteTypes {
@@ -90,6 +99,7 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/profile'
     | '/utilities'
+    | '/admin/sentences'
     | '/list/$listId'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -99,6 +109,7 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/profile'
     | '/utilities'
+    | '/admin/sentences'
     | '/list/$listId'
   id:
     | '__root__'
@@ -108,12 +119,13 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/profile'
     | '/utilities'
+    | '/admin/sentences'
     | '/list/$listId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AdminRoute: typeof AdminRoute
+  AdminRoute: typeof AdminRouteWithChildren
   AuthRoute: typeof AuthRoute
   OnboardingRoute: typeof OnboardingRoute
   ProfileRoute: typeof ProfileRoute
@@ -172,12 +184,29 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ListListIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin/sentences': {
+      id: '/admin/sentences'
+      path: '/sentences'
+      fullPath: '/admin/sentences'
+      preLoaderRoute: typeof AdminSentencesRouteImport
+      parentRoute: typeof AdminRoute
+    }
   }
 }
 
+interface AdminRouteChildren {
+  AdminSentencesRoute: typeof AdminSentencesRoute
+}
+
+const AdminRouteChildren: AdminRouteChildren = {
+  AdminSentencesRoute: AdminSentencesRoute,
+}
+
+const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AdminRoute: AdminRoute,
+  AdminRoute: AdminRouteWithChildren,
   AuthRoute: AuthRoute,
   OnboardingRoute: OnboardingRoute,
   ProfileRoute: ProfileRoute,
