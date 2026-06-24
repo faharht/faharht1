@@ -236,7 +236,7 @@ function ComposeDialog({
 
     const { data, error } = await supabase
       .from("suggestions")
-      .insert({ user_id: userId, user_email: userEmail, subject: subject.trim() })
+      .insert({ user_id: userId, subject: subject.trim() })
       .select()
       .single();
     if (error || !data) {

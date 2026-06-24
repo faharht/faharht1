@@ -1,15 +1,32 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, redirect, useNavigate, isRedirect } from "@tanstack/react-router";
 import { useEffect, useState, useCallback } from "react";
 import { ArrowLeft, ShieldAlert, Trash2, RotateCcw, AlertOctagon, ClipboardList, MessagesSquare } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { ThreadView, type Thread, RESTORE_WINDOW_DAYS } from "@/components/Suggestions";
 import { ConfirmDialog } from "@/components/ConfirmDialog";
+import { checkIsAdmin } from "@/lib/admin.functions";
 
 export const Route = createFileRoute("/admin")({
   ssr: false,
   head: () => ({ meta: [{ title: "Admin — Russian Master" }] }),
+  beforeLoad: async () => {
+    // Server-side admin gate: requireSupabaseAuth validates the bearer token,
+    // then has_role() checks the admin role. UI-level dev-tools toggles
+    // cannot reach this check.
+    const { data: sess } = await supabase.auth.getSession();
+    if (!sess.session) throw redirect({ to: "/auth" });
+    try {
+      const { isAdmin } = await checkIsAdmin();
+      if (!isAdmin) throw redirect({ to: "/" });
+    } catch (err) {
+      if (isRedirect(err)) throw err;
+      throw redirect({ to: "/" });
+    }
+
+  },
   component: AdminPage,
 });
+
 
 type AuditEntry = {
   id: string;
