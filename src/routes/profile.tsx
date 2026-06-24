@@ -34,7 +34,7 @@ export const Route = createFileRoute("/profile")({
   component: ProfilePage,
 });
 
-type SessionUser = { id: string; email: string | null } | null;
+type SessionUser = { id: string; email: string | null; emailConfirmed: boolean } | null;
 
 function ProfilePage() {
   useDayTick();
@@ -60,21 +60,57 @@ function ProfilePage() {
 
   const effectiveGoal = challenge?.goal ?? dailyGoal;
 
+  const [resendState, setResendState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [resendError, setResendError] = useState<string | null>(null);
+
   useEffect(() => {
     let mounted = true;
     supabase.auth.getUser().then(({ data }) => {
       if (!mounted) return;
-      setUser(data.user ? { id: data.user.id, email: data.user.email ?? null } : null);
+      setUser(
+        data.user
+          ? {
+              id: data.user.id,
+              email: data.user.email ?? null,
+              emailConfirmed: !!data.user.email_confirmed_at,
+            }
+          : null,
+      );
       setLoading(false);
     });
     const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ? { id: session.user.id, email: session.user.email ?? null } : null);
+      setUser(
+        session?.user
+          ? {
+              id: session.user.id,
+              email: session.user.email ?? null,
+              emailConfirmed: !!session.user.email_confirmed_at,
+            }
+          : null,
+      );
     });
     return () => {
       mounted = false;
       sub.subscription.unsubscribe();
     };
   }, []);
+
+  async function handleResendVerification() {
+    if (!user?.email) return;
+    setResendState("sending");
+    setResendError(null);
+    const { error } = await supabase.auth.resend({
+      type: "signup",
+      email: user.email,
+      options: { emailRedirectTo: window.location.origin },
+    });
+    if (error) {
+      setResendState("error");
+      setResendError(error.message);
+    } else {
+      setResendState("sent");
+    }
+  }
 
   const stats = useMemo(() => {
     let reps = 0;
@@ -171,6 +207,30 @@ function ProfilePage() {
                 <div className="text-sm font-semibold text-foreground">{t("profile.signedIn")}</div>
                 <div className="truncate text-xs text-muted-foreground">{user.email}</div>
               </div>
+              {!user.emailConfirmed && user.email && (
+                <div className="rounded-lg border border-amber-300 bg-amber-50 px-3 py-2.5">
+                  <div className="text-xs font-semibold text-amber-900">Email not verified</div>
+                  <p className="mt-0.5 text-[11px] text-amber-800">
+                    Check your inbox (and spam) for a verification link, or resend it.
+                  </p>
+                  <div className="mt-2 flex flex-wrap items-center gap-2">
+                    <button
+                      onClick={handleResendVerification}
+                      disabled={resendState === "sending" || resendState === "sent"}
+                      className="inline-flex h-8 items-center rounded-md bg-amber-600 px-3 text-[11px] font-semibold text-white hover:bg-amber-700 disabled:opacity-60"
+                    >
+                      {resendState === "sending"
+                        ? "Sending…"
+                        : resendState === "sent"
+                          ? "Sent ✓"
+                          : "Resend verification email"}
+                    </button>
+                    {resendState === "error" && resendError && (
+                      <span className="text-[11px] text-red-700">{resendError}</span>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
           ) : (
             <div className="space-y-3">
