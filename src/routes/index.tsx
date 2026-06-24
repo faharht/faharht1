@@ -3,6 +3,7 @@ import { ChevronDown, BookOpen, ArrowLeft, Layers, ListChecks, ChevronRight } fr
 import { useEffect, useState } from "react";
 import {
   BANDS,
+  SENTENCE_SETS,
   TONE_CLASSES,
   type LevelGroup,
   type ListMeta,
@@ -109,12 +110,21 @@ function HomePage() {
           ))}
 
         {view === "sets" && (
-          <section className="mt-6 rounded-2xl border border-dashed border-border/70 bg-card/60 p-8 text-center shadow-sm">
-            <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-amber-100 text-amber-700">
-              <ListChecks className="h-5 w-5" />
+          <section className="mt-6">
+            <div className="mb-2 flex items-center justify-between px-1">
+              <div className="flex items-center gap-2">
+                <span className="h-2.5 w-2.5 rounded-full bg-amber-500" />
+                <h2 className="text-sm font-semibold text-foreground">Sentence sets</h2>
+              </div>
+              <span className="text-xs text-muted-foreground">
+                {SENTENCE_SETS.length} sets
+              </span>
             </div>
-            <h2 className="mt-3 text-base font-semibold text-foreground">Sentence sets</h2>
-            <p className="mt-1 text-xs text-muted-foreground">Nothing here yet — check back soon.</p>
+            <div className="space-y-3">
+              {SENTENCE_SETS.map((set) => (
+                <SetCard key={set.id} set={set} />
+              ))}
+            </div>
           </section>
         )}
       </main>
@@ -160,6 +170,24 @@ function MenuButton({
       </div>
       <ChevronRight className="h-5 w-5 text-muted-foreground" />
     </button>
+  );
+}
+
+function SetCard({ set }: { set: ListMeta }) {
+  return (
+    <Link
+      to="/list/$listId"
+      params={{ listId: set.id }}
+      className="block rounded-2xl border border-border/70 border-l-4 border-l-amber-400 bg-card px-4 py-4 shadow-sm transition hover:shadow-md"
+    >
+      <div className="flex items-center gap-3">
+        <span className="grid h-9 w-9 place-items-center rounded-lg bg-amber-100 text-amber-700">
+          <ListChecks className="h-4 w-4" />
+        </span>
+        <span className="text-base font-semibold text-foreground">{set.title}</span>
+      </div>
+      <p className="mt-2 text-xs text-muted-foreground">{set.description}</p>
+    </Link>
   );
 }
 
