@@ -43,15 +43,14 @@ export const Route = createFileRoute("/profile")({
 });
 
 
-type SessionUser = { id: string; email: string | null; emailConfirmed: boolean } | null;
-
 function ProfilePage() {
   useDayTick();
   const { t } = useT();
   const navigate = useNavigate();
-  const [user, setUser] = useState<SessionUser>(null);
-  const [loading, setLoading] = useState(true);
+  const queryClient = useQueryClient();
+  const { data: user = null, isLoading: loading } = useQuery(sessionUserQueryOptions);
   const [goalDialog, setGoalDialog] = useState(false);
+
 
   const progress = useTrainerStore((s) => s.progress);
   const favorites = useTrainerStore((s) => s.favorites);
