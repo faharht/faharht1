@@ -6,7 +6,7 @@ import { ThreadView, type Thread, RESTORE_WINDOW_DAYS } from "@/components/Sugge
 import { ConfirmDialog } from "@/components/ConfirmDialog";
 import { checkIsAdmin } from "@/lib/admin.functions";
 
-export const Route = createFileRoute("/admin")({
+export const Route = createFileRoute("/admin/")({
   ssr: false,
   head: () => ({ meta: [{ title: "Admin — Russian Master" }] }),
   beforeLoad: async () => {
