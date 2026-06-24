@@ -294,14 +294,8 @@ function ProfilePage() {
           <ChallengeCard challenge={challenge} />
         )}
 
-        {/* Streak */}
-        <StreakCard
-          currentStreak={effectiveStreak}
-          longestStreak={longestStreak}
-          last14={last14}
-          dailyGoal={effectiveGoal}
-          today={today}
-        />
+
+
 
         {/* Daily reps chart */}
         <RepsChart dailyHistory={dailyHistory} dailyGoal={effectiveGoal} />
