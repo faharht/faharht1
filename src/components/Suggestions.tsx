@@ -1,7 +1,8 @@
 import { useEffect, useState, useCallback } from "react";
-import { MessageSquarePlus, Send, ChevronLeft, Trash2 } from "lucide-react";
+import { MessageSquarePlus, Send, ChevronLeft, Trash2, RotateCcw, AlertOctagon } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { Link } from "@tanstack/react-router";
+import { ConfirmDialog } from "@/components/ConfirmDialog";
 
 export type Thread = {
   id: string;
@@ -11,6 +12,8 @@ export type Thread = {
   user_id?: string;
   created_at: string;
   updated_at: string;
+  deleted_at?: string | null;
+  deleted_by?: string | null;
 };
 
 type Msg = {
@@ -21,6 +24,24 @@ type Msg = {
 };
 
 export const MAX_USER_THREADS = 2;
+export const RESTORE_WINDOW_DAYS = 14;
+
+async function logAudit(
+  adminId: string,
+  adminEmail: string | null,
+  thread: Thread,
+  action: "soft_delete" | "restore" | "hard_delete",
+) {
+  await supabase.from("suggestion_deletion_audit").insert({
+    suggestion_id: thread.id,
+    suggestion_subject: thread.subject,
+    thread_owner_id: thread.user_id ?? null,
+    thread_owner_email: thread.user_email ?? null,
+    admin_id: adminId,
+    admin_email: adminEmail,
+    action,
+  });
+}
 
 export function UserSuggestions() {
   const [userId, setUserId] = useState<string | null>(null);
@@ -82,6 +103,7 @@ export function UserSuggestions() {
       <ThreadView
         thread={active}
         userId={userId}
+        userEmail={userEmail}
         onBack={() => {
           setActive(null);
           loadThreads();
@@ -92,15 +114,31 @@ export function UserSuggestions() {
   }
 
   const atLimit = threads.length >= MAX_USER_THREADS;
+  const remaining = Math.max(0, MAX_USER_THREADS - threads.length);
+  const counterTone = atLimit
+    ? "bg-rose-100 text-rose-700 border-rose-200"
+    : remaining === 1
+      ? "bg-amber-100 text-amber-800 border-amber-200"
+      : "bg-emerald-100 text-emerald-700 border-emerald-200";
 
   return (
     <>
       <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
         <div className="flex items-center justify-between gap-2">
-          <div>
-            <h2 className="text-sm font-semibold">Suggestions</h2>
-            <p className="text-[11px] text-muted-foreground">
-              {threads.length}/{MAX_USER_THREADS} active conversations with the admin.
+          <div className="min-w-0">
+            <div className="flex items-center gap-2">
+              <h2 className="text-sm font-semibold">Suggestions</h2>
+              <span
+                aria-label={`${threads.length} of ${MAX_USER_THREADS} chats used`}
+                className={`inline-flex h-6 items-center rounded-full border px-2 text-[11px] font-semibold ${counterTone}`}
+              >
+                {threads.length}/{MAX_USER_THREADS} chats
+              </span>
+            </div>
+            <p className="mt-0.5 text-[11px] text-muted-foreground">
+              {atLimit
+                ? "You've reached the limit. Wait for the admin to close one."
+                : `${remaining} slot${remaining === 1 ? "" : "s"} left.`}
             </p>
           </div>
           <button
@@ -113,12 +151,6 @@ export function UserSuggestions() {
             New
           </button>
         </div>
-
-        {atLimit && (
-          <p className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-[11px] text-amber-800">
-            You can have up to {MAX_USER_THREADS} suggestion chats at a time. Wait for the admin to close one before opening another.
-          </p>
-        )}
 
         {threads.length === 0 ? (
           <p className="mt-4 text-xs text-muted-foreground">No suggestions yet. Tap "New" to send one to the admin.</p>
@@ -191,11 +223,11 @@ function ComposeDialog({
     setBusy(true);
     setError(null);
 
-    // Re-check server-side count before insert
     const { count } = await supabase
       .from("suggestions")
       .select("id", { count: "exact", head: true })
-      .eq("user_id", userId);
+      .eq("user_id", userId)
+      .is("deleted_at", null);
     if ((count ?? 0) >= MAX_USER_THREADS) {
       setBusy(false);
       setError(`You already have ${MAX_USER_THREADS} active chats.`);
@@ -269,23 +301,34 @@ function ComposeDialog({
   );
 }
 
+function daysUntilHardDelete(deletedAt: string): number {
+  const deleted = new Date(deletedAt).getTime();
+  const expires = deleted + RESTORE_WINDOW_DAYS * 86400_000;
+  const diff = expires - Date.now();
+  return Math.max(0, Math.ceil(diff / 86400_000));
+}
+
 export function ThreadView({
   thread,
   userId,
+  userEmail,
   onBack,
   isAdminContext,
-  onDeleted,
+  onChanged,
 }: {
   thread: Thread;
   userId: string;
+  userEmail?: string | null;
   onBack: () => void;
   isAdminContext: boolean;
-  onDeleted?: () => void;
+  onChanged?: () => void;
 }) {
   const [messages, setMessages] = useState<Msg[]>([]);
   const [body, setBody] = useState("");
   const [busy, setBusy] = useState(false);
-  const [deleting, setDeleting] = useState(false);
+  const [working, setWorking] = useState(false);
+  const [confirm, setConfirm] = useState<null | "soft" | "restore" | "hard">(null);
+  const isDeleted = !!thread.deleted_at;
 
   const load = useCallback(async () => {
     const { data } = await supabase
@@ -313,7 +356,7 @@ export function ThreadView({
 
   async function send(e: React.FormEvent) {
     e.preventDefault();
-    if (!body.trim()) return;
+    if (!body.trim() || isDeleted) return;
     setBusy(true);
     const { error } = await supabase.from("suggestion_messages").insert({
       suggestion_id: thread.id,
@@ -328,38 +371,97 @@ export function ThreadView({
     }
   }
 
-  async function deleteThread() {
-    if (!isAdminContext) return;
-    if (!confirm(`Delete chat "${thread.subject}"? This cannot be undone.`)) return;
-    setDeleting(true);
-    const { error } = await supabase.from("suggestions").delete().eq("id", thread.id);
-    setDeleting(false);
+  async function doSoftDelete() {
+    setWorking(true);
+    const { error } = await supabase
+      .from("suggestions")
+      .update({ deleted_at: new Date().toISOString(), deleted_by: userId })
+      .eq("id", thread.id);
+    if (!error) await logAudit(userId, userEmail ?? null, thread, "soft_delete");
+    setWorking(false);
+    setConfirm(null);
     if (error) {
-      alert(`Failed to delete: ${error.message}`);
+      alert(`Failed: ${error.message}`);
       return;
     }
-    onDeleted?.();
+    onChanged?.();
+    onBack();
+  }
+
+  async function doRestore() {
+    setWorking(true);
+    const { error } = await supabase
+      .from("suggestions")
+      .update({ deleted_at: null, deleted_by: null })
+      .eq("id", thread.id);
+    if (!error) await logAudit(userId, userEmail ?? null, thread, "restore");
+    setWorking(false);
+    setConfirm(null);
+    if (error) {
+      alert(`Failed: ${error.message}`);
+      return;
+    }
+    onChanged?.();
+    onBack();
+  }
+
+  async function doHardDelete() {
+    setWorking(true);
+    // log first (row still exists)
+    await logAudit(userId, userEmail ?? null, thread, "hard_delete");
+    const { error } = await supabase.from("suggestions").delete().eq("id", thread.id);
+    setWorking(false);
+    setConfirm(null);
+    if (error) {
+      alert(`Failed: ${error.message}`);
+      return;
+    }
+    onChanged?.();
     onBack();
   }
 
   return (
     <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         <button onClick={onBack} className="inline-flex h-8 items-center gap-1 rounded-md border border-border/60 bg-background px-2 text-xs hover:bg-muted">
           <ChevronLeft className="h-3.5 w-3.5" /> Back
         </button>
         <h2 className="min-w-0 flex-1 truncate text-sm font-semibold">{thread.subject}</h2>
-        {isAdminContext && (
+        {isAdminContext && !isDeleted && (
           <button
-            onClick={deleteThread}
-            disabled={deleting}
-            className="inline-flex h-8 items-center gap-1 rounded-md border border-rose-300 bg-rose-50 px-2 text-xs font-medium text-rose-700 hover:bg-rose-100 disabled:opacity-60"
+            onClick={() => setConfirm("soft")}
+            className="inline-flex h-8 items-center gap-1 rounded-md border border-rose-300 bg-rose-50 px-2 text-xs font-medium text-rose-700 hover:bg-rose-100"
           >
-            <Trash2 className="h-3.5 w-3.5" />
-            {deleting ? "Deleting…" : "Delete"}
+            <Trash2 className="h-3.5 w-3.5" /> Delete
           </button>
         )}
+        {isAdminContext && isDeleted && (
+          <>
+            <button
+              onClick={() => setConfirm("restore")}
+              className="inline-flex h-8 items-center gap-1 rounded-md border border-emerald-300 bg-emerald-50 px-2 text-xs font-medium text-emerald-700 hover:bg-emerald-100"
+            >
+              <RotateCcw className="h-3.5 w-3.5" /> Restore
+            </button>
+            <button
+              onClick={() => setConfirm("hard")}
+              className="inline-flex h-8 items-center gap-1 rounded-md border border-rose-400 bg-rose-100 px-2 text-xs font-medium text-rose-800 hover:bg-rose-200"
+            >
+              <AlertOctagon className="h-3.5 w-3.5" /> Delete forever
+            </button>
+          </>
+        )}
       </div>
+
+      {isDeleted && thread.deleted_at && (
+        <div className="mt-3 flex items-start gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-[11px] text-amber-800">
+          <AlertOctagon className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+          <div>
+            Soft-deleted on {new Date(thread.deleted_at).toLocaleString()} ·{" "}
+            <strong>{daysUntilHardDelete(thread.deleted_at)}</strong> day(s) left to restore before permanent deletion.
+          </div>
+        </div>
+      )}
 
       <div className="mt-4 max-h-[55vh] space-y-2 overflow-y-auto rounded-lg bg-muted/30 p-3">
         {messages.map((m) => {
@@ -384,24 +486,64 @@ export function ThreadView({
         )}
       </div>
 
-      <form onSubmit={send} className="mt-3 flex items-end gap-2">
-        <textarea
-          value={body}
-          onChange={(e) => setBody(e.target.value)}
-          rows={2}
-          maxLength={4000}
-          placeholder={isAdminContext ? "Reply as admin…" : "Write a reply…"}
-          className="min-w-0 flex-1 rounded-md border border-border/60 bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-primary/30"
+      {!isDeleted && (
+        <form onSubmit={send} className="mt-3 flex items-end gap-2">
+          <textarea
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+            rows={2}
+            maxLength={4000}
+            placeholder={isAdminContext ? "Reply as admin…" : "Write a reply…"}
+            className="min-w-0 flex-1 rounded-md border border-border/60 bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-primary/30"
+          />
+          <button
+            type="submit"
+            disabled={busy || !body.trim()}
+            className="inline-flex h-10 items-center gap-1 rounded-md bg-primary px-3 text-xs font-semibold text-primary-foreground hover:bg-primary/90 disabled:opacity-60"
+          >
+            <Send className="h-4 w-4" />
+            Send
+          </button>
+        </form>
+      )}
+
+      {confirm === "soft" && (
+        <ConfirmDialog
+          title="Delete this chat?"
+          message={
+            <>
+              The conversation will be moved to <strong>Deleted</strong> and can be restored within{" "}
+              {RESTORE_WINDOW_DAYS} days. After that it is removed permanently.
+            </>
+          }
+          confirmLabel="Delete"
+          destructive
+          busy={working}
+          onConfirm={doSoftDelete}
+          onClose={() => setConfirm(null)}
         />
-        <button
-          type="submit"
-          disabled={busy || !body.trim()}
-          className="inline-flex h-10 items-center gap-1 rounded-md bg-primary px-3 text-xs font-semibold text-primary-foreground hover:bg-primary/90 disabled:opacity-60"
-        >
-          <Send className="h-4 w-4" />
-          Send
-        </button>
-      </form>
+      )}
+      {confirm === "restore" && (
+        <ConfirmDialog
+          title="Restore this chat?"
+          message="The user will see this conversation again and be able to reply."
+          confirmLabel="Restore"
+          busy={working}
+          onConfirm={doRestore}
+          onClose={() => setConfirm(null)}
+        />
+      )}
+      {confirm === "hard" && (
+        <ConfirmDialog
+          title="Permanently delete this chat?"
+          message="All messages will be erased forever. This cannot be undone."
+          confirmLabel="Delete forever"
+          destructive
+          busy={working}
+          onConfirm={doHardDelete}
+          onClose={() => setConfirm(null)}
+        />
+      )}
     </section>
   );
 }
