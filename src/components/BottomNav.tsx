@@ -1,38 +1,43 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Home, User, Shield } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/useT";
 import { supabase } from "@/integrations/supabase/client";
 
+async function fetchIsAdmin(): Promise<boolean> {
+  const { data: u } = await supabase.auth.getUser();
+  const uid = u.user?.id;
+  if (!uid) return false;
+  const { data } = await supabase
+    .from("user_roles")
+    .select("role")
+    .eq("user_id", uid)
+    .eq("role", "admin");
+  return (data?.length ?? 0) > 0;
+}
+
 export function BottomNav() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const { t } = useT();
-  const [isAdmin, setIsAdmin] = useState(false);
+  const queryClient = useQueryClient();
+
+  const { data: isAdmin = false } = useQuery({
+    queryKey: ["isAdmin"],
+    queryFn: fetchIsAdmin,
+    staleTime: 5 * 60_000,
+    gcTime: 30 * 60_000,
+  });
 
   useEffect(() => {
-    let mounted = true;
-    async function check(uid: string | null) {
-      if (!uid) {
-        if (mounted) setIsAdmin(false);
-        return;
+    const { data: sub } = supabase.auth.onAuthStateChange((event) => {
+      if (event === "SIGNED_IN" || event === "SIGNED_OUT" || event === "USER_UPDATED") {
+        queryClient.invalidateQueries({ queryKey: ["isAdmin"] });
       }
-      const { data } = await supabase
-        .from("user_roles")
-        .select("role")
-        .eq("user_id", uid)
-        .eq("role", "admin");
-      if (mounted) setIsAdmin((data?.length ?? 0) > 0);
-    }
-    supabase.auth.getUser().then(({ data }) => check(data.user?.id ?? null));
-    const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
-      check(session?.user?.id ?? null);
     });
-    return () => {
-      mounted = false;
-      sub.subscription.unsubscribe();
-    };
-  }, []);
+    return () => sub.subscription.unsubscribe();
+  }, [queryClient]);
 
   // Hide on auth screen
   if (pathname.startsWith("/auth")) return null;
