@@ -102,6 +102,24 @@ export const SENTENCE_SETS: ListMeta[] = [
     title: "Travel",
     description: "Themed sentences about traveling — transport, destinations, and trip planning.",
   },
+  {
+    id: "orderingfood-part-1",
+    level: "A2",
+    part: 0,
+    titleKey: "set.orderingFood.title",
+    descriptionKey: "set.orderingFood.desc",
+    title: "Ordering Food",
+    description: "Themed sentences about ordering food — restaurants, menus, drinks, and dishes.",
+  },
+  {
+    id: "hangingout-part-1",
+    level: "A2",
+    part: 0,
+    titleKey: "set.hangingOut.title",
+    descriptionKey: "set.hangingOut.desc",
+    title: "Hanging Out",
+    description: "Themed sentences about spending time with friends — meeting, talking, and having fun.",
+  },
 ];
 
 export const BANDS: BandGroup[] = [
