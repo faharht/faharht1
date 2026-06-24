@@ -91,6 +91,19 @@ export const INTERMEDIATE_EXTRAS: ListMeta[] = [
   { id: "top-300-verbs",      level: "B1", part: 0, titleKey: "extra.verb.title", descriptionKey: "extra.verb.desc", title: "300 Most Common Verbs",      description: "Essential action words to describe activities and states of being." },
 ];
 
+export const SENTENCE_SETS: ListMeta[] = [
+  {
+    id: "trv",
+    level: "A2",
+    part: 0,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Travel", part: 1 },
+    descriptionKey: "part.A2.3",
+    title: "Travel",
+    description: "Themed sentences about traveling — transport, destinations, and trip planning.",
+  },
+];
+
 export const BANDS: BandGroup[] = [
   { band: "Beginner",     dotClass: "bg-emerald-500", levels: [LEVELS[0], LEVELS[1]], extras: BEGINNER_EXTRAS },
   { band: "Intermediate", dotClass: "bg-amber-500",   levels: [LEVELS[2], LEVELS[3]], extras: INTERMEDIATE_EXTRAS },
@@ -101,7 +114,7 @@ export function findList(listId: string): ListMeta | undefined {
     const m = lvl.lists.find((l) => l.id === listId);
     if (m) return m;
   }
-  for (const x of [...BEGINNER_EXTRAS, ...INTERMEDIATE_EXTRAS]) {
+  for (const x of [...BEGINNER_EXTRAS, ...INTERMEDIATE_EXTRAS, ...SENTENCE_SETS]) {
     if (x.id === listId) return x;
   }
   return undefined;
