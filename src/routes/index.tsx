@@ -174,15 +174,27 @@ function MenuButton({
 }
 
 function SetCard({ set }: { set: ListMeta }) {
+  const Icon = set.icon ?? ListChecks;
+  const toneMap = {
+    amber:   { border: "border-l-amber-400",   bg: "bg-amber-100",   text: "text-amber-700" },
+    violet:  { border: "border-l-violet-400",  bg: "bg-violet-100",  text: "text-violet-700" },
+    emerald: { border: "border-l-emerald-400", bg: "bg-emerald-100", text: "text-emerald-700" },
+    sky:     { border: "border-l-sky-400",     bg: "bg-sky-100",     text: "text-sky-700" },
+    rose:    { border: "border-l-rose-400",    bg: "bg-rose-100",    text: "text-rose-700" },
+  } as const;
+  const tone = toneMap[set.tone ?? "amber"];
   return (
     <Link
       to="/list/$listId"
       params={{ listId: set.id }}
-      className="block rounded-2xl border border-border/70 border-l-4 border-l-amber-400 bg-card px-4 py-4 shadow-sm transition hover:shadow-md"
+      className={cn(
+        "block rounded-2xl border border-border/70 border-l-4 bg-card px-4 py-4 shadow-sm transition hover:shadow-md",
+        tone.border,
+      )}
     >
       <div className="flex items-center gap-3">
-        <span className="grid h-9 w-9 place-items-center rounded-lg bg-amber-100 text-amber-700">
-          <ListChecks className="h-4 w-4" />
+        <span className={cn("grid h-9 w-9 place-items-center rounded-lg", tone.bg, tone.text)}>
+          <Icon className="h-4 w-4" />
         </span>
         <span className="text-base font-semibold text-foreground">{set.title}</span>
       </div>
@@ -190,6 +202,7 @@ function SetCard({ set }: { set: ListMeta }) {
     </Link>
   );
 }
+
 
 function ExtraCard({ extra, band }: { extra: ListMeta; band: string }) {
   const { t } = useT();

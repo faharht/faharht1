@@ -1,6 +1,9 @@
 export type LevelId = "A1" | "A2" | "B1" | "B2";
 
 import type { StringKey } from "@/lib/i18n/strings";
+import { Briefcase, Plane, UtensilsCrossed, Coffee, type LucideIcon } from "lucide-react";
+
+export type SetTone = "amber" | "violet" | "emerald" | "sky" | "rose";
 
 export interface ListMeta {
   id: string;
@@ -15,6 +18,9 @@ export interface ListMeta {
   /** Legacy fields for code paths that haven't been migrated yet. */
   title: string;
   description: string;
+  /** Optional icon + tone for themed sentence-set cards. */
+  icon?: LucideIcon;
+  tone?: SetTone;
 }
 
 export interface LevelGroup {
@@ -100,7 +106,45 @@ export const SENTENCE_SETS: ListMeta[] = [
     titleVars: { level: "Travel", part: 1 },
     descriptionKey: "part.A2.3",
     title: "Travel",
-    description: "Themed sentences about traveling — transport, destinations, and trip planning.",
+    description: "Pack your bags — buying tickets, checking in, asking for directions and finding your way around a new city.",
+    icon: Plane,
+    tone: "sky",
+  },
+  {
+    id: "orderingfood-part-1",
+    level: "A2",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Ordering Food", part: 1 },
+    descriptionKey: "part.A2.2",
+    title: "Ordering Food",
+    description: "Café and restaurant essentials — reading the menu, placing your order and asking for the bill.",
+    icon: UtensilsCrossed,
+    tone: "rose",
+  },
+  {
+    id: "hangingout-part-1",
+    level: "A2",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Hanging Out", part: 1 },
+    descriptionKey: "part.A1.1",
+    title: "Hanging Out",
+    description: "Everyday chit-chat with friends — making plans, sharing weekends and keeping the conversation going.",
+    icon: Coffee,
+    tone: "amber",
+  },
+  {
+    id: "businessjob-part-1",
+    level: "B1",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Business & Job", part: 1 },
+    descriptionKey: "part.B1.2",
+    title: "Business & Job",
+    description: "Workplace Russian — interviews, meetings, emails, deadlines and talking shop with colleagues.",
+    icon: Briefcase,
+    tone: "violet",
   },
   {
     id: "orderingfood-part-1",
@@ -121,6 +165,7 @@ export const SENTENCE_SETS: ListMeta[] = [
     description: "Themed sentences about spending time with friends — meeting, talking, and having fun.",
   },
 ];
+
 
 export const BANDS: BandGroup[] = [
   { band: "Beginner",     dotClass: "bg-emerald-500", levels: [LEVELS[0], LEVELS[1]], extras: BEGINNER_EXTRAS },
