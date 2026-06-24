@@ -38,6 +38,48 @@ export type Database = {
         }
         Relationships: []
       }
+      sentences: {
+        Row: {
+          created_at: string
+          de: string | null
+          en: string
+          id: string
+          list_id: string
+          pl: string | null
+          ru: string
+          ru_stressed: string
+          sort_order: number
+          translit: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          de?: string | null
+          en: string
+          id: string
+          list_id: string
+          pl?: string | null
+          ru: string
+          ru_stressed: string
+          sort_order?: number
+          translit: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          de?: string | null
+          en?: string
+          id?: string
+          list_id?: string
+          pl?: string | null
+          ru?: string
+          ru_stressed?: string
+          sort_order?: number
+          translit?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       suggestion_deletion_audit: {
         Row: {
           action: string
