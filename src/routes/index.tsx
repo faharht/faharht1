@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, ArrowLeft } from "lucide-react";
+import { ChevronDown, BookOpen, ArrowLeft, Layers, ListChecks, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   BANDS,
@@ -23,8 +23,12 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
+type View = "menu" | "levels" | "sets";
+
 function HomePage() {
   const { t } = useT();
+  const [view, setView] = useState<View>("menu");
+
   return (
     <div className="min-h-screen bg-[oklch(0.985_0.008_180)] pb-24">
       <main className="mx-auto max-w-2xl px-4 pt-6">
@@ -46,33 +50,116 @@ function HomePage() {
           <p className="mt-4 text-sm text-white/90">{t("home.intro")}</p>
         </header>
 
-        {BANDS.map((band) => (
-          <section key={band.band} className="mt-6">
-            <div className="mb-2 flex items-center justify-between px-1">
-              <div className="flex items-center gap-2">
-                <span className={cn("h-2.5 w-2.5 rounded-full", band.dotClass)} />
-                <h2 className="text-sm font-semibold text-foreground">
-                  {t(`band.${band.band}` as StringKey)}
-                </h2>
+        {view === "menu" && (
+          <div className="mt-6 space-y-3">
+            <MenuButton
+              icon={Layers}
+              title="Level by level"
+              description="A1 through B2 plus extra verb sets"
+              tint="violet"
+              onClick={() => setView("levels")}
+            />
+            <MenuButton
+              icon={ListChecks}
+              title="Sentence sets"
+              description="Themed sentence collections — coming soon"
+              tint="amber"
+              onClick={() => setView("sets")}
+            />
+          </div>
+        )}
+
+        {view !== "menu" && (
+          <div className="mt-5">
+            <button
+              onClick={() => setView("menu")}
+              className="inline-flex h-9 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"
+            >
+              <ArrowLeft className="h-3.5 w-3.5" />
+              Back
+            </button>
+          </div>
+        )}
+
+        {view === "levels" &&
+          BANDS.map((band) => (
+            <section key={band.band} className="mt-6">
+              <div className="mb-2 flex items-center justify-between px-1">
+                <div className="flex items-center gap-2">
+                  <span className={cn("h-2.5 w-2.5 rounded-full", band.dotClass)} />
+                  <h2 className="text-sm font-semibold text-foreground">
+                    {t(`band.${band.band}` as StringKey)}
+                  </h2>
+                </div>
+                <span className="text-xs text-muted-foreground">
+                  {band.levels.reduce((a, l) => a + l.lists.length, 0) +
+                    (band.extras?.length ?? 0)}{" "}
+                  {t("home.categories")}
+                </span>
               </div>
-              <span className="text-xs text-muted-foreground">
-                {band.levels.reduce((a, l) => a + l.lists.length, 0) +
-                  (band.extras?.length ?? 0)}{" "}
-                {t("home.categories")}
-              </span>
+              <div className="space-y-3">
+                {band.levels.map((lvl) => (
+                  <LevelAccordion key={lvl.id} level={lvl} />
+                ))}
+                {(band.extras ?? []).map((extra) => (
+                  <ExtraCard key={extra.id} extra={extra} band={band.band} />
+                ))}
+              </div>
+            </section>
+          ))}
+
+        {view === "sets" && (
+          <section className="mt-6 rounded-2xl border border-dashed border-border/70 bg-card/60 p-8 text-center shadow-sm">
+            <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-amber-100 text-amber-700">
+              <ListChecks className="h-5 w-5" />
             </div>
-            <div className="space-y-3">
-              {band.levels.map((lvl) => (
-                <LevelAccordion key={lvl.id} level={lvl} />
-              ))}
-              {(band.extras ?? []).map((extra) => (
-                <ExtraCard key={extra.id} extra={extra} band={band.band} />
-              ))}
-            </div>
+            <h2 className="mt-3 text-base font-semibold text-foreground">Sentence sets</h2>
+            <p className="mt-1 text-xs text-muted-foreground">Nothing here yet — check back soon.</p>
           </section>
-        ))}
+        )}
       </main>
     </div>
+  );
+}
+
+function MenuButton({
+  icon: Icon,
+  title,
+  description,
+  tint,
+  onClick,
+}: {
+  icon: React.ComponentType<{ className?: string }>;
+  title: string;
+  description: string;
+  tint: "violet" | "amber";
+  onClick: () => void;
+}) {
+  const tints = {
+    violet: "bg-violet-100 text-violet-700",
+    amber: "bg-amber-100 text-amber-700",
+  } as const;
+  const accent = {
+    violet: "border-l-violet-400",
+    amber: "border-l-amber-400",
+  } as const;
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "flex w-full items-center gap-3 rounded-2xl border border-border/70 border-l-4 bg-card px-4 py-4 text-left shadow-sm transition hover:shadow-md",
+        accent[tint],
+      )}
+    >
+      <span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-lg", tints[tint])}>
+        <Icon className="h-5 w-5" />
+      </span>
+      <div className="min-w-0 flex-1">
+        <div className="text-base font-semibold text-foreground">{title}</div>
+        <p className="mt-0.5 text-xs text-muted-foreground">{description}</p>
+      </div>
+      <ChevronRight className="h-5 w-5 text-muted-foreground" />
+    </button>
   );
 }
 
