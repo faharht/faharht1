@@ -1,0 +1,1127 @@
+[
+  {
+  "id": "businessjob-part-1-1",
+  "ru": "Я ищу работу.",
+  "ruStressed": "Я ищу́ рабо́ту.",
+  "translit": "Ya ishchu rabotu.",
+  "en": "I am looking for a job.",
+  "pl": "Szukam pracy.",
+  "de": "Ich suche eine Arbeit."
+},
+{
+  "id": "businessjob-part-1-2",
+  "ru": "Где вы работаете?",
+  "ruStressed": "Где вы рабо́таете?",
+  "translit": "Gde vy rabotayete?",
+  "en": "Where do you work?",
+  "pl": "Gdzie pracujesz?",
+  "de": "Wo arbeiten Sie?"
+},
+{
+  "id": "businessjob-part-1-3",
+  "ru": "Я работаю в офисе.",
+  "ruStressed": "Я рабо́таю в о́фисе.",
+  "translit": "Ya rabotayu v ofise.",
+  "en": "I work in an office.",
+  "pl": "Pracuję w biurze.",
+  "de": "Ich arbeite in einem Büro."
+},
+{
+  "id": "businessjob-part-1-4",
+  "ru": "Он работает дома.",
+  "ruStressed": "Он рабо́тает до́ма.",
+  "translit": "On rabotayet doma.",
+  "en": "He works from home.",
+  "pl": "On pracuje z domu.",
+  "de": "Er arbeitet von zu Hause."
+},
+{
+  "id": "businessjob-part-1-5",
+  "ru": "Она работает в компании.",
+  "ruStressed": "Она́ рабо́тает в компа́нии.",
+  "translit": "Ona rabotayet v kompanii.",
+  "en": "She works in a company.",
+  "pl": "Ona pracuje w firmie.",
+  "de": "Sie arbeitet in einer Firma."
+},
+{
+  "id": "businessjob-part-1-6",
+  "ru": "Я менеджер.",
+  "ruStressed": "Я ме́неджер.",
+  "translit": "Ya menedzher.",
+  "en": "I am a manager.",
+  "pl": "Jestem menedżerem.",
+  "de": "Ich bin Manager."
+},
+{
+  "id": "businessjob-part-1-7",
+  "ru": "Он инженер.",
+  "ruStressed": "Он инжене́р.",
+  "translit": "On inzhener.",
+  "en": "He is an engineer.",
+  "pl": "On jest inżynierem.",
+  "de": "Er ist Ingenieur."
+},
+{
+  "id": "businessjob-part-1-8",
+  "ru": "Она бухгалтер.",
+  "ruStressed": "Она́ бухга́лтер.",
+  "translit": "Ona bukhgalter.",
+  "en": "She is an accountant.",
+  "pl": "Ona jest księgową.",
+  "de": "Sie ist Buchhalterin."
+},
+{
+  "id": "businessjob-part-1-9",
+  "ru": "Это мой коллега.",
+  "ruStressed": "Э́то мой колле́га.",
+  "translit": "Eto moy kollega.",
+  "en": "This is my colleague.",
+  "pl": "To jest mój kolega z pracy.",
+  "de": "Das ist mein Kollege."
+},
+{
+  "id": "businessjob-part-1-10",
+  "ru": "Мы работаем вместе.",
+  "ruStressed": "Мы рабо́таем вме́сте.",
+  "translit": "My rabotayem vmeste.",
+  "en": "We work together.",
+  "pl": "Pracujemy razem.",
+  "de": "Wir arbeiten zusammen."
+},
+{
+  "id": "businessjob-part-1-11",
+  "ru": "У меня новая работа.",
+  "ruStressed": "У меня́ но́вая рабо́та.",
+  "translit": "U menya novaya rabota.",
+  "en": "I have a new job.",
+  "pl": "Mam nową pracę.",
+  "de": "Ich habe einen neuen Job."
+},
+{
+  "id": "businessjob-part-1-12",
+  "ru": "Мне нравится моя работа.",
+  "ruStressed": "Мне нра́вится моя́ рабо́та.",
+  "translit": "Mne nravitsya moya rabota.",
+  "en": "I like my job.",
+  "pl": "Lubię swoją pracę.",
+  "de": "Ich mag meinen Job."
+},
+{
+  "id": "businessjob-part-1-13",
+  "ru": "Моя работа интересная.",
+  "ruStressed": "Моя́ рабо́та интере́сная.",
+  "translit": "Moya rabota interesnaya.",
+  "en": "My job is interesting.",
+  "pl": "Moja praca jest interesująca.",
+  "de": "Meine Arbeit ist interessant."
+},
+{
+  "id": "businessjob-part-1-14",
+  "ru": "Сегодня у нас встреча.",
+  "ruStressed": "Сего́дня у нас встре́ча.",
+  "translit": "Segodnya u nas vstrecha.",
+  "en": "Today we have a meeting.",
+  "pl": "Dzisiaj mamy spotkanie.",
+  "de": "Heute haben wir ein Meeting."
+},
+{
+  "id": "businessjob-part-1-15",
+  "ru": "Встреча начинается в десять.",
+  "ruStressed": "Встре́ча начина́ется в де́сять.",
+  "translit": "Vstrecha nachinayetsya v desyat.",
+  "en": "The meeting starts at ten.",
+  "pl": "Spotkanie zaczyna się o dziesiątej.",
+  "de": "Das Meeting beginnt um zehn Uhr."
+},
+{
+  "id": "businessjob-part-1-16",
+  "ru": "Я готовлю отчёт.",
+  "ruStressed": "Я гото́влю отчёт.",
+  "translit": "Ya gotovlyu otchyot.",
+  "en": "I am preparing a report.",
+  "pl": "Przygotowuję raport.",
+  "de": "Ich bereite einen Bericht vor."
+},
+{
+  "id": "businessjob-part-1-17",
+  "ru": "Мне нужно закончить проект.",
+  "ruStressed": "Мне ну́жно зако́нчить прое́кт.",
+  "translit": "Mne nuzhno zakonchit proyekt.",
+  "en": "I need to finish the project.",
+  "pl": "Muszę skończyć projekt.",
+  "de": "Ich muss das Projekt abschließen."
+},
+{
+  "id": "businessjob-part-1-18",
+  "ru": "Проект очень важный.",
+  "ruStressed": "Прое́кт о́чень ва́жный.",
+  "translit": "Proyekt ochen vazhnyy.",
+  "en": "The project is very important.",
+  "pl": "Projekt jest bardzo ważny.",
+  "de": "Das Projekt ist sehr wichtig."
+},
+{
+  "id": "businessjob-part-1-19",
+  "ru": "Мы обсуждаем новый проект.",
+  "ruStressed": "Мы обсужда́ем но́вый прое́кт.",
+  "translit": "My obsuzhdayem novyy proyekt.",
+  "en": "We are discussing a new project.",
+  "pl": "Omawiamy nowy projekt.",
+  "de": "Wir besprechen ein neues Projekt."
+},
+{
+  "id": "businessjob-part-1-20",
+  "ru": "У меня много работы.",
+  "ruStressed": "У меня́ мно́го рабо́ты.",
+  "translit": "U menya mnogo raboty.",
+  "en": "I have a lot of work.",
+  "pl": "Mam dużo pracy.",
+  "de": "Ich habe viel Arbeit."
+},
+{
+  "id": "businessjob-part-1-21",
+  "ru": "Сегодня очень занятый день.",
+  "ruStressed": "Сего́дня о́чень заня́тый день.",
+  "translit": "Segodnya ochen zanyatyy den.",
+  "en": "Today is a very busy day.",
+  "pl": "Dzisiaj jest bardzo pracowity dzień.",
+  "de": "Heute ist ein sehr beschäftigter Tag."
+},
+{
+  "id": "businessjob-part-1-22",
+  "ru": "Я отправляю электронное письмо.",
+  "ruStressed": "Я отправля́ю электро́нное письмо́.",
+  "translit": "Ya otpravlyayu elektronnoye pismo.",
+  "en": "I am sending an email.",
+  "pl": "Wysyłam e-mail.",
+  "de": "Ich sende eine E-Mail."
+},
+{
+  "id": "businessjob-part-1-23",
+  "ru": "Пожалуйста, проверьте письмо.",
+  "ruStressed": "Пожа́луйста, прове́рьте письмо́.",
+  "translit": "Pozhaluysta, proverte pismo.",
+  "en": "Please check the email.",
+  "pl": "Proszę sprawdzić e-mail.",
+  "de": "Bitte überprüfen Sie die E-Mail."
+},
+{
+  "id": "businessjob-part-1-24",
+  "ru": "Я получил ваше сообщение.",
+  "ruStressed": "Я получи́л ва́ше сообще́ние.",
+  "translit": "Ya poluchil vashe soobshcheniye.",
+  "en": "I received your message.",
+  "pl": "Otrzymałem twoją wiadomość.",
+  "de": "Ich habe Ihre Nachricht erhalten."
+},
+{
+  "id": "businessjob-part-1-25",
+  "ru": "Спасибо за быстрый ответ.",
+  "ruStressed": "Спаси́бо за бы́стрый отве́т.",
+  "translit": "Spasibo za bystryy otvet.",
+  "en": "Thank you for the quick reply.",
+  "pl": "Dziękuję za szybką odpowiedź.",
+  "de": "Danke für die schnelle Antwort."
+},
+  {
+  "id": "businessjob-part-1-26",
+  "ru": "У меня собеседование завтра.",
+  "ruStressed": "У меня́ собесе́дование за́втра.",
+  "translit": "U menya sobesedovaniye zavtra.",
+  "en": "I have a job interview tomorrow.",
+  "pl": "Jutro mam rozmowę kwalifikacyjną.",
+  "de": "Ich habe morgen ein Vorstellungsgespräch."
+},
+{
+  "id": "businessjob-part-1-27",
+  "ru": "Я готовлюсь к собеседованию.",
+  "ruStressed": "Я гото́влюсь к собесе́дованию.",
+  "translit": "Ya gotovlyus k sobesedovaniyu.",
+  "en": "I am preparing for the interview.",
+  "pl": "Przygotowuję się do rozmowy kwalifikacyjnej.",
+  "de": "Ich bereite mich auf das Vorstellungsgespräch vor."
+},
+{
+  "id": "businessjob-part-1-28",
+  "ru": "Расскажите о себе.",
+  "ruStressed": "Расскажи́те о себе́.",
+  "translit": "Rasskazhite o sebe.",
+  "en": "Tell me about yourself.",
+  "pl": "Proszę opowiedzieć o sobie.",
+  "de": "Erzählen Sie etwas über sich."
+},
+{
+  "id": "businessjob-part-1-29",
+  "ru": "У меня есть опыт работы.",
+  "ruStressed": "У меня́ есть о́пыт рабо́ты.",
+  "translit": "U menya yest opyt raboty.",
+  "en": "I have work experience.",
+  "pl": "Mam doświadczenie zawodowe.",
+  "de": "Ich habe Berufserfahrung."
+},
+{
+  "id": "businessjob-part-1-30",
+  "ru": "Я работал здесь три года.",
+  "ruStressed": "Я рабо́тал здесь три го́да.",
+  "translit": "Ya rabotal zdes tri goda.",
+  "en": "I worked here for three years.",
+  "pl": "Pracowałem tutaj trzy lata.",
+  "de": "Ich habe hier drei Jahre gearbeitet."
+},
+{
+  "id": "businessjob-part-1-31",
+  "ru": "Какие у вас навыки?",
+  "ruStressed": "Каки́е у вас на́выки?",
+  "translit": "Kakiye u vas navyki?",
+  "en": "What skills do you have?",
+  "pl": "Jakie masz umiejętności?",
+  "de": "Welche Fähigkeiten haben Sie?"
+},
+{
+  "id": "businessjob-part-1-32",
+  "ru": "Я хорошо работаю в команде.",
+  "ruStressed": "Я хорошо́ рабо́таю в кома́нде.",
+  "translit": "Ya khorosho rabotayu v komande.",
+  "en": "I work well in a team.",
+  "pl": "Dobrze pracuję w zespole.",
+  "de": "Ich arbeite gut im Team."
+},
+{
+  "id": "businessjob-part-1-33",
+  "ru": "Я быстро учусь.",
+  "ruStressed": "Я бы́стро учу́сь.",
+  "translit": "Ya bystro uchus.",
+  "en": "I learn quickly.",
+  "pl": "Szybko się uczę.",
+  "de": "Ich lerne schnell."
+},
+{
+  "id": "businessjob-part-1-34",
+  "ru": "Когда я могу начать?",
+  "ruStressed": "Когда́ я могу́ нача́ть?",
+  "translit": "Kogda ya mogu nachat?",
+  "en": "When can I start?",
+  "pl": "Kiedy mogę zacząć?",
+  "de": "Wann kann ich anfangen?"
+},
+{
+  "id": "businessjob-part-1-35",
+  "ru": "Вы приняты на работу.",
+  "ruStressed": "Вы при́няты на рабо́ту.",
+  "translit": "Vy prinyaty na rabotu.",
+  "en": "You are hired.",
+  "pl": "Zostałeś zatrudniony.",
+  "de": "Sie sind eingestellt."
+},
+{
+  "id": "businessjob-part-1-36",
+  "ru": "Поздравляем!",
+  "ruStressed": "Поздравля́ем!",
+  "translit": "Pozdravlyayem!",
+  "en": "Congratulations!",
+  "pl": "Gratulacje!",
+  "de": "Herzlichen Glückwunsch!"
+},
+{
+  "id": "businessjob-part-1-37",
+  "ru": "Это мой первый рабочий день.",
+  "ruStressed": "Э́то мой пе́рвый рабо́чий день.",
+  "translit": "Eto moy pervyy rabochiy den.",
+  "en": "This is my first workday.",
+  "pl": "To mój pierwszy dzień pracy.",
+  "de": "Das ist mein erster Arbeitstag."
+},
+{
+  "id": "businessjob-part-1-38",
+  "ru": "Добро пожаловать в команду.",
+  "ruStressed": "Добро́ пожа́ловать в кома́нду.",
+  "translit": "Dobro pozhalovat v komandu.",
+  "en": "Welcome to the team.",
+  "pl": "Witamy w zespole.",
+  "de": "Willkommen im Team."
+},
+{
+  "id": "businessjob-part-1-39",
+  "ru": "Это ваш рабочий стол.",
+  "ruStressed": "Э́то ваш рабо́чий стол.",
+  "translit": "Eto vash rabochiy stol.",
+  "en": "This is your desk.",
+  "pl": "To jest twoje biurko.",
+  "de": "Das ist Ihr Schreibtisch."
+},
+{
+  "id": "businessjob-part-1-40",
+  "ru": "Мне нужен компьютер.",
+  "ruStressed": "Мне ну́жен компью́тер.",
+  "translit": "Mne nuzhen kompyuter.",
+  "en": "I need a computer.",
+  "pl": "Potrzebuję komputera.",
+  "de": "Ich brauche einen Computer."
+},
+{
+  "id": "businessjob-part-1-41",
+  "ru": "Я работаю над задачей.",
+  "ruStressed": "Я рабо́таю над зада́чей.",
+  "translit": "Ya rabotayu nad zadachey.",
+  "en": "I am working on a task.",
+  "pl": "Pracuję nad zadaniem.",
+  "de": "Ich arbeite an einer Aufgabe."
+},
+{
+  "id": "businessjob-part-1-42",
+  "ru": "Срок сдачи — пятница.",
+  "ruStressed": "Срок сда́чи — пя́тница.",
+  "translit": "Srok sdachi — pyatnitsa.",
+  "en": "The deadline is Friday.",
+  "pl": "Termin jest w piątek.",
+  "de": "Die Frist ist am Freitag."
+},
+{
+  "id": "businessjob-part-1-43",
+  "ru": "Мы должны закончить вовремя.",
+  "ruStressed": "Мы должны́ зако́нчить вове́ремя.",
+  "translit": "My dolzhny zakonchit vo vremya.",
+  "en": "We must finish on time.",
+  "pl": "Musimy skończyć na czas.",
+  "de": "Wir müssen pünktlich fertig werden."
+},
+{
+  "id": "businessjob-part-1-44",
+  "ru": "Клиент ждёт ответ.",
+  "ruStressed": "Клие́нт ждёт отве́т.",
+  "translit": "Kliyent zhdyot otvet.",
+  "en": "The client is waiting for a response.",
+  "pl": "Klient czeka na odpowiedź.",
+  "de": "Der Kunde wartet auf eine Antwort."
+},
+{
+  "id": "businessjob-part-1-45",
+  "ru": "Давайте позвоним клиенту.",
+  "ruStressed": "Дава́йте позвони́м клие́нту.",
+  "translit": "Davayte pozvonim kliyentu.",
+  "en": "Let's call the client.",
+  "pl": "Zadzwońmy do klienta.",
+  "de": "Lassen Sie uns den Kunden anrufen."
+},
+{
+  "id": "businessjob-part-1-46",
+  "ru": "У нас важный клиент.",
+  "ruStressed": "У нас ва́жный клие́нт.",
+  "translit": "U nas vazhnyy kliyent.",
+  "en": "We have an important client.",
+  "pl": "Mamy ważnego klienta.",
+  "de": "Wir haben einen wichtigen Kunden."
+},
+{
+  "id": "businessjob-part-1-47",
+  "ru": "Продажи растут.",
+  "ruStressed": "Прода́жи расту́т.",
+  "translit": "Prodazhi rastut.",
+  "en": "Sales are growing.",
+  "pl": "Sprzedaż rośnie.",
+  "de": "Die Verkäufe steigen."
+},
+{
+  "id": "businessjob-part-1-48",
+  "ru": "Компания развивается.",
+  "ruStressed": "Компа́ния развива́ется.",
+  "translit": "Kompaniya razvivayetsya.",
+  "en": "The company is growing.",
+  "pl": "Firma się rozwija.",
+  "de": "Das Unternehmen wächst."
+},
+{
+  "id": "businessjob-part-1-49",
+  "ru": "Я получил повышение.",
+  "ruStressed": "Я получи́л повыше́ние.",
+  "translit": "Ya poluchil povysheniye.",
+  "en": "I got a promotion.",
+  "pl": "Dostałem awans.",
+  "de": "Ich habe eine Beförderung bekommen."
+},
+{
+  "id": "businessjob-part-1-50",
+  "ru": "Я доволен своей карьерой.",
+  "ruStressed": "Я дово́лен свое́й карье́рой.",
+  "translit": "Ya dovolen svoyey karyeroy.",
+  "en": "I am satisfied with my career.",
+  "pl": "Jestem zadowolony ze swojej kariery.",
+  "de": "Ich bin mit meiner Karriere zufrieden."
+},
+  {
+  "id": "businessjob-part-1-51",
+  "ru": "Сколько сотрудников работает здесь?",
+  "ruStressed": "Ско́лько сотру́дников рабо́тает здесь?",
+  "translit": "Skolko sotrudnikov rabotayet zdes?",
+  "en": "How many employees work here?",
+  "pl": "Ilu pracowników tutaj pracuje?",
+  "de": "Wie viele Mitarbeiter arbeiten hier?"
+},
+{
+  "id": "businessjob-part-1-52",
+  "ru": "В нашей компании сто сотрудников.",
+  "ruStressed": "В на́шей компа́нии сто сотру́дников.",
+  "translit": "V nashey kompanii sto sotrudnikov.",
+  "en": "There are one hundred employees in our company.",
+  "pl": "W naszej firmie pracuje stu pracowników.",
+  "de": "In unserem Unternehmen arbeiten hundert Mitarbeiter."
+},
+{
+  "id": "businessjob-part-1-53",
+  "ru": "Кто ваш руководитель?",
+  "ruStressed": "Кто ваш руководи́тель?",
+  "translit": "Kto vash rukovoditel?",
+  "en": "Who is your manager?",
+  "pl": "Kto jest twoim przełożonym?",
+  "de": "Wer ist Ihr Vorgesetzter?"
+},
+{
+  "id": "businessjob-part-1-54",
+  "ru": "Мой руководитель очень опытный.",
+  "ruStressed": "Мой руководи́тель о́чень о́пытный.",
+  "translit": "Moy rukovoditel ochen opytnyy.",
+  "en": "My manager is very experienced.",
+  "pl": "Mój przełożony jest bardzo doświadczony.",
+  "de": "Mein Vorgesetzter ist sehr erfahren."
+},
+{
+  "id": "businessjob-part-1-55",
+  "ru": "Мы проводим совещание каждую неделю.",
+  "ruStressed": "Мы прово́дим совеща́ние ка́ждую неде́лю.",
+  "translit": "My provodim soveshchaniye kazhduyu nedelyu.",
+  "en": "We hold a meeting every week.",
+  "pl": "Mamy spotkanie co tydzień.",
+  "de": "Wir halten jede Woche eine Besprechung ab."
+},
+{
+  "id": "businessjob-part-1-56",
+  "ru": "Все сотрудники присутствуют.",
+  "ruStressed": "Все́ сотру́дники прису́тствуют.",
+  "translit": "Vse sotrudniki prisutstvuyut.",
+  "en": "All employees are present.",
+  "pl": "Wszyscy pracownicy są obecni.",
+  "de": "Alle Mitarbeiter sind anwesend."
+},
+{
+  "id": "businessjob-part-1-57",
+  "ru": "У нас новая стратегия.",
+  "ruStressed": "У нас но́вая страте́гия.",
+  "translit": "U nas novaya strategiya.",
+  "en": "We have a new strategy.",
+  "pl": "Mamy nową strategię.",
+  "de": "Wir haben eine neue Strategie."
+},
+{
+  "id": "businessjob-part-1-58",
+  "ru": "Нам нужно увеличить продажи.",
+  "ruStressed": "Нам ну́жно увели́чить прода́жи.",
+  "translit": "Nam nuzhno uvelichit prodazhi.",
+  "en": "We need to increase sales.",
+  "pl": "Musimy zwiększyć sprzedaż.",
+  "de": "Wir müssen den Umsatz steigern."
+},
+{
+  "id": "businessjob-part-1-59",
+  "ru": "Этот план выглядит хорошо.",
+  "ruStressed": "Э́тот план вы́глядит хорошо́.",
+  "translit": "Etot plan vyglyadit khorosho.",
+  "en": "This plan looks good.",
+  "pl": "Ten plan wygląda dobrze.",
+  "de": "Dieser Plan sieht gut aus."
+},
+{
+  "id": "businessjob-part-1-60",
+  "ru": "Я согласен с вами.",
+  "ruStressed": "Я согла́сен с ва́ми.",
+  "translit": "Ya soglasen s vami.",
+  "en": "I agree with you.",
+  "pl": "Zgadzam się z tobą.",
+  "de": "Ich stimme Ihnen zu."
+},
+{
+  "id": "businessjob-part-1-61",
+  "ru": "У меня есть другое мнение.",
+  "ruStressed": "У меня́ есть друго́е мне́ние.",
+  "translit": "U menya yest drugoye mneniye.",
+  "en": "I have a different opinion.",
+  "pl": "Mam inne zdanie.",
+  "de": "Ich habe eine andere Meinung."
+},
+{
+  "id": "businessjob-part-1-62",
+  "ru": "Давайте обсудим это.",
+  "ruStressed": "Дава́йте обсу́дим э́то.",
+  "translit": "Davayte obsudim eto.",
+  "en": "Let's discuss it.",
+  "pl": "Omówmy to.",
+  "de": "Lassen Sie uns das besprechen."
+},
+{
+  "id": "businessjob-part-1-63",
+  "ru": "Я подготовил презентацию.",
+  "ruStressed": "Я подгото́вил презента́цию.",
+  "translit": "Ya podgotovil prezentatsiyu.",
+  "en": "I prepared a presentation.",
+  "pl": "Przygotowałem prezentację.",
+  "de": "Ich habe eine Präsentation vorbereitet."
+},
+{
+  "id": "businessjob-part-1-64",
+  "ru": "Презентация начинается сейчас.",
+  "ruStressed": "Презента́ция начина́ется сейча́с.",
+  "translit": "Prezentatsiya nachinayetsya seychas.",
+  "en": "The presentation starts now.",
+  "pl": "Prezentacja zaczyna się teraz.",
+  "de": "Die Präsentation beginnt jetzt."
+},
+{
+  "id": "businessjob-part-1-65",
+  "ru": "У вас есть вопросы?",
+  "ruStressed": "У вас есть вопро́сы?",
+  "translit": "U vas yest voprosy?",
+  "en": "Do you have any questions?",
+  "pl": "Czy mają państwo pytania?",
+  "de": "Haben Sie Fragen?"
+},
+{
+  "id": "businessjob-part-1-66",
+  "ru": "Спасибо за внимание.",
+  "ruStressed": "Спаси́бо за внима́ние.",
+  "translit": "Spasibo za vnimaniye.",
+  "en": "Thank you for your attention.",
+  "pl": "Dziękuję za uwagę.",
+  "de": "Danke für Ihre Aufmerksamkeit."
+},
+{
+  "id": "businessjob-part-1-67",
+  "ru": "Я работаю полный рабочий день.",
+  "ruStressed": "Я рабо́таю по́лный рабо́чий день.",
+  "translit": "Ya rabotayu polnyy rabochiy den.",
+  "en": "I work full-time.",
+  "pl": "Pracuję na pełny etat.",
+  "de": "Ich arbeite Vollzeit."
+},
+{
+  "id": "businessjob-part-1-68",
+  "ru": "Она работает неполный день.",
+  "ruStressed": "Она́ рабо́тает непо́лный день.",
+  "translit": "Ona rabotayet nepolnyy den.",
+  "en": "She works part-time.",
+  "pl": "Ona pracuje na pół etatu.",
+  "de": "Sie arbeitet Teilzeit."
+},
+{
+  "id": "businessjob-part-1-69",
+  "ru": "Во сколько начинается работа?",
+  "ruStressed": "Во ско́лько начина́ется рабо́та?",
+  "translit": "Vo skolko nachinayetsya rabota?",
+  "en": "What time does work start?",
+  "pl": "O której zaczyna się praca?",
+  "de": "Wann beginnt die Arbeit?"
+},
+{
+  "id": "businessjob-part-1-70",
+  "ru": "Работа начинается в девять.",
+  "ruStressed": "Рабо́та начина́ется в де́вять.",
+  "translit": "Rabota nachinayetsya v devyat.",
+  "en": "Work starts at nine.",
+  "pl": "Praca zaczyna się o dziewiątej.",
+  "de": "Die Arbeit beginnt um neun Uhr."
+},
+{
+  "id": "businessjob-part-1-71",
+  "ru": "У нас час на обед.",
+  "ruStressed": "У нас час на обе́д.",
+  "translit": "U nas chas na obed.",
+  "en": "We have one hour for lunch.",
+  "pl": "Mamy godzinę na lunch.",
+  "de": "Wir haben eine Stunde Mittagspause."
+},
+{
+  "id": "businessjob-part-1-72",
+  "ru": "Я работаю сверхурочно.",
+  "ruStressed": "Я рабо́таю сверхуро́чно.",
+  "translit": "Ya rabotayu sverkhurochno.",
+  "en": "I work overtime.",
+  "pl": "Pracuję po godzinach.",
+  "de": "Ich arbeite Überstunden."
+},
+{
+  "id": "businessjob-part-1-73",
+  "ru": "Сегодня мне нужно задержаться.",
+  "ruStressed": "Сего́дня мне ну́жно задержа́ться.",
+  "translit": "Segodnya mne nuzhno zaderzhatsya.",
+  "en": "Today I need to stay late.",
+  "pl": "Dzisiaj muszę zostać dłużej.",
+  "de": "Heute muss ich länger bleiben."
+},
+{
+  "id": "businessjob-part-1-74",
+  "ru": "Завтра у меня выходной.",
+  "ruStressed": "За́втра у меня́ выходно́й.",
+  "translit": "Zavtra u menya vykhodnoy.",
+  "en": "Tomorrow is my day off.",
+  "pl": "Jutro mam wolne.",
+  "de": "Morgen habe ich frei."
+},
+{
+  "id": "businessjob-part-1-75",
+  "ru": "Я иду в отпуск.",
+  "ruStressed": "Я иду́ в о́тпуск.",
+  "translit": "Ya idu v otpusk.",
+  "en": "I am going on vacation.",
+  "pl": "Idę na urlop.",
+  "de": "Ich fahre in den Urlaub."
+},
+{
+  "id": "businessjob-part-1-76",
+  "ru": "Когда начинается ваш отпуск?",
+  "ruStressed": "Когда́ начина́ется ваш о́тпуск?",
+  "translit": "Kogda nachinayetsya vash otpusk?",
+  "en": "When does your vacation start?",
+  "pl": "Kiedy zaczyna się twój urlop?",
+  "de": "Wann beginnt Ihr Urlaub?"
+},
+{
+  "id": "businessjob-part-1-77",
+  "ru": "Мне нравится моя команда.",
+  "ruStressed": "Мне нра́вится моя́ кома́нда.",
+  "translit": "Mne nravitsya moya komanda.",
+  "en": "I like my team.",
+  "pl": "Lubię swój zespół.",
+  "de": "Ich mag mein Team."
+},
+{
+  "id": "businessjob-part-1-78",
+  "ru": "У нас хорошие коллеги.",
+  "ruStressed": "У нас хоро́шие колле́ги.",
+  "translit": "U nas khoroshiye kollegi.",
+  "en": "We have good colleagues.",
+  "pl": "Mamy dobrych współpracowników.",
+  "de": "Wir haben gute Kollegen."
+},
+{
+  "id": "businessjob-part-1-79",
+  "ru": "Мы помогаем друг другу.",
+  "ruStressed": "Мы помога́ем друг дру́гу.",
+  "translit": "My pomogayem drug drugu.",
+  "en": "We help each other.",
+  "pl": "Pomagamy sobie nawzajem.",
+  "de": "Wir helfen einander."
+},
+{
+  "id": "businessjob-part-1-80",
+  "ru": "У нас дружелюбная атмосфера.",
+  "ruStressed": "У нас дружелю́бная атмосфе́ра.",
+  "translit": "U nas druzhelyubnaya atmosfera.",
+  "en": "We have a friendly atmosphere.",
+  "pl": "Mamy przyjazną atmosferę.",
+  "de": "Wir haben eine freundliche Atmosphäre."
+},
+{
+  "id": "businessjob-part-1-81",
+  "ru": "Компания открывает новый офис.",
+  "ruStressed": "Компа́ния открыва́ет но́вый о́фис.",
+  "translit": "Kompaniya otkryvayet novyy ofis.",
+  "en": "The company is opening a new office.",
+  "pl": "Firma otwiera nowe biuro.",
+  "de": "Das Unternehmen eröffnet ein neues Büro."
+},
+{
+  "id": "businessjob-part-1-82",
+  "ru": "Мы нанимаем новых сотрудников.",
+  "ruStressed": "Мы нанима́ем но́вых сотру́дников.",
+  "translit": "My nanimayem novykh sotrudnikov.",
+  "en": "We are hiring new employees.",
+  "pl": "Zatrudniamy nowych pracowników.",
+  "de": "Wir stellen neue Mitarbeiter ein."
+},
+{
+  "id": "businessjob-part-1-83",
+  "ru": "У нас много клиентов.",
+  "ruStressed": "У нас мно́го клие́нтов.",
+  "translit": "U nas mnogo kliyentov.",
+  "en": "We have many clients.",
+  "pl": "Mamy wielu klientów.",
+  "de": "Wir haben viele Kunden."
+},
+{
+  "id": "businessjob-part-1-84",
+  "ru": "Клиенты довольны нашей работой.",
+  "ruStressed": "Клие́нты дово́льны на́шей рабо́той.",
+  "translit": "Kliyenty dovolny nashey rabotoy.",
+  "en": "The clients are satisfied with our work.",
+  "pl": "Klienci są zadowoleni z naszej pracy.",
+  "de": "Die Kunden sind mit unserer Arbeit zufrieden."
+},
+{
+  "id": "businessjob-part-1-85",
+  "ru": "Мы получили новый контракт.",
+  "ruStressed": "Мы получи́ли но́вый контра́кт.",
+  "translit": "My poluchili novyy kontrakt.",
+  "en": "We received a new contract.",
+  "pl": "Otrzymaliśmy nowy kontrakt.",
+  "de": "Wir haben einen neuen Vertrag erhalten."
+},
+{
+  "id": "businessjob-part-1-86",
+  "ru": "Это отличная новость.",
+  "ruStressed": "Э́то отли́чная но́вость.",
+  "translit": "Eto otlichnaya novost.",
+  "en": "That is great news.",
+  "pl": "To świetna wiadomość.",
+  "de": "Das sind großartige Neuigkeiten."
+},
+{
+  "id": "businessjob-part-1-87",
+  "ru": "Компания получает прибыль.",
+  "ruStressed": "Компа́ния получа́ет при́быль.",
+  "translit": "Kompaniya poluchayet pribyl.",
+  "en": "The company is making a profit.",
+  "pl": "Firma osiąga zysk.",
+  "de": "Das Unternehmen macht Gewinn."
+},
+{
+  "id": "businessjob-part-1-88",
+  "ru": "Мы инвестируем в новые проекты.",
+  "ruStressed": "Мы инвести́руем в но́вые прое́кты.",
+  "translit": "My investiruyem v novyye proyekty.",
+  "en": "We invest in new projects.",
+  "pl": "Inwestujemy w nowe projekty.",
+  "de": "Wir investieren in neue Projekte."
+},
+{
+  "id": "businessjob-part-1-89",
+  "ru": "Мне нравится работать здесь.",
+  "ruStressed": "Мне нра́вится рабо́тать здесь.",
+  "translit": "Mne nravitsya rabotat zdes.",
+  "en": "I like working here.",
+  "pl": "Lubię tutaj pracować.",
+  "de": "Ich arbeite gerne hier."
+},
+{
+  "id": "businessjob-part-1-90",
+  "ru": "Я многому научился.",
+  "ruStressed": "Я мно́гому научи́лся.",
+  "translit": "Ya mnogomu nauchilsya.",
+  "en": "I learned a lot.",
+  "pl": "Wiele się nauczyłem.",
+  "de": "Ich habe viel gelernt."
+},
+{
+  "id": "businessjob-part-1-91",
+  "ru": "Каждый день приносит новый опыт.",
+  "ruStressed": "Ка́ждый день прино́сит но́вый о́пыт.",
+  "translit": "Kazhdyy den prinosit novyy opyt.",
+  "en": "Every day brings new experience.",
+  "pl": "Każdy dzień przynosi nowe doświadczenia.",
+  "de": "Jeder Tag bringt neue Erfahrungen."
+},
+{
+  "id": "businessjob-part-1-92",
+  "ru": "Я хочу развиваться дальше.",
+  "ruStressed": "Я хочу́ развива́ться да́льше.",
+  "translit": "Ya khochu razvivatsya dalshe.",
+  "en": "I want to develop further.",
+  "pl": "Chcę się dalej rozwijać.",
+  "de": "Ich möchte mich weiterentwickeln."
+},
+{
+  "id": "businessjob-part-1-93",
+  "ru": "Я посещаю курсы.",
+  "ruStressed": "Я посеща́ю ку́рсы.",
+  "translit": "Ya poseshchayu kursy.",
+  "en": "I attend courses.",
+  "pl": "Uczęszczam na kursy.",
+  "de": "Ich besuche Kurse."
+},
+{
+  "id": "businessjob-part-1-94",
+  "ru": "Компания оплачивает обучение.",
+  "ruStressed": "Компа́ния опла́чивает обуче́ние.",
+  "translit": "Kompaniya oplachivayet obucheniye.",
+  "en": "The company pays for training.",
+  "pl": "Firma opłaca szkolenia.",
+  "de": "Das Unternehmen bezahlt die Weiterbildung."
+},
+{
+  "id": "businessjob-part-1-95",
+  "ru": "Это хорошая возможность.",
+  "ruStressed": "Э́то хоро́шая возмо́жность.",
+  "translit": "Eto khoroshaya vozmozhnost.",
+  "en": "This is a good opportunity.",
+  "pl": "To dobra okazja.",
+  "de": "Das ist eine gute Gelegenheit."
+},
+{
+  "id": "businessjob-part-1-96",
+  "ru": "Я хочу стать руководителем.",
+  "ruStressed": "Я хочу́ стать руководи́телем.",
+  "translit": "Ya khochu stat rukovoditelem.",
+  "en": "I want to become a manager.",
+  "pl": "Chcę zostać kierownikiem.",
+  "de": "Ich möchte Führungskraft werden."
+},
+{
+  "id": "businessjob-part-1-97",
+  "ru": "У меня большие цели.",
+  "ruStressed": "У меня́ больши́е це́ли.",
+  "translit": "U menya bolshiye tseli.",
+  "en": "I have big goals.",
+  "pl": "Mam duże cele.",
+  "de": "Ich habe große Ziele."
+},
+{
+  "id": "businessjob-part-1-98",
+  "ru": "Я усердно работаю каждый день.",
+  "ruStressed": "Я усе́рдно рабо́таю ка́ждый день.",
+  "translit": "Ya userdno rabotayu kazhdyy den.",
+  "en": "I work hard every day.",
+  "pl": "Codziennie ciężko pracuję.",
+  "de": "Ich arbeite jeden Tag hart."
+},
+{
+  "id": "businessjob-part-1-99",
+  "ru": "Я верю в свой успех.",
+  "ruStressed": "Я ве́рю в свой успе́х.",
+  "translit": "Ya veryu v svoy uspekh.",
+  "en": "I believe in my success.",
+  "pl": "Wierzę w swój sukces.",
+  "de": "Ich glaube an meinen Erfolg."
+},
+{
+  "id": "businessjob-part-1-100",
+  "ru": "Моя карьера только начинается.",
+  "ruStressed": "Моя́ карье́ра то́лько начина́ется.",
+  "translit": "Moya karyera tolko nachinayetsya.",
+  "en": "My career is only beginning.",
+  "pl": "Moja kariera dopiero się zaczyna.",
+  "de": "Meine Karriere beginnt gerade erst."
+},
+  {
+  "id": "businessjob-part-1-101",
+  "ru": "Какая у вас зарплата?",
+  "ruStressed": "Кака́я у вас зарпла́та?",
+  "translit": "Kakaya u vas zarplata?",
+  "en": "What is your salary?",
+  "pl": "Jakie jest twoje wynagrodzenie?",
+  "de": "Wie hoch ist Ihr Gehalt?"
+},
+{
+  "id": "businessjob-part-1-102",
+  "ru": "Я доволен своей зарплатой.",
+  "ruStressed": "Я дово́лен свое́й зарпла́той.",
+  "translit": "Ya dovolen svoyey zarplatoy.",
+  "en": "I am satisfied with my salary.",
+  "pl": "Jestem zadowolony ze swojej pensji.",
+  "de": "Ich bin mit meinem Gehalt zufrieden."
+},
+{
+  "id": "businessjob-part-1-103",
+  "ru": "Зарплата приходит каждый месяц.",
+  "ruStressed": "Зарпла́та прихо́дит ка́ждый ме́сяц.",
+  "translit": "Zarplata prikhodit kazhdyy mesyats.",
+  "en": "The salary comes every month.",
+  "pl": "Pensja przychodzi co miesiąc.",
+  "de": "Das Gehalt kommt jeden Monat."
+},
+{
+  "id": "businessjob-part-1-104",
+  "ru": "Я получил премию.",
+  "ruStressed": "Я получи́л пре́мию.",
+  "translit": "Ya poluchil premiyu.",
+  "en": "I received a bonus.",
+  "pl": "Otrzymałem premię.",
+  "de": "Ich habe einen Bonus erhalten."
+},
+{
+  "id": "businessjob-part-1-105",
+  "ru": "Это была приятная неожиданность.",
+  "ruStressed": "Э́то была́ прия́тная неожи́данность.",
+  "translit": "Eto byla priyatnaya neozhidannost.",
+  "en": "It was a pleasant surprise.",
+  "pl": "To była miła niespodzianka.",
+  "de": "Das war eine angenehme Überraschung."
+},
+{
+  "id": "businessjob-part-1-106",
+  "ru": "Мне нужно подписать договор.",
+  "ruStressed": "Мне ну́жно подписа́ть догово́р.",
+  "translit": "Mne nuzhno podpisat dogovor.",
+  "en": "I need to sign the contract.",
+  "pl": "Muszę podpisać umowę.",
+  "de": "Ich muss den Vertrag unterschreiben."
+},
+{
+  "id": "businessjob-part-1-107",
+  "ru": "Пожалуйста, прочитайте условия.",
+  "ruStressed": "Пожа́луйста, прочита́йте усло́вия.",
+  "translit": "Pozhaluysta, prochitayte usloviya.",
+  "en": "Please read the terms.",
+  "pl": "Proszę przeczytać warunki.",
+  "de": "Bitte lesen Sie die Bedingungen."
+},
+{
+  "id": "businessjob-part-1-108",
+  "ru": "Я согласен с условиями.",
+  "ruStressed": "Я согла́сен с усло́виями.",
+  "translit": "Ya soglasen s usloviyami.",
+  "en": "I agree with the terms.",
+  "pl": "Zgadzam się z warunkami.",
+  "de": "Ich stimme den Bedingungen zu."
+},
+{
+  "id": "businessjob-part-1-109",
+  "ru": "У нас деловая встреча.",
+  "ruStressed": "У нас делова́я встре́ча.",
+  "translit": "U nas delovaya vstrecha.",
+  "en": "We have a business meeting.",
+  "pl": "Mamy spotkanie biznesowe.",
+  "de": "Wir haben ein Geschäftstreffen."
+},
+{
+  "id": "businessjob-part-1-110",
+  "ru": "Встреча проходит успешно.",
+  "ruStressed": "Встре́ча прохо́дит успе́шно.",
+  "translit": "Vstrecha prokhodit uspeshno.",
+  "en": "The meeting is going well.",
+  "pl": "Spotkanie przebiega pomyślnie.",
+  "de": "Das Meeting verläuft erfolgreich."
+},
+{
+  "id": "businessjob-part-1-111",
+  "ru": "Мы обсуждаем бюджет.",
+  "ruStressed": "Мы обсужда́ем бюдже́т.",
+  "translit": "My obsuzhdayem byudzhet.",
+  "en": "We are discussing the budget.",
+  "pl": "Omawiamy budżet.",
+  "de": "Wir besprechen das Budget."
+},
+{
+  "id": "businessjob-part-1-112",
+  "ru": "Бюджет ограничен.",
+  "ruStressed": "Бюдже́т ограни́чен.",
+  "translit": "Byudzhet ogranichen.",
+  "en": "The budget is limited.",
+  "pl": "Budżet jest ograniczony.",
+  "de": "Das Budget ist begrenzt."
+},
+{
+  "id": "businessjob-part-1-113",
+  "ru": "Нам нужно сократить расходы.",
+  "ruStressed": "Нам ну́жно сократи́ть расхо́ды.",
+  "translit": "Nam nuzhno sokratit raskhody.",
+  "en": "We need to reduce expenses.",
+  "pl": "Musimy zmniejszyć wydatki.",
+  "de": "Wir müssen die Ausgaben senken."
+},
+{
+  "id": "businessjob-part-1-114",
+  "ru": "Этот проект прибыльный.",
+  "ruStressed": "Э́тот прое́кт при́быльный.",
+  "translit": "Etot proyekt pribylnyy.",
+  "en": "This project is profitable.",
+  "pl": "Ten projekt jest dochodowy.",
+  "de": "Dieses Projekt ist profitabel."
+},
+{
+  "id": "businessjob-part-1-115",
+  "ru": "Мы ищем новых партнёров.",
+  "ruStressed": "Мы и́щем но́вых партнёров.",
+  "translit": "My ishchem novykh partnyorov.",
+  "en": "We are looking for new partners.",
+  "pl": "Szukamy nowych partnerów.",
+  "de": "Wir suchen neue Partner."
+},
+{
+  "id": "businessjob-part-1-116",
+  "ru": "Партнёрство очень важно.",
+  "ruStressed": "Партнёрство о́чень ва́жно.",
+  "translit": "Partnyorstvo ochen vazhno.",
+  "en": "Partnership is very important.",
+  "pl": "Partnerstwo jest bardzo ważne.",
+  "de": "Partnerschaft ist sehr wichtig."
+},
+{
+  "id": "businessjob-part-1-117",
+  "ru": "Я еду в командировку.",
+  "ruStressed": "Я е́ду в командиро́вку.",
+  "translit": "Ya yedu v komandirovku.",
+  "en": "I am going on a business trip.",
+  "pl": "Jadę w podróż służbową.",
+  "de": "Ich fahre auf Geschäftsreise."
+},
+{
+  "id": "businessjob-part-1-118",
+  "ru": "Командировка длится три дня.",
+  "ruStressed": "Командиро́вка дли́тся три дня́.",
+  "translit": "Komandirovka dlitsya tri dnya.",
+  "en": "The business trip lasts three days.",
+  "pl": "Podróż służbowa trwa trzy dni.",
+  "de": "Die Geschäftsreise dauert drei Tage."
+},
+{
+  "id": "businessjob-part-1-119",
+  "ru": "Я встречусь с клиентами.",
+  "ruStressed": "Я встре́чусь с клие́нтами.",
+  "translit": "Ya vstrechus s kliyentami.",
+  "en": "I will meet with clients.",
+  "pl": "Spotkam się z klientami.",
+  "de": "Ich werde Kunden treffen."
+},
+{
+  "id": "businessjob-part-1-120",
+  "ru": "Мы подписали соглашение.",
+  "ruStressed": "Мы подписа́ли соглаше́ние.",
+  "translit": "My podpisali soglasheniye.",
+  "en": "We signed an agreement.",
+  "pl": "Podpisaliśmy porozumienie.",
+  "de": "Wir haben eine Vereinbarung unterzeichnet."
+},
+{
+  "id": "businessjob-part-1-121",
+  "ru": "Сделка была успешной.",
+  "ruStressed": "Сде́лка была́ успе́шной.",
+  "translit": "Sdelka byla uspeshnoy.",
+  "en": "The deal was successful.",
+  "pl": "Transakcja była udana.",
+  "de": "Das Geschäft war erfolgreich."
+},
+{
+  "id": "businessjob-part-1-122",
+  "ru": "Мы достигли нашей цели.",
+  "ruStressed": "Мы дости́гли на́шей це́ли.",
+  "translit": "My dostigli nashey tseli.",
+  "en": "We achieved our goal.",
+  "pl": "Osiągnęliśmy nasz cel.",
+  "de": "Wir haben unser Ziel erreicht."
+},
+{
+  "id": "businessjob-part-1-123",
+  "ru": "Это большой успех для компании.",
+  "ruStressed": "Э́то большо́й успе́х для компа́нии.",
+  "translit": "Eto bolshoy uspekh dlya kompanii.",
+  "en": "This is a great success for the company.",
+  "pl": "To wielki sukces dla firmy.",
+  "de": "Das ist ein großer Erfolg für das Unternehmen."
+},
+{
+  "id": "businessjob-part-1-124",
+  "ru": "Мы празднуем этот успех.",
+  "ruStressed": "Мы пра́зднуем э́тот успе́х.",
+  "translit": "My prazdnuyem etot uspekh.",
+  "en": "We are celebrating this success.",
+  "pl": "Świętujemy ten sukces.",
+  "de": "Wir feiern diesen Erfolg."
+},
+{
+  "id": "businessjob-part-1-125",
+  "ru": "Будущее выглядит многообещающим.",
+  "ruStressed": "Бу́дущее вы́глядит многообеща́ющим.",
+  "translit": "Budushcheye vyglyadit mnogoobeshchayushchim.",
+  "en": "The future looks promising.",
+  "pl": "Przyszłość wygląda obiecująco.",
+  "de": "Die Zukunft sieht vielversprechend aus."
+}
+]
