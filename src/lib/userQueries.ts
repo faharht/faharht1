@@ -18,7 +18,7 @@ export const sessionUserQueryOptions = queryOptions({
       emailConfirmed: !!data.user.email_confirmed_at,
     };
   },
-  staleTime: 5 * 60_000,
+  staleTime: 0,
   gcTime: 30 * 60_000,
 });
 
