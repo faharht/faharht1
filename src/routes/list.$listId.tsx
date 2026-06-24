@@ -271,46 +271,49 @@ function ListPage() {
   const nowPlaying = currentIdx !== null ? visibleSentences[currentIdx] : null;
 
   return (
-    <div className="min-h-screen bg-[oklch(0.985_0.008_180)] pb-32">
+    <div className="min-h-screen bg-slate-50 pb-32">
       {/* Sticky header */}
-      <header className="sticky top-0 z-30 border-b border-border/60 bg-[oklch(0.96_0.025_180)]/95 backdrop-blur">
+      <header className="sticky top-0 z-30 bg-gradient-to-br from-indigo-500 via-blue-600 to-indigo-700 text-white shadow-md">
         <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-3">
           <Link
             to="/"
-            className="grid h-10 w-10 shrink-0 place-items-center rounded-lg border border-border bg-card text-foreground hover:bg-accent"
+            className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/20 text-white backdrop-blur hover:bg-white/30"
             aria-label={t("common.back")}
           >
             <ArrowLeft className="h-4 w-4" />
           </Link>
-          <div className="min-w-0">
-            <h1 className="truncate text-lg font-bold text-foreground">{t("list.vocabulary")}</h1>
-            <p className="truncate text-xs text-muted-foreground">{t(meta.titleKey, meta.titleVars)}</p>
+          <div className="min-w-0 flex-1">
+            <h1 className="truncate text-base font-bold">{t("list.vocabulary")}</h1>
+            <p className="truncate text-xs text-white/75">{t(meta.titleKey, meta.titleVars)}</p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-2xl grid-cols-4 gap-2 border-t border-border/50 bg-background/60 px-4 py-3 text-center">
-          <div className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
-            <CalendarIcon className="h-4 w-4" />
-            <span>{t("common.today")}</span>
+        <div className="mx-auto max-w-2xl px-4 pb-4">
+          <div className="grid grid-cols-4 gap-2 rounded-2xl bg-white p-3 text-slate-900 shadow-sm">
+            <div className="flex flex-col items-center justify-center text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+              <CalendarIcon className="mb-1 h-4 w-4 text-blue-600" />
+              <span className="truncate">{t("common.today")}</span>
+            </div>
+            <Stat label={t("list.stat.practiced")} value={String(stats.practiced)} />
+            <Stat label={t("list.stat.reps")} value={String(stats.reps)} />
+            <Stat label={t("list.stat.mastered")} value={`${stats.mastered}/${total}`} />
           </div>
-          <Stat label={t("list.stat.practiced")} value={String(stats.practiced)} />
-          <Stat label={t("list.stat.reps")} value={String(stats.reps)} />
-          <Stat label={t("list.stat.mastered")} value={`${stats.mastered}/${total}`} />
         </div>
       </header>
 
+
       <main className="mx-auto max-w-2xl px-4">
-        {/* Play bar — stacks on narrow screens */}
-        <div className="mt-4 rounded-2xl border border-border/60 bg-card p-2 shadow-sm">
+        {/* Play bar */}
+        <div className="mt-4 rounded-2xl bg-white p-2 shadow-sm">
           <div className="flex flex-wrap items-center gap-2">
             <button
               onClick={playingAll ? stopAll : playAll}
               disabled={!sentences.length || !speechReady}
-              className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground shadow-sm transition hover:opacity-90 disabled:opacity-40"
+              className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 text-white shadow-md transition hover:opacity-90 disabled:opacity-40"
               aria-label={playingAll ? t("list.stop") : t("list.play")}
             >
               {playingAll ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5 translate-x-0.5" />}
             </button>
-            <span className="text-sm font-semibold text-foreground">{t("list.rep", { n: settings.reps })}</span>
+            <span className="text-sm font-semibold text-slate-900">{t("list.rep", { n: settings.reps })}</span>
             <div className="ml-auto flex flex-wrap items-center gap-2">
               <IconBtn
                 label={t("list.listenMode")}
@@ -333,6 +336,7 @@ function ListPage() {
             </div>
           </div>
         </div>
+
 
         {/* Toolbar */}
         <div className="mt-3 flex flex-wrap items-center gap-2">
