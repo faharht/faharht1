@@ -17,7 +17,10 @@ const SIGNED_URL_TTL = 60 * 60 * 24 * 7; // 7 days
 function defaultUsernameFromEmail(email: string | null): string {
   if (!email) return "";
   const local = email.split("@")[0] ?? "";
-  return local.replace(/[._-]+/g, " ").trim().slice(0, 40);
+  return local
+    .replace(/[._-]+/g, " ")
+    .trim()
+    .slice(0, 40);
 }
 
 export function AvatarUploader({
@@ -92,7 +95,10 @@ export function AvatarUploader({
       return;
     }
     if (avatarPath && avatarPath !== path) {
-      await supabase.storage.from("avatars").remove([avatarPath]).catch(() => {});
+      await supabase.storage
+        .from("avatars")
+        .remove([avatarPath])
+        .catch(() => {});
     }
     const { error: pErr } = await supabase
       .from("profiles")
@@ -102,9 +108,7 @@ export function AvatarUploader({
       setBusy(false);
       return;
     }
-    const { data: s } = await supabase.storage
-      .from("avatars")
-      .createSignedUrl(path, SIGNED_URL_TTL);
+    const { data: s } = await supabase.storage.from("avatars").createSignedUrl(path, SIGNED_URL_TTL);
     queryClient.setQueryData(profileQueryOptions(userId).queryKey, {
       displayName,
       avatarPath: path,
@@ -175,7 +179,6 @@ export function AvatarUploader({
             <Pencil className="h-3.5 w-3.5" />
           </button>
         </div>
-        <div className="text-[11px] text-muted-foreground">Tap the pencil to edit your profile.</div>
       </div>
 
       <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
@@ -210,13 +213,7 @@ export function AvatarUploader({
                 <Camera className="h-3.5 w-3.5" />
                 Change picture
               </button>
-              <input
-                ref={fileRef}
-                type="file"
-                accept="image/*"
-                className="hidden"
-                onChange={onPickFile}
-              />
+              <input ref={fileRef} type="file" accept="image/*" className="hidden" onChange={onPickFile} />
             </div>
 
             <div className="space-y-1.5">
