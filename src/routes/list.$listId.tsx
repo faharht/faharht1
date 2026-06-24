@@ -19,7 +19,9 @@ import {
   X,
 } from "lucide-react";
 import { findList, TONE_CLASSES, LEVELS } from "@/lib/trainer/levels";
-import { getSentences } from "@/lib/trainer/sentences";
+import { sentencesQueryOptions } from "@/lib/trainer/sentences";
+import { useQuery } from "@tanstack/react-query";
+
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
@@ -67,7 +69,7 @@ function ListPage() {
   const notifyGoal = useNotifyGoal();
 
   const { meta } = Route.useLoaderData();
-  const sentences = useMemo(() => getSentences(meta.id), [meta.id]);
+  const { data: sentences = [], isLoading: sentencesLoading } = useQuery(sentencesQueryOptions(meta.id));
   const settings = useTrainerStore((s) => s.settings);
   const progress = useTrainerStore((s) => s.progress);
   const favorites = useTrainerStore((s) => s.favorites);
@@ -390,12 +392,19 @@ function ListPage() {
           </div>
         )}
 
-        {!sentences.length && (
+        {sentencesLoading && (
+          <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
+            <p className="text-sm font-semibold text-foreground">{t("common.pleaseWait")}</p>
+          </div>
+        )}
+
+        {!sentencesLoading && !sentences.length && (
           <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
             <p className="text-sm font-semibold text-foreground">{t("list.empty.cookingTitle")}</p>
             <p className="mt-1 text-xs text-muted-foreground">{t("list.empty.cookingDesc")}</p>
           </div>
         )}
+
 
         {sentences.length > 0 && visibleSentences.length === 0 && (
           <div className="mt-10 rounded-2xl border border-dashed border-border/60 bg-card p-8 text-center">
