@@ -173,6 +173,24 @@ function MenuButton({
   );
 }
 
+function SetCard({ set }: { set: ListMeta }) {
+  return (
+    <Link
+      to="/list/$listId"
+      params={{ listId: set.id }}
+      className="block rounded-2xl border border-border/70 border-l-4 border-l-amber-400 bg-card px-4 py-4 shadow-sm transition hover:shadow-md"
+    >
+      <div className="flex items-center gap-3">
+        <span className="grid h-9 w-9 place-items-center rounded-lg bg-amber-100 text-amber-700">
+          <ListChecks className="h-4 w-4" />
+        </span>
+        <span className="text-base font-semibold text-foreground">{set.title}</span>
+      </div>
+      <p className="mt-2 text-xs text-muted-foreground">{set.description}</p>
+    </Link>
+  );
+}
+
 function ExtraCard({ extra, band }: { extra: ListMeta; band: string }) {
   const { t } = useT();
   return (
