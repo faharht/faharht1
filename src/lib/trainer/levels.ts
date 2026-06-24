@@ -18,6 +18,9 @@ export interface ListMeta {
   /** Legacy fields for code paths that haven't been migrated yet. */
   title: string;
   description: string;
+  /** Optional icon + tone for themed sentence-set cards. */
+  icon?: LucideIcon;
+  tone?: SetTone;
 }
 
 export interface LevelGroup {
