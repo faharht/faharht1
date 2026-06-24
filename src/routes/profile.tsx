@@ -182,7 +182,7 @@ function ProfilePage() {
           ) : user ? (
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <AvatarUploader userId={user.id} fallbackChar={(user.email ?? "?").slice(0, 1)} />
+                <AvatarUploader userId={user.id} email={user.email} fallbackChar={(user.email ?? "?").slice(0, 1)} />
                 <button
                   onClick={handleSignOut}
                   className="ml-auto inline-flex h-9 shrink-0 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"
