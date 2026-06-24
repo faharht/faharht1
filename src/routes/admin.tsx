@@ -178,7 +178,14 @@ function AdminPage() {
         <header className="mt-3 overflow-hidden rounded-2xl bg-gradient-to-br from-rose-600 to-orange-600 px-5 py-6 text-white shadow-md">
           <h1 className="text-lg font-semibold">Admin · Suggestions</h1>
           <p className="mt-1 text-xs text-white/80">Reply, soft-delete, restore, or audit chat deletions.</p>
+          <Link
+            to="/admin/sentences"
+            className="mt-3 inline-flex h-8 items-center rounded-md bg-white/15 px-3 text-xs font-semibold text-white hover:bg-white/25"
+          >
+            Manage sentences →
+          </Link>
         </header>
+
 
         {active ? (
           <ThreadView
