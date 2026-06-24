@@ -1,7 +1,7 @@
 export type LevelId = "A1" | "A2" | "B1" | "B2";
 
 import type { StringKey } from "@/lib/i18n/strings";
-import { Briefcase, Plane, UtensilsCrossed, Coffee, type LucideIcon } from "lucide-react";
+import { Briefcase, Plane, UtensilsCrossed, Palette, type LucideIcon } from "lucide-react";
 
 export type SetTone = "amber" | "violet" | "emerald" | "sky" | "rose";
 
@@ -123,16 +123,16 @@ export const SENTENCE_SETS: ListMeta[] = [
     tone: "rose",
   },
   {
-    id: "hangingout-part-1",
+    id: "hobbies-part-1",
     level: "A2",
     part: 1,
     titleKey: "list.levelPartTitle",
-    titleVars: { level: "Hanging Out", part: 1 },
+    titleVars: { level: "Hobbies", part: 1 },
     descriptionKey: "part.A1.1",
-    title: "Hanging Out",
-    description: "Everyday chit-chat with friends — making plans, sharing weekends and keeping the conversation going.",
-    icon: Coffee,
-    tone: "amber",
+    title: "Hobbies",
+    description: "Talk about what you love — sports, music, cooking, gaming and the little rituals that fill your free time.",
+    icon: Palette,
+    tone: "emerald",
   },
   {
     id: "businessjob-part-1",
