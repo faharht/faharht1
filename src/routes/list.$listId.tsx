@@ -368,6 +368,15 @@ function ListPage() {
           </div>
         </div>
 
+        {/* Daily streak */}
+        <StreakStrip
+          currentStreak={effectiveStreak}
+          longestStreak={longestStreak}
+          last14={last14}
+          dailyGoal={effectiveGoal}
+          today={todayStr}
+        />
+
 
         {/* Toolbar */}
         <div className="mt-3 flex flex-wrap items-center gap-2">
