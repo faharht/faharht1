@@ -156,8 +156,9 @@ function ProfilePage() {
 
   async function handleSignOut() {
     await supabase.auth.signOut();
-    setUser(null);
+    queryClient.setQueryData(["sessionUser"], null);
   }
+
 
   function handleGoalConfirm(goal: ChallengeGoal) {
     if (challenge) resetChallengeWithNewGoal(goal);
