@@ -134,7 +134,9 @@ export function AvatarUploader({
         />
       </div>
       <div className="min-w-0 flex-1">
-        <div className="text-sm font-semibold text-foreground">Profile picture</div>
+        <div className="truncate text-sm font-semibold text-foreground">
+          {displayName?.trim() || "Set a username"}
+        </div>
         <div className="text-[11px] text-muted-foreground">PNG/JPG, up to 5 MB.</div>
         {error && <div className="mt-1 text-[11px] text-rose-700">{error}</div>}
         {avatarPath && !busy && (
