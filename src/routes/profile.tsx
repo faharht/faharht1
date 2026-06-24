@@ -19,6 +19,7 @@ import { cn } from "@/lib/utils";
 import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
 import { UserSuggestions } from "@/components/Suggestions";
+import { AvatarUploader } from "@/components/AvatarUploader";
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
@@ -155,21 +156,21 @@ function ProfilePage() {
           {loading ? (
             <div className="h-10 animate-pulse rounded-md bg-muted" />
           ) : user ? (
-            <div className="flex items-center gap-3">
-              <div className="grid h-11 w-11 place-items-center rounded-full bg-violet-100 text-violet-700 font-semibold">
-                {(user.email ?? "?").slice(0, 1).toUpperCase()}
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <AvatarUploader userId={user.id} fallbackChar={(user.email ?? "?").slice(0, 1)} />
+                <button
+                  onClick={handleSignOut}
+                  className="ml-auto inline-flex h-9 shrink-0 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"
+                >
+                  <LogOut className="h-3.5 w-3.5" />
+                  {t("profile.signOut")}
+                </button>
               </div>
-              <div className="min-w-0 flex-1">
+              <div className="rounded-lg border border-border/50 bg-background/60 px-3 py-2">
                 <div className="text-sm font-semibold text-foreground">{t("profile.signedIn")}</div>
                 <div className="truncate text-xs text-muted-foreground">{user.email}</div>
               </div>
-              <button
-                onClick={handleSignOut}
-                className="inline-flex h-9 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"
-              >
-                <LogOut className="h-3.5 w-3.5" />
-                {t("profile.signOut")}
-              </button>
             </div>
           ) : (
             <div className="space-y-3">
