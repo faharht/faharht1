@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -8,6 +8,7 @@ import {
   Heart,
   HelpCircle,
   Languages,
+  Lock,
   Pause,
   Play,
   Search,
@@ -21,6 +22,7 @@ import {
 import { findList, TONE_CLASSES, LEVELS } from "@/lib/trainer/levels";
 import { sentencesQueryOptions } from "@/lib/trainer/sentences";
 import { useQuery } from "@tanstack/react-query";
+import { sessionUserQueryOptions } from "@/lib/userQueries";
 
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
@@ -29,6 +31,8 @@ import { toast } from "sonner";
 import { useDayTick } from "@/lib/trainer/useDayTick";
 import { useT } from "@/lib/i18n/useT";
 import { LOCALES } from "@/lib/i18n/strings";
+
+const GUEST_AUDIO_LIMIT = 50;
 
 function useNotifyGoal() {
   const { t } = useT();
@@ -69,6 +73,9 @@ function ListPage() {
   useDayTick();
   const { t, locale } = useT();
   const notifyGoal = useNotifyGoal();
+  const navigate = useNavigate();
+  const { data: sessionUser } = useQuery(sessionUserQueryOptions);
+  const isGuest = !sessionUser;
 
   const { meta } = Route.useLoaderData();
   const { data: sentences = [], isLoading: sentencesLoading } = useQuery(sentencesQueryOptions(meta.id));
@@ -179,6 +186,11 @@ function ListPage() {
 
   function playOne(idx: number) {
     if (!hasSpeech()) return;
+    if (isGuest && idx >= GUEST_AUDIO_LIMIT) {
+      toast.info(t("guestLock.toast"));
+      navigate({ to: "/auth", search: { mode: "signin" } });
+      return;
+    }
     stopSpeaking();
     setPlayingAll(false);
     cancelRef.current = true;
@@ -203,8 +215,13 @@ function ListPage() {
     });
   }
 
-  function playWord(word: string) {
+  function playWord(word: string, idx?: number) {
     if (!hasSpeech()) return;
+    if (isGuest && typeof idx === "number" && idx >= GUEST_AUDIO_LIMIT) {
+      toast.info(t("guestLock.toast"));
+      navigate({ to: "/auth", search: { mode: "signin" } });
+      return;
+    }
     speak(word, { rate: settings.speed });
   }
 
@@ -212,7 +229,10 @@ function ListPage() {
     if (!hasSpeech()) return;
     setPlayingAll(true);
     cancelRef.current = false;
-    for (let i = 0; i < visibleSentences.length; i++) {
+    const limit = isGuest
+      ? Math.min(visibleSentences.length, GUEST_AUDIO_LIMIT)
+      : visibleSentences.length;
+    for (let i = 0; i < limit; i++) {
       if (cancelRef.current) break;
       setCurrentIdx(i);
       setActiveWord(null);
@@ -439,10 +459,12 @@ function ListPage() {
                 textSizeClass={TEXT_SIZE_CLASS[settings.textSize]}
                 toneBorder={tone.border}
                 speechReady={speechReady}
+                locked={isGuest && idx >= GUEST_AUDIO_LIMIT}
                 onPlay={() => playOne(idx)}
-                onPlayWord={playWord}
+                onPlayWord={(w) => playWord(w, idx)}
                 onStars={(v) => setStars(s.id, v)}
                 onToggleFav={() => toggleFavorite(s.id)}
+                onUnlock={() => navigate({ to: "/auth", search: { mode: "signin" } })}
               />
             );
           })}
@@ -550,10 +572,12 @@ function ListenCard({
   textSizeClass,
   toneBorder,
   speechReady,
+  locked,
   onPlay,
   onPlayWord,
   onStars,
   onToggleFav,
+  onUnlock,
 }: {
   idx: number;
   sentence: { id: string; ru: string; ruStressed?: string; en: string; pl?: string; translit?: string };
@@ -568,10 +592,12 @@ function ListenCard({
   textSizeClass: string;
   toneBorder: string;
   speechReady: boolean;
+  locked: boolean;
   onPlay: () => void;
   onPlayWord: (word: string) => void;
   onStars: (v: number) => void;
   onToggleFav: () => void;
+  onUnlock: () => void;
 }) {
   const { t } = useT();
   const [revealed, setRevealed] = useState(false);
@@ -600,12 +626,17 @@ function ListenCard({
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-xs font-semibold text-primary">#{idx + 1}</span>
         <button
-          onClick={onPlay}
+          onClick={locked ? onUnlock : onPlay}
           disabled={!speechReady}
-          className="grid h-10 w-10 place-items-center rounded-lg border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 disabled:opacity-40"
-          aria-label={t("list.card.playSentence")}
+          className={cn(
+            "grid h-10 w-10 place-items-center rounded-lg border disabled:opacity-40",
+            locked
+              ? "border-amber-300 bg-amber-50 text-amber-700 hover:bg-amber-100"
+              : "border-primary/30 bg-primary/5 text-primary hover:bg-primary/10",
+          )}
+          aria-label={locked ? t("guestLock.cardTitle") : t("list.card.playSentence")}
         >
-          <Volume2 className="h-4 w-4" />
+          {locked ? <Lock className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
         </button>
         <button
           onClick={onToggleFav}
@@ -660,7 +691,8 @@ function ListenCard({
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
-                    onPlayWord(tok.plain);
+                    if (locked) onUnlock();
+                    else onPlayWord(tok.plain);
                   }}
                   disabled={!speechReady}
                   className={cn(
@@ -685,6 +717,18 @@ function ListenCard({
             <p className="mt-2 text-sm italic text-muted-foreground break-words">{sentence.translit}</p>
           )}
         </>
+      )}
+      {locked && (
+        <button
+          onClick={onUnlock}
+          className="mt-3 flex w-full items-center gap-2 rounded-xl border border-amber-300 bg-amber-50 px-3 py-2.5 text-left text-xs text-amber-900 hover:bg-amber-100"
+        >
+          <Lock className="h-3.5 w-3.5 shrink-0" />
+          <span className="flex-1">
+            <span className="block font-semibold">{t("guestLock.cardTitle")}</span>
+            <span className="block text-[11px] text-amber-800/90">{t("guestLock.cardHint")}</span>
+          </span>
+        </button>
       )}
     </li>
   );
