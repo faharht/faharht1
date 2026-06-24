@@ -516,9 +516,9 @@ function ListPage() {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div>
-      <div className="text-lg font-bold leading-none text-foreground">{value}</div>
-      <div className="mt-1 text-[10px] font-semibold tracking-wider text-muted-foreground">
+    <div className="min-w-0 text-center">
+      <div className="text-lg font-bold leading-none text-slate-900">{value}</div>
+      <div className="mt-1 truncate text-[10px] font-semibold tracking-wider text-slate-500">
         {label}
       </div>
     </div>
@@ -546,17 +546,18 @@ function IconBtn({
       disabled={disabled}
       title={label}
       className={cn(
-        "grid h-10 w-10 shrink-0 place-items-center rounded-lg border bg-card transition",
+        "grid h-10 w-10 shrink-0 place-items-center rounded-full transition",
         active
-          ? "border-primary/40 bg-primary/10 text-primary"
-          : "border-border text-muted-foreground hover:bg-accent hover:text-foreground",
-        disabled && "opacity-40 cursor-not-allowed hover:bg-card hover:text-muted-foreground",
+          ? "bg-blue-100 text-blue-600"
+          : "bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700",
+        disabled && "opacity-40 cursor-not-allowed hover:bg-slate-100 hover:text-slate-500",
       )}
     >
       {children}
     </button>
   );
 }
+
 
 function maskText(text: string): string {
   return text.replace(/\S/g, "*");
@@ -620,23 +621,22 @@ function ListenCard({
     <li
       id={`s-${sentence.id}`}
       className={cn(
-        "relative scroll-mt-24 rounded-2xl border border-border/60 bg-card p-4 shadow-sm transition border-l-4",
-        toneBorder,
-        active && "ring-2 ring-primary/40",
-        focused && "ring-2 ring-primary/70 shadow-lg",
+        "relative scroll-mt-24 rounded-2xl bg-white p-4 shadow-sm transition",
+        active && "ring-2 ring-blue-400",
+        focused && "ring-2 ring-blue-500 shadow-lg",
       )}
     >
 
       <div className="flex flex-wrap items-center gap-2">
-        <span className="text-xs font-semibold text-primary">#{idx + 1}</span>
+        <span className="text-xs font-bold text-blue-600">#{idx + 1}</span>
         <button
           onClick={locked ? onUnlock : onPlay}
           disabled={!speechReady}
           className={cn(
-            "grid h-10 w-10 place-items-center rounded-lg border disabled:opacity-40",
+            "grid h-10 w-10 place-items-center rounded-full transition disabled:opacity-40",
             locked
-              ? "border-amber-300 bg-amber-50 text-amber-700 hover:bg-amber-100"
-              : "border-primary/30 bg-primary/5 text-primary hover:bg-primary/10",
+              ? "bg-amber-100 text-amber-700 hover:bg-amber-200"
+              : "bg-gradient-to-br from-blue-500 to-indigo-600 text-white shadow-sm hover:opacity-90",
           )}
           aria-label={locked ? t("guestLock.cardTitle") : t("list.card.playSentence")}
         >
@@ -647,10 +647,10 @@ function ListenCard({
           aria-label={fav ? t("list.card.removeFav") : t("list.card.addFav")}
           aria-pressed={fav}
           className={cn(
-            "grid h-10 w-10 place-items-center rounded-lg border transition",
+            "grid h-10 w-10 place-items-center rounded-full transition",
             fav
-              ? "border-rose-300 bg-rose-50 text-rose-500"
-              : "border-border bg-card text-muted-foreground hover:text-foreground",
+              ? "bg-rose-100 text-rose-500"
+              : "bg-slate-100 text-slate-400 hover:bg-slate-200 hover:text-slate-600",
           )}
         >
           <Heart className={cn("h-4 w-4", fav && "fill-current")} />
@@ -659,6 +659,7 @@ function ListenCard({
           <StarRow value={stars} onChange={onStars} />
         </div>
       </div>
+
 
       <p className="mt-3 text-sm text-foreground/80">{translation}</p>
 
