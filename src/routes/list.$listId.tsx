@@ -73,6 +73,9 @@ function ListPage() {
   useDayTick();
   const { t, locale } = useT();
   const notifyGoal = useNotifyGoal();
+  const navigate = useNavigate();
+  const { data: sessionUser } = useQuery(sessionUserQueryOptions);
+  const isGuest = !sessionUser;
 
   const { meta } = Route.useLoaderData();
   const { data: sentences = [], isLoading: sentencesLoading } = useQuery(sentencesQueryOptions(meta.id));
