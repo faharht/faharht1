@@ -23,12 +23,13 @@ export function AvatarUploader({
     (async () => {
       const { data } = await supabase
         .from("profiles")
-        .select("avatar_url")
+        .select("avatar_url, display_name")
         .eq("id", userId)
         .maybeSingle();
       if (cancelled) return;
       const path = data?.avatar_url ?? null;
       setAvatarPath(path);
+      setDisplayName(data?.display_name ?? null);
       if (path) {
         const { data: s } = await supabase.storage
           .from("avatars")
