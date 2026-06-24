@@ -4,6 +4,7 @@ import {
   ArrowLeft,
   BookOpen,
   Calendar as CalendarIcon,
+  Flame,
   Headphones,
   Heart,
   HelpCircle,
@@ -24,7 +25,7 @@ import { sentencesQueryOptions } from "@/lib/trainer/sentences";
 import { useQuery } from "@tanstack/react-query";
 import { sessionUserQueryOptions } from "@/lib/userQueries";
 
-import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
+import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore, todayKey } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
 import { getGrammar, type GrammarPack } from "@/lib/trainer/grammar";
 import { toast } from "sonner";
@@ -86,6 +87,36 @@ function ListPage() {
   const bumpReps = useTrainerStore((s) => s.bumpReps);
   const setSettings = useTrainerStore((s) => s.setSettings);
   const toggleFavorite = useTrainerStore((s) => s.toggleFavorite);
+  const dailyHistory = useTrainerStore((s) => s.dailyHistory);
+  const currentStreak = useTrainerStore((s) => s.currentStreak);
+  const longestStreak = useTrainerStore((s) => s.longestStreak);
+  const lastActiveDate = useTrainerStore((s) => s.lastActiveDate);
+  const dailyGoal = useTrainerStore((s) => s.dailyGoal);
+  const challenge = useTrainerStore((s) => s.challenge);
+  useTrainerStore((s) => s.dayCounter);
+
+  const effectiveGoal = challenge?.goal ?? dailyGoal;
+  const todayStr = todayKey();
+  const last14 = useMemo(() => {
+    const out: { date: string; reps: number }[] = [];
+    const [y, m, d] = todayStr.split("-").map(Number);
+    for (let i = 13; i >= 0; i--) {
+      const dt = new Date(y, m - 1, d);
+      dt.setDate(dt.getDate() - i);
+      const key = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}-${String(dt.getDate()).padStart(2, "0")}`;
+      out.push({ date: key, reps: dailyHistory[key] ?? 0 });
+    }
+    return out;
+  }, [todayStr, dailyHistory]);
+  const effectiveStreak = useMemo(() => {
+    if (!lastActiveDate) return 0;
+    if (lastActiveDate === todayStr) return currentStreak;
+    const [y, m, d] = todayStr.split("-").map(Number);
+    const dt = new Date(y, m - 1, d);
+    dt.setDate(dt.getDate() - 1);
+    const key = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}-${String(dt.getDate()).padStart(2, "0")}`;
+    return lastActiveDate === key ? currentStreak : 0;
+  }, [lastActiveDate, currentStreak, todayStr]);
 
   const ids = useMemo(() => sentences.map((s) => s.id), [sentences]);
   const stats = useMemo(() => summarizeList(progress, ids), [progress, ids]);
