@@ -24,6 +24,7 @@ import { AvatarUploader } from "@/components/AvatarUploader";
 import { sessionUserQueryOptions, profileQueryOptions } from "@/lib/userQueries";
 
 export const Route = createFileRoute("/profile")({
+  ssr: false,
   head: () => ({
     meta: [
       { title: "Profile — Russian Sentence Trainer" },
