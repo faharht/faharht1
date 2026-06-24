@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, ArrowLeft, Layers, ListChecks, ChevronRight } from "lucide-react";
+import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   BANDS,
@@ -26,73 +26,104 @@ export const Route = createFileRoute("/")({
 
 type View = "menu" | "levels" | "sets";
 
+const WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
 function HomePage() {
   const { t } = useT();
   const [view, setView] = useState<View>("menu");
+  const todayIdx = (new Date().getDay() + 6) % 7; // Mon=0
 
   return (
-    <div className="min-h-screen bg-[oklch(0.985_0.008_180)] pb-24">
-      <main className="mx-auto max-w-2xl px-4 pt-6">
-        <header className="overflow-hidden rounded-2xl bg-gradient-to-br from-violet-600 to-indigo-700 px-5 py-6 text-white shadow-md">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <button
-                aria-label={t("common.back")}
-                className="grid h-9 w-9 place-items-center rounded-full bg-white/15 backdrop-blur"
-              >
-                <ArrowLeft className="h-4 w-4" />
-              </button>
-              <div>
-                <h1 className="text-lg font-semibold">{t("home.title")}</h1>
-                <p className="text-xs text-white/80">{t("home.tagline")}</p>
-              </div>
+    <div className="min-h-screen bg-slate-50 pb-28">
+      {/* Blue hero header */}
+      <header className="rounded-b-[2rem] bg-gradient-to-br from-indigo-500 via-blue-600 to-indigo-700 px-5 pb-10 pt-8 text-white shadow-lg">
+        <div className="mx-auto flex max-w-2xl items-center justify-between">
+          <div className="grid h-10 w-10 place-items-center rounded-full bg-white/20 text-sm font-bold backdrop-blur">
+            RU
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="text-[11px] uppercase tracking-wider text-white/70">{t("home.tagline")}</span>
+            <div className="mt-1 inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold backdrop-blur">
+              <Rocket className="h-3.5 w-3.5" />
+              {t("home.title")}
             </div>
           </div>
-          <p className="mt-4 text-sm text-white/90">{t("home.intro")}</p>
-        </header>
+          <button
+            aria-label="notifications"
+            className="grid h-10 w-10 place-items-center rounded-full bg-white/20 backdrop-blur"
+          >
+            <Bell className="h-4 w-4" />
+          </button>
+        </div>
 
+        {/* Daily streak strip (visual only, mirrors today) */}
+        <div className="mx-auto mt-6 max-w-2xl rounded-2xl bg-white p-4 text-slate-900 shadow-md">
+          <div className="text-sm font-semibold">Daily Goals</div>
+          <div className="mt-3 grid grid-cols-7 gap-1.5 text-center">
+            {WEEKDAYS.map((d, i) => {
+              const done = i <= todayIdx;
+              const isToday = i === todayIdx;
+              return (
+                <div key={d} className="flex flex-col items-center gap-1">
+                  <div
+                    className={cn(
+                      "grid h-9 w-9 place-items-center rounded-full text-base",
+                      done ? "bg-orange-100" : "bg-slate-100",
+                    )}
+                  >
+                    <Flame className={cn("h-4 w-4", done ? "text-orange-500" : "text-slate-300")} />
+                  </div>
+                  <span className={cn("text-[10px]", isToday ? "font-bold text-slate-900" : "text-slate-400")}>
+                    {d}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </header>
+
+      <main className="mx-auto -mt-4 max-w-2xl px-4">
         {view === "menu" && (
           <div className="mt-6 space-y-3">
-            <MenuButton
+            <MenuCard
               icon={Layers}
               title="Level by level"
               description="A1 through B2 plus extra verb sets"
-              tint="violet"
               onClick={() => setView("levels")}
             />
-            <MenuButton
+            <MenuCard
               icon={ListChecks}
               title="Sentence sets"
-              description="Themed sentence collections — coming soon"
-              tint="amber"
+              description="Themed sentence collections"
               onClick={() => setView("sets")}
             />
           </div>
         )}
 
         {view !== "menu" && (
-          <div className="mt-5">
+          <div className="mt-5 flex items-center justify-between">
             <button
               onClick={() => setView("menu")}
-              className="inline-flex h-9 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"
+              className="inline-flex h-9 items-center gap-1.5 rounded-full bg-white px-4 text-xs font-semibold text-slate-700 shadow-sm hover:bg-slate-100"
             >
-              <ArrowLeft className="h-3.5 w-3.5" />
+              <ChevronRight className="h-3.5 w-3.5 rotate-180" />
               Back
             </button>
+            <span className="text-xs font-medium text-slate-500">
+              {view === "levels" ? "Levels" : `${SENTENCE_SETS.length} sets`}
+            </span>
           </div>
         )}
 
         {view === "levels" &&
           BANDS.map((band) => (
             <section key={band.band} className="mt-6">
-              <div className="mb-2 flex items-center justify-between px-1">
-                <div className="flex items-center gap-2">
-                  <span className={cn("h-2.5 w-2.5 rounded-full", band.dotClass)} />
-                  <h2 className="text-sm font-semibold text-foreground">
-                    {t(`band.${band.band}` as StringKey)}
-                  </h2>
-                </div>
-                <span className="text-xs text-muted-foreground">
+              <div className="mb-3 flex items-center justify-between px-1">
+                <h2 className="text-sm font-bold text-slate-900">
+                  {t(`band.${band.band}` as StringKey)}
+                </h2>
+                <span className="text-xs text-slate-500">
                   {band.levels.reduce((a, l) => a + l.lists.length, 0) +
                     (band.extras?.length ?? 0)}{" "}
                   {t("home.categories")}
@@ -103,7 +134,7 @@ function HomePage() {
                   <LevelAccordion key={lvl.id} level={lvl} />
                 ))}
                 {(band.extras ?? []).map((extra) => (
-                  <ExtraCard key={extra.id} extra={extra} band={band.band} />
+                  <ExtraCard key={extra.id} extra={extra} />
                 ))}
               </div>
             </section>
@@ -111,18 +142,10 @@ function HomePage() {
 
         {view === "sets" && (
           <section className="mt-6">
-            <div className="mb-2 flex items-center justify-between px-1">
-              <div className="flex items-center gap-2">
-                <span className="h-2.5 w-2.5 rounded-full bg-amber-500" />
-                <h2 className="text-sm font-semibold text-foreground">Sentence sets</h2>
-              </div>
-              <span className="text-xs text-muted-foreground">
-                {SENTENCE_SETS.length} sets
-              </span>
-            </div>
+            <h2 className="mb-3 px-1 text-sm font-bold text-slate-900">Sentence sets</h2>
             <div className="space-y-3">
-              {SENTENCE_SETS.map((set) => (
-                <SetCard key={set.id} set={set} />
+              {SENTENCE_SETS.map((set, i) => (
+                <SetCard key={`${set.id}-${i}`} set={set} />
               ))}
             </div>
           </section>
@@ -132,105 +155,85 @@ function HomePage() {
   );
 }
 
-function MenuButton({
+function MenuCard({
   icon: Icon,
   title,
   description,
-  tint,
   onClick,
 }: {
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
-  tint: "violet" | "amber";
   onClick: () => void;
 }) {
-  const tints = {
-    violet: "bg-violet-100 text-violet-700",
-    amber: "bg-amber-100 text-amber-700",
-  } as const;
-  const accent = {
-    violet: "border-l-violet-400",
-    amber: "border-l-amber-400",
-  } as const;
   return (
     <button
       onClick={onClick}
-      className={cn(
-        "flex w-full items-center gap-3 rounded-2xl border border-border/70 border-l-4 bg-card px-4 py-4 text-left shadow-sm transition hover:shadow-md",
-        accent[tint],
-      )}
+      className="flex w-full items-center gap-3 rounded-2xl bg-white px-4 py-4 text-left shadow-sm transition hover:shadow-md"
     >
-      <span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-lg", tints[tint])}>
+      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-blue-100 text-blue-600">
         <Icon className="h-5 w-5" />
       </span>
       <div className="min-w-0 flex-1">
-        <div className="text-base font-semibold text-foreground">{title}</div>
-        <p className="mt-0.5 text-xs text-muted-foreground">{description}</p>
+        <div className="text-base font-bold text-slate-900">{title}</div>
+        <p className="mt-0.5 text-xs text-slate-500">{description}</p>
       </div>
-      <ChevronRight className="h-5 w-5 text-muted-foreground" />
+      <ChevronRight className="h-5 w-5 text-slate-400" />
     </button>
   );
 }
 
+const SET_DOT: Record<NonNullable<ListMeta["tone"]>, string> = {
+  amber: "bg-amber-500",
+  violet: "bg-violet-500",
+  emerald: "bg-emerald-500",
+  sky: "bg-sky-500",
+  rose: "bg-rose-500",
+};
+
 function SetCard({ set }: { set: ListMeta }) {
   const Icon = set.icon ?? ListChecks;
-  const toneMap = {
-    amber:   { border: "border-l-amber-400",   bg: "bg-amber-100",   text: "text-amber-700" },
-    violet:  { border: "border-l-violet-400",  bg: "bg-violet-100",  text: "text-violet-700" },
-    emerald: { border: "border-l-emerald-400", bg: "bg-emerald-100", text: "text-emerald-700" },
-    sky:     { border: "border-l-sky-400",     bg: "bg-sky-100",     text: "text-sky-700" },
-    rose:    { border: "border-l-rose-400",    bg: "bg-rose-100",    text: "text-rose-700" },
-  } as const;
-  const tone = toneMap[set.tone ?? "amber"];
+  const dot = SET_DOT[set.tone ?? "sky"];
   return (
     <Link
       to="/list/$listId"
       params={{ listId: set.id }}
-      className={cn(
-        "block rounded-2xl border border-border/70 border-l-4 bg-card px-4 py-4 shadow-sm transition hover:shadow-md",
-        tone.border,
-      )}
+      className="block rounded-2xl bg-white px-4 py-3.5 shadow-sm transition hover:shadow-md"
     >
       <div className="flex items-center gap-3">
-        <span className={cn("grid h-9 w-9 place-items-center rounded-lg", tone.bg, tone.text)}>
+        <span className={cn("grid h-10 w-10 shrink-0 place-items-center rounded-full text-white", dot)}>
           <Icon className="h-4 w-4" />
         </span>
-        <span className="text-base font-semibold text-foreground">{set.title}</span>
+        <div className="min-w-0 flex-1">
+          <div className="truncate text-sm font-bold text-slate-900">{set.title}</div>
+          <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{set.description}</p>
+        </div>
+        <ChevronRight className="h-4 w-4 text-slate-300" />
       </div>
-      <p className="mt-2 text-xs text-muted-foreground">{set.description}</p>
     </Link>
   );
 }
 
-
-function ExtraCard({ extra, band }: { extra: ListMeta; band: string }) {
+function ExtraCard({ extra }: { extra: ListMeta }) {
   const { t } = useT();
   return (
     <Link
       to="/list/$listId"
       params={{ listId: extra.id }}
-      className={cn(
-        "block rounded-2xl border border-border/70 bg-card px-4 py-4 shadow-sm border-l-4 transition hover:shadow-md",
-        band === "Beginner" ? "border-l-emerald-400" : "border-l-amber-400",
-      )}
+      className="block rounded-2xl bg-white px-4 py-3.5 shadow-sm transition hover:shadow-md"
     >
       <div className="flex items-center gap-3">
-        <span
-          className={cn(
-            "grid h-9 w-9 place-items-center rounded-lg",
-            band === "Beginner"
-              ? "bg-emerald-100 text-emerald-700"
-              : "bg-amber-100 text-amber-700",
-          )}
-        >
+        <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-blue-100 text-blue-600">
           <BookOpen className="h-4 w-4" />
         </span>
-        <span className="text-base font-semibold text-foreground">
-          {t(extra.titleKey, extra.titleVars)}
-        </span>
+        <div className="min-w-0 flex-1">
+          <div className="truncate text-sm font-bold text-slate-900">
+            {t(extra.titleKey, extra.titleVars)}
+          </div>
+          <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{t(extra.descriptionKey)}</p>
+        </div>
+        <ChevronRight className="h-4 w-4 text-slate-300" />
       </div>
-      <p className="mt-2 text-xs text-muted-foreground">{t(extra.descriptionKey)}</p>
     </Link>
   );
 }
@@ -249,7 +252,6 @@ function readLevelOpen(): Record<string, boolean> {
 
 function LevelAccordion({ level }: { level: LevelGroup }) {
   const { t } = useT();
-  // Start with SSR-stable default to avoid hydration mismatch; sync from localStorage after mount.
   const [open, setOpen] = useState<boolean>(level.id === "A1");
   useEffect(() => {
     const stored = readLevelOpen();
@@ -271,43 +273,39 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
     });
   };
   return (
-    <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm">
+    <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
       <button
         onClick={toggle}
-        className="flex w-full items-center gap-3 px-4 py-3 text-left"
+        className="flex w-full items-center gap-3 px-4 py-3.5 text-left"
         aria-expanded={open}
       >
-        <span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-full text-white font-bold", tone.bg)}>
+        <span className={cn("grid h-10 w-10 shrink-0 place-items-center rounded-full text-sm font-bold text-white", tone.bg)}>
           {level.label}
         </span>
         <div className="min-w-0 flex-1">
-          <div className="text-base font-semibold text-foreground">{level.label}</div>
-          <div className="line-clamp-1 text-sm text-muted-foreground">
+          <div className="text-sm font-bold text-slate-900">{level.label} Level</div>
+          <div className="line-clamp-1 text-xs text-slate-500">
             {t(level.descriptionKey)}
           </div>
         </div>
-        <ChevronDown className={cn("h-5 w-5 text-muted-foreground transition-transform", open && "rotate-180")} />
+        <ChevronDown className={cn("h-5 w-5 text-slate-400 transition-transform", open && "rotate-180")} />
       </button>
       {open && (
-        <div className="grid grid-cols-1 gap-3 px-4 pb-4 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-2 border-t border-slate-100 bg-slate-50/50 px-3 py-3 sm:grid-cols-2">
           {level.lists.map((l) => (
             <Link
               key={l.id}
               to="/list/$listId"
               params={{ listId: l.id }}
-              className="group rounded-xl border border-border/60 bg-background/60 p-3 transition hover:border-primary/50 hover:shadow-sm"
+              className="group flex items-center gap-2.5 rounded-xl bg-white p-2.5 shadow-sm transition hover:shadow"
             >
-              <div className="flex items-center gap-2">
-                <span className="grid h-8 w-8 place-items-center rounded-lg bg-violet-100 text-violet-700">
-                  <BookOpen className="h-4 w-4" />
-                </span>
-                <span className="text-sm font-semibold text-foreground">
-                  {t(l.titleKey, l.titleVars)}
-                </span>
-              </div>
-              <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
-                {t(l.descriptionKey)}
-              </p>
+              <span className="grid h-8 w-8 place-items-center rounded-full bg-blue-100 text-blue-600">
+                <BookOpen className="h-3.5 w-3.5" />
+              </span>
+              <span className="min-w-0 flex-1 truncate text-xs font-semibold text-slate-800">
+                {t(l.titleKey, l.titleVars)}
+              </span>
+              <ChevronRight className="h-3.5 w-3.5 text-slate-300" />
             </Link>
           ))}
         </div>
