@@ -459,10 +459,12 @@ function ListPage() {
                 textSizeClass={TEXT_SIZE_CLASS[settings.textSize]}
                 toneBorder={tone.border}
                 speechReady={speechReady}
+                locked={isGuest && idx >= GUEST_AUDIO_LIMIT}
                 onPlay={() => playOne(idx)}
-                onPlayWord={playWord}
+                onPlayWord={(w) => playWord(w, idx)}
                 onStars={(v) => setStars(s.id, v)}
                 onToggleFav={() => toggleFavorite(s.id)}
+                onUnlock={() => navigate({ to: "/auth", search: { mode: "signin" } })}
               />
             );
           })}
