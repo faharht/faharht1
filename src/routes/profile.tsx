@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Award, CalendarCheck } from "lucide-react";
+import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Target, Award, CalendarCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import {
   useTrainerStore,
