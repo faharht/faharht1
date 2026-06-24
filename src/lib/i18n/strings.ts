@@ -79,6 +79,12 @@ export const STRINGS = {
   "extra.verb.title":       { en: "300 Most Common Verbs",                 pl: "300 najczęstszych czasowników", de: "300 häufigste Verben" },
   "extra.verb.desc":        { en: "Essential action words to describe activities and states of being.", pl: "Najważniejsze czasowniki do opisu czynności i stanów.", de: "Wichtige Tätigkeitswörter für Aktivitäten und Zustände." },
 
+  // Themed sentence sets
+  "set.orderingFood.title": { en: "Ordering Food",                          pl: "Zamawianie jedzenia", de: "Essen bestellen" },
+  "set.orderingFood.desc":  { en: "Themed sentences about ordering food — restaurants, menus, drinks, and dishes.", pl: "Tematyczne zdania o zamawianiu jedzenia — restauracje, menu, napoje i dania.", de: "Themensätze rund um Essen bestellen — Restaurants, Speisekarten, Getränke und Gerichte." },
+  "set.hangingOut.title":   { en: "Hanging Out",                            pl: "Spędzanie czasu", de: "Zeit verbringen" },
+  "set.hangingOut.desc":    { en: "Themed sentences about spending time with friends — meeting, talking, and having fun.", pl: "Tematyczne zdania o spędzaniu czasu z przyjaciółmi — spotkania, rozmowy i zabawa.", de: "Themensätze über Zeit mit Freunden — Treffen, Reden und Spaß haben." },
+
   // List page header / stats
   "list.vocabulary":        { en: "Vocabulary",                            pl: "Słownictwo", de: "Vokabeln" },
   "list.stat.practiced":    { en: "PRACTICED",                             pl: "ĆWICZONE", de: "GEÜBT" },
