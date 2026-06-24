@@ -1,5 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Award, CalendarCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import {
@@ -20,6 +21,7 @@ import { useT, localeToBCP47 } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
 import { UserSuggestions } from "@/components/Suggestions";
 import { AvatarUploader } from "@/components/AvatarUploader";
+import { sessionUserQueryOptions, profileQueryOptions } from "@/lib/userQueries";
 
 export const Route = createFileRoute("/profile")({
   head: () => ({
@@ -31,8 +33,15 @@ export const Route = createFileRoute("/profile")({
       },
     ],
   }),
+  loader: async ({ context }) => {
+    const user = await context.queryClient.ensureQueryData(sessionUserQueryOptions);
+    if (user) {
+      context.queryClient.prefetchQuery(profileQueryOptions(user.id));
+    }
+  },
   component: ProfilePage,
 });
+
 
 type SessionUser = { id: string; email: string | null; emailConfirmed: boolean } | null;
 
