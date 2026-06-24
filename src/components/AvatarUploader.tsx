@@ -13,6 +13,7 @@ export function AvatarUploader({
 }) {
   const [avatarPath, setAvatarPath] = useState<string | null>(null);
   const [signedUrl, setSignedUrl] = useState<string | null>(null);
+  const [displayName, setDisplayName] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement | null>(null);
@@ -22,12 +23,13 @@ export function AvatarUploader({
     (async () => {
       const { data } = await supabase
         .from("profiles")
-        .select("avatar_url")
+        .select("avatar_url, display_name")
         .eq("id", userId)
         .maybeSingle();
       if (cancelled) return;
       const path = data?.avatar_url ?? null;
       setAvatarPath(path);
+      setDisplayName(data?.display_name ?? null);
       if (path) {
         const { data: s } = await supabase.storage
           .from("avatars")
@@ -132,7 +134,9 @@ export function AvatarUploader({
         />
       </div>
       <div className="min-w-0 flex-1">
-        <div className="text-sm font-semibold text-foreground">Profile picture</div>
+        <div className="truncate text-sm font-semibold text-foreground">
+          {displayName?.trim() || "Set a username"}
+        </div>
         <div className="text-[11px] text-muted-foreground">PNG/JPG, up to 5 MB.</div>
         {error && <div className="mt-1 text-[11px] text-rose-700">{error}</div>}
         {avatarPath && !busy && (
