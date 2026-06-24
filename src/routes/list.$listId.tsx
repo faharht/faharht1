@@ -691,7 +691,8 @@ function ListenCard({
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
-                    onPlayWord(tok.plain);
+                    if (locked) onUnlock();
+                    else onPlayWord(tok.plain);
                   }}
                   disabled={!speechReady}
                   className={cn(
