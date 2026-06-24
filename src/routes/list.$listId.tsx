@@ -1189,5 +1189,72 @@ function resolveMatches(
   return out.slice(0, 5);
 }
 
+function StreakStrip({
+  currentStreak,
+  longestStreak,
+  last14,
+  dailyGoal,
+  today,
+}: {
+  currentStreak: number;
+  longestStreak: number;
+  last14: { date: string; reps: number }[];
+  dailyGoal: number;
+  today: string;
+}) {
+  const { t } = useT();
+  return (
+    <section className="mt-3 rounded-2xl bg-white p-4 shadow-sm">
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex min-w-0 items-center gap-3">
+          <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-orange-100 text-orange-500">
+            <Flame className="h-5 w-5" />
+          </div>
+          <div className="min-w-0">
+            <div className="text-xl font-bold leading-none text-slate-900">
+              {currentStreak}{" "}
+              <span className="text-xs font-medium text-slate-500">
+                {currentStreak === 1 ? t("profile.day") : t("profile.days")}
+              </span>
+            </div>
+            <div className="mt-0.5 text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+              {t("profile.currentStreak")}
+            </div>
+          </div>
+        </div>
+        <div className="shrink-0 text-right">
+          <div className="text-sm font-bold text-slate-900">{longestStreak}</div>
+          <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+            {t("profile.longest")}
+          </div>
+        </div>
+      </div>
+      <div className="mt-3 flex items-end gap-1">
+        {last14.map((d) => {
+          const isToday = d.date === today;
+          const hit = d.reps >= dailyGoal && dailyGoal > 0;
+          const some = d.reps > 0 && !hit;
+          return (
+            <div
+              key={d.date}
+              title={`${d.date} · ${d.reps}`}
+              className={cn(
+                "h-5 flex-1 rounded-md",
+                hit ? "bg-blue-500" : some ? "bg-blue-200" : "bg-slate-100",
+                isToday && "ring-2 ring-indigo-500 ring-offset-1 ring-offset-white",
+              )}
+            />
+          );
+        })}
+      </div>
+      <div className="mt-1 flex justify-between text-[10px] text-slate-400">
+        <span>{t("profile.14daysAgo")}</span>
+        <span>{t("common.today")}</span>
+      </div>
+    </section>
+  );
+}
+
+
 
 
