@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -8,6 +8,7 @@ import {
   Heart,
   HelpCircle,
   Languages,
+  Lock,
   Pause,
   Play,
   Search,
@@ -21,6 +22,7 @@ import {
 import { findList, TONE_CLASSES, LEVELS } from "@/lib/trainer/levels";
 import { sentencesQueryOptions } from "@/lib/trainer/sentences";
 import { useQuery } from "@tanstack/react-query";
+import { sessionUserQueryOptions } from "@/lib/userQueries";
 
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
@@ -29,6 +31,8 @@ import { toast } from "sonner";
 import { useDayTick } from "@/lib/trainer/useDayTick";
 import { useT } from "@/lib/i18n/useT";
 import { LOCALES } from "@/lib/i18n/strings";
+
+const GUEST_AUDIO_LIMIT = 50;
 
 function useNotifyGoal() {
   const { t } = useT();
