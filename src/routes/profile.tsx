@@ -72,36 +72,14 @@ function ProfilePage() {
   const [resendError, setResendError] = useState<string | null>(null);
 
   useEffect(() => {
-    let mounted = true;
-    supabase.auth.getUser().then(({ data }) => {
-      if (!mounted) return;
-      setUser(
-        data.user
-          ? {
-              id: data.user.id,
-              email: data.user.email ?? null,
-              emailConfirmed: !!data.user.email_confirmed_at,
-            }
-          : null,
-      );
-      setLoading(false);
+    const { data: sub } = supabase.auth.onAuthStateChange((event) => {
+      if (event === "SIGNED_IN" || event === "SIGNED_OUT" || event === "USER_UPDATED") {
+        queryClient.invalidateQueries({ queryKey: ["sessionUser"] });
+      }
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(
-        session?.user
-          ? {
-              id: session.user.id,
-              email: session.user.email ?? null,
-              emailConfirmed: !!session.user.email_confirmed_at,
-            }
-          : null,
-      );
-    });
-    return () => {
-      mounted = false;
-      sub.subscription.unsubscribe();
-    };
-  }, []);
+    return () => sub.subscription.unsubscribe();
+  }, [queryClient]);
+
 
   async function handleResendVerification() {
     if (!user?.email) return;
