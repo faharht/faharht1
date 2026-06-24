@@ -1,6 +1,9 @@
 export type LevelId = "A1" | "A2" | "B1" | "B2";
 
 import type { StringKey } from "@/lib/i18n/strings";
+import { Briefcase, Plane, UtensilsCrossed, Coffee, type LucideIcon } from "lucide-react";
+
+export type SetTone = "amber" | "violet" | "emerald" | "sky" | "rose";
 
 export interface ListMeta {
   id: string;
