@@ -19,9 +19,10 @@ export const Route = createFileRoute("/admin")({
       const { isAdmin } = await checkIsAdmin();
       if (!isAdmin) throw redirect({ to: "/" });
     } catch (err) {
-      if (err && typeof err === "object" && "isRedirect" in err) throw err;
+      if (isRedirect(err)) throw err;
       throw redirect({ to: "/" });
     }
+
   },
   component: AdminPage,
 });
