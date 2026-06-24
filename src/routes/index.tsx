@@ -36,38 +36,39 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-slate-50 pb-28">
       {/* Blue hero header */}
-      <header className="rounded-b-[2rem] bg-gradient-to-br from-indigo-500 via-blue-600 to-indigo-700 px-5 pb-10 pt-8 text-white shadow-lg">
-        <div className="mx-auto flex max-w-2xl items-center justify-between">
-          <div className="grid h-10 w-10 place-items-center rounded-full bg-white/20 text-sm font-bold backdrop-blur">
+      <header className="rounded-b-[2rem] bg-gradient-to-br from-indigo-500 via-blue-600 to-indigo-700 px-4 pb-10 pt-8 text-white shadow-lg sm:px-5">
+        <div className="mx-auto grid max-w-2xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3">
+          <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/20 text-sm font-bold backdrop-blur">
             RU
           </div>
-          <div className="flex flex-col items-center">
-            <span className="text-[11px] uppercase tracking-wider text-white/70">{t("home.tagline")}</span>
-            <div className="mt-1 inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold backdrop-blur">
-              <Rocket className="h-3.5 w-3.5" />
-              {t("home.title")}
+          <div className="flex min-w-0 flex-col items-center text-center">
+            <span className="truncate text-[11px] uppercase tracking-wider text-white/70">{t("home.tagline")}</span>
+            <div className="mt-1 inline-flex max-w-full items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold backdrop-blur">
+              <Rocket className="h-3.5 w-3.5 shrink-0" />
+              <span className="truncate">{t("home.title")}</span>
             </div>
           </div>
           <button
             aria-label="notifications"
-            className="grid h-10 w-10 place-items-center rounded-full bg-white/20 backdrop-blur"
+            className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/20 backdrop-blur"
           >
             <Bell className="h-4 w-4" />
           </button>
         </div>
 
+
         {/* Daily streak strip (visual only, mirrors today) */}
-        <div className="mx-auto mt-6 max-w-2xl rounded-2xl bg-white p-4 text-slate-900 shadow-md">
+        <div className="mx-auto mt-6 max-w-2xl rounded-2xl bg-white p-3 text-slate-900 shadow-md sm:p-4">
           <div className="text-sm font-semibold">Daily Goals</div>
-          <div className="mt-3 grid grid-cols-7 gap-1.5 text-center">
+          <div className="mt-3 grid grid-cols-7 gap-1 text-center sm:gap-1.5">
             {WEEKDAYS.map((d, i) => {
               const done = i <= todayIdx;
               const isToday = i === todayIdx;
               return (
-                <div key={d} className="flex flex-col items-center gap-1">
+                <div key={d} className="flex min-w-0 flex-col items-center gap-1">
                   <div
                     className={cn(
-                      "grid h-9 w-9 place-items-center rounded-full text-base",
+                      "grid h-8 w-8 place-items-center rounded-full sm:h-9 sm:w-9",
                       done ? "bg-orange-100" : "bg-slate-100",
                     )}
                   >
@@ -81,6 +82,7 @@ function HomePage() {
             })}
           </div>
         </div>
+
       </header>
 
       <main className="mx-auto -mt-4 max-w-2xl px-4">
