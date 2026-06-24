@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Flame, Target, Award, CalendarCheck } from "lucide-react";
+import { LogOut, Sparkles, Trophy, Repeat, Star, Heart, Target, Award, CalendarCheck } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import {
   useTrainerStore,
@@ -294,14 +294,8 @@ function ProfilePage() {
           <ChallengeCard challenge={challenge} />
         )}
 
-        {/* Streak */}
-        <StreakCard
-          currentStreak={effectiveStreak}
-          longestStreak={longestStreak}
-          last14={last14}
-          dailyGoal={effectiveGoal}
-          today={today}
-        />
+
+
 
         {/* Daily reps chart */}
         <RepsChart dailyHistory={dailyHistory} dailyGoal={effectiveGoal} />
@@ -550,69 +544,8 @@ function BadgesCard({ badges }: { badges: Partial<Record<BadgeId, string>> }) {
   );
 }
 
-function StreakCard({
-  currentStreak,
-  longestStreak,
-  last14,
-  dailyGoal,
-  today,
-}: {
-  currentStreak: number;
-  longestStreak: number;
-  last14: { date: string; reps: number }[];
-  dailyGoal: number;
-  today: string;
-}) {
-  const { t } = useT();
-  return (
-    <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="grid h-9 w-9 place-items-center rounded-lg bg-rose-100 text-rose-600">
-            <Flame className="h-5 w-5" />
-          </div>
-          <div>
-            <div className="text-2xl font-bold leading-none text-foreground">
-              {currentStreak}{" "}
-              <span className="text-sm font-medium text-muted-foreground">
-                {currentStreak === 1 ? t("profile.day") : t("profile.days")}
-              </span>
-            </div>
-            <div className="text-[11px] uppercase tracking-wide text-muted-foreground">
-              {t("profile.currentStreak")}
-            </div>
-          </div>
-        </div>
-        <div className="text-right">
-          <div className="text-sm font-semibold text-foreground">{longestStreak}</div>
-          <div className="text-[11px] uppercase tracking-wide text-muted-foreground">{t("profile.longest")}</div>
-        </div>
-      </div>
-      <div className="mt-4 flex items-end gap-1">
-        {last14.map((d) => {
-          const isToday = d.date === today;
-          const hit = d.reps >= dailyGoal && dailyGoal > 0;
-          const some = d.reps > 0 && !hit;
-          return (
-            <div
-              key={d.date}
-              title={`${d.date} · ${d.reps}`}
-              className={cn(
-                "h-6 flex-1 rounded-sm",
-                hit ? "bg-rose-500" : some ? "bg-rose-200" : "bg-muted",
-                isToday && "ring-2 ring-primary ring-offset-1 ring-offset-card",
-              )}
-            />
-          );
-        })}
-      </div>
-      <div className="mt-1 flex justify-between text-[10px] text-muted-foreground">
-        <span>{t("profile.14daysAgo")}</span>
-        <span>{t("common.today")}</span>
-      </div>
-    </section>
-  );
-}
+
+
 
 function RankCard({
   reps,
