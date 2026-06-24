@@ -15,6 +15,7 @@ import { Route as OnboardingRouteImport } from './routes/onboarding'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as ListListIdRouteImport } from './routes/list.$listId'
 import { Route as AdminSentencesRouteImport } from './routes/admin.sentences'
 
@@ -48,6 +49,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminIndexRoute = AdminIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AdminRoute,
+} as any)
 const ListListIdRoute = ListListIdRouteImport.update({
   id: '/list/$listId',
   path: '/list/$listId',
@@ -68,16 +74,17 @@ export interface FileRoutesByFullPath {
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/list/$listId': typeof ListListIdRoute
+  '/admin/': typeof AdminIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
   '/onboarding': typeof OnboardingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/list/$listId': typeof ListListIdRoute
+  '/admin': typeof AdminIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -89,6 +96,7 @@ export interface FileRoutesById {
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/list/$listId': typeof ListListIdRoute
+  '/admin/': typeof AdminIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -101,16 +109,17 @@ export interface FileRouteTypes {
     | '/utilities'
     | '/admin/sentences'
     | '/list/$listId'
+    | '/admin/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/admin'
     | '/auth'
     | '/onboarding'
     | '/profile'
     | '/utilities'
     | '/admin/sentences'
     | '/list/$listId'
+    | '/admin'
   id:
     | '__root__'
     | '/'
@@ -121,6 +130,7 @@ export interface FileRouteTypes {
     | '/utilities'
     | '/admin/sentences'
     | '/list/$listId'
+    | '/admin/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -177,6 +187,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin/': {
+      id: '/admin/'
+      path: '/'
+      fullPath: '/admin/'
+      preLoaderRoute: typeof AdminIndexRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/list/$listId': {
       id: '/list/$listId'
       path: '/list/$listId'
@@ -196,10 +213,12 @@ declare module '@tanstack/react-router' {
 
 interface AdminRouteChildren {
   AdminSentencesRoute: typeof AdminSentencesRoute
+  AdminIndexRoute: typeof AdminIndexRoute
 }
 
 const AdminRouteChildren: AdminRouteChildren = {
   AdminSentencesRoute: AdminSentencesRoute,
+  AdminIndexRoute: AdminIndexRoute,
 }
 
 const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
