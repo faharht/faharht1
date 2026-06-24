@@ -14,6 +14,66 @@ export type Database = {
   }
   public: {
     Tables: {
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          display_name: string | null
+          id: string
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id: string
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      suggestion_deletion_audit: {
+        Row: {
+          action: string
+          admin_email: string | null
+          admin_id: string
+          created_at: string
+          id: string
+          suggestion_id: string
+          suggestion_subject: string | null
+          thread_owner_email: string | null
+          thread_owner_id: string | null
+        }
+        Insert: {
+          action: string
+          admin_email?: string | null
+          admin_id: string
+          created_at?: string
+          id?: string
+          suggestion_id: string
+          suggestion_subject?: string | null
+          thread_owner_email?: string | null
+          thread_owner_id?: string | null
+        }
+        Update: {
+          action?: string
+          admin_email?: string | null
+          admin_id?: string
+          created_at?: string
+          id?: string
+          suggestion_id?: string
+          suggestion_subject?: string | null
+          thread_owner_email?: string | null
+          thread_owner_id?: string | null
+        }
+        Relationships: []
+      }
       suggestion_messages: {
         Row: {
           body: string
@@ -52,6 +112,8 @@ export type Database = {
       suggestions: {
         Row: {
           created_at: string
+          deleted_at: string | null
+          deleted_by: string | null
           id: string
           status: string
           subject: string
@@ -61,6 +123,8 @@ export type Database = {
         }
         Insert: {
           created_at?: string
+          deleted_at?: string | null
+          deleted_by?: string | null
           id?: string
           status?: string
           subject: string
@@ -70,6 +134,8 @@ export type Database = {
         }
         Update: {
           created_at?: string
+          deleted_at?: string | null
+          deleted_by?: string | null
           id?: string
           status?: string
           subject?: string
