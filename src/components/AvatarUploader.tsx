@@ -13,6 +13,7 @@ export function AvatarUploader({
 }) {
   const [avatarPath, setAvatarPath] = useState<string | null>(null);
   const [signedUrl, setSignedUrl] = useState<string | null>(null);
+  const [displayName, setDisplayName] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement | null>(null);
