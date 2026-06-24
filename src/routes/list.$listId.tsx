@@ -47,11 +47,13 @@ import { Switch } from "@/components/ui/switch";
 import { Slider } from "@/components/ui/slider";
 
 export const Route = createFileRoute("/list/$listId")({
-  loader: ({ params }) => {
+  loader: ({ params, context }) => {
     const meta = findList(params.listId);
     if (!meta) throw notFound();
+    void context.queryClient.prefetchQuery(sentencesQueryOptions(meta.id));
     return { meta };
   },
+
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
