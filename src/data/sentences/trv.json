@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "travel-part-1-1",
+    "ru": "Я люблю путешествовать.",
+    "ruStressed": "Я люблю́ путеше́ствовать.",
+    "translit": "Ya lyublyu puteshestvovat.",
+    "en": "I like traveling.",
+    "pl": "Lubię podróżować.",
+    "de": "Ich reise gern."
+  },
+  {
+    "id": "travel-part-1-2",
+    "ru": "Я путешествую каждое лето.",
+    "ruStressed": "Я путеше́ствую ка́ждое ле́то.",
+    "translit": "Ya puteshestvuyu kazhdoe leto.",
+    "en": "I travel every summer.",
+    "pl": "Podróżuję każdego lata.",
+    "de": "Ich reise jeden Sommer."
+  },
+  {
+    "id": "travel-part-1-3",
+    "ru": "Моя семья любит путешествовать.",
+    "ruStressed": "Моя́ семья́ лю́бит путеше́ствовать.",
+    "translit": "Moya semya lyubit puteshestvovat.",
+    "en": "My family likes to travel.",
+    "pl": "Moja rodzina lubi podróżować.",
+    "de": "Meine Familie reist gern."
+  },
+  {
+    "id": "travel-part-1-4",
+    "ru": "Мы часто посещаем новые места.",
+    "ruStressed": "Мы ча́сто посеща́ем но́вые места́.",
+    "translit": "My chasto poseshchayem novye mesta.",
+    "en": "We often visit new places.",
+    "pl": "Często odwiedzamy nowe miejsca.",
+    "de": "Wir besuchen oft neue Orte."
+  },
+  {
+    "id": "travel-part-1-5",
+    "ru": "Я хочу увидеть мир.",
+    "ruStressed": "Я хочу́ уви́деть мир.",
+    "translit": "Ya khochu uvidet mir.",
+    "en": "I want to see the world.",
+    "pl": "Chcę zobaczyć świat.",
+    "de": "Ich möchte die Welt sehen."
+  },
+  {
+    "id": "travel-part-1-6",
+    "ru": "Путешествия — это интересно.",
+    "ruStressed": "Путеше́ствия — э́то интере́сно.",
+    "translit": "Puteshestviya eto interesno.",
+    "en": "Traveling is exciting.",
+    "pl": "Podróżowanie jest interesujące.",
+    "de": "Reisen ist spannend."
+  },
+  {
+    "id": "travel-part-1-7",
+    "ru": "Я путешествую на машине.",
+    "ruStressed": "Я путеше́ствую на маши́не.",
+    "translit": "Ya puteshestvuyu na mashine.",
+    "en": "I travel by car.",
+    "pl": "Podróżuję samochodem.",
+    "de": "Ich reise mit dem Auto."
+  },
+  {
+    "id": "travel-part-1-8",
+    "ru": "Я путешествую на поезде.",
+    "ruStressed": "Я путеше́ствую на по́езде.",
+    "translit": "Ya puteshestvuyu na poyezde.",
+    "en": "I travel by train.",
+    "pl": "Podróżuję pociągiem.",
+    "de": "Ich reise mit dem Zug."
+  },
+  {
+    "id": "travel-part-1-9",
+    "ru": "Я путешествую на автобусе.",
+    "ruStressed": "Я путеше́ствую на авто́бусе.",
+    "translit": "Ya puteshestvuyu na avtobuse.",
+    "en": "I travel by bus.",
+    "pl": "Podróżuję autobusem.",
+    "de": "Ich reise mit dem Bus."
+  },
+  {
+    "id": "travel-part-1-10",
+    "ru": "Я путешествую на самолёте.",
+    "ruStressed": "Я путеше́ствую на самолёте.",
+    "translit": "Ya puteshestvuyu na samolyote.",
+    "en": "I travel by plane.",
+    "pl": "Podróżuję samolotem.",
+    "de": "Ich reise mit dem Flugzeug."
+  },
+  {
+    "id": "travel-part-1-11",
+    "ru": "Поездка длинная.",
+    "ruStressed": "Пое́здка дли́нная.",
+    "translit": "Poyezdka dlinnaya.",
+    "en": "The trip is long.",
+    "pl": "Podróż jest długa.",
+    "de": "Die Reise ist lang."
+  },
+  {
+    "id": "travel-part-1-12",
+    "ru": "Поездка короткая.",
+    "ruStressed": "Пое́здка коро́ткая.",
+    "translit": "Poyezdka korotkaya.",
+    "en": "The trip is short.",
+    "pl": "Podróż jest krótka.",
+    "de": "Die Reise ist kurz."
+  },
+  {
+    "id": "travel-part-1-13",
+    "ru": "Я собираю чемодан.",
+    "ruStressed": "Я собира́ю чемода́н.",
+    "translit": "Ya sobirayu chemodan.",
+    "en": "I pack my suitcase.",
+    "pl": "Pakuję walizkę.",
+    "de": "Ich packe meinen Koffer."
+  },
+  {
+    "id": "travel-part-1-14",
+    "ru": "Я беру паспорт.",
+    "ruStressed": "Я беру́ па́спорт.",
+    "translit": "Ya beru pasport.",
+    "en": "I take my passport.",
+    "pl": "Biorę paszport.",
+    "de": "Ich nehme meinen Reisepass mit."
+  },
+  {
+    "id": "travel-part-1-15",
+    "ru": "Я покупаю билет.",
+    "ruStressed": "Я покупа́ю биле́т.",
+    "translit": "Ya pokupayu bilet.",
+    "en": "I buy a ticket.",
+    "pl": "Kupuję bilet.",
+    "de": "Ich kaufe ein Ticket."
+  },
+  {
+    "id": "travel-part-1-16",
+    "ru": "Я приезжаю в аэропорт.",
+    "ruStressed": "Я приезжа́ю в аэропо́рт.",
+    "translit": "Ya priezzhayu v aeroport.",
+    "en": "I arrive at the airport.",
+    "pl": "Przyjeżdżam na lotnisko.",
+    "de": "Ich komme am Flughafen an."
+  },
+  {
+    "id": "travel-part-1-17",
+    "ru": "Я регистрируюсь на рейс.",
+    "ruStressed": "Я регистри́руюсь на рейс.",
+    "translit": "Ya registriruyus na reys.",
+    "en": "I check in for my flight.",
+    "pl": "Odprawiam się na lot.",
+    "de": "Ich checke für meinen Flug ein."
+  },
+  {
+    "id": "travel-part-1-18",
+    "ru": "Я жду у выхода.",
+    "ruStressed": "Я жду́ у вы́хода.",
+    "translit": "Ya zhdu u vykhoda.",
+    "en": "I wait at the gate.",
+    "pl": "Czekam przy bramce.",
+    "de": "Ich warte am Gate."
+  },
+  {
+    "id": "travel-part-1-19",
+    "ru": "Самолёт вовремя.",
+    "ruStressed": "Самолёт вово́ремя.",
+    "translit": "Samolyot vovremya.",
+    "en": "The plane is on time.",
+    "pl": "Samolot jest punktualny.",
+    "de": "Das Flugzeug ist pünktlich."
+  },
+  {
+    "id": "travel-part-1-20",
+    "ru": "Самолёт задерживается.",
+    "ruStressed": "Самолёт заде́рживается.",
+    "translit": "Samolyot zaderzhivayetsya.",
+    "en": "The plane is delayed.",
+    "pl": "Samolot jest opóźniony.",
+    "de": "Das Flugzeug hat Verspätung."
+  },
+  {
+    "id": "travel-part-1-21",
+    "ru": "Я сижу у окна.",
+    "ruStressed": "Я сижу́ у окна́.",
+    "translit": "Ya sizhu u okna.",
+    "en": "I sit by the window.",
+    "pl": "Siedzę przy oknie.",
+    "de": "Ich sitze am Fenster."
+  },
+  {
+    "id": "travel-part-1-22",
+    "ru": "Мне нравится вид.",
+    "ruStressed": "Мне нра́вится вид.",
+    "translit": "Mne nravitsya vid.",
+    "en": "I enjoy the view.",
+    "pl": "Podoba mi się widok.",
+    "de": "Mir gefällt die Aussicht."
+  },
+  {
+    "id": "travel-part-1-23",
+    "ru": "Полёт комфортный.",
+    "ruStressed": "Полёт комфо́ртный.",
+    "translit": "Polyot komfortnyy.",
+    "en": "The flight is comfortable.",
+    "pl": "Lot jest komfortowy.",
+    "de": "Der Flug ist komfortabel."
+  },
+  {
+    "id": "travel-part-1-24",
+    "ru": "В самолёте много людей.",
+    "ruStressed": "В самолёте мно́го люде́й.",
+    "translit": "V samolyote mnogo lyudey.",
+    "en": "The flight is crowded.",
+    "pl": "W samolocie jest tłoczno.",
+    "de": "Der Flug ist voll."
+  },
+  {
+    "id": "travel-part-1-25",
+    "ru": "Я благополучно приземляюсь.",
+    "ruStressed": "Я благополу́чно приземля́юсь.",
+    "translit": "Ya blagopoluchno prizemlyayus.",
+    "en": "I land safely.",
+    "pl": "Ląduję bezpiecznie.",
+    "de": "Ich lande sicher."
+  },
+  {
+  "id": "travel-part-1-26",
+  "ru": "Я получаю свой багаж.",
+  "ruStressed": "Я получа́ю свой бага́ж.",
+  "translit": "Ya poluchayu svoy bagazh.",
+  "en": "I collect my luggage.",
+  "pl": "Odbieram swój bagaż.",
+  "de": "Ich hole mein Gepäck ab."
+},
+{
+  "id": "travel-part-1-27",
+  "ru": "Я беру такси.",
+  "ruStressed": "Я беру́ такси́.",
+  "translit": "Ya beru taksi.",
+  "en": "I take a taxi.",
+  "pl": "Biorę taksówkę.",
+  "de": "Ich nehme ein Taxi."
+},
+{
+  "id": "travel-part-1-28",
+  "ru": "Я еду в свой отель.",
+  "ruStressed": "Я е́ду в свой оте́ль.",
+  "translit": "Ya yedu v svoy otel.",
+  "en": "I go to my hotel.",
+  "pl": "Jadę do swojego hotelu.",
+  "de": "Ich fahre zu meinem Hotel."
+},
+{
+  "id": "travel-part-1-29",
+  "ru": "Отель чистый.",
+  "ruStressed": "Оте́ль чи́стый.",
+  "translit": "Otel chistyy.",
+  "en": "The hotel is clean.",
+  "pl": "Hotel jest czysty.",
+  "de": "Das Hotel ist sauber."
+},
+{
+  "id": "travel-part-1-30",
+  "ru": "Комната маленькая.",
+  "ruStressed": "Ко́мната ма́ленькая.",
+  "translit": "Komnata malenkaya.",
+  "en": "The room is small.",
+  "pl": "Pokój jest mały.",
+  "de": "Das Zimmer ist klein."
+},
+{
+  "id": "travel-part-1-31",
+  "ru": "Комната удобная.",
+  "ruStressed": "Ко́мната удо́бная.",
+  "translit": "Komnata udobnaya.",
+  "en": "The room is comfortable.",
+  "pl": "Pokój jest wygodny.",
+  "de": "Das Zimmer ist komfortabel."
+},
+{
+  "id": "travel-part-1-32",
+  "ru": "Я остаюсь на три ночи.",
+  "ruStressed": "Я остаю́сь на три но́чи.",
+  "translit": "Ya ostayus na tri nochi.",
+  "en": "I stay for three nights.",
+  "pl": "Zostaję na trzy noce.",
+  "de": "Ich bleibe drei Nächte."
+},
+{
+  "id": "travel-part-1-33",
+  "ru": "Я посещаю центр города.",
+  "ruStressed": "Я посеща́ю це́нтр го́рода.",
+  "translit": "Ya poseshchayu tsentr goroda.",
+  "en": "I visit the city center.",
+  "pl": "Odwiedzam centrum miasta.",
+  "de": "Ich besuche das Stadtzentrum."
+},
+{
+  "id": "travel-part-1-34",
+  "ru": "Я делаю много фотографий.",
+  "ruStressed": "Я де́лаю мно́го фотогра́фий.",
+  "translit": "Ya delayu mnogo fotografiy.",
+  "en": "I take many photos.",
+  "pl": "Robię dużo zdjęć.",
+  "de": "Ich mache viele Fotos."
+},
+{
+  "id": "travel-part-1-35",
+  "ru": "Я покупаю карту.",
+  "ruStressed": "Я покупа́ю ка́рту.",
+  "translit": "Ya pokupayu kartu.",
+  "en": "I buy a map.",
+  "pl": "Kupuję mapę.",
+  "de": "Ich kaufe eine Karte."
+},
+{
+  "id": "travel-part-1-36",
+  "ru": "Я спрашиваю дорогу.",
+  "ruStressed": "Я спра́шиваю доро́гу.",
+  "translit": "Ya sprashivayu dorogu.",
+  "en": "I ask for directions.",
+  "pl": "Pytam o drogę.",
+  "de": "Ich frage nach dem Weg."
+},
+{
+  "id": "travel-part-1-37",
+  "ru": "Люди дружелюбные.",
+  "ruStressed": "Лю́ди дружелю́бные.",
+  "translit": "Lyudi druzhelyubnye.",
+  "en": "People are friendly.",
+  "pl": "Ludzie są przyjaźni.",
+  "de": "Die Menschen sind freundlich."
+},
+{
+  "id": "travel-part-1-38",
+  "ru": "Погода хорошая.",
+  "ruStressed": "Пого́да хоро́шая.",
+  "translit": "Pogoda khoroshaya.",
+  "en": "The weather is nice.",
+  "pl": "Pogoda jest ładna.",
+  "de": "Das Wetter ist schön."
+},
+{
+  "id": "travel-part-1-39",
+  "ru": "Сегодня солнечно.",
+  "ruStressed": "Сего́дня со́лнечно.",
+  "translit": "Segodnya solnechno.",
+  "en": "It is sunny today.",
+  "pl": "Dzisiaj jest słonecznie.",
+  "de": "Heute ist es sonnig."
+},
+{
+  "id": "travel-part-1-40",
+  "ru": "Сейчас идёт дождь.",
+  "ruStressed": "Сейча́с идёт дождь.",
+  "translit": "Seychas idyot dozhd.",
+  "en": "It is raining now.",
+  "pl": "Teraz pada deszcz.",
+  "de": "Es regnet gerade."
+},
+{
+  "id": "travel-part-1-41",
+  "ru": "Мне нужен зонт.",
+  "ruStressed": "Мне ну́жен зонт.",
+  "translit": "Mne nuzhen zont.",
+  "en": "I need an umbrella.",
+  "pl": "Potrzebuję parasola.",
+  "de": "Ich brauche einen Regenschirm."
+},
+{
+  "id": "travel-part-1-42",
+  "ru": "Я гуляю по городу.",
+  "ruStressed": "Я гуля́ю по го́роду.",
+  "translit": "Ya gulyayu po gorodu.",
+  "en": "I walk around the city.",
+  "pl": "Spaceruję po mieście.",
+  "de": "Ich gehe durch die Stadt."
+},
+{
+  "id": "travel-part-1-43",
+  "ru": "Я посещаю музей.",
+  "ruStressed": "Я посеща́ю музе́й.",
+  "translit": "Ya poseshchayu muzey.",
+  "en": "I visit a museum.",
+  "pl": "Odwiedzam muzeum.",
+  "de": "Ich besuche ein Museum."
+},
+{
+  "id": "travel-part-1-44",
+  "ru": "Я посещаю замок.",
+  "ruStressed": "Я посеща́ю за́мок.",
+  "translit": "Ya poseshchayu zamok.",
+  "en": "I visit a castle.",
+  "pl": "Odwiedzam zamek.",
+  "de": "Ich besuche ein Schloss."
+},
+{
+  "id": "travel-part-1-45",
+  "ru": "Я посещаю парк.",
+  "ruStressed": "Я посеща́ю парк.",
+  "translit": "Ya poseshchayu park.",
+  "en": "I visit a park.",
+  "pl": "Odwiedzam park.",
+  "de": "Ich besuche einen Park."
+},
+{
+  "id": "travel-part-1-46",
+  "ru": "Я иду на пляж.",
+  "ruStressed": "Я иду́ на пляж.",
+  "translit": "Ya idu na plyazh.",
+  "en": "I go to the beach.",
+  "pl": "Idę na plażę.",
+  "de": "Ich gehe an den Strand."
+},
+{
+  "id": "travel-part-1-47",
+  "ru": "Я плаваю в море.",
+  "ruStressed": "Я пла́ваю в мо́ре.",
+  "translit": "Ya plavayu v more.",
+  "en": "I swim in the sea.",
+  "pl": "Pływam w morzu.",
+  "de": "Ich schwimme im Meer."
+},
+{
+  "id": "travel-part-1-48",
+  "ru": "Я отдыхаю на песке.",
+  "ruStressed": "Я отдыха́ю на песке́.",
+  "translit": "Ya otdykhayu na peske.",
+  "en": "I relax on the sand.",
+  "pl": "Odpoczywam na piasku.",
+  "de": "Ich entspanne mich im Sand."
+},
+{
+  "id": "travel-part-1-49",
+  "ru": "Я пробую местную еду.",
+  "ruStressed": "Я про́бую ме́стную еду́.",
+  "translit": "Ya probuyu mestnuyu yedu.",
+  "en": "I try local food.",
+  "pl": "Próbuję lokalnego jedzenia.",
+  "de": "Ich probiere lokale Speisen."
+},
+{
+  "id": "travel-part-1-50",
+  "ru": "Еда очень вкусная.",
+  "ruStressed": "Еда́ о́чень вку́сная.",
+  "translit": "Yeda ochen vkusnaya.",
+  "en": "The food is delicious.",
+  "pl": "Jedzenie jest pyszne.",
+  "de": "Das Essen ist lecker."
+},
+  {
+  "id": "travel-part-1-51",
+  "ru": "Я пью местный кофе.",
+  "ruStressed": "Я пью́ ме́стный ко́фе.",
+  "translit": "Ya pyu mestnyy kofe.",
+  "en": "I drink local coffee.",
+  "pl": "Piję lokalną kawę.",
+  "de": "Ich trinke lokalen Kaffee."
+},
+{
+  "id": "travel-part-1-52",
+  "ru": "Я покупаю сувениры.",
+  "ruStressed": "Я покупа́ю сувени́ры.",
+  "translit": "Ya pokupayu suveniry.",
+  "en": "I buy souvenirs.",
+  "pl": "Kupuję pamiątki.",
+  "de": "Ich kaufe Souvenirs."
+},
+{
+  "id": "travel-part-1-53",
+  "ru": "Я отправляю открытки домой.",
+  "ruStressed": "Я отправля́ю откры́тки домо́й.",
+  "translit": "Ya otpravlyayu otkrytki domoy.",
+  "en": "I send postcards home.",
+  "pl": "Wysyłam pocztówki do domu.",
+  "de": "Ich schicke Postkarten nach Hause."
+},
+{
+  "id": "travel-part-1-54",
+  "ru": "Я знакомлюсь с новыми людьми.",
+  "ruStressed": "Я знако́млюсь с но́выми людьми́.",
+  "translit": "Ya znakomlyus s novymi lyudmi.",
+  "en": "I meet new people.",
+  "pl": "Poznaję nowych ludzi.",
+  "de": "Ich lerne neue Leute kennen."
+},
+{
+  "id": "travel-part-1-55",
+  "ru": "Я нахожу новых друзей.",
+  "ruStressed": "Я нахожу́ но́вых друзе́й.",
+  "translit": "Ya nakhozhu novykh druzey.",
+  "en": "I make new friends.",
+  "pl": "Poznaję nowych przyjaciół.",
+  "de": "Ich finde neue Freunde."
+},
+{
+  "id": "travel-part-1-56",
+  "ru": "Я учу новые слова.",
+  "ruStressed": "Я учу́ но́вые слова́.",
+  "translit": "Ya uchu novye slova.",
+  "en": "I learn new words.",
+  "pl": "Uczę się nowych słów.",
+  "de": "Ich lerne neue Wörter."
+},
+{
+  "id": "travel-part-1-57",
+  "ru": "Я практикую английский язык.",
+  "ruStressed": "Я практику́ю англи́йский язы́к.",
+  "translit": "Ya praktikuyu angliyskiy yazyk.",
+  "en": "I practice English.",
+  "pl": "Ćwiczę język angielski.",
+  "de": "Ich übe Englisch."
+},
+{
+  "id": "travel-part-1-58",
+  "ru": "Мне нравится культура.",
+  "ruStressed": "Мне нра́вится культу́ра.",
+  "translit": "Mne nravitsya kultura.",
+  "en": "I enjoy the culture.",
+  "pl": "Podoba mi się kultura.",
+  "de": "Mir gefällt die Kultur."
+},
+{
+  "id": "travel-part-1-59",
+  "ru": "Я слушаю местную музыку.",
+  "ruStressed": "Я слу́шаю ме́стную му́зыку.",
+  "translit": "Ya slushayu mestnuyu muzyku.",
+  "en": "I listen to local music.",
+  "pl": "Słucham lokalnej muzyki.",
+  "de": "Ich höre lokale Musik."
+},
+{
+  "id": "travel-part-1-60",
+  "ru": "Я смотрю на уличных артистов.",
+  "ruStressed": "Я смотрю́ на у́личных арти́стов.",
+  "translit": "Ya smotryu na ulichnykh artistov.",
+  "en": "I watch street performers.",
+  "pl": "Oglądam ulicznych artystów.",
+  "de": "Ich sehe Straßenkünstlern zu."
+},
+{
+  "id": "travel-part-1-61",
+  "ru": "Я путешествую с друзьями.",
+  "ruStressed": "Я путеше́ствую с друзья́ми.",
+  "translit": "Ya puteshestvuyu s druzyami.",
+  "en": "I travel with friends.",
+  "pl": "Podróżuję z przyjaciółmi.",
+  "de": "Ich reise mit Freunden."
+},
+{
+  "id": "travel-part-1-62",
+  "ru": "Я путешествую с семьёй.",
+  "ruStressed": "Я путеше́ствую с семьёй.",
+  "translit": "Ya puteshestvuyu s semyoy.",
+  "en": "I travel with my family.",
+  "pl": "Podróżuję z rodziną.",
+  "de": "Ich reise mit meiner Familie."
+},
+{
+  "id": "travel-part-1-63",
+  "ru": "Иногда я путешествую один.",
+  "ruStressed": "Иногда́ я путеше́ствую оди́н.",
+  "translit": "Inogda ya puteshestvuyu odin.",
+  "en": "I travel alone sometimes.",
+  "pl": "Czasami podróżuję sam.",
+  "de": "Manchmal reise ich allein."
+},
+{
+  "id": "travel-part-1-64",
+  "ru": "Я счастлив, когда путешествую.",
+  "ruStressed": "Я сча́стлив, когда́ путеше́ствую.",
+  "translit": "Ya schastliv, kogda puteshestvuyu.",
+  "en": "I feel happy when I travel.",
+  "pl": "Jestem szczęśliwy, kiedy podróżuję.",
+  "de": "Ich bin glücklich, wenn ich reise."
+},
+{
+  "id": "travel-part-1-65",
+  "ru": "Я расслабляюсь в отпуске.",
+  "ruStressed": "Я расслабля́юсь в о́тпуске.",
+  "translit": "Ya rasslablyayus v otpuske.",
+  "en": "I feel relaxed on vacation.",
+  "pl": "Relaksuję się na wakacjach.",
+  "de": "Ich entspanne mich im Urlaub."
+},
+{
+  "id": "travel-part-1-66",
+  "ru": "Железнодорожный вокзал очень оживлённый.",
+  "ruStressed": "Железнодоро́жный вокза́л о́чень оживлённый.",
+  "translit": "Zheleznodorozhnyy vokzal ochen ozhivlyonnyy.",
+  "en": "The train station is busy.",
+  "pl": "Dworzec kolejowy jest zatłoczony.",
+  "de": "Der Bahnhof ist belebt."
+},
+{
+  "id": "travel-part-1-67",
+  "ru": "Я опаздываю на поезд.",
+  "ruStressed": "Я опа́здываю на по́езд.",
+  "translit": "Ya opazdyvayu na poyezd.",
+  "en": "I miss my train.",
+  "pl": "Spóźniam się na pociąg.",
+  "de": "Ich verpasse meinen Zug."
+},
+{
+  "id": "travel-part-1-68",
+  "ru": "Я сажусь на следующий поезд.",
+  "ruStressed": "Я сажу́сь на сле́дующий по́езд.",
+  "translit": "Ya sazhus na sleduyushchiy poyezd.",
+  "en": "I catch the next train.",
+  "pl": "Łapię następny pociąg.",
+  "de": "Ich nehme den nächsten Zug."
+},
+{
+  "id": "travel-part-1-69",
+  "ru": "Я бронирую номер в отеле.",
+  "ruStressed": "Я брони́рую но́мер в оте́ле.",
+  "translit": "Ya broniruyu nomer v otele.",
+  "en": "I reserve a hotel room.",
+  "pl": "Rezerwuję pokój hotelowy.",
+  "de": "Ich reserviere ein Hotelzimmer."
+},
+{
+  "id": "travel-part-1-70",
+  "ru": "Я тщательно планирую поездку.",
+  "ruStressed": "Я тща́тельно плани́рую пое́здку.",
+  "translit": "Ya tshchatelno planiruyu poyezdku.",
+  "en": "I plan my trip carefully.",
+  "pl": "Starannie planuję podróż.",
+  "de": "Ich plane meine Reise sorgfältig."
+},
+{
+  "id": "travel-part-1-71",
+  "ru": "Я использую приложение для путешествий.",
+  "ruStressed": "Я испо́льзую приложе́ние для путеше́ствий.",
+  "translit": "Ya ispolzuyu prilozhenie dlya puteshestviy.",
+  "en": "I use a travel app.",
+  "pl": "Używam aplikacji podróżniczej.",
+  "de": "Ich benutze eine Reise-App."
+},
+{
+  "id": "travel-part-1-72",
+  "ru": "Я проверяю прогноз погоды.",
+  "ruStressed": "Я проверя́ю прогно́з пого́ды.",
+  "translit": "Ya proveryayu prognoz pogody.",
+  "en": "I check the weather forecast.",
+  "pl": "Sprawdzam prognozę pogody.",
+  "de": "Ich prüfe die Wettervorhersage."
+},
+{
+  "id": "travel-part-1-73",
+  "ru": "Я меняю немного денег.",
+  "ruStressed": "Я меня́ю немно́го де́нег.",
+  "translit": "Ya menyayu nemnogo deneg.",
+  "en": "I exchange some money.",
+  "pl": "Wymieniam trochę pieniędzy.",
+  "de": "Ich tausche etwas Geld um."
+},
+{
+  "id": "travel-part-1-74",
+  "ru": "Мне нужен дорожный адаптер.",
+  "ruStressed": "Мне ну́жен доро́жный ада́птер.",
+  "translit": "Mne nuzhen dorozhnyy adapter.",
+  "en": "I need a travel adapter.",
+  "pl": "Potrzebuję adaptera podróżnego.",
+  "de": "Ich brauche einen Reiseadapter."
+},
+{
+  "id": "travel-part-1-75",
+  "ru": "Я ношу рюкзак.",
+  "ruStressed": "Я ношу́ рюкза́к.",
+  "translit": "Ya noshu ryukzak.",
+  "en": "I carry a backpack.",
+  "pl": "Noszę plecak.",
+  "de": "Ich trage einen Rucksack."
+},
+{
+  "id": "travel-part-1-76",
+  "ru": "Мой чемодан тяжёлый.",
+  "ruStressed": "Мой чемода́н тяжёлый.",
+  "translit": "Moy chemodan tyazholyy.",
+  "en": "My suitcase is heavy.",
+  "pl": "Moja walizka jest ciężka.",
+  "de": "Mein Koffer ist schwer."
+},
+{
+  "id": "travel-part-1-77",
+  "ru": "Я предпочитаю места у окна.",
+  "ruStressed": "Я предпочита́ю места́ у окна́.",
+  "translit": "Ya predpochitayu mesta u okna.",
+  "en": "I prefer window seats.",
+  "pl": "Wolę miejsca przy oknie.",
+  "de": "Ich bevorzuge Fensterplätze."
+},
+{
+  "id": "travel-part-1-78",
+  "ru": "Я люблю автомобильные путешествия.",
+  "ruStressed": "Я люблю́ автомоби́льные путеше́ствия.",
+  "translit": "Ya lyublyu avtomobilnye puteshestviya.",
+  "en": "I love road trips.",
+  "pl": "Uwielbiam podróże samochodowe.",
+  "de": "Ich liebe Roadtrips."
+},
+{
+  "id": "travel-part-1-79",
+  "ru": "Мы останавливаемся на обед.",
+  "ruStressed": "Мы остана́вливаемся на обе́д.",
+  "translit": "My ostanavlivayemsya na obed.",
+  "en": "We stop for lunch.",
+  "pl": "Zatrzymujemy się na lunch.",
+  "de": "Wir machen zum Mittagessen Halt."
+},
+{
+  "id": "travel-part-1-80",
+  "ru": "Нам нравится путешествие.",
+  "ruStressed": "Нам нра́вится путеше́ствие.",
+  "translit": "Nam nravitsya puteshestvie.",
+  "en": "We enjoy the journey.",
+  "pl": "Podoba nam się podróż.",
+  "de": "Wir genießen die Reise."
+},
+{
+  "id": "travel-part-1-81",
+  "ru": "Дорога красивая.",
+  "ruStressed": "Доро́га краси́вая.",
+  "translit": "Doroga krasivaya.",
+  "en": "The road is beautiful.",
+  "pl": "Droga jest piękna.",
+  "de": "Die Straße ist schön."
+},
+{
+  "id": "travel-part-1-82",
+  "ru": "Горы удивительные.",
+  "ruStressed": "Го́ры удиви́тельные.",
+  "translit": "Gory udivitelnye.",
+  "en": "The mountains are amazing.",
+  "pl": "Góry są niesamowite.",
+  "de": "Die Berge sind beeindruckend."
+},
+{
+  "id": "travel-part-1-83",
+  "ru": "Озеро спокойное.",
+  "ruStressed": "О́зеро споко́йное.",
+  "translit": "Ozero spokoynoye.",
+  "en": "The lake is peaceful.",
+  "pl": "Jezioro jest spokojne.",
+  "de": "Der See ist ruhig."
+},
+{
+  "id": "travel-part-1-84",
+  "ru": "Город очень оживлённый.",
+  "ruStressed": "Го́род о́чень оживлённый.",
+  "translit": "Gorod ochen ozhivlyonnyy.",
+  "en": "The city is very lively.",
+  "pl": "Miasto jest bardzo tętniące życiem.",
+  "de": "Die Stadt ist sehr lebendig."
+},
+{
+  "id": "travel-part-1-85",
+  "ru": "Я посещаю известные достопримечательности.",
+  "ruStressed": "Я посеща́ю изве́стные достопримеча́тельности.",
+  "translit": "Ya poseshchayu izvestnye dostoprimechatelnosti.",
+  "en": "I visit famous landmarks.",
+  "pl": "Odwiedzam słynne zabytki.",
+  "de": "Ich besuche berühmte Sehenswürdigkeiten."
+},
+  {
+  "id": "travel-part-1-86",
+  "ru": "Я участвую в экскурсии с гидом.",
+  "ruStressed": "Я уча́ствую в экску́рсии с ги́дом.",
+  "translit": "Ya uchastvuyu v ekskursii s gidom.",
+  "en": "I take a guided tour.",
+  "pl": "Biorę udział w wycieczce z przewodnikiem.",
+  "de": "Ich nehme an einer Führung teil."
+},
+{
+  "id": "travel-part-1-87",
+  "ru": "Гид очень помогает.",
+  "ruStressed": "Гид о́чень помога́ет.",
+  "translit": "Gid ochen pomogayet.",
+  "en": "The guide is helpful.",
+  "pl": "Przewodnik jest pomocny.",
+  "de": "Der Reiseführer ist hilfreich."
+},
+{
+  "id": "travel-part-1-88",
+  "ru": "Я изучаю историю.",
+  "ruStressed": "Я изуча́ю исто́рию.",
+  "translit": "Ya izuchayu istoriyu.",
+  "en": "I learn about history.",
+  "pl": "Uczę się historii.",
+  "de": "Ich lerne etwas über Geschichte."
+},
+{
+  "id": "travel-part-1-89",
+  "ru": "Я посещаю старые здания.",
+  "ruStressed": "Я посеща́ю ста́рые зда́ния.",
+  "translit": "Ya poseshchayu starye zdaniya.",
+  "en": "I visit old buildings.",
+  "pl": "Odwiedzam stare budynki.",
+  "de": "Ich besuche alte Gebäude."
+},
+{
+  "id": "travel-part-1-90",
+  "ru": "Я исследую узкие улицы.",
+  "ruStressed": "Я иссле́дую у́зкие у́лицы.",
+  "translit": "Ya issleduyu uzkie ulitsy.",
+  "en": "I explore narrow streets.",
+  "pl": "Zwiedzam wąskie uliczki.",
+  "de": "Ich erkunde enge Straßen."
+},
+{
+  "id": "travel-part-1-91",
+  "ru": "Я пробую традиционные блюда.",
+  "ruStressed": "Я про́бую традицио́нные блю́да.",
+  "translit": "Ya probuyu traditsionnye blyuda.",
+  "en": "I try traditional dishes.",
+  "pl": "Próbuję tradycyjnych potraw.",
+  "de": "Ich probiere traditionelle Gerichte."
+},
+{
+  "id": "travel-part-1-92",
+  "ru": "Я пробую местные десерты.",
+  "ruStressed": "Я про́бую ме́стные десе́рты.",
+  "translit": "Ya probuyu mestnye deserty.",
+  "en": "I taste local desserts.",
+  "pl": "Próbuję lokalnych deserów.",
+  "de": "Ich probiere lokale Desserts."
+},
+{
+  "id": "travel-part-1-93",
+  "ru": "Рынок очень красочный.",
+  "ruStressed": "Ры́нок о́чень красо́чный.",
+  "translit": "Rynok ochen krasochnyy.",
+  "en": "The market is colorful.",
+  "pl": "Rynek jest bardzo kolorowy.",
+  "de": "Der Markt ist sehr bunt."
+},
+{
+  "id": "travel-part-1-94",
+  "ru": "Я покупаю подарки ручной работы.",
+  "ruStressed": "Я покупа́ю пода́рки ручно́й рабо́ты.",
+  "translit": "Ya pokupayu podarki ruchnoy raboty.",
+  "en": "I buy handmade gifts.",
+  "pl": "Kupuję ręcznie robione prezenty.",
+  "de": "Ich kaufe handgemachte Geschenke."
+},
+{
+  "id": "travel-part-1-95",
+  "ru": "Я путешествую во время праздников.",
+  "ruStressed": "Я путеше́ствую во вре́мя пра́здников.",
+  "translit": "Ya puteshestvuyu vo vremya prazdnikov.",
+  "en": "I travel during holidays.",
+  "pl": "Podróżuję podczas świąt.",
+  "de": "Ich reise während der Feiertage."
+},
+{
+  "id": "travel-part-1-96",
+  "ru": "Я путешествую по выходным.",
+  "ruStressed": "Я путеше́ствую по выходны́м.",
+  "translit": "Ya puteshestvuyu po vykhodnym.",
+  "en": "I travel on weekends.",
+  "pl": "Podróżuję w weekendy.",
+  "de": "Ich reise an Wochenenden."
+},
+{
+  "id": "travel-part-1-97",
+  "ru": "Я коплю деньги на поездки.",
+  "ruStressed": "Я коплю́ де́ньги на пое́здки.",
+  "translit": "Ya koplyu dengi na poyezdki.",
+  "en": "I save money for trips.",
+  "pl": "Oszczędzam pieniądze na podróże.",
+  "de": "Ich spare Geld für Reisen."
+},
+{
+  "id": "travel-part-1-98",
+  "ru": "Путешествия расширяют мой кругозор.",
+  "ruStressed": "Путеше́ствия расширя́ют мой кругозо́р.",
+  "translit": "Puteshestviya rasshiryayut moy krugozor.",
+  "en": "Traveling broadens my mind.",
+  "pl": "Podróżowanie poszerza moje horyzonty.",
+  "de": "Reisen erweitert meinen Horizont."
+},
+{
+  "id": "travel-part-1-99",
+  "ru": "Мне нравится открывать новые места.",
+  "ruStressed": "Мне нра́вится открыва́ть но́вые места́.",
+  "translit": "Mne nravitsya otkryvat novye mesta.",
+  "en": "I enjoy discovering new places.",
+  "pl": "Lubię odkrywać nowe miejsca.",
+  "de": "Ich entdecke gern neue Orte."
+},
+{
+  "id": "travel-part-1-100",
+  "ru": "Каждая поездка чему-то меня учит.",
+  "ruStressed": "Ка́ждая пое́здка чему́-то меня́ у́чит.",
+  "translit": "Kazhdaya poyezdka chemu-to menya uchit.",
+  "en": "Every trip teaches me something.",
+  "pl": "Każda podróż czegoś mnie uczy.",
+  "de": "Jede Reise lehrt mich etwas."
+},
+  {
+  "id": "travel-part-1-101",
+  "ru": "В прошлом году я посетил Италию.",
+  "ruStressed": "В про́шлом году́ я посети́л Италию.",
+  "translit": "V proshlom godu ya posetil Italiyu.",
+  "en": "Last year, I visited Italy.",
+  "pl": "W zeszłym roku odwiedziłem Włochy.",
+  "de": "Letztes Jahr habe ich Italien besucht."
+},
+{
+  "id": "travel-part-1-102",
+  "ru": "Я остановился в маленьком отеле.",
+  "ruStressed": "Я останови́лся в ма́леньком оте́ле.",
+  "translit": "Ya ostanovilsya v malenkom otele.",
+  "en": "I stayed in a small hotel.",
+  "pl": "Zatrzymałem się w małym hotelu.",
+  "de": "Ich habe in einem kleinen Hotel übernachtet."
+},
+{
+  "id": "travel-part-1-103",
+  "ru": "Я провёл там неделю.",
+  "ruStressed": "Я провёл там неде́лю.",
+  "translit": "Ya provyol tam nedelyu.",
+  "en": "I spent a week there.",
+  "pl": "Spędziłem tam tydzień.",
+  "de": "Ich habe dort eine Woche verbracht."
+},
+{
+  "id": "travel-part-1-104",
+  "ru": "Я посетил несколько музеев.",
+  "ruStressed": "Я посети́л не́сколько музе́ев.",
+  "translit": "Ya posetil neskolko muzeyev.",
+  "en": "I visited several museums.",
+  "pl": "Odwiedziłem kilka muzeów.",
+  "de": "Ich habe mehrere Museen besucht."
+},
+{
+  "id": "travel-part-1-105",
+  "ru": "Я сделал сотни фотографий.",
+  "ruStressed": "Я сде́лал со́тни фотогра́фий.",
+  "translit": "Ya sdelal sotni fotografiy.",
+  "en": "I took hundreds of photos.",
+  "pl": "Zrobiłem setki zdjęć.",
+  "de": "Ich habe Hunderte von Fotos gemacht."
+},
+{
+  "id": "travel-part-1-106",
+  "ru": "Эта поездка была незабываемой.",
+  "ruStressed": "Э́та пое́здка была́ незабыва́емой.",
+  "translit": "Eta poyezdka byla nezabyvayemoy.",
+  "en": "The trip was unforgettable.",
+  "pl": "Ta podróż była niezapomniana.",
+  "de": "Die Reise war unvergesslich."
+},
+{
+  "id": "travel-part-1-107",
+  "ru": "Я путешествовал с двумя друзьями.",
+  "ruStressed": "Я путеше́ствовал с двумя́ друзья́ми.",
+  "translit": "Ya puteshestvoval s dvumya druzyami.",
+  "en": "I traveled with two friends.",
+  "pl": "Podróżowałem z dwoma przyjaciółmi.",
+  "de": "Ich reiste mit zwei Freunden."
+},
+{
+  "id": "travel-part-1-108",
+  "ru": "Мы вместе исследовали город.",
+  "ruStressed": "Мы вме́сте иссле́довали го́род.",
+  "translit": "My vmeste issledovali gorod.",
+  "en": "We explored the city together.",
+  "pl": "Razem zwiedzaliśmy miasto.",
+  "de": "Wir haben gemeinsam die Stadt erkundet."
+},
+{
+  "id": "travel-part-1-109",
+  "ru": "Мы пользовались общественным транспортом.",
+  "ruStressed": "Мы по́льзовались обще́ственным тра́нспортом.",
+  "translit": "My polzovalis obshchestvennym transportom.",
+  "en": "We used public transport.",
+  "pl": "Korzystaliśmy z transportu publicznego.",
+  "de": "Wir haben öffentliche Verkehrsmittel benutzt."
+},
+{
+  "id": "travel-part-1-110",
+  "ru": "Мы пробовали много местных блюд.",
+  "ruStressed": "Мы про́бовали мно́го ме́стных блюд.",
+  "translit": "My probovali mnogo mestnykh blyud.",
+  "en": "We tried many local dishes.",
+  "pl": "Próbowaliśmy wielu lokalnych potraw.",
+  "de": "Wir haben viele lokale Gerichte probiert."
+},
+{
+  "id": "travel-part-1-111",
+  "ru": "Я многое узнал о культуре.",
+  "ruStressed": "Я мно́гое узна́л о культу́ре.",
+  "translit": "Ya mnogoye uznal o kulture.",
+  "en": "I learned a lot about the culture.",
+  "pl": "Dowiedziałem się wiele o kulturze.",
+  "de": "Ich habe viel über die Kultur gelernt."
+},
+{
+  "id": "travel-part-1-112",
+  "ru": "В следующем году я хочу посетить Испанию.",
+  "ruStressed": "В сле́дующем году́ я хочу́ посети́ть Испа́нию.",
+  "translit": "V sleduyushchem godu ya khochu posetit Ispaniyu.",
+  "en": "Next year, I want to visit Spain.",
+  "pl": "W przyszłym roku chcę odwiedzić Hiszpanię.",
+  "de": "Nächstes Jahr möchte ich Spanien besuchen."
+},
+{
+  "id": "travel-part-1-113",
+  "ru": "Сейчас я планирую поездку.",
+  "ruStressed": "Сейча́с я плани́рую пое́здку.",
+  "translit": "Seychas ya planiruyu poyezdku.",
+  "en": "I am planning a trip now.",
+  "pl": "Teraz planuję podróż.",
+  "de": "Ich plane gerade eine Reise."
+},
+{
+  "id": "travel-part-1-114",
+  "ru": "Я уже забронировал билет на самолёт.",
+  "ruStressed": "Я уже́ заброни́ровал биле́т на самолёт.",
+  "translit": "Ya uzhe zabroniroval bilet na samolyot.",
+  "en": "I have already booked my flight.",
+  "pl": "Zarezerwowałem już lot.",
+  "de": "Ich habe meinen Flug bereits gebucht."
+},
+{
+  "id": "travel-part-1-115",
+  "ru": "Я уже забронировал номер в отеле.",
+  "ruStressed": "Я уже́ заброни́ровал но́мер в оте́ле.",
+  "translit": "Ya uzhe zabroniroval nomer v otele.",
+  "en": "I have reserved a hotel room.",
+  "pl": "Zarezerwowałem pokój hotelowy.",
+  "de": "Ich habe ein Hotelzimmer reserviert."
+},
+{
+  "id": "travel-part-1-116",
+  "ru": "Я ищу достопримечательности.",
+  "ruStressed": "Я ищу́ достопримеча́тельности.",
+  "translit": "Ya ishchu dostoprimechatelnosti.",
+  "en": "I am looking for attractions.",
+  "pl": "Szukam atrakcji turystycznych.",
+  "de": "Ich suche nach Sehenswürdigkeiten."
+},
+{
+  "id": "travel-part-1-117",
+  "ru": "Надеюсь, погода будет хорошей.",
+  "ruStressed": "Наде́юсь, пого́да бу́дет хоро́шей.",
+  "translit": "Nadeyus, pogoda budet khoroshey.",
+  "en": "I hope the weather will be good.",
+  "pl": "Mam nadzieję, że pogoda będzie dobra.",
+  "de": "Ich hoffe, das Wetter wird gut sein."
+},
+{
+  "id": "travel-part-1-118",
+  "ru": "Я хотел бы посетить побережье.",
+  "ruStressed": "Я хоте́л бы посети́ть побере́жье.",
+  "translit": "Ya khotel by posetit poberezhye.",
+  "en": "I would like to visit the coast.",
+  "pl": "Chciałbym odwiedzić wybrzeże.",
+  "de": "Ich würde gern die Küste besuchen."
+},
+{
+  "id": "travel-part-1-119",
+  "ru": "Я хотел бы увидеть известные памятники.",
+  "ruStressed": "Я хоте́л бы уви́деть изве́стные па́мятники.",
+  "translit": "Ya khotel by uvidet izvestnye pamyatniki.",
+  "en": "I would like to see famous monuments.",
+  "pl": "Chciałbym zobaczyć słynne zabytki.",
+  "de": "Ich würde gern berühmte Denkmäler sehen."
+},
+{
+  "id": "travel-part-1-120",
+  "ru": "Я надеюсь познакомиться с местными жителями.",
+  "ruStressed": "Я наде́юсь познако́миться с ме́стными жи́телями.",
+  "translit": "Ya nadeyus poznakomitsya s mestnymi zhitelyami.",
+  "en": "I hope to meet local people.",
+  "pl": "Mam nadzieję poznać miejscowych ludzi.",
+  "de": "Ich hoffe, Einheimische kennenzulernen."
+},
+{
+  "id": "travel-part-1-121",
+  "ru": "Путешествия помогают мне расслабиться.",
+  "ruStressed": "Путеше́ствия помога́ют мне расслаби́ться.",
+  "translit": "Puteshestviya pomogayut mne rasslabitsya.",
+  "en": "Traveling helps me relax.",
+  "pl": "Podróżowanie pomaga mi się zrelaksować.",
+  "de": "Reisen hilft mir, mich zu entspannen."
+},
+{
+  "id": "travel-part-1-122",
+  "ru": "Путешествия помогают мне учиться.",
+  "ruStressed": "Путеше́ствия помога́ют мне учи́ться.",
+  "translit": "Puteshestviya pomogayut mne uchitsya.",
+  "en": "Traveling helps me learn.",
+  "pl": "Podróżowanie pomaga mi się uczyć.",
+  "de": "Reisen hilft mir zu lernen."
+},
+{
+  "id": "travel-part-1-123",
+  "ru": "Мне нравится знакомиться с людьми из разных стран.",
+  "ruStressed": "Мне нра́вится знако́миться с людьми́ из ра́зных стран.",
+  "translit": "Mne nravitsya znakomitsya s lyudmi iz raznykh stran.",
+  "en": "I enjoy meeting people from different countries.",
+  "pl": "Lubię poznawać ludzi z różnych krajów.",
+  "de": "Ich lerne gern Menschen aus verschiedenen Ländern kennen."
+},
+{
+  "id": "travel-part-1-124",
+  "ru": "Мне нравится сравнивать культуры.",
+  "ruStressed": "Мне нра́вится сравнива́ть культу́ры.",
+  "translit": "Mne nravitsya sravnivat kultury.",
+  "en": "I like comparing cultures.",
+  "pl": "Lubię porównywać kultury.",
+  "de": "Ich vergleiche gern Kulturen."
+},
+{
+  "id": "travel-part-1-125",
+  "ru": "Я часто веду дневник путешествий.",
+  "ruStressed": "Я ча́сто веду́ дневни́к путеше́ствий.",
+  "translit": "Ya chasto vedu dnevnik puteshestviy.",
+  "en": "I often keep a travel journal.",
+  "pl": "Często prowadzę dziennik podróży.",
+  "de": "Ich führe oft ein Reisetagebuch."
+},
+{
+  "id": "travel-part-1-126",
+  "ru": "Я пишу о своих впечатлениях.",
+  "ruStressed": "Я пишу́ о свои́х впечатле́ниях.",
+  "translit": "Ya pishu o svoikh vpechatleniyakh.",
+  "en": "I write about my experiences.",
+  "pl": "Piszę o swoich doświadczeniach.",
+  "de": "Ich schreibe über meine Erfahrungen."
+},
+{
+  "id": "travel-part-1-127",
+  "ru": "Я делюсь фотографиями с друзьями.",
+  "ruStressed": "Я делю́сь фотогра́фиями с друзья́ми.",
+  "translit": "Ya delyus fotografiyami s druzyami.",
+  "en": "I share photos with my friends.",
+  "pl": "Dzielę się zdjęciami z przyjaciółmi.",
+  "de": "Ich teile Fotos mit meinen Freunden."
+},
+{
+  "id": "travel-part-1-128",
+  "ru": "Обычно я путешествую экономно.",
+  "ruStressed": "Обы́чно я путеше́ствую эконо́мно.",
+  "translit": "Obychno ya puteshestvuyu ekonomno.",
+  "en": "I usually travel on a budget.",
+  "pl": "Zwykle podróżuję oszczędnie.",
+  "de": "Ich reise normalerweise mit kleinem Budget."
+},
+{
+  "id": "travel-part-1-129",
+  "ru": "Иногда я останавливаюсь в хостелах.",
+  "ruStressed": "Иногда́ я остана́вливаюсь в хо́стелах.",
+  "translit": "Inogda ya ostanavlivayus v khostelakh.",
+  "en": "Sometimes I stay in hostels.",
+  "pl": "Czasami zatrzymuję się w hostelach.",
+  "de": "Manchmal übernachte ich in Hostels."
+},
+{
+  "id": "travel-part-1-130",
+  "ru": "Иногда я останавливаюсь в отелях.",
+  "ruStressed": "Иногда́ я остана́вливаюсь в оте́лях.",
+  "translit": "Inogda ya ostanavlivayus v otelyakh.",
+  "en": "Sometimes I stay in hotels.",
+  "pl": "Czasami zatrzymuję się w hotelach.",
+  "de": "Manchmal übernachte ich in Hotels."
+},
+{
+  "id": "travel-part-1-131",
+  "ru": "Я всегда ношу важные документы.",
+  "ruStressed": "Я всегда́ ношу́ ва́жные докуме́нты.",
+  "translit": "Ya vsegda noshu vazhnye dokumenty.",
+  "en": "I always carry important documents.",
+  "pl": "Zawsze noszę ważne dokumenty.",
+  "de": "Ich trage immer wichtige Dokumente bei mir."
+},
+{
+  "id": "travel-part-1-132",
+  "ru": "Я храню свой паспорт в безопасности.",
+  "ruStressed": "Я храню́ свой па́спорт в безопа́сности.",
+  "translit": "Ya khranyu svoy pasport v bezopasnosti.",
+  "en": "I keep my passport safe.",
+  "pl": "Trzymam paszport w bezpiecznym miejscu.",
+  "de": "Ich bewahre meinen Reisepass sicher auf."
+},
+{
+  "id": "travel-part-1-133",
+  "ru": "Я проверяю информацию о поездке в интернете.",
+  "ruStressed": "Я проверя́ю информа́цию о пое́здке в интерне́те.",
+  "translit": "Ya proveryayu informatsiyu o poyezdke v internete.",
+  "en": "I check travel information online.",
+  "pl": "Sprawdzam informacje o podróży w internecie.",
+  "de": "Ich informiere mich online über Reisen."
+},
+{
+  "id": "travel-part-1-134",
+  "ru": "Я предпочитаю самостоятельные путешествия.",
+  "ruStressed": "Я предпочита́ю самостоя́тельные путеше́ствия.",
+  "translit": "Ya predpochitayu samostoyatelnye puteshestviya.",
+  "en": "I prefer independent travel.",
+  "pl": "Wolę samodzielne podróżowanie.",
+  "de": "Ich bevorzuge individuelles Reisen."
+},
+{
+  "id": "travel-part-1-135",
+  "ru": "Некоторые люди предпочитают пакетные туры.",
+  "ruStressed": "Неко́торые лю́ди предпочита́ют паке́тные ту́ры.",
+  "translit": "Nekotorye lyudi predpochitayut paketnye tury.",
+  "en": "Some people prefer package tours.",
+  "pl": "Niektórzy ludzie wolą wycieczki zorganizowane.",
+  "de": "Manche Menschen bevorzugen Pauschalreisen."
+},
+{
+  "id": "travel-part-1-136",
+  "ru": "Я думаю, что путешествия очень познавательны.",
+  "ruStressed": "Я ду́маю, что путеше́ствия о́чень познава́тельны.",
+  "translit": "Ya dumayu, chto puteshestviya ochen poznavatelny.",
+  "en": "I think traveling is educational.",
+  "pl": "Myślę, że podróżowanie jest pouczające.",
+  "de": "Ich denke, Reisen ist lehrreich."
+},
+{
+  "id": "travel-part-1-137",
+  "ru": "Это помогает мне стать увереннее.",
+  "ruStressed": "Э́то помога́ет мне стать увере́ннее.",
+  "translit": "Eto pomogayet mne stat uverenneye.",
+  "en": "It helps me become more confident.",
+  "pl": "To pomaga mi stać się bardziej pewnym siebie.",
+  "de": "Es hilft mir, selbstbewusster zu werden."
+},
+{
+  "id": "travel-part-1-138",
+  "ru": "Это улучшает мои языковые навыки.",
+  "ruStressed": "Э́то улучша́ет мои́ языковы́е навы́ки.",
+  "translit": "Eto uluchshayet moi yazykovye navyki.",
+  "en": "It improves my language skills.",
+  "pl": "To poprawia moje umiejętności językowe.",
+  "de": "Es verbessert meine Sprachkenntnisse."
+},
+{
+  "id": "travel-part-1-139",
+  "ru": "Мне нравится исследовать незнакомые места.",
+  "ruStressed": "Мне нра́вится иссле́довать незнако́мые места́.",
+  "translit": "Mne nravitsya issledovat neznakomye mesta.",
+  "en": "I enjoy exploring unfamiliar places.",
+  "pl": "Lubię odkrywać nieznane miejsca.",
+  "de": "Ich erkunde gern unbekannte Orte."
+},
+{
+  "id": "travel-part-1-140",
+  "ru": "Мне нравится изучать местные обычаи.",
+  "ruStressed": "Мне нра́вится изуча́ть ме́стные обы́чаи.",
+  "translit": "Mne nravitsya izuchat mestnye obychai.",
+  "en": "I like learning local customs.",
+  "pl": "Lubię poznawać lokalne zwyczaje.",
+  "de": "Ich lerne gern lokale Bräuche kennen."
+},
+{
+  "id": "travel-part-1-141",
+  "ru": "Путешествия могут быть сложными.",
+  "ruStressed": "Путеше́ствия мо́гут быть сло́жными.",
+  "translit": "Puteshestviya mogut byt slozhnymi.",
+  "en": "Traveling can be challenging.",
+  "pl": "Podróżowanie może być trudne.",
+  "de": "Reisen kann herausfordernd sein."
+},
+{
+  "id": "travel-part-1-142",
+  "ru": "Иногда что-то идёт не так.",
+  "ruStressed": "Иногда́ что́-то идёт не так.",
+  "translit": "Inogda chto-to idyot ne tak.",
+  "en": "Sometimes things go wrong.",
+  "pl": "Czasami coś idzie nie tak.",
+  "de": "Manchmal läuft etwas schief."
+},
+{
+  "id": "travel-part-1-143",
+  "ru": "Пропущенные рейсы могут вызывать стресс.",
+  "ruStressed": "Пропу́щенные ре́йсы мо́гут вы́зывать стресс.",
+  "translit": "Propushchennye reysy mogut vyzyvat stress.",
+  "en": "Missed flights can be stressful.",
+  "pl": "Przegapione loty mogą być stresujące.",
+  "de": "Verpasste Flüge können stressig sein."
+},
+{
+  "id": "travel-part-1-144",
+  "ru": "Хорошее планирование уменьшает проблемы.",
+  "ruStressed": "Хоро́шее плани́рование уменьша́ет пробле́мы.",
+  "translit": "Khorosheye planirovaniye umenshayet problemy.",
+  "en": "Good planning reduces problems.",
+  "pl": "Dobre planowanie zmniejsza problemy.",
+  "de": "Gute Planung reduziert Probleme."
+},
+{
+  "id": "travel-part-1-145",
+  "ru": "Гибкость важна во время путешествий.",
+  "ruStressed": "Ги́бкость важна́ во вре́мя путеше́ствий.",
+  "translit": "Gibkost vazhna vo vremya puteshestviy.",
+  "en": "Flexibility is important when traveling.",
+  "pl": "Elastyczność jest ważna podczas podróży.",
+  "de": "Flexibilität ist beim Reisen wichtig."
+},
+{
+  "id": "travel-part-1-146",
+  "ru": "Каждое место имеет что-то уникальное.",
+  "ruStressed": "Ка́ждое ме́сто име́ет что́-то уника́льное.",
+  "translit": "Kazhdoe mesto imeyet chto-to unikalnoye.",
+  "en": "Every destination has something unique.",
+  "pl": "Każde miejsce ma coś wyjątkowego.",
+  "de": "Jedes Reiseziel hat etwas Einzigartiges."
+},
+{
+  "id": "travel-part-1-147",
+  "ru": "Я хочу посетить больше стран.",
+  "ruStressed": "Я хочу́ посети́ть бо́льше стран.",
+  "translit": "Ya khochu posetit bolshe stran.",
+  "en": "I want to visit more countries.",
+  "pl": "Chcę odwiedzić więcej krajów.",
+  "de": "Ich möchte mehr Länder besuchen."
+},
+{
+  "id": "travel-part-1-148",
+  "ru": "Путешествия — одно из моих любимых хобби.",
+  "ruStressed": "Путеше́ствия — одно́ из мои́х люби́мых хо́бби.",
+  "translit": "Puteshestviya — odno iz moikh lyubimykh khobbi.",
+  "en": "Traveling is one of my favorite hobbies.",
+  "pl": "Podróżowanie jest jednym z moich ulubionych hobby.",
+  "de": "Reisen ist eines meiner Lieblingshobbys."
+},
+{
+  "id": "travel-part-1-149",
+  "ru": "Я буду продолжать путешествовать в будущем.",
+  "ruStressed": "Я бу́ду продолжа́ть путеше́ствовать в бу́дущем.",
+  "translit": "Ya budu prodolzhat puteshestvovat v budushchem.",
+  "en": "I will continue traveling in the future.",
+  "pl": "Będę nadal podróżować w przyszłości.",
+  "de": "Ich werde auch in Zukunft weiter reisen."
+},
+{
+  "id": "travel-part-1-150",
+  "ru": "Каждое путешествие — это новое приключение.",
+  "ruStressed": "Ка́ждое путеше́ствие — э́то но́вое приключе́ние.",
+  "translit": "Kazhdoe puteshestvie — eto novoye priklyucheniye.",
+  "en": "Every journey is a new adventure.",
+  "pl": "Każda podróż jest nową przygodą.",
+  "de": "Jede Reise ist ein neues Abenteuer."
+}
+]
