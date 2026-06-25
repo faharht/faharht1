@@ -356,8 +356,15 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
                 <BookOpen className="h-3.5 w-3.5" />
               </span>
               <div className="min-w-0 flex-1">
-                <div className="truncate text-xs font-semibold text-slate-800">
-                  {t(l.titleKey, l.titleVars)}
+                <div className="flex items-center gap-1.5">
+                  <div className="truncate text-xs font-semibold text-slate-800">
+                    {t(l.titleKey, l.titleVars)}
+                  </div>
+                  {counts?.[l.id] ? (
+                    <span className="shrink-0 rounded-full bg-blue-50 px-1.5 py-0.5 text-[9px] font-semibold text-blue-700">
+                      {counts[l.id]}
+                    </span>
+                  ) : null}
                 </div>
                 <p className="mt-0.5 line-clamp-1 text-[10px] text-slate-500">
                   {t(l.descriptionKey)}
