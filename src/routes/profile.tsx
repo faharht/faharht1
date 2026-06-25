@@ -166,6 +166,7 @@ function ProfilePage() {
   async function handleSignOut() {
     await supabase.auth.signOut();
     queryClient.setQueryData(["sessionUser"], null);
+    useTrainerStore.getState().reset();
   }
 
 

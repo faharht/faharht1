@@ -42,6 +42,7 @@ interface TrainerState {
   startChallenge: (goal: ChallengeGoal) => void;
   resetChallengeWithNewGoal: (goal: ChallengeGoal) => void;
   tickDay: () => void;
+  reset: () => void;
 }
 
 const defaultSettings: TrainerSettings = {
@@ -131,6 +132,19 @@ export const useTrainerStore = create<TrainerState>()(
           }
           return { dayCounter: s.dayCounter + 1, currentStreak };
         }),
+      reset: () =>
+        set(() => ({
+          settings: defaultSettings,
+          progress: {},
+          favorites: {},
+          dailyGoal: 100,
+          dailyHistory: {},
+          currentStreak: 0,
+          longestStreak: 0,
+          lastActiveDate: null,
+          challenge: null,
+          badges: {},
+        })),
       toggleFavorite: (sentenceId) =>
         set((s) => {
           const next = { ...s.favorites };
