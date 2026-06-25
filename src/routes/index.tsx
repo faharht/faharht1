@@ -77,6 +77,12 @@ function HomePage() {
               description="Themed sentence collections"
               onClick={() => setView("sets")}
             />
+            <MenuLinkCard
+              icon={Sparkles}
+              title="My sets"
+              description="Create your own sets — any language → Russian"
+              to="/custom"
+            />
           </div>
         )}
 
