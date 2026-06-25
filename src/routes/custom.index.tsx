@@ -29,7 +29,7 @@ import {
 
 export const Route = createFileRoute("/custom/")({
   head: () => ({
-    meta: [{ title: "My sets — Russian Sentence Trainer" }],
+    meta: [{ title: "My sets — RussianFlow" }],
   }),
   component: CustomIndex,
 });

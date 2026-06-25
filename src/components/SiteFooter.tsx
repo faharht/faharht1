@@ -12,7 +12,7 @@ export function SiteFooter() {
         <span aria-hidden>·</span>
         <Link to="/legal/privacy" className="hover:text-blue-600 hover:underline">Privacy</Link>
       </nav>
-      <p className="mt-3">© {new Date().getFullYear()} RussianLingua</p>
+      <p className="mt-3">© {new Date().getFullYear()} RussianFlow</p>
     </footer>
   );
 }

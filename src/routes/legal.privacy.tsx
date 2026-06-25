@@ -3,10 +3,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/legal/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Notice — RussianLingua" },
-      { name: "description", content: "How RussianLingua collects, uses, and protects your personal data." },
-      { property: "og:title", content: "Privacy Notice — RussianLingua" },
-      { property: "og:description", content: "Privacy practices for the RussianLingua learning app." },
+      { title: "Privacy Notice — RussianFlow" },
+      { name: "description", content: "How RussianFlow collects, uses, and protects your personal data." },
+      { property: "og:title", content: "Privacy Notice — RussianFlow" },
+      { property: "og:description", content: "Privacy practices for the RussianFlow learning app." },
     ],
   }),
   component: PrivacyPage,
@@ -22,9 +22,9 @@ function PrivacyPage() {
 
         <div className="prose prose-sm mt-6 space-y-5 text-sm leading-6">
           <p>
-            This Privacy Notice explains how <strong>RussianLingua</strong> ("we", "us", "our")
+            This Privacy Notice explains how <strong>RussianFlow</strong> ("we", "us", "our")
             collects, uses, and shares personal data when you use our application and website
-            (the "Service"). RussianLingua acts as the <strong>data controller</strong> for the
+            (the "Service"). RussianFlow acts as the <strong>data controller</strong> for the
             personal data described below.
           </p>
 
@@ -102,7 +102,7 @@ function PrivacyPage() {
 
           <h2 className="text-base font-semibold text-slate-900">10. Contact</h2>
           <p>
-            For privacy questions or requests, contact RussianLingua through the in-app
+            For privacy questions or requests, contact RussianFlow through the in-app
             Suggestions feature on your Profile page.
           </p>
 

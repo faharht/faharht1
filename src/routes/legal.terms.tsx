@@ -3,10 +3,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/legal/terms")({
   head: () => ({
     meta: [
-      { title: "Terms & Conditions — RussianLingua" },
-      { name: "description", content: "Terms and Conditions for using RussianLingua." },
-      { property: "og:title", content: "Terms & Conditions — RussianLingua" },
-      { property: "og:description", content: "The terms governing use of RussianLingua." },
+      { title: "Terms & Conditions — RussianFlow" },
+      { name: "description", content: "Terms and Conditions for using RussianFlow." },
+      { property: "og:title", content: "Terms & Conditions — RussianFlow" },
+      { property: "og:description", content: "The terms governing use of RussianFlow." },
     ],
   }),
   component: TermsPage,
@@ -22,15 +22,15 @@ function TermsPage() {
 
         <div className="prose prose-sm mt-6 space-y-5 text-sm leading-6">
           <p>
-            These Terms & Conditions ("Terms") govern your access to and use of the RussianLingua
-            application and website (the "Service"), operated by <strong>RussianLingua</strong>
+            These Terms & Conditions ("Terms") govern your access to and use of the RussianFlow
+            application and website (the "Service"), operated by <strong>RussianFlow</strong>
             ("we", "us", "our"). By creating an account or otherwise using the Service you agree
             to these Terms.
           </p>
 
           <h2 className="text-base font-semibold text-slate-900">1. The Service</h2>
           <p>
-            RussianLingua provides language-learning content, including sentence sets, audio,
+            RussianFlow provides language-learning content, including sentence sets, audio,
             transliterations, grammar notes, and tools to create custom sets. We may modify or
             discontinue features at any time.
           </p>
@@ -54,7 +54,7 @@ function TermsPage() {
           <h2 className="text-base font-semibold text-slate-900">4. Intellectual property</h2>
           <p>
             All software, content, branding, and materials that make up the Service remain the
-            property of RussianLingua or its licensors. You receive a limited, non-exclusive,
+            property of RussianFlow or its licensors. You receive a limited, non-exclusive,
             non-transferable right to use the Service for personal learning within your plan.
           </p>
 
@@ -119,7 +119,7 @@ function TermsPage() {
 
           <h2 className="text-base font-semibold text-slate-900">12. Contact</h2>
           <p>
-            Questions about these Terms? Contact RussianLingua through the in-app Suggestions
+            Questions about these Terms? Contact RussianFlow through the in-app Suggestions
             feature on your Profile page.
           </p>
         </div>

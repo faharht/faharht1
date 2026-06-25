@@ -29,7 +29,7 @@ export const Route = createFileRoute("/profile")({
   ssr: false,
   head: () => ({
     meta: [
-      { title: "Profile — Russian Sentence Trainer" },
+      { title: "Profile — RussianFlow" },
       {
         name: "description",
         content: "Your practice stats and account. Sign in to save progress across devices.",

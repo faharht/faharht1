@@ -14,7 +14,7 @@ export const Route = createFileRoute("/auth")({
   }),
   head: () => ({
     meta: [
-      { title: "Sign in — Russian Sentence Trainer" },
+      { title: "Sign in — RussianFlow" },
       {
         name: "description",
         content: "Sign in or create an account to save your Russian practice progress.",

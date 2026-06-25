@@ -16,7 +16,7 @@ import { listIdForCustomSet } from "@/lib/trainer/sentences";
 
 export const Route = createFileRoute("/custom/$setId")({
   head: () => ({
-    meta: [{ title: "Edit set — Russian Sentence Trainer" }],
+    meta: [{ title: "Edit set — RussianFlow" }],
   }),
   component: SetEditor,
 });

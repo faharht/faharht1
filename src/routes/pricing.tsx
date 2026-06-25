@@ -12,7 +12,7 @@ export const Route = createFileRoute("/pricing")({
   ssr: false,
   head: () => ({
     meta: [
-      { title: "Pricing — Russian Sentence Trainer" },
+      { title: "Pricing — RussianFlow" },
       { name: "description", content: "Go Pro for unlimited custom sets and sentences." },
     ],
   }),

@@ -16,9 +16,9 @@ import { StreakStrip } from "@/components/StreakStrip";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Russian Sentence Trainer" },
+      { title: "RussianFlow" },
       { name: "description", content: "Learn Russian one sentence at a time — A1 through B2 with audio, transliteration, and stress marks." },
-      { property: "og:title", content: "Russian Sentence Trainer" },
+      { property: "og:title", content: "RussianFlow" },
       { property: "og:description", content: "Curated Russian sentences with audio, transliteration, and stress marks. A1–B2." },
     ],
   }),
@@ -82,12 +82,6 @@ function HomePage() {
               title="My sets"
               description="Create your own sets — any language → Russian"
               to="/custom"
-            />
-            <MenuLinkCard
-              icon={Crown}
-              title="Pricing"
-              description="Go Pro — unlimited custom sets & sentences"
-              to="/pricing"
             />
           </div>
         )}
