@@ -14,6 +14,7 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { BottomNav } from "../components/BottomNav";
 import { CloudSync } from "../hooks/useCloudSync";
 import { PaymentTestModeBanner } from "../components/PaymentTestModeBanner";
+import { SiteFooter } from "../components/SiteFooter";
 
 
 
@@ -134,6 +135,7 @@ function RootComponent() {
       <PaymentTestModeBanner />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+      <SiteFooter />
       <BottomNav />
     </QueryClientProvider>
 
