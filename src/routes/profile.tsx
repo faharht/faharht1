@@ -23,6 +23,8 @@ import { UserSuggestions } from "@/components/Suggestions";
 import { AvatarUploader } from "@/components/AvatarUploader";
 import { sessionUserQueryOptions, profileQueryOptions } from "@/lib/userQueries";
 import { useSubscription } from "@/hooks/useSubscription";
+import { toast } from "sonner";
+import { Crown, CreditCard } from "lucide-react";
 
 
 export const Route = createFileRoute("/profile")({
