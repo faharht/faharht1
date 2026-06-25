@@ -54,6 +54,11 @@ export function mergeTrainerState(local: TrainerState, cloud: any): Partial<Trai
 
   merged.longestStreak = Math.max(local.longestStreak || 0, cloud.longestStreak || 0);
 
+  // Daily goal — prefer cloud value when set
+  if (typeof cloud.dailyGoal === "number" && cloud.dailyGoal > 0) {
+    merged.dailyGoal = cloud.dailyGoal;
+  }
+
   // Settings
   if (cloud.settings) {
     merged.settings = { ...local.settings, ...cloud.settings };
