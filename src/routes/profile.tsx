@@ -164,6 +164,13 @@ function ProfilePage() {
   const rankProgress = getProgressToNext(stats.reps);
 
   async function handleSignOut() {
+    // Flush any pending trainer-state push synchronously before the session is dropped,
+    // so progress saved seconds before logout isn't lost.
+    const { flushCloudPush } = await import("@/lib/trainer/sync");
+    const user = queryClient.getQueryData<{ id: string } | null>(["sessionUser"]);
+    if (user?.id) {
+      await flushCloudPush(useTrainerStore.getState(), user.id);
+    }
     await supabase.auth.signOut();
     queryClient.setQueryData(["sessionUser"], null);
   }

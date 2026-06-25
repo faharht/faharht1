@@ -54,6 +54,11 @@ export function mergeTrainerState(local: TrainerState, cloud: any): Partial<Trai
 
   merged.longestStreak = Math.max(local.longestStreak || 0, cloud.longestStreak || 0);
 
+  // Daily goal — prefer cloud value when set
+  if (typeof cloud.dailyGoal === "number" && cloud.dailyGoal > 0) {
+    merged.dailyGoal = cloud.dailyGoal;
+  }
+
   // Settings
   if (cloud.settings) {
     merged.settings = { ...local.settings, ...cloud.settings };
@@ -82,31 +87,38 @@ export function mergeTrainerState(local: TrainerState, cloud: any): Partial<Trai
 
 let syncTimeout: NodeJS.Timeout | null = null;
 
+function buildPayload(state: TrainerState) {
+  return {
+    settings: state.settings,
+    progress: state.progress,
+    favorites: state.favorites,
+    dailyGoal: state.dailyGoal,
+    dailyHistory: state.dailyHistory,
+    currentStreak: state.currentStreak,
+    longestStreak: state.longestStreak,
+    lastActiveDate: state.lastActiveDate,
+    challenge: state.challenge,
+    badges: state.badges,
+  };
+}
+
 export function pushToCloud(state: TrainerState, userId: string) {
   if (syncTimeout) clearTimeout(syncTimeout);
-  
   syncTimeout = setTimeout(async () => {
-    // Only save the state we care about
-    const payload = {
-      settings: state.settings,
-      progress: state.progress,
-      favorites: state.favorites,
-      dailyGoal: state.dailyGoal,
-      dailyHistory: state.dailyHistory,
-      currentStreak: state.currentStreak,
-      longestStreak: state.longestStreak,
-      lastActiveDate: state.lastActiveDate,
-      challenge: state.challenge,
-      badges: state.badges,
-    };
-
     try {
-      await supabase
-        .from("profiles")
-        .update({ trainer_state: payload as any })
-        .eq("id", userId);
+      await supabase.from("profiles").update({ trainer_state: buildPayload(state) as any }).eq("id", userId);
     } catch (err) {
       console.error("Failed to sync trainer state to cloud", err);
     }
-  }, 2000); // 2 second debounce
+  }, 2000);
 }
+
+export async function flushCloudPush(state: TrainerState, userId: string) {
+  if (syncTimeout) { clearTimeout(syncTimeout); syncTimeout = null; }
+  try {
+    await supabase.from("profiles").update({ trainer_state: buildPayload(state) as any }).eq("id", userId);
+  } catch (err) {
+    console.error("Failed to flush trainer state to cloud", err);
+  }
+}
+
