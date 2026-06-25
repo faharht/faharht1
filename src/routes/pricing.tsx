@@ -85,7 +85,7 @@ function PricingPage() {
           <Button
             className="mt-4 w-full"
             onClick={() => handleCheckout("monthly")}
-            disabled={usage.data?.isPro}
+            disabled={usage.data?.isPro || loading}
           >
             {usage.data?.isPro ? "Active" : "Choose monthly"}
           </Button>
@@ -107,7 +107,7 @@ function PricingPage() {
             variant="secondary"
             className="mt-4 w-full bg-white text-orange-700 hover:bg-white/90"
             onClick={() => handleCheckout("yearly")}
-            disabled={usage.data?.isPro}
+            disabled={usage.data?.isPro || loading}
           >
             {usage.data?.isPro ? "Active" : "Choose yearly"}
           </Button>
