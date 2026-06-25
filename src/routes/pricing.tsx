@@ -60,9 +60,17 @@ function PricingPage() {
     <div className="min-h-screen bg-slate-50 pb-20">
       <header className="rounded-b-[2rem] bg-gradient-to-br from-indigo-500 via-blue-600 to-indigo-700 px-4 pb-10 pt-6 text-white shadow-lg">
         <div className="mx-auto flex max-w-2xl items-center gap-2">
-          <Link to="/custom" className="grid h-10 w-10 place-items-center rounded-full bg-white/20">
+          <button
+            type="button"
+            onClick={() => {
+              if (window.history.length > 1) router.history.back();
+              else router.navigate({ to: "/" });
+            }}
+            className="grid h-10 w-10 place-items-center rounded-full bg-white/20"
+            aria-label="Back"
+          >
             <ArrowLeft className="h-4 w-4" />
-          </Link>
+          </button>
           <div>
             <div className="text-xs uppercase tracking-wider text-white/70">Upgrade</div>
             <h1 className="text-xl font-bold">Russian Trainer Pro</h1>
