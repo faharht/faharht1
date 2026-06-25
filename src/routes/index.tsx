@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import {
   BANDS,
   SENTENCE_SETS,
@@ -12,6 +13,25 @@ import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
 import { StreakStrip } from "@/components/StreakStrip";
+import { supabase } from "@/integrations/supabase/client";
+
+function useSentenceCounts() {
+  return useQuery({
+    queryKey: ["sentence-counts"],
+    staleTime: 1000 * 60 * 60,
+    queryFn: async () => {
+      const { data, error } = await supabase.from("sentences").select("list_id");
+      if (error) throw error;
+      const counts: Record<string, number> = {};
+      for (const row of data ?? []) {
+        const id = (row as { list_id: string }).list_id;
+        counts[id] = (counts[id] ?? 0) + 1;
+      }
+      return counts;
+    },
+  });
+}
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
