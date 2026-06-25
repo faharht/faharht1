@@ -21,6 +21,7 @@ export const Route = createFileRoute("/pricing")({
 });
 
 function PricingPage() {
+  const router = useRouter();
   const usageFn = useServerFn(getMyUsage);
   const usage = useQuery({ queryKey: ["customUsage"], queryFn: () => usageFn() });
   const { data: user = null } = useQuery(sessionUserQueryOptions);
