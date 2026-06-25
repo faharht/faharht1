@@ -157,24 +157,52 @@ export function AvatarUploader({
   return (
     <div className="flex items-center gap-3">
       <div className="relative">
-        <div className="grid h-14 w-14 place-items-center overflow-hidden rounded-full bg-violet-100 text-lg font-semibold text-violet-700">
-          {signedUrl ? (
-            <img src={signedUrl} alt="Profile picture" className="h-full w-full object-cover" />
-          ) : (
-            fallbackChar.toUpperCase()
-          )}
-          {busy && (
-            <div className="absolute inset-0 grid place-items-center rounded-full bg-black/40">
-              <Loader2 className="h-5 w-5 animate-spin text-white" />
-            </div>
-          )}
+        <div
+          className={
+            isPro
+              ? "rounded-full bg-gradient-to-tr from-amber-400 via-orange-500 to-pink-500 p-[2px] shadow-lg"
+              : ""
+          }
+        >
+          <div
+            className={
+              "relative grid h-14 w-14 place-items-center overflow-hidden rounded-full text-lg font-semibold " +
+              (isPro
+                ? "bg-white text-orange-600 ring-2 ring-white"
+                : "bg-violet-100 text-violet-700")
+            }
+          >
+            {signedUrl ? (
+              <img src={signedUrl} alt="Profile picture" className="h-full w-full object-cover" />
+            ) : (
+              fallbackChar.toUpperCase()
+            )}
+            {busy && (
+              <div className="absolute inset-0 grid place-items-center rounded-full bg-black/40">
+                <Loader2 className="h-5 w-5 animate-spin text-white" />
+              </div>
+            )}
+          </div>
         </div>
+        {isPro && (
+          <span className="absolute -bottom-1 -right-1 grid h-6 w-6 place-items-center rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-white shadow-md ring-2 ring-white">
+            <Crown className="h-3.5 w-3.5" />
+          </span>
+        )}
       </div>
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-1.5">
-          <div className="truncate text-sm font-semibold text-foreground">
+          <div
+            className={
+              "truncate text-sm font-semibold " +
+              (isPro
+                ? "bg-gradient-to-r from-amber-500 via-orange-500 to-pink-500 bg-clip-text text-transparent"
+                : "text-foreground")
+            }
+          >
             {displayName?.trim() || defaultUsernameFromEmail(email) || "Set a username"}
           </div>
+          {isPro && <ProBadge />}
           <button
             type="button"
             onClick={openEdit}
@@ -185,6 +213,8 @@ export function AvatarUploader({
           </button>
         </div>
       </div>
+
+
 
       <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
         <DialogContent className="sm:max-w-md">
