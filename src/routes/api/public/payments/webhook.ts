@@ -14,23 +14,39 @@ function getSupabase() {
   return _supabase;
 }
 
-
 /* eslint-disable @typescript-eslint/no-explicit-any */
+async function logEvent(userId: string | null, paddleSubId: string | null, type: string, payload: any) {
+  try {
+    await getSupabase().from("subscription_events").insert({
+      user_id: userId,
+      paddle_subscription_id: paddleSubId,
+      event_type: type,
+      payload,
+    });
+  } catch (e) {
+    console.error("logEvent failed", e);
+  }
+}
+
 async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
   const { id, customerId, items, status, currentBillingPeriod, customData } = data;
   const userId = customData?.userId;
   if (!userId) {
-    console.error("No userId in customData");
+    console.error("No userId in customData for subscription", id);
+    await logEvent(null, id, "subscription.created.missing_user", data);
     return;
   }
   const item = items?.[0];
-  const priceId = item?.price?.importMeta?.externalId;
-  const productId = item?.product?.importMeta?.externalId;
-  if (!priceId || !productId) {
-    console.warn("Skipping subscription: missing importMeta.externalId");
-    return;
+  // Prefer human-readable IDs from importMeta; fall back to raw IDs so the
+  // user still gets Pro even if the product/price wasn't imported via the
+  // create_product / create_price tools.
+  const priceId = item?.price?.importMeta?.externalId ?? item?.price?.id ?? "unknown";
+  const productId = item?.product?.importMeta?.externalId ?? item?.product?.id ?? "unknown";
+  if (!item?.price?.importMeta?.externalId) {
+    console.warn("subscription.created: missing importMeta.externalId, using raw id", { priceId, productId });
   }
-  await getSupabase().from("subscriptions").upsert(
+
+  const { error } = await getSupabase().from("subscriptions").upsert(
     {
       user_id: userId,
       paddle_subscription_id: id,
@@ -45,11 +61,13 @@ async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
     },
     { onConflict: "paddle_subscription_id" },
   );
+  if (error) console.error("subscription upsert failed", error);
+  await logEvent(userId, id, "subscription.created", { status, priceId, productId, env });
 }
 
 async function handleSubscriptionUpdated(data: any, env: PaddleEnv) {
   const { id, status, currentBillingPeriod, scheduledChange } = data;
-  await getSupabase()
+  const { data: row } = await getSupabase()
     .from("subscriptions")
     .update({
       status,
@@ -59,15 +77,21 @@ async function handleSubscriptionUpdated(data: any, env: PaddleEnv) {
       updated_at: new Date().toISOString(),
     })
     .eq("paddle_subscription_id", id)
-    .eq("environment", env);
+    .eq("environment", env)
+    .select("user_id")
+    .maybeSingle();
+  await logEvent(row?.user_id ?? null, id, "subscription.updated", { status, scheduledChange });
 }
 
 async function handleSubscriptionCanceled(data: any, env: PaddleEnv) {
-  await getSupabase()
+  const { data: row } = await getSupabase()
     .from("subscriptions")
     .update({ status: "canceled", updated_at: new Date().toISOString() })
     .eq("paddle_subscription_id", data.id)
-    .eq("environment", env);
+    .eq("environment", env)
+    .select("user_id")
+    .maybeSingle();
+  await logEvent(row?.user_id ?? null, data.id, "subscription.canceled", {});
 }
 
 async function handleWebhook(req: Request, env: PaddleEnv) {
