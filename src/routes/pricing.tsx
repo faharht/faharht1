@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { usePaddleCheckout } from "@/hooks/usePaddleCheckout";
 import { sessionUserQueryOptions } from "@/lib/userQueries";
+import { useSubscription } from "@/hooks/useSubscription";
 
 export const Route = createFileRoute("/pricing")({
   ssr: false,
@@ -23,7 +24,10 @@ function PricingPage() {
   const usageFn = useServerFn(getMyUsage);
   const usage = useQuery({ queryKey: ["customUsage"], queryFn: () => usageFn() });
   const { data: user = null } = useQuery(sessionUserQueryOptions);
+  const sub = useSubscription(user?.id ?? null);
   const { openCheckout, loading } = usePaddleCheckout();
+  const activePriceId = sub.data?.subscription?.price_id ?? null;
+  const isPro = !!sub.data?.isPro;
 
   const handleCheckout = async (plan: "monthly" | "yearly") => {
     if (!user) {
@@ -41,6 +45,7 @@ function PricingPage() {
       toast.error(e instanceof Error ? e.message : "Could not open checkout");
     }
   };
+
 
 
   const features = [
