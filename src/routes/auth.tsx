@@ -9,8 +9,9 @@ import { useT } from "@/lib/i18n/useT";
 type Mode = "signin" | "signup";
 
 export const Route = createFileRoute("/auth")({
-  validateSearch: (s: Record<string, unknown>): { mode: Mode } => ({
+  validateSearch: (s: Record<string, unknown>): { mode: Mode; redirectTo?: string } => ({
     mode: s.mode === "signup" ? "signup" : "signin",
+    redirectTo: typeof s.redirectTo === "string" && s.redirectTo.startsWith("/") ? s.redirectTo : undefined,
   }),
   head: () => ({
     meta: [
@@ -26,22 +27,30 @@ export const Route = createFileRoute("/auth")({
 
 function AuthPage() {
   const { t } = useT();
-  const { mode } = Route.useSearch();
+  const { mode, redirectTo } = Route.useSearch();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [info, setInfo] = useState<string | null>(null);
+  const [forgotEmail, setForgotEmail] = useState("");
+  const [forgotState, setForgotState] = useState<"idle" | "sending" | "sent">("idle");
+  const [showForgot, setShowForgot] = useState(false);
+
+  // Where to land after a successful sign-in. OAuth always goes through
+  // /onboarding (consistent first-run experience); email sign-in honors
+  // ?redirectTo= so deep links don't get lost.
+  const postAuthPath = redirectTo ?? "/profile";
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
-      if (data.user) navigate({ to: "/profile" });
+      if (data.user) navigate({ to: postAuthPath });
     });
-  }, [navigate]);
+  }, [navigate, postAuthPath]);
 
   function setMode(next: Mode) {
-    navigate({ to: "/auth", search: { mode: next }, replace: true });
+    navigate({ to: "/auth", search: { mode: next, redirectTo }, replace: true });
     setError(null);
     setInfo(null);
   }
@@ -67,7 +76,7 @@ function AuthPage() {
       } else {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
-        navigate({ to: "/profile" });
+        navigate({ to: postAuthPath });
       }
     } catch (err) {
       setError(err instanceof Error ? err.message : t("auth.genericFail"));
@@ -76,12 +85,22 @@ function AuthPage() {
     }
   }
 
+  async function handleForgot(e: React.FormEvent) {
+    e.preventDefault();
+    setForgotState("sending");
+    await supabase.auth.resetPasswordForEmail(forgotEmail || email, {
+      redirectTo: window.location.origin + "/reset-password",
+    });
+    setForgotState("sent");
+  }
+
   async function handleOAuth(provider: "google" | "apple") {
     setBusy(true);
     setError(null);
     try {
+      // OAuth lands on /onboarding for parity with email signup.
       const result = await lovable.auth.signInWithOAuth(provider, {
-        redirect_uri: window.location.origin + "/profile",
+        redirect_uri: window.location.origin + "/onboarding",
       });
       if (result.error) {
         setError(
@@ -90,7 +109,7 @@ function AuthPage() {
         return;
       }
       if (result.redirected) return;
-      navigate({ to: "/profile" });
+      navigate({ to: "/onboarding" });
     } finally {
       setBusy(false);
     }
