@@ -14,6 +14,10 @@ export function useCloudSync() {
   useEffect(() => {
     if (!user?.id) {
       isInitialSyncDone.current = false;
+      if (lastUserId.current !== null) {
+        // Transitioned from logged-in to logged-out
+        useTrainerStore.getState().reset();
+      }
       lastUserId.current = null;
       return;
     }
