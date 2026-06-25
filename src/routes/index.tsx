@@ -225,9 +225,19 @@ const SET_DOT: Record<NonNullable<ListMeta["tone"]>, string> = {
   rose: "bg-rose-500",
 };
 
+function CountBadge({ n }: { n: number | undefined }) {
+  if (!n) return null;
+  return (
+    <span className="rounded-full bg-blue-50 px-2 py-0.5 text-[10px] font-semibold text-blue-700">
+      {n} sentences
+    </span>
+  );
+}
+
 function SetCard({ set }: { set: ListMeta }) {
   const Icon = set.icon ?? ListChecks;
   const dot = SET_DOT[set.tone ?? "sky"];
+  const { data: counts } = useSentenceCounts();
   return (
     <Link
       to="/list/$listId"
@@ -239,7 +249,10 @@ function SetCard({ set }: { set: ListMeta }) {
           <Icon className="h-4 w-4" />
         </span>
         <div className="min-w-0 flex-1">
-          <div className="truncate text-sm font-bold text-slate-900">{set.title}</div>
+          <div className="flex items-center gap-2">
+            <div className="truncate text-sm font-bold text-slate-900">{set.title}</div>
+            <CountBadge n={counts?.[set.id]} />
+          </div>
           <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{set.description}</p>
         </div>
         <ChevronRight className="h-4 w-4 text-slate-300" />
@@ -250,6 +263,7 @@ function SetCard({ set }: { set: ListMeta }) {
 
 function ExtraCard({ extra }: { extra: ListMeta }) {
   const { t } = useT();
+  const { data: counts } = useSentenceCounts();
   return (
     <Link
       to="/list/$listId"
@@ -261,8 +275,11 @@ function ExtraCard({ extra }: { extra: ListMeta }) {
           <BookOpen className="h-4 w-4" />
         </span>
         <div className="min-w-0 flex-1">
-          <div className="truncate text-sm font-bold text-slate-900">
-            {t(extra.titleKey, extra.titleVars)}
+          <div className="flex items-center gap-2">
+            <div className="truncate text-sm font-bold text-slate-900">
+              {t(extra.titleKey, extra.titleVars)}
+            </div>
+            <CountBadge n={counts?.[extra.id]} />
           </div>
           <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{t(extra.descriptionKey)}</p>
         </div>
@@ -271,6 +288,7 @@ function ExtraCard({ extra }: { extra: ListMeta }) {
     </Link>
   );
 }
+
 
 const LEVEL_OPEN_STORAGE_KEY = "trainer.levelOpen.v1";
 
