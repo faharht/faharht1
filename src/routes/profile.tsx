@@ -52,7 +52,10 @@ function ProfilePage() {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
   const { data: user = null, isLoading: loading } = useQuery(sessionUserQueryOptions);
+  const { data: sub } = useSubscription(user?.id ?? null);
+  const isPro = !!sub?.isPro;
   const [goalDialog, setGoalDialog] = useState(false);
+
 
 
   const progress = useTrainerStore((s) => s.progress);
