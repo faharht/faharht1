@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles } from "lucide-react";
+import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   BANDS,
@@ -82,6 +82,12 @@ function HomePage() {
               title="My sets"
               description="Create your own sets — any language → Russian"
               to="/custom"
+            />
+            <MenuLinkCard
+              icon={Crown}
+              title="Pricing"
+              description="Go Pro — unlimited custom sets & sentences"
+              to="/pricing"
             />
           </div>
         )}
@@ -177,7 +183,7 @@ function MenuLinkCard({
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
-  to: "/custom";
+  to: "/custom" | "/pricing";
 }) {
   return (
     <Link

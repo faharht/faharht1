@@ -20,6 +20,9 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as CustomIndexRouteImport } from './routes/custom.index'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as ListListIdRouteImport } from './routes/list.$listId'
+import { Route as LegalTermsRouteImport } from './routes/legal.terms'
+import { Route as LegalRefundRouteImport } from './routes/legal.refund'
+import { Route as LegalPrivacyRouteImport } from './routes/legal.privacy'
 import { Route as CustomSetIdRouteImport } from './routes/custom.$setId'
 import { Route as AdminSentencesRouteImport } from './routes/admin.sentences'
 import { Route as ApiPublicPaymentsWebhookRouteImport } from './routes/api/public/payments/webhook'
@@ -79,6 +82,21 @@ const ListListIdRoute = ListListIdRouteImport.update({
   path: '/list/$listId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LegalTermsRoute = LegalTermsRouteImport.update({
+  id: '/legal/terms',
+  path: '/legal/terms',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LegalRefundRoute = LegalRefundRouteImport.update({
+  id: '/legal/refund',
+  path: '/legal/refund',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LegalPrivacyRoute = LegalPrivacyRouteImport.update({
+  id: '/legal/privacy',
+  path: '/legal/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CustomSetIdRoute = CustomSetIdRouteImport.update({
   id: '/$setId',
   path: '/$setId',
@@ -107,6 +125,9 @@ export interface FileRoutesByFullPath {
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/custom/$setId': typeof CustomSetIdRoute
+  '/legal/privacy': typeof LegalPrivacyRoute
+  '/legal/refund': typeof LegalRefundRoute
+  '/legal/terms': typeof LegalTermsRoute
   '/list/$listId': typeof ListListIdRoute
   '/admin/': typeof AdminIndexRoute
   '/custom/': typeof CustomIndexRoute
@@ -121,6 +142,9 @@ export interface FileRoutesByTo {
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/custom/$setId': typeof CustomSetIdRoute
+  '/legal/privacy': typeof LegalPrivacyRoute
+  '/legal/refund': typeof LegalRefundRoute
+  '/legal/terms': typeof LegalTermsRoute
   '/list/$listId': typeof ListListIdRoute
   '/admin': typeof AdminIndexRoute
   '/custom': typeof CustomIndexRoute
@@ -138,6 +162,9 @@ export interface FileRoutesById {
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/custom/$setId': typeof CustomSetIdRoute
+  '/legal/privacy': typeof LegalPrivacyRoute
+  '/legal/refund': typeof LegalRefundRoute
+  '/legal/terms': typeof LegalTermsRoute
   '/list/$listId': typeof ListListIdRoute
   '/admin/': typeof AdminIndexRoute
   '/custom/': typeof CustomIndexRoute
@@ -156,6 +183,9 @@ export interface FileRouteTypes {
     | '/utilities'
     | '/admin/sentences'
     | '/custom/$setId'
+    | '/legal/privacy'
+    | '/legal/refund'
+    | '/legal/terms'
     | '/list/$listId'
     | '/admin/'
     | '/custom/'
@@ -170,6 +200,9 @@ export interface FileRouteTypes {
     | '/utilities'
     | '/admin/sentences'
     | '/custom/$setId'
+    | '/legal/privacy'
+    | '/legal/refund'
+    | '/legal/terms'
     | '/list/$listId'
     | '/admin'
     | '/custom'
@@ -186,6 +219,9 @@ export interface FileRouteTypes {
     | '/utilities'
     | '/admin/sentences'
     | '/custom/$setId'
+    | '/legal/privacy'
+    | '/legal/refund'
+    | '/legal/terms'
     | '/list/$listId'
     | '/admin/'
     | '/custom/'
@@ -201,6 +237,9 @@ export interface RootRouteChildren {
   PricingRoute: typeof PricingRoute
   ProfileRoute: typeof ProfileRoute
   UtilitiesRoute: typeof UtilitiesRoute
+  LegalPrivacyRoute: typeof LegalPrivacyRoute
+  LegalRefundRoute: typeof LegalRefundRoute
+  LegalTermsRoute: typeof LegalTermsRoute
   ListListIdRoute: typeof ListListIdRoute
   ApiPublicPaymentsWebhookRoute: typeof ApiPublicPaymentsWebhookRoute
 }
@@ -284,6 +323,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ListListIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/legal/terms': {
+      id: '/legal/terms'
+      path: '/legal/terms'
+      fullPath: '/legal/terms'
+      preLoaderRoute: typeof LegalTermsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/legal/refund': {
+      id: '/legal/refund'
+      path: '/legal/refund'
+      fullPath: '/legal/refund'
+      preLoaderRoute: typeof LegalRefundRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/legal/privacy': {
+      id: '/legal/privacy'
+      path: '/legal/privacy'
+      fullPath: '/legal/privacy'
+      preLoaderRoute: typeof LegalPrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/custom/$setId': {
       id: '/custom/$setId'
       path: '/$setId'
@@ -342,6 +402,9 @@ const rootRouteChildren: RootRouteChildren = {
   PricingRoute: PricingRoute,
   ProfileRoute: ProfileRoute,
   UtilitiesRoute: UtilitiesRoute,
+  LegalPrivacyRoute: LegalPrivacyRoute,
+  LegalRefundRoute: LegalRefundRoute,
+  LegalTermsRoute: LegalTermsRoute,
   ListListIdRoute: ListListIdRoute,
   ApiPublicPaymentsWebhookRoute: ApiPublicPaymentsWebhookRoute,
 }
