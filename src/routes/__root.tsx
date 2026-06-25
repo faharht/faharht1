@@ -13,6 +13,8 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { BottomNav } from "../components/BottomNav";
 import { CloudSync } from "../hooks/useCloudSync";
+import { PaymentTestModeBanner } from "../components/PaymentTestModeBanner";
+
 
 
 import { useT } from "../lib/i18n/useT";
