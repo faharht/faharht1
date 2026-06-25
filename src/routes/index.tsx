@@ -83,12 +83,6 @@ function HomePage() {
               description="Create your own sets — any language → Russian"
               to="/custom"
             />
-            <MenuLinkCard
-              icon={Crown}
-              title="Pricing"
-              description="Go Pro — unlimited custom sets & sentences"
-              to="/pricing"
-            />
           </div>
         )}
 
