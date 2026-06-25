@@ -300,6 +300,79 @@ function ProfilePage() {
           )}
         </section>
 
+        {/* Billing card — only for users with a subscription record */}
+        {user && subscription && (
+          <section className="mt-5 rounded-2xl border border-border/70 bg-card p-4 shadow-sm">
+            <div className="flex items-start gap-3">
+              <div className={cn("grid h-9 w-9 place-items-center rounded-lg", isPro ? "bg-amber-100 text-amber-700" : "bg-muted text-muted-foreground")}>
+                <Crown className="h-5 w-5" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-2">
+                  <span className="text-sm font-semibold text-foreground">
+                    {isPro ? "RussianFlow Pro" : "Subscription"}
+                  </span>
+                  <span className={cn(
+                    "rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase",
+                    subscription.status === "active" && "bg-emerald-100 text-emerald-700",
+                    subscription.status === "trialing" && "bg-blue-100 text-blue-700",
+                    subscription.status === "past_due" && "bg-rose-100 text-rose-700",
+                    subscription.status === "canceled" && "bg-amber-100 text-amber-700",
+                  )}>
+                    {subscription.status}
+                  </span>
+                </div>
+                <p className="mt-0.5 text-[11px] text-muted-foreground">
+                  {subscription.price_id === "pro_yearly" ? "Yearly plan" : subscription.price_id === "pro_monthly" ? "Monthly plan" : subscription.price_id}
+                  {subscription.current_period_end && (
+                    <> · {subscription.cancel_at_period_end || subscription.status === "canceled" ? "ends" : "renews"} {new Date(subscription.current_period_end).toLocaleDateString()}</>
+                  )}
+                </p>
+                {subscription.status === "past_due" && (
+                  <p className="mt-1 text-[11px] font-semibold text-rose-700">
+                    Payment failed — update your card to keep Pro access.
+                  </p>
+                )}
+                {subscription.cancel_at_period_end && subscription.status !== "canceled" && (
+                  <p className="mt-1 text-[11px] text-amber-700">
+                    Set to cancel at the end of the current period.
+                  </p>
+                )}
+              </div>
+              <button
+                onClick={openBillingPortal}
+                disabled={billingBusy}
+                className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted disabled:opacity-60"
+              >
+                <CreditCard className="h-3.5 w-3.5" />
+                {billingBusy ? "Opening…" : "Manage billing"}
+              </button>
+            </div>
+          </section>
+        )}
+
+        {/* Upgrade card — for free users */}
+        {user && !subscription && (
+          <section className="mt-5 rounded-2xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-4 shadow-sm">
+            <div className="flex items-start gap-3">
+              <div className="grid h-9 w-9 place-items-center rounded-lg bg-amber-100 text-amber-700">
+                <Crown className="h-5 w-5" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="text-sm font-semibold text-foreground">Go Pro</div>
+                <p className="mt-0.5 text-[11px] text-muted-foreground">Unlimited custom sets and translations.</p>
+              </div>
+              <Link
+                to="/pricing"
+                className="inline-flex h-9 shrink-0 items-center rounded-md bg-amber-600 px-3 text-xs font-semibold text-white hover:bg-amber-700"
+              >
+                See plans
+              </Link>
+            </div>
+          </section>
+        )}
+
+
         {/* Pick challenge banner */}
         {!challenge && (
           <section className="mt-5 rounded-2xl border border-primary/40 bg-primary/5 p-4 shadow-sm">
