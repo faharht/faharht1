@@ -22,6 +22,8 @@ import type { StringKey } from "@/lib/i18n/strings";
 import { UserSuggestions } from "@/components/Suggestions";
 import { AvatarUploader } from "@/components/AvatarUploader";
 import { sessionUserQueryOptions, profileQueryOptions } from "@/lib/userQueries";
+import { useSubscription } from "@/hooks/useSubscription";
+
 
 export const Route = createFileRoute("/profile")({
   ssr: false,
@@ -50,7 +52,10 @@ function ProfilePage() {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
   const { data: user = null, isLoading: loading } = useQuery(sessionUserQueryOptions);
+  const { data: sub } = useSubscription(user?.id ?? null);
+  const isPro = !!sub?.isPro;
   const [goalDialog, setGoalDialog] = useState(false);
+
 
 
   const progress = useTrainerStore((s) => s.progress);
@@ -197,7 +202,7 @@ function ProfilePage() {
           ) : user ? (
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <AvatarUploader userId={user.id} email={user.email} fallbackChar={(user.email ?? "?").slice(0, 1)} />
+                <AvatarUploader userId={user.id} email={user.email} fallbackChar={(user.email ?? "?").slice(0, 1)} isPro={isPro} />
                 <button
                   onClick={handleSignOut}
                   className="ml-auto inline-flex h-9 shrink-0 items-center gap-1.5 rounded-md border border-border/60 bg-background px-3 text-xs font-medium text-foreground hover:bg-muted"

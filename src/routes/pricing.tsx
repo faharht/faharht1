@@ -5,6 +5,8 @@ import { useServerFn } from "@tanstack/react-start";
 import { getMyUsage } from "@/lib/customSets.functions";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { usePaddleCheckout } from "@/hooks/usePaddleCheckout";
+import { sessionUserQueryOptions } from "@/lib/userQueries";
 
 export const Route = createFileRoute("/pricing")({
   ssr: false,
@@ -20,13 +22,26 @@ export const Route = createFileRoute("/pricing")({
 function PricingPage() {
   const usageFn = useServerFn(getMyUsage);
   const usage = useQuery({ queryKey: ["customUsage"], queryFn: () => usageFn() });
+  const { data: user = null } = useQuery(sessionUserQueryOptions);
+  const { openCheckout, loading } = usePaddleCheckout();
 
-  const handleCheckout = (plan: "monthly" | "yearly") => {
-    // Checkout is wired once payments are enabled. Until then, surface a clear message.
-    toast.message("Checkout coming soon", {
-      description: `Pro ${plan} checkout will be available once payments are enabled.`,
-    });
+  const handleCheckout = async (plan: "monthly" | "yearly") => {
+    if (!user) {
+      toast.error("Please sign in to upgrade.");
+      return;
+    }
+    try {
+      await openCheckout({
+        priceId: plan === "monthly" ? "pro_monthly" : "pro_yearly",
+        customerEmail: user.email ?? undefined,
+        customData: { userId: user.id },
+        successUrl: `${window.location.origin}/profile?checkout=success`,
+      });
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Could not open checkout");
+    }
   };
+
 
   const features = [
     "Unlimited custom sets",
@@ -70,7 +85,7 @@ function PricingPage() {
           <Button
             className="mt-4 w-full"
             onClick={() => handleCheckout("monthly")}
-            disabled={usage.data?.isPro}
+            disabled={usage.data?.isPro || loading}
           >
             {usage.data?.isPro ? "Active" : "Choose monthly"}
           </Button>
@@ -92,7 +107,7 @@ function PricingPage() {
             variant="secondary"
             className="mt-4 w-full bg-white text-orange-700 hover:bg-white/90"
             onClick={() => handleCheckout("yearly")}
-            disabled={usage.data?.isPro}
+            disabled={usage.data?.isPro || loading}
           >
             {usage.data?.isPro ? "Active" : "Choose yearly"}
           </Button>
