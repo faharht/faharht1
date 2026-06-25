@@ -57,7 +57,34 @@ function ProfilePage() {
   const { data: user = null, isLoading: loading } = useQuery(sessionUserQueryOptions);
   const { data: sub } = useSubscription(user?.id ?? null);
   const isPro = !!sub?.isPro;
+  const subscription = sub?.subscription ?? null;
+  const search = Route.useSearch();
   const [goalDialog, setGoalDialog] = useState(false);
+  const [billingBusy, setBillingBusy] = useState(false);
+
+  // Show a one-time toast/banner after returning from a successful checkout.
+  useEffect(() => {
+    if (search.checkout === "success") {
+      toast.success("Welcome to Pro! Your subscription is being activated.");
+      // Clear the param so it doesn't re-trigger on navigation.
+      navigate({ to: "/profile", search: {}, replace: true });
+    }
+  }, [search.checkout, navigate]);
+
+  async function openBillingPortal() {
+    setBillingBusy(true);
+    try {
+      const { getCustomerPortalUrl } = await import("@/lib/billing.functions");
+      const res = await getCustomerPortalUrl();
+      const url = res.url ?? res.subscriptionUrl;
+      if (url) window.open(url, "_blank", "noopener,noreferrer");
+      else toast.error("Could not open billing portal");
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Could not open billing portal");
+    } finally {
+      setBillingBusy(false);
+    }
+  }
 
 
 
