@@ -234,6 +234,40 @@ function AuthPage() {
               {busy ? t("common.pleaseWait") : mode === "signup" ? t("auth.create") : t("auth.signIn")}
             </button>
           </form>
+
+          {mode === "signin" && (
+            <div className="mt-3 text-center">
+              {!showForgot ? (
+                <button
+                  type="button"
+                  onClick={() => setShowForgot(true)}
+                  className="text-xs text-primary hover:underline"
+                >
+                  Forgot password?
+                </button>
+              ) : forgotState === "sent" ? (
+                <p className="text-xs text-emerald-700">If an account exists, a reset link is on its way.</p>
+              ) : (
+                <form onSubmit={handleForgot} className="flex gap-2">
+                  <input
+                    type="email"
+                    required
+                    placeholder="Email for reset link"
+                    value={forgotEmail}
+                    onChange={(e) => setForgotEmail(e.target.value)}
+                    className="h-9 flex-1 rounded-md border border-border/60 bg-background px-2 text-xs"
+                  />
+                  <button
+                    type="submit"
+                    disabled={forgotState === "sending"}
+                    className="h-9 rounded-md bg-primary px-3 text-xs font-semibold text-primary-foreground disabled:opacity-60"
+                  >
+                    {forgotState === "sending" ? "…" : "Send"}
+                  </button>
+                </form>
+              )}
+            </div>
+          )}
         </div>
       </main>
     </div>
