@@ -3,10 +3,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/legal/refund")({
   head: () => ({
     meta: [
-      { title: "Refund Policy — RussianLingua" },
-      { name: "description", content: "RussianLingua's 30-day money-back guarantee and how to request a refund." },
-      { property: "og:title", content: "Refund Policy — RussianLingua" },
-      { property: "og:description", content: "30-day money-back guarantee for RussianLingua subscriptions." },
+      { title: "Refund Policy — RussianFlow" },
+      { name: "description", content: "RussianFlow's 30-day money-back guarantee and how to request a refund." },
+      { property: "og:title", content: "Refund Policy — RussianFlow" },
+      { property: "og:description", content: "30-day money-back guarantee for RussianFlow subscriptions." },
     ],
   }),
   component: RefundPage,
@@ -22,14 +22,14 @@ function RefundPage() {
 
         <div className="prose prose-sm mt-6 space-y-5 text-sm leading-6">
           <p>
-            <strong>RussianLingua</strong> offers a <strong>30-day money-back guarantee</strong> on
+            <strong>RussianFlow</strong> offers a <strong>30-day money-back guarantee</strong> on
             all subscription purchases. If you are not satisfied with your subscription, you may
             request a full refund within 30 days of the original purchase date.
           </p>
 
           <h2 className="text-base font-semibold text-slate-900">How to request a refund</h2>
           <p>
-            Payments for RussianLingua are processed by our merchant of record,{" "}
+            Payments for RussianFlow are processed by our merchant of record,{" "}
             <strong>Paddle</strong>. To request a refund:
           </p>
           <ol className="list-decimal pl-5">
