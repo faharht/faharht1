@@ -22,6 +22,8 @@ import type { StringKey } from "@/lib/i18n/strings";
 import { UserSuggestions } from "@/components/Suggestions";
 import { AvatarUploader } from "@/components/AvatarUploader";
 import { sessionUserQueryOptions, profileQueryOptions } from "@/lib/userQueries";
+import { useSubscription } from "@/hooks/useSubscription";
+
 
 export const Route = createFileRoute("/profile")({
   ssr: false,
