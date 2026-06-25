@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import {
   BANDS,
   SENTENCE_SETS,
@@ -12,6 +13,25 @@ import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
 import { StreakStrip } from "@/components/StreakStrip";
+import { supabase } from "@/integrations/supabase/client";
+
+function useSentenceCounts() {
+  return useQuery({
+    queryKey: ["sentence-counts"],
+    staleTime: 1000 * 60 * 60,
+    queryFn: async () => {
+      const { data, error } = await supabase.from("sentences").select("list_id");
+      if (error) throw error;
+      const counts: Record<string, number> = {};
+      for (const row of data ?? []) {
+        const id = (row as { list_id: string }).list_id;
+        counts[id] = (counts[id] ?? 0) + 1;
+      }
+      return counts;
+    },
+  });
+}
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -205,9 +225,19 @@ const SET_DOT: Record<NonNullable<ListMeta["tone"]>, string> = {
   rose: "bg-rose-500",
 };
 
+function CountBadge({ n }: { n: number | undefined }) {
+  if (!n) return null;
+  return (
+    <span className="rounded-full bg-blue-50 px-2 py-0.5 text-[10px] font-semibold text-blue-700">
+      {n} sentences
+    </span>
+  );
+}
+
 function SetCard({ set }: { set: ListMeta }) {
   const Icon = set.icon ?? ListChecks;
   const dot = SET_DOT[set.tone ?? "sky"];
+  const { data: counts } = useSentenceCounts();
   return (
     <Link
       to="/list/$listId"
@@ -219,7 +249,10 @@ function SetCard({ set }: { set: ListMeta }) {
           <Icon className="h-4 w-4" />
         </span>
         <div className="min-w-0 flex-1">
-          <div className="truncate text-sm font-bold text-slate-900">{set.title}</div>
+          <div className="flex items-center gap-2">
+            <div className="truncate text-sm font-bold text-slate-900">{set.title}</div>
+            <CountBadge n={counts?.[set.id]} />
+          </div>
           <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{set.description}</p>
         </div>
         <ChevronRight className="h-4 w-4 text-slate-300" />
@@ -230,6 +263,7 @@ function SetCard({ set }: { set: ListMeta }) {
 
 function ExtraCard({ extra }: { extra: ListMeta }) {
   const { t } = useT();
+  const { data: counts } = useSentenceCounts();
   return (
     <Link
       to="/list/$listId"
@@ -241,8 +275,11 @@ function ExtraCard({ extra }: { extra: ListMeta }) {
           <BookOpen className="h-4 w-4" />
         </span>
         <div className="min-w-0 flex-1">
-          <div className="truncate text-sm font-bold text-slate-900">
-            {t(extra.titleKey, extra.titleVars)}
+          <div className="flex items-center gap-2">
+            <div className="truncate text-sm font-bold text-slate-900">
+              {t(extra.titleKey, extra.titleVars)}
+            </div>
+            <CountBadge n={counts?.[extra.id]} />
           </div>
           <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{t(extra.descriptionKey)}</p>
         </div>
@@ -251,6 +288,7 @@ function ExtraCard({ extra }: { extra: ListMeta }) {
     </Link>
   );
 }
+
 
 const LEVEL_OPEN_STORAGE_KEY = "trainer.levelOpen.v1";
 
@@ -266,6 +304,7 @@ function readLevelOpen(): Record<string, boolean> {
 
 function LevelAccordion({ level }: { level: LevelGroup }) {
   const { t } = useT();
+  const { data: counts } = useSentenceCounts();
   const [open, setOpen] = useState<boolean>(level.id === "A1");
   useEffect(() => {
     const stored = readLevelOpen();
@@ -317,8 +356,15 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
                 <BookOpen className="h-3.5 w-3.5" />
               </span>
               <div className="min-w-0 flex-1">
-                <div className="truncate text-xs font-semibold text-slate-800">
-                  {t(l.titleKey, l.titleVars)}
+                <div className="flex items-center gap-1.5">
+                  <div className="truncate text-xs font-semibold text-slate-800">
+                    {t(l.titleKey, l.titleVars)}
+                  </div>
+                  {counts?.[l.id] ? (
+                    <span className="shrink-0 rounded-full bg-blue-50 px-1.5 py-0.5 text-[9px] font-semibold text-blue-700">
+                      {counts[l.id]}
+                    </span>
+                  ) : null}
                 </div>
                 <p className="mt-0.5 line-clamp-1 text-[10px] text-slate-500">
                   {t(l.descriptionKey)}
