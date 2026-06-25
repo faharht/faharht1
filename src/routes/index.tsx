@@ -20,12 +20,24 @@ function useSentenceCounts() {
     queryKey: ["sentence-counts"],
     staleTime: 1000 * 60 * 60,
     queryFn: async () => {
-      const { data, error } = await supabase.from("sentences").select("list_id");
-      if (error) throw error;
       const counts: Record<string, number> = {};
-      for (const row of data ?? []) {
-        const id = (row as { list_id: string }).list_id;
-        counts[id] = (counts[id] ?? 0) + 1;
+      const PAGE = 1000;
+      let from = 0;
+      // Paginate through all rows; Supabase default cap is 1000 per request.
+      // eslint-disable-next-line no-constant-condition
+      while (true) {
+        const { data, error } = await supabase
+          .from("sentences")
+          .select("list_id")
+          .range(from, from + PAGE - 1);
+        if (error) throw error;
+        const rows = data ?? [];
+        for (const row of rows) {
+          const id = (row as { list_id: string }).list_id;
+          counts[id] = (counts[id] ?? 0) + 1;
+        }
+        if (rows.length < PAGE) break;
+        from += PAGE;
       }
       return counts;
     },
