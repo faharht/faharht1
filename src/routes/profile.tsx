@@ -27,6 +27,9 @@ import { useSubscription } from "@/hooks/useSubscription";
 
 export const Route = createFileRoute("/profile")({
   ssr: false,
+  validateSearch: (s: Record<string, unknown>): { checkout?: string } => ({
+    checkout: typeof s.checkout === "string" ? s.checkout : undefined,
+  }),
   head: () => ({
     meta: [
       { title: "Profile — RussianFlow" },
