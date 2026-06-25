@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket } from "lucide-react";
+import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   BANDS,
