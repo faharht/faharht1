@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import { Camera, Loader2, Pencil } from "lucide-react";
+import { Camera, Crown, Loader2, Pencil } from "lucide-react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
 import { profileQueryOptions } from "@/lib/userQueries";
+import { ProBadge } from "@/components/ProBadge";
 import {
   Dialog,
   DialogContent,
@@ -11,6 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+
 
 const SIGNED_URL_TTL = 60 * 60 * 24 * 7; // 7 days
 
