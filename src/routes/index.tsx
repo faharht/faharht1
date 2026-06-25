@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket } from "lucide-react";
+import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   BANDS,
@@ -76,6 +76,12 @@ function HomePage() {
               title="Sentence sets"
               description="Themed sentence collections"
               onClick={() => setView("sets")}
+            />
+            <MenuLinkCard
+              icon={Sparkles}
+              title="My sets"
+              description="Create your own sets — any language → Russian"
+              to="/custom"
             />
           </div>
         )}
@@ -161,6 +167,35 @@ function MenuCard({
     </button>
   );
 }
+
+function MenuLinkCard({
+  icon: Icon,
+  title,
+  description,
+  to,
+}: {
+  icon: React.ComponentType<{ className?: string }>;
+  title: string;
+  description: string;
+  to: "/custom";
+}) {
+  return (
+    <Link
+      to={to}
+      className="flex w-full items-center gap-3 rounded-2xl bg-white px-4 py-4 text-left shadow-sm transition hover:shadow-md"
+    >
+      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-blue-100 text-blue-600">
+        <Icon className="h-5 w-5" />
+      </span>
+      <div className="min-w-0 flex-1">
+        <div className="text-base font-bold text-slate-900">{title}</div>
+        <p className="mt-0.5 text-xs text-slate-500">{description}</p>
+      </div>
+      <ChevronRight className="h-5 w-5 text-slate-400" />
+    </Link>
+  );
+}
+
 
 const SET_DOT: Record<NonNullable<ListMeta["tone"]>, string> = {
   amber: "bg-amber-500",

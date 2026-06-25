@@ -11,12 +11,16 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as UtilitiesRouteImport } from './routes/utilities'
 import { Route as ProfileRouteImport } from './routes/profile'
+import { Route as PricingRouteImport } from './routes/pricing'
 import { Route as OnboardingRouteImport } from './routes/onboarding'
+import { Route as CustomRouteImport } from './routes/custom'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CustomIndexRouteImport } from './routes/custom.index'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
 import { Route as ListListIdRouteImport } from './routes/list.$listId'
+import { Route as CustomSetIdRouteImport } from './routes/custom.$setId'
 import { Route as AdminSentencesRouteImport } from './routes/admin.sentences'
 
 const UtilitiesRoute = UtilitiesRouteImport.update({
@@ -29,9 +33,19 @@ const ProfileRoute = ProfileRouteImport.update({
   path: '/profile',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PricingRoute = PricingRouteImport.update({
+  id: '/pricing',
+  path: '/pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OnboardingRoute = OnboardingRouteImport.update({
   id: '/onboarding',
   path: '/onboarding',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CustomRoute = CustomRouteImport.update({
+  id: '/custom',
+  path: '/custom',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthRoute = AuthRouteImport.update({
@@ -49,6 +63,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CustomIndexRoute = CustomIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => CustomRoute,
+} as any)
 const AdminIndexRoute = AdminIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -58,6 +77,11 @@ const ListListIdRoute = ListListIdRouteImport.update({
   id: '/list/$listId',
   path: '/list/$listId',
   getParentRoute: () => rootRouteImport,
+} as any)
+const CustomSetIdRoute = CustomSetIdRouteImport.update({
+  id: '/$setId',
+  path: '/$setId',
+  getParentRoute: () => CustomRoute,
 } as any)
 const AdminSentencesRoute = AdminSentencesRouteImport.update({
   id: '/sentences',
@@ -69,34 +93,45 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
+  '/custom': typeof CustomRouteWithChildren
   '/onboarding': typeof OnboardingRoute
+  '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
+  '/custom/$setId': typeof CustomSetIdRoute
   '/list/$listId': typeof ListListIdRoute
   '/admin/': typeof AdminIndexRoute
+  '/custom/': typeof CustomIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
   '/onboarding': typeof OnboardingRoute
+  '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
+  '/custom/$setId': typeof CustomSetIdRoute
   '/list/$listId': typeof ListListIdRoute
   '/admin': typeof AdminIndexRoute
+  '/custom': typeof CustomIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
+  '/custom': typeof CustomRouteWithChildren
   '/onboarding': typeof OnboardingRoute
+  '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
+  '/custom/$setId': typeof CustomSetIdRoute
   '/list/$listId': typeof ListListIdRoute
   '/admin/': typeof AdminIndexRoute
+  '/custom/': typeof CustomIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -104,40 +139,53 @@ export interface FileRouteTypes {
     | '/'
     | '/admin'
     | '/auth'
+    | '/custom'
     | '/onboarding'
+    | '/pricing'
     | '/profile'
     | '/utilities'
     | '/admin/sentences'
+    | '/custom/$setId'
     | '/list/$listId'
     | '/admin/'
+    | '/custom/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/auth'
     | '/onboarding'
+    | '/pricing'
     | '/profile'
     | '/utilities'
     | '/admin/sentences'
+    | '/custom/$setId'
     | '/list/$listId'
     | '/admin'
+    | '/custom'
   id:
     | '__root__'
     | '/'
     | '/admin'
     | '/auth'
+    | '/custom'
     | '/onboarding'
+    | '/pricing'
     | '/profile'
     | '/utilities'
     | '/admin/sentences'
+    | '/custom/$setId'
     | '/list/$listId'
     | '/admin/'
+    | '/custom/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AdminRoute: typeof AdminRouteWithChildren
   AuthRoute: typeof AuthRoute
+  CustomRoute: typeof CustomRouteWithChildren
   OnboardingRoute: typeof OnboardingRoute
+  PricingRoute: typeof PricingRoute
   ProfileRoute: typeof ProfileRoute
   UtilitiesRoute: typeof UtilitiesRoute
   ListListIdRoute: typeof ListListIdRoute
@@ -159,11 +207,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProfileRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pricing': {
+      id: '/pricing'
+      path: '/pricing'
+      fullPath: '/pricing'
+      preLoaderRoute: typeof PricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/onboarding': {
       id: '/onboarding'
       path: '/onboarding'
       fullPath: '/onboarding'
       preLoaderRoute: typeof OnboardingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/custom': {
+      id: '/custom'
+      path: '/custom'
+      fullPath: '/custom'
+      preLoaderRoute: typeof CustomRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/auth': {
@@ -187,6 +249,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/custom/': {
+      id: '/custom/'
+      path: '/'
+      fullPath: '/custom/'
+      preLoaderRoute: typeof CustomIndexRouteImport
+      parentRoute: typeof CustomRoute
+    }
     '/admin/': {
       id: '/admin/'
       path: '/'
@@ -200,6 +269,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/list/$listId'
       preLoaderRoute: typeof ListListIdRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/custom/$setId': {
+      id: '/custom/$setId'
+      path: '/$setId'
+      fullPath: '/custom/$setId'
+      preLoaderRoute: typeof CustomSetIdRouteImport
+      parentRoute: typeof CustomRoute
     }
     '/admin/sentences': {
       id: '/admin/sentences'
@@ -223,11 +299,26 @@ const AdminRouteChildren: AdminRouteChildren = {
 
 const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
 
+interface CustomRouteChildren {
+  CustomSetIdRoute: typeof CustomSetIdRoute
+  CustomIndexRoute: typeof CustomIndexRoute
+}
+
+const CustomRouteChildren: CustomRouteChildren = {
+  CustomSetIdRoute: CustomSetIdRoute,
+  CustomIndexRoute: CustomIndexRoute,
+}
+
+const CustomRouteWithChildren =
+  CustomRoute._addFileChildren(CustomRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AdminRoute: AdminRouteWithChildren,
   AuthRoute: AuthRoute,
+  CustomRoute: CustomRouteWithChildren,
   OnboardingRoute: OnboardingRoute,
+  PricingRoute: PricingRoute,
   ProfileRoute: ProfileRoute,
   UtilitiesRoute: UtilitiesRoute,
   ListListIdRoute: ListListIdRoute,
