@@ -11,6 +11,7 @@ import {
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/useT";
 import type { StringKey } from "@/lib/i18n/strings";
+import { StreakStrip } from "@/components/StreakStrip";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,12 +27,9 @@ export const Route = createFileRoute("/")({
 
 type View = "menu" | "levels" | "sets";
 
-const WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-
 function HomePage() {
   const { t } = useT();
   const [view, setView] = useState<View>("menu");
-  const todayIdx = (new Date().getDay() + 6) % 7; // Mon=0
 
   return (
     <div className="min-h-screen bg-slate-50 pb-28">
@@ -57,30 +55,9 @@ function HomePage() {
         </div>
 
 
-        {/* Daily streak strip (visual only, mirrors today) */}
-        <div className="mx-auto mt-6 max-w-2xl rounded-2xl bg-white p-3 text-slate-900 shadow-md sm:p-4">
-          <div className="text-sm font-semibold">Daily Goals</div>
-          <div className="mt-3 grid grid-cols-7 gap-1 text-center sm:gap-1.5">
-            {WEEKDAYS.map((d, i) => {
-              const done = i <= todayIdx;
-              const isToday = i === todayIdx;
-              return (
-                <div key={d} className="flex min-w-0 flex-col items-center gap-1">
-                  <div
-                    className={cn(
-                      "grid h-8 w-8 place-items-center rounded-full sm:h-9 sm:w-9",
-                      done ? "bg-orange-100" : "bg-slate-100",
-                    )}
-                  >
-                    <Flame className={cn("h-4 w-4", done ? "text-orange-500" : "text-slate-300")} />
-                  </div>
-                  <span className={cn("text-[10px]", isToday ? "font-bold text-slate-900" : "text-slate-400")}>
-                    {d}
-                  </span>
-                </div>
-              );
-            })}
-          </div>
+        {/* Daily streak strip */}
+        <div className="mx-auto mt-6 max-w-2xl text-slate-900">
+          <StreakStrip />
         </div>
 
       </header>
@@ -304,9 +281,14 @@ function LevelAccordion({ level }: { level: LevelGroup }) {
               <span className="grid h-8 w-8 place-items-center rounded-full bg-blue-100 text-blue-600">
                 <BookOpen className="h-3.5 w-3.5" />
               </span>
-              <span className="min-w-0 flex-1 truncate text-xs font-semibold text-slate-800">
-                {t(l.titleKey, l.titleVars)}
-              </span>
+              <div className="min-w-0 flex-1">
+                <div className="truncate text-xs font-semibold text-slate-800">
+                  {t(l.titleKey, l.titleVars)}
+                </div>
+                <p className="mt-0.5 line-clamp-1 text-[10px] text-slate-500">
+                  {t(l.descriptionKey)}
+                </p>
+              </div>
               <ChevronRight className="h-3.5 w-3.5 text-slate-300" />
             </Link>
           ))}
