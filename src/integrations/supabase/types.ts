@@ -14,6 +14,122 @@ export type Database = {
   }
   public: {
     Tables: {
+      custom_sentences: {
+        Row: {
+          created_at: string
+          de: string | null
+          en: string
+          id: string
+          pl: string | null
+          ru: string
+          ru_stressed: string
+          set_id: string
+          sort_order: number
+          source_lang: string | null
+          source_text: string | null
+          translit: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          de?: string | null
+          en: string
+          id?: string
+          pl?: string | null
+          ru: string
+          ru_stressed: string
+          set_id: string
+          sort_order?: number
+          source_lang?: string | null
+          source_text?: string | null
+          translit: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          de?: string | null
+          en?: string
+          id?: string
+          pl?: string | null
+          ru?: string
+          ru_stressed?: string
+          set_id?: string
+          sort_order?: number
+          source_lang?: string | null
+          source_text?: string | null
+          translit?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "custom_sentences_set_id_fkey"
+            columns: ["set_id"]
+            isOneToOne: false
+            referencedRelation: "custom_sets"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      custom_sets: {
+        Row: {
+          created_at: string
+          description: string | null
+          icon: string | null
+          id: string
+          title: string
+          tone: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          icon?: string | null
+          id?: string
+          title: string
+          tone?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          icon?: string | null
+          id?: string
+          title?: string
+          tone?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      daily_usage: {
+        Row: {
+          created_at: string
+          sentences_added: number
+          updated_at: string
+          usage_date: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          sentences_added?: number
+          updated_at?: string
+          usage_date?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          sentences_added?: number
+          updated_at?: string
+          usage_date?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null
@@ -211,11 +327,53 @@ export type Database = {
         }
         Relationships: []
       }
+      user_subscriptions: {
+        Row: {
+          created_at: string
+          current_period_end: string | null
+          interval: string | null
+          provider: string | null
+          provider_customer_id: string | null
+          provider_subscription_id: string | null
+          status: string
+          tier: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          current_period_end?: string | null
+          interval?: string | null
+          provider?: string | null
+          provider_customer_id?: string | null
+          provider_subscription_id?: string | null
+          status?: string
+          tier?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          current_period_end?: string | null
+          interval?: string | null
+          provider?: string | null
+          provider_customer_id?: string | null
+          provider_subscription_id?: string | null
+          status?: string
+          tier?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
+      can_add_sentence: { Args: { _user_id: string }; Returns: boolean }
+      can_create_set: { Args: { _user_id: string }; Returns: boolean }
+      consume_sentence_slot: { Args: { _user_id: string }; Returns: boolean }
       has_role: {
         Args: {
           _role: Database["public"]["Enums"]["app_role"]
@@ -223,6 +381,7 @@ export type Database = {
         }
         Returns: boolean
       }
+      is_pro: { Args: { _user_id: string }; Returns: boolean }
     }
     Enums: {
       app_role: "admin" | "user"

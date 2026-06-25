@@ -20,8 +20,8 @@ import {
   Volume2,
   X,
 } from "lucide-react";
-import { findList, TONE_CLASSES, LEVELS } from "@/lib/trainer/levels";
-import { sentencesQueryOptions } from "@/lib/trainer/sentences";
+import { findList, TONE_CLASSES, LEVELS, type ListMeta } from "@/lib/trainer/levels";
+import { sentencesQueryOptions, isCustomListId, customSetIdFromListId, customSetQueryOptions } from "@/lib/trainer/sentences";
 import { useQuery } from "@tanstack/react-query";
 import { sessionUserQueryOptions } from "@/lib/userQueries";
 import { StreakStrip } from "@/components/StreakStrip";
@@ -54,6 +54,23 @@ import { Slider } from "@/components/ui/slider";
 
 export const Route = createFileRoute("/list/$listId")({
   loader: ({ params, context }) => {
+    if (isCustomListId(params.listId)) {
+      const setId = customSetIdFromListId(params.listId);
+      void context.queryClient.prefetchQuery(sentencesQueryOptions(params.listId));
+      void context.queryClient.prefetchQuery(customSetQueryOptions(setId));
+      const meta: ListMeta = {
+        id: params.listId,
+        level: "B1",
+        part: 0,
+        titleKey: "list.levelPartTitle",
+        titleVars: { level: "Custom", part: 1 },
+        descriptionKey: "list.levelPartTitle",
+        title: "Custom set",
+        description: "Your own sentences",
+        tone: "sky",
+      };
+      return { meta };
+    }
     const meta = findList(params.listId);
     if (!meta) throw notFound();
     void context.queryClient.prefetchQuery(sentencesQueryOptions(meta.id));
@@ -79,7 +96,22 @@ function ListPage() {
   const { data: sessionUser } = useQuery(sessionUserQueryOptions);
   const isGuest = !sessionUser;
 
-  const { meta } = Route.useLoaderData();
+  const { meta: baseMeta } = Route.useLoaderData();
+  const isCustom = isCustomListId(baseMeta.id);
+  const customSetId = isCustom ? customSetIdFromListId(baseMeta.id) : null;
+  const { data: customSet } = useQuery({
+    ...customSetQueryOptions(customSetId ?? ""),
+    enabled: !!customSetId,
+  });
+  const meta = useMemo<ListMeta>(() => {
+    if (!isCustom || !customSet) return baseMeta;
+    return {
+      ...baseMeta,
+      title: customSet.title,
+      description: customSet.description ?? baseMeta.description,
+      tone: (customSet.tone as ListMeta["tone"]) ?? baseMeta.tone,
+    };
+  }, [isCustom, customSet, baseMeta]);
   const { data: sentences = [], isLoading: sentencesLoading } = useQuery(sentencesQueryOptions(meta.id));
   const settings = useTrainerStore((s) => s.settings);
   const progress = useTrainerStore((s) => s.progress);
@@ -287,7 +319,7 @@ function ListPage() {
           </Link>
           <div className="min-w-0 flex-1">
             <h1 className="truncate text-base font-bold">{t("list.vocabulary")}</h1>
-            <p className="truncate text-xs text-white/75">{t(meta.titleKey, meta.titleVars)}</p>
+            <p className="truncate text-xs text-white/75">{isCustom ? meta.title : t(meta.titleKey, meta.titleVars)}</p>
           </div>
         </div>
         <div className="mx-auto max-w-2xl px-4 pb-4">
