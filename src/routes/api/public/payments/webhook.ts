@@ -1,17 +1,19 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { createClient } from "@supabase/supabase-js";
 import { verifyWebhook, EventName, type PaddleEnv } from "@/lib/paddle.server";
+import type { Database } from "@/integrations/supabase/types";
 
-let _supabase: ReturnType<typeof createClient> | null = null;
+let _supabase: ReturnType<typeof createClient<Database>> | null = null;
 function getSupabase() {
   if (!_supabase) {
-    _supabase = createClient(
+    _supabase = createClient<Database>(
       process.env.SUPABASE_URL!,
       process.env.SUPABASE_SERVICE_ROLE_KEY!,
     );
   }
   return _supabase;
 }
+
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
