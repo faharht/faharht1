@@ -27,11 +27,14 @@ export function AvatarUploader({
   userId,
   email,
   fallbackChar,
+  isPro = false,
 }: {
   userId: string;
   email: string | null;
   fallbackChar: string;
+  isPro?: boolean;
 }) {
+
   const queryClient = useQueryClient();
   const { data: profile } = useQuery(profileQueryOptions(userId));
   const avatarPath = profile?.avatarPath ?? null;
