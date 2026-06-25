@@ -90,9 +90,9 @@ function PricingPage() {
           <Button
             className="mt-4 w-full"
             onClick={() => handleCheckout("monthly")}
-            disabled={usage.data?.isPro || loading}
+            disabled={isPro || loading}
           >
-            {usage.data?.isPro ? "Active" : "Choose monthly"}
+            {activePriceId === "pro_monthly" ? "Current plan" : isPro ? "Switch plan via billing portal" : "Choose monthly"}
           </Button>
         </div>
 
@@ -112,9 +112,9 @@ function PricingPage() {
             variant="secondary"
             className="mt-4 w-full bg-white text-orange-700 hover:bg-white/90"
             onClick={() => handleCheckout("yearly")}
-            disabled={usage.data?.isPro || loading}
+            disabled={isPro || loading}
           >
-            {usage.data?.isPro ? "Active" : "Choose yearly"}
+            {activePriceId === "pro_yearly" ? "Current plan" : isPro ? "Switch plan via billing portal" : "Choose yearly"}
           </Button>
         </div>
 
