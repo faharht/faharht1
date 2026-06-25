@@ -304,6 +304,7 @@ function readLevelOpen(): Record<string, boolean> {
 
 function LevelAccordion({ level }: { level: LevelGroup }) {
   const { t } = useT();
+  const { data: counts } = useSentenceCounts();
   const [open, setOpen] = useState<boolean>(level.id === "A1");
   useEffect(() => {
     const stored = readLevelOpen();
