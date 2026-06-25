@@ -183,7 +183,7 @@ function MenuLinkCard({
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
-  to: "/custom";
+  to: "/custom" | "/pricing";
 }) {
   return (
     <Link
