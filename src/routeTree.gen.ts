@@ -10,16 +10,20 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as UtilitiesRouteImport } from './routes/utilities'
+import { Route as TutorRouteImport } from './routes/tutor'
+import { Route as ReviewRouteImport } from './routes/review'
 import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as ProfileRouteImport } from './routes/profile'
 import { Route as PricingRouteImport } from './routes/pricing'
 import { Route as OnboardingRouteImport } from './routes/onboarding'
 import { Route as CustomRouteImport } from './routes/custom'
+import { Route as ConjugationRouteImport } from './routes/conjugation'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as CustomIndexRouteImport } from './routes/custom.index'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
+import { Route as TypingListIdRouteImport } from './routes/typing.$listId'
 import { Route as ListListIdRouteImport } from './routes/list.$listId'
 import { Route as LegalTermsRouteImport } from './routes/legal.terms'
 import { Route as LegalRefundRouteImport } from './routes/legal.refund'
@@ -31,6 +35,16 @@ import { Route as ApiPublicPaymentsWebhookRouteImport } from './routes/api/publi
 const UtilitiesRoute = UtilitiesRouteImport.update({
   id: '/utilities',
   path: '/utilities',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TutorRoute = TutorRouteImport.update({
+  id: '/tutor',
+  path: '/tutor',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReviewRoute = ReviewRouteImport.update({
+  id: '/review',
+  path: '/review',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ResetPasswordRoute = ResetPasswordRouteImport.update({
@@ -58,6 +72,11 @@ const CustomRoute = CustomRouteImport.update({
   path: '/custom',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ConjugationRoute = ConjugationRouteImport.update({
+  id: '/conjugation',
+  path: '/conjugation',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AuthRoute = AuthRouteImport.update({
   id: '/auth',
   path: '/auth',
@@ -82,6 +101,11 @@ const AdminIndexRoute = AdminIndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => AdminRoute,
+} as any)
+const TypingListIdRoute = TypingListIdRouteImport.update({
+  id: '/typing/$listId',
+  path: '/typing/$listId',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const ListListIdRoute = ListListIdRouteImport.update({
   id: '/list/$listId',
@@ -124,11 +148,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
+  '/conjugation': typeof ConjugationRoute
   '/custom': typeof CustomRouteWithChildren
   '/onboarding': typeof OnboardingRoute
   '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/review': typeof ReviewRoute
+  '/tutor': typeof TutorRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/custom/$setId': typeof CustomSetIdRoute
@@ -136,6 +163,7 @@ export interface FileRoutesByFullPath {
   '/legal/refund': typeof LegalRefundRoute
   '/legal/terms': typeof LegalTermsRoute
   '/list/$listId': typeof ListListIdRoute
+  '/typing/$listId': typeof TypingListIdRoute
   '/admin/': typeof AdminIndexRoute
   '/custom/': typeof CustomIndexRoute
   '/api/public/payments/webhook': typeof ApiPublicPaymentsWebhookRoute
@@ -143,10 +171,13 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+  '/conjugation': typeof ConjugationRoute
   '/onboarding': typeof OnboardingRoute
   '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/review': typeof ReviewRoute
+  '/tutor': typeof TutorRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/custom/$setId': typeof CustomSetIdRoute
@@ -154,6 +185,7 @@ export interface FileRoutesByTo {
   '/legal/refund': typeof LegalRefundRoute
   '/legal/terms': typeof LegalTermsRoute
   '/list/$listId': typeof ListListIdRoute
+  '/typing/$listId': typeof TypingListIdRoute
   '/admin': typeof AdminIndexRoute
   '/custom': typeof CustomIndexRoute
   '/api/public/payments/webhook': typeof ApiPublicPaymentsWebhookRoute
@@ -163,11 +195,14 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/admin': typeof AdminRouteWithChildren
   '/auth': typeof AuthRoute
+  '/conjugation': typeof ConjugationRoute
   '/custom': typeof CustomRouteWithChildren
   '/onboarding': typeof OnboardingRoute
   '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/review': typeof ReviewRoute
+  '/tutor': typeof TutorRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
   '/custom/$setId': typeof CustomSetIdRoute
@@ -175,6 +210,7 @@ export interface FileRoutesById {
   '/legal/refund': typeof LegalRefundRoute
   '/legal/terms': typeof LegalTermsRoute
   '/list/$listId': typeof ListListIdRoute
+  '/typing/$listId': typeof TypingListIdRoute
   '/admin/': typeof AdminIndexRoute
   '/custom/': typeof CustomIndexRoute
   '/api/public/payments/webhook': typeof ApiPublicPaymentsWebhookRoute
@@ -185,11 +221,14 @@ export interface FileRouteTypes {
     | '/'
     | '/admin'
     | '/auth'
+    | '/conjugation'
     | '/custom'
     | '/onboarding'
     | '/pricing'
     | '/profile'
     | '/reset-password'
+    | '/review'
+    | '/tutor'
     | '/utilities'
     | '/admin/sentences'
     | '/custom/$setId'
@@ -197,6 +236,7 @@ export interface FileRouteTypes {
     | '/legal/refund'
     | '/legal/terms'
     | '/list/$listId'
+    | '/typing/$listId'
     | '/admin/'
     | '/custom/'
     | '/api/public/payments/webhook'
@@ -204,10 +244,13 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/auth'
+    | '/conjugation'
     | '/onboarding'
     | '/pricing'
     | '/profile'
     | '/reset-password'
+    | '/review'
+    | '/tutor'
     | '/utilities'
     | '/admin/sentences'
     | '/custom/$setId'
@@ -215,6 +258,7 @@ export interface FileRouteTypes {
     | '/legal/refund'
     | '/legal/terms'
     | '/list/$listId'
+    | '/typing/$listId'
     | '/admin'
     | '/custom'
     | '/api/public/payments/webhook'
@@ -223,11 +267,14 @@ export interface FileRouteTypes {
     | '/'
     | '/admin'
     | '/auth'
+    | '/conjugation'
     | '/custom'
     | '/onboarding'
     | '/pricing'
     | '/profile'
     | '/reset-password'
+    | '/review'
+    | '/tutor'
     | '/utilities'
     | '/admin/sentences'
     | '/custom/$setId'
@@ -235,6 +282,7 @@ export interface FileRouteTypes {
     | '/legal/refund'
     | '/legal/terms'
     | '/list/$listId'
+    | '/typing/$listId'
     | '/admin/'
     | '/custom/'
     | '/api/public/payments/webhook'
@@ -244,16 +292,20 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AdminRoute: typeof AdminRouteWithChildren
   AuthRoute: typeof AuthRoute
+  ConjugationRoute: typeof ConjugationRoute
   CustomRoute: typeof CustomRouteWithChildren
   OnboardingRoute: typeof OnboardingRoute
   PricingRoute: typeof PricingRoute
   ProfileRoute: typeof ProfileRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
+  ReviewRoute: typeof ReviewRoute
+  TutorRoute: typeof TutorRoute
   UtilitiesRoute: typeof UtilitiesRoute
   LegalPrivacyRoute: typeof LegalPrivacyRoute
   LegalRefundRoute: typeof LegalRefundRoute
   LegalTermsRoute: typeof LegalTermsRoute
   ListListIdRoute: typeof ListListIdRoute
+  TypingListIdRoute: typeof TypingListIdRoute
   ApiPublicPaymentsWebhookRoute: typeof ApiPublicPaymentsWebhookRoute
 }
 
@@ -264,6 +316,20 @@ declare module '@tanstack/react-router' {
       path: '/utilities'
       fullPath: '/utilities'
       preLoaderRoute: typeof UtilitiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tutor': {
+      id: '/tutor'
+      path: '/tutor'
+      fullPath: '/tutor'
+      preLoaderRoute: typeof TutorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/review': {
+      id: '/review'
+      path: '/review'
+      fullPath: '/review'
+      preLoaderRoute: typeof ReviewRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/reset-password': {
@@ -301,6 +367,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CustomRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/conjugation': {
+      id: '/conjugation'
+      path: '/conjugation'
+      fullPath: '/conjugation'
+      preLoaderRoute: typeof ConjugationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/auth': {
       id: '/auth'
       path: '/auth'
@@ -335,6 +408,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/admin/'
       preLoaderRoute: typeof AdminIndexRouteImport
       parentRoute: typeof AdminRoute
+    }
+    '/typing/$listId': {
+      id: '/typing/$listId'
+      path: '/typing/$listId'
+      fullPath: '/typing/$listId'
+      preLoaderRoute: typeof TypingListIdRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/list/$listId': {
       id: '/list/$listId'
@@ -417,16 +497,20 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AdminRoute: AdminRouteWithChildren,
   AuthRoute: AuthRoute,
+  ConjugationRoute: ConjugationRoute,
   CustomRoute: CustomRouteWithChildren,
   OnboardingRoute: OnboardingRoute,
   PricingRoute: PricingRoute,
   ProfileRoute: ProfileRoute,
   ResetPasswordRoute: ResetPasswordRoute,
+  ReviewRoute: ReviewRoute,
+  TutorRoute: TutorRoute,
   UtilitiesRoute: UtilitiesRoute,
   LegalPrivacyRoute: LegalPrivacyRoute,
   LegalRefundRoute: LegalRefundRoute,
   LegalTermsRoute: LegalTermsRoute,
   ListListIdRoute: ListListIdRoute,
+  TypingListIdRoute: TypingListIdRoute,
   ApiPublicPaymentsWebhookRoute: ApiPublicPaymentsWebhookRoute,
 }
 export const routeTree = rootRouteImport
