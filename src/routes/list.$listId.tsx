@@ -780,7 +780,85 @@ function ListenCard({
           </span>
         </button>
       )}
+      {lookupWord && (
+        <WordPopover
+          word={lookupWord}
+          context={sentence.ru}
+          uiLang={popoverLang}
+          onClose={() => setLookupWord(null)}
+        />
+      )}
     </li>
+  );
+}
+
+function WordButton({
+  isActive,
+  speechReady,
+  before,
+  vowel,
+  after,
+  plain,
+  onTap,
+  onLongPress,
+}: {
+  isActive: boolean;
+  speechReady: boolean;
+  before: string;
+  vowel: string;
+  after: string;
+  plain: string;
+  onTap: () => void;
+  onLongPress: () => void;
+}) {
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const longFired = useRef(false);
+
+  const start = () => {
+    longFired.current = false;
+    timer.current = setTimeout(() => {
+      longFired.current = true;
+      onLongPress();
+    }, 350);
+  };
+  const cancel = () => {
+    if (timer.current) {
+      clearTimeout(timer.current);
+      timer.current = null;
+    }
+  };
+  return (
+    <button
+      type="button"
+      onPointerDown={start}
+      onPointerUp={(e) => {
+        cancel();
+        e.stopPropagation();
+        if (!longFired.current) onTap();
+      }}
+      onPointerLeave={cancel}
+      onPointerCancel={cancel}
+      onContextMenu={(e) => {
+        e.preventDefault();
+        cancel();
+        onLongPress();
+      }}
+      disabled={!speechReady}
+      className={cn(
+        "rounded-md px-0.5 py-0.5 transition -my-0.5",
+        "hover:bg-primary/10 active:bg-primary/20",
+        isActive && "bg-primary/20 text-primary",
+      )}
+      aria-label={`Play word ${plain}`}
+    >
+      {before}
+      {vowel && (
+        <span className="text-primary underline decoration-primary/60 decoration-2 underline-offset-4">
+          {vowel}
+        </span>
+      )}
+      {after}
+    </button>
   );
 }
 
