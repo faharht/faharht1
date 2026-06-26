@@ -141,8 +141,10 @@ function RootComponent() {
       <PaymentTestModeBanner />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+      <ThemeToggle className="fixed right-3 top-3 z-40 shadow-lg" />
       <SiteFooter />
       <BottomNav />
+
     </QueryClientProvider>
 
   );
