@@ -26,6 +26,7 @@ import { sentencesQueryOptions, isCustomListId, customSetIdFromListId, customSet
 import { useQuery } from "@tanstack/react-query";
 import { sessionUserQueryOptions } from "@/lib/userQueries";
 import { StreakStrip } from "@/components/StreakStrip";
+import { WordPopover } from "@/components/WordPopover";
 
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore, todayKey } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
@@ -653,7 +654,9 @@ function ListenCard({
   onUnlock: () => void;
 }) {
   const { t } = useT();
+  const settings = useTrainerStore((s) => s.settings);
   const [revealed, setRevealed] = useState(false);
+  const [lookupWord, setLookupWord] = useState<string | null>(null);
   useEffect(() => {
     if (!listenMode) setRevealed(false);
   }, [listenMode]);
@@ -664,6 +667,8 @@ function ListenCard({
     () => tokenizeStressed(sentence.ruStressed || sentence.ru),
     [sentence.ruStressed, sentence.ru],
   );
+  const popoverLang: "en" | "pl" | "de" =
+    settings.appLanguage === "pl" || settings.appLanguage === "de" ? settings.appLanguage : "en";
 
   return (
     <li
@@ -739,30 +744,23 @@ function ListenCard({
               const [before, vowel, after] = splitStressedWord(tok.raw);
               const isActive = activeWord === tok.wordIndex;
               return (
-                <button
+                <WordButton
                   key={i}
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
+                  isActive={isActive}
+                  speechReady={speechReady}
+                  before={before}
+                  vowel={vowel}
+                  after={after}
+                  plain={tok.plain}
+                  onTap={() => {
                     if (locked) onUnlock();
                     else onPlayWord(tok.plain);
                   }}
-                  disabled={!speechReady}
-                  className={cn(
-                    "rounded-md px-0.5 py-0.5 transition -my-0.5",
-                    "hover:bg-primary/10 active:bg-primary/20",
-                    isActive && "bg-primary/20 text-primary",
-                  )}
-                  aria-label={`Play word ${tok.plain}`}
-                >
-                  {before}
-                  {vowel && (
-                    <span className="text-primary underline decoration-primary/60 decoration-2 underline-offset-4">
-                      {vowel}
-                    </span>
-                  )}
-                  {after}
-                </button>
+                  onLongPress={() => {
+                    if (locked) onUnlock();
+                    else setLookupWord(tok.plain);
+                  }}
+                />
               );
             })}
           </p>
@@ -783,7 +781,85 @@ function ListenCard({
           </span>
         </button>
       )}
+      {lookupWord && (
+        <WordPopover
+          word={lookupWord}
+          context={sentence.ru}
+          uiLang={popoverLang}
+          onClose={() => setLookupWord(null)}
+        />
+      )}
     </li>
+  );
+}
+
+function WordButton({
+  isActive,
+  speechReady,
+  before,
+  vowel,
+  after,
+  plain,
+  onTap,
+  onLongPress,
+}: {
+  isActive: boolean;
+  speechReady: boolean;
+  before: string;
+  vowel: string;
+  after: string;
+  plain: string;
+  onTap: () => void;
+  onLongPress: () => void;
+}) {
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const longFired = useRef(false);
+
+  const start = () => {
+    longFired.current = false;
+    timer.current = setTimeout(() => {
+      longFired.current = true;
+      onLongPress();
+    }, 350);
+  };
+  const cancel = () => {
+    if (timer.current) {
+      clearTimeout(timer.current);
+      timer.current = null;
+    }
+  };
+  return (
+    <button
+      type="button"
+      onPointerDown={start}
+      onPointerUp={(e) => {
+        cancel();
+        e.stopPropagation();
+        if (!longFired.current) onTap();
+      }}
+      onPointerLeave={cancel}
+      onPointerCancel={cancel}
+      onContextMenu={(e) => {
+        e.preventDefault();
+        cancel();
+        onLongPress();
+      }}
+      disabled={!speechReady}
+      className={cn(
+        "rounded-md px-0.5 py-0.5 transition -my-0.5",
+        "hover:bg-primary/10 active:bg-primary/20",
+        isActive && "bg-primary/20 text-primary",
+      )}
+      aria-label={`Play word ${plain}`}
+    >
+      {before}
+      {vowel && (
+        <span className="text-primary underline decoration-primary/60 decoration-2 underline-offset-4">
+          {vowel}
+        </span>
+      )}
+      {after}
+    </button>
   );
 }
 
