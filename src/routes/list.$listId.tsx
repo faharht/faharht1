@@ -739,30 +739,23 @@ function ListenCard({
               const [before, vowel, after] = splitStressedWord(tok.raw);
               const isActive = activeWord === tok.wordIndex;
               return (
-                <button
+                <WordButton
                   key={i}
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
+                  isActive={isActive}
+                  speechReady={speechReady}
+                  before={before}
+                  vowel={vowel}
+                  after={after}
+                  plain={tok.plain}
+                  onTap={() => {
                     if (locked) onUnlock();
                     else onPlayWord(tok.plain);
                   }}
-                  disabled={!speechReady}
-                  className={cn(
-                    "rounded-md px-0.5 py-0.5 transition -my-0.5",
-                    "hover:bg-primary/10 active:bg-primary/20",
-                    isActive && "bg-primary/20 text-primary",
-                  )}
-                  aria-label={`Play word ${tok.plain}`}
-                >
-                  {before}
-                  {vowel && (
-                    <span className="text-primary underline decoration-primary/60 decoration-2 underline-offset-4">
-                      {vowel}
-                    </span>
-                  )}
-                  {after}
-                </button>
+                  onLongPress={() => {
+                    if (locked) onUnlock();
+                    else setLookupWord(tok.plain);
+                  }}
+                />
               );
             })}
           </p>
