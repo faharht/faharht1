@@ -653,7 +653,9 @@ function ListenCard({
   onUnlock: () => void;
 }) {
   const { t } = useT();
+  const settings = useTrainerStore((s) => s.settings);
   const [revealed, setRevealed] = useState(false);
+  const [lookupWord, setLookupWord] = useState<string | null>(null);
   useEffect(() => {
     if (!listenMode) setRevealed(false);
   }, [listenMode]);
@@ -664,6 +666,8 @@ function ListenCard({
     () => tokenizeStressed(sentence.ruStressed || sentence.ru),
     [sentence.ruStressed, sentence.ru],
   );
+  const popoverLang: "en" | "pl" | "de" =
+    settings.appLanguage === "pl" || settings.appLanguage === "de" ? settings.appLanguage : "en";
 
   return (
     <li
