@@ -11,11 +11,13 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as UtilitiesRouteImport } from './routes/utilities'
 import { Route as TutorRouteImport } from './routes/tutor'
+import { Route as StoryRouteImport } from './routes/story'
 import { Route as ReviewRouteImport } from './routes/review'
 import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as ProfileRouteImport } from './routes/profile'
 import { Route as PricingRouteImport } from './routes/pricing'
 import { Route as OnboardingRouteImport } from './routes/onboarding'
+import { Route as DailyRouteImport } from './routes/daily'
 import { Route as CustomRouteImport } from './routes/custom'
 import { Route as ConjugationRouteImport } from './routes/conjugation'
 import { Route as AuthRouteImport } from './routes/auth'
@@ -42,6 +44,11 @@ const TutorRoute = TutorRouteImport.update({
   path: '/tutor',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StoryRoute = StoryRouteImport.update({
+  id: '/story',
+  path: '/story',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ReviewRoute = ReviewRouteImport.update({
   id: '/review',
   path: '/review',
@@ -65,6 +72,11 @@ const PricingRoute = PricingRouteImport.update({
 const OnboardingRoute = OnboardingRouteImport.update({
   id: '/onboarding',
   path: '/onboarding',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DailyRoute = DailyRouteImport.update({
+  id: '/daily',
+  path: '/daily',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CustomRoute = CustomRouteImport.update({
@@ -150,11 +162,13 @@ export interface FileRoutesByFullPath {
   '/auth': typeof AuthRoute
   '/conjugation': typeof ConjugationRoute
   '/custom': typeof CustomRouteWithChildren
+  '/daily': typeof DailyRoute
   '/onboarding': typeof OnboardingRoute
   '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/reset-password': typeof ResetPasswordRoute
   '/review': typeof ReviewRoute
+  '/story': typeof StoryRoute
   '/tutor': typeof TutorRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
@@ -172,11 +186,13 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
   '/conjugation': typeof ConjugationRoute
+  '/daily': typeof DailyRoute
   '/onboarding': typeof OnboardingRoute
   '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/reset-password': typeof ResetPasswordRoute
   '/review': typeof ReviewRoute
+  '/story': typeof StoryRoute
   '/tutor': typeof TutorRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
@@ -197,11 +213,13 @@ export interface FileRoutesById {
   '/auth': typeof AuthRoute
   '/conjugation': typeof ConjugationRoute
   '/custom': typeof CustomRouteWithChildren
+  '/daily': typeof DailyRoute
   '/onboarding': typeof OnboardingRoute
   '/pricing': typeof PricingRoute
   '/profile': typeof ProfileRoute
   '/reset-password': typeof ResetPasswordRoute
   '/review': typeof ReviewRoute
+  '/story': typeof StoryRoute
   '/tutor': typeof TutorRoute
   '/utilities': typeof UtilitiesRoute
   '/admin/sentences': typeof AdminSentencesRoute
@@ -223,11 +241,13 @@ export interface FileRouteTypes {
     | '/auth'
     | '/conjugation'
     | '/custom'
+    | '/daily'
     | '/onboarding'
     | '/pricing'
     | '/profile'
     | '/reset-password'
     | '/review'
+    | '/story'
     | '/tutor'
     | '/utilities'
     | '/admin/sentences'
@@ -245,11 +265,13 @@ export interface FileRouteTypes {
     | '/'
     | '/auth'
     | '/conjugation'
+    | '/daily'
     | '/onboarding'
     | '/pricing'
     | '/profile'
     | '/reset-password'
     | '/review'
+    | '/story'
     | '/tutor'
     | '/utilities'
     | '/admin/sentences'
@@ -269,11 +291,13 @@ export interface FileRouteTypes {
     | '/auth'
     | '/conjugation'
     | '/custom'
+    | '/daily'
     | '/onboarding'
     | '/pricing'
     | '/profile'
     | '/reset-password'
     | '/review'
+    | '/story'
     | '/tutor'
     | '/utilities'
     | '/admin/sentences'
@@ -294,11 +318,13 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRoute
   ConjugationRoute: typeof ConjugationRoute
   CustomRoute: typeof CustomRouteWithChildren
+  DailyRoute: typeof DailyRoute
   OnboardingRoute: typeof OnboardingRoute
   PricingRoute: typeof PricingRoute
   ProfileRoute: typeof ProfileRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
   ReviewRoute: typeof ReviewRoute
+  StoryRoute: typeof StoryRoute
   TutorRoute: typeof TutorRoute
   UtilitiesRoute: typeof UtilitiesRoute
   LegalPrivacyRoute: typeof LegalPrivacyRoute
@@ -323,6 +349,13 @@ declare module '@tanstack/react-router' {
       path: '/tutor'
       fullPath: '/tutor'
       preLoaderRoute: typeof TutorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/story': {
+      id: '/story'
+      path: '/story'
+      fullPath: '/story'
+      preLoaderRoute: typeof StoryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/review': {
@@ -358,6 +391,13 @@ declare module '@tanstack/react-router' {
       path: '/onboarding'
       fullPath: '/onboarding'
       preLoaderRoute: typeof OnboardingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/daily': {
+      id: '/daily'
+      path: '/daily'
+      fullPath: '/daily'
+      preLoaderRoute: typeof DailyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/custom': {
@@ -499,11 +539,13 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRoute,
   ConjugationRoute: ConjugationRoute,
   CustomRoute: CustomRouteWithChildren,
+  DailyRoute: DailyRoute,
   OnboardingRoute: OnboardingRoute,
   PricingRoute: PricingRoute,
   ProfileRoute: ProfileRoute,
   ResetPasswordRoute: ResetPasswordRoute,
   ReviewRoute: ReviewRoute,
+  StoryRoute: StoryRoute,
   TutorRoute: TutorRoute,
   UtilitiesRoute: UtilitiesRoute,
   LegalPrivacyRoute: LegalPrivacyRoute,
