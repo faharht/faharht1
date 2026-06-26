@@ -15,6 +15,8 @@ import { BottomNav } from "../components/BottomNav";
 import { CloudSync } from "../hooks/useCloudSync";
 import { PaymentTestModeBanner } from "../components/PaymentTestModeBanner";
 import { SiteFooter } from "../components/SiteFooter";
+import { ThemeToggle } from "../components/ThemeToggle";
+
 
 
 
@@ -112,11 +114,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   errorComponent: ErrorComponent,
 });
 
+const themeInitScript = `(function(){try{var t=localStorage.getItem('rf-theme');if(t==='dark'){document.documentElement.classList.add('dark');}}catch(e){}})();`;
+
 function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
         <HeadContent />
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body>
         {children}
@@ -125,6 +130,7 @@ function RootShell({ children }: { children: ReactNode }) {
     </html>
   );
 }
+
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
@@ -135,8 +141,10 @@ function RootComponent() {
       <PaymentTestModeBanner />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+      <ThemeToggle className="fixed right-3 top-3 z-40 shadow-lg" />
       <SiteFooter />
       <BottomNav />
+
     </QueryClientProvider>
 
   );
