@@ -19,6 +19,7 @@ import {
   Star,
   Volume2,
   X,
+  Keyboard,
 } from "lucide-react";
 import { findList, TONE_CLASSES, LEVELS, type ListMeta } from "@/lib/trainer/levels";
 import { sentencesQueryOptions, isCustomListId, customSetIdFromListId, customSetQueryOptions } from "@/lib/trainer/sentences";
@@ -350,6 +351,15 @@ function ListPage() {
             </button>
             <span className="text-sm font-semibold text-slate-900">{t("list.rep", { n: settings.reps })}</span>
             <div className="ml-auto flex flex-wrap items-center gap-2">
+              <Link
+                to="/typing/$listId"
+                params={{ listId: meta.id }}
+                className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-blue-100 text-blue-600 transition hover:bg-blue-200"
+                aria-label="Typing drill"
+                title="Typing drill"
+              >
+                <Keyboard className="h-4 w-4" />
+              </Link>
               <IconBtn
                 label={t("list.listenMode")}
                 active={listenMode}

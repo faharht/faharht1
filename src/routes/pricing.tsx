@@ -1,8 +1,6 @@
-import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
+import { createFileRoute, useRouter } from "@tanstack/react-router";
 import { ArrowLeft, Check, Crown, Sparkles } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
-import { useServerFn } from "@tanstack/react-start";
-import { getMyUsage } from "@/lib/customSets.functions";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { usePaddleCheckout } from "@/hooks/usePaddleCheckout";
@@ -22,8 +20,6 @@ export const Route = createFileRoute("/pricing")({
 
 function PricingPage() {
   const router = useRouter();
-  const usageFn = useServerFn(getMyUsage);
-  const usage = useQuery({ queryKey: ["customUsage"], queryFn: () => usageFn() });
   const { data: user = null } = useQuery(sessionUserQueryOptions);
   const sub = useSubscription(user?.id ?? null);
   const { openCheckout, loading } = usePaddleCheckout();
