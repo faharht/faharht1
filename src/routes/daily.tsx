@@ -46,7 +46,7 @@ function DailyPage() {
   const today = todayKey();
   const seed = seedFromDate(today);
   const settings = useTrainerStore((s) => s.settings);
-  const lang = (settings.uiLang ?? "en") as "en" | "pl" | "de";
+  const lang = (settings.appLanguage ?? "en") as "en" | "pl" | "de";
   const speechReady = hasSpeech();
 
   const { data: pool, isLoading } = useQuery({
