@@ -15,6 +15,8 @@ import { BottomNav } from "../components/BottomNav";
 import { CloudSync } from "../hooks/useCloudSync";
 import { PaymentTestModeBanner } from "../components/PaymentTestModeBanner";
 import { SiteFooter } from "../components/SiteFooter";
+import { ThemeToggle } from "../components/ThemeToggle";
+
 
 
 
