@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown } from "lucide-react";
+import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown, Brain, MessagesSquare } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
@@ -110,6 +110,25 @@ function HomePage() {
               onClick={() => setView("sets")}
             />
             <MenuLinkCard
+              icon={Brain}
+              title="Daily review"
+              description="Spaced-repetition of what you've practiced"
+              to="/review"
+            />
+            <MenuLinkCard
+              icon={MessagesSquare}
+              title="AI tutor"
+              description="Chat with a Russian tutor at your level"
+              to="/tutor"
+              proTag
+            />
+            <MenuLinkCard
+              icon={BookOpen}
+              title="Verb conjugation"
+              description="Conjugate any Russian verb instantly"
+              to="/conjugation"
+            />
+            <MenuLinkCard
               icon={Sparkles}
               title="My sets"
               description="Create your own sets — any language → Russian"
@@ -205,11 +224,13 @@ function MenuLinkCard({
   title,
   description,
   to,
+  proTag,
 }: {
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
-  to: "/custom" | "/pricing";
+  to: "/custom" | "/pricing" | "/review" | "/tutor" | "/conjugation";
+  proTag?: boolean;
 }) {
   return (
     <Link
@@ -220,7 +241,14 @@ function MenuLinkCard({
         <Icon className="h-5 w-5" />
       </span>
       <div className="min-w-0 flex-1">
-        <div className="text-base font-bold text-slate-900">{title}</div>
+        <div className="flex items-center gap-2">
+          <div className="text-base font-bold text-slate-900">{title}</div>
+          {proTag && (
+            <span className="rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-1.5 py-0.5 text-[9px] font-bold text-white">
+              PRO
+            </span>
+          )}
+        </div>
         <p className="mt-0.5 text-xs text-slate-500">{description}</p>
       </div>
       <ChevronRight className="h-5 w-5 text-slate-400" />

@@ -50,9 +50,12 @@ function PricingPage() {
 
 
   const features = [
-    "Unlimited custom sets",
-    "Unlimited sentence translations",
+    "Unlimited custom sets and translations",
+    "AI tutor chat (Russian conversation)",
+    "Unlimited typing drills & spaced-repetition reviews",
+    "Unlimited verb conjugation lookups",
     "All current and future sentence packs",
+    "Pro badge & profile decorations",
     "Priority support",
   ];
 
@@ -82,11 +85,35 @@ function PricingPage() {
       </header>
 
       <main className="mx-auto -mt-6 max-w-2xl space-y-4 px-4">
-        {usage.data?.isPro && (
+        {isPro && (
           <div className="rounded-2xl bg-amber-50 px-4 py-3 text-sm font-semibold text-amber-900">
             <Crown className="mr-1 inline h-4 w-4" /> You're on Pro. Thanks for supporting the app!
           </div>
         )}
+
+        {/* Yearly first — best value */}
+        <div className="relative rounded-3xl bg-gradient-to-br from-amber-400 to-orange-500 p-5 text-white shadow-xl ring-4 ring-amber-200/60">
+          <span className="absolute -top-3 left-5 rounded-full bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-orange-600 shadow">
+            Save 44% · Most popular
+          </span>
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/90">
+            <Crown className="h-4 w-4" /> Yearly
+          </div>
+          <div className="mt-2 flex items-baseline gap-2">
+            <span className="text-4xl font-bold">$19.99</span>
+            <span className="text-sm text-white/85">/year</span>
+            <span className="ml-1 rounded-full bg-white/25 px-2 py-0.5 text-[10px] font-bold">$1.67/mo</span>
+          </div>
+          <p className="mt-1 text-xs text-white/85">Billed once a year. Cancel anytime.</p>
+          <Button
+            variant="secondary"
+            className="mt-4 w-full bg-white py-6 text-base font-bold text-orange-700 hover:bg-white/90"
+            onClick={() => handleCheckout("yearly")}
+            disabled={isPro || loading}
+          >
+            {activePriceId === "pro_yearly" ? "Current plan" : isPro ? "Switch plan via billing portal" : "Choose yearly"}
+          </Button>
+        </div>
 
         <div className="rounded-3xl bg-white p-5 shadow-md ring-1 ring-slate-200">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500">
@@ -98,6 +125,7 @@ function PricingPage() {
           </div>
           <Button
             className="mt-4 w-full"
+            variant="outline"
             onClick={() => handleCheckout("monthly")}
             disabled={isPro || loading}
           >
@@ -105,30 +133,8 @@ function PricingPage() {
           </Button>
         </div>
 
-        <div className="relative rounded-3xl bg-gradient-to-br from-amber-400 to-orange-500 p-5 text-white shadow-xl">
-          <span className="absolute -top-3 left-5 rounded-full bg-white px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-orange-600 shadow">
-            Best value
-          </span>
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/90">
-            <Crown className="h-4 w-4" /> Yearly
-          </div>
-          <div className="mt-2 flex items-baseline gap-1">
-            <span className="text-3xl font-bold">$19.99</span>
-            <span className="text-sm text-white/85">/year</span>
-          </div>
-          <p className="mt-1 text-xs text-white/80">≈ $1.67/month · save 44%</p>
-          <Button
-            variant="secondary"
-            className="mt-4 w-full bg-white text-orange-700 hover:bg-white/90"
-            onClick={() => handleCheckout("yearly")}
-            disabled={isPro || loading}
-          >
-            {activePriceId === "pro_yearly" ? "Current plan" : isPro ? "Switch plan via billing portal" : "Choose yearly"}
-          </Button>
-        </div>
-
         <div className="rounded-2xl bg-white p-5 shadow-sm">
-          <h2 className="text-sm font-bold text-slate-900">What's included</h2>
+          <h2 className="text-sm font-bold text-slate-900">Everything in Pro</h2>
           <ul className="mt-3 space-y-2">
             {features.map((f) => (
               <li key={f} className="flex items-start gap-2 text-sm text-slate-700">
@@ -140,7 +146,7 @@ function PricingPage() {
         </div>
 
         <p className="text-center text-[11px] text-slate-400">
-          Free plan: 1 custom set · 5 sentence translations per day.
+          Free plan: 1 custom set · 5 sentence translations per day · 10 daily reviews · 5 typing drills per set.
         </p>
       </main>
     </div>
