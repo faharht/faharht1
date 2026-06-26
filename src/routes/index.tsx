@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown, Brain, MessagesSquare } from "lucide-react";
+import { ChevronDown, BookOpen, Layers, ListChecks, ChevronRight, Bell, Flame, Rocket, Sparkles, Crown, Brain, MessagesSquare, BookText } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
@@ -116,6 +116,19 @@ function HomePage() {
               to="/review"
             />
             <MenuLinkCard
+              icon={Flame}
+              title="Daily challenge"
+              description="10 fresh sentences, every day"
+              to="/daily"
+            />
+            <MenuLinkCard
+              icon={BookText}
+              title="Story mode"
+              description="AI-generated mini-stories at your level"
+              to="/story"
+            />
+
+            <MenuLinkCard
               icon={MessagesSquare}
               title="AI tutor"
               description="Chat with a Russian tutor at your level"
@@ -229,7 +242,7 @@ function MenuLinkCard({
   icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
-  to: "/custom" | "/pricing" | "/review" | "/tutor" | "/conjugation";
+  to: "/custom" | "/pricing" | "/review" | "/tutor" | "/conjugation" | "/daily" | "/story";
   proTag?: boolean;
 }) {
   return (
