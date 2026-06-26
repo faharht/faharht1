@@ -26,6 +26,7 @@ import { sentencesQueryOptions, isCustomListId, customSetIdFromListId, customSet
 import { useQuery } from "@tanstack/react-query";
 import { sessionUserQueryOptions } from "@/lib/userQueries";
 import { StreakStrip } from "@/components/StreakStrip";
+import { WordPopover } from "@/components/WordPopover";
 
 import { summarizeList, TEXT_SIZE_CLASS, useTrainerStore, todayKey } from "@/lib/trainer/store";
 import { hasSpeech, speak, stopSpeaking } from "@/lib/trainer/speech";
