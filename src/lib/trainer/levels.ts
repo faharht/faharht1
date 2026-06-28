@@ -147,6 +147,18 @@ export const SENTENCE_SETS: ListMeta[] = [
     tone: "violet",
   },
   {
+    id: "food-part-1",
+    level: "A2",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Food & Cooking", part: 1 },
+    descriptionKey: "part.A2.2",
+    title: "Food & Cooking",
+    description: "From kitchen to table — ingredients, recipes, flavors and everyday meals at home.",
+    icon: Salad,
+    tone: "emerald",
+  },
+  {
     id: "orderingfood-part-1",
     level: "A2",
     part: 0,
