@@ -1,7 +1,7 @@
 export type LevelId = "A1" | "A2" | "B1" | "B2";
 
 import type { StringKey } from "@/lib/i18n/strings";
-import { Briefcase, Plane, UtensilsCrossed, Palette, type LucideIcon } from "lucide-react";
+import { Briefcase, Plane, UtensilsCrossed, Palette, Salad, type LucideIcon } from "lucide-react";
 
 export type SetTone = "amber" | "violet" | "emerald" | "sky" | "rose";
 
@@ -145,6 +145,18 @@ export const SENTENCE_SETS: ListMeta[] = [
     description: "Workplace Russian — interviews, meetings, emails, deadlines and talking shop with colleagues.",
     icon: Briefcase,
     tone: "violet",
+  },
+  {
+    id: "food-part-1",
+    level: "A2",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Food & Cooking", part: 1 },
+    descriptionKey: "part.A2.2",
+    title: "Food & Cooking",
+    description: "From kitchen to table — ingredients, recipes, flavors and everyday meals at home.",
+    icon: Salad,
+    tone: "emerald",
   },
   {
     id: "orderingfood-part-1",
