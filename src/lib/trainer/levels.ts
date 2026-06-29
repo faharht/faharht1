@@ -1,7 +1,7 @@
 export type LevelId = "A1" | "A2" | "B1" | "B2";
 
 import type { StringKey } from "@/lib/i18n/strings";
-import { Briefcase, Plane, UtensilsCrossed, Palette, Salad, type LucideIcon } from "lucide-react";
+import { Briefcase, Plane, UtensilsCrossed, Palette, Salad, BookOpen, type LucideIcon } from "lucide-react";
 
 export type SetTone = "amber" | "violet" | "emerald" | "sky" | "rose";
 
@@ -157,6 +157,18 @@ export const SENTENCE_SETS: ListMeta[] = [
     description: "From kitchen to table — ingredients, recipes, flavors and everyday meals at home.",
     icon: Salad,
     tone: "emerald",
+  },
+  {
+    id: "literature-part-1",
+    level: "B1",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Literature", part: 1 },
+    descriptionKey: "part.B1.1",
+    title: "Literature",
+    description: "Russian books, poets and reading life — Pushkin to modern novels, libraries, genres and what makes a story stick.",
+    icon: BookOpen,
+    tone: "violet",
   },
   {
     id: "orderingfood-part-1",
