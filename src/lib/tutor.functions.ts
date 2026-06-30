@@ -94,6 +94,38 @@ export const translateWord = createServerFn({ method: "POST" })
 const ConjInput = z.object({
   infinitive: z.string().min(1).max(60),
 });
+
+const SUPPORTED_LANGS = [
+  "auto", "en", "ru", "de", "fr", "es", "it", "pt", "nl", "pl",
+  "uk", "be", "bg", "cs", "sk", "sr", "hr", "tr", "ar", "zh", "ja", "ko",
+] as const;
+
+const TranslateInput = z.object({
+  text: z.string().trim().min(1).max(80),
+  source: z.enum(SUPPORTED_LANGS).default("auto"),
+});
+
+export const translateToRussian = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((i: unknown) => TranslateInput.parse(i))
+  .handler(async ({ data }) => {
+    const url = `https://ru-api-free.onrender.com/translate?text=${encodeURIComponent(data.text)}&source=${data.source}&target=ru`;
+    const res = await fetch(url, { headers: { accept: "application/json" } });
+    if (!res.ok) throw new Error(`Translate failed: ${res.status}`);
+    const json = (await res.json()) as {
+      verb?: string;
+      translation?: string;
+      aspect?: string;
+      tenses?: {
+        present?: Record<string, string>;
+        past?: Record<string, string>;
+        future?: Record<string, string>;
+      };
+    };
+    return json;
+  });
+
+
 const ConjResult = z.object({
   infinitive: z.string(),
   aspect: z.string(),
