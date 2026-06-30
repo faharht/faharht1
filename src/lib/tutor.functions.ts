@@ -113,40 +113,45 @@ export const conjugateVerb = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
   .inputValidator((i: unknown) => ConjInput.parse(i))
   .handler(async ({ data }) => {
-    const sys = `Conjugate the given Russian verb. Return JSON with: infinitive, aspect (imperfective|perfective), present (я/ты/он/мы/вы/они) — for perfective verbs, fill present with the simple-future forms; past (m/f/n/pl); imperative (sg/pl). Use stress marks (combining acute U+0301) on stressed vowels.`;
-    const raw = await callAI(sys, `Verb: ${data.infinitive}`, {
-      type: "object",
-      additionalProperties: false,
-      properties: {
-        infinitive: { type: "string" },
-        aspect: { type: "string" },
+    const { conjugate: localConjugate } = await import("@/lib/conjugator");
+    const verb = data.infinitive.trim().toLowerCase();
+    const url = `https://ru-api-free.onrender.com/conjugate?verb=${encodeURIComponent(verb)}`;
+    let api: any = null;
+    try {
+      const res = await fetch(url, { headers: { accept: "application/json" } });
+      if (res.ok) api = await res.json();
+    } catch {
+      // fall through to local fallback
+    }
+
+    if (api && api.tenses) {
+      const t = api.tenses;
+      const aspect: "imperfective" | "perfective" =
+        api.aspect === "perfective" ? "perfective" : "imperfective";
+      const presentSrc = aspect === "perfective" ? t.present : t.present;
+      const local = localConjugate(verb);
+      return ConjResult.parse({
+        infinitive: api.verb ?? verb,
+        aspect,
         present: {
-          type: "object",
-          additionalProperties: false,
-          properties: {
-            ya: { type: "string" },
-            ty: { type: "string" },
-            on: { type: "string" },
-            my: { type: "string" },
-            vy: { type: "string" },
-            oni: { type: "string" },
-          },
-          required: ["ya", "ty", "on", "my", "vy", "oni"],
+          ya: presentSrc?.["я"] ?? local.present.ya,
+          ty: presentSrc?.["ты"] ?? local.present.ty,
+          on: presentSrc?.["он/она/оно"] ?? presentSrc?.["он"] ?? local.present.on,
+          my: presentSrc?.["мы"] ?? local.present.my,
+          vy: presentSrc?.["вы"] ?? local.present.vy,
+          oni: presentSrc?.["они"] ?? local.present.oni,
         },
         past: {
-          type: "object",
-          additionalProperties: false,
-          properties: { m: { type: "string" }, f: { type: "string" }, n: { type: "string" }, pl: { type: "string" } },
-          required: ["m", "f", "n", "pl"],
+          m: t.past?.["мужской"] ?? local.past.m,
+          f: t.past?.["женский"] ?? local.past.f,
+          n: t.past?.["средний"] ?? local.past.n,
+          pl: t.past?.["множественное"] ?? local.past.pl,
         },
-        imperative: {
-          type: "object",
-          additionalProperties: false,
-          properties: { sg: { type: "string" }, pl: { type: "string" } },
-          required: ["sg", "pl"],
-        },
-      },
-      required: ["infinitive", "aspect", "present", "past", "imperative"],
-    });
-    return ConjResult.parse(JSON.parse(raw));
+        imperative: { sg: local.imperative.sg, pl: local.imperative.pl },
+      });
+    }
+
+    // Fallback: fully local rule-based conjugator (no AI credits used).
+    const local = localConjugate(verb);
+    return ConjResult.parse(local);
   });
