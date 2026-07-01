@@ -147,6 +147,18 @@ export const SENTENCE_SETS: ListMeta[] = [
     tone: "violet",
   },
   {
+    id: "cars-part-1",
+    level: "A2",
+    part: 1,
+    titleKey: "list.levelPartTitle",
+    titleVars: { level: "Cars", part: 1 },
+    descriptionKey: "part.A2.3",
+    title: "Cars",
+    description: "Life on four wheels — buying, driving, repairs, road trips and everything in between.",
+    icon: Car,
+    tone: "amber",
+  },
+  {
     id: "food-part-1",
     level: "A2",
     part: 1,
